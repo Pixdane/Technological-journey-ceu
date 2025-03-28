@@ -7613,11 +7613,6 @@ hash = "defd8d7b171bb90e9ae3cc60f8c5e863346f74f7c43d90fd2a1519cc9b0e7f5f"
 metafile = true
 
 [[files]]
-file = "mods/connected-glass.pw.toml"
-hash = "3d0ae3528466b1be5b7ca9fd945d7ebed32b0b12f2b618649f999738d0380ff6"
-metafile = true
-
-[[files]]
 file = "mods/controlling.pw.toml"
 hash = "ac423dbdf07ee4c91d05fdebfd3e0849ae9602925a39cac3dac0a35fd742c290"
 metafile = true
@@ -8095,6 +8090,11 @@ metafile = true
 [[files]]
 file = "mods/supercritical.pw.toml"
 hash = "9cb547deb45c6bf884e8d9172ef7266e34ed47a74079b1efd8e606cba20af569"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-core-lib.pw.toml"
+hash = "dd3da3ca6c83e6994a0e7e3df3403f8b52c0a802b96ba4091ec2d7ea0a83b114"
 metafile = true
 
 [[files]]
