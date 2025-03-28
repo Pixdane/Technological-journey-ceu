@@ -1,0 +1,13 @@
+name = "Resizing Potion"
+filename = "resizingpotion-2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "11fb91d43ee133f175dd07bccba40a61b218c14d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2892807
+project-id = 307853

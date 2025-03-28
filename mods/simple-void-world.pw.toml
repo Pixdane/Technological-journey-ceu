@@ -1,0 +1,13 @@
+name = "Simple Void World"
+filename = "Simple-Void-World-1.12-1.2.0.9-universal.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9e980ac6dd6945c356c136fa6fc09fd7047ccdbb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2498115
+project-id = 254466

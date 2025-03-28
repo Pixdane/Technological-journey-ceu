@@ -1,0 +1,13 @@
+name = "Mob Grinding Utils"
+filename = "MobGrindingUtils-0.3.13.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3877e973f9363878956ac43f51875d9e82b1f499"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2656683
+project-id = 254241

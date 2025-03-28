@@ -1,0 +1,13 @@
+name = "Erdbeerbaer's GUI Library"
+filename = "eguilib-0.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a89857de7535072dd3e04a9b8b78873496a52d65"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2812291
+project-id = 332522

@@ -1,0 +1,13 @@
+name = "Dimensional Edibles"
+filename = "DimensionalEdibles-1.12.2-1.3.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9f83b464dd3217a8b48f50a091a0a3657bb751ad"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3195653
+project-id = 280570

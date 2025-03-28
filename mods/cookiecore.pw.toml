@@ -1,0 +1,13 @@
+name = "CookieCore"
+filename = "cookiecore-1.12-2.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e6be11e38cb8d56d5c5e077caf8f23ef7f1f07e4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2525823
+project-id = 222908

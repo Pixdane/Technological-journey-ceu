@@ -1,0 +1,13 @@
+name = "MTLib"
+filename = "MTLib-3.0.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a4625a61c9ef53412e0e467d23f25c5543658677"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2684561
+project-id = 253211

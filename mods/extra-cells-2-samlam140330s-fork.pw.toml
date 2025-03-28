@@ -1,0 +1,13 @@
+name = "ExtraCells2 - SamLam140330's Fork"
+filename = "ExtraCells-1.12.2-2.6.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8fded28c2166f208f009e486749a2e455c755222"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3329212
+project-id = 485225

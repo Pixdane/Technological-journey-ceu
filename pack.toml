@@ -1,0 +1,13 @@
+name = "Technological Journey"
+author = "Technological Journey Dev team"
+version = "1.2.3"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "851cf744cf84ef313b80ede93f7e33b547c47158e89cf53732d17c22b1b8fcfc"
+
+[versions]
+forge = "14.23.5.2860"
+minecraft = "1.12.2"

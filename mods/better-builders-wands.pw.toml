@@ -1,0 +1,13 @@
+name = "Better Builder's Wands"
+filename = "BetterBuildersWands-1.12-0.11.1.245+69d0d70.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b90b6fdb6efd15cb376303da90a6632534e642ff"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2443194
+project-id = 238403

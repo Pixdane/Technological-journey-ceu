@@ -1,0 +1,13 @@
+name = "BiblioCraft"
+filename = "BiblioCraft[v2.4.5][MC1.12.2].jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "74d9f70c5fead2c17054953fae26af8d9fb7fd84"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2574880
+project-id = 228027

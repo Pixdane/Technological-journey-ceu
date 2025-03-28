@@ -1,0 +1,13 @@
+name = "Ender Crop"
+filename = "endercrop-1.12.2-1.6.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "266a2b3337dd81e6c9753155b1e2bb208cd435d1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2588335
+project-id = 242269

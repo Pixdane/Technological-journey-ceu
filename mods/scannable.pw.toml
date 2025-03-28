@@ -1,0 +1,13 @@
+name = "Scannable"
+filename = "Scannable-MC1.12.2-1.6.3.24.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b10db32099548a6297f0bd883159b7ded124392c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2662364
+project-id = 266784

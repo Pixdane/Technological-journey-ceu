@@ -1,0 +1,13 @@
+name = "MixinBooter"
+filename = "!mixinbooter-9.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "383e01d66dc383a937370575e11bfc0b9daba74c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5640857
+project-id = 419286

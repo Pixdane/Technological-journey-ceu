@@ -1,0 +1,13 @@
+name = "LibNine"
+filename = "libnine-1.12.2-1.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e2e3627d400b45a81156473572423c7c1cea0e3c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3073839
+project-id = 322344

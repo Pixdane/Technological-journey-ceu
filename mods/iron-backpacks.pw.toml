@@ -1,0 +1,13 @@
+name = "Iron Backpacks"
+filename = "IronBackpacks-1.12.2-3.0.8-12.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "50758105dabe8f0d4c6e311e14ad2c1f5673d2cd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2564573
+project-id = 227049

@@ -1,0 +1,13 @@
+name = "Extra CPUs"
+filename = "extracpus-1.12.2-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ee5d66ac1d5f6eb2f248182e74b6e071aeac71e3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3061905
+project-id = 408089

@@ -1,0 +1,13 @@
+name = "Gregicality TJ Fork"
+filename = "gregicality_tj_fork-0.26.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bd8253dd2ef7499044eb87086313ab332abea995"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5721337
+project-id = 607023

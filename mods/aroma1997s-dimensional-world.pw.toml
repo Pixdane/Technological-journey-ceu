@@ -1,0 +1,13 @@
+name = "Aroma1997s Dimensional World"
+filename = "Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2153aeb98ad9b6d169baa73e2d1587fef7da078a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2672438
+project-id = 60092
