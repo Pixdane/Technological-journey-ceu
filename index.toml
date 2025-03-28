@@ -1,22 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "LICENSE"
-hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
-
-[[files]]
-file = "Pack Progression.txt"
-hash = "7602c6a4767c1412ff9320ff7db007ab3dbd5154aee7111f4e7dd0506e3d6a2e"
-
-[[files]]
-file = "Pull requests template"
-hash = "ae13ccfb4e3341b271ce70aa0cf31d88545587f7f960b4aafba20485511a5a6e"
-
-[[files]]
-file = "README.md"
-hash = "46fab840321fa7466e22ea1535f05a88bec1e443eee7e5533ee3979650b674f9"
-
-[[files]]
 file = "config/AE2Stuff/readme.txt"
 hash = "f86901d1cbf94aa31daff7fd7898391008892b2a4c0d4c6983d491427184d412"
 
@@ -30,7 +14,7 @@ hash = "e0d727f37a1f46702b200f34cd069f3ee75ca0d4420bb68060be39a701e78f40"
 
 [[files]]
 file = "config/AppliedEnergistics2/CustomRecipes.cfg"
-hash = "e0dce64d236bf97fdc9a4262625801c4a917adcff6d784b71a450bc15b5faf41"
+hash = "175051d4a58e1795b6a84aaba0fe5f3ff462a0dbeed0512a716c88d554233df6"
 
 [[files]]
 file = "config/AppliedEnergistics2/Facades.cfg"
@@ -46,7 +30,7 @@ hash = "31876dd2fde7f733763d50fb41a4965051f756c8e0f91d59e40149f4d8674da0"
 
 [[files]]
 file = "config/AppliedEnergistics2/items.csv"
-hash = "22ce8cc7851810a4204ee329d11a3dd0ea516c97085e598667d9784334ae993b"
+hash = "bc8ad1a491f09db64f9daf0cfd155bd3a95b64b303162d5c0177b4261ca9a882"
 
 [[files]]
 file = "config/Building Gadgets.cfg"
@@ -69,12 +53,16 @@ file = "config/EffortlessBuilding.cfg"
 hash = "726a614fe75fea835eb130ec6c421e3e5d7521e1dc788a1a77e0af59d981483c"
 
 [[files]]
+file = "config/HadEnoughCharacters.cfg"
+hash = "e71b9109e3144defd4d7f1891c88be7d6117a1163b308ab69d247788e39b2791"
+
+[[files]]
 file = "config/InvTweaks.cfg"
 hash = "7cc8a3e6d6c56b642c2db1a6db77e5a29ae27f0ee3e468c73ef3f63c22d29b8f"
 
 [[files]]
 file = "config/InvTweaks/InvTweaks.cfg"
-hash = "f41abc4f81be57d9d009bb5730f5b1dc592e335c9a4768593751505d6cb4810b"
+hash = "4b3ba1fe57bfb0ce3cbd224ca8883bb0789aa73287f18e3cc5d7f33fc2859774"
 
 [[files]]
 file = "config/InvTweaks/InvTweaksRules.txt"
@@ -99,6 +87,14 @@ hash = "b63870bb7b08cb7edb1189dd929ae802a8e7a6857ede3d92055038a5c617bb22"
 [[files]]
 file = "config/JustEnoughCalculation/main.cfg"
 hash = "9512e12d279050139653aeb6a429eb13745086691b156af47f73bd1d4bbbe98d"
+
+[[files]]
+file = "config/JustEnoughCalculation/record.json"
+hash = "f40ea8135c7a0f598d9548eba85c517d05d3244a94b806261f0521dada8d4a15"
+
+[[files]]
+file = "config/JustEnoughCharacters.cfg"
+hash = "399b8041ee2c9c610883cfd88990d5870689781b95fb6f44a289ae62bcc5000a"
 
 [[files]]
 file = "config/LogisticsPipes.cfg"
@@ -142,15 +138,11 @@ hash = "0fed1785116cb5ece8b57b3b980ad5557268cd6040c83c587880de921c699551"
 
 [[files]]
 file = "config/Universal Tweaks - Tweaks.cfg"
-hash = "e558ca6383150bae7ac738d47f9c27127f43223e9d2519366df8a91f8945ba52"
-
-[[files]]
-file = "config/UniversalTweaks.cfg"
-hash = "64efde7b0a0ec5efc73768cb7884576d14b6090de124b0a392f2da83420a2d65"
+hash = "0c3703db47fc8f8d7326f34ca39d98d090c23929937f5dedf95dc79f58e426e2"
 
 [[files]]
 file = "config/acronym/base/General.cfg"
-hash = "dcea5e0896357ec1cf6be3dfe3ad54d06a976a2c01f67db19d97db7b2612f206"
+hash = "284403fb8ca084de78658148274e65c8253e5b49f477aa9ca336bfd01fad2695"
 
 [[files]]
 file = "config/acronym/contenttweaker/General.cfg"
@@ -161,8 +153,16 @@ file = "config/acronym/material_system.cfg"
 hash = "d975cf66e17733bbb48c559adb304391869815222916a380d9650bbc8524a8f3"
 
 [[files]]
+file = "config/acronym/saved/material_parts_contenttweaker-original.json"
+hash = "048cd0b0ba393c6d1e1e909c9e743c9b31480581aee84807213898fc09b542f5"
+
+[[files]]
 file = "config/acronym/saved/material_parts_contenttweaker.json"
 hash = "048cd0b0ba393c6d1e1e909c9e743c9b31480581aee84807213898fc09b542f5"
+
+[[files]]
+file = "config/acronym/saved/saved_sub_blocks_contenttweaker-original.json"
+hash = "6dbeaef4200242c761dae69ea51495778792a70eadb0957375d7cd07652a3858"
 
 [[files]]
 file = "config/acronym/saved/saved_sub_blocks_contenttweaker.json"
@@ -242,7 +242,7 @@ hash = "840c79d3903103df81252402f70438b27768dec75e01bf9065baec73285237d8"
 
 [[files]]
 file = "config/apotheosis/enchantments.cfg"
-hash = "7110d6c61fd72dde9c2ebf4db6738c6c446f0be87c6748d3896e2785aa51fd5c"
+hash = "70705b702c02d9a556ab99b8100bf42bfb169703fecf3f72fda63b2d69b7c0ca"
 
 [[files]]
 file = "config/apotheosis/garden.cfg"
@@ -286,7 +286,7 @@ hash = "07806685335c9ccd337f80db9280c4f9dc58e9f82f41c033cbb211cb847a480a"
 
 [[files]]
 file = "config/astralsorcery/amulet_enchantments.cfg"
-hash = "c1012e23933c017993e3b924ed386f99c8add5aaf040e9ef56c501e1595d7402"
+hash = "bb967f9f5e2cc7540d4ba61b3e8602cdfccc9beb4e4599b82318721981e30741"
 
 [[files]]
 file = "config/astralsorcery/fluid_rarities.cfg"
@@ -342,7 +342,7 @@ hash = "3d74e093a74223ac74b24809a84f9322c0c08a8dfbc1387b823013391c3bd791"
 
 [[files]]
 file = "config/bibliocraft.cfg"
-hash = "8f3a09d911a6ac012046bf4a58e578a3cb4ffe1cae6c6b2bcc1b5500b9139e33"
+hash = "9bd300f347b74d05c38f0636227c67905071da08a23500c940f31a9ee3c5459c"
 
 [[files]]
 file = "config/bonsaitrees/settings.cfg"
@@ -442,7 +442,7 @@ hash = "01b882fa98bb4e22215cb24c2acc626c0752cf39abc9b2fe19f864cf511ceefb"
 
 [[files]]
 file = "config/chiselsandbits.cfg"
-hash = "9f294f32e4933627b7e86a2a4194de0b0d7bbb910379c9728764bca2180d8929"
+hash = "ec43c78d6e9604cd863052b9fd60cef3a814ed9ab59eaa552fb058ec37b74048"
 
 [[files]]
 file = "config/chiselsandbits_clipboard.cfg"
@@ -541,7 +541,7 @@ file = "config/cofh/world/config.cfg"
 hash = "2f8c2e67de4984a4c4a42c890e92697d197fe14fcaf72f9d32805f1c435d3074"
 
 [[files]]
-file = "config/compactmachines3/recipes/FirstArt.json"
+file = "config/compactmachines3/recipes/FirstArt.json.bak"
 hash = "db8dec09200f6592c009b961673361c1bf969287d0feaf53bfbe4c7259e97be6"
 
 [[files]]
@@ -578,7 +578,7 @@ hash = "f7c71c3da20edeb996b16f4d72709b55ba3f650eb91b0793a4dcefe495c200f3"
 
 [[files]]
 file = "config/endercore/endercore.cfg"
-hash = "936d7078f11ca08466ad13d375d84a2fad24d5121de5ac782e33b051baddbd68"
+hash = "a3d7ae1b5f1f8f58a1dd30d65901ed11fc627ae00e4e3c4aad9c2c944bba1c22"
 
 [[files]]
 file = "config/endercrop.cfg"
@@ -898,11 +898,15 @@ hash = "60833965965cf93994cb6b326dd883b9b17ac4a14312369e1811a56d274552ee"
 
 [[files]]
 file = "config/forge.cfg"
-hash = "218673384236215ef62a94c1cb8d530465cae5e55bec249c8371d4eeee813be1"
+hash = "baa83667244fd86cc880544a90da0e584f3423a581b436c3e0a523858c1cdefb"
 
 [[files]]
 file = "config/forgeChunkLoading.cfg"
 hash = "1778e14e92c6fa31ea59a4255d58e2ffdcdb729989edc983d80fa4a4e41caf73"
+
+[[files]]
+file = "config/forge_early.cfg"
+hash = "fd7624734d48d45ae536bf1b68cb27870e4826f36f6a329b0a145c5faceda184"
 
 [[files]]
 file = "config/forgivingvoid.cfg"
@@ -6353,6 +6357,10 @@ file = "config/ftbutilities.cfg"
 hash = "1501e35753413be54cbef43ef27cb6ffe62f5e04d44dd6579b1b4a98a48ed5b1"
 
 [[files]]
+file = "config/fugue.cfg"
+hash = "b6fa36d9b769a8ca173961c837d902e69ed99af9ccc50af5ca3f7c2a44ba7c1b"
+
+[[files]]
 file = "config/funkylocomotion.cfg"
 hash = "effbaf1fea40e9b4e07981a56ec6923c029cdecc04957cd88be1fc9430b2802c"
 
@@ -6361,8 +6369,16 @@ file = "config/future-mc/future-mc.cfg"
 hash = "330c6580eccb602db2759360e268b0ccc5a8932f88d69d2caf285182333d0259"
 
 [[files]]
+file = "config/gcyl.cfg"
+hash = "5f43a81de5107a9c60a5b2d87f58b505ea49a3717c9317ada010e728530ab65a"
+
+[[files]]
+file = "config/gcym.cfg"
+hash = "dc111bc6fc81ffc8d8672361d9004a6c6202a4d1c8c5862154f1fb4041df212a"
+
+[[files]]
 file = "config/gregicprobe.cfg"
-hash = "68db18dab7932b3c9c975740e1a38638015fbf0091671edc3b52c2d512f0586c"
+hash = "9b65d9431a3861a762b93d6438114c6d7cfeae719b7f69a8e8f591bf456cf16e"
 
 [[files]]
 file = "config/gregtech.cfg"
@@ -6371,6 +6387,10 @@ hash = "90ec04f521011c838813241eb672b70802adb513b97578dc7f2a50d4c0095147"
 [[files]]
 file = "config/gregtech/dimensions.json"
 hash = "ddc8752ba37c35ed34f9941b83475d25f9b0868032e9dc48a994643804dd041d"
+
+[[files]]
+file = "config/gregtech/forestry_integration.cfg"
+hash = "4a2a2d6322a6e85cfb251ac61fb87f6fa8e8313f57be51b964a6103d6fe63ed1"
 
 [[files]]
 file = "config/gregtech/ga_worldgen"
@@ -6403,6 +6423,18 @@ hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 [[files]]
 file = "config/gregtech/ga_worldgen_9"
 hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+
+[[files]]
+file = "config/gregtech/gregtech.cfg"
+hash = "3b7ce181d9e8be1c984ce2f3ae1db7bbd996289b5c415da77b2dafbab9771c71"
+
+[[files]]
+file = "config/gregtech/modules.cfg"
+hash = "d28cdf076ecba261f9c4426ae1c7154f15ccf736213c7a04f54ab4b872758717"
+
+[[files]]
+file = "config/gregtech/persistent_data.dat"
+hash = "d6ffa85758442cacb6fc5082c56511d41dd0ab7d04729e464326f0aff2684455"
 
 [[files]]
 file = "config/gregtech/worldgen/Coal asteroid/Heavy_oil_sphere.json"
@@ -6609,6 +6641,46 @@ file = "config/gregtech/worldgen/end/Uranium_vein_end.json"
 hash = "859e6be37bdb004c71c6f9a14c1370ac2af332d4d2b474a92897760a5d49f10c"
 
 [[files]]
+file = "config/gregtech/worldgen/fluid/nether/blood_deposit.json"
+hash = "fbdf35a94457d3fb0cc6c3ff34ce3b4448c993eb8b2a8f4a610bfd0b7919e197"
+
+[[files]]
+file = "config/gregtech/worldgen/fluid/nether/hydrogen_sulfide_deposit.json"
+hash = "a8e106489a47894067d173422ae7d81edc5302b2ae2d20a9f31c89c1d58f304d"
+
+[[files]]
+file = "config/gregtech/worldgen/fluid/nether/lava_deposit.json"
+hash = "91c9ab44eea57aa95f77421c2f61661bbfce6bdd4a15dbb8c8af5cb6267a6893"
+
+[[files]]
+file = "config/gregtech/worldgen/fluid/nether/natural_gas_deposit.json"
+hash = "15879d5eb0c0ed8c5fe739d430b946be97c01d9ff345c92b1df7b0584571bd2d"
+
+[[files]]
+file = "config/gregtech/worldgen/fluid/overworld/heavy_oil_deposit.json"
+hash = "044fc4eb14db1624bf7ab8388052b95bd4e0bbbce72595097a47a51626be553e"
+
+[[files]]
+file = "config/gregtech/worldgen/fluid/overworld/light_oil_deposit.json"
+hash = "2be6f41f9b9405cdc241c45d08f45cbfe73720308728f9a20f2a8051b2962bef"
+
+[[files]]
+file = "config/gregtech/worldgen/fluid/overworld/natural_gas_deposit.json"
+hash = "45ce5242111be3718c1ca07265d234ed84064b8b157789a6279189699887708f"
+
+[[files]]
+file = "config/gregtech/worldgen/fluid/overworld/oil_deposit.json"
+hash = "7e7ae9f8a0ddff5df642c40005a2caceaccde93fed4dba68c7419dbd9e2b5db7"
+
+[[files]]
+file = "config/gregtech/worldgen/fluid/overworld/raw_oil_deposit.json"
+hash = "069f9a65cee1d290b812dfea55a80d4e7e755624ea38e5e8b8ecdc0b4395b7d7"
+
+[[files]]
+file = "config/gregtech/worldgen/fluid/overworld/sea_water_deposit.json"
+hash = "aef38192979e2cedff7c10efd679ec930a9e517a6be51a50f126979a9631985d"
+
+[[files]]
 file = "config/gregtech/worldgen/gt_replaced"
 hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
@@ -6805,8 +6877,232 @@ file = "config/gregtech/worldgen/overworld/Uranium_vein2.json"
 hash = "0491ac07e0abc89fe4785e8f52897ab80a70097310c2b1354334cf3262308573"
 
 [[files]]
+file = "config/gregtech/worldgen/vein/end/Beryllium_vein.json"
+hash = "f2831990053ecc00162a6b24a5e4bdd1a12bfa4e5713646903ac5d9ccb9aae49"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/end/Manganese_vein.json"
+hash = "f45c5927d430c4a225c962f405d8383226ce7665522a457c45e5a93bae550840"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/end/Molybdenum_vein.json"
+hash = "61dca720bbfda17a9658c82c678f616196b854c74ed9af9fd137809ddf70925c"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/end/Tungstate_vein_end.json"
+hash = "378bba55f3b8be60b4a6f1ced51a044f0bde5c98c7da408cd1d79b33246c7918"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/end/Uranium_vein_end.json"
+hash = "453a00e9c5c045a0b979707fbde4620bd85c970619580f62c42927457b15cda6"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/nether/Chalcopyrite_vein.json"
+hash = "543e37f5452768e65127e4cf92f672a6ff5dbe7cb05895e1648f5594d34d0afe"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/nether/Iron_vein.json"
+hash = "a9e46ab4222523e991d6ea373d1eaf238d3983e02b80de7ccd43df267e18ccc1"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/nether/Magnetite_vein_nether.json"
+hash = "2d2ba4f9585102686f43b0c150d522136cb321977d71e96292c4213da225e1d8"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/nether/Netherquartz_vein.json"
+hash = "77514fd6e4257c61ed379fe7cb0430eb870c9269657a37065510a3fa40c771b9"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/nether/Nickel_vein.json"
+hash = "716d6f965567ec34a823b396ad3d17647086824eab45262288593a23ef0e2ae1"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/nether/Precious_vein.json"
+hash = "32f3e3536419e923657cd590468052081e597a6282c2412cc29a3fee255b8ebd"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/nether/Redstone_vein.json"
+hash = "5f9efc427a2ef28906883fb37c7be00904fe7cdabb29e04cee7519a9499269d8"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/nether/Sulfur_vein2.json"
+hash = "72dcdd1376f78c8d896020b481e62dd8329651081618b0e1986aacbbdeb59f0c"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/nether/Tetrahedrite_vein.json"
+hash = "6f4e1cc12957627d9535bb5a2a0cb26e0b57b5498d2951715101eb7cf128d0c6"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/nether/Topaz_vein.json"
+hash = "83953f7f68f649876913ca48212e2d94060c0f7470052251c5afaf4f9b4d06cc"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/nether/Zircon_vein.json"
+hash = "8d3dbdf1f3e88c4c98f10c99ba469396b1fdaa181c18ddef0049f443beb5168d"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/Aluminium_vein.json"
+hash = "bd853b4ddeb5967681bb099a0e6f25ba051bfdae1315fa5e18d1bb9c50d56790"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/Basaltic_mineral_vein.json"
+hash = "ee7644949629f55d63a80f0a2887ce7da4cd56607373b188b57863748f9cdee6"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/Bornite_vein.json"
+hash = "83dec0b393bd1af5dff5c0f44f211f672c1fd3edb60151536a8add997568d20c"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/Cassiterite_vein.json"
+hash = "bbf829e5801eeba57ab7d99620a3450393f608fe935c9240625f8a160f7ce9e8"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/Coal_vein.json"
+hash = "481bd318c36f90f43e52f8d700a5055bd851aa1e4996cfcd0fcd4f894674750f"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/Dolomite_vein.json"
+hash = "d1e317ea01ad5e3579ac222cb4089b6d5dc1ab4b4017f4dc2b2f2b63c86e1f1a"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/Kaolinite_vein.json"
+hash = "e13ed80972ea5f860599cee3c7e045ae82c5abacc3438cf8e5f0845e7cb6cb3a"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/Kyanite_vein.json"
+hash = "c293c80d6498ceceb6b52ab7e18b9cc5523184a6c6a3d66dbb6a30cc32d31f5e"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/Lapis_vein.json"
+hash = "b49410025dad9f62c82b649e2aaa6566ea55df1eac352bff58c3dc3853abb603"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/Light_oil_sphere.json"
+hash = "e83ecbed5b6306e13f24e9e8269b27cb49222bf48e52f24c2d1f18bee0d2bcab"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/Lignitecoal_vein.json"
+hash = "a273417181876e459c3654f8eb2f4162d3de7f9b864cacaccf779c0b682dfc54"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/Malachite_vein.json"
+hash = "0fd5e96a9c9bf5b5fa751406d13b4778695df3c78c729e753d712577113781c7"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/Olivine_vein2.json"
+hash = "24334a76a9f1f22b08116f55efb748c9589f370796916b333a1e7f8ad7321262"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/Quartz_vein.json"
+hash = "85cac371e14f87b8ec4c326621349efd00c997714d3ae03e1d80483462abb6f4"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/Soapstone_vein.json"
+hash = "2dd3a948442dd579172fc12c753a1a66649dfe5fe99eefb09e72cc4a63f44a55"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/Tenorite_vein.json"
+hash = "f54555b35d1197cd863b2e9258ef85780befda91d9ed2bf9ddc397d839591cd2"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/Tetrahedrite_vein.json"
+hash = "26556e6711b7f757d254a6089a0d3da9cc8d218fdfa5a5643a1832ce2c3b581e"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/Tin_vein.json"
+hash = "3f2799114d6ff7cb93aedd0a7b63d795111024ac04c4779f341b82cbdb6ed111"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/Topaz_vein.json"
+hash = "6477ea60d52f635920481bf28522052c87f7c5028f1d52cadeb21b0706012918"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/Uranium_vein2.json"
+hash = "a48620301e0352e49ff92171927c6a89fc16981a398676b9e8b158a04b1693fc"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/apatite_vein.json"
+hash = "691d5874ecaad19bee596236c9c06e308ce9cdc0e7015b3d528f597e724b65af"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/basalt_sphere.json"
+hash = "25f992fbd7554c9f621fe3a08267aa4d3cac4ef74c0eabbdee539d9f543b6a2b"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/beryllium_vein.json"
+hash = "0cbb56e7387603042e8ab6c2c66ad494ed563cef45d7473d581ea2429611e0f8"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/black_granite_sphere.json"
+hash = "b6a148e2dd299bd303fe4bedd7016d4d256433a02dd2fcfc5f7d41583d4f9cc4"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/copper_vein.json"
+hash = "f790ec6b49a6e18231b4ba5f02d3190978d21626c72a914b6a227ac3378ea310"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/diamond_vein.json"
+hash = "3fe1d8b22c543358f80e24d73ffb3f4dccb74435b0cd93288cecce9266e78611"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/galena_vein.json"
+hash = "4a614bf6d2051bddabc63d95ca551c63192ef4f88b79e91f2bc679a7cda91bcc"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/iron_vein.json"
+hash = "86f05dd251799e829d43476ae93270f49abe36f14fc02506c47a132a8df63e94"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/magnetite_vein.json"
+hash = "dfb8f38b5aef587e9d6c1f8b16fb6782ab77d41742f4ba197d2e4571b80225f6"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/manganese_vein.json"
+hash = "ef48a5e45e0938453861e9d4b1dd417eb62a38e3779e1f25eb2817eedc31901b"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/marble_sphere.json"
+hash = "77c07f30d7e5e3bdbcb1b47a9c6844e8d6d8f87dc65d68f66c3867bd5804d986"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/mica_vein.json"
+hash = "720eb02996a7c7446250f78792af382c51a8e53335ad69e66c64b5746a3ebfdf"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/nickel_vein.json"
+hash = "623926131936cddd370a2d76dd99216b0439ad2b1cd2d0c8006d3b317cfe30aa"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/red_granite_sphere.json"
+hash = "ca91555d048a7af6d247df0b0b56e327356a9d0bdcc88ee2ea7dc846f62f48f1"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/redstone_vein.json"
+hash = "b937ebb0c37407c180ff5c064cb6d901c46c25dc25b01282379efd45e29afcc4"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/salts_vein.json"
+hash = "a805d22abceabea852899d0a4c17b679036001f1e376f9f7c70c3228c29e0ca1"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/sapphire_vein.json"
+hash = "a9a6f48d3f31e6398d5829cd5ee986498307f25979985afc82beb8a8c809640d"
+
+[[files]]
 file = "config/gregtech/worldgen_extracted"
 hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+
+[[files]]
+file = "config/gregtech/worldgen_extracted.json"
+hash = "c546ad832791db6889e41edc4d3dc0cf59dbeaf6f94d9d8dbd611748274368a6"
+
+[[files]]
+file = "config/gregtech/worldgen_extracted_gcyl.json"
+hash = "2dfb9d5e450ecb8e5b920b4ffda8804f72be15f857309e8659dd2f89ecb265aa"
+
+[[files]]
+file = "config/groovyscript.cfg"
+hash = "dad45b74a021a4f2c92de14e12fabb7613182b109593d579fbbdbd6a4b51fe70"
 
 [[files]]
 file = "config/gtadditions.cfg"
@@ -6850,7 +7146,7 @@ hash = "4778e8b2d6b384ac6d52c7ceea96735c62c15bfe80a60e17db76f9f49b4eb8e5"
 
 [[files]]
 file = "config/jei/worldSettings.cfg"
-hash = "19824f8be9c1df1e83cbc9bf99c89902056db72bc35f297baf20afc36e2ccf87"
+hash = "cd71bd94c1d23ac1d4c4372cbcff648b579a794595ecbd72b6102ad9c96b8c39"
 
 [[files]]
 file = "config/jei/worldSettings.cfg_20201018_015214.errored"
@@ -6913,8 +7209,16 @@ file = "config/magicfeather.cfg"
 hash = "1a1c6b49ed6489fdb5e034be89d494405a7d9a66a656ba870cbaf24e2121d45d"
 
 [[files]]
+file = "config/materialreplication.cfg"
+hash = "addc6b4536cfcd21b1b00a8d6de0c6d6262582145e1ac87a6ac3e3d4ddcdb5b5"
+
+[[files]]
 file = "config/mechtech.cfg"
 hash = "b1d0d6e9109d3a805ddc01da453e1ce43341f7ff344feee7796e1c49c9c046ba"
+
+[[files]]
+file = "config/modularui.cfg"
+hash = "f2e89fe8da47c0483ba0a93bd13373fc300eebcfff1cec9be2debe7ba80385ba"
 
 [[files]]
 file = "config/moreloottables.cfg"
@@ -6973,10 +7277,6 @@ file = "config/placebo.cfg"
 hash = "0628351b50b1e0c6523dcf0a4ee6a12c8123963ed84bd42c3f1ac504b6bddb22"
 
 [[files]]
-file = "config/randompatches.cfg"
-hash = "cf7250dfc7c2f5ed4fb8dd8760757e5dfa0b34824a7f41e666519c9a375de551"
-
-[[files]]
 file = "config/randomthings.cfg"
 hash = "d46f536936167e0af637d8488479c2fd0c7a98ba36c57217c6a2aba8202a1f32"
 
@@ -7026,11 +7326,19 @@ hash = "e30f8f43574957910bb41e19569f652518545fa09dbe54568ca006fa75fa6b32"
 
 [[files]]
 file = "config/splash.properties"
-hash = "334b4d53bca01c90cefcb01d860ded9e0d7d30430318f5c3d40dd4978b8d6a80"
+hash = "df27b9bac160095a0a1179bb4b7ce9f175c70dafb2c9f28dd2fd0ba22e3041ba"
+
+[[files]]
+file = "config/stellar_core.cfg"
+hash = "2a217761df09cef2b90183f1c5003cd170f6d4b9ede942762f50dae7bc1a48d2"
 
 [[files]]
 file = "config/storagedrawers.cfg"
 hash = "02826cf6134b90adb8b2c3a674a170f9a24b2a3198589c7a4f65b436038e5c15"
+
+[[files]]
+file = "config/supercritical.cfg"
+hash = "180a4da14891735884328d78cdba55c484dd39e4a11270c78dbe8f70b4b103e6"
 
 [[files]]
 file = "config/supersoundmuffler.cfg"
@@ -7085,10 +7393,6 @@ file = "config/torchmaster.cfg"
 hash = "dc780199da0a1a99998773e91508d3cfe82adab4ea9979860b1f3534ced66a19"
 
 [[files]]
-file = "config/vanillafix.cfg"
-hash = "e2e40cee8297ee3f6cb16d430cdea3104c0c17f44e7064cca2e227e0812c9cec"
-
-[[files]]
 file = "config/vanillafix/config_version"
 hash = "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
 
@@ -7099,6 +7403,10 @@ hash = "0a583eb8a8f4e8f797e965fdecb5d72ec4d33fc7e8d6002a82a4e62d35abe9c2"
 [[files]]
 file = "config/variegated.cfg"
 hash = "a802f6d5209750acb05a29aa393bdba5daf4d0d053ea9c307b3964677eb549cd"
+
+[[files]]
+file = "config/vintagefix.properties"
+hash = "d16ddd9330fe4e3eaca3c4bea8e0f664fb8945af0a2894eea57c5a88752fe529"
 
 [[files]]
 file = "config/worldstripper.cfg"
@@ -8270,7 +8578,3 @@ hash = "a7cd837fcdc91420138c42e5de79513ba423ad2057bd85b9c1b128eb63dc4249"
 [[files]]
 file = "scripts/vial_processor.zs"
 hash = "8861f26d4f11533a7941516b9301f9405cfe6aba19825c507e71cd8d86ebe975"
-
-[[files]]
-file = "thumb.png"
-hash = "80fef4f377bb568b21e2195ac79ca7eabe51faf551dc689e9ab71655de3b75ab"
