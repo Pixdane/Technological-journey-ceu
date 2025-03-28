@@ -7443,6 +7443,11 @@ hash = "41af19113cbe9dc65e4d99f7b0bc209f1ab1a15a30eb55e42aaefe607ba421fe"
 metafile = true
 
 [[files]]
+file = "mods/ae2-crafting-tree-legacy.pw.toml"
+hash = "64e7a392556a055d0e9566b47937a51febf61251694b8e72a145d5f7e55d6d7a"
+metafile = true
+
+[[files]]
 file = "mods/ae2-extended-life.pw.toml"
 hash = "8b79fcc21c64e6dc51a86cfda1d7a6217bdbdbfab876c82de4b3bb5afb2df09b"
 metafile = true
@@ -7508,11 +7513,6 @@ hash = "8b0e62919cb8f455adabbb47cbb53fb752844ff71069bd4b962daaa27a49dd51"
 metafile = true
 
 [[files]]
-file = "mods/baubles.pw.toml"
-hash = "2cc5f913400c0dfe460173edd1e5d9475a09774caf228f41c3e39eba252a7a19"
-metafile = true
-
-[[files]]
 file = "mods/baubley-heart-canisters.pw.toml"
 hash = "17cbdc93596925c1e6110dc7aa07489accec7dfc741219a99202fb4b248d685a"
 metafile = true
@@ -7545,6 +7545,11 @@ metafile = true
 [[files]]
 file = "mods/brandons-core.pw.toml"
 hash = "b29447d63a7c8fb654cfc8381dd1f197ca00375f7413e6d4e09bd3b5ee884663"
+metafile = true
+
+[[files]]
+file = "mods/bubbles-a-baubles-fork.pw.toml"
+hash = "6f0dfed1a266a8d39ef261badb99c877c052afc2059cfc70f4f723fa66d70f24"
 metafile = true
 
 [[files]]
@@ -7718,11 +7723,6 @@ hash = "c481689630aa1866bfd65db872f0b3ea3ad10c02a3dd3762760fa538fab85cbd"
 metafile = true
 
 [[files]]
-file = "mods/extracpus.pw.toml"
-hash = "7308b8c90e7b62cb5f8d285361200cfcb98ade1037bd5ca9d293e9fdd50c27d7"
-metafile = true
-
-[[files]]
 file = "mods/faster-ladder-climbing.pw.toml"
 hash = "2412145ac3688d33a36efc242c766ea7f598761ef1672c2629541b332f4a78c6"
 metafile = true
@@ -7730,6 +7730,11 @@ metafile = true
 [[files]]
 file = "mods/findmyitemsandfluids.pw.toml"
 hash = "c6abcd785928a38c03c1f6f497dfb49ac2780dd29846c632f7791ab6aa60ad3d"
+metafile = true
+
+[[files]]
+file = "mods/flare.pw.toml"
+hash = "306514c708b7df74d028fa23d1486936a9e634451908fc08a686c73c98c9e84b"
 metafile = true
 
 [[files]]
@@ -8075,11 +8080,6 @@ metafile = true
 [[files]]
 file = "mods/snad.pw.toml"
 hash = "e8f83a1b718ec25b337dc0fa7fe39e4ff4b562777bad9a062830f8ee6d8ef3db"
-metafile = true
-
-[[files]]
-file = "mods/spark.pw.toml"
-hash = "3d06c23fc5c293cc191574ddb01727c6a852cd100b4a69267b1f98c6a877be62"
 metafile = true
 
 [[files]]
