@@ -7130,11 +7130,6 @@ hash = "047ea8e0c2ab84aab7e185357a6e5f2dbb75059ba7a0044cd4a22a98dbbcdb84"
 metafile = true
 
 [[files]]
-file = "mods/advanced-rocketry-tweaker.pw.toml"
-hash = "d237cc5dd61ca48754b842f712e1cd48f84d0ec137c50071ec6a6021c44adbfc"
-metafile = true
-
-[[files]]
 file = "mods/advanced-rocketry.pw.toml"
 hash = "41af19113cbe9dc65e4d99f7b0bc209f1ab1a15a30eb55e42aaefe607ba421fe"
 metafile = true
@@ -7435,6 +7430,11 @@ hash = "a9fa720cb799b8a70ad7411c16c8c61b87883fffba58117ecd3e7976f18c4f40"
 metafile = true
 
 [[files]]
+file = "mods/forgelin-continuous.pw.toml"
+hash = "af7fce859d981cc22e49e7afb32d77b812187bcb976d9aa4ccfb91aa1f674dbc"
+metafile = true
+
+[[files]]
 file = "mods/forgiving-void.pw.toml"
 hash = "514495e463acb09d111f3c6ea43355d5b2ed2f2c97c1e43dbe27800d74668e67"
 metafile = true
@@ -7460,13 +7460,38 @@ hash = "f5318d5065ec9496411477eb378a8e29b9f4eb4da91d07ef67f5de5ac4c09662"
 metafile = true
 
 [[files]]
+file = "mods/fugue.pw.toml"
+hash = "1a2aa8d5f2981cb42ba96e0ae769043b347bce7a51e5f90170417c328ddc3cfa"
+metafile = true
+
+[[files]]
 file = "mods/future-mc.pw.toml"
 hash = "9243c374a5e750a045dac303461c545cc7c3d5fc5928512082be81b0d1f793d5"
 metafile = true
 
 [[files]]
+file = "mods/gcyl-ceu.pw.toml"
+hash = "fafd2b419f46a97ef6dff8a0097f310c1390b3bf28a8c0698a0e64d7cec5d6da"
+metafile = true
+
+[[files]]
+file = "mods/gcym.pw.toml"
+hash = "2dc1a9228f2394b5168200d187295acc743aaa7425aee5374815e31e868adf80"
+metafile = true
+
+[[files]]
+file = "mods/graduated-cylinders.pw.toml"
+hash = "968e5378f4914911751ba717d3d1c951d65830579dc6c81fb2538d96434e1585"
+metafile = true
+
+[[files]]
 file = "mods/gregic-probe-ceu.pw.toml"
 hash = "432306979c0efaea3cddcd38200866afdc8125c4f794dcb47dac689fe5ef6338"
+metafile = true
+
+[[files]]
+file = "mods/gregtech.pw.toml"
+hash = "059bc040abb4635c65a85db48dbac2a45fc50c342fb5a6907f7981e53c346c11"
 metafile = true
 
 [[files]]
@@ -7482,6 +7507,11 @@ metafile = true
 [[files]]
 file = "mods/gunpowderlib.pw.toml"
 hash = "e105e97942ca227dd0925c73d3a26d30e74820d01e9ea5c458c91409436d515f"
+metafile = true
+
+[[files]]
+file = "mods/had-enough-characters.pw.toml"
+hash = "cb5c1d6083e3ac971680859584b6b70356f17c4c5e5df906cc5079b9c95d59ee"
 metafile = true
 
 [[files]]
@@ -7540,6 +7570,11 @@ hash = "57be7c150590a4ae25f04803a296143551b73f6e4d5ca747fc6c08d3d48c6280"
 metafile = true
 
 [[files]]
+file = "mods/just-enough-characters.pw.toml"
+hash = "2076abed696e5f140ea634e501482708204a68253b92b6a3fa8e39a796a7246b"
+metafile = true
+
+[[files]]
 file = "mods/lazy-ae2.pw.toml"
 hash = "9be747f0d18ed0676d229d70a36d4d44dec9e17adc94a1ed877c958ee4ce6c81"
 metafile = true
@@ -7550,8 +7585,8 @@ hash = "f9b254d7e5f888cac94e5890452ef57c1c206beef40152b5d89867173c3cd41e"
 metafile = true
 
 [[files]]
-file = "mods/librarianlib.pw.toml"
-hash = "c09ef7a87aaa6c9db80818c57236f08265aaf43b66177f138a0ae69b8c776893"
+file = "mods/librarianlib-continuous.pw.toml"
+hash = "7c780eecab91bbda467b17c053d16bc457dfca6c24c3f13c30e53e4d5af2f6df"
 metafile = true
 
 [[files]]
@@ -7585,6 +7620,11 @@ hash = "3b5ef81c27805786f2b7e53d12bbb5a7a9ec8eacf8c005dd3f657f731480796a"
 metafile = true
 
 [[files]]
+file = "mods/materialreplication.pw.toml"
+hash = "00900bf8468f307abe97907412f528344439b9bebef996b4492997a22bc61142"
+metafile = true
+
+[[files]]
 file = "mods/mixin-booter.pw.toml"
 hash = "7a4b19df0180cc1c5822da95272a9627d7b0a258761a31f9d9d05f236a4ad81e"
 metafile = true
@@ -7597,6 +7637,11 @@ metafile = true
 [[files]]
 file = "mods/mobs-properties-randomness.pw.toml"
 hash = "fb6dcb12c0e3d0e14d573ae415125264ae082924fa65b779971be95da67314b9"
+metafile = true
+
+[[files]]
+file = "mods/modularui.pw.toml"
+hash = "7288956db5731ae8f5c5a81df922124c172000416c1e02a44f85ac2acf7276fc"
 metafile = true
 
 [[files]]
@@ -7690,6 +7735,11 @@ hash = "5b23fff02027846cadc887ffe26fce12a4e20bdee2cc0c06732897a44f364357"
 metafile = true
 
 [[files]]
+file = "mods/scalar.pw.toml"
+hash = "2dc545f49896881f74ca735437e14e30e967a8ec79cb32c21ce1024bdd85edba"
+metafile = true
+
+[[files]]
 file = "mods/scannable.pw.toml"
 hash = "2aa80df4aecc7716a9d798a339611231b443c7e5d98dace5588bb30b5a5a2fe4"
 metafile = true
@@ -7710,11 +7760,6 @@ hash = "ecc928d5a6f9fd0d4a3b015e174bf54da4db56dc143512cb93d96954113b1547"
 metafile = true
 
 [[files]]
-file = "mods/shadowfacts-forgelin.pw.toml"
-hash = "3fc16d41893803e4afd4ddb2b981ed360081cea152a21f9783aac3bae182f6fc"
-metafile = true
-
-[[files]]
 file = "mods/simple-void-world.pw.toml"
 hash = "2b15f89daee29de2e07201d09fbf641e1d59ca08e0b5d3ada58373e7aae7887e"
 metafile = true
@@ -7730,6 +7775,11 @@ hash = "3d06c23fc5c293cc191574ddb01727c6a852cd100b4a69267b1f98c6a877be62"
 metafile = true
 
 [[files]]
+file = "mods/stellarcore.pw.toml"
+hash = "67625d0f1c5bdd48272128fd08770affe815452af4eb4e2fdd70d6eecc52d85c"
+metafile = true
+
+[[files]]
 file = "mods/storage-drawers.pw.toml"
 hash = "c7cc5deb2c40eab1824622a0d48a15e2aab18d967a935c8f4c0c5fc5fe80fa86"
 metafile = true
@@ -7737,6 +7787,11 @@ metafile = true
 [[files]]
 file = "mods/super-sound-muffler-revived.pw.toml"
 hash = "5658fb3fc745ba472457092404524f95fecfbf4cd3e09ddb7d1990d9d8aa7480"
+metafile = true
+
+[[files]]
+file = "mods/supercritical.pw.toml"
+hash = "9cb547deb45c6bf884e8d9172ef7266e34ed47a74079b1efd8e606cba20af569"
 metafile = true
 
 [[files]]
@@ -7792,6 +7847,11 @@ metafile = true
 [[files]]
 file = "mods/variegated.pw.toml"
 hash = "9f4d9118fa667e8a6255a6f8c3e9fd7072e98a9d4c9d289cbf1e976890136bae"
+metafile = true
+
+[[files]]
+file = "mods/vintagefix.pw.toml"
+hash = "5702e15971df5f230602c57ec5c4f725bd429e8d7e7f2457624717a4aa80907c"
 metafile = true
 
 [[files]]

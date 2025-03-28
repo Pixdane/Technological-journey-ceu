@@ -1,0 +1,7 @@
+name = "gcym"
+filename = "GregicalityMultiblocks-1.3.jar"
+
+[download]
+url = "https://github.com/Synthitic/GCYL-CEu/releases/download/0.1.0-beta-testing/GregicalityMultiblocks-1.3.jar"
+hash-format = "sha256"
+hash = "92ca264e5424ad77cf064705a8557f36c496577a96c3f8e1c532e375553f74df"

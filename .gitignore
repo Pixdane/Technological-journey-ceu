@@ -1,2 +1,13 @@
+# Exclude exported CurseForge zip files
+*.zip
+
+# Exclude exported Modrinth modpacks
+*.mrpack
+
+*.pdf
+
 .DS_Store
+
 packwiz
+
+.vscode

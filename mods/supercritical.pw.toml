@@ -1,0 +1,7 @@
+name = "supercritical"
+filename = "Supercritical-0.0.2.jar"
+
+[download]
+url = "https://github.com/Synthitic/GCYL-CEu/releases/download/0.1.0-beta-testing/Supercritical-0.0.2.jar"
+hash-format = "sha256"
+hash = "f3b082146c2043a9cd7acf2f798dfd98ccc2b7068b13eccb0a602c88af32c712"

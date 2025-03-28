@@ -1,0 +1,7 @@
+name = "gcyl-ceu"
+filename = "gcyl-ceu-0.1.0.jar"
+
+[download]
+url = "https://github.com/Synthitic/GCYL-CEu/releases/download/0.1.0-beta-testing/gcyl-ceu-0.1.0.jar"
+hash-format = "sha256"
+hash = "3b249db46c6b0994d667f74778140055d63c7e1177688cf06e93012c356bef31"

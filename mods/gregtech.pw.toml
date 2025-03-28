@@ -1,0 +1,7 @@
+name = "gregtech"
+filename = "gregtech-1.12.2-2.9.0-beta.jar"
+
+[download]
+url = "https://github.com/Synthitic/GCYL-CEu/releases/download/0.1.0-beta-testing/gregtech-1.12.2-2.9.0-beta.jar"
+hash-format = "sha256"
+hash = "7763bcfcc55d2179ab0bbea4df60fcc78adc77b11a86a01f7cdb028a6f49433b"
