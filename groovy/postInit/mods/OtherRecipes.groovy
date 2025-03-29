@@ -229,8 +229,8 @@
 // .duration(240)
 // .EUt(500)
 // .buildAndRegister();
-// freezer.findRecipe(48000,null,[item('fluid:air')* 4000]).remove();
-// centrifuge.findRecipe(48000,null,[item('fluid:liquid_air')* 53000]).remove();
+// freezer.findRecipe(48000,null,[fluid('air')* 4000]).remove();
+// centrifuge.findRecipe(48000,null,[fluid('liquid_air')* 53000]).remove();
 // 
 // 
 //     //blast_furnace .findRecipe(2361600,[ore('ingotTungsten'),ore('dustCarbon,dyeBlack')] ,null).remove();
@@ -515,8 +515,8 @@
 //   //ADV_FUSION_RECIPES.recipeBuilder().fluidInputs(Adamantium.getFluid(125), Neutronium.getFluid(125)).fluidOutputs(Vibranium.getFluid(125)).duration(100).EUt(8000000).coilTier(2).euStart(2500000000L).buildAndRegister(); 
 // /*
 // ADVFusion.recipeBuilder()
-//     .fluidInputs(item('fluid:degenerate_rhenium_plasma') * 15,item('fluid:neutron_plasma') * 15)
-//     .fluidOutputs(item('fluid:plasma.cosmic_neutronium')* 15)
+//     .fluidInputs(fluid('degenerate_rhenium_plasma') * 15,fluid('neutron_plasma') * 15)
+//     .fluidOutputs(fluid('plasma.cosmic_neutronium')* 15)
 //     .duration(100)
 //     .property("coilTier",2)
 //     .EUt(8000000)
@@ -1040,7 +1040,7 @@
 // .buildAndRegister();
 // 
 // //start of weirdness
-// distillery.findRecipe(100, [item('gregtech:meta_item_1:32766').withTag({Configuration: 0})], [item('fluid:biomass')* 2000]).remove();
+// distillery.findRecipe(100, [item('gregtech:meta_item_1:32766').withTag({Configuration: 0})], [fluid('biomass')* 2000]).remove();
 // 
 // distillery.recipeBuilder()
 // .fluidInputs(fluid('biomass') * 1000)
@@ -1612,7 +1612,7 @@
 // recipes.remove(item('enderio:item_big_item_filter:0'));
 // recipes.addShaped(item('enderio:item_big_item_filter:0'), [[ore('plateAluminium'), ore('plateRedstone'), ore('plateAluminium')],[ore('plateRedstone'), item('enderio:item_basic_item_filter:0'), ore('plateRedstone')], [ore('plateAluminium'), ore('plateRedstone'), ore('plateAluminium')]]);
 // 
-// recipes.addShaped(item('draconicevolution:grinder:0'), [[ore('plateNaquadahAlloy'), item('gregtech:meta_item_2:47'), ore('plateNaquadahAlloy')],[item('gregtech:meta_item_2:47'), item('gregtech:mte:990'), item('gregtech:meta_item_1:32674')], [ore('plateNaquadahAlloy'), item('gregtech:meta_item_2:47'), ore('plateNaquadahAlloy')]]);
+// recipes.addShaped(item('draconicevolution:grinder:0'), [[ore('plateNaquadahAlloy'), item('gregtech:meta_item_2:47'), ore('plateNaquadahAlloy')],[item('gregtech:meta_item_2:47'), item('gregtech:mte:990'), item('gregtech:meta_item_1:206')], [ore('plateNaquadahAlloy'), item('gregtech:meta_item_2:47'), ore('plateNaquadahAlloy')]]);
 // 
 // Utils.removeRecipeByOutput(mixer, [ore('dustNichrome') * 5], [], true);
 // 
@@ -1880,9 +1880,9 @@
 // recipes.addShaped(item('gregtech:meta_item_2:32709'), [[item('gregtech:meta_item_1:32695'), ore('gemExquisiteRuby'), item('gregtech:meta_item_1:32695')],[ore('circuitMaster'), item('gregtech:mte:991'), ore('circuitMaster')], [ore('cableGtSingleYttriumBariumCuprate'), item('gregtech:meta_item_1:32537'), ore('cableGtSingleYttriumBariumCuprate')]]);
 // recipes.addShaped(item('gregtech:meta_item_2:32709'), [[item('gregtech:meta_item_1:32695'), ore('gemExquisiteRuby'), item('gregtech:meta_item_1:32695')],[ore('circuitMaster'), item('gregtech:mte:991'), ore('circuitMaster')], [ore('cableGtSingleYttriumBariumCuprate'), item('gregtech:meta_item_1:32539'), ore('cableGtSingleYttriumBariumCuprate')]]);
 // recipes.addShaped(item('gregtech:meta_item_2:32709'), [[item('gregtech:meta_item_1:32695'), ore('gemExquisiteRuby'), item('gregtech:meta_item_1:32695')],[ore('circuitMaster'), item('gregtech:mte:991'), ore('circuitMaster')], [ore('cableGtSingleYttriumBariumCuprate'), item('gregtech:meta_item_1:32538'), ore('cableGtSingleYttriumBariumCuprate')]]);
-// recipes.addShaped(item('gregtech:meta_item_2:32708'), [[item('gregtech:meta_item_1:32694'), ore('gemExquisiteRuby'), item('gregtech:meta_item_1:32694')],[ore('circuitElite'), item('gregtech:mte:990'), ore('circuitElite')], [ore('cableGtSingleTungsten'), item('gregtech:meta_item_1:32528'), ore('cableGtSingleTungsten')]]);
-// recipes.addShaped(item('gregtech:meta_item_2:32708'), [[item('gregtech:meta_item_1:32694'), ore('gemExquisiteRuby'), item('gregtech:meta_item_1:32694')],[ore('circuitElite'), item('gregtech:mte:990'), ore('circuitElite')], [ore('cableGtSingleTungsten'), item('gregtech:meta_item_1:32527'), ore('cableGtSingleTungsten')]]);
-// recipes.addShaped(item('gregtech:meta_item_2:32708'), [[item('gregtech:meta_item_1:32694'), ore('gemExquisiteRuby'), item('gregtech:meta_item_1:32694')],[ore('circuitElite'), item('gregtech:mte:990'), ore('circuitElite')], [ore('cableGtSingleTungsten'), item('gregtech:meta_item_1:32529'), ore('cableGtSingleTungsten')]]);
+// recipes.addShaped(item('gregtech:meta_item_2:32708'), [[item('gregtech:meta_item_1:236'), ore('gemExquisiteRuby'), item('gregtech:meta_item_1:236')],[ore('circuitElite'), item('gregtech:mte:990'), ore('circuitElite')], [ore('cableGtSingleTungsten'), item('gregtech:meta_item_1:32528'), ore('cableGtSingleTungsten')]]);
+// recipes.addShaped(item('gregtech:meta_item_2:32708'), [[item('gregtech:meta_item_1:236'), ore('gemExquisiteRuby'), item('gregtech:meta_item_1:236')],[ore('circuitElite'), item('gregtech:mte:990'), ore('circuitElite')], [ore('cableGtSingleTungsten'), item('gregtech:meta_item_1:32527'), ore('cableGtSingleTungsten')]]);
+// recipes.addShaped(item('gregtech:meta_item_2:32708'), [[item('gregtech:meta_item_1:236'), ore('gemExquisiteRuby'), item('gregtech:meta_item_1:236')],[ore('circuitElite'), item('gregtech:mte:990'), ore('circuitElite')], [ore('cableGtSingleTungsten'), item('gregtech:meta_item_1:32529'), ore('cableGtSingleTungsten')]]);
 // recipes.addShaped(item('gregtech:meta_item_1:32752'), [[item('gregtech:meta_item_1:32693'), ore('gemExquisiteDiamond'), item('gregtech:meta_item_1:32693')],[ore('circuitExtreme'), item('gregtech:mte:989'), ore('circuitExtreme')], [ore('cableGtSingleAluminium'), item('gregtech:meta_item_1:32517'), ore('cableGtSingleAluminium')]]);
 // recipes.addShaped(item('gregtech:meta_item_1:32752'), [[item('gregtech:meta_item_1:32693'), ore('gemExquisiteDiamond'), item('gregtech:meta_item_1:32693')],[ore('circuitExtreme'), item('gregtech:mte:989'), ore('circuitExtreme')], [ore('cableGtSingleAluminium'), item('gregtech:meta_item_1:32518'), ore('cableGtSingleAluminium')]]);
 // recipes.addShaped(item('gregtech:meta_item_1:32752'), [[item('gregtech:meta_item_1:32693'), ore('gemExquisiteDiamond'), item('gregtech:meta_item_1:32693')],[ore('circuitExtreme'), item('gregtech:mte:989'), ore('circuitExtreme')], [ore('cableGtSingleAluminium'), item('gregtech:meta_item_1:32519'), ore('cableGtSingleAluminium')]]);
@@ -2594,13 +2594,13 @@
 // Utils.removeRecipeByOutput(assembler, [item('gregtech:meta_item_1:32671')], [], false);
 // Utils.removeRecipeByOutput(assembler, [item('gregtech:meta_item_1:32672')], [], false);
 // Utils.removeRecipeByOutput(assembler, [item('gregtech:meta_item_1:32673')], [], false);
-// Utils.removeRecipeByOutput(assembler, [item('gregtech:meta_item_1:32674')], [], false);
+// Utils.removeRecipeByOutput(assembler, [item('gregtech:meta_item_1:206')], [], false);
 // 
 // recipes.remove(item('gregtech:meta_item_1:32670'));
 // recipes.remove(item('gregtech:meta_item_1:32671'));
 // recipes.remove(item('gregtech:meta_item_1:32672'));
 // recipes.remove(item('gregtech:meta_item_1:32673'));
-// recipes.remove(item('gregtech:meta_item_1:32674'));
+// recipes.remove(item('gregtech:meta_item_1:206'));
 // 
 // 
 // //lv
@@ -2638,13 +2638,13 @@
 // //IV
 // assembler.recipeBuilder()
 //     .inputs([ore('circuitElite') * 4, item('gregtech:meta_item_1:32725')])
-//     .outputs(item('gregtech:meta_item_1:32674'))
+//     .outputs(item('gregtech:meta_item_1:206'))
 //     .fluidInputs(fluid('iv_superconductor_base') * 4608)
 //     .duration(100)
 //     .EUt(7680)
 //     .buildAndRegister();
 // 
-// recipes.addShaped(item('gregtech:meta_item_1:32674'), [[ore('wireGtHexIvSuperconductorBase'), ore('circuitElite'), ore('wireGtHexIvSuperconductorBase')],[ore('circuitElite'), item('gregtech:meta_item_1:32725'), ore('circuitElite')], [ore('wireGtHexIvSuperconductorBase'), ore('circuitElite'), ore('wireGtHexIvSuperconductorBase')]]);
+// recipes.addShaped(item('gregtech:meta_item_1:206'), [[ore('wireGtHexIvSuperconductorBase'), ore('circuitElite'), ore('wireGtHexIvSuperconductorBase')],[ore('circuitElite'), item('gregtech:meta_item_1:32725'), ore('circuitElite')], [ore('wireGtHexIvSuperconductorBase'), ore('circuitElite'), ore('wireGtHexIvSuperconductorBase')]]);
 // recipes.addShaped(item('gregtech:meta_item_1:32673'), [[ore('wireGtOctalEvSuperconductorBase'), ore('circuitExtreme'), ore('wireGtOctalEvSuperconductorBase')],[ore('circuitExtreme'), ore('gemNetherStar,netherStar'), ore('circuitExtreme')], [ore('wireGtOctalEvSuperconductorBase'), ore('circuitExtreme'), ore('wireGtOctalEvSuperconductorBase')]]);
 // recipes.addShaped(item('gregtech:meta_item_1:32672'), [[ore('wireGtQuadrupleHvSuperconductorBase'), ore('circuitAdvanced'), ore('wireGtQuadrupleHvSuperconductorBase')],[ore('circuitAdvanced'), item('gregtech:meta_item_1:32724'), ore('circuitAdvanced')], [ore('wireGtQuadrupleHvSuperconductorBase'), ore('circuitAdvanced'), ore('wireGtQuadrupleHvSuperconductorBase')]]);
 // recipes.addShaped(item('gregtech:meta_item_1:32671'), [[ore('wireGtDoubleMvSuperconductorBase'), ore('circuitGood'), ore('wireGtDoubleMvSuperconductorBase')],[ore('circuitGood'), ore('gemEnderEye,pearlEnderEye'), ore('circuitGood')], [ore('wireGtDoubleMvSuperconductorBase'), ore('circuitGood'), ore('wireGtDoubleMvSuperconductorBase')]]);

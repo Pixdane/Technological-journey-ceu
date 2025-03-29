@@ -429,7 +429,7 @@
 // .buildAndRegister();
 // //IV super
 // assembler.recipeBuilder()
-// .inputs(ore('wireGtSingleIvSuperconductorBase') * 12,item('gregtech:fluid_pipe:135')* 4,item('gregtech:meta_item_1:32614'))
+// .inputs(ore('wireGtSingleIvSuperconductorBase') * 12,item('gregtech:fluid_pipe:135')* 4,item('gregtech:meta_item_1:146'))
 // .fluidInputs(fluid('astralsorcery.liquidstarlight') * 4000)
 // .notConsumable(item('gregtech:meta_item_1:32766').withTag({Configuration: 2}))
 // .outputs(ore('wireGtSingleIvSuperconductor') * 12)
@@ -447,7 +447,7 @@
 // .buildAndRegister();
 // //ZPM super
 // assembler.recipeBuilder()
-// .inputs(ore('wireGtSingleZpmSuperconductorBase') * 32,item('gregtech:fluid_pipe:307') *6,item('gregtech:meta_item_1:32616'))
+// .inputs(ore('wireGtSingleZpmSuperconductorBase') * 32,item('gregtech:fluid_pipe:307') *6,item('gregtech:meta_item_1:148'))
 // .fluidInputs(fluid('astralsorcery.liquidstarlight') * 8000)
 // .notConsumable(item('gregtech:meta_item_1:32766').withTag({Configuration: 2}))
 // .outputs(ore('wireGtSingleZpmSuperconductor') * 32)
@@ -456,7 +456,7 @@
 // .buildAndRegister();
 // //UV super
 // assembler.recipeBuilder()
-// .inputs(ore('wireGtSingleUvSuperconductorBase') * 64,item('gregtech:fluid_pipe:192') *7,item('gregtech:meta_item_1:32616'))
+// .inputs(ore('wireGtSingleUvSuperconductorBase') * 64,item('gregtech:fluid_pipe:192') *7,item('gregtech:meta_item_1:148'))
 // .fluidInputs(fluid('astralsorcery.liquidstarlight') * 10000)
 // .notConsumable(item('gregtech:meta_item_1:32766').withTag({Configuration: 2}))
 // .outputs(ore('wireGtSingleUvSuperconductor') * 64)
