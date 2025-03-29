@@ -1,24 +1,16 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/AE2Stuff/readme.txt"
-hash = "f86901d1cbf94aa31daff7fd7898391008892b2a4c0d4c6983d491427184d412"
-
-[[files]]
-file = "config/AE2WirelessTerminals.cfg"
-hash = "b27189cf6d68e2c4a7a1d25bae1b6829b58d8139d16ec76ac74d92b194bbe426"
-
-[[files]]
 file = "config/AppliedEnergistics2/AppliedEnergistics2.cfg"
-hash = "e0d727f37a1f46702b200f34cd069f3ee75ca0d4420bb68060be39a701e78f40"
+hash = "7ccfb4cc8ded42aa834c8382681e35d94728a230dc55f172187eaf399a97d2cd"
 
 [[files]]
 file = "config/AppliedEnergistics2/CustomRecipes.cfg"
-hash = "175051d4a58e1795b6a84aaba0fe5f3ff462a0dbeed0512a716c88d554233df6"
+hash = "8341b82d3c004e4cfdedf8282c2f1934f0505fa2d8a5f6d31f54f6caa6536222"
 
 [[files]]
 file = "config/AppliedEnergistics2/Facades.cfg"
-hash = "661cd844fe44c188c95368174e115681b69d63f5b6f62a676bb9331860599ebb"
+hash = "c50bb6b5960ea48a025759c11082781f412d24e9a5be0db7d4d34948c7a7f0d4"
 
 [[files]]
 file = "config/AppliedEnergistics2/VersionChecker.cfg"
@@ -30,7 +22,7 @@ hash = "31876dd2fde7f733763d50fb41a4965051f756c8e0f91d59e40149f4d8674da0"
 
 [[files]]
 file = "config/AppliedEnergistics2/items.csv"
-hash = "bc8ad1a491f09db64f9daf0cfd155bd3a95b64b303162d5c0177b4261ca9a882"
+hash = "ddf900dbcdde59a018d1da99ec7f1dc5f639ea9017439e38c922eee66c26bf2a"
 
 [[files]]
 file = "config/Building Gadgets.cfg"
@@ -57,12 +49,8 @@ file = "config/HadEnoughCharacters.cfg"
 hash = "e71b9109e3144defd4d7f1891c88be7d6117a1163b308ab69d247788e39b2791"
 
 [[files]]
-file = "config/InvTweaks.cfg"
-hash = "7cc8a3e6d6c56b642c2db1a6db77e5a29ae27f0ee3e468c73ef3f63c22d29b8f"
-
-[[files]]
 file = "config/InvTweaks/InvTweaks.cfg"
-hash = "4b3ba1fe57bfb0ce3cbd224ca8883bb0789aa73287f18e3cc5d7f33fc2859774"
+hash = "108d45f049b4f7da956862b7ff296518ac090eca371efacd6b422d051c3dab46"
 
 [[files]]
 file = "config/InvTweaks/InvTweaksRules.txt"
@@ -70,19 +58,11 @@ hash = "b63870bb7b08cb7edb1189dd929ae802a8e7a6857ede3d92055038a5c617bb22"
 
 [[files]]
 file = "config/InvTweaks/InvTweaksTree.txt"
-hash = "5dbafa1e67c70c79660a4da7a663fabfda69724ec352f79d5d4ab5e0323368e8"
-
-[[files]]
-file = "config/InvTweaks/InvTweaksTree.txt.bak"
-hash = "5dbafa1e67c70c79660a4da7a663fabfda69724ec352f79d5d4ab5e0323368e8"
+hash = "84319ee6ac848df6d497f0e78d3ae395aa6814588a913a10ed6d923dcd8f8e9e"
 
 [[files]]
 file = "config/InvTweaks/trees/readme.txt"
 hash = "31ae7c835eb7771ce79cda4fadfe7d80b2858177bbbf250822695b39ae091f5d"
-
-[[files]]
-file = "config/InvTweaksRules.txt"
-hash = "b63870bb7b08cb7edb1189dd929ae802a8e7a6857ede3d92055038a5c617bb22"
 
 [[files]]
 file = "config/JustEnoughCalculation/main.cfg"
@@ -95,10 +75,6 @@ hash = "f40ea8135c7a0f598d9548eba85c517d05d3244a94b806261f0521dada8d4a15"
 [[files]]
 file = "config/JustEnoughCharacters.cfg"
 hash = "399b8041ee2c9c610883cfd88990d5870689781b95fb6f44a289ae62bcc5000a"
-
-[[files]]
-file = "config/LogisticsPipes.cfg"
-hash = "e1cf1f39ec5f7daa10b5fd09ca0d8021652944687ab514533b07a0b2398f9e6b"
 
 [[files]]
 file = "config/MobsPropertiesRandomness/MobsPropertiesRandomness.cfg"
@@ -126,7 +102,7 @@ hash = "081814e142c935f474b4cc84e33f8ddd090857843d5a7d0924dd09c17e866f3c"
 
 [[files]]
 file = "config/Universal Tweaks - Bugfixes.cfg"
-hash = "805118e240d65edc6231ea246b5d26d47d05df2ce015333bd26b8109f59aa990"
+hash = "48f8c5dc4ddb5ffec2f536335c83cffb4e4769a028a5c2d24445e2ab042d3253"
 
 [[files]]
 file = "config/Universal Tweaks - General.cfg"
@@ -134,47 +110,27 @@ hash = "779a24626bd05542919d84a1b5af3b55d514ef806e3dc1063e5cec085727bdb7"
 
 [[files]]
 file = "config/Universal Tweaks - Mod Integration.cfg"
-hash = "0fed1785116cb5ece8b57b3b980ad5557268cd6040c83c587880de921c699551"
+hash = "b0e1e5a80dfb36b34c7293f20b12ee1a7158bf6bbc3ab8f1948f49023914a0a7"
 
 [[files]]
 file = "config/Universal Tweaks - Tweaks.cfg"
-hash = "0c3703db47fc8f8d7326f34ca39d98d090c23929937f5dedf95dc79f58e426e2"
+hash = "6bc0cbcfbadf26bfe09bd1148f9210775b60bcf911dff2448d71590c83745877"
 
 [[files]]
 file = "config/acronym/base/General.cfg"
-hash = "284403fb8ca084de78658148274e65c8253e5b49f477aa9ca336bfd01fad2695"
-
-[[files]]
-file = "config/acronym/contenttweaker/General.cfg"
-hash = "59e99a2216d95009e334d8b2c1d2e6c82040ce85d020a645b14c860062ab5dbb"
-
-[[files]]
-file = "config/acronym/material_system.cfg"
-hash = "d975cf66e17733bbb48c559adb304391869815222916a380d9650bbc8524a8f3"
-
-[[files]]
-file = "config/acronym/saved/material_parts_contenttweaker-original.json"
-hash = "048cd0b0ba393c6d1e1e909c9e743c9b31480581aee84807213898fc09b542f5"
-
-[[files]]
-file = "config/acronym/saved/material_parts_contenttweaker.json"
-hash = "048cd0b0ba393c6d1e1e909c9e743c9b31480581aee84807213898fc09b542f5"
-
-[[files]]
-file = "config/acronym/saved/saved_sub_blocks_contenttweaker-original.json"
-hash = "6dbeaef4200242c761dae69ea51495778792a70eadb0957375d7cd07652a3858"
-
-[[files]]
-file = "config/acronym/saved/saved_sub_blocks_contenttweaker.json"
-hash = "6dbeaef4200242c761dae69ea51495778792a70eadb0957375d7cd07652a3858"
+hash = "2394ad548a5017e9666395320528414b28a3b5969c49a88d84a15fa7563a5caa"
 
 [[files]]
 file = "config/actuallyadditions.cfg"
 hash = "39249ee8420525830499775c986dc0309e40708715d5ce0a18868fe864911fbe"
 
 [[files]]
+file = "config/advRocketry/Centrifuge.xml"
+hash = "a7b514eb86691e27ae056edb12f6cb8a1efee998de1cb31e3de69bf228bf7734"
+
+[[files]]
 file = "config/advRocketry/ChemicalReactor.xml"
-hash = "3c87e3db4ccf165a0eadedf822247fa901a7bf627b87f881bd51fb020509a462"
+hash = "3e5ab4f1d4a293d6405d1c18621bb52aa1f64c71f48ca762d835665a47203e92"
 
 [[files]]
 file = "config/advRocketry/Crystallizer.xml"
@@ -182,11 +138,11 @@ hash = "8237ba90732053ef20881dc2e47adab156914d259d3af4de3f66efd829551811"
 
 [[files]]
 file = "config/advRocketry/CuttingMachine.xml"
-hash = "514a5871122e21d133c99027b3125e475c50aacf3038f2ee58ffc5716b8712d9"
+hash = "5c96564904bdcf129498395ec16193a7f06b9865eddcd741bd03eddb245de1aa"
 
 [[files]]
 file = "config/advRocketry/ElectricArcFurnace.xml"
-hash = "3ed91d376aea917726f2d17ee202faf0689b02bb8a8aa78544d7cfb758fafc26"
+hash = "be804bccbb501d933eaadc14fe3c8cd7c817ec81e1414fed27f5ce80c87d88b6"
 
 [[files]]
 file = "config/advRocketry/Electrolyser.xml"
@@ -194,15 +150,19 @@ hash = "59b49aef7613e439ffbc0e3bd0382417d395e6470a97ad59abe8c26432720fdf"
 
 [[files]]
 file = "config/advRocketry/Lathe.xml"
-hash = "bd1e94c2c895cd987dff503fda3c9e0cd73d4c1b14351e0061b32175c617c76e"
+hash = "fe79a9a3892885ef70a44915c4c14dfde3167832e0315a53e65ee0619e265517"
 
 [[files]]
 file = "config/advRocketry/PrecisionAssembler.xml"
-hash = "ad58cc9c89df4f63de26d5b63eb647643043df12e27400bd555ad0b3b795c554"
+hash = "ab5a419e246f774e7c6ca708320b701ff2840531fdd4ec9fcd2e267179c93c1c"
+
+[[files]]
+file = "config/advRocketry/PrecisionLaserEtcher.xml"
+hash = "68546010209712184e1fb37be89275a083d4c6570c8238899a4bd058b8930024"
 
 [[files]]
 file = "config/advRocketry/RollingMachine.xml"
-hash = "fa75de64d05157f66f3ca4d42d149a59654f588c5b494f1b69d5b254ba8c9e4f"
+hash = "434ea65a6d0153a94bb50e327fe1ee8338f8d40071c81c9df0f3de5d34715141"
 
 [[files]]
 file = "config/advRocketry/SmallPlatePress.xml"
@@ -210,11 +170,11 @@ hash = "1f6dbcf7857f2481c5fdab362596705da5cc0d0d07eb8ee2d85bfae1c0f241f0"
 
 [[files]]
 file = "config/advRocketry/advancedRocketry.cfg"
-hash = "9f845a4c799e1fb8a6cf8cf914cd9fd60bcf721a37ab11d901b3b92fc6133adc"
+hash = "41631bde501dc6f03956e9c311eb952b12bb9a7e4e3465ea076c961f719adcef"
 
 [[files]]
 file = "config/advRocketry/asteroidConfig.xml"
-hash = "bca88154702cd6866c82befece0539eb8ac8cc0540bb981b43a732ede25ca75f"
+hash = "1e04e1c93a1bf10f49c37be12d7759b66aae0fec2fc97ff7f5151dd84868d236"
 
 [[files]]
 file = "config/advRocketry/oreConfig.xml"
@@ -230,31 +190,31 @@ hash = "192d955d28edd39dccd4b2b0527347fb1d14a829cb48239aa63c3a6de7dce15e"
 
 [[files]]
 file = "config/apotheosis/deadly.cfg"
-hash = "2706eea1d8e0da65edaa0f9a89835e3d33812ece822819c92a462924faab510d"
+hash = "ed4770f1192230e5a0e4e8bbfda08b6ec9f28945a24586d9bb65b6b6dd68b0f2"
 
 [[files]]
 file = "config/apotheosis/enchantability.cfg"
-hash = "e4408b6e607a681c78033e44d6a9e94087af4aafd484b8bcee3dc1bcbafc3f17"
+hash = "dd34696580dccb942af194dce731dedbaa093a9b4841b37d0317b944894340c9"
 
 [[files]]
 file = "config/apotheosis/enchantment_module.cfg"
-hash = "840c79d3903103df81252402f70438b27768dec75e01bf9065baec73285237d8"
+hash = "9e383f6a3f6444a9eab74489cb8cb71a3da353e152fb0b60936db17d53452c67"
 
 [[files]]
 file = "config/apotheosis/enchantments.cfg"
-hash = "70705b702c02d9a556ab99b8100bf42bfb169703fecf3f72fda63b2d69b7c0ca"
+hash = "d473af90f1f1812f90ffd90a1c4b5bdaf377502fd8e3b75bc2088aa713dd256a"
 
 [[files]]
 file = "config/apotheosis/garden.cfg"
 hash = "97c1a6e555c94ea8845bf34a96b4ca3d887814c274f55bc08a29b7634028c172"
 
 [[files]]
-file = "config/apotheosis/potion.cfg"
-hash = "345c2eea7c7991f981e4402ccf30d0a424f15016b054c83296a735b3dbd06e6e"
+file = "config/apotheosis/names.cfg"
+hash = "a9b20872aa961fca27394c9a0c585f43a438f7999c43d7472ffa0a4bfeaca259"
 
 [[files]]
-file = "config/apotheosis/spawner.cfg"
-hash = "fa649d3298b7743839840840c4b3001e4283a02b6ec13bfa299a6bbe0e441241"
+file = "config/apotheosis/potion.cfg"
+hash = "a81689581dc598ee15cc9277342643232931a61c4408bcf2b019102042b681a1"
 
 [[files]]
 file = "config/appleskin.cfg"
@@ -266,11 +226,11 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/aroma1997/aroma1997sdimension.cfg"
-hash = "a139477c725e76f578ec864c877c17d7f99fb3db1a975467ec097e482e47cc0c"
+hash = "5a47cef78c6b38572cd6d9b90980793dfa89738c8402bc93a2c9226f2bd40f7d"
 
 [[files]]
 file = "config/aroma1997/aroma1997sdimension_gen.json"
-hash = "f55dd79a50ed89e4d27e5301f4addca3a2ada48e4d8c6346fb6c9ce1211e3b62"
+hash = "42f33d793f6e330fd57c6cb4a2c7b4738544ce62fb45e083d412bcfeec262914"
 
 [[files]]
 file = "config/astraladditions.cfg"
@@ -282,11 +242,11 @@ hash = "f63172d31340e6e84b82183592b07f035526644dccba29532f677d613c351cf8"
 
 [[files]]
 file = "config/astralsorcery/aevitas_ore_perk.cfg"
-hash = "07806685335c9ccd337f80db9280c4f9dc58e9f82f41c033cbb211cb847a480a"
+hash = "7be4568d881c9932c7e49cc6e009ce5bcddf7a50ba194f0c7cc5381a1f5abb03"
 
 [[files]]
 file = "config/astralsorcery/amulet_enchantments.cfg"
-hash = "bb967f9f5e2cc7540d4ba61b3e8602cdfccc9beb4e4599b82318721981e30741"
+hash = "b2a5ab90b8cd94f800390c7a6cffbcf9c7b00ee985cb6902f15c596fb56f4ec3"
 
 [[files]]
 file = "config/astralsorcery/fluid_rarities.cfg"
@@ -298,19 +258,23 @@ hash = "bbd5a8ed5e8f2450e0e6998f3db1c681b7fed9cb3e93a1e9b0f6137069752f90"
 
 [[files]]
 file = "config/astralsorcery/mineralis_ritual.cfg"
-hash = "07806685335c9ccd337f80db9280c4f9dc58e9f82f41c033cbb211cb847a480a"
+hash = "7be4568d881c9932c7e49cc6e009ce5bcddf7a50ba194f0c7cc5381a1f5abb03"
 
 [[files]]
 file = "config/astralsorcery/perk_void_trash_replacement.cfg"
-hash = "07806685335c9ccd337f80db9280c4f9dc58e9f82f41c033cbb211cb847a480a"
+hash = "7be4568d881c9932c7e49cc6e009ce5bcddf7a50ba194f0c7cc5381a1f5abb03"
 
 [[files]]
 file = "config/astralsorcery/treasure_shrine.cfg"
-hash = "07806685335c9ccd337f80db9280c4f9dc58e9f82f41c033cbb211cb847a480a"
+hash = "7be4568d881c9932c7e49cc6e009ce5bcddf7a50ba194f0c7cc5381a1f5abb03"
 
 [[files]]
 file = "config/baubles.cfg"
-hash = "a9315b90c46fb0877e462a74e7f3b8c7acabcd7a67bae095aa5908ea6877ec5e"
+hash = "b0ce852bc9eaf583e3a3befb20e5ed7e96a04343f2a5a3540020a2636032a80f"
+
+[[files]]
+file = "config/baubles/slots.json"
+hash = "c2731eeccdedf2e1d600a3fd57c986dcdbaf7b8f7cad601c93024c33830cb3fa"
 
 [[files]]
 file = "config/beneath/beneath.cfg"
@@ -342,7 +306,7 @@ hash = "3d74e093a74223ac74b24809a84f9322c0c08a8dfbc1387b823013391c3bd791"
 
 [[files]]
 file = "config/bibliocraft.cfg"
-hash = "9bd300f347b74d05c38f0636227c67905071da08a23500c940f31a9ee3c5459c"
+hash = "8f3a09d911a6ac012046bf4a58e578a3cb4ffe1cae6c6b2bcc1b5500b9139e33"
 
 [[files]]
 file = "config/bonsaitrees/settings.cfg"
@@ -378,7 +342,7 @@ hash = "47e34dbb156aa0f84f2fa53c597631bf991538a47608ffa83708403fe77126da"
 
 [[files]]
 file = "config/brandon3055/BrandonsCore.cfg"
-hash = "1c166af3c1adf4e9e3f29de526c5468a5c5dd54be0b5fd074dcd39605c1a52a5"
+hash = "09e421625c08b8270040bc58e9af96bd7aa5da5f85865778cf42d8c6fdb9a88d"
 
 [[files]]
 file = "config/brandon3055/CSG/Config.json"
@@ -398,7 +362,7 @@ hash = "fb16c9c548c5a7e4021da7a6fd925bf2b9581507d8ccef1672ddde1d74c64c7f"
 
 [[files]]
 file = "config/brandon3055/DraconicEvolution.cfg"
-hash = "894edd2dc6f3e154a45e023cea69403db3de0690a91630c106d4b32adc1d89aa"
+hash = "ccf7561c211e529eeea121b20acf510ecb7f7544866829dfef33b9315203fb3d"
 
 [[files]]
 file = "config/brandon3055/ProjectIntelligence/GuiConfig.json"
@@ -442,7 +406,7 @@ hash = "01b882fa98bb4e22215cb24c2acc626c0752cf39abc9b2fe19f864cf511ceefb"
 
 [[files]]
 file = "config/chiselsandbits.cfg"
-hash = "ec43c78d6e9604cd863052b9fd60cef3a814ed9ab59eaa552fb058ec37b74048"
+hash = "bc187b56fe29c82d62ffbd3e6c6ed0c1ea8a7be1024580ea42ba6aa74842ae48"
 
 [[files]]
 file = "config/chiselsandbits_clipboard.cfg"
@@ -454,7 +418,7 @@ hash = "d913c0e15ae1c080398255e4b4e565b9583f72f42656367becebdb6d59203dce"
 
 [[files]]
 file = "config/codechicken/supporters.json"
-hash = "17dbbdaf349fe74ceeecfdce8c5e54247ccaf83775749d9194d20d23674540f0"
+hash = "a051785c4b430db9a78722a5dd7c93a2d152f234d2ff5c6c8fecd57206e1dbce"
 
 [[files]]
 file = "config/codechicken/supporters.marker"
@@ -477,30 +441,6 @@ file = "config/cofh/core/friends.cfg"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
-file = "config/cofh/redstonearsenal/client.cfg"
-hash = "2fd8272c69ef35a851d71d0cc8750205f1210f2f724c38c622d258437d9e0a11"
-
-[[files]]
-file = "config/cofh/redstonearsenal/common.cfg"
-hash = "0b8e66d878f9f37810ff5e5278eefd3c02d3bc0827c1344b64b0900d32c622be"
-
-[[files]]
-file = "config/cofh/thermalexpansion/client.cfg"
-hash = "1e5461183d4675ef24d85d2a35c70ca3096cb2ca9602b0477ed58fc56fb5acfd"
-
-[[files]]
-file = "config/cofh/thermalexpansion/common.cfg"
-hash = "097f37afdb455727c1825b130c36609b194d6abd6cf7332e373ddb24dc0d8a60"
-
-[[files]]
-file = "config/cofh/thermalexpansion/florbs.cfg"
-hash = "d95390f69eb180d2597cc1a179c753203201d026738d919fcb7b0f897b69690d"
-
-[[files]]
-file = "config/cofh/thermalexpansion/morbs.cfg"
-hash = "551bed9723515f3d9a41d80d269ec141d36a97d7c551fa42f32212206a8e09a2"
-
-[[files]]
 file = "config/cofh/thermalfoundation/client.cfg"
 hash = "0033114233ce613c785abf4fbe00cb64bfb416665f2c0838a5271ce421ea3e28"
 
@@ -510,7 +450,7 @@ hash = "d2da2d819ce3d6b8289723d33371f3fa32b0984c2373f55c0d1e91fc1e3ac1d2"
 
 [[files]]
 file = "config/cofh/thermalfoundation/lexicon-whitelist.cfg"
-hash = "1ee3ef337f75704de0bf138414e5cdca2f88dbed4164732eb81df9053906d60c"
+hash = "5e8eba132561850945ca795b3ec41c32d1027a2b67d63412cba54324b6a2820d"
 
 [[files]]
 file = "config/cofh/thermalinnovation/client.cfg"
@@ -541,12 +481,8 @@ file = "config/cofh/world/config.cfg"
 hash = "2f8c2e67de4984a4c4a42c890e92697d197fe14fcaf72f9d32805f1c435d3074"
 
 [[files]]
-file = "config/compactmachines3/recipes/FirstArt.json.bak"
-hash = "db8dec09200f6592c009b961673361c1bf969287d0feaf53bfbe4c7259e97be6"
-
-[[files]]
 file = "config/compactmachines3/settings.cfg"
-hash = "e06cfcf6a7b2cfc729a29754c28976ac8e9a4accb298c734d35226c3fa7a7bef"
+hash = "306cfbe7cf598fec42c8b7b306931e4df10c9972a0dabece9d930b51b87e57a5"
 
 [[files]]
 file = "config/craftingstation.cfg"
@@ -569,16 +505,12 @@ file = "config/ctm.cfg"
 hash = "2695969995e5c4d34e6f350bc2bac289b8ab0e80bca9fce098f5e10c370389d6"
 
 [[files]]
-file = "config/discord.cfg"
-hash = "d49ae629cba867bf2cf49d336711d686ca58db5d51076dd974e5337788638357"
-
-[[files]]
 file = "config/endercore/cropconfig.json"
 hash = "f7c71c3da20edeb996b16f4d72709b55ba3f650eb91b0793a4dcefe495c200f3"
 
 [[files]]
 file = "config/endercore/endercore.cfg"
-hash = "a3d7ae1b5f1f8f58a1dd30d65901ed11fc627ae00e4e3c4aad9c2c944bba1c22"
+hash = "936d7078f11ca08466ad13d375d84a2fad24d5121de5ac782e33b051baddbd68"
 
 [[files]]
 file = "config/endercrop.cfg"
@@ -586,7 +518,7 @@ hash = "a2942089bdc198552cc7f17a810fa35de0e3d22c8dc368cead9008130af48c15"
 
 [[files]]
 file = "config/enderio/enderio.cfg"
-hash = "6c36d2a9ee5af89a3fb04ea08de28abb7d4826766507146df77b230e804058ac"
+hash = "3e5e5d47a0a9fa4f50c777b63b38bbecaa11f20c8be7cbdd7d5d77e8cbc431d2"
 
 [[files]]
 file = "config/enderio/enderioconduits.cfg"
@@ -598,19 +530,19 @@ hash = "cd95550f0f9230c283bef4ff57501f6f739a0f72b131ae020233d00cbc51c252"
 
 [[files]]
 file = "config/enderio/enderiointegrationforestry.cfg"
-hash = "b2b939bdf9e2e31dcb49b51fb43e22c61ecdf2b86beb8f42b17c53830a189672"
+hash = "be1a1c219ea12dcaed98567c9a54aba3c54c801a9971b1c9a77e413b7f1fbd73"
 
 [[files]]
 file = "config/enderio/enderioinvpanel.cfg"
-hash = "ed4d7af6b5daba92828cbd7e71ae71891fe0d590411fdbcb5eccb6620c5fb1eb"
+hash = "14dad04c4c45b2c46ae9e5dff07dcff428de65bd97c31604204c9cee5ae6f657"
 
 [[files]]
 file = "config/enderio/enderiomachines.cfg"
-hash = "7897e81f601e7aa514333b1989400b4f86c1ba5c486ff56663f805221ef36c0c"
+hash = "967d1023ed17cfa503d0a67343e2cf16e9aa9ad51d16060e8b6629d43c9b253c"
 
 [[files]]
 file = "config/enderio/enderiopowertools.cfg"
-hash = "e9d80640582d81c907ee378a35c2ec25f5edba4b4dcc394dd3153b455bd53908"
+hash = "75de71bdffb452a98be366701dc6eee584c4799506956fe5e7c4cb5d2102c17d"
 
 [[files]]
 file = "config/enderio/painter_paint_sources_core.xml"
@@ -881,20 +813,16 @@ file = "config/fasterladderclimbing.cfg"
 hash = "ed15b539998fbdc95343a244ba55c0750d71129227e242f24d67a7e01c3c3b48"
 
 [[files]]
-file = "config/fastleafdecay.cfg"
-hash = "fea51d79b962ef69834748da5452b42a9bc7e56df499c5b82ce01106c7d6c8cb"
-
-[[files]]
 file = "config/findme.cfg"
 hash = "398c005f211151f3de851f71f7a1a589df3edb3a3db30a997f5b147871d00334"
 
 [[files]]
-file = "config/flux_networks.cfg"
-hash = "36acc6ec6468672722dc4b2b2ac45ce0524793b34519891427800064a9eda152"
+file = "config/flare/flare.cfg"
+hash = "01b576423d32113a356e7f9e67eb11044bcca731f02f37d0f62dd728f7dced8c"
 
 [[files]]
-file = "config/foamfix.cfg"
-hash = "60833965965cf93994cb6b326dd883b9b17ac4a14312369e1811a56d274552ee"
+file = "config/flux_networks.cfg"
+hash = "36acc6ec6468672722dc4b2b2ac45ce0524793b34519891427800064a9eda152"
 
 [[files]]
 file = "config/forge.cfg"
@@ -6354,19 +6282,15 @@ hash = "99a4abdf45e283c112c3d7f144619c7dbc6c44547962737dd4188503a75138f9"
 
 [[files]]
 file = "config/ftbutilities.cfg"
-hash = "1501e35753413be54cbef43ef27cb6ffe62f5e04d44dd6579b1b4a98a48ed5b1"
+hash = "e4e97e4ac7d1816aed9997f42016094e8fe85cd5f5375b4e4874be1db92ebb0d"
 
 [[files]]
 file = "config/fugue.cfg"
 hash = "b6fa36d9b769a8ca173961c837d902e69ed99af9ccc50af5ca3f7c2a44ba7c1b"
 
 [[files]]
-file = "config/funkylocomotion.cfg"
-hash = "effbaf1fea40e9b4e07981a56ec6923c029cdecc04957cd88be1fc9430b2802c"
-
-[[files]]
-file = "config/future-mc/future-mc.cfg"
-hash = "330c6580eccb602db2759360e268b0ccc5a8932f88d69d2caf285182333d0259"
+file = "config/futuremc/futuremc.cfg"
+hash = "e19e6eb6d4b02cbe113ebdfa64cdeabeb75e0f86d5f3690c9df30813e4e37a83"
 
 [[files]]
 file = "config/gcyl.cfg"
@@ -6378,11 +6302,11 @@ hash = "dc111bc6fc81ffc8d8672361d9004a6c6202a4d1c8c5862154f1fb4041df212a"
 
 [[files]]
 file = "config/gregicprobe.cfg"
-hash = "9b65d9431a3861a762b93d6438114c6d7cfeae719b7f69a8e8f591bf456cf16e"
+hash = "b495e79cf7024961f42231ba94e95117282e0b19f3c1381cccd755db4da29915"
 
 [[files]]
 file = "config/gregtech.cfg"
-hash = "90ec04f521011c838813241eb672b70802adb513b97578dc7f2a50d4c0095147"
+hash = "bba8a58f5ff72bbfeafe5192993a2546ce9de6327fa7305a59db3a306a80538d"
 
 [[files]]
 file = "config/gregtech/dimensions.json"
@@ -6391,38 +6315,6 @@ hash = "ddc8752ba37c35ed34f9941b83475d25f9b0868032e9dc48a994643804dd041d"
 [[files]]
 file = "config/gregtech/forestry_integration.cfg"
 hash = "4a2a2d6322a6e85cfb251ac61fb87f6fa8e8313f57be51b964a6103d6fe63ed1"
-
-[[files]]
-file = "config/gregtech/ga_worldgen"
-hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
-
-[[files]]
-file = "config/gregtech/ga_worldgen_10"
-hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
-
-[[files]]
-file = "config/gregtech/ga_worldgen_2"
-hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
-
-[[files]]
-file = "config/gregtech/ga_worldgen_5"
-hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
-
-[[files]]
-file = "config/gregtech/ga_worldgen_6"
-hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
-
-[[files]]
-file = "config/gregtech/ga_worldgen_7"
-hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
-
-[[files]]
-file = "config/gregtech/ga_worldgen_8"
-hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
-
-[[files]]
-file = "config/gregtech/ga_worldgen_9"
-hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
 file = "config/gregtech/gregtech.cfg"
@@ -6434,7 +6326,7 @@ hash = "d28cdf076ecba261f9c4426ae1c7154f15ccf736213c7a04f54ab4b872758717"
 
 [[files]]
 file = "config/gregtech/persistent_data.dat"
-hash = "d6ffa85758442cacb6fc5082c56511d41dd0ab7d04729e464326f0aff2684455"
+hash = "5a8d1f8876f52102809cd586219892d054ea8bec87c5523c5a10cc872e276db6"
 
 [[files]]
 file = "config/gregtech/worldgen/Coal asteroid/Heavy_oil_sphere.json"
@@ -6679,10 +6571,6 @@ hash = "069f9a65cee1d290b812dfea55a80d4e7e755624ea38e5e8b8ecdc0b4395b7d7"
 [[files]]
 file = "config/gregtech/worldgen/fluid/overworld/sea_water_deposit.json"
 hash = "aef38192979e2cedff7c10efd679ec930a9e517a6be51a50f126979a9631985d"
-
-[[files]]
-file = "config/gregtech/worldgen/gt_replaced"
-hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
 file = "config/gregtech/worldgen/nether/Chalcopyrite_vein.json"
@@ -7089,10 +6977,6 @@ file = "config/gregtech/worldgen/vein/overworld/sapphire_vein.json"
 hash = "a9a6f48d3f31e6398d5829cd5ee986498307f25979985afc82beb8a8c809640d"
 
 [[files]]
-file = "config/gregtech/worldgen_extracted"
-hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
-
-[[files]]
 file = "config/gregtech/worldgen_extracted.json"
 hash = "c546ad832791db6889e41edc4d3dc0cf59dbeaf6f94d9d8dbd611748274368a6"
 
@@ -7103,10 +6987,6 @@ hash = "2dfb9d5e450ecb8e5b920b4ffda8804f72be15f857309e8659dd2f89ecb265aa"
 [[files]]
 file = "config/groovyscript.cfg"
 hash = "dad45b74a021a4f2c92de14e12fabb7613182b109593d579fbbdbd6a4b51fe70"
-
-[[files]]
-file = "config/gtadditions.cfg"
-hash = "af497121b18b1e956143ebb569f0d20aa9ac52ee35c5f6453c1d4b585302e984"
 
 [[files]]
 file = "config/ironbackpacks/blacklist.json"
@@ -7134,23 +7014,19 @@ hash = "794d3b507751aa7902f787ef401966b2d5cb617253f428db81588c545330b014"
 
 [[files]]
 file = "config/jei/itemBlacklist.cfg"
-hash = "41ab5806db8d5e1c3ce04d36dc8564cc8a21d33dcc0945b3903df0f2a9c68d86"
+hash = "85600d199001b191af076a173bc9e6fe9095027a6c9486e108123b38eb6a55d1"
 
 [[files]]
 file = "config/jei/jei.cfg"
-hash = "e77e5550c9bc6b17a7f1c0f2e7c68f7aeee05c7828ded74d32551a4debc68a12"
+hash = "335941fcda032d9581b9045e262a8e1e0e44467a75e6487ac299c65d4461798d"
 
 [[files]]
 file = "config/jei/searchColors.cfg"
-hash = "4778e8b2d6b384ac6d52c7ceea96735c62c15bfe80a60e17db76f9f49b4eb8e5"
+hash = "aa2d125660ad731dff9aec92c745a6947e204dba56ecc95d6907f1883d26ec33"
 
 [[files]]
 file = "config/jei/worldSettings.cfg"
-hash = "cd71bd94c1d23ac1d4c4372cbcff648b579a794595ecbd72b6102ad9c96b8c39"
-
-[[files]]
-file = "config/jei/worldSettings.cfg_20201018_015214.errored"
-hash = "f9a8c9b949a6f1bb9a980b9575944abeaeac8907c22d7386c95909c67e11982a"
+hash = "8073a4aada266d26838897a31df3a464fd377e962a9b6b303c273ea2a99de533"
 
 [[files]]
 file = "config/jeiutilities/jeiutilities.cfg"
@@ -7159,10 +7035,6 @@ hash = "a0f234cca139bf470e246bbef12fd9aebd42252d383451d95f5ca0c9bf182bc8"
 [[files]]
 file = "config/jeresources/jeresources.cfg"
 hash = "89a554fa03284ed83867e2876bcebc7a2ff80e915d6bfa6938bda51d4894ea57"
-
-[[files]]
-file = "config/journeymap_ModInfo.cfg"
-hash = "9d3a6885d8dc72126435835fe6a66bfa3c781788f00776e13866a32c41a031bb"
 
 [[files]]
 file = "config/journeymap_server.cfg"
@@ -7178,7 +7050,7 @@ hash = "abf3b2584b32860c8f53fd540932c61e9bebed89a6c05a977668d3d5d914e3e9"
 
 [[files]]
 file = "config/libvulpes.cfg"
-hash = "3aa9888f17f974d85169bd35f9026cc8ceff74269b53602dd85aa495d8d7d748"
+hash = "7669ba1839e3e6a87c1ad964cb6d4b3fa328c2fe9ad515c04ba92935ad967f91"
 
 [[files]]
 file = "config/littletiles-client.json"
@@ -7190,15 +7062,11 @@ hash = "9628d97926812aedf1da4152917ed760785f8140c9e36d20bdb23eaa07d90ce3"
 
 [[files]]
 file = "config/loliasm.cfg"
-hash = "57afed16611793f12bfa84ca381c91413b70e0c15779177939ac0f0627648b55"
+hash = "fea0f198376bb4c0ab4adea2d74cc90cf90597436cf07b320efa5bc0ca63a8a4"
 
 [[files]]
 file = "config/loliasm/methods-stable_39.csv"
 hash = "0a583eb8a8f4e8f797e965fdecb5d72ec4d33fc7e8d6002a82a4e62d35abe9c2"
-
-[[files]]
-file = "config/loottweaker.cfg"
-hash = "fe9f7d618cc0df99aa25965aa00ea3e720151d446d8251ae8db8e28599dc83e8"
 
 [[files]]
 file = "config/lunatriuscore.cfg"
@@ -7211,10 +7079,6 @@ hash = "1a1c6b49ed6489fdb5e034be89d494405a7d9a66a656ba870cbaf24e2121d45d"
 [[files]]
 file = "config/materialreplication.cfg"
 hash = "addc6b4536cfcd21b1b00a8d6de0c6d6262582145e1ac87a6ac3e3d4ddcdb5b5"
-
-[[files]]
-file = "config/mechtech.cfg"
-hash = "b1d0d6e9109d3a805ddc01da453e1ce43341f7ff344feee7796e1c49c9c046ba"
 
 [[files]]
 file = "config/modularui.cfg"
@@ -7258,7 +7122,7 @@ hash = "d7bc152b73a63abff66084d96c8ba19af9e35f459054f21a8dd08308c4a1f8c3"
 
 [[files]]
 file = "config/opencomputers/settings.conf"
-hash = "217517dc381196b76a40ee69180c03b956436e1777cd27cef596540d1cb55341"
+hash = "01c2eece19ef1480a0c64fe3fcc07e26ee33824a43b42981b2ba3f4cbce2988a"
 
 [[files]]
 file = "config/opencomputers/user.recipes"
@@ -7270,11 +7134,11 @@ hash = "6ba1aa3425fbfd025456b54bbcd822bcf349f825ef75e07bb840146727cbe3a4"
 
 [[files]]
 file = "config/packagedauto.cfg"
-hash = "09888dc456c1404653d893c812cae23abd8df6f3cd214eaa0312a8cec98dfab9"
+hash = "0180a1f44c112baa8371edd35d584c187f87a121f018eba5c4c1eb918b5ba608"
 
 [[files]]
 file = "config/placebo.cfg"
-hash = "0628351b50b1e0c6523dcf0a4ee6a12c8123963ed84bd42c3f1ac504b6bddb22"
+hash = "77919b9509541ecf9882c91cd6b73b8e2c31b8b2f7157275c0ad6b8e25fe769b"
 
 [[files]]
 file = "config/randomthings.cfg"
@@ -7282,7 +7146,7 @@ hash = "d46f536936167e0af637d8488479c2fd0c7a98ba36c57217c6a2aba8202a1f32"
 
 [[files]]
 file = "config/randomtweaks/randomtweaks.cfg"
-hash = "69811584446c72940d6b76f67df4caf1dbeaef9b8f6062a80575b9d63db99eeb"
+hash = "22d99824e54a420932b7ac3bfa1f0fe2554469af1bb1a25bb28c1fe0864bdd86"
 
 [[files]]
 file = "config/resize/resize.cfg"
@@ -7290,7 +7154,7 @@ hash = "ce4a97be6d0581fd016b9a1a5db208842d14f265b908ce2b13d6bfc4c30017db"
 
 [[files]]
 file = "config/scannable.cfg"
-hash = "88b3fdf13e19da0272c0270e0d2ffcf8310b2c290b1a5f988477eb6804dad651"
+hash = "05d4d3ae3c24c66310b2e1e1e9f2d38c941eff35e1334698909bdffeebe4463b"
 
 [[files]]
 file = "config/scavenge/config.cfg"
@@ -7313,20 +7177,12 @@ file = "config/simplevoidworld.cfg"
 hash = "9d1b652da13967db36d0518966c4db92b84f47cb573a1e182c3f26f02726a67d"
 
 [[files]]
-file = "config/simplyjetpacks-client.cfg"
-hash = "63586360ed54fa93b189c4de3f8d227b1724642d5df564b867e6c290a07b062d"
-
-[[files]]
-file = "config/simplyjetpacks.cfg"
-hash = "3c141519aef92c8569f3a8e602270aea0891111f6b876769f23c0ff370da04a2"
-
-[[files]]
 file = "config/snad.cfg"
 hash = "e30f8f43574957910bb41e19569f652518545fa09dbe54568ca006fa75fa6b32"
 
 [[files]]
 file = "config/splash.properties"
-hash = "df27b9bac160095a0a1179bb4b7ce9f175c70dafb2c9f28dd2fd0ba22e3041ba"
+hash = "d10b0efd6e248bfdead38a4367c9126029e23bc718dc19771107c1b318f60588"
 
 [[files]]
 file = "config/stellar_core.cfg"
@@ -7334,7 +7190,7 @@ hash = "2a217761df09cef2b90183f1c5003cd170f6d4b9ede942762f50dae7bc1a48d2"
 
 [[files]]
 file = "config/storagedrawers.cfg"
-hash = "02826cf6134b90adb8b2c3a674a170f9a24b2a3198589c7a4f65b436038e5c15"
+hash = "eff34515f2c4d24d7a22bf76463fbb7a4571e6603edda14da3b445eb912f8758"
 
 [[files]]
 file = "config/supercritical.cfg"
@@ -7346,7 +7202,7 @@ hash = "14c90e3df066ad20d4ae0372f72b8c1b175bcf6cc15636ae42a01e47fd229bd9"
 
 [[files]]
 file = "config/teamreborn/configData.nbt"
-hash = "f00a5ba8acec0aaf02b707e23d1c7968d8768e2a1caee94e842995630e59a10e"
+hash = "4a401e424d122b6ef71bd89cf48b8440f079fbdb90c21576f9d7507bd0016bac"
 
 [[files]]
 file = "config/teamreborn/reborncore/client.cfg"
@@ -7370,11 +7226,7 @@ hash = "15cb9cf9e02d6fde193b0fa8dd1e924f9fe752b370a76aebbc4a788e73410e54"
 
 [[files]]
 file = "config/theoneprobe.cfg"
-hash = "c18cec446d5bb93da2bc841c15bccd46091b1567f2611afca0ba3e536bdd6d9d"
-
-[[files]]
-file = "config/toastcontrol.cfg"
-hash = "45f5fbced3b98103513288df2ef1808e89699c42f1e4b9d5e1ecfec38bd72449"
+hash = "17257c97acc337735ea1ad97da2a2bd341dc56264ac115e167c97b4786058cd5"
 
 [[files]]
 file = "config/tombmanygraves.cfg"
@@ -7393,24 +7245,12 @@ file = "config/torchmaster.cfg"
 hash = "dc780199da0a1a99998773e91508d3cfe82adab4ea9979860b1f3534ced66a19"
 
 [[files]]
-file = "config/vanillafix/config_version"
-hash = "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
-
-[[files]]
-file = "config/vanillafix/methods-stable_39.csv"
-hash = "0a583eb8a8f4e8f797e965fdecb5d72ec4d33fc7e8d6002a82a4e62d35abe9c2"
-
-[[files]]
 file = "config/variegated.cfg"
 hash = "a802f6d5209750acb05a29aa393bdba5daf4d0d053ea9c307b3964677eb549cd"
 
 [[files]]
 file = "config/vintagefix.properties"
 hash = "d16ddd9330fe4e3eaca3c4bea8e0f664fb8945af0a2894eea57c5a88752fe529"
-
-[[files]]
-file = "config/worldstripper.cfg"
-hash = "fc7d8e39f26e81052957bb29eafeb8f0f9582fff41a055055969b9a311e9334e"
 
 [[files]]
 file = "config/xtones.cfg"
@@ -7431,6 +7271,18 @@ hash = "dc3554de50ed31aaa5270de923d4cb9df80c612290355dde8d6b6c5397f4dbda"
 [[files]]
 file = "manifest.json"
 hash = "2c54956f33674b541f49ff54eb6e50e0ae6c21084887edaa7858c584641348bb"
+
+[[files]]
+file = "mods/GregicalityMultiblocks-1.3.jar"
+hash = "92ca264e5424ad77cf064705a8557f36c496577a96c3f8e1c532e375553f74df"
+
+[[files]]
+file = "mods/MaterialReplication-1.3.0-pre1.jar"
+hash = "8310e4fc7d7c74c99e19b8bbc26d100206566142a087ba60e1188d888c7487fd"
+
+[[files]]
+file = "mods/Supercritical-0.0.2.jar"
+hash = "f3b082146c2043a9cd7acf2f798dfd98ccc2b7068b13eccb0a602c88af32c712"
 
 [[files]]
 file = "mods/actually-additions.pw.toml"
@@ -7778,14 +7630,8 @@ hash = "3b0fdf57e37ea8839a4665c740e28816dc9b37b74929f444b8497de787b30a50"
 metafile = true
 
 [[files]]
-file = "mods/gcyl-ceu.pw.toml"
-hash = "fafd2b419f46a97ef6dff8a0097f310c1390b3bf28a8c0698a0e64d7cec5d6da"
-metafile = true
-
-[[files]]
-file = "mods/gcym.pw.toml"
-hash = "2dc1a9228f2394b5168200d187295acc743aaa7425aee5374815e31e868adf80"
-metafile = true
+file = "mods/gcyl-ceu-0.1.0.jar"
+hash = "3b249db46c6b0994d667f74778140055d63c7e1177688cf06e93012c356bef31"
 
 [[files]]
 file = "mods/graduated-cylinders.pw.toml"
@@ -7798,9 +7644,8 @@ hash = "432306979c0efaea3cddcd38200866afdc8125c4f794dcb47dac689fe5ef6338"
 metafile = true
 
 [[files]]
-file = "mods/gregtech.pw.toml"
-hash = "059bc040abb4635c65a85db48dbac2a45fc50c342fb5a6907f7981e53c346c11"
-metafile = true
+file = "mods/gregtech-1.12.2-2.9.0-beta.jar"
+hash = "7763bcfcc55d2179ab0bbea4df60fcc78adc77b11a86a01f7cdb028a6f49433b"
 
 [[files]]
 file = "mods/groovyscript.pw.toml"
@@ -7920,11 +7765,6 @@ metafile = true
 [[files]]
 file = "mods/mantle.pw.toml"
 hash = "3b5ef81c27805786f2b7e53d12bbb5a7a9ec8eacf8c005dd3f657f731480796a"
-metafile = true
-
-[[files]]
-file = "mods/materialreplication.pw.toml"
-hash = "00900bf8468f307abe97907412f528344439b9bebef996b4492997a22bc61142"
 metafile = true
 
 [[files]]
@@ -8088,11 +7928,6 @@ hash = "5658fb3fc745ba472457092404524f95fecfbf4cd3e09ddb7d1990d9d8aa7480"
 metafile = true
 
 [[files]]
-file = "mods/supercritical.pw.toml"
-hash = "9cb547deb45c6bf884e8d9172ef7266e34ed47a74079b1efd8e606cba20af569"
-metafile = true
-
-[[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
 hash = "dd3da3ca6c83e6994a0e7e3df3403f8b52c0a802b96ba4091ec2d7ea0a83b114"
 metafile = true
@@ -8175,18 +8010,6 @@ file = "resources/contenttweaker/blockstates/draconiccasing.json"
 hash = "0cd3c8e73af378ff2605a57072ace1de2f4db66736ac96c1b22f3a09dba9b4ba"
 
 [[files]]
-file = "resources/contenttweaker/blockstates/eternityblock.json"
-hash = "5c9d3d5e5fcecabd0717b844cca8dac4f0d28cfece74461e728b66fab74df485"
-
-[[files]]
-file = "resources/contenttweaker/blockstates/soulcasing.json"
-hash = "ac8205b56d19fdfb901c7d8b24f33a8718b9b9102ddcc1e2c199afd67b67e0fe"
-
-[[files]]
-file = "resources/contenttweaker/lang/en_us.lang"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
 file = "resources/contenttweaker/models/item/SteamCircuit.json"
 hash = "503da953513aaacda2667ebbafc6674ca2efbc748007fc5c5e23b19aba17885c"
 
@@ -8201,18 +8024,6 @@ hash = "565ee02ab2c869c35be20078a6ad3018d9c4f0778d6b2ea2a607c153c7a60966"
 [[files]]
 file = "resources/contenttweaker/models/item/certificate_of_being_a_noob.json"
 hash = "40b63db9dacdcce171704105f7c66274720cd0d7035c6d2f938cb09a53bd13b1"
-
-[[files]]
-file = "resources/contenttweaker/models/item/eternitycrystal.json"
-hash = "9aa426796ddfbc1581f7f11f033d250148e0a88bb32c15e0f4b7df7b15e9feda"
-
-[[files]]
-file = "resources/contenttweaker/models/item/eternityingot.json"
-hash = "02d4792f93802fd3e4141cb55026f29762ff4049553ea4aca8414cd97fdf1d6b"
-
-[[files]]
-file = "resources/contenttweaker/models/item/infintycrystal.json"
-hash = "57f87efa8c5bbae2737de1dc8314f0e2198bff2755dfd5a56ae3a6d1300876a4"
 
 [[files]]
 file = "resources/contenttweaker/models/item/refinedchaoscrystal.json"

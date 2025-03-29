@@ -1,12 +1,12 @@
-name = "Technological Journey"
-author = "Technological Journey Dev team"
-version = "1.2.3"
+name = "Technological Journey CEu"
+author = "Pixdane"
+version = "0.0.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "4f04c637d209f68e6efa403283160c7f9142a7eb1ae57edc94b09452117abebe"
+hash = "aae0513a12b37defc8eb0676b11617a1927e5a7729997121012924ddaea4d692"
 
 [versions]
 forge = "14.23.5.2860"

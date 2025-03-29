@@ -1,7 +1,0 @@
-name = "materialreplication"
-filename = "MaterialReplication-1.3.0-pre1.jar"
-
-[download]
-url = "https://github.com/Synthitic/GCYL-CEu/releases/download/0.1.0-beta-testing/MaterialReplication-1.3.0-pre1.jar"
-hash-format = "sha256"
-hash = "8310e4fc7d7c74c99e19b8bbc26d100206566142a087ba60e1188d888c7487fd"
