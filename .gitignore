@@ -100,3 +100,13 @@ config/scavenge/config.cfg
 config/teamreborn/configData.nbt
 local/client/ftblib.cfg
 local/client/ftbutilities.cfg
+config/advRocketry/Lathe.xml
+config/advRocketry/PrecisionAssembler.xml
+config/advRocketry/RollingMachine.xml
+config/cofh/thermalfoundation/lexicon-whitelist.cfg
+config/advRocketry/SmallPlatePress.xml
+config/advRocketry/ChemicalReactor.xml
+config/advRocketry/Crystallizer.xml
+config/advRocketry/CuttingMachine.xml
+config/advRocketry/ElectricArcFurnace.xml
+config/advRocketry/Electrolyser.xml
