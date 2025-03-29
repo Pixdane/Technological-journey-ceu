@@ -1,0 +1,13 @@
+name = "Baubles-LTS"
+filename = "Baubles-1.12.2-1.0.6.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b78b09ace2e2f4d22d9123841f72bc7b8165a54c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3916343
+project-id = 655747
