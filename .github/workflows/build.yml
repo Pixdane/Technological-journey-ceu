@@ -35,7 +35,7 @@ jobs:
         run: |
           go install github.com/packwiz/packwiz@latest
       
-      - name: Build Curseforge Package
+      - name: Build Curseforge modpack
         run: |
           mkdir build
           packwiz curseforge export --output build/output.zip
@@ -44,14 +44,14 @@ jobs:
         run: |
           unzip build/output.zip -d build/output
       
-      - name: Upload package
+      - name: Upload modpack
         uses: actions/upload-artifact@v4.3.3
         with:
-          name: Technological-Journey-CEu-${{github.sha}}
+          name: Technological-Journey-CEu-$(git rev-parse --short ${{ github.sha }})
           # A file, directory or wildcard pattern that describes what to upload
           path: build/output
       
-      - name: release-downloader
+      - name: Download Cleanroom
         uses: robinraju/release-downloader@v1.12
         with:
           repository: 'CleanroomMC/Cleanroom'
@@ -60,10 +60,15 @@ jobs:
           out-file-path: 'build/Cleanroom'
           extract: true
           token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Add Cleanroom for modpack
+        run: |
+          cd build/Cleanroom
+          mv libraries patches mmc-pack.json -t ../output
 
       - name: Upload Cleanroom version
         uses: actions/upload-artifact@v4.3.3
         with:
-          name: Technological-Journey-CEu-Cleanroom-${{github.sha}}
+          name: Technological-Journey-CEu-Cleanroom-$(git rev-parse --short ${{ github.sha }})
           # A file, directory or wildcard pattern that describes what to upload
           path: build/output
