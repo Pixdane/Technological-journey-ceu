@@ -4,11 +4,11 @@
 	dependencies: [
 		"083c7068"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "51721536",
 		type: "checkmark",
 		title: "4x Gold Alloy Ingot",
-		icon: "gregtech:meta_item_1 1 10828"
+		icon: "gcyl:meta_ingot 1 160"
 	}]
 }

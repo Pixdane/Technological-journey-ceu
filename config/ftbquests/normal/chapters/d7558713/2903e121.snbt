@@ -11,7 +11,7 @@
 		uid: "cba41028",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 2870"
+			item: "gcyl:meta_dust 1 1049"
 		}]
 	}]
 }

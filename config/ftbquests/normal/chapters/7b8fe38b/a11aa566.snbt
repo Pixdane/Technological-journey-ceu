@@ -6,7 +6,7 @@
 		"cbe0b556",
 		"cac7b3cd"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "f85d217c",
 		type: "item",

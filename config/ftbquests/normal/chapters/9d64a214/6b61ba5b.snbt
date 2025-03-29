@@ -8,7 +8,7 @@
 		uid: "8084814a",
 		type: "item",
 		items: [{
-			item: "gregtech:wire_coil 1 8"
+			item: "gregtech:fusion_casing 1 1"
 		}],
 		count: 32L
 	}]

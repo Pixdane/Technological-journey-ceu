@@ -1,0 +1,13 @@
+{
+	x: 1.5d,
+	y: 9.0d,
+	dependencies: [
+		"a82c6838"
+	],
+	tasks: [{
+		uid: "4f2833e8",
+		type: "checkmark",
+		title: "7x Tungsten Hexachloride Dust",
+		icon: "gcyl:meta_dust 1 1045"
+	}]
+}

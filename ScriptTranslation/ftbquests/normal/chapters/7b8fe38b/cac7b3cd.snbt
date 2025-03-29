@@ -1,0 +1,14 @@
+{
+	x: 9.5d,
+	y: -1.0d,
+	dependencies: [
+		"fc605ccc"
+	],
+	tasks: [{
+		uid: "edd7eded",
+		type: "item",
+		items: [{
+			item: "gcyl:meta_dust 1 164"
+		}]
+	}]
+}

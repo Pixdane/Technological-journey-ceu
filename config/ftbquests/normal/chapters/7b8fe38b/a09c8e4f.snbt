@@ -4,7 +4,7 @@
 	text: [
 		"This can be used to pick up the ores that go everywhere when you mine with the hammer. However, you are relatively close to being finished with manual mining altogether."
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "fc42c2c3",
 		type: "item",

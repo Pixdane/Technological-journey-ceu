@@ -1,0 +1,15 @@
+{
+	x: 15.5d,
+	y: 3.0d,
+	dependencies: [
+		"7db1c244",
+		"5f15163f"
+	],
+	tasks: [{
+		uid: "b2b18139",
+		type: "item",
+		items: [{
+			item: "gcyl:meta_ingot 1 1"
+		}]
+	}]
+}

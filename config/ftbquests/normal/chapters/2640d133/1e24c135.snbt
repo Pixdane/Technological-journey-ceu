@@ -10,7 +10,7 @@
 	tasks: [{
 		uid: "4a9beac6",
 		type: "checkmark",
-		icon: "gregtech:ore_uranium_radioactive_0"
+		icon: "gregtech:ore_uranium_0"
 	}],
 	rewards: [{
 		uid: "08f285e0",

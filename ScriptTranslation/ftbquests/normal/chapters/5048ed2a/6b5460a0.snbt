@@ -1,0 +1,13 @@
+{
+	x: 2.5d,
+	y: 7.0d,
+	dependencies: [
+		"19d5cd1c"
+	],
+	tasks: [{
+		uid: "de6073d0",
+		type: "checkmark",
+		title: "Tungsten Trioxide Dust",
+		icon: "gcyl:meta_dust 1 654"
+	}]
+}

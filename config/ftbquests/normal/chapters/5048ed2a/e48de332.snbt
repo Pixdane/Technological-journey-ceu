@@ -8,7 +8,7 @@
 		uid: "b2b96586",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 14051"
+			item: "gregtech:meta_stick 1 80"
 		}],
 		count: 4L
 	}]

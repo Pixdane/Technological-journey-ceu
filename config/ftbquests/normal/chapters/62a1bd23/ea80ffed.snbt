@@ -7,14 +7,14 @@
 	dependencies: [
 		"312e3e54"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "d4db96b2",
 		type: "item",
 		items: [{
 			item: "magicfeather:magicfeather"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

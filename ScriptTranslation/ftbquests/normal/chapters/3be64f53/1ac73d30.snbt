@@ -1,0 +1,17 @@
+{
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "benzoyl_peroxide",
+			Amount: 1000
+		}
+	},
+	x: -2.5d,
+	y: 0.5d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "803dcb76",
+		type: "checkmark",
+		title: "Benzoyl Peroxide"
+	}]
+}

@@ -55,7 +55,7 @@
 		uid: "2b799f63",
 		type: "item",
 		items: [{
-			item: "gregtech:machine_casing 1 10"
+			item: "gregtech:steam_casing"
 		}],
 		count: 8L
 	}]

@@ -1,0 +1,17 @@
+{
+	x: 3.5d,
+	y: -3.0d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "c6a325a0",
+		type: "checkmark",
+		title: "Hexafluoropropylene",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "hexafluoropropylene",
+				Amount: 1000
+			}
+		}
+	}]
+}

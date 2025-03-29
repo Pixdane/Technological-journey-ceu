@@ -17,7 +17,7 @@
 	rewards: [{
 		uid: "5ec1524a",
 		type: "item",
-		item: "gregtech:meta_item_1 1 2852",
+		item: "gcyl:meta_dust 1 21",
 		count: 32
 	}]
 }

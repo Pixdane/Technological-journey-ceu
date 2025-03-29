@@ -5,6 +5,6 @@
 		uid: "a6bcdcd8",
 		type: "checkmark",
 		title: "Darmstadtium",
-		icon: "gregtech:meta_item_1 1 10043"
+		icon: "gregtech:meta_ingot 1 27"
 	}]
 }

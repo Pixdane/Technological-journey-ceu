@@ -1,0 +1,12 @@
+{
+	x: -3.0d,
+	y: -6.5d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "2656e3f9",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_dust 1 73"
+		}]
+	}]
+}

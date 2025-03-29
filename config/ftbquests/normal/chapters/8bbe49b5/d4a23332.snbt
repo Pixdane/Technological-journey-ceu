@@ -10,7 +10,7 @@
 		items: [{
 			item: "advancedrocketry:spacehelmet"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
@@ -19,7 +19,7 @@
 		items: [{
 			item: "advancedrocketry:spacechestplate"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
@@ -28,7 +28,7 @@
 		items: [{
 			item: "advancedrocketry:spaceleggings"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
@@ -37,13 +37,13 @@
 		items: [{
 			item: "advancedrocketry:spaceboots"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "bb89474c",
 		type: "item",
-		item: "gregtech:meta_item_1 1 2183",
+		item: "gregtech:meta_dust 1 323",
 		count: 8
 	}]
 }

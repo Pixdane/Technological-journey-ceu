@@ -15,7 +15,7 @@
 	rewards: [{
 		uid: "0c0cf65e",
 		type: "item",
-		item: "gregtech:meta_item_2 1 32498",
+		item: "gregtech:meta_item_1 1 644",
 		count: 4
 	}]
 }

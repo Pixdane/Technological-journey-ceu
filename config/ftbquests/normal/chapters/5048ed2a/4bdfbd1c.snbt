@@ -13,7 +13,7 @@
 		"d200fb90",
 		"fdaf832a"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "134ac695",
 		type: "item",
@@ -28,7 +28,7 @@
 			item: "gtadditions:ga_transparent_casing 1 1"
 		}],
 		count: 64L,
-		consume_items: false
+		consume_items: 0b
 	},
 	{
 		uid: "99e0bce2",
@@ -57,7 +57,7 @@
 		uid: "37b1f086",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 32734"
+			item: "gregtech:meta_item_1 1 306"
 		}]
 	}],
 	rewards: [{

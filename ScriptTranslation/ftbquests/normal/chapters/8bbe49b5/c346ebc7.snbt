@@ -1,0 +1,17 @@
+{
+	x: 3.0d,
+	y: -4.5d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "0856d49f",
+		type: "checkmark",
+		title: "Ammonia Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "ammonia",
+				Amount: 1000
+			}
+		}
+	}]
+}

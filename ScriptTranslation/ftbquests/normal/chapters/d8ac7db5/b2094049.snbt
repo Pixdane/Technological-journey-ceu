@@ -1,0 +1,47 @@
+{
+	x: 5.0d,
+	y: 2.0d,
+	dependencies: [
+		"6bbcdd91",
+		"bf5e4fc3"
+	],
+	tasks: [{
+		uid: "09a53d27",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2505"
+		}]
+	},
+	{
+		uid: "d6c758f2",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_fusion_casing 1 2"
+		}],
+		count: 32L
+	},
+	{
+		uid: "d688ea0c",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 774"
+		}],
+		count: 16L
+	},
+	{
+		uid: "4fa52994",
+		type: "item",
+		items: [{
+			item: "gregtech:fusion_casing 1 3"
+		}],
+		count: 64L
+	},
+	{
+		uid: "9bea7f5d",
+		type: "item",
+		items: [{
+			item: "gregtech:fusion_casing 1 3"
+		}],
+		count: 15L
+	}]
+}

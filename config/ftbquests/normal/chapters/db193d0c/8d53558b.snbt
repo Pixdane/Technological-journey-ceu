@@ -11,6 +11,6 @@
 				Amount: 1000
 			}
 		}],
-		ignore_damage: true
+		ignore_damage: 1b
 	}]
 }

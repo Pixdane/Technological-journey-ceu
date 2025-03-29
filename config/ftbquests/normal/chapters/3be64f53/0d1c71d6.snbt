@@ -12,7 +12,7 @@
 	rewards: [{
 		uid: "cce6352b",
 		type: "item",
-		item: "gregtech:meta_item_1 1 12780",
+		item: "gregtech:meta_plate 1 60",
 		count: 16
 	}]
 }

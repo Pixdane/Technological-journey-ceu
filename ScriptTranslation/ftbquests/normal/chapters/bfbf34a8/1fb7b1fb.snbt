@@ -1,0 +1,15 @@
+{
+	x: -2.5d,
+	y: -4.0d,
+	dependencies: [
+		"d5fb3c0b",
+		"f1c30af9"
+	],
+	tasks: [{
+		uid: "32db50dc",
+		type: "item",
+		items: [{
+			item: "gcyl:gcyl_meta_item 1 511"
+		}]
+	}]
+}

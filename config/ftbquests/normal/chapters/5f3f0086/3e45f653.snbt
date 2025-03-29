@@ -27,8 +27,9 @@
 				GT.ToolStats: {
 					Material: "rose_gold"
 				}
-			}
+			},
+			Count: 1b
 		},
-		only_one: true
+		only_one: 1b
 	}]
 }

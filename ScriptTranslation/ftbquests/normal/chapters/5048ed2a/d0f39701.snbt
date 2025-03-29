@@ -1,0 +1,13 @@
+{
+	x: 14.5d,
+	y: 4.0d,
+	dependencies: [
+		"9fea3dce"
+	],
+	tasks: [{
+		uid: "39f09956",
+		type: "checkmark",
+		title: "Yttrium Oxide Dust",
+		icon: "gcyl:meta_dust 1 99"
+	}]
+}

@@ -7,7 +7,7 @@
 	dependencies: [
 		"caf24bb8"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "c38c6476",
 		type: "item",

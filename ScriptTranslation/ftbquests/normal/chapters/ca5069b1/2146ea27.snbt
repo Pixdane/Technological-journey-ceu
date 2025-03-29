@@ -1,0 +1,23 @@
+{
+	x: 8.0d,
+	y: 0.5d,
+	text: [
+		"Wheeee! That was fun!"
+	],
+	dependencies: [
+		"d918e352"
+	],
+	tasks: [{
+		uid: "2a5bed20",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 130"
+		}]
+	}],
+	rewards: [{
+		uid: "79f33b95",
+		type: "item",
+		item: "gcyl:meta_dust 1 383",
+		count: 64
+	}]
+}

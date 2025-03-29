@@ -5,7 +5,7 @@
 	text: [
 		"Either of these work to reinforce your epoxid sheets. "
 	],
-	or_tasks: true,
+	or_tasks: 1b,
 	tasks: [{
 		uid: "9e3f3709",
 		type: "item",
@@ -17,7 +17,7 @@
 		uid: "27015876",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_2 1 32504"
+			item: "gregtech:meta_item_1 1 499"
 		}]
 	}]
 }

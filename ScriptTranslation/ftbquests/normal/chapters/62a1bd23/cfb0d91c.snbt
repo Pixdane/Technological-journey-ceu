@@ -1,0 +1,25 @@
+{
+	x: 1.0d,
+	y: 7.5d,
+	text: [
+		"These ores can be used to suppliment Pu and Np production for nuclear, which you will need as you scale into using a lot of Pu for ",
+		"quantum circuits & beyond."
+	],
+	dependencies: [
+		"f8b66849"
+	],
+	tasks: [{
+		uid: "020d9519",
+		type: "item",
+		items: [{
+			item: "gregtech:poor_ore_neptunium_0"
+		}]
+	},
+	{
+		uid: "47db2620",
+		type: "item",
+		items: [{
+			item: "gregtech:poor_ore_plutonium_radioactive_0"
+		}]
+	}]
+}

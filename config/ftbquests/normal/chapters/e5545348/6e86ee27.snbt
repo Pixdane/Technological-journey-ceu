@@ -4,12 +4,12 @@
 	dependencies: [
 		"e69cad91"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "d34e3213",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 32358"
+			item: "gregtech:meta_item_1 1 38"
 		}]
 	}]
 }

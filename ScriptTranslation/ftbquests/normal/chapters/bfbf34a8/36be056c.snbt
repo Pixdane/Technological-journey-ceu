@@ -1,0 +1,15 @@
+{
+	x: 5.0d,
+	y: -7.0d,
+	shape: "rsquare",
+	text: [
+		"Funny amalgam ingot."
+	],
+	tasks: [{
+		uid: "cabdc786",
+		type: "item",
+		items: [{
+			item: "gcyl:meta_ingot 1 301"
+		}]
+	}]
+}

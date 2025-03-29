@@ -4,12 +4,12 @@
 	dependencies: [
 		"45807c9b"
 	],
-	or_tasks: true,
+	or_tasks: 1b,
 	tasks: [{
 		uid: "a1c61503",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32568"
+			item: "gcyl:gcyl_meta_item 1 568"
 		}]
 	}]
 }

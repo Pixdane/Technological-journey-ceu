@@ -8,7 +8,7 @@
 		uid: "b89545ce",
 		type: "item",
 		items: [{
-			item: "gregtech:cable 1 968"
+			item: "gcyl:wire_single 1 1161"
 		}]
 	}]
 }

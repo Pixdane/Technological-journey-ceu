@@ -4,13 +4,13 @@
 	dependencies: [
 		"7a7bfe20"
 	],
-	hide: true,
-	optional: true,
+	hide: 1b,
+	optional: 1b,
 	tasks: [{
 		uid: "6f4cac43",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_block_compressed_44 1 14"
+			item: "gcyl:meta_block_compressed_3"
 		}]
 	}]
 }

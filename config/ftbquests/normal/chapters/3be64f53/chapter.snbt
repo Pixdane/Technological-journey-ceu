@@ -1,7 +1,7 @@
 {
 	title: "UEV Age",
-	icon: "gtadditions:ga_meta_item 1 32355",
-	always_invisible: false,
+	icon: "gregtech:meta_item_1 1 136",
+	always_invisible: 0b,
 	group: 0,
 	default_quest_shape: ""
 }

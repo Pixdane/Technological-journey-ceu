@@ -5,7 +5,7 @@
 	text: [
 		""
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "f0578e46",
 		type: "item",
@@ -13,7 +13,7 @@
 			item: "minecraft:golden_apple"
 		}],
 		count: 14L,
-		consume_items: true
+		consume_items: 1b
 	},
 	{
 		uid: "a6442cfa",
@@ -22,7 +22,7 @@
 			item: "minecraft:diamond"
 		}],
 		count: 14L,
-		consume_items: true
+		consume_items: 1b
 	},
 	{
 		uid: "c816757d",
@@ -31,7 +31,7 @@
 			item: "gregtech:meta_item_1 1 32724"
 		}],
 		count: 14L,
-		consume_items: true
+		consume_items: 1b
 	},
 	{
 		uid: "46c83928",
@@ -40,7 +40,7 @@
 			item: "draconicevolution:draconic_core"
 		}],
 		count: 22L,
-		consume_items: true
+		consume_items: 1b
 	},
 	{
 		uid: "4adb0b6c",
@@ -49,7 +49,7 @@
 			item: "minecraft:nether_star"
 		}],
 		count: 28L,
-		consume_items: true
+		consume_items: 1b
 	},
 	{
 		uid: "c05ef12f",
@@ -58,7 +58,7 @@
 			item: "minecraft:emerald"
 		}],
 		count: 14L,
-		consume_items: true
+		consume_items: 1b
 	},
 	{
 		uid: "7d685236",
@@ -67,7 +67,7 @@
 			item: "draconicevolution:wyvern_core"
 		}],
 		count: 22L,
-		consume_items: true
+		consume_items: 1b
 	},
 	{
 		uid: "1fe056c8",
@@ -76,7 +76,7 @@
 			item: "minecraft:emerald_block"
 		}],
 		count: 14L,
-		consume_items: true
+		consume_items: 1b
 	},
 	{
 		uid: "d7d44bdc",
@@ -85,25 +85,25 @@
 			item: "draconicevolution:awakened_core"
 		}],
 		count: 8L,
-		consume_items: true
+		consume_items: 1b
 	},
 	{
 		uid: "9995ee55",
 		type: "item",
 		items: [{
-			item: "gregtech:ga_cable 1 1737"
+			item: "gcyl:wire_double 1 1167"
 		}],
 		count: 64L,
-		consume_items: true
+		consume_items: 1b
 	},
 	{
 		uid: "9287b9a2",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_block_compressed_44 1 13"
+			item: "gcyl:meta_block_compressed_12 1 1"
 		}],
 		count: 64L,
-		consume_items: true
+		consume_items: 1b
 	}],
 	rewards: [{
 		uid: "bc30fe5e",

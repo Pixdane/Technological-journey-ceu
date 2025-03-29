@@ -34,7 +34,7 @@
 		uid: "94f595fe",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_metal_casing_1 1 1"
+			item: "gcyl:gcyl_metal_casing_1 1 1"
 		}],
 		count: 64L
 	},
@@ -42,7 +42,7 @@
 		uid: "acbe9caa",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_metal_casing_1 1 1"
+			item: "gcyl:gcyl_metal_casing_1 1 1"
 		}],
 		count: 55L
 	},
@@ -50,7 +50,7 @@
 		uid: "eac84b58",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_metal_casing_2"
+			item: "gcyl:gcyl_metal_casing_2"
 		}],
 		count: 64L
 	},
@@ -58,7 +58,7 @@
 		uid: "fb7a3c5e",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_metal_casing_2"
+			item: "gcyl:gcyl_metal_casing_2"
 		}],
 		count: 48L
 	}]

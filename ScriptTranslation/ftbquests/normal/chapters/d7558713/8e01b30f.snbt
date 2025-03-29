@@ -1,0 +1,17 @@
+{
+	x: -8.5d,
+	y: -3.5d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "c2ae59f4",
+		type: "checkmark",
+		title: "Fluoroantimonic Acid Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "fluoroantimonic_acid",
+				Amount: 1000
+			}
+		}
+	}]
+}

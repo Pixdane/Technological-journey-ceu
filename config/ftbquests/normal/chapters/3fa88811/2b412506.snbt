@@ -4,7 +4,7 @@
 	text: [
 		"This is used to find presses. "
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "d1b9243d",
 		type: "item",

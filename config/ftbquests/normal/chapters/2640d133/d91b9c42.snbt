@@ -9,19 +9,19 @@
 	dependencies: [
 		"1a5403b2"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "c13f0d80",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 4178"
+			item: "gregtech:mte 1 1025"
 		}]
 	},
 	{
 		uid: "0a5893ce",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 4175"
+			item: "gregtech:mte 1 1653"
 		}]
 	},
 	{

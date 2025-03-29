@@ -1,0 +1,33 @@
+{
+	x: -3.5d,
+	y: -2.0d,
+	text: [
+		"Item lasers are very useful for automating the assembly line and the circuit assembly line. Below is a short summary of their mechanics. ",
+		"",
+		"When connected, item lasers create a 'network' of connected inventories. Any inventory that is touching any side of a laser that is part of the network is included. When an item laser is adjacent to an item interface, the interface acts as an input to the network. Any items put into the interface are distributed among the connected inventories instantly, with destinations decided based on the priority of the lasers. This makes lasers incredibly flexible, useful for everything from handling ore processing throughput to automating the assembly line. "
+	],
+	tasks: [{
+		uid: "9d930629",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_item_viewer 1 0"
+		}]
+	},
+	{
+		uid: "70407c25",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_laser_wrench 1 0"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "18cf2c08",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_laser_relay_item 1 0"
+		}],
+		count: 7L
+	}]
+}

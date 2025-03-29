@@ -1,0 +1,18 @@
+{
+	x: -2.5d,
+	y: -3.0d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "2a80e1b6",
+		type: "item",
+		items: [{
+			item: "gcyl:meta_ingot 1 1150"
+		}]
+	}],
+	rewards: [{
+		uid: "da9b06d7",
+		type: "item",
+		item: "gregtech:meta_dust 1 48",
+		count: 16
+	}]
+}

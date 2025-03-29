@@ -15,7 +15,7 @@
 		uid: "0760531d",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_multiblock_casing 1 2"
+			item: "gcym:large_multiblock_casing 1 2"
 		}],
 		count: 25L
 	},

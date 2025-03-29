@@ -1,0 +1,18 @@
+{
+	disable_toast: true,
+	x: 0.0d,
+	y: -8.5d,
+	text: [
+		"If you want to use the wireless cards across dimensions you will need a quantum link card. This must be placed inside a quantum bridge. The bridge can only support one mode."
+	],
+	dependencies: [
+		"e3cf065d"
+	],
+	tasks: [{
+		uid: "aabca2c9",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 59"
+		}]
+	}]
+}

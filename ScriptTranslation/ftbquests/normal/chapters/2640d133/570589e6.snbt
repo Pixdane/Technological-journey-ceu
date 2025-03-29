@@ -1,0 +1,17 @@
+{
+	x: -0.5d,
+	y: 2.0d,
+	text: [
+		"Trust me, it's harder than just putting a wood log in a crafting table. I promise. "
+	],
+	dependencies: [
+		"88f17395"
+	],
+	tasks: [{
+		uid: "67ae1d5c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_plate 1 1617"
+		}]
+	}]
+}

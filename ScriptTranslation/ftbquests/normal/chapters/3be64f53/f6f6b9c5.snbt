@@ -1,0 +1,21 @@
+{
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "pcbs",
+			Amount: 1000
+		}
+	},
+	x: -4.5d,
+	y: 1.5d,
+	dependencies: [
+		"6fddac84",
+		"0db3077e",
+		"9b5bf1c4"
+	],
+	tasks: [{
+		uid: "d0389e76",
+		type: "checkmark",
+		title: "PCBS"
+	}]
+}

@@ -7,7 +7,7 @@
 		"",
 		"Snad works like sand, except that sugarcane planted on it grows each time the block of snad receives a redstone signal. This can be used to make an incredibly fast sugarcane farm using an enderIO timer."
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "1e562c53",
 		type: "item",

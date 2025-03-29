@@ -8,7 +8,7 @@
 		uid: "dbf3a20a",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 12470"
+			item: "gregtech:meta_plate 1 1006"
 		}]
 	}]
 }

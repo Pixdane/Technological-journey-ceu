@@ -8,14 +8,14 @@
 	dependencies: [
 		"217132c4"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "7d6a4fd0",
 		type: "item",
 		items: [{
 			item: "enderio:item_material"
 		}],
-		consume_items: true
+		consume_items: 1b
 	},
 	{
 		uid: "be4b107e",
@@ -24,7 +24,7 @@
 			item: "minecraft:leather"
 		}],
 		count: 8L,
-		consume_items: true
+		consume_items: 1b
 	}],
 	rewards: [{
 		uid: "4b560bd9",

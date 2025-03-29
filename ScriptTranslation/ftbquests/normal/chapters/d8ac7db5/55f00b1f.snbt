@@ -1,0 +1,21 @@
+{
+	x: 3.0d,
+	y: 1.0d,
+	dependencies: [
+		"45de6cd6",
+		"ff3a5a24"
+	],
+	tasks: [{
+		uid: "32c3bf32",
+		type: "item",
+		items: [{
+			item: "gcyl:meta_ingot 1 1151"
+		}]
+	}],
+	rewards: [{
+		uid: "8275a982",
+		type: "item",
+		item: "gregtech:meta_dust 1 124",
+		count: 16
+	}]
+}

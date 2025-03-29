@@ -16,6 +16,6 @@
 		uid: "5092a11f",
 		type: "checkmark",
 		title: "10x Small Pile of Platinum Salt Dust",
-		icon: "gregtech:meta_item_1 1 1051"
+		icon: "gregtech:meta_dust_small 1 80"
 	}]
 }

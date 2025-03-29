@@ -1,0 +1,17 @@
+{
+	x: 2.5d,
+	y: 3.5d,
+	text: [
+		"This can be used to make pretty decent tools."
+	],
+	dependencies: [
+		"c2f0ab79"
+	],
+	tasks: [{
+		uid: "4704d9ce",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 287"
+		}]
+	}]
+}

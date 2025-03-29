@@ -9,7 +9,7 @@
 		uid: "0d12611a",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 2049"
+			item: "gregtech:meta_dust 1 77"
 		}]
 	}]
 }

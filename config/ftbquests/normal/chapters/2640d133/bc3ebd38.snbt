@@ -9,7 +9,7 @@
 		"",
 		"Note: The build function does not work with tiered components, which must be placed by hand. It will also not magically know what hatch and bus layout you want."
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"664d2fa1"
 	],
@@ -22,7 +22,8 @@
 			Damage: 32309s,
 			tag: {
 				GT.Detrav: {}
-			}
+			},
+			Count: 1b
 		}],
 		ignore_nbt: 1b
 	}]

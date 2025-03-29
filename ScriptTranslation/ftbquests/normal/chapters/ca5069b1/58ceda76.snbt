@@ -1,0 +1,23 @@
+{
+	x: 17.0d,
+	y: 3.5d,
+	shape: "hexagon",
+	dependencies: [
+		"48033f9b",
+		"27908744",
+		"692a80f7"
+	],
+	tasks: [{
+		uid: "e86dd49b",
+		type: "item",
+		items: [{
+			item: "gcyl:mte 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "3353b6fc",
+		type: "item",
+		item: "gcyl:meta_dust 1 1151",
+		count: 16
+	}]
+}

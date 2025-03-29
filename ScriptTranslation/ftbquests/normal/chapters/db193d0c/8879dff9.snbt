@@ -1,0 +1,11 @@
+{
+	x: 1.5d,
+	y: 3.5d,
+	tasks: [{
+		uid: "0a641127",
+		type: "item",
+		items: [{
+			item: "gcyl:meta_ingot 1 192"
+		}]
+	}]
+}

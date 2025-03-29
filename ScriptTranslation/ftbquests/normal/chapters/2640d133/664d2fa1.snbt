@@ -1,0 +1,18 @@
+{
+	x: 4.0d,
+	y: 2.0d,
+	shape: "hexagon",
+	text: [
+		"As bronze is for steam, steel will be your LV hull material. You'll need a fair amount. Consider the iPBF if you find that your demand for steel exceeds your supply."
+	],
+	dependencies: [
+		"23cda739"
+	],
+	tasks: [{
+		uid: "20849894",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 324"
+		}]
+	}]
+}

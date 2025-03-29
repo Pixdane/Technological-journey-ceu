@@ -1,5 +1,5 @@
 {
-	icon: "gregtech:machine 1 3234",
+	icon: "gcyl:mte 1 12",
 	x: 4.5d,
 	y: 0.0d,
 	text: [
@@ -16,7 +16,7 @@
 		uid: "aca52fcc",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 3234"
+			item: "gcyl:mte 1 12"
 		}]
 	}],
 	rewards: [{

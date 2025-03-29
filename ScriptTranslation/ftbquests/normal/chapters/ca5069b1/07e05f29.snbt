@@ -1,0 +1,23 @@
+{
+	x: 9.0d,
+	y: -3.5d,
+	text: [
+		"Isn't gregicality so much fun?!"
+	],
+	dependencies: [
+		"2f833d53"
+	],
+	tasks: [{
+		uid: "c8c875fe",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_dust 1 69"
+		}]
+	}],
+	rewards: [{
+		uid: "4cb0f3f2",
+		type: "item",
+		item: "gtadditions:ga_dust 1 69",
+		count: 16
+	}]
+}

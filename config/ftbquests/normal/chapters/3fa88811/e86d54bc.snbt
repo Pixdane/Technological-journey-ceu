@@ -7,14 +7,14 @@
 	dependencies: [
 		"ce2555af"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "aa21b972",
 		type: "item",
 		items: [{
 			item: "appliedenergistics2:view_cell"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

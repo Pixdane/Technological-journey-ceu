@@ -7,12 +7,12 @@
 	dependencies: [
 		"664d2fa1"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "7197b982",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 14"
+			item: "gregtech:mte 1 14"
 		}]
 	}]
 }

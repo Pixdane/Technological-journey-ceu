@@ -10,7 +10,7 @@
 		"",
 		" Every single quest in this page is optional, and it isn’t even recommended to pursue all of these options. Power in this pack has been buffed considerably, and shouldn’t be an issue as long as you remember to occasionally upgrade your infrastructure."
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "21f12bc3",
 		type: "checkmark",

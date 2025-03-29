@@ -7,7 +7,7 @@
 		"",
 		"Useful for multiblocks that MUST constantly run, like hyper reactors."
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "38c65e34",
 		type: "item",

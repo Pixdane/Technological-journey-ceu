@@ -14,7 +14,7 @@
 		"",
 		"Still, the choice is yours. "
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"dc97f9d8"
 	],

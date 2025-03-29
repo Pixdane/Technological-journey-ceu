@@ -6,14 +6,14 @@
 		uid: "aae3b984",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 2326"
+			item: "gregtech:meta_dust 1 1598"
 		}]
 	},
 	{
 		uid: "4d56f8c1",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 2373"
+			item: "gregtech:meta_dust 1 377"
 		}]
 	}]
 }

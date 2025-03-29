@@ -1,0 +1,17 @@
+{
+	x: -3.0d,
+	y: 7.0d,
+	text: [
+		"A very nice cable material. Also needed in the thousands."
+	],
+	dependencies: [
+		"e3fccce0"
+	],
+	tasks: [{
+		uid: "a43b62b7",
+		type: "item",
+		items: [{
+			item: "gcyl:meta_dust 1 173"
+		}]
+	}]
+}

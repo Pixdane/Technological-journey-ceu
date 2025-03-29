@@ -4,7 +4,7 @@
 	text: [
 		"This can help you pattern large patterns such as the jei pattern for the MEBF if you request the entire mutliblock."
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "17768179",
 		type: "item",

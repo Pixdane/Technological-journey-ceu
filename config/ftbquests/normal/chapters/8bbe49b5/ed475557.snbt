@@ -8,7 +8,7 @@
 	dependencies: [
 		"e6d4eebb"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "10fe7b80",
 		type: "item",
@@ -16,7 +16,7 @@
 			item: "advancedrocketry:rocketmotor"
 		}],
 		count: 5L,
-		consume_items: true
+		consume_items: 1b
 	},
 	{
 		uid: "98db3ac5",
@@ -24,7 +24,7 @@
 		items: [{
 			item: "advancedrocketry:guidancecomputer"
 		}],
-		consume_items: true
+		consume_items: 1b
 	},
 	{
 		uid: "df2df452",
@@ -32,7 +32,7 @@
 		items: [{
 			item: "advancedrocketry:planetidchip"
 		}],
-		consume_items: true
+		consume_items: 1b
 	},
 	{
 		uid: "010f1616",
@@ -41,7 +41,7 @@
 			item: "advancedrocketry:fueltank"
 		}],
 		count: 10L,
-		consume_items: true
+		consume_items: 1b
 	},
 	{
 		uid: "ec5f7c2e",
@@ -49,7 +49,7 @@
 		items: [{
 			item: "advancedrocketry:seat"
 		}],
-		consume_items: true
+		consume_items: 1b
 	}],
 	rewards: [{
 		uid: "239f595f",
@@ -57,17 +57,17 @@
 		item: {
 			id: "draconicevolution:dislocator",
 			tag: {
-				X: 0.5d,
-				Y: 254.64375994610788d,
-				Z: 0.5d,
-				Yaw: -104.096695f,
-				Pitch: 86.1f,
 				Dimension: 3,
 				IsSet: 1b,
-				DimentionName: "planet",
+				Z: 0.5d,
+				Pitch: 86.1f,
+				X: 0.5d,
+				Y: 254.64375994610788d,
+				Yaw: -104.096695f,
 				display: {
 					Name: "Dislocator Moon"
-				}
+				},
+				DimentionName: "planet"
 			}
 		}
 	}]

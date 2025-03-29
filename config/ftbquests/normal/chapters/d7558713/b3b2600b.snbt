@@ -11,7 +11,7 @@
 	dependencies: [
 		"8ef72b16"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "fca03302",
 		type: "item",

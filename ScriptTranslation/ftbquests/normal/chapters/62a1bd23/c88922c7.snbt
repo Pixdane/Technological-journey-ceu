@@ -1,0 +1,28 @@
+{
+	x: 1.0d,
+	y: 8.5d,
+	dependencies: [
+		"f8b66849"
+	],
+	tasks: [{
+		uid: "09aef25d",
+		type: "item",
+		items: [{
+			item: "storagedrawers:basicdrawers 1 0"
+		}]
+	},
+	{
+		uid: "0ab7420a",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_palladium_metallic_powder_0 1 0"
+		}]
+	},
+	{
+		uid: "ac77b6bd",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_rhodium_salt_0"
+		}]
+	}]
+}

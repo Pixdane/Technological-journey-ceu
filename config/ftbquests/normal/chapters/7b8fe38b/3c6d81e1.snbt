@@ -14,12 +14,12 @@
 		uid: "8f4ea991",
 		type: "checkmark",
 		title: "Ore Processing",
-		icon: "gregtech:meta_item_1 1 5154"
+		icon: "gregtech:meta_crushed 1 311"
 	}],
 	rewards: [{
 		uid: "704a4aad",
 		type: "item",
-		item: "gregtech:meta_item_1 1 3154",
+		item: "gregtech:meta_dust_impure 1 311",
 		count: 24
 	}]
 }

@@ -8,14 +8,14 @@
 		uid: "9408653e",
 		type: "item",
 		items: [{
-			item: "gregtech:ore_scheelite_0 1 7"
+			item: "gregtech:ore_scheelite_0 1 2"
 		}]
 	},
 	{
 		uid: "b0bbaf67",
 		type: "item",
 		items: [{
-			item: "gregtech:ore_tungstate_0 1 7"
+			item: "gregtech:ore_tungstate_0 1 2"
 		}]
 	}]
 }

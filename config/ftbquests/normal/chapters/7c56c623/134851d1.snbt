@@ -22,7 +22,7 @@
 		"3a6c1683",
 		"071a5a15"
 	],
-	hide_text_until_complete: true,
+	hide_text_until_complete: 1b,
 	size: 2.5d,
 	tasks: [{
 		uid: "b4389136",
@@ -31,7 +31,7 @@
 			id: "appliedenergistics2:creative_storage_cell",
 			tag: {}
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{

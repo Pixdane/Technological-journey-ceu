@@ -1,0 +1,7 @@
+{
+	title: "Applied Energistics 2",
+	icon: "appliedenergistics2:material 1 22",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

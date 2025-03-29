@@ -10,14 +10,14 @@
 	dependencies: [
 		"217132c4"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "4c62d75f",
 		type: "item",
 		items: [{
 			item: "enderio:item_material"
 		}],
-		consume_items: true
+		consume_items: 1b
 	},
 	{
 		uid: "6a7fa602",
@@ -26,7 +26,7 @@
 			item: "minecraft:coal 1 1"
 		}],
 		count: 8L,
-		consume_items: true
+		consume_items: 1b
 	}],
 	rewards: [{
 		uid: "c8e5ed30",

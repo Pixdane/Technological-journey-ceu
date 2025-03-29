@@ -8,7 +8,7 @@
 		uid: "acff63fc",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 2974"
+			item: "gcyl:meta_dust 1 1148"
 		}]
 	}]
 }
