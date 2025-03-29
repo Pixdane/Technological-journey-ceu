@@ -119,14 +119,14 @@ MACERATOR.recipeBuilder()
 // TODO blast_ALLOY_SMELTER
 // blast_ALLOY_SMELTER.recipeBuilder()
 //     .inputs([item('gregtech:meta_item_1:2524') * 5, item('gregtech:meta_item_1:2002') * 4, item('gregtech:meta_item_1:2331')])
-//     .fluidOutputs(fluid('stellaralloy')*1440)
+//     .fluidOutputs(fluid('stellar_alloy')*1440)
 //     .duration(420)
 //     .property("temperature", 8100)
 //     .EUt(2430)
 //     .buildAndRegister();
 
 SOLIDIFIER.recipeBuilder()
-        // .fluidInputs(fluid('stellaralloy') * 144) // TODO: gregtech material foir stellaralloy
+        .fluidInputs(fluid('molten.stellar_alloy') * 144)
         .notConsumable(metaitem('shape.mold.ingot'))
         .outputs(item('enderio:item_alloy_endergy_ingot:3'))
         .duration(20)

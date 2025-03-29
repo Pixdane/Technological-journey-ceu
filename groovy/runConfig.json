@@ -4,16 +4,13 @@
   "version": "1.0.0",
   "debug": false,
   "classes": {
-    "preInit": [
-      "classes/"
-    ],
-    "postInit": [
-      "classes/utils"
+    "all": [
+      "classes/",
+      "materials/"
     ]
   },
   "loaders": {
     "preInit": [
-      "materials/",
       "preInit/"
     ],
     "postInit": [
