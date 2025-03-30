@@ -1,6 +1,6 @@
 {
-    "parent": "item/generated",
-    "textures": {
-      "layer0": "tjceu:items/metaitems/steam.pump.ulv"
-    }
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tjceu:items/metaitems/steam.pump.ulv"
   }
+}

@@ -1,11 +1,11 @@
-import static classes.utils.TJUtility.tjId
-import static gregtech.common.covers.CoverBehaviors.registerBehavior
-
-import gregtech.common.covers.CoverPump
-import gregtech.common.covers.CoverConveyor
 import gregtech.api.GTValues
 import gregtech.api.items.metaitem.MetaItem
 import gregtech.api.items.metaitem.StandardMetaItem
+import gregtech.common.covers.CoverConveyor
+import gregtech.common.covers.CoverPump
+
+import static classes.utils.TJUtility.tjId
+import static gregtech.common.covers.CoverBehaviors.registerBehavior
 
 class TJMetaItems {
 
@@ -18,7 +18,7 @@ class TJMetaItems {
         def item = new StandardMetaItem() {
             @Override
             ResourceLocation createItemModelPath(MetaItem.MetaValueItem metaValueItem, String postfix) {
-                return tjId(formatModelPath(metaValueItem) + postfix);
+                return tjId(formatModelPath(metaValueItem) + postfix)
             }
         }
         item.setRegistryName('tj_meta_item')
