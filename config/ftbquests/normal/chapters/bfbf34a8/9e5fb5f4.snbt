@@ -11,7 +11,7 @@
 		uid: "95428a38",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 3273"
+			item: "gregtech:mte 1 122"
 		}]
 	}],
 	rewards: [{

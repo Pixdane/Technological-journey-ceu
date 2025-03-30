@@ -5,7 +5,7 @@
 		uid: "19d1d275",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_fusion_casing 1 2"
+			item: "gregtech:fusion_casing 1 3"
 		}]
 	}]
 }

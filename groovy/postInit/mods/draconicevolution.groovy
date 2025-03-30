@@ -357,7 +357,7 @@
 // assembler.recipeBuilder()
 //     .inputs(ore('wireGtDoubleChaosalloy') * 8, item('gcyl:gcyl_meta_item:506') * 16)
 //     .fluidInputs(fluid('cosmic_neutronium') * 144)
-//     .outputs(item('gtadditions:ga_heating_coil:5'))
+//     .outputs(item('gcyl:wire_coil:5'))
 //     .duration(250)
 //     .EUt(536870900)
 //     .buildAndRegister();
@@ -400,7 +400,7 @@
 // assembler.recipeBuilder()
 //     .fluidInputs(fluid('chaosalloy') * 288)
 //     .inputs(item('contenttweaker:eternityblock'), item('gregtech:cable:4354') * 8, item('gcyl:gcyl_meta_item:506') * 32, item('gregtech:meta_item_1:213'))
-//     .outputs(item('gtadditions:ga_heating_coil:6'))
+//     .outputs(item('gcyl:wire_coil:6'))
 //     .duration(100)
 //     .EUt(536870900)
 //     .buildAndRegister();

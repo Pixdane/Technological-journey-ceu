@@ -9,7 +9,7 @@
 		uid: "c24ca46e",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_heating_coil"
+			item: "gcyl:wire_coil"
 		}]
 	}],
 	rewards: [{

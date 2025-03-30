@@ -20,7 +20,7 @@
 		uid: "49c84405",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_fusion_casing 1 3"
+			item: "gregtech:fusion_casing 1 4"
 		}],
 		count: 32L
 	},

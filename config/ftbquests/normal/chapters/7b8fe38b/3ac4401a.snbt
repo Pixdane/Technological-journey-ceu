@@ -1,5 +1,5 @@
 {
-	icon: "gregtech:machine 1 2908",
+	icon: "gregtech:mte 1 1674",
 	x: 3.5d,
 	y: -4.0d,
 	dependencies: [

@@ -13,7 +13,7 @@
 		uid: "fdc03333",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 32600"
+			item: "gregtech:meta_item_1 1 127"
 		}]
 	}]
 }

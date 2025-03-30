@@ -9,7 +9,7 @@
 	tasks: [{
 		uid: "278a9876",
 		type: "checkmark",
-		title: "catalysts",
-		icon: "gtadditions:ga_dust 1 919"
+		title: "Catalysts",
+		icon: "gcyl:meta_dust 1 209"
 	}]
 }

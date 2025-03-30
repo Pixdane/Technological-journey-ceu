@@ -22,36 +22,36 @@
 		uid: "9eeb9c69",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 32630"
+			item: "gregtech:meta_item_1 1 157"
 		}]
 	},
 	{
 		uid: "1a02f9d5",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 32610"
+			item: "gregtech:meta_item_1 1 142"
 		}]
 	},
 	{
 		uid: "01d81dd1",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 32650"
+			item: "gregtech:meta_item_1 1 187"
 		}]
 	}],
 	rewards: [{
 		uid: "506ce7cc",
 		type: "item",
-		item: "gregtech:meta_item_1 1 32630"
+		item: "gregtech:meta_item_1 1 157"
 	},
 	{
 		uid: "651d81c3",
 		type: "item",
-		item: "gregtech:meta_item_1 1 32610"
+		item: "gregtech:meta_item_1 1 142"
 	},
 	{
 		uid: "d50aaaef",
 		type: "item",
-		item: "gregtech:meta_item_1 1 32650"
+		item: "gregtech:meta_item_1 1 187"
 	}]
 }

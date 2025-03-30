@@ -43,7 +43,7 @@
 		uid: "3417ea40",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 714"
+			item: "gregtech:mte 1 1211"
 		}],
 		count: 2L
 	},
