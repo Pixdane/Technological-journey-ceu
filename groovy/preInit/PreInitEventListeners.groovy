@@ -1,4 +1,4 @@
-import classes.TJMetaItems
+import classes.items.TJMetaItems
 import gregtech.api.GregTechAPI
 import gregtech.api.unification.material.event.MaterialEvent
 import gregtech.api.unification.material.event.MaterialRegistryEvent

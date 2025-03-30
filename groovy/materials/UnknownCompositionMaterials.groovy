@@ -7,6 +7,7 @@ import static classes.utils.TJUtility.tjId
 import static gregtech.api.unification.material.Materials.*
 import static gregtech.api.unification.material.info.MaterialFlags.*
 import static gregtech.api.unification.material.info.MaterialIconSet.*
+import static materials.TJMaterialIconSets.*
 import static materials.TJMaterials.*
 
 class UnknownCompositionMaterials {
@@ -46,6 +47,7 @@ class UnknownCompositionMaterials {
                 .ingot(4)
                 .iconSet(SHINY)
                 .color(0x050A30)
+                .blastTemp(7000)
                 .flags(GENERATE_PLATE, GENERATE_DENSE)
                 .build()
 
@@ -76,8 +78,11 @@ class UnknownCompositionMaterials {
         StarlightComplex.setFormula('SxN8', true)
 
         Eternity = new Material.Builder(1510, tjId('eternity'))
-                .liquid()
+                .ingot()
+                .plasma()
                 .color(0x46008b)
+                .iconSet(ETERNITY)
+                .flags(NO_UNIFICATION)
                 .build()
     }
 
