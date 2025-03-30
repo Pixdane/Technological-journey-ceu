@@ -42,15 +42,14 @@
 		uid: "bbc9b1d9",
 		type: "item",
 		item: {
-			id: "gregtech:machine",
-			Damage: 813s,
+			id: "gregtech:mte",
+			Damage: 1612s,
 			tag: {
 				Fluid: {
 					FluidName: "plastic",
 					Amount: 16000
 				}
-			},
-			Count: 1b
+			}
 		}
 	}]
 }

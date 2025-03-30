@@ -12,12 +12,5 @@
 		items: [{
 			item: "gregtech:mte 1 1530"
 		}]
-	},
-	{
-		uid: "c9eb3483",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 2232"
-		}]
 	}]
 }

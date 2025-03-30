@@ -8,7 +8,7 @@
 		uid: "6954072a",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 19144"
+			item: "gregtech:meta_foil 1 1015"
 		}],
 		count: 32L
 	}],

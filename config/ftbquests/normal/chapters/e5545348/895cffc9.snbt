@@ -10,7 +10,7 @@
 		uid: "b4c7323c",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_armor 1 9"
+			item: "gregtech:gt_armor 1 3"
 		}],
 		ignore_nbt: 1b
 	}],

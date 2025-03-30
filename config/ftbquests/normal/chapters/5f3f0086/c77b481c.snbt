@@ -18,8 +18,7 @@
 				GT.ToolStats: {
 					Material: "darmstadtium"
 				}
-			},
-			Count: 1b
+			}
 		}
 	}],
 	rewards: [{

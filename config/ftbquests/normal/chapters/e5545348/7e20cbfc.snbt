@@ -29,7 +29,7 @@
 	rewards: [{
 		uid: "e944b43c",
 		type: "item",
-		item: "gregtech:meta_item_1 1 15117"
+		item: "gregtech:meta_lens 1 314"
 	},
 	{
 		uid: "108976fd",

@@ -18,9 +18,7 @@
 		uid: "1028ed17",
 		type: "item",
 		items: [{
-			id: "gregtech:meta_item_1",
-			Damage: 1004s,
-			Count: 1b
+			item: "gregtech:meta_item_1 1 1004"
 		}],
 		ignore_nbt: 1b
 	}]

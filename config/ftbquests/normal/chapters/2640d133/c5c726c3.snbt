@@ -11,7 +11,7 @@
 		uid: "f2f315d9",
 		type: "item",
 		items: [{
-			item: "tjceu:tj_meta_item 1 0"
+			item: "tjceu:tj_meta_item"
 		}]
 	}],
 	rewards: [{

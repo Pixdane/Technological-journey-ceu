@@ -10,7 +10,7 @@
 		uid: "56bb7f6a",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_armor 1 8"
+			item: "gregtech:gt_armor 1 2"
 		}],
 		ignore_nbt: 1b
 	}],

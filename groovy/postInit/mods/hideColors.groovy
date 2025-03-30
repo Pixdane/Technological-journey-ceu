@@ -64,7 +64,7 @@
 //     item('gregtech:frame_invar')				.definition,
 //     item('gregtech:frame_wood')				.definition,
 //     item('gregtech:frame_stainless_steel')			.definition,
-//     item('gregtech:frame_steel')				.definition,
+//     item('gregtech:meta_block_frame_20:4')				.definition,
 //     item('gregtech:frame_blue_steel')				.definition,
 //     item('gregtech:frame_hsse')				.definition,
 //     item('gregtech:frame_neutronium')				.definition,

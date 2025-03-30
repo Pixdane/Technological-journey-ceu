@@ -9,7 +9,7 @@
 		uid: "300b1d40",
 		type: "item",
 		items: [{
-			item: "gregtech:fluid_pipe 1 184"
+			item: "gregtech:fluid_pipe_tiny 1 324"
 		}]
 	}]
 }

@@ -1032,7 +1032,7 @@
 // Utils.removeRecipeByOutput(assembler, [item('gregtech:machine:4239')], [], true);
 // 
 // assembler.recipeBuilder()
-// .inputs(item('gregtech:meta_item_1:32600') * 4, item('gregtech:meta_item_1:32610') * 4,item('gregtech:mte:986'), item('gregtech:frame_steel'), item('gregtech:meta_item_2:26017') * 2, ore('circuitBasic'))
+// .inputs(item('gregtech:meta_item_1:32600') * 4, item('gregtech:meta_item_1:32610') * 4,item('gregtech:mte:986'), item('gregtech:meta_block_frame_20:4'), item('gregtech:meta_item_2:26017') * 2, ore('circuitBasic'))
 // .notConsumable(item('gregtech:meta_item_1:32766').withTag({Configuration: 2}))
 // .outputs(item('gregtech:machine:4239'))
 // .EUt(30)

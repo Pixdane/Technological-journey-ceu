@@ -59,8 +59,7 @@
 			Damage: 467s,
 			tag: {
 				Charge: 1600000L
-			},
-			Count: 1b
+			}
 		}
 	},
 	{

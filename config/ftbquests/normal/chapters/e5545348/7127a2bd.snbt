@@ -8,7 +8,7 @@
 		uid: "6d3ae9cf",
 		type: "item",
 		items: [{
-			item: "gregtech:cable 1 516"
+			item: "gcyl:wire_single 1 1158"
 		}],
 		count: 3L
 	}]
