@@ -1,7 +1,0 @@
-{
-	title: "Beginning ",
-	icon: "minecraft:wooden_pickaxe 1 0",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

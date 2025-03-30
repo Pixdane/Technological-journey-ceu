@@ -17,7 +17,13 @@
 		uid: "ad338754",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_2 1 32487"
+			id: "itemfilters:filter",
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "circuitLv"
+				}
+			}
 		}]
 	}],
 	rewards: [{

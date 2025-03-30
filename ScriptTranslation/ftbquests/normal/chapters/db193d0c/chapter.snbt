@@ -1,7 +1,0 @@
-{
-	title: "Periodic Table",
-	icon: "gregtech:meta_gem_exquisite 1 276",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

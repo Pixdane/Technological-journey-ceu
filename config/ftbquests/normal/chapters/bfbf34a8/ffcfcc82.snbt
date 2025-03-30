@@ -3,7 +3,7 @@
 	x: 8.0d,
 	y: 0.0d,
 	text: [
-		"After making a UXV assembling machine you unlock the ability for taranium skip.",
+		"After making a OpV assembling machine you unlock the ability for taranium skip.",
 		"This is TPS friendly alternative to taranium line"
 	],
 	dependencies: [

@@ -18,11 +18,8 @@
 		uid: "1028ed17",
 		type: "item",
 		items: [{
-			id: "gtadditions:ga_meta_item",
-			Damage: 32309s,
-			tag: {
-				GT.Detrav: {}
-			},
+			id: "gregtech:meta_item_1",
+			Damage: 1004s,
 			Count: 1b
 		}],
 		ignore_nbt: 1b

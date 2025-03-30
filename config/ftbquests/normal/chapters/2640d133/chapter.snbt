@@ -1,6 +1,6 @@
 {
 	title: "Steam Age",
-	icon: "contenttweaker:steammotor",
+	icon: "tjceu:tj_meta_item 1 0",
 	always_invisible: 0b,
 	group: 0,
 	default_quest_shape: ""

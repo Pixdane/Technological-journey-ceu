@@ -1,6 +1,6 @@
 {
 	title: "MV Age",
-	icon: "gregtech:meta_item_1 1 32601",
+	icon: "gregtech:meta_item_1 1 128",
 	always_invisible: 0b,
 	group: 0,
 	default_quest_shape: ""

@@ -55,10 +55,10 @@
 		uid: "511701c1",
 		type: "item",
 		item: {
-			id: "gtadditions:ga_meta_item2",
-			Damage: 100s,
+			id: "gregtech:meta_item_1",
+			Damage: 467s,
 			tag: {
-				Charge: 1L
+				Charge: 1600000L
 			},
 			Count: 1b
 		}

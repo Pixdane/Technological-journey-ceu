@@ -21,8 +21,7 @@
 		uid: "e4f2656a",
 		type: "item",
 		item: {
-			id: "gregtech:meta_tool",
-			Damage: 6s,
+			id: "gregtech:hammer",
 			tag: {
 				GT.ToolStats: {
 					Material: "rose_gold"

@@ -48,7 +48,7 @@
 //     .buildAndRegister();
 // 
 //     assembly_line.recipeBuilder()
-//     .inputs(item('gregtech:frame_quantum') * 10,ore('plateCinobite') * 10,ore('plateAwakenDraconium') * 10,item('gregtech:meta_item_1:12520') * 10,item('gtadditions:ga_meta_item:32381'), item('gtadditions:ga_meta_item:32393'), item('gtadditions:ga_meta_item:32375'), ore('circuitUmv'), item('contenttweaker:refinedchaoscrystal'),item('draconicevolution:awakened_core:0'))
+//     .inputs(item('gregtech:frame_quantum') * 10,ore('plateCinobite') * 10,ore('plateAwakenDraconium') * 10,item('gregtech:meta_item_1:12520') * 10,item('gtadditions:ga_meta_item:32381'), item('gtadditions:ga_meta_item:32393'), item('gtadditions:ga_meta_item:32375'), ore('circuitUxv'), item('contenttweaker:refinedchaoscrystal'),item('draconicevolution:awakened_core:0'))
 //     .outputs(item('draconicevolution:chaotic_core:0') * 2)
 //     .duration(600)
 //     .EUt(33554432)

@@ -531,8 +531,8 @@
 // recipes.addShaped(item('gregtech:machine:1302'), [[ore('circuitUltimate'), ore('plateOsmiridium'), ore('circuitUltimate')],[ore('plateOsmiridium'), item('gregtech:mte:992'), ore('plateOsmiridium')], [ore('circuitUltimate'), item('gregtech:meta_item_1:32676'), ore('circuitUltimate')]]);
 // recipes.addShaped(item('gregtech:machine:1300'), [[ore('circuitMaster'), ore('plateRhodiumPlatedPalladium'), ore('circuitMaster')],[ore('plateRhodiumPlatedPalladium'), item('gregtech:mte:991'), ore('plateRhodiumPlatedPalladium')], [ore('circuitMaster'), item('gregtech:meta_item_1:32675'), ore('circuitMaster')]]);
 // //Needs to be updated when max circuits come out
-// recipes.addShaped(item('gregtech:machine:1307'), [[ore('circuitUmv'), item('gcyl:gcyl_meta_item:383'), ore('circuitUmv')],[ore('plateNeutronium'), item('gregtech:machine:509'), ore('plateNeutronium')], [ore('circuitUmv'), ore('plateNeutronium'), ore('circuitUmv')]]);
-// recipes.addShaped(item('gregtech:machine:1306'), [[ore('circuitUmv'), ore('plateNeutronium'), ore('circuitUmv')],[ore('plateNeutronium'), item('gregtech:machine:509'), ore('plateNeutronium')], [ore('circuitUmv'), item('gcyl:gcyl_meta_item:383'), ore('circuitUmv')]]);
+// recipes.addShaped(item('gregtech:machine:1307'), [[ore('circuitUxv'), item('gcyl:gcyl_meta_item:383'), ore('circuitUxv')],[ore('plateNeutronium'), item('gregtech:machine:509'), ore('plateNeutronium')], [ore('circuitUxv'), ore('plateNeutronium'), ore('circuitUxv')]]);
+// recipes.addShaped(item('gregtech:machine:1306'), [[ore('circuitUxv'), ore('plateNeutronium'), ore('circuitUxv')],[ore('plateNeutronium'), item('gregtech:machine:509'), ore('plateNeutronium')], [ore('circuitUxv'), item('gcyl:gcyl_meta_item:383'), ore('circuitUxv')]]);
 // recipes.addShaped(ore('blockAluminium'), [[ore('ingotAluminium'), ore('ingotAluminium'), ore('ingotAluminium')],[ore('ingotAluminium'), ore('ingotAluminium'), ore('ingotAluminium')], [ore('ingotAluminium'), ore('ingotAluminium'), ore('ingotAluminium')]]);
 // furnace.addRecipe(item('minecraft:glass'), item('gregtech:meta_item_1:2960'), 0.0);
 // furnace.addRecipe(ore('ingotGold'), ore('blockPreciousMetal'), 0.0);
@@ -1772,7 +1772,7 @@
 //         .buildAndRegister();
 // //arm
 // assembly_line.recipeBuilder()
-//         .inputs([ore('cableGtDoubleCosmicNeutronium') * 16, ore('circuitUmv') * 8, item('gcyl:gcyl_meta_item:359') * 2, item('gcyl:gcyl_meta_item:365'), ore('ingotCosmicNeutronium'), ore('stickQcdConfinedMatter') * 8, ore('screwCosmicNeutronium') * 16])
+//         .inputs([ore('cableGtDoubleCosmicNeutronium') * 16, ore('circuitUxv') * 8, item('gcyl:gcyl_meta_item:359') * 2, item('gcyl:gcyl_meta_item:365'), ore('ingotCosmicNeutronium'), ore('stickQcdConfinedMatter') * 8, ore('screwCosmicNeutronium') * 16])
 //         .outputs(item('gcyl:gcyl_meta_item:389'))
 //         .fluidInputs(fluid('soldering_alloy') * 864, fluid('lubricant') * 864)
 //         .duration(600)
@@ -1786,7 +1786,7 @@
 //         .duration(600)
 //         .EUt(536870900)
 //         .buildAndRegister();
-// //UXV componets
+// //OpV componets
 // 
 // 
 // assembly_line.recipeBuilder()
@@ -1823,7 +1823,7 @@
 //         .buildAndRegister();
 // 
 // assembly_line.recipeBuilder()
-//         .inputs([item('gtadditions:ga_dust:380') * 64, ore('circuitUxv') * 2, ore('frameGtNeutronium'), ore('gemExquisiteJasper') * 2, item('gcyl:gcyl_meta_item:533'), item('gcyl:gcyl_meta_item:524') * 4, ore('cableGtSingleNeutronium') * 8, ore('foilBohrium') * 64])
+//         .inputs([item('gtadditions:ga_dust:380') * 64, ore('circuitOpv') * 2, ore('frameGtNeutronium'), ore('gemExquisiteJasper') * 2, item('gcyl:gcyl_meta_item:533'), item('gcyl:gcyl_meta_item:524') * 4, ore('cableGtSingleNeutronium') * 8, ore('foilBohrium') * 64])
 //         .outputs(item('gregtech:meta_item_1:228'))
 //         .fluidInputs(fluid('lubricant') * 2000, fluid('soldering_alloy') * 576)
 //         .duration(600)
@@ -1831,7 +1831,7 @@
 //         .buildAndRegister();
 // 
 // assembly_line.recipeBuilder()
-//         .inputs([item('gcyl:gcyl_meta_item:597'),item('gtadditions:ga_meta_item2:10'), ore('wireGtSingleUxvSuperconductor') * 4, ore('circuitUxv') * 2, item('gcyl:gcyl_meta_item:511'), ore('frameGtVibranium'), ore('cableGtSingleNeutronium') * 4, ore('wireFineVibranium') * 64, ore('wireFineVibranium') * 64 ])
+//         .inputs([item('gcyl:gcyl_meta_item:597'),item('gtadditions:ga_meta_item2:10'), ore('wireGtSingleOpvSuperconductor') * 4, ore('circuitOpv') * 2, item('gcyl:gcyl_meta_item:511'), ore('frameGtVibranium'), ore('cableGtSingleNeutronium') * 4, ore('wireFineVibranium') * 64, ore('wireFineVibranium') * 64 ])
 //         .outputs(item('gregtech:meta_item_1:213'))
 //         .fluidInputs(fluid('soldering_alloy') * 864)
 //         .duration(600)
@@ -1847,7 +1847,7 @@
 //         .buildAndRegister();
 // 
 // assembly_line.recipeBuilder()
-//         .inputs([ore('circuitUxv') * 2, ore('cableGtSingleNeutronium') * 8,ore('frameGtNeutronium'), ore('gemExquisiteJasper') * 2, item('gcyl:gcyl_meta_item:459') * 16, ore('foilMetastableOganesson') * 64, ore('foilFullerenePolymerMatrix') * 64 ])
+//         .inputs([ore('circuitOpv') * 2, ore('cableGtSingleNeutronium') * 8,ore('frameGtNeutronium'), ore('gemExquisiteJasper') * 2, item('gcyl:gcyl_meta_item:459') * 16, ore('foilMetastableOganesson') * 64, ore('foilFullerenePolymerMatrix') * 64 ])
 //         .outputs(item('gregtech:meta_item_1:243'))
 //         .fluidInputs(fluid('quark_gluon_plasma') * 2000)
 //         .duration(600)
@@ -2010,7 +2010,7 @@
 //     .EUt(16)
 //     .buildAndRegister();
 // 
-// //UXV
+// //OpV
 // assembler.recipeBuilder()
 //     .inputs(item('gregtech:machine_casing:12'), ore('cableGtSingleNeutronium')* 2)
 //     .outputs(item('gregtech:mte:997'))
@@ -2082,7 +2082,7 @@
 // recipes.addShaped(item('simplevoidworld:portal:0'), [[ore('obsidian'), ore('gemDiamond'), ore('obsidian')],[ore('gemDiamond'), ore('toolPickaxe'), ore('gemDiamond')], [ore('obsidian'), ore('gemDiamond'), ore('obsidian')]]);
 // 
 // assembler.recipeBuilder()
-//     .inputs(ore('circuitUxv') * 2, ore('gearQcdConfinedMatter') * 4, ore('plateQcdConfinedMatter') * 4,ore('cableGtQuadrupleNeutronium'))
+//     .inputs(ore('circuitOpv') * 2, ore('gearQcdConfinedMatter') * 4, ore('plateQcdConfinedMatter') * 4,ore('cableGtQuadrupleNeutronium'))
 //     .outputs(item('gtadditions:ga_multiblock_casing2:4'))
 //     .fluidInputs(fluid('enriched_naquadah_alloy')* 288)
 //     .duration(100)

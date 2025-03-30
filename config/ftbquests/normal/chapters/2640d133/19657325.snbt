@@ -11,7 +11,7 @@
 		uid: "639649c4",
 		type: "item",
 		items: [{
-			item: "contenttweaker:steampiston"
+			item: "tjceu:tj_meta_item 1 1"
 		}]
 	}],
 	rewards: [{

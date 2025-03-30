@@ -13,8 +13,7 @@
 		uid: "293059df",
 		type: "checkmark",
 		icon: {
-			id: "gregtech:meta_tool",
-			Damage: 3s,
+			id: "gregtech:axe",
 			tag: {
 				GT.ToolStats: {
 					Material: "darmstadtium"

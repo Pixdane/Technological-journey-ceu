@@ -61,8 +61,8 @@
 // var UHV = MaterialCasting.toIngot(item('material:uhv_superconductor'));
 // var UEV = MaterialCasting.toIngot(item('material:uev_superconductor'));
 // var UIV = MaterialCasting.toIngot(item('material:uiv_superconductor'));
-// var UMV = MaterialCasting.toIngot(item('material:umv_superconductor'));
 // var UXV = MaterialCasting.toIngot(item('material:uxv_superconductor'));
+// var OpV = MaterialCasting.toIngot(item('material:opv_superconductor'));
 // //val cosmicNeutronium = MaterialRegistry.createIngotMaterial(515, "cosmic_neutronium", 0x000000, "shiny", 4);
 // //cosmicNeutronium.addFlags(["GENERATE_PLATE","SMELT_INTO_FLUID","GENERATE_DENSE"]);
 // //cosmicNeutronium.setCableProperties(128, 8, 0);
@@ -76,8 +76,8 @@
 // UHV.setCableProperties(2097152, 8, 0);
 // UEV.setCableProperties(8388608, 8, 0);
 // UIV.setCableProperties(33554432, 8, 0);
-// UMV.setCableProperties(536870912, 8, 0);
-// UXV.setCableProperties(2147483648, 8, 0);
+// UXV.setCableProperties(536870912, 8, 0);
+// OpV.setCableProperties(2147483648, 8, 0);
 // */
 // 
 // val lvSuper = MaterialRegistry.createIngotMaterial(516, "lv_superconductor", 0xf8f8ff, "dull", 4);

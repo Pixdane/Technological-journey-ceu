@@ -28,14 +28,14 @@
 		uid: "2b227d83",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 4176"
+			item: "gregtech:mte 1 1652"
 		}]
 	},
 	{
 		uid: "32c924c2",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 4177"
+			item: "gregtech:mte 1 1651"
 		}]
 	},
 	{
