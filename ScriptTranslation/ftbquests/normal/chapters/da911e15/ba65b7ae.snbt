@@ -1,0 +1,31 @@
+{
+	x: -0.5d,
+	y: -3.0d,
+	dependencies: [
+		"64d460ef"
+	],
+	tasks: [{
+		uid: "cf4c0f76",
+		type: "item",
+		items: [{
+			item: "gcyl:gcyl_meta_item 1 248"
+		}],
+		count: 32L
+	},
+	{
+		uid: "f6f1e43a",
+		type: "item",
+		items: [{
+			item: "gcyl:gcyl_meta_item 1 249"
+		}],
+		count: 16L
+	},
+	{
+		uid: "36cf1d8f",
+		type: "item",
+		items: [{
+			item: "gcyl:gcyl_meta_item 1 250"
+		}],
+		count: 24L
+	}]
+}

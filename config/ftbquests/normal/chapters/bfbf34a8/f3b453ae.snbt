@@ -2,7 +2,7 @@
 	x: 8.0d,
 	y: 5.0d,
 	shape: "rsquare",
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "c16667a9",
 		type: "item",

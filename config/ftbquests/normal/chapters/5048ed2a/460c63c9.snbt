@@ -24,7 +24,7 @@
 			item: "gregtech:metal_casing 1 6"
 		}],
 		count: 33L,
-		consume_items: false
+		consume_items: 0b
 	},
 	{
 		uid: "8413308d",

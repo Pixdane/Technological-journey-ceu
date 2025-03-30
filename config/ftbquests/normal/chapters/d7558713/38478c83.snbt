@@ -8,6 +8,6 @@
 		uid: "5e17cb21",
 		type: "checkmark",
 		title: "Indium Dust",
-		icon: "gregtech:meta_item_1 1 2031"
+		icon: "gregtech:meta_dust 1 48"
 	}]
 }

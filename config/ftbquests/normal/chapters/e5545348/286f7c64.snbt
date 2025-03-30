@@ -4,20 +4,20 @@
 	text: [
 		"You may make either an LV or an MV Distillery to complete this quest."
 	],
-	hide_dependency_lines: true,
-	or_tasks: true,
+	hide_dependency_lines: 1b,
+	or_tasks: 1b,
 	tasks: [{
 		uid: "6af0529c",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 230"
+			item: "gregtech:mte 1 260"
 		}]
 	},
 	{
 		uid: "f4e96f66",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 231"
+			item: "gregtech:mte 1 261"
 		}]
 	}]
 }

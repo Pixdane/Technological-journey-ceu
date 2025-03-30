@@ -8,7 +8,7 @@
 		uid: "a0652835",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 10856"
+			item: "gcyl:meta_ingot 1 174"
 		}]
 	},
 	{
@@ -22,7 +22,7 @@
 	rewards: [{
 		uid: "019518f0",
 		type: "item",
-		item: "gregtech:meta_item_1 1 10717",
+		item: "gcyl:meta_ingot 1 193",
 		count: 8
 	}]
 }

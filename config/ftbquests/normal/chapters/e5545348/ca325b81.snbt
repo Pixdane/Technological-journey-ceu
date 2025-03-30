@@ -10,7 +10,7 @@
 		"26b8984b"
 	],
 	dependency_requirement: "one_completed",
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "950219e8",
 		type: "checkmark",
@@ -25,7 +25,7 @@
 	rewards: [{
 		uid: "a55b55ed",
 		type: "item",
-		item: "gregtech:meta_item_1 1 2132"
+		item: "gregtech:meta_dust 1 293"
 	},
 	{
 		uid: "92f2c3b6",

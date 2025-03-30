@@ -1,0 +1,37 @@
+{
+	x: 3.0d,
+	y: 3.0d,
+	dependencies: [
+		"0a345603"
+	],
+	tasks: [{
+		uid: "b291ea79",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:rocketbuilder 1 0"
+		}]
+	},
+	{
+		uid: "d479a993",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:fuelingstation 1 0"
+		}]
+	},
+	{
+		uid: "d463242c",
+		type: "item",
+		items: [{
+			item: "libvulpes:linker 1 0"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "04ecb22a",
+		type: "item",
+		items: [{
+			item: "libvulpes:holoprojector 1 0"
+		}]
+	}]
+}

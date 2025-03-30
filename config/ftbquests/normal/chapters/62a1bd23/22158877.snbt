@@ -1,17 +1,17 @@
 {
 	title: "Phobos",
-	disable_toast: true,
+	disable_toast: 1b,
 	x: -9.5d,
 	y: 6.5d,
 	text: [
 		""
 	],
-	can_repeat: true,
+	can_repeat: 1b,
 	dependencies: [
 		"7a0d1943"
 	],
-	hide: true,
-	optional: true,
+	hide: 1b,
+	optional: 1b,
 	tasks: [{
 		uid: "a187603c",
 		type: "item",
@@ -32,13 +32,13 @@
 		item: {
 			id: "draconicevolution:dislocator",
 			tag: {
-				X: 256.5d,
-				Y: 255.3159999728203d,
-				Z: 256.5d,
-				Yaw: -285.7501f,
-				Pitch: 29.099993f,
 				Dimension: 402,
 				IsSet: 1b,
+				Z: 256.5d,
+				Pitch: 29.099993f,
+				X: 256.5d,
+				Y: 255.3159999728203d,
+				Yaw: -285.7501f,
 				DimentionName: "planet"
 			}
 		}

@@ -9,7 +9,7 @@
 		uid: "ea6017be",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 10018"
+			item: "gregtech:meta_ingot 1 25"
 		}]
 	}]
 }

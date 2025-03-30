@@ -1,0 +1,15 @@
+{
+	x: 8.5d,
+	y: -6.0d,
+	dependencies: [
+		"2f7b7dcf"
+	],
+	optional: true,
+	tasks: [{
+		uid: "61b3aeda",
+		type: "item",
+		items: [{
+			item: "simplevoidworld:portal 1 0"
+		}]
+	}]
+}

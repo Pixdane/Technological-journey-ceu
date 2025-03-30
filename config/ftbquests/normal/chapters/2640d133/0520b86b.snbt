@@ -11,12 +11,12 @@
 	dependencies: [
 		"7f44bdc9"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "25ee2ffd",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 1000"
+			item: "gregtech:mte 1 1017"
 		}]
 	},
 	{

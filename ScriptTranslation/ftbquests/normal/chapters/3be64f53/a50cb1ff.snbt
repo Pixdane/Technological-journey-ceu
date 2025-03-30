@@ -1,0 +1,19 @@
+{
+	title: "2,4,6,8,10,12-Hexanitro-2,4,6,8,10,12-hexaazatetracyclo[5.5.0.03,11.05,9]dodecane",
+	x: -6.5d,
+	y: -1.5d,
+	shape: "hexagon",
+	text: [
+		"Wurtz(hexanitrohexaazaisowurtzitane) my beloved. This one's fun to pronounce."
+	],
+	dependencies: [
+		"0cba75fd"
+	],
+	tasks: [{
+		uid: "05f7f78a",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_dust 1 919"
+		}]
+	}]
+}

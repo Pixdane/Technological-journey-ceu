@@ -10,7 +10,7 @@
 		uid: "344fd6d2",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32027"
+			item: "gcyl:gcyl_meta_item 1 27"
 		}]
 	}]
 }

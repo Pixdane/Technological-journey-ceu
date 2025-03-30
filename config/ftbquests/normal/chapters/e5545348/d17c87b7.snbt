@@ -7,7 +7,7 @@
 	dependencies: [
 		"714944d8"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "90cf1256",
 		type: "item",
@@ -29,7 +29,7 @@
 			item: "gregtech:metal_casing 1 4"
 		}],
 		count: 8L,
-		consume_items: false
+		consume_items: 0b
 	},
 	{
 		uid: "dc66e257",
@@ -62,6 +62,6 @@
 	{
 		uid: "f0500bbe",
 		type: "item",
-		item: "gregtech:meta_item_1 1 32708"
+		item: "gregtech:meta_item_1 1 261"
 	}]
 }

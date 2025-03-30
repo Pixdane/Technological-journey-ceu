@@ -5,7 +5,7 @@
 		"880df939",
 		"286f7c64"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "7992fc52",
 		type: "checkmark",

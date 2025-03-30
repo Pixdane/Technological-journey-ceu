@@ -9,7 +9,7 @@
 		uid: "ee200b07",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_2 1 32471"
+			item: "gregtech:meta_item_1 1 567"
 		}]
 	}]
 }

@@ -1,0 +1,63 @@
+{
+	icon: "gregtech:machine 1 2530",
+	x: -1.5d,
+	y: 5.0d,
+	text: [
+		"The LCR is an incredibly important multiblock. It can run (nearly) any recipe that can be run in a typical chemical reactor, along with several that cannot. It has a perfect overclock, which is generally faster than a single block of the same tier. You will be making hundreds of these.",
+		"",
+		"The structure the quest was based on has 7 hatches—1 energy, 3 fluid outputs, I each item Input/output, and 2 fluid inputs."
+	],
+	dependencies: [
+		"8bedbe81"
+	],
+	tasks: [{
+		uid: "9b1d4c78",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2530"
+		}]
+	},
+	{
+		uid: "a015253b",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_multiblock_casing 1 1"
+		}],
+		count: 15L
+	},
+	{
+		uid: "6ac41d44",
+		type: "item",
+		items: [{
+			item: "gregtech:boiler_casing 1 4"
+		}]
+	},
+	{
+		uid: "d91009e7",
+		type: "item",
+		items: [{
+			item: "gregtech:mte 1 1654"
+		}]
+	},
+	{
+		uid: "395d7078",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_coil 1 0"
+		}],
+		consume_items: false,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "779a0bf0",
+		type: "item",
+		item: "gregtech:meta_item_1 1 12145",
+		count: 32
+	},
+	{
+		uid: "6429ea3b",
+		type: "item",
+		item: "gcyl:meta_dust 1 1047",
+		count: 32
+	}]
+}

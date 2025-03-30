@@ -1,0 +1,20 @@
+{
+	x: 14.0d,
+	y: -4.5d,
+	shape: "rsquare",
+	dependencies: [
+		"02d58322"
+	],
+	tasks: [{
+		uid: "5a55a836",
+		type: "checkmark",
+		title: "Para-Xylene",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "para_xylene",
+				Amount: 1000
+			}
+		}
+	}]
+}

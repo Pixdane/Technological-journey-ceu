@@ -1,0 +1,11 @@
+{
+	x: 9.0d,
+	y: 1.5d,
+	tasks: [{
+		uid: "9c96cd99",
+		type: "item",
+		items: [{
+			item: "gcyl:gcyl_meta_item 1 404"
+		}]
+	}]
+}

@@ -43,6 +43,6 @@
 	rewards: [{
 		uid: "54261a61",
 		type: "item",
-		item: "gtadditions:ga_meta_item 1 32574"
+		item: "gcyl:gcyl_meta_item 1 574"
 	}]
 }

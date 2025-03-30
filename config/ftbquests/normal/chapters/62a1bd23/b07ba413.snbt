@@ -8,7 +8,7 @@
 		uid: "3f1c6c84",
 		type: "item",
 		items: [{
-			item: "gregtech:ore_uranium_radioactive_0 1 7"
+			item: "gregtech:ore_uranium_0 1 2"
 		}]
 	}]
 }

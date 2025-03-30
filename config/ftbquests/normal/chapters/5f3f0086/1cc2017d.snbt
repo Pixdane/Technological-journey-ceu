@@ -4,14 +4,14 @@
 	dependencies: [
 		"2f7b7dcf"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "9156462a",
 		type: "item",
 		items: [{
 			item: "aroma1997sdimension:miningmultitool"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}]
 }

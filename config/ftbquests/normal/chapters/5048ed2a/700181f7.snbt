@@ -8,7 +8,7 @@
 	dependencies: [
 		"fdaf832a"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "3163646a",
 		type: "item",

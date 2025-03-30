@@ -4,7 +4,7 @@
 	dependencies: [
 		"2849a30d"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "fe23cbf0",
 		type: "item",
@@ -17,7 +17,7 @@
 		uid: "299fbf32",
 		type: "command",
 		command: "/astralsorcery attune @p astralsorcery.constellation.vicio",
-		player_command: true
+		player_command: 1b
 	},
 	{
 		uid: "81d50c9c",

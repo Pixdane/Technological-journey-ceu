@@ -1,0 +1,19 @@
+{
+	x: 11.0d,
+	y: 0.5d,
+	text: [
+		"You probably want one of these. "
+	],
+	dependencies: [
+		"f9d13092"
+	],
+	optional: true,
+	tasks: [{
+		uid: "f3367551",
+		type: "item",
+		items: [{
+			item: "enderutilities:handybag 1 1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

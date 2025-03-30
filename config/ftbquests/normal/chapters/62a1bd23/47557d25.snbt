@@ -1,17 +1,17 @@
 {
 	title: "Deimos",
-	disable_toast: true,
+	disable_toast: 1b,
 	x: -9.5d,
 	y: 8.5d,
 	text: [
 		""
 	],
-	can_repeat: true,
+	can_repeat: 1b,
 	dependencies: [
 		"29834c10"
 	],
-	hide: true,
-	optional: true,
+	hide: 1b,
+	optional: 1b,
 	tasks: [{
 		uid: "7c863a1d",
 		type: "item",
@@ -32,13 +32,13 @@
 		item: {
 			id: "draconicevolution:dislocator",
 			tag: {
-				X: 256.5d,
-				Y: 255.3159999728203d,
-				Z: 256.5d,
-				Yaw: -291.89996f,
-				Pitch: 84.89997f,
 				Dimension: 406,
 				IsSet: 1b,
+				Z: 256.5d,
+				Pitch: 84.89997f,
+				X: 256.5d,
+				Y: 255.3159999728203d,
+				Yaw: -291.89996f,
 				DimentionName: "planet"
 			}
 		}

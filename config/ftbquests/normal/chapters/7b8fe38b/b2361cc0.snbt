@@ -9,14 +9,14 @@
 		uid: "00338460",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32028"
+			item: "gcyl:gcyl_meta_item 1 28"
 		}],
 		count: 128L
 	}],
 	rewards: [{
 		uid: "47921a37",
 		type: "item",
-		item: "gtadditions:ga_meta_item 1 32027",
+		item: "gcyl:gcyl_meta_item 1 27",
 		count: 16
 	}]
 }

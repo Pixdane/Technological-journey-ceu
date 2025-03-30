@@ -5,7 +5,7 @@
 		uid: "eebdacbc",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_2 1 18071"
+			item: "gregtech:meta_rotor 1 112"
 		}]
 	}]
 }

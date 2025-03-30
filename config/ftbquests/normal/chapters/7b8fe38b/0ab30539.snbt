@@ -5,7 +5,7 @@
 		uid: "0419c301",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 8203"
+			item: "gregtech:meta_gem 1 340"
 		}]
 	}]
 }

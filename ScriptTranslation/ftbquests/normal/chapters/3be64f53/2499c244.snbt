@@ -1,0 +1,24 @@
+{
+	x: -6.5d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"0a0a26ea",
+		"f6f6b9c5"
+	],
+	tasks: [{
+		uid: "3b71d5e3",
+		type: "item",
+		items: [{
+			item: "gcyl:meta_dust 1 175"
+		}]
+	}],
+	rewards: [{
+		uid: "1e7fac4b",
+		type: "item",
+		item: "gcyl:meta_dust 1 175",
+		count: 16
+	}]
+}

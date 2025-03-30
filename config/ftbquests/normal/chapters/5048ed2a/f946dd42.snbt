@@ -8,13 +8,13 @@
 		uid: "cecefe14",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32033"
+			item: "gregtech:meta_item_1 1 405"
 		}]
 	}],
 	rewards: [{
 		uid: "4da6deb8",
 		type: "item",
-		item: "gregtech:meta_item_1 1 12470",
+		item: "gregtech:meta_plate 1 1006",
 		count: 4
 	}]
 }

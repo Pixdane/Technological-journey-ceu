@@ -27,7 +27,7 @@
 		uid: "ec7f076a",
 		type: "item",
 		items: [{
-			item: "gregtech:multiblock_casing 1 1"
+			item: "gregtech:multiblock_casing 1 2"
 		}],
 		count: 9L
 	}]

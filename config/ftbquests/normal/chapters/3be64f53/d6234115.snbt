@@ -6,7 +6,7 @@
 			Amount: 1000
 		}
 	},
-	disable_toast: true,
+	disable_toast: 1b,
 	x: -4.5d,
 	y: 3.5d,
 	shape: "rsquare",

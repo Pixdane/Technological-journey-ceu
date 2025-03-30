@@ -51,7 +51,7 @@
 	rewards: [{
 		uid: "337d289e",
 		type: "item",
-		item: "gregtech:meta_item_1 1 10311",
+		item: "gregtech:meta_ingot 1 128",
 		count: 32
 	}]
 }

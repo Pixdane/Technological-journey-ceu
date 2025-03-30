@@ -6,7 +6,8 @@
 			GT.ToolStats: {
 				Material: "darmstadtium"
 			}
-		}
+		},
+		Count: 1b
 	},
 	x: -6.5d,
 	y: -4.5d,

@@ -8,7 +8,7 @@
 		uid: "b81f3001",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 10183"
+			item: "gregtech:meta_ingot 1 323"
 		}]
 	}],
 	rewards: [{

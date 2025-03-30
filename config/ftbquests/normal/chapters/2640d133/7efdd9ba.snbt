@@ -13,7 +13,7 @@
 		uid: "744383eb",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_2 1 32443"
+			item: "gregtech:meta_item_1 1 381"
 		}]
 	}]
 }

@@ -1,0 +1,15 @@
+{
+	x: -3.0d,
+	y: 0.5d,
+	dependencies: [
+		"c6818406"
+	],
+	optional: true,
+	tasks: [{
+		uid: "97adf83f",
+		type: "item",
+		items: [{
+			item: "nae2:storage_crafting_256k"
+		}]
+	}]
+}

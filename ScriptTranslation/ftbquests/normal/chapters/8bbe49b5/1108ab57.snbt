@@ -1,0 +1,22 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	text: [
+		"For now, your rutile should be coming from bauxite electrolysis. Later on, you will be able to mine it on the moon or fully process bauxite via red mud to increase yeild."
+	],
+	dependencies: [
+		"41177a79"
+	],
+	tasks: [{
+		uid: "19160656",
+		type: "checkmark",
+		title: "Titanium Tetrachloride",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "titanium_tetrachloride",
+				Amount: 1000
+			}
+		}
+	}]
+}

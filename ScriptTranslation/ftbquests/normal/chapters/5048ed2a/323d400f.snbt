@@ -1,0 +1,31 @@
+{
+	icon: "gregtech:machine 1 2529",
+	x: 4.5d,
+	y: 0.5d,
+	dependencies: [
+		"fdaf832a"
+	],
+	tasks: [{
+		uid: "20230c2d",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2529"
+		}]
+	},
+	{
+		uid: "14ad9617",
+		type: "item",
+		items: [{
+			item: "gcyl:gcyl_metal_casing_1 1 5"
+		}],
+		count: 41L
+	},
+	{
+		uid: "1f764d8c",
+		type: "item",
+		items: [{
+			item: "gregtech:turbine_casing 1 2"
+		}],
+		count: 2L
+	}]
+}

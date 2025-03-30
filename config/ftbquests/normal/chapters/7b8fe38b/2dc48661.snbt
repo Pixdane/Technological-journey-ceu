@@ -4,14 +4,14 @@
 	text: [
 		"This quest is renewable. No, dont bother making a witch farm with it. "
 	],
-	can_repeat: true,
+	can_repeat: 1b,
 	tasks: [{
 		uid: "7a56700d",
 		type: "item",
 		items: [{
 			item: "minecraft:redstone"
 		}],
-		consume_items: true
+		consume_items: 1b
 	},
 	{
 		uid: "bf93cff6",
@@ -19,7 +19,7 @@
 		items: [{
 			item: "minecraft:glowstone_dust"
 		}],
-		consume_items: true
+		consume_items: 1b
 	},
 	{
 		uid: "41666a7c",

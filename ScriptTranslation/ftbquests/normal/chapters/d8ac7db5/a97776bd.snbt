@@ -1,0 +1,36 @@
+{
+	x: 12.0d,
+	y: 6.0d,
+	dependencies: [
+		"85931ee7",
+		"7fdfa22a"
+	],
+	tasks: [{
+		uid: "2b44a31a",
+		type: "item",
+		items: [{
+			item: "gcyl:gcyl_meta_item 1 259"
+		}]
+	},
+	{
+		uid: "e24a1325",
+		type: "item",
+		items: [{
+			item: "gcyl:gcyl_meta_item 1 258"
+		}]
+	},
+	{
+		uid: "a5822c3d",
+		type: "item",
+		items: [{
+			item: "gcyl:gcyl_meta_item 1 257"
+		}]
+	},
+	{
+		uid: "7d2cf3c5",
+		type: "item",
+		items: [{
+			item: "gcyl:gcyl_meta_item 1 256"
+		}]
+	}]
+}

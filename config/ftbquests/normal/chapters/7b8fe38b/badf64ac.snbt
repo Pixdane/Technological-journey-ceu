@@ -4,8 +4,8 @@
 	text: [
 		"You can now make and charge a drill, but consider the fact that you will be able to do all mining by abusing TIAB and chunk miners soon."
 	],
-	hide_dependency_lines: true,
-	optional: true,
+	hide_dependency_lines: 1b,
+	optional: 1b,
 	tasks: [{
 		uid: "1968a634",
 		type: "item",

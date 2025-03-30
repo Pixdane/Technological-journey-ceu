@@ -1,0 +1,20 @@
+{
+	x: -13.5d,
+	y: 0.5d,
+	dependencies: [
+		"8e1f8b0d"
+	],
+	tasks: [{
+		uid: "85ca808d",
+		type: "item",
+		items: [{
+			item: "gcyl:gcyl_meta_item 1 533"
+		}]
+	}],
+	rewards: [{
+		uid: "6140ea84",
+		type: "item",
+		item: "gcyl:meta_ingot 1 192",
+		count: 8
+	}]
+}

@@ -11,7 +11,7 @@
 		uid: "0782fcac",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 121"
+			item: "gregtech:mte 1 141"
 		}]
 	}]
 }

@@ -1,5 +1,5 @@
 {
-	disable_toast: true,
+	disable_toast: 1b,
 	x: 0.0d,
 	y: -8.5d,
 	text: [

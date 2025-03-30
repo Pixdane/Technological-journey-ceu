@@ -1,0 +1,24 @@
+{
+	x: 1.0d,
+	y: 2.0d,
+	text: [
+		"You will need 132 compressed fireclay, 32 of which you'll get as a reward. Get macerating!"
+	],
+	dependencies: [
+		"88f17395",
+		"1a5403b2"
+	],
+	tasks: [{
+		uid: "faa27d85",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 351"
+		}]
+	}],
+	rewards: [{
+		uid: "812aa0be",
+		type: "item",
+		item: "gregtech:meta_item_1 1 351",
+		count: 32
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: -7.5d,
+	y: -4.5d,
+	text: [
+		"You may have noticed this pack contains fluid crafting rework. This mod is beneficial for smaller crafts like melting metals for assline/CAL, polyethylene early on to avoid filling buffers, and soldering alloys. But please don’t get into a habit of using it for everything. For a large amount of chemistry, it is much more TPS-efficient to fully passive and pause the machine via detector cover and machine controller cover. "
+	],
+	tasks: [{
+		uid: "9864d8b4",
+		type: "checkmark",
+		title: "AE2fc?",
+		icon: {
+			id: "extracells:pattern.fluid",
+			tag: {
+				Fluid: {
+					FluidName: "water",
+					Amount: 1000
+				}
+			}
+		}
+	}]
+}

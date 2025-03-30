@@ -11,7 +11,7 @@
 		uid: "947eb98f",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_multiblock_casing2 1 6"
+			item: "gcyl:gcyl_multiblock_casing2"
 		}],
 		count: 55L
 	},
@@ -19,7 +19,7 @@
 		uid: "e022b17c",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 4170"
+			item: "gcyl:mte"
 		}]
 	},
 	{
@@ -64,7 +64,7 @@
 	rewards: [{
 		uid: "f6195eab",
 		type: "item",
-		item: "gregtech:meta_item_1 1 10308",
+		item: "gregtech:meta_ingot 1 2042",
 		count: 16
 	}]
 }

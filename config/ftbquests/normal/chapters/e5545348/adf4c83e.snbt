@@ -1,6 +1,6 @@
 {
 	title: "SMD's",
-	icon: "gtadditions:ga_meta_item 1 32240",
+	icon: "gcyl:gcyl_meta_item 1 240",
 	x: 6.5d,
 	y: 8.5d,
 	text: [
@@ -9,33 +9,33 @@
 	dependencies: [
 		"682150e7"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "a3352db3",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32242"
+			item: "gcyl:gcyl_meta_item 1 242"
 		}]
 	},
 	{
 		uid: "3f5f1a34",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32240"
+			item: "gcyl:gcyl_meta_item 1 240"
 		}]
 	},
 	{
 		uid: "64aeb425",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32241"
+			item: "gcyl:gcyl_meta_item 1 241"
 		}]
 	},
 	{
 		uid: "d8b38c65",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_meta_item 1 32243"
+			item: "gcyl:gcyl_meta_item 1 243"
 		}]
 	}],
 	rewards: [{
@@ -49,7 +49,8 @@
 					FluidName: "plastic",
 					Amount: 16000
 				}
-			}
+			},
+			Count: 1b
 		}
 	}]
 }

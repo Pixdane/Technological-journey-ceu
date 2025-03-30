@@ -16,7 +16,7 @@
 		uid: "14ad9617",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_metal_casing_1 1 5"
+			item: "gcyl:gcyl_metal_casing_1 1 5"
 		}],
 		count: 41L
 	},

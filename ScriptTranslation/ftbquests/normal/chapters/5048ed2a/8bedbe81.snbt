@@ -1,0 +1,16 @@
+{
+	x: -1.5d,
+	y: 4.0d,
+	dependencies: [
+		"6df7a2bb",
+		"f2811a1e"
+	],
+	tasks: [{
+		uid: "745c7b3e",
+		type: "item",
+		items: [{
+			item: "gtadditions:ga_multiblock_casing 1 1"
+		}],
+		count: 15L
+	}]
+}

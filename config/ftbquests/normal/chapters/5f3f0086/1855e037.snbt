@@ -10,7 +10,7 @@
 		"",
 		"Press \"U\" to see the use(s) of an item, and \"R\" to see the recipe(s) for it. Combining this with the tip above, you can trace an entire recipe chain and pin it to bookmarks. "
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"d83c9621"
 	],

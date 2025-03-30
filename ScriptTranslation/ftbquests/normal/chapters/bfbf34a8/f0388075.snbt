@@ -1,0 +1,58 @@
+{
+	x: 8.0d,
+	y: 1.0d,
+	text: [
+		"Finally, the ultimate fusion donut! While it is required for progression in order to produce Refined Chaos Plasma, it can also be used to produce Neutron Plasma at a much faster and more efficient rate"
+	],
+	dependencies: [
+		"fc296e47"
+	],
+	tasks: [{
+		uid: "8e09ed3c",
+		type: "item",
+		items: [{
+			item: "gcyl:gcyl_cryostat_casing 1 4"
+		}],
+		count: 64L
+	},
+	{
+		uid: "61ce4b13",
+		type: "item",
+		items: [{
+			item: "gcyl:gcyl_divertor_casing 1 4"
+		}],
+		count: 47L
+	},
+	{
+		uid: "20344aef",
+		type: "item",
+		items: [{
+			item: "gcyl:gcyl_vacuum_casing 1 4"
+		}],
+		count: 64L
+	},
+	{
+		uid: "40c9fcdf",
+		type: "item",
+		items: [{
+			item: "gcyl:gcyl_vacuum_casing 1 4"
+		}],
+		count: 36L
+	},
+	{
+		uid: "fe2d607f",
+		type: "item",
+		items: [{
+			item: "gcyl:gcyl_fusion_coil 1 4"
+		}],
+		count: 64L
+	},
+	{
+		uid: "2138e82a",
+		type: "item",
+		items: [{
+			item: "gcyl:gcyl_fusion_coil 1 4"
+		}],
+		count: 59L
+	}]
+}

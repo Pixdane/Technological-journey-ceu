@@ -1,0 +1,14 @@
+{
+	x: 9.0d,
+	y: -4.0d,
+	dependencies: [
+		"04e6f2ba"
+	],
+	tasks: [{
+		uid: "07316778",
+		type: "item",
+		items: [{
+			item: "gcyl:meta_dust 1 759"
+		}]
+	}]
+}

@@ -11,7 +11,7 @@
 		uid: "b7c5a8f7",
 		type: "item",
 		items: [{
-			item: "gregtech:cable 1 5237"
+			item: "gregtech:cable_single 1 2517"
 		}]
 	}]
 }

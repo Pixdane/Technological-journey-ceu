@@ -1,0 +1,22 @@
+{
+	x: -2.5d,
+	y: 0.5d,
+	text: [
+		"Feel free to batch this for now - you'll get renewable polyethylene for cables soon enough."
+	],
+	dependencies: [
+		"b7c448ec"
+	],
+	tasks: [{
+		uid: "d6f9ad79",
+		type: "checkmark",
+		title: "Polycaprolactam Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "polycaprolactam",
+				Amount: 1000
+			}
+		}
+	}]
+}

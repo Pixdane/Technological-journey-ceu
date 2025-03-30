@@ -5,7 +5,7 @@
 	tasks: [{
 		uid: "35b85728",
 		type: "checkmark",
-		icon: "gregtech:ore_zirkelite_0 1 6"
+		icon: "gregtech:ore_zirkelite_0 1 1"
 	}],
 	rewards: [{
 		uid: "c31d500f",

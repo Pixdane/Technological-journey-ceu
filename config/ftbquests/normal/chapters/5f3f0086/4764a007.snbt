@@ -52,7 +52,7 @@
 				}
 			}
 		}],
-		consume_items: false,
+		consume_items: 0b,
 		ignore_nbt: 1b
 	},
 	{
@@ -118,7 +118,7 @@
 	rewards: [{
 		uid: "ececf02e",
 		type: "item",
-		item: "gregtech:meta_item_1 1 12033",
+		item: "gregtech:meta_plate 1 51",
 		count: 10
 	}]
 }

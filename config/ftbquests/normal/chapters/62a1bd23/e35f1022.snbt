@@ -1,18 +1,18 @@
 {
 	title: "Mercury",
-	disable_toast: true,
+	disable_toast: 1b,
 	x: -9.5d,
 	y: 4.5d,
 	shape: "circle",
 	text: [
 		""
 	],
-	can_repeat: true,
+	can_repeat: 1b,
 	dependencies: [
 		"18413c2d"
 	],
-	hide: true,
-	optional: true,
+	hide: 1b,
+	optional: 1b,
 	tasks: [{
 		uid: "8e5ba4a7",
 		type: "item",
@@ -33,13 +33,13 @@
 		item: {
 			id: "draconicevolution:dislocator",
 			tag: {
-				X: 256.5d,
-				Y: 254.64375994610788d,
-				Z: 256.5d,
-				Yaw: -290.84998f,
-				Pitch: 29.849993f,
 				Dimension: 403,
 				IsSet: 1b,
+				Z: 256.5d,
+				Pitch: 29.849993f,
+				X: 256.5d,
+				Y: 254.64375994610788d,
+				Yaw: -290.84998f,
 				DimentionName: "planet"
 			}
 		}

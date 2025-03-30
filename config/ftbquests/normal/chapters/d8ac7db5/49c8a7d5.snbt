@@ -22,7 +22,7 @@
 	dependencies: [
 		"26a558df"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "ceec0bca",
 		type: "item",

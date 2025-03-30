@@ -11,7 +11,7 @@
 				Amount: 1000
 			}
 		}],
-		ignore_damage: true,
-		only_from_crafting: false
+		ignore_damage: 1b,
+		only_from_crafting: 0b
 	}]
 }

@@ -12,7 +12,7 @@
 		uid: "b8560f28",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 2780"
+			item: "gregtech:meta_dust 1 60"
 		}]
 	}]
 }

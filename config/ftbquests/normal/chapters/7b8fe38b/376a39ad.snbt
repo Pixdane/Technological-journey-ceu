@@ -7,12 +7,12 @@
 	dependencies: [
 		"3ac4401a"
 	],
-	or_tasks: true,
+	or_tasks: 1b,
 	tasks: [{
 		uid: "97003540",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 240"
+			item: "gregtech:mte 1 275"
 		}]
 	}]
 }

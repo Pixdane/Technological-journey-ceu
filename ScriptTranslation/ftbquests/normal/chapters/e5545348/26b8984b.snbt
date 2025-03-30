@@ -1,0 +1,23 @@
+{
+	x: -1.5d,
+	y: -4.0d,
+	dependencies: [
+		"714944d8"
+	],
+	optional: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "5beb49a7",
+		type: "item",
+		items: [{
+			item: "gregtech:mte 1 1530"
+		}]
+	},
+	{
+		uid: "c9eb3483",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2232"
+		}]
+	}]
+}

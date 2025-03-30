@@ -9,12 +9,12 @@
 	dependencies: [
 		"1bcba84d"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "9e0bbd34",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 14307"
+			item: "gregtech:meta_stick 1 124"
 		}],
 		count: 2L
 	}]

@@ -1,0 +1,22 @@
+{
+	x: -6.0d,
+	y: 9.5d,
+	text: [
+		"The fabric of spacetime in a pail."
+	],
+	dependencies: [
+		"1dd56382"
+	],
+	tasks: [{
+		uid: "50627acd",
+		type: "checkmark",
+		title: "Eternity Bucket",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "eternity",
+				Amount: 1000
+			}
+		}
+	}]
+}

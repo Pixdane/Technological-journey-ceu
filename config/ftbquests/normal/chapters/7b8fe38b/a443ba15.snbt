@@ -11,7 +11,7 @@
 		uid: "bfd94260",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_item_1 1 2061"
+			item: "gregtech:meta_dust 1 99"
 		}]
 	}]
 }

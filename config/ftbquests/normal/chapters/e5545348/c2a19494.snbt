@@ -8,7 +8,7 @@
 		"d60e1c63",
 		"ca325b81"
 	],
-	optional: true,
+	optional: 1b,
 	tasks: [{
 		uid: "49bb3120",
 		type: "checkmark",

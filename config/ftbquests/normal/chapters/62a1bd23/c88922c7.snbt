@@ -8,7 +8,7 @@
 		uid: "09aef25d",
 		type: "item",
 		items: [{
-			item: "gregtech:ore_platinum_metallic_powder_0 1 3"
+			item: "storagedrawers:basicdrawers"
 		}]
 	},
 	{

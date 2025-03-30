@@ -1,0 +1,12 @@
+{
+	x: 6.0d,
+	y: -4.5d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "0d8a1cdc",
+		type: "item",
+		items: [{
+			item: "gcyl:gcyl_meta_item 1 459"
+		}]
+	}]
+}

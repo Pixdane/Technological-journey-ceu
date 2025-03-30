@@ -1,0 +1,16 @@
+{
+	x: 3.5d,
+	y: 6.0d,
+	dependencies: [
+		"3a740b0c",
+		"8e9b3806",
+		"bee0227a"
+	],
+	tasks: [{
+		uid: "7ea10e5d",
+		type: "item",
+		items: [{
+			item: "gcyl:wire_single 1 1169"
+		}]
+	}]
+}

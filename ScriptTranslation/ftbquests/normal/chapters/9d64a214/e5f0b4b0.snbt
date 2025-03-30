@@ -1,0 +1,24 @@
+{
+	x: 0.5d,
+	y: -3.0d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "21c0e816",
+		type: "item",
+		items: [{
+			item: "gregtech:mte 1 991"
+		}]
+	}],
+	rewards: [{
+		uid: "6af6afbb",
+		type: "item",
+		item: "gregtech:meta_dust 1 75",
+		count: 8
+	},
+	{
+		uid: "01837527",
+		type: "item",
+		item: "gregtech:meta_dust 1 50",
+		count: 8
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 8.0d,
+	y: -1.0d,
+	text: [
+		"You'll need a UXV assembler for this. This is the highest teir machine that you need to make - any UXV machines other than this, or any upgrades to MAX, are purely optional."
+	],
+	dependencies: [
+		"80e96679"
+	],
+	tasks: [{
+		uid: "95428a38",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 3273"
+		}]
+	}],
+	rewards: [{
+		uid: "d589d9ed",
+		type: "item",
+		item: "gcyl:meta_nugget 1 201"
+	}]
+}

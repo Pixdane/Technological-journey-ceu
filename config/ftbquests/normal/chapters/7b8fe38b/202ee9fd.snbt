@@ -1,6 +1,6 @@
 {
 	title: "Maintenance Hatch",
-	icon: "gregtech:machine 1 4213",
+	icon: "gregtech:mte 1 1654",
 	x: 17.5d,
 	y: -1.0d,
 	text: [
@@ -12,7 +12,7 @@
 		"",
 		"Remember not to try and share these between multiblocks -- everything else is fine. "
 	],
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	tasks: [{
 		uid: "36ecc656",
 		type: "checkmark"
@@ -20,6 +20,6 @@
 	rewards: [{
 		uid: "47dd75e4",
 		type: "item",
-		item: "gtadditions:ga_meta_item 1 32307"
+		item: "gregtech:meta_item_1 1 502"
 	}]
 }

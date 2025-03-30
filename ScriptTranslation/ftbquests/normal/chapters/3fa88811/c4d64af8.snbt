@@ -1,0 +1,15 @@
+{
+	x: 3.0d,
+	y: -4.0d,
+	dependencies: [
+		"be1f954b",
+		"65ef9e7a"
+	],
+	tasks: [{
+		uid: "a4d6b90b",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 55"
+		}]
+	}]
+}

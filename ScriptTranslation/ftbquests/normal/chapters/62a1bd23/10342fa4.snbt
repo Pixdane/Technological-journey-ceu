@@ -1,0 +1,36 @@
+{
+	title: "Deep Dark Dim ID 404",
+	x: 4.0d,
+	y: 6.5d,
+	text: [
+		"Once you get into late IV you can make the Deep dark portal, Many veins in this dimension have been changed to use Pure variants.",
+		"",
+		"§c§lDo not try and go above the top layer of bedrock as you would in the nether. You will be unable to place a light because you're above the build limit. Because there is no light, you will take damage every so often. This damage is just often enough to stop you from using /home, meaning you'll be stuck. When you inevitably die, your grave will not be built because it's over the build limit. It happened to me, once. §r"
+	],
+	dependencies: [
+		"2849a30d",
+		"312e3e54"
+	],
+	tasks: [{
+		uid: "cda19db5",
+		type: "item",
+		items: [{
+			item: "beneath:teleporterbeneath 1 0"
+		}]
+	},
+	{
+		uid: "48e6ac9d",
+		type: "dimension",
+		dim: 404
+	}],
+	rewards: [{
+		uid: "7026bc7e",
+		type: "item",
+		item: "torchmaster:feral_flare_lantern 1 0"
+	},
+	{
+		uid: "fb4fdd26",
+		type: "item",
+		item: "gcyl:mte 1 113"
+	}]
+}

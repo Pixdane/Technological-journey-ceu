@@ -1,0 +1,13 @@
+{
+	x: 7.5d,
+	y: 6.0d,
+	dependencies: [
+		"46f20407"
+	],
+	tasks: [{
+		uid: "1785a9b8",
+		type: "checkmark",
+		title: "Palladium Salt Dust",
+		icon: "gcyl:meta_dust 1 1053"
+	}]
+}
