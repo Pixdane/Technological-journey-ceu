@@ -25,7 +25,7 @@
 // 
 // macerator.recipeBuilder()
 // .inputs([ore('ingotIron')])
-// .outputs([item('gregtech:meta_item_1:2033')])
+// .outputs([ore('dustIron')])
 // .duration(160)
 // .EUt(30)
 // .buildAndRegister();

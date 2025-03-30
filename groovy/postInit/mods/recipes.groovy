@@ -118,7 +118,7 @@
 // recipes.addShapeless(item('minecraft:clay_ball') * 4, [ore('blockClay,oreClay')]);
 // recipes.addShapeless(ore('dustCoal'), [ore('dustCoal')]);
 // recipes.addShapeless(ore('dustCopper'), [ore('ingotCopper'),item('gregtech:meta_tool:12')]);
-// recipes.addShapeless(item('gregtech:meta_item_1:2033'), [ore('ingotIron'),item('gregtech:meta_tool:12')]);
+// recipes.addShapeless(ore('dustIron'), [ore('ingotIron'),item('gregtech:meta_tool:12')]);
 // recipes.addShapeless(ore('dustCoal'),[ore('coal,gemCoal,itemCoal'),item('gregtech:meta_tool:12')]);
 // recipes.addShapeless(ore('itemSoulMachineChassi'), [ore('dyeSoulMachine'),ore('itemMachineChassi')]);
 // recipes.addShapeless(ore('itemEnhancedMachineChassi'), [ore('ingotDarkSteel'),ore('itemMachineChassi')]);

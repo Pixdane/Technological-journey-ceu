@@ -135,13 +135,13 @@
 //     .fluidInputs(fluid('steam') * 1000)
 //     .buildAndRegister();
 //         primitive_alloy.recipeMap.recipeBuilder()
-//     .inputs([item('gregtech:meta_item_1:2033'),ore('dustUranium')])
+//     .inputs([ore('dustIron'),ore('dustUranium')])
 //     .outputs([ore('ingotPulsatingIron')])
 //     .duration(160)
 //     .fluidInputs(fluid('steam') * 1000)
 //     .buildAndRegister();
 //         primitive_alloy.recipeMap.recipeBuilder()
-//     .inputs([item('gregtech:meta_item_1:2033'),item('gregtech:meta_item_1:10822')])
+//     .inputs([ore('dustIron'),item('gregtech:meta_item_1:10822')])
 //     .outputs([ore('ingotPulsatingIron')])
 //     .duration(160)
 //     .fluidInputs(fluid('steam') * 1000)
@@ -154,7 +154,7 @@
 //     .buildAndRegister();
 // 
 //     primitive_alloy.recipeMap.recipeBuilder()
-//     .inputs([ore('ingotNickel'),item('gregtech:meta_item_1:2033') *2])
+//     .inputs([ore('ingotNickel'),ore('dustIron') *2])
 //     .outputs([ore('ingotInvar') *3])
 //     .duration(160)
 //     .fluidInputs(fluid('steam') * 1000)
@@ -166,7 +166,7 @@
 //     .fluidInputs(fluid('steam') * 1000)
 //     .buildAndRegister();
 //         primitive_alloy.recipeMap.recipeBuilder()
-//     .inputs([item('gregtech:meta_item_1:2033') *2,ore('dustNickel')])
+//     .inputs([ore('dustIron') *2,ore('dustNickel')])
 //     .outputs([ore('ingotInvar') *3])
 //     .duration(160)
 //     .fluidInputs(fluid('steam') * 1000)

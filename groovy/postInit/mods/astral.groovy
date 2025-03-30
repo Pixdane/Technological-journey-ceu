@@ -86,10 +86,10 @@
 // grinder.addRecipe(ore('oreCoal'), ore('dustCoal'), 0.50f);
 // grinder.addRecipe(ore('oreCopper'),ore('dustCopper'), 0.50f);
 // grinder.addRecipe(ore('oreTin'), ore('dustTin'), 0.50f);
-// grinder.addRecipe(ore('oreIron'),item('gregtech:meta_item_1:2033'), 0.50f);
+// grinder.addRecipe(ore('oreIron'),ore('dustIron'), 0.50f);
 // grinder.addRecipe(ore('ingotCopper'), ore('dustCopper'), 0.0f);
 // grinder.addRecipe(ore('ingotTin'), ore('dustTin'), 0.0f);
-// grinder.addRecipe(ore('ingotIron'),item('gregtech:meta_item_1:2033'), 0.0f);
+// grinder.addRecipe(ore('ingotIron'),ore('dustIron'), 0.0f);
 // grinder.addRecipe(ore('ingotNickel'), ore('dustNickel'), 0.0f);
 // 
 // //ALTER removals
@@ -119,7 +119,7 @@
 // Altar.addConstellationAltarRecipe("technological_journey/internal/upgrade_tier4", item('astralsorcery:blockaltar:3'),  800, 400, [ore('blockMarble,stoneMarble'),item('astralsorcery:itemcraftingcomponent:3'),ore('blockMarble,stoneMarble'),item('gregtech:meta_item_1:12524'),util.getCrystalORIngredient(true, false),item('gregtech:meta_item_1:12524'),ore('blockMarble,stoneMarble'),item('astralsorcery:itemcraftingcomponent:3'),ore('blockMarble,stoneMarble'),ore('blockMarble,stoneMarble'),ore('blockMarble,stoneMarble'),ore('blockMarble,stoneMarble'),ore('blockMarble,stoneMarble'),item('astralsorcery:blockblackmarble:0'),item('astralsorcery:blockblackmarble:0'),item('astralsorcery:itemcraftingcomponent:4'),item('astralsorcery:itemcraftingcomponent:4'),item('astralsorcery:itemcraftingcomponent:4'),item('astralsorcery:itemcraftingcomponent:4'),item('astralsorcery:blockblackmarble:0'),item('astralsorcery:blockblackmarble:0')]);
 //  // Slot order for tier 3 altar immediately after 9X9 /* Top left*/,/* Top right*//*Bottom left*/,/* Bottom right*/,/* Top right middle*/,/* Top Left middle*/,/* Top Right middle*/,/*Left of slot one in 9x9*/,/* Right of slot 3 in 9x9*/,/* left of slot 7 in 9x9*/,/* right of slot 9 in 9x9*/, /* Bottom left middle*/,/* Bottom right middle*/
 // recipes.remove(ore('blockMarble,stoneMarble'));
-// recipes.addShaped(item('astralsorcery:blockmachine:1'), [[null, item('gregtech:meta_item_1:2033'), null],[ore('plankWood'), ore('stone,stoneSmooth'), ore('stickWood')], [ore('plankWood'), ore('plankWood'), item('contenttweaker:steammotor')]]);
+// recipes.addShaped(item('astralsorcery:blockmachine:1'), [[null, ore('dustIron'), null],[ore('plankWood'), ore('stone,stoneSmooth'), ore('stickWood')], [ore('plankWood'), ore('plankWood'), item('contenttweaker:steammotor')]]);
 // 
 // //runed marble
 // ore('stoneMarble').remove(ore('blockMarble,stoneMarble'));
