@@ -203,20 +203,20 @@ LASER_ENGRAVER.recipeBuilder()
         .duration(20)
         .buildAndRegister()
 
-crafting.addShaped(tjceu('block_laser_relay_item'), item('actuallyadditions:block_laser_relay_item') * 4,[
+crafting.addShaped(tjceu('block_laser_relay_item'), item('actuallyadditions:block_laser_relay_item') * 4, [
         [item('minecraft:obsidian'), item('minecraft:emerald_block'), item('minecraft:obsidian')],
-         [item('actuallyadditions:item_crystal:4'), item('actuallyadditions:item_misc:8'), item('actuallyadditions:item_crystal:4')],
-          [item('minecraft:obsidian'), item('minecraft:emerald_block'), item('minecraft:obsidian')]
+        [item('actuallyadditions:item_crystal:4'), item('actuallyadditions:item_misc:8'), item('actuallyadditions:item_crystal:4')],
+        [item('minecraft:obsidian'), item('minecraft:emerald_block'), item('minecraft:obsidian')]
 ])
 crafting.addShaped(tjceu('block_laser_relay_fluids'), item('actuallyadditions:block_laser_relay_fluids') * 4, [
         [item('minecraft:obsidian'), item('minecraft:lapis_block'), item('minecraft:obsidian')],
-         [item('actuallyadditions:item_crystal:1'), item('actuallyadditions:item_misc:8'), item('actuallyadditions:item_crystal:1')],
-          [item('minecraft:obsidian'), item('minecraft:lapis_block'), item('minecraft:obsidian')]
+        [item('actuallyadditions:item_crystal:1'), item('actuallyadditions:item_misc:8'), item('actuallyadditions:item_crystal:1')],
+        [item('minecraft:obsidian'), item('minecraft:lapis_block'), item('minecraft:obsidian')]
 ])
 
 
 //attomic recipes
-/*TODO:large_engrav*/LASER_ENGRAVER.recipeBuilder()
+/*TODO:large_engrav*/ LASER_ENGRAVER.recipeBuilder()
         .inputs(item('minecraft:quartz_block:1'))
         .notConsumable(ore('craftingLensWhite'))
         .outputs(item('actuallyadditions:block_testifi_bucks_green_wall'))
@@ -224,7 +224,7 @@ crafting.addShaped(tjceu('block_laser_relay_fluids'), item('actuallyadditions:bl
         .duration(20)
         .buildAndRegister()
 
-/*TODO:large_engrav*/LASER_ENGRAVER.recipeBuilder()
+/*TODO:large_engrav*/ LASER_ENGRAVER.recipeBuilder()
         .inputs(item('minecraft:quartz_block'))
         .notConsumable(ore('craftingLensWhite'))
         .outputs(item('actuallyadditions:block_testifi_bucks_white_wall'))
@@ -232,7 +232,7 @@ crafting.addShaped(tjceu('block_laser_relay_fluids'), item('actuallyadditions:bl
         .duration(20)
         .buildAndRegister()
 
-/*TODO:large_engrav*/LASER_ENGRAVER.recipeBuilder()
+/*TODO:large_engrav*/ LASER_ENGRAVER.recipeBuilder()
         .inputs(item('minecraft:quartz'))
         .notConsumable(ore('craftingLensWhite'))
         .outputs(item('minecraft:prismarine_shard'))
@@ -240,7 +240,7 @@ crafting.addShaped(tjceu('block_laser_relay_fluids'), item('actuallyadditions:bl
         .duration(20)
         .buildAndRegister()
 
-/*TODO:large_engrav*/LASER_ENGRAVER.recipeBuilder()
+/*TODO:large_engrav*/ LASER_ENGRAVER.recipeBuilder()
         .inputs(item('minecraft:red_mushroom'))
         .notConsumable(ore('craftingLensWhite'))
         .outputs(item('minecraft:nether_wart'))
@@ -248,7 +248,7 @@ crafting.addShaped(tjceu('block_laser_relay_fluids'), item('actuallyadditions:bl
         .duration(20)
         .buildAndRegister()
 
-/*TODO:large_engrav*/LASER_ENGRAVER.recipeBuilder()
+/*TODO:large_engrav*/ LASER_ENGRAVER.recipeBuilder()
         .inputs(item('minecraft:rotten_flesh'))
         .notConsumable(ore('craftingLensWhite'))
         .outputs(item('minecraft:leather'))
@@ -256,7 +256,7 @@ crafting.addShaped(tjceu('block_laser_relay_fluids'), item('actuallyadditions:bl
         .duration(20)
         .buildAndRegister()
 
-/*TODO:large_engrav*/LASER_ENGRAVER.recipeBuilder()
+/*TODO:large_engrav*/ LASER_ENGRAVER.recipeBuilder()
         .inputs(item('minecraft:sand'))
         .notConsumable(ore('craftingLensWhite'))
         .outputs(item('minecraft:soul_sand'))
@@ -264,7 +264,7 @@ crafting.addShaped(tjceu('block_laser_relay_fluids'), item('actuallyadditions:bl
         .duration(20)
         .buildAndRegister()
 
-/*TODO:large_engrav*/LASER_ENGRAVER.recipeBuilder()
+/*TODO:large_engrav*/ LASER_ENGRAVER.recipeBuilder()
         .inputs(item('minecraft:iron_block'))
         .notConsumable(ore('craftingLensWhite'))
         .outputs(item('actuallyadditions:block_crystal:5'))
@@ -272,7 +272,7 @@ crafting.addShaped(tjceu('block_laser_relay_fluids'), item('actuallyadditions:bl
         .duration(20)
         .buildAndRegister()
 
-/*TODO:large_engrav*/LASER_ENGRAVER.recipeBuilder()
+/*TODO:large_engrav*/ LASER_ENGRAVER.recipeBuilder()
         .inputs(item('minecraft:coal_block'))
         .notConsumable(ore('craftingLensWhite'))
         .outputs(item('actuallyadditions:block_crystal:3'))
@@ -280,7 +280,7 @@ crafting.addShaped(tjceu('block_laser_relay_fluids'), item('actuallyadditions:bl
         .duration(20)
         .buildAndRegister()
 
-/*TODO:large_engrav*/LASER_ENGRAVER.recipeBuilder()
+/*TODO:large_engrav*/ LASER_ENGRAVER.recipeBuilder()
         .inputs(item('minecraft:emerald_block'))
         .notConsumable(ore('craftingLensWhite'))
         .outputs(item('actuallyadditions:block_crystal:4'))
@@ -288,7 +288,7 @@ crafting.addShaped(tjceu('block_laser_relay_fluids'), item('actuallyadditions:bl
         .duration(20)
         .buildAndRegister()
 
-/*TODO:large_engrav*/LASER_ENGRAVER.recipeBuilder()
+/*TODO:large_engrav*/ LASER_ENGRAVER.recipeBuilder()
         .inputs(item('minecraft:diamond_block'))
         .notConsumable(ore('craftingLensWhite'))
         .outputs(item('actuallyadditions:block_crystal:2'))
@@ -296,7 +296,7 @@ crafting.addShaped(tjceu('block_laser_relay_fluids'), item('actuallyadditions:bl
         .duration(20)
         .buildAndRegister()
 
-/*TODO:large_engrav*/LASER_ENGRAVER.recipeBuilder()
+/*TODO:large_engrav*/ LASER_ENGRAVER.recipeBuilder()
         .inputs(item('minecraft:lapis_block'))
         .notConsumable(ore('craftingLensWhite'))
         .outputs(item('actuallyadditions:block_crystal:1'))
@@ -304,7 +304,7 @@ crafting.addShaped(tjceu('block_laser_relay_fluids'), item('actuallyadditions:bl
         .duration(20)
         .buildAndRegister()
 
-/*TODO:large_engrav*/LASER_ENGRAVER.recipeBuilder()
+/*TODO:large_engrav*/ LASER_ENGRAVER.recipeBuilder()
         .inputs(item('minecraft:redstone_block'))
         .notConsumable(ore('craftingLensWhite'))
         .outputs(item('actuallyadditions:block_crystal'))
@@ -312,7 +312,7 @@ crafting.addShaped(tjceu('block_laser_relay_fluids'), item('actuallyadditions:bl
         .duration(20)
         .buildAndRegister()
 
-/*TODO:large_engrav*/LASER_ENGRAVER.recipeBuilder()
+/*TODO:large_engrav*/ LASER_ENGRAVER.recipeBuilder()
         .inputs(item('actuallyadditions:item_canola_seed') * 30)
         .notConsumable(ore('craftingLensWhite'))
         .outputs(item('actuallyadditions:item_misc:23') * 30)
@@ -328,7 +328,7 @@ LASER_ENGRAVER.recipeBuilder()
         .duration(20)
         .buildAndRegister()
 
-/*TODO:large_engrav*/LASER_ENGRAVER.recipeBuilder()
+/*TODO:large_engrav*/ LASER_ENGRAVER.recipeBuilder()
         .inputs(item('minecraft:quartz'))
         .notConsumable(ore('craftingLensBlue'))
         .outputs(item('minecraft:prismarine_crystals'))
