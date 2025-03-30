@@ -1,5 +1,5 @@
 {
-	icon: "gregtech:machine 1 2499",
+	icon: "gregtech:mte 1 1029",
 	x: 7.5d,
 	y: -1.5d,
 	text: [
@@ -14,14 +14,14 @@
 		uid: "c156227b",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 2499"
+			item: "gregtech:mte 1 1029"
 		}]
 	},
 	{
 		uid: "0ec518de",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 1999"
+			item: "gregtech:mte 1 1667"
 		}],
 		count: 9L
 	},
@@ -29,7 +29,7 @@
 		uid: "2377c0ff",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 734"
+			item: "gregtech:mte 1 1213"
 		}]
 	},
 	{

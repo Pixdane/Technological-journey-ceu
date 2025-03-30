@@ -3,9 +3,6 @@
 	x: -6.0d,
 	y: -4.5d,
 	shape: "rsquare",
-	text: [
-		""
-	],
 	tasks: [{
 		uid: "930fcf2a",
 		type: "item",
@@ -18,7 +15,7 @@
 		uid: "0c323cab",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 2535"
+			item: "gregtech:mte 1 1002"
 		}]
 	}]
 }

@@ -38,7 +38,7 @@
 		uid: "1c1a5a10",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 734"
+			item: "gregtech:mte 1 1213"
 		}]
 	},
 	{

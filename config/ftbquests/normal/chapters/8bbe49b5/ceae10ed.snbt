@@ -9,7 +9,7 @@
 		uid: "c6bf0220",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 2002"
+			item: "gregtech:mte 1 637"
 		}]
 	}],
 	rewards: [{

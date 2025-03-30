@@ -1,3 +1,35 @@
+## TODO:
+
+### FTB Quests Migration:
+- [x] Beginning
+- [x] Steam Age
+- [x] LV Age
+- [x] MV Age
+- [x] HV Age
+- [ ] EV Age
+- [ ] IV Age
+- [ ] LuV Age
+- [ ] ZPM Age
+- [ ] UV Age
+- [ ] UHV Age
+- [ ] UEV Age
+- [ ] UIV Age
+- [ ] UXV+ Age
+- [ ] Draconic Age
+- [ ] All the Power
+- [ ] Applied Energistics 2
+- [ ] Space & Dimensions
+- [x] Progression
+- [ ] Periodic Table
+
+### Game Features:
+- [ ] HV Quadruple Input Hatch
+- [ ] Pure Ores & Rich Ores
+- [ ] Vial Processor
+- [ ] Primitive Alloy Smelter
+- [ ] Hot Iron Ingot
+- [ ] Coke Oven recipes
+
 <div align="center">
   <img src="thumb.png" alt="Minecraft Title" style="width: 50%;" />
   <h1>Technological Journey</h1>
@@ -45,11 +77,21 @@ Welcome to **Technological Journey**, a Minecraft modpack designed for players w
 
 ## Key Features
 
-- [Modified GregTechCE and Gregicality Integration](#modified-gregtechce-and-gregicality-integration)
-- [Craftable Supra-Causal Circuits](#craftable-supra-causal-circuits)
-- [Advanced Machines and Multiblocks](#advanced-machines-and-multiblocks)
-- [Polymers, Chemistry, and New Circuit Types](#polymers-chemistry-and-new-circuit-types)
-- [EnderIO and AE2 Integration](#enderio-and-ae2-integration)
+- [TODO:](#todo)
+  - [FTB Quests Migration:](#ftb-quests-migration)
+  - [Game Features:](#game-features)
+- [Overview](#overview)
+- [Key Features](#key-features)
+- [Gameplay and Progression](#gameplay-and-progression)
+  - [Modified GregTechCE and Gregicality Integration](#modified-gregtechce-and-gregicality-integration)
+  - [Craftable Supra-Causal Circuits](#craftable-supra-causal-circuits)
+  - [Advanced Machines and Multiblocks](#advanced-machines-and-multiblocks)
+  - [Polymers, Chemistry, and New Circuit Types](#polymers-chemistry-and-new-circuit-types)
+  - [EnderIO and AE2 Integration](#enderio-and-ae2-integration)
+  - [Early Game: Steam Age](#early-game-steam-age)
+  - [Mid-Game: Advanced Automation](#mid-game-advanced-automation)
+  - [Endgame: Draconic Evolution](#endgame-draconic-evolution)
+      - [New logo and readme created by simonx](#new-logo-and-readme-created-by-simonx)
 
 ---
 
