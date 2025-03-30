@@ -43,7 +43,7 @@ class SecondDegreeMaterials {
 
         Seabohrgium.setFormula('BhSg', true)
 
-        Fordnium = new Material.Builder(1005, tjId('seabohrgium'))
+        Fordnium = new Material.Builder(1005, tjId('fordnium'))
                 .liquid()
                 .color(0xE9FA50)
                 .build()

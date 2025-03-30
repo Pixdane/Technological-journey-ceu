@@ -23,24 +23,17 @@ class TJMaterials {
     static Material Fordnium
 
     static void register() {
-        /*
-        * Ranges 1-499
-        */
+
+        // Ranges 1-499
         ElementMaterials.register()
 
-        /*
-        * Ranges 500-999
-        */
+        // Ranges 500-999
         FirstDegreeMaterials.register()
 
-        /*
-        * Ranges 1000-1499
-        */
+        // Ranges 1000-1499
         SecondDegreeMaterials.register()
 
-        /*
-        * Ranges 1500-1999
-        */
+        // Ranges 1500-1999
         UnknownCompositionMaterials.register()
     }
 
