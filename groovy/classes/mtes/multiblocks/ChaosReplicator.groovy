@@ -37,8 +37,8 @@ class ChaosReplicator extends RecipeMapMultiblockController {
                 .aisle("CCCCCCC", "CCCSCCC", "CQQQQQC", "CQQQQQC", "CQQCQQC", "CQQCQQC", "CQQCQQC", "CCCCCCC", "CCCCCCC")
                 .where('S' as char, selfPredicate())
                 .where('C' as char, states(blockstate('gregtech:metal_casing', 'variant=titanium_stable')).setMinGlobalLimited(160).or(autoAbilities())) // TODO: Chaotic casing
-                .where('N' as char, frames(material('enriched_naquadah_alloy')))
-                .where('X' as char, frames(material('chaos')))
+                .where('N' as char, frames(material('gcyl:enriched_naquadah_alloy')))
+                .where('X' as char, frames(material('gcyl:chaos')))
                 .where('Q' as char, states(blockstate('enderio:block_fused_quartz', 'color=white', 'render=auto')))
                 .where('A' as char, states(blockstate('draconicevolution:draconium_block', 'charged=false')))
                 .where('Z' as char, states(blockstate('draconicevolution:infused_obsidian')))
