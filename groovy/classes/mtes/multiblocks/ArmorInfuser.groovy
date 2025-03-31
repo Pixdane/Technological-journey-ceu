@@ -1,6 +1,4 @@
 import classes.recipes.TJRecipeMaps
-import com.fulltrix.gcyl.blocks.GCYLMetaBlocks
-import com.fulltrix.gcyl.blocks.fusion.GCYLFusionCoils
 import gregtech.api.capability.impl.MultiblockRecipeLogic
 import gregtech.api.metatileentity.MetaTileEntity
 import gregtech.api.metatileentity.interfaces.IGregTechTileEntity
@@ -10,12 +8,7 @@ import gregtech.api.pattern.BlockPattern
 import gregtech.api.pattern.FactoryBlockPattern
 import gregtech.client.renderer.ICubeRenderer
 import gregtech.client.renderer.texture.Textures
-import gregtech.common.blocks.BlockFusionCasing
-import gregtech.common.blocks.BlockMetalCasing
-import gregtech.common.blocks.MetaBlocks
-import groovy.transform.CompileStatic
 
-@CompileStatic
 class ArmorInfuser extends RecipeMapMultiblockController {
 
     ArmorInfuser(ResourceLocation metaTileEntityId) {
@@ -35,6 +28,11 @@ class ArmorInfuser extends RecipeMapMultiblockController {
 
     @Override
     protected BlockPattern createStructurePattern() {
+        def casing = states(blockstate('gregtech:turbine_casing', 'variant=titanium_turbine_casing')).setMinGlobalLimited(32)
+        // TODO: Draconic casing
+        def fusionCoil = states(blockstate('gregtech:fusion_casing', 'active=false', 'variant=fusion_coil'))
+        def fusionCasing = states(blockstate('gregtech:fusion_casing', 'active=false', 'variant=fusion_casing_mk2'))
+        def advFusionCoil = states(blockstate('gcyl:gcyl_fusion_coil', 'active=false', 'variant=adv_fusion_coil_1'))
         return FactoryBlockPattern.start()
                 .aisle('CCCCC', '     ', '     ', 'AAAAA', '     ', '     ', 'AAAAA', '     ', '     ', 'CCCCC')
                 .aisle('CCCCC', '  F  ', '  F  ', 'A F A', '  F  ', '  F  ', 'A F A', '  F  ', '  F  ', 'CCCCC')
@@ -42,29 +40,12 @@ class ArmorInfuser extends RecipeMapMultiblockController {
                 .aisle('CCCCC', '  F  ', '  F  ', 'A F A', '  F  ', '  F  ', 'A F A', '  F  ', '  F  ', 'CCCCC')
                 .aisle('CCSCC', '     ', '     ', 'AAAAA', '     ', '     ', 'AAAAA', '     ', '     ', 'CCCCC')
                 .where('S' as char, selfPredicate())
-                .where('O' as char, states(getFusionCoilState()))
-                .where('F' as char, states(getFusionCasingState()))
-                .where('A' as char, states(getAdvFusionCoilState()))
-                .where('C' as char, states(getCasingState()).setMinGlobalLimited(32).or(autoAbilities()))
-                .where('#' as char, air())
+                .where('O' as char, fusionCoil)
+                .where('F' as char, fusionCasing)
+                .where('A' as char, advFusionCoil)
+                .where('C' as char, casing.or(autoAbilities()))
+                .where('#' as char, this.any())
                 .build()
-    }
-
-    protected static IBlockState getCasingState() {
-        return MetaBlocks.METAL_CASING.getState(BlockMetalCasing.MetalCasingType.TITANIUM_STABLE)
-        // TODO: Draconic casing
-    }
-
-    protected static IBlockState getFusionCasingState() {
-        return MetaBlocks.FUSION_CASING.getState(BlockFusionCasing.CasingType.FUSION_CASING_MK2)
-    }
-
-    protected static IBlockState getAdvFusionCoilState() {
-        return GCYLMetaBlocks.FUSION_COILS.getState(GCYLFusionCoils.CasingType.ADV_FUSION_COIL_1)
-    }
-
-    protected static IBlockState getFusionCoilState() {
-        return MetaBlocks.FUSION_CASING.getState(BlockFusionCasing.CasingType.FUSION_COIL)
     }
 
 }

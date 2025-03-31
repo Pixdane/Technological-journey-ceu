@@ -8,12 +8,7 @@ import gregtech.api.pattern.FactoryBlockPattern
 import gregtech.api.recipes.RecipeMaps
 import gregtech.client.renderer.ICubeRenderer
 import gregtech.client.renderer.texture.Textures
-import gregtech.common.blocks.BlockMetalCasing
-import gregtech.common.blocks.BlockSteamCasing
-import gregtech.common.blocks.MetaBlocks
-import groovy.transform.CompileStatic
 
-@CompileStatic
 class PrimitiveAlloySmelter extends RecipeMapSteamMultiblockController {
 
     PrimitiveAlloySmelter(ResourceLocation metaTileEntityId) {
@@ -32,24 +27,8 @@ class PrimitiveAlloySmelter extends RecipeMapSteamMultiblockController {
     }
 
     @Override
-    protected BlockPattern createStructurePattern() {
-        return FactoryBlockPattern.start()
-                .aisle('CCC', 'CCC', 'DDD')
-                .aisle('CCC', 'C#C', 'D D')
-                .aisle('CCC', 'CSC', 'DDD')
-                .where('S' as char, selfPredicate())
-                .where('D' as char, states(getBronzeCasingState()))
-                .where('C' as char, states(getCasingState()).setMinGlobalLimited(10).or(autoAbilities()))
-                .where('#' as char, air())
-                .build()
-    }
-
-    protected static IBlockState getCasingState() {
-        return MetaBlocks.METAL_CASING.getState(BlockMetalCasing.MetalCasingType.PRIMITIVE_BRICKS)
-    }
-
-    protected static IBlockState getBronzeCasingState() {
-        return MetaBlocks.STEAM_CASING.getState(BlockSteamCasing.SteamCasingType.BRONZE_HULL)
+    boolean hasMaintenanceMechanics() {
+        return false
     }
 
     @Override
@@ -58,8 +37,18 @@ class PrimitiveAlloySmelter extends RecipeMapSteamMultiblockController {
     }
 
     @Override
-    boolean hasMaintenanceMechanics() {
-        return false
+    protected BlockPattern createStructurePattern() {
+        def casing = states(blockstate('gregtech:metal_casing', 'variant=primitive_bricks')).setMinGlobalLimited(10)
+        def bronzeHull = states(blockstate('gregtech:steam_casing', 'variant=bronze_hull'))
+        return FactoryBlockPattern.start()
+                .aisle('CCC', 'CCC', 'DDD')
+                .aisle('CCC', 'C#C', 'D D')
+                .aisle('CCC', 'CSC', 'DDD')
+                .where('S' as char, selfPredicate())
+                .where('D' as char, bronzeHull)
+                .where('C' as char, casing.or(autoAbilities()))
+                .where('#' as char, air())
+                .build()
     }
 
 }
