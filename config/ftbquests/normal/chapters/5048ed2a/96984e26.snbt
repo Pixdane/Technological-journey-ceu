@@ -17,18 +17,10 @@
 		}]
 	},
 	{
-		uid: "77116764",
-		type: "item",
-		items: [{
-			item: "gtadditions:ga_metal_casing_1 1 14"
-		}],
-		count: 21L
-	},
-	{
 		uid: "43bc37e8",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 753"
+			item: "gregtech:mte 1 1184"
 		}],
 		count: 2L
 	},
@@ -36,9 +28,41 @@
 		uid: "d44a46a6",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 752"
+			item: "gregtech:mte 1 1199"
 		}],
 		count: 2L
+	},
+	{
+		uid: "4a015df0",
+		type: "item",
+		items: [{
+			item: "gregtech:mte 1 1654"
+		}]
+	},
+	{
+		uid: "aecde420",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_block_frame_20 1 4"
+		}],
+		count: 18L
+	},
+	{
+		uid: "aea5b522",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 4"
+		}],
+		count: 50L,
+		consume_items: 0b
+	},
+	{
+		uid: "00d13dc3",
+		type: "item",
+		items: [{
+			item: "gregtech:boiler_casing 1 1"
+		}],
+		count: 7L
 	}],
 	rewards: [{
 		uid: "267c2c01",

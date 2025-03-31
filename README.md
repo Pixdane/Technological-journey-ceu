@@ -26,9 +26,10 @@
 - [ ] HV Quadruple Input Hatch
 - [ ] Pure Ores & Rich Ores
 - [ ] Vial Processor
-- [ ] Primitive Alloy Smelter
+- [x] Primitive Alloy Smelter
 - [ ] Hot Iron Ingot
-- [ ] Coke Oven recipes
+- [x] Coke Oven recipes
+- [ ] Hot Steam
 
 <div align="center">
   <img src="thumb.png" alt="Minecraft Title" style="width: 50%;" />
