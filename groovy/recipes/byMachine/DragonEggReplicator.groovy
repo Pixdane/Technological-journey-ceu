@@ -1,0 +1,10 @@
+DRAGON_EGG_REPLICATION = recipemap('dragon_egg_replication')
+
+DRAGON_EGG_REPLICATION.recipeBuilder()
+        .inputs([ore('egg') * 16,item('draconicevolution:wyvern_sword:0').withNbt([Energy: 4000000])])
+        .outputs([item('draconicevolution:dragon_heart:0') * 2, item('draconicevolution:wyvern_sword:0'), ore('dragonEgg').getFirst()])
+        .fluidInputs(fluid('sterilized_growth_medium') * 2000)
+        .fluidOutputs(fluid('depleted_growth_medium') * 2000)
+        .duration(500)
+        .EUt(131072)
+        .buildAndRegister();
