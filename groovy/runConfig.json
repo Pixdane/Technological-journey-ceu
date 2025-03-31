@@ -17,7 +17,8 @@
       "init/"
     ],
     "postInit": [
-      "postInit/"
+      "postInit/",
+      "recipes/"
     ]
   }
 }
