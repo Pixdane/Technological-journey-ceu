@@ -110,3 +110,6 @@ config/advRocketry/Crystallizer.xml
 config/advRocketry/CuttingMachine.xml
 config/advRocketry/ElectricArcFurnace.xml
 config/advRocketry/Electrolyser.xml
+config/ScalingGUIs/ScalingGUIs.cfg
+.gitignore
+config/ScalingGUIs/ScalingGUIsCustomScales.json
