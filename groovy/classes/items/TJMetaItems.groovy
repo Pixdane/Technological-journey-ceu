@@ -35,6 +35,7 @@ class TJMetaItems {
         STEAM_PUMP_LV = item.addItem(3, 'steam.pump.ulv')
 
         // Ingredients 200 - 399
+        // TODO: Fix Wrong JEI Display
         REFINED_CHAOS_SHARD = item.addItem(2000, 'shard.refined_chaos')
         REFINED_CHAOS_CRYSTAL = item.addItem(2001, 'crystal.refined_chaos')
         INFINITY_CRYSTAL = item.addItem(2002, 'crystal.infinity')
