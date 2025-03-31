@@ -1,3 +1,4 @@
+import gregtech.api.metatileentity.multiblock.ParallelLogicType;
 import gregtech.api.capability.impl.SteamMultiWorkable
 import gregtech.api.metatileentity.MetaTileEntity
 import gregtech.api.metatileentity.interfaces.IGregTechTileEntity
@@ -11,9 +12,17 @@ import gregtech.client.renderer.texture.Textures
 
 class PrimitiveAlloySmelter extends RecipeMapSteamMultiblockController {
 
+    private static final int PARALLEL_LIMIT = 8;
+
     PrimitiveAlloySmelter(ResourceLocation metaTileEntityId) {
         super(metaTileEntityId, RecipeMaps.ALLOY_SMELTER_RECIPES, CONVERSION_RATE)
-        this.recipeMapWorkable = new SteamMultiWorkable(this, CONVERSION_RATE)
+        this.recipeMapWorkable = new SteamMultiWorkable(this, CONVERSION_RATE) {
+            @Override
+            public ParallelLogicType getParallelLogicType() {
+                ParallelLogicType.MULTIPLY;
+            }
+        }
+        this.recipeMapWorkable.setParallelLimit(PARALLEL_LIMIT)
     }
 
     @Override
@@ -30,6 +39,12 @@ class PrimitiveAlloySmelter extends RecipeMapSteamMultiblockController {
     boolean hasMaintenanceMechanics() {
         return false
     }
+
+    @Override
+    public int getItemOutputLimit() {
+        return 1;
+    }
+
 
     @Override
     protected ICubeRenderer getFrontOverlay() {
@@ -50,5 +65,4 @@ class PrimitiveAlloySmelter extends RecipeMapSteamMultiblockController {
                 .where('#' as char, air())
                 .build()
     }
-
 }
