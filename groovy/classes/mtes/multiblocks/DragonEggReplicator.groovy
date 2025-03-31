@@ -1,3 +1,4 @@
+import classes.textures.TJTextures
 import classes.recipes.TJRecipeMaps
 import gregtech.api.capability.impl.MultiblockRecipeLogic
 import gregtech.api.metatileentity.MetaTileEntity
@@ -17,22 +18,22 @@ class DragonEggReplicator extends RecipeMapMultiblockController {
 
     @Override
     MetaTileEntity createMetaTileEntity(IGregTechTileEntity iGregTechTileEntity) {
-        return new DragonEggReplicator(metaTileEntityId)
+        new DragonEggReplicator(metaTileEntityId)
     }
 
     @Override
     ICubeRenderer getBaseTexture(IMultiblockPart iMultiblockPart) {
-        return Textures.STABLE_TITANIUM_CASING // TODO: Awakened casing
+        TJTextures.AWAKENED_DRACONIUM_CASING
     }
 
     @Override
     protected BlockPattern createStructurePattern() {
-        return FactoryBlockPattern.start()
+        FactoryBlockPattern.start()
                 .aisle('CCC', 'CCC', 'CCC')
                 .aisle('CCC', 'C C', 'CCC')
                 .aisle('CCC', 'CSC', 'CCC')
                 .where('S' as char, selfPredicate())
-                .where('C' as char, states(blockstate('gregtech:metal_casing', 'variant=titanium_stable')).setMinGlobalLimited(15).or(autoAbilities())) // TODO: Awakened casing
+                .where('C' as char, states(blockstate('tjceu:multiblock_casing', 'variant=awakened_draconium')).setMinGlobalLimited(15).or(autoAbilities())) // TODO: Awakened casing
                 .where(' ' as char, air())
                 .build()
     }

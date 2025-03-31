@@ -1,3 +1,4 @@
+import classes.blocks.TJMetaBlocks
 import classes.items.TJMetaItems
 import gregtech.api.GregTechAPI
 import gregtech.api.unification.material.event.MaterialEvent
@@ -40,3 +41,12 @@ eventManager.listen(EventPriority.LOWEST) {
             TJMetaItems.registerBehaviors()
         }
 }
+
+// Register blocks
+// eventManager.listen(EventPriority.LOWEST) {
+//     RegistryEvent.Register<Block> event ->
+//         {
+TJMetaBlocks.init()
+TJMetaBlocks.registerBlocks()
+//         }
+// }

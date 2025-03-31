@@ -27,17 +27,17 @@ class PrimitiveAlloySmelter extends RecipeMapSteamMultiblockController {
 
     @Override
     MetaTileEntity createMetaTileEntity(IGregTechTileEntity iGregTechTileEntity) {
-        return new PrimitiveAlloySmelter(metaTileEntityId)
+        new PrimitiveAlloySmelter(metaTileEntityId)
     }
 
     @Override
     ICubeRenderer getBaseTexture(IMultiblockPart iMultiblockPart) {
-        return Textures.PRIMITIVE_BRICKS
+        Textures.PRIMITIVE_BRICKS
     }
 
     @Override
     boolean hasMaintenanceMechanics() {
-        return false
+        false
     }
 
     @Override
@@ -48,14 +48,14 @@ class PrimitiveAlloySmelter extends RecipeMapSteamMultiblockController {
 
     @Override
     protected ICubeRenderer getFrontOverlay() {
-        return Textures.ALLOY_SMELTER_OVERLAY
+        Textures.ALLOY_SMELTER_OVERLAY
     }
 
     @Override
     protected BlockPattern createStructurePattern() {
         def casing = states(blockstate('gregtech:metal_casing', 'variant=primitive_bricks')).setMinGlobalLimited(10)
         def bronzeHull = states(blockstate('gregtech:steam_casing', 'variant=bronze_hull'))
-        return FactoryBlockPattern.start()
+        FactoryBlockPattern.start()
                 .aisle('CCC', 'CCC', 'DDD')
                 .aisle('CCC', 'C#C', 'D D')
                 .aisle('CCC', 'CSC', 'DDD')

@@ -28,3 +28,9 @@ metaitem.crystal.refined_chaos.name=Refined Chaos Crystal
 metaitem.crystal.infinity.name=Infinity Crystal
 metaitem.crystal.eternity.name=Eternity Crystal
 metaitem.ban.certificate.name=Certificate of Being a Noob
+
+# Blocks
+tile.multiblock_casing.draconic.name=Draconic Machine Casing
+tile.multiblock_casing.awakened_draconium.name=Awakened Draconium Machine Casing
+tile.multiblock_casing.refined_chaos.name=Draconic Machine Casing
+tile.multiblock_casing.soul_insulation.name=Draconic Machine Casing
