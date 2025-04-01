@@ -9,7 +9,7 @@ crafting.addShaped(item('gregtech:machine_casing', 7), [
         [ore('plateStarmetalAlloy'), ore('plateStarmetalAlloy'), ore('plateStarmetalAlloy')],
         [ore('plateStarmetalAlloy'), ore('craftingToolWrench'), ore('plateStarmetalAlloy')],
         [ore('plateStarmetalAlloy'), ore('plateStarmetalAlloy'), ore('plateStarmetalAlloy')]
-]);
+])
 
 // crafting.removeByOutput(item('gregtech:mte:992'));
 // crafting.addShaped(item('gregtech:mte:992'), [[null, null, null],[ore('platePolybenzimidazole'), item('gregtech:meta_item_1:12524'), ore('platePolybenzimidazole')], [ore('cableGtSingleNaquadah'), item('gregtech:machine_casing:7'), ore('cableGtSingleNaquadah')]]);

@@ -12,4 +12,4 @@ ASSEMBLER.recipeBuilder()
         .outputs(item('minecraft:end_crystal'))
         .duration(40)
         .EUt(122880)
-        .buildAndRegister();
+        .buildAndRegister()

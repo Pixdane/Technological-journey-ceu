@@ -1,4 +1,4 @@
-mods.chisel.Carving.removeVariation("marble", item('astralsorcery:blockmarble'));
+mods.chisel.Carving.removeVariation("marble", item('astralsorcery:blockmarble'))
 
 def types = [
         "agon",
@@ -35,9 +35,9 @@ def types = [
         "zorg",
         "ztyl",
         "zyth"
-] as String[];
+] as String[]
 
 for (block in types) {
-        mods.chisel.Carving.addGroup(block);
-        mods.chisel.Carving.addVariation(block, item('xtones:' + block + ':*'));
+    mods.chisel.Carving.addGroup(block)
+    mods.chisel.Carving.addVariation(block, item('xtones:' + block + ':*'))
 }

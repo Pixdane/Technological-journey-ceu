@@ -1,8 +1,8 @@
-import mods.astralsorcery.grindstone as grindstone
-import mods.astralsorcery.infusion_altar as infusion_altar
-import mods.astralsorcery.light_transmutation as light_transmutation
-import mods.astralsorcery.lightwell as lightwell
-import mods.astralsorcery.starlight_altar as starlight_altar
+import mods.astralsorcery.grindstone
+import mods.astralsorcery.infusion_altar
+import mods.astralsorcery.light_transmutation
+import mods.astralsorcery.lightwell
+import mods.astralsorcery.starlight_altar
 
 EBF = recipemap('electric_blast_furnace')
 MIXER = recipemap('mixer')
@@ -11,14 +11,14 @@ CHEMICAL_BATH = recipemap('chemical_bath')
 ASSEMBLER = recipemap('assembler')
 
 // Infusion
-infusion_altar.removeByOutput(item('minecraft:iron_ingot') * 3);
-infusion_altar.removeByOutput(item('minecraft:gold_ingot') * 3);
-infusion_altar.removeByOutput(item('minecraft:emerald') * 4);
-infusion_altar.removeByOutput(item('minecraft:diamond') * 4);
-infusion_altar.removeByOutput(item('minecraft:lapis_block'));
-infusion_altar.removeByOutput(item('minecraft:redstone_block'));
-infusion_altar.removeByOutput(item('astralsorcery:itemcraftingcomponent:4'));
-infusion_altar.removeByOutput(item('astralsorcery:itemcraftingcomponent:3'));
+infusion_altar.removeByOutput(item('minecraft:iron_ingot') * 3)
+infusion_altar.removeByOutput(item('minecraft:gold_ingot') * 3)
+infusion_altar.removeByOutput(item('minecraft:emerald') * 4)
+infusion_altar.removeByOutput(item('minecraft:diamond') * 4)
+infusion_altar.removeByOutput(item('minecraft:lapis_block'))
+infusion_altar.removeByOutput(item('minecraft:redstone_block'))
+infusion_altar.removeByOutput(item('astralsorcery:itemcraftingcomponent:4'))
+infusion_altar.removeByOutput(item('astralsorcery:itemcraftingcomponent:3'))
 
 infusion_altar.recipeBuilder()
         .input(metaitem('lensNetherStar'))
@@ -28,8 +28,8 @@ infusion_altar.recipeBuilder()
         .register()
 
 // Transmutation
-light_transmutation.removeByOutput(block('minecraft:end_stone'));
-light_transmutation.removeByOutput(block('minecraft:emerald_ore'));
+light_transmutation.removeByOutput(block('minecraft:end_stone'))
+light_transmutation.removeByOutput(block('minecraft:emerald_ore'))
 
 light_transmutation.recipeBuilder()
         .input(block('gregtech:ore_magnetite_0'))
@@ -108,19 +108,19 @@ grindstone.recipeBuilder()
         .register()
 
 // Stralight Altar
-starlight_altar.removeByOutput(item('astralsorcery:blockmachine', 1));
-starlight_altar.removeByOutput(item('astraladditions:block_starmetal'));
-starlight_altar.removeByOutput(item('astralsorcery:itemcraftingcomponent', 1));
-starlight_altar.removeByOutput(item('astralsorcery:blockmarble', 6));
-starlight_altar.removeByOutput(item('astralsorcery:blocktreebeacon'));
-starlight_altar.removeByOutput(item('astralsorcery:blockaltar', 1));
-starlight_altar.removeByOutput(item('astralsorcery:blockaltar', 2));
-starlight_altar.removeByOutput(item('astralsorcery:blockaltar', 3));
-starlight_altar.removeByOutput(item('astralsorcery:blockwell'));
-starlight_altar.removeByOutput(item('astralsorcery:itemcraftingcomponent', 3));
-starlight_altar.removeByOutput(item('astralsorcery:blockchalice'));
-starlight_altar.removeByOutput(item('astralsorcery:blockworldilluminator'));
-starlight_altar.removeByOutput(item('astralsorcery:itemlinkingtool'));
+starlight_altar.removeByOutput(item('astralsorcery:blockmachine', 1))
+starlight_altar.removeByOutput(item('astraladditions:block_starmetal'))
+starlight_altar.removeByOutput(item('astralsorcery:itemcraftingcomponent', 1))
+starlight_altar.removeByOutput(item('astralsorcery:blockmarble', 6))
+starlight_altar.removeByOutput(item('astralsorcery:blocktreebeacon'))
+starlight_altar.removeByOutput(item('astralsorcery:blockaltar', 1))
+starlight_altar.removeByOutput(item('astralsorcery:blockaltar', 2))
+starlight_altar.removeByOutput(item('astralsorcery:blockaltar', 3))
+starlight_altar.removeByOutput(item('astralsorcery:blockwell'))
+starlight_altar.removeByOutput(item('astralsorcery:itemcraftingcomponent', 3))
+starlight_altar.removeByOutput(item('astralsorcery:blockchalice'))
+starlight_altar.removeByOutput(item('astralsorcery:blockworldilluminator'))
+starlight_altar.removeByOutput(item('astralsorcery:itemlinkingtool'))
 
 for (item in [
         item('astralsorcery:itemrockcrystalsimple'),
@@ -138,9 +138,9 @@ runed_marble = item('astralsorcery:blockmarble', 6)
 starlight_altar.discoveryRecipeBuilder()
         .output(item('astralsorcery:blockaltar', 1))
         .matrix(
-            'MCM',
-            'RPR',
-            'MPM'
+                'MCM',
+                'RPR',
+                'MPM'
         )
         .key('M', stone_marble)
         .key('C', rock_crystal)
@@ -153,9 +153,9 @@ starlight_altar.discoveryRecipeBuilder()
 starlight_altar.discoveryRecipeBuilder()
         .output(item('astralsorcery:itemcraftingcomponent', 3))
         .matrix(
-            ' L ',
-            'LAL',
-            ' L '
+                ' L ',
+                'LAL',
+                ' L '
         )
         .key('L', metaitem('lensNetherStar'))
         .key('A', ore('gemAquamarine'))
@@ -166,9 +166,9 @@ starlight_altar.discoveryRecipeBuilder()
 starlight_altar.discoveryRecipeBuilder()
         .output(item('astralsorcery:blockworldilluminator'))
         .matrix(
-            'IAI',
-            'A A',
-            'IAI'
+                'IAI',
+                'A A',
+                'IAI'
         )
         .key('I', item('astralsorcery:itemusabledust'))
         .key('A', ore('gemAquamarine'))
@@ -179,9 +179,9 @@ starlight_altar.discoveryRecipeBuilder()
 starlight_altar.discoveryRecipeBuilder()
         .output(item('astralsorcery:blockwell'))
         .matrix(
-            'RAR',
-            'XBX',
-            'RYR'
+                'RAR',
+                'XBX',
+                'RYR'
         )
         .key('R', runed_marble)
         .key('B', ore('blockGlass'))
@@ -195,9 +195,9 @@ starlight_altar.discoveryRecipeBuilder()
 starlight_altar.discoveryRecipeBuilder()
         .output(item('astralsorcery:itemlinkingtool'))
         .matrix(
-            'SAC',
-            'SLA',
-            'LSS'
+                'SAC',
+                'SLA',
+                'LSS'
         )
         .key('S', ore('stickWood'))
         .key('A', ore('gemAquamarine'))
@@ -210,11 +210,11 @@ starlight_altar.discoveryRecipeBuilder()
 starlight_altar.attunementRecipeBuilder()
         .output(item('astralsorcery:blockaltar', 2))
         .matrix(
-            'D   D',
-            ' G G ',
-            ' RCR ',
-            ' PIP ',
-            'I   I'
+                'D   D',
+                ' G G ',
+                ' RCR ',
+                ' PIP ',
+                'I   I'
         )
         .key('D', ore('dustAstralStarmetal'))
         .key('G', item('astralsorcery:itemcraftingcomponent', 4))
@@ -229,11 +229,11 @@ starlight_altar.attunementRecipeBuilder()
 starlight_altar.constellationRecipeBuilder()
         .output(item('astralsorcery:blockchalice'))
         .matrix(
-            'IG GI',
-            'ABTBA',
-            ' B B ',
-            'DPPPD',
-            'II II'
+                'IG GI',
+                'ABTBA',
+                ' B B ',
+                'DPPPD',
+                'II II'
         )
         .key('A', ore('gemAquamarine'))
         .key('D', ore('dustAstralStarmetal'))
@@ -249,11 +249,11 @@ starlight_altar.constellationRecipeBuilder()
 starlight_altar.constellationRecipeBuilder()
         .output(item('astralsorcery:blockaltar', 3))
         .matrix(
-            'RS SR',
-            'GRLRG',
-            ' PCP ',
-            'GRLRG',
-            'RS SR'
+                'RS SR',
+                'GRLRG',
+                ' PCP ',
+                'GRLRG',
+                'RS SR'
         )
         .key('R', runed_marble)
         .key('C', rock_crystal)
@@ -271,7 +271,7 @@ crafting.addShaped(item('astralsorcery:blockmachine:1'), [
         [null, ore('dustIron'), null],
         [ore('plankWood'), ore('stone'), ore('stickWood')],
         [ore('plankWood'), ore('plankWood'), metaitem('tjceu:steam.motor.ulv')]
-]);
+])
 
 // Runed Marble
 ore_dict.remove('stoneMarble', runed_marble)
@@ -280,9 +280,9 @@ crafting.addShaped(runed_marble * 4, [
         [ore('foilTungsten'), ore('stoneMarble'), ore('foilTungsten')],
         [ore('stoneMarble'), ore('wireFinePlatinum'), ore('stoneMarble')],
         [ore('foilTungsten'), ore('stoneMarble'), ore('foilTungsten')]
-]);
+])
 
-furnace.removeByOutput(item('astralsorcery:itemcraftingcomponent', 1));
+furnace.removeByOutput(item('astralsorcery:itemcraftingcomponent', 1))
 
 furnace.recipeBuilder()
         .input(ore('oreAstralStarmetal'))
@@ -309,7 +309,7 @@ EBF.recipeBuilder()
         .property("temperature", 7000)
         .duration(1000)
         .EUt(6000)
-        .buildAndRegister();
+        .buildAndRegister()
 
 // Illumination Powder
 MIXER.recipeBuilder()
@@ -318,16 +318,16 @@ MIXER.recipeBuilder()
         .outputs([item('astralsorcery:itemusabledust:0') * 16])
         .duration(30)
         .EUt(800)
-        .buildAndRegister();
+        .buildAndRegister()
 
 // Nocturnal Powder
 MIXER.recipeBuilder()
         .circuitMeta(1)
         .inputs([item('astralsorcery:itemusabledust:0'), ore('gemLapis'), ore('dustCarbon') * 3])
-        .outputs([item('astralsorcery:itemusabledust:1')* 4])
+        .outputs([item('astralsorcery:itemusabledust:1') * 4])
         .duration(30)
         .EUt(1150)
-        .buildAndRegister();
+        .buildAndRegister()
 
 
 // Starmetal Ore to Dust
@@ -336,7 +336,7 @@ MACERATOR.recipeBuilder()
         .outputs([item('astralsorcery:itemcraftingcomponent', 2) * 2])
         .duration(20)
         .EUt(12)
-        .buildAndRegister();
+        .buildAndRegister()
 
 // TODO: Add Tooltips
 // //tooltips addTooltip(); format."color()"
@@ -354,7 +354,7 @@ crafting.addShaped(item('astralsorcery:blocktreebeacon:0'), [
         [ore('circuitLv'), ore('treeSapling'), ore('circuitLv')],
         [ore('plateSteel'), ore('circuitLv'), ore('plateSteel')],
         [ore('plateDoubleSteel'), ore('plateSteel'), ore('plateDoubleSteel')]
-]);
+])
 
 // Lightwell
 lightwell.removeByOutput(fluid('water'))
@@ -369,12 +369,12 @@ lightwell.recipeBuilder()
         .register()
 
 EBF.recipeBuilder()
-        .inputs(ore('ingotNaquadahAlloy'),ore('ingotAstralStarmetal'))
-        .outputs(metaitem('tjceu:ingotHotStarmetalAlloy') *2)
+        .inputs(ore('ingotNaquadahAlloy'), ore('ingotAstralStarmetal'))
+        .outputs(metaitem('tjceu:ingotHotStarmetalAlloy') * 2)
         .property("temperature", 7600)
         .duration(1000)
         .EUt(30720)
-        .buildAndRegister();
+        .buildAndRegister()
 
 // TODO: Add Tooltips
 // item('gregtech:meta_item_1:524').addTooltip("(AxSx)Nq(Ir₃Os)");
@@ -395,7 +395,7 @@ CHEMICAL_BATH.recipeBuilder()
         .outputs(item('astralsorcery:itemcraftingcomponent', 2))
         .duration(240)
         .EUt(100000)
-        .buildAndRegister();
+        .buildAndRegister()
 
 CHEMICAL_BATH.recipeBuilder()
         .inputs(ore('dustBrightSteel') * 2)
@@ -403,7 +403,7 @@ CHEMICAL_BATH.recipeBuilder()
         .fluidInputs(fluid('astralsorcery.liquidstarlight') * 1000)
         .duration(100)
         .EUt(131072)
-        .buildAndRegister();
+        .buildAndRegister()
 
 LCR.recipeBuilder()
         .circuitMeta(1)
@@ -412,11 +412,11 @@ LCR.recipeBuilder()
         .outputs(item('astralsorcery:blockcelestialcrystals', 4))
         .duration(500)
         .EUt(30000)
-        .buildAndRegister();
+        .buildAndRegister()
 
 MACERATOR.recipeBuilder()
         .inputs([ore('ingotAstralStarmetal')])
         .outputs([item('astralsorcery:itemcraftingcomponent', 2)])
         .duration(30)
         .EUt(128)
-        .buildAndRegister();
+        .buildAndRegister()

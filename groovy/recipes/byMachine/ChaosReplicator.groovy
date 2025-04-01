@@ -6,4 +6,4 @@ CHAOS_REPLICATION.recipeBuilder()
         .outputs(metaitem('tjceu:crystal.refined_chaos') * 64, metaitem('tjceu:shard.refined_chaos') * 32)
         .duration(500)
         .EUt(524288)
-        .buildAndRegister();
+        .buildAndRegister()
