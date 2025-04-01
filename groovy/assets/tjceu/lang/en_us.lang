@@ -39,10 +39,26 @@ tile.multiblock_casing.refined_chaos.name=Draconic Machine Casing
 tile.multiblock_casing.soul_insulation.name=Draconic Machine Casing
 
 # Machines
+## Multiblocks
 tjceu.machine.primitive_alloy_smelter.name=Primitive Alloy Smelter
 tjceu.machine.armor_infuser.name=Armor Infuser
 tjceu.machine.chaos_replicator.name=Chaos Replicator
 tjceu.machine.dragon_egg_replicator.name=Dragon Egg Replicator
+
+## Singleblocks
+tjceu.machine.vial_processor.lv.name=Basic Vial Processor
+tjceu.machine.vial_processor.mv.name=Advanced Vial Processor
+tjceu.machine.vial_processor.hv.name=Advanced Vial Processor II
+tjceu.machine.vial_processor.ev.name=Advanced Vial Processor III
+tjceu.machine.vial_processor.iv.name=Elite Vial Processor
+tjceu.machine.vial_processor.luv.name=Elite Vial Processor II
+tjceu.machine.vial_processor.zpm.name=Elite Vial Processor III
+tjceu.machine.vial_processor.uv.name=Ultimate Vial Processor
+tjceu.machine.vial_processor.uhv.name=Epic Vial Processor
+tjceu.machine.vial_processor.uev.name=Epic Vial Processor II
+tjceu.machine.vial_processor.uiv.name=Epic Vial Processor III
+tjceu.machine.vial_processor.uxv.name=Epic Vial Processor IV
+tjceu.machine.vial_processor.opv.name=Legendary Vial Processor
 
 # Recipemaps
 recipemap.armor_infusion.name=Armor Infusion
