@@ -1,5 +1,3 @@
-import static classes.utils.TJUtility.tjId
-
 import classes.mtes.multiblocks.*
 import classes.recipes.TJRecipeMaps
 import gregtech.api.GTValues
@@ -12,6 +10,8 @@ import gregtech.client.renderer.texture.Textures
 import gregtech.common.metatileentities.MetaTileEntities
 import groovy.transform.builder.Builder
 
+import static classes.utils.TJUtility.tjId
+
 class TJMetaTileEntities {
 
     static final def VIAL_PROCESSOR = new SimpleMachineMetaTileEntity[GTValues.V.length - 1]
@@ -20,6 +20,8 @@ class TJMetaTileEntities {
     static def ARMOR_INFUSER
     static def CHAOS_REPLICATOR
     static def DRAGON_EGG_REPLICATOR
+    static def LARGE_VIAL_PROCESSOR
+    static def LARGE_POWERED_SPAWNER
 
     static void register() {
 
@@ -37,8 +39,11 @@ class TJMetaTileEntities {
         ARMOR_INFUSER = mte(2001, new ArmorInfuser(tjId('armor_infuser')))
         CHAOS_REPLICATOR = mte(2002, new ChaosReplicator(tjId('chaos_replicator')))
         DRAGON_EGG_REPLICATOR = mte(2003, new DragonEggReplicator(tjId('dragon_egg_replicator')))
+        LARGE_VIAL_PROCESSOR = mte(2004, new LargeVialProcessor(tjId('large_vial_processor')))
+        LARGE_POWERED_SPAWNER = mte(2005, new LargePoweredSpawner(tjId('large_powered_spawner')))
 
-    // Others 3000 - 3999
+        // Others 3000 - 3999
+
     }
 
     private static <T extends MetaTileEntity> T mte(int id, T mte) {

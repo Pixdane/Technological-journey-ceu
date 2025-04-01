@@ -35,8 +35,8 @@ metaitem.ban.certificate.name=Certificate of Being a Noob
 # Blocks
 tile.multiblock_casing.draconic.name=Draconic Machine Casing
 tile.multiblock_casing.awakened_draconium.name=Awakened Draconium Machine Casing
-tile.multiblock_casing.refined_chaos.name=Draconic Machine Casing
-tile.multiblock_casing.soul_insulation.name=Draconic Machine Casing
+tile.multiblock_casing.refined_chaos.name=Refined Chaos Casing
+tile.multiblock_casing.soul_insulation.name=Soul Insulation Casing
 
 # Machines
 ## Multiblocks
@@ -44,6 +44,8 @@ tjceu.machine.primitive_alloy_smelter.name=Primitive Alloy Smelter
 tjceu.machine.armor_infuser.name=Armor Infuser
 tjceu.machine.chaos_replicator.name=Chaos Replicator
 tjceu.machine.dragon_egg_replicator.name=Dragon Egg Replicator
+tjceu.machine.large_vial_processor.name=Large Vial Processor
+tjceu.machine.large_powered_spawner.name=Large Powered Spawner
 
 ## Singleblocks
 tjceu.machine.vial_processor.lv.name=Basic Vial Processor
@@ -65,3 +67,5 @@ recipemap.armor_infusion.name=Armor Infusion
 recipemap.chaos_replication.name=Chaos Replication
 recipemap.dragon_egg_replication.name=Dragon Egg Replication
 recipemap.vial_processing.name=Vial Processing
+recipemap.advanced_vial_processing.name=Advanced Vial Processing
+recipemap.soul_capture.name=Soul Capture
