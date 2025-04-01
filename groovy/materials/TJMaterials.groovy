@@ -22,6 +22,8 @@ class TJMaterials {
     static Material Seabohrgium
     static Material Fordnium
 
+    //static Material PlutoniumRadioactive
+
     static void register() {
 
         // Ranges 1-499
