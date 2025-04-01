@@ -34,6 +34,7 @@ class SecondDegreeMaterials {
                 .liquid()
                 .color(0x5f5fd9)
                 .components(Octaazacubane, Water)
+                .flags(DISABLE_DECOMPOSITION)
                 .build()
 
         Seabohrgium = new Material.Builder(1004, tjId('seabohrgium'))

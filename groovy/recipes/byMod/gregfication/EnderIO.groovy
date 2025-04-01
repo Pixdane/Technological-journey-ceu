@@ -6,6 +6,7 @@ MACERATOR = recipemap('macerator')
 SOLIDIFIER = recipemap('fluid_solidifier')
 ASSEMBLER = recipemap('assembler')
 ARC_FURNACE = recipemap('arc_furnace')
+ALLOY_BLAST_SMELTER = recipemap('alloy_blast_smelter')
 
 //EIO metals to gregtech 
 
@@ -116,14 +117,13 @@ MACERATOR.recipeBuilder()
         .EUt(30)
         .buildAndRegister()
 
-// TODO blast_ALLOY_SMELTER
-// blast_ALLOY_SMELTER.recipeBuilder()
-//     .inputs([item('gregtech:meta_item_1:2524') * 5, item('gregtech:meta_item_1:2002') * 4, item('gregtech:meta_item_1:2331')])
-//     .fluidOutputs(fluid('stellar_alloy')*1440)
-//     .duration(420)
-//     .property("temperature", 8100)
-//     .EUt(2430)
-//     .buildAndRegister();
+ALLOY_BLAST_SMELTER.recipeBuilder()
+    .inputs([ore('dustStarmetalAlloy') * 5, ore('dustAmericium') * 4, ore('dustNetherStar')])
+    .fluidOutputs(fluid('molten.stellar_alloy') * 1440)
+    .duration(420)
+    .blastFurnaceTemp(8100)
+    .EUt(2430)
+    .buildAndRegister()
 
 SOLIDIFIER.recipeBuilder()
         .fluidInputs(fluid('molten.stellar_alloy') * 144)

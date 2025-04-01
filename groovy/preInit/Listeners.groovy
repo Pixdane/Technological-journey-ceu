@@ -13,7 +13,7 @@ import net.minecraftforge.fml.common.eventhandler.EventPriority
 eventManager.listen(EventPriority.LOWEST) {
     MaterialRegistryEvent event ->
         {
-            GregTechAPI.materialManager.createRegistry("tjceu") // TODO: make this cached somewhere...?
+            GregTechAPI.materialManager.createRegistry('tjceu') // TODO: make this cached somewhere...?
         }
 }
 
