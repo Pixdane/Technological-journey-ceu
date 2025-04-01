@@ -15,7 +15,7 @@ class UnknownCompositionMaterials {
     static void register() {
         Soularium = new Material.Builder(1500, tjId('soularium'))
                 .ingot()
-                .liquid()
+                .liquid().plasma()
                 .iconSet(DULL)
                 .color(0x3b2a15)
                 .toolStats(new ToolProperty(13.0F, 6, 512, 10))
