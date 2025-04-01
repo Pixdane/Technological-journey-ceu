@@ -9,6 +9,13 @@ LASER_ENGRAVER = recipemap('laser_engraver')
 MIXER = recipemap('mixer')
 CUTTER = recipemap('cutter')
 
+ore_dict.remove('oreCopper', item('libvulpes:ore0:4'));
+ore_dict.remove('oreTin', item('libvulpes:ore0:5'));
+ore_dict.remove('oreRutile', item('libvulpes:ore0:8'));
+ore_dict.remove('oreTitanium', item('libvulpes:ore0:8'));
+ore_dict.remove('oreAluminum', item('libvulpes:ore0:9'));
+ore_dict.remove('oreIridium', item('libvulpes:ore0:10'));
+
 mods.advancedrocketry.chemical_reactor.removeAll(); 
 mods.advancedrocketry.precision_assembler.removeAll(); 
 mods.advancedrocketry.cutting_machine.removeAll();

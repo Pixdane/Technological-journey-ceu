@@ -554,7 +554,7 @@
 // 			ore('cableGtQuadrupleNiobiumTitanium') * 8,
 // 			item('gregtech:meta_item_1:32685') * 2,
 // 			item('gregtech:meta_item_1:32655') * 2,
-// 			item('gregtech:meta_item_1:32615') * 2
+// 			metaitem('electric.pump.luv') * 2
 // 
 // 		]) 
 //     .fluidInputs([

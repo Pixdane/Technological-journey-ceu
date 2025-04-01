@@ -1,3 +1,5 @@
+mods.chisel.Carving.removeVariation("marble", item('astralsorcery:blockmarble'));
+
 def types = [
         "agon",
         "azur",

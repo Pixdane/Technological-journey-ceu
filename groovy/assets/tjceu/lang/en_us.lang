@@ -3,7 +3,7 @@ tjceu.material.aquamarine=Aquamarine
 tjceu.material.explosive_hydrazine_mixture=Explosive Hydrazine Mixture
 tjceu.material.octogen=HMX (Octogen)
 tjceu.material.octaazacubane=Octaazacubane
-tjceu.material.octaazacubane_solution=Octaazacubane Solution
+tjceu.material.octaazacubane_solution=Wet Octaazacubane Solution
 tjceu.material.seabohrgium=Seabohrgium
 tjceu.material.fordnium=Fordnium
 tjceu.material.soularium=Soularium
@@ -17,6 +17,9 @@ tjceu.material.naquadric_fuel_catalyst=Naquadric Fuel Catalyst
 tjceu.material.eternity_preparation=Eternity Preparation
 tjceu.material.starlight_complex=Starlight Complex
 tjceu.material.eternity=Eternity
+
+# MetaPrefixItem Name Overrides
+item.tjceu.material.octaazacubane.dust=Metastable Octaazacubane Booster
 
 # Metaitems
 metaitem.steam.motor.ulv.name=Steam Motor (ULV)

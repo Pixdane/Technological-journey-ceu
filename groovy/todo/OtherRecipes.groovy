@@ -441,7 +441,7 @@
 //     .buildAndRegister();
 // 
 // assembler.recipeBuilder()
-//     .inputs([item('gregtech:cable:517') * 3,item('gregtech:meta_item_1:32610') * 2,item('gregtech:fluid_pipe:184')])
+//     .inputs([item('gregtech:cable:517') * 3,metaitem('electric.pump.lv') * 2,item('gregtech:fluid_pipe:184')])
 //     .notConsumable(item('gregtech:meta_item_1:32766').withTag({Configuration: 1}))
 //     .fluidInputs(fluid('nitrogen') * 1000)
 //     .outputs([item('gregtech:cable:516') * 3])
@@ -492,20 +492,20 @@
 //     recipe.remove();
 //     }
 //     
-// recipes.addShaped(item('contenttweaker:steammotor'), [[ore('stickWood'), ore('plateBronze'), ore('stickIron')],[ore('plateBronze'), ore('stickIron'), ore('plateBronze')], [ore('ingotIron'), ore('plateBronze'), ore('stickWood')]]);
+// recipes.addShaped(metaitem('tjceu:steam.motor.ulv'), [[ore('stickWood'), ore('plateBronze'), ore('stickIron')],[ore('plateBronze'), ore('stickIron'), ore('plateBronze')], [ore('ingotIron'), ore('plateBronze'), ore('stickWood')]]);
 // 
 // recipes.remove(item('gregtech:meta_item_1:32600'));
 // recipes.addShaped(item('gregtech:meta_item_1:32600'), [[ore('cableGtSingleTin'), ore('wireGtSingleCopper'), ore('stickIron')],[ore('wireGtSingleCopper'), ore('stickIronMagnetic'), ore('wireGtSingleCopper')], [ore('stickIron'), ore('wireGtSingleCopper'), ore('cableGtSingleTin')]]);
-// //recipes.addShaped(item('supercritical:mte:14400'), [[item('gregtech:metal_casing:1'), item('contenttweaker:steampiston'), item('gregtech:metal_casing:1')],[item('contenttweaker:steammotor'), null, item('contenttweaker:steampiston')], [item('gregtech:metal_casing:1'), item('contenttweaker:steammotor'), item('gregtech:metal_casing:1')]]);
+// //recipes.addShaped(item('supercritical:mte:14400'), [[item('gregtech:metal_casing:1'), item('contenttweaker:steampiston'), item('gregtech:metal_casing:1')],[metaitem('tjceu:steam.motor.ulv'), null, item('contenttweaker:steampiston')], [item('gregtech:metal_casing:1'), metaitem('tjceu:steam.motor.ulv'), item('gregtech:metal_casing:1')]]);
 // recipes.remove(item('gregtech:mte:9'));
 // recipes.remove(item('gregtech:mte:10'));
 // recipes.remove(item('gregtech:mte:11'));
 // recipes.remove(item('gregtech:mte:7'));
-// recipes.addShaped(item('gregtech:mte:9'), [[item('contenttweaker:steampiston'), item('gregtech:fluid_pipe:1095'), item('contenttweaker:steampiston')],[item('gregtech:fluid_pipe:1095'), item('gregtech:steam_casing:0'), item('gregtech:fluid_pipe:1095')], [item('contenttweaker:steammotor'), item('gregtech:fluid_pipe:1095'), item('contenttweaker:steammotor')]]);
-// recipes.addShaped(item('gregtech:mte:10'), [[item('contenttweaker:steampiston'), item('gregtech:fluid_pipe:1184'), item('contenttweaker:steampiston')],[item('gregtech:fluid_pipe:1184'), item('gregtech:steam_casing:2'), item('gregtech:fluid_pipe:1184')], [item('contenttweaker:steammotor'), item('gregtech:fluid_pipe:1184'), item('contenttweaker:steammotor')]]);
+// recipes.addShaped(item('gregtech:mte:9'), [[item('contenttweaker:steampiston'), item('gregtech:fluid_pipe:1095'), item('contenttweaker:steampiston')],[item('gregtech:fluid_pipe:1095'), item('gregtech:steam_casing:0'), item('gregtech:fluid_pipe:1095')], [metaitem('tjceu:steam.motor.ulv'), item('gregtech:fluid_pipe:1095'), metaitem('tjceu:steam.motor.ulv')]]);
+// recipes.addShaped(item('gregtech:mte:10'), [[item('contenttweaker:steampiston'), item('gregtech:fluid_pipe:1184'), item('contenttweaker:steampiston')],[item('gregtech:fluid_pipe:1184'), item('gregtech:steam_casing:2'), item('gregtech:fluid_pipe:1184')], [metaitem('tjceu:steam.motor.ulv'), item('gregtech:fluid_pipe:1184'), metaitem('tjceu:steam.motor.ulv')]]);
 // recipes.remove(item('gregtech:mte:12'));
-// recipes.addShaped(item('gregtech:mte:12'), [[item('gregtech:fluid_pipe:1184'), item('gregtech:fluid_pipe:1184'), item('gregtech:fluid_pipe:1184')],[item('contenttweaker:steammotor'), item('gregtech:steam_casing:2'), item('contenttweaker:steampiston')], [item('gregtech:fluid_pipe:1184'), item('gregtech:fluid_pipe:1184'), item('gregtech:fluid_pipe:1184')]]);
-// recipes.addShaped(item('gregtech:mte:11'), [[item('gregtech:fluid_pipe:1095'), item('gregtech:fluid_pipe:1095'), item('gregtech:fluid_pipe:1095')],[item('contenttweaker:steammotor'), item('gregtech:steam_casing:0'), item('contenttweaker:steampiston')], [item('gregtech:fluid_pipe:1095'), item('gregtech:fluid_pipe:1095'), item('gregtech:fluid_pipe:1095')]]);
+// recipes.addShaped(item('gregtech:mte:12'), [[item('gregtech:fluid_pipe:1184'), item('gregtech:fluid_pipe:1184'), item('gregtech:fluid_pipe:1184')],[metaitem('tjceu:steam.motor.ulv'), item('gregtech:steam_casing:2'), item('contenttweaker:steampiston')], [item('gregtech:fluid_pipe:1184'), item('gregtech:fluid_pipe:1184'), item('gregtech:fluid_pipe:1184')]]);
+// recipes.addShaped(item('gregtech:mte:11'), [[item('gregtech:fluid_pipe:1095'), item('gregtech:fluid_pipe:1095'), item('gregtech:fluid_pipe:1095')],[metaitem('tjceu:steam.motor.ulv'), item('gregtech:steam_casing:0'), item('contenttweaker:steampiston')], [item('gregtech:fluid_pipe:1095'), item('gregtech:fluid_pipe:1095'), item('gregtech:fluid_pipe:1095')]]);
 // recipes.addShaped(item('gregtech:mte:7'), [[item('gregtech:fluid_pipe:1095'), item('gregtech:fluid_pipe:1095'), item('gregtech:fluid_pipe:1095')],[item('contenttweaker:steampiston'), item('gregtech:steam_casing:0'), item('minecraft:glass')], [item('gregtech:fluid_pipe:1095'), item('gregtech:fluid_pipe:1095'), item('gregtech:fluid_pipe:1095')]]);
 // recipes.remove(item('gregtech:machine:2235'));
 // recipes.addShaped(item('gregtech:machine:2235'), [[item('minecraft:glass'), ore('rotorBronze'), item('minecraft:glass')],[item('contenttweaker:steampiston'), item('gregtech:fluid_pipe:1184'), item('contenttweaker:steampiston')], [item('gregtech:fluid_pipe:1184'), item('gregtech:steam_casing:0'), item('gregtech:fluid_pipe:1184')]]);
@@ -926,7 +926,7 @@
 // 
 // Utils.removeRecipeByOutput(assembler, [item('gtadditions:ga_meta_item:32309').withTag({"GT.Detrav": {}})], [], false);
 // 
-// recipes.addShaped(item('gtadditions:ga_meta_item:32309').withTag({"GT.Detrav": {}}), [[ore('plateDoubleSteel'), ore('plateDoubleSteel'), item('contenttweaker:steammotor')],[item('contenttweaker:steampiston'), ore('plateDoubleSteel'), ore('plateDoubleSteel')], [ore('plateDoubleSteel'), item('contenttweaker:steampiston'), ore('plateDoubleSteel')]]);
+// recipes.addShaped(item('gtadditions:ga_meta_item:32309').withTag({"GT.Detrav": {}}), [[ore('plateDoubleSteel'), ore('plateDoubleSteel'), metaitem('tjceu:steam.motor.ulv')],[item('contenttweaker:steampiston'), ore('plateDoubleSteel'), ore('plateDoubleSteel')], [ore('plateDoubleSteel'), item('contenttweaker:steampiston'), ore('plateDoubleSteel')]]);
 // recipes.remove(item('gregtech:machine:2004'));
 // recipes.addShaped(item('gregtech:machine:2004'), [[item('gregtech:multiblock_casing:2'), item('gregtech:meta_item_1:32655'), item('gregtech:multiblock_casing:2')],[ore('circuitMaster'), item('gregtech:mte:991'), ore('circuitMaster')], [item('gregtech:multiblock_casing:2'), item('gregtech:meta_item_1:32655'), item('gregtech:multiblock_casing:2')]]);
 // 
@@ -964,7 +964,7 @@
 // recipes.addShaped(ore('bookEnchanted,craftingBook').withTag({StoredEnchantments: [{lvl: 1 as short, id: 45 as short}]}), [[item('minecraft:red_nether_brick:0'), item('minecraft:netherrack'), item('minecraft:red_nether_brick:0')],[item('minecraft:netherrack'), ore('bookEmpty,craftingBook'), item('minecraft:netherrack')], [item('minecraft:nether_brick'), item('minecraft:netherrack'), item('minecraft:nether_brick')]]);
 // 
 // // coke oven and primitve alloy
-// recipes.addShaped(item('gregtech:machine:1002'), [[item('gregtech:metal_casing:1'), item('contenttweaker:steammotor'), item('gregtech:metal_casing:1')],[item('contenttweaker:steammotor'), null, item('contenttweaker:steampiston')], [item('gregtech:metal_casing:1'), item('contenttweaker:steampiston'), item('gregtech:metal_casing:1')]]);
+// recipes.addShaped(item('gregtech:machine:1002'), [[item('gregtech:metal_casing:1'), metaitem('tjceu:steam.motor.ulv'), item('gregtech:metal_casing:1')],[metaitem('tjceu:steam.motor.ulv'), null, item('contenttweaker:steampiston')], [item('gregtech:metal_casing:1'), item('contenttweaker:steampiston'), item('gregtech:metal_casing:1')]]);
 // recipes.addShaped(item('gregtech:mte:1017'), [[item('gregtech:metal_casing:8'), ore('plateDoubleBronze'), item('gregtech:metal_casing:8')],[ore('plateDoubleBronze'), null, ore('plateDoubleBronze')], [item('gregtech:metal_casing:8'), ore('plateDoubleBronze'), item('gregtech:metal_casing:8')]]);
 // 
 // /*
@@ -1032,7 +1032,7 @@
 // Utils.removeRecipeByOutput(assembler, [item('gregtech:machine:4239')], [], true);
 // 
 // assembler.recipeBuilder()
-// .inputs(item('gregtech:meta_item_1:32600') * 4, item('gregtech:meta_item_1:32610') * 4,item('gregtech:mte:986'), item('gregtech:meta_block_frame_20:4'), item('gregtech:meta_item_2:26017') * 2, ore('circuitBasic'))
+// .inputs(item('gregtech:meta_item_1:32600') * 4, metaitem('electric.pump.lv') * 4,item('gregtech:mte:986'), item('gregtech:meta_block_frame_20:4'), item('gregtech:meta_item_2:26017') * 2, ore('circuitBasic'))
 // .notConsumable(item('gregtech:meta_item_1:32766').withTag({Configuration: 2}))
 // .outputs(item('gregtech:machine:4239'))
 // .EUt(30)
@@ -1671,7 +1671,7 @@
 //         .EUt(1474560)
 //         .buildAndRegister();
 // 
-// recipes.addShaped(item('contenttweaker:steampiston'), [[ore('gearSmallIron'), ore('stickWood'), ore('stickWood')],[ore('gearSmallIron'), item('contenttweaker:steammotor'), ore('plateBronze')], [ore('plateIron'), ore('plateIron'), ore('plateIron')]]);
+// recipes.addShaped(item('contenttweaker:steampiston'), [[ore('gearSmallIron'), ore('stickWood'), ore('stickWood')],[ore('gearSmallIron'), metaitem('tjceu:steam.motor.ulv'), ore('plateBronze')], [ore('plateIron'), ore('plateIron'), ore('plateIron')]]);
 // 
 // var MAXcompblocks = [item('gtadditions:ga_conveyor_casing:13'),item('gtadditions:ga_field_gen_casing:13'),item('gtadditions:ga_motor_casing:13'),item('gtadditions:ga_piston_casing:13'),item('gtadditions:ga_pump_casing:13'),item('gtadditions:ga_robot_arm_casing:13'),item('gtadditions:ga_sensor_casing:13'),item('gtadditions:ga_emitter_casing:13')]  as IItemStack[];
 // var Maxcomp = [item('gcyl:gcyl_meta_item:353'),item('gcyl:gcyl_meta_item:383'),item('gcyl:gcyl_meta_item:359'),item('gcyl:gcyl_meta_item:365'),item('gcyl:gcyl_meta_item:371'),item('gcyl:gcyl_meta_item:389'),item('gcyl:gcyl_meta_item:395'),item('gcyl:gcyl_meta_item:377')] as IItemStack[];

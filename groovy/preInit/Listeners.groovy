@@ -1,3 +1,4 @@
+import classes.recipes.TJRecipeMaps
 import classes.blocks.TJMetaBlocks
 import classes.items.TJMetaItems
 import gregtech.api.GregTechAPI
@@ -8,6 +9,9 @@ import materials.MaterialModifications
 import materials.TJMaterials
 import net.minecraftforge.event.RegistryEvent
 import net.minecraftforge.fml.common.eventhandler.EventPriority
+
+// Modify existing recipe maps
+TJRecipeMaps.modifyRecipeMaps()
 
 // Create our own material registry
 eventManager.listen(EventPriority.LOWEST) {
