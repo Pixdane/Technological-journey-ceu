@@ -1,13 +1,15 @@
+import static classes.utils.TJUtility.tjId
+import static gregtech.common.covers.CoverBehaviors.registerBehavior
+
 import gregtech.api.GTValues
 import gregtech.api.items.metaitem.MetaItem
 import gregtech.api.items.metaitem.StandardMetaItem
 import gregtech.common.covers.CoverConveyor
 import gregtech.common.covers.CoverPump
 
-import static classes.utils.TJUtility.tjId
-import static gregtech.common.covers.CoverBehaviors.registerBehavior
-
 class TJMetaItems {
+
+    static StandardMetaItem item
 
     static MetaItem.MetaValueItem STEAM_MOTOR_ULV
     static MetaItem.MetaValueItem STEAM_PISTON_ULV
@@ -20,11 +22,13 @@ class TJMetaItems {
     static MetaItem.MetaValueItem BAN_CERTIFICATE
 
     static void registerItems() {
-        def item = new StandardMetaItem() {
+        item = new StandardMetaItem() {
+
             @Override
             ResourceLocation createItemModelPath(MetaItem.MetaValueItem metaValueItem, String postfix) {
                 return tjId(formatModelPath(metaValueItem) + postfix)
             }
+
         }
         item.setRegistryName('tj_meta_item')
 

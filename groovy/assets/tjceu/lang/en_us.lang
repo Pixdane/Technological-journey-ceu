@@ -34,3 +34,14 @@ tile.multiblock_casing.draconic.name=Draconic Machine Casing
 tile.multiblock_casing.awakened_draconium.name=Awakened Draconium Machine Casing
 tile.multiblock_casing.refined_chaos.name=Draconic Machine Casing
 tile.multiblock_casing.soul_insulation.name=Draconic Machine Casing
+
+# Machines
+tjceu.machine.primitive_alloy_smelter.name=Primitive Alloy Smelter
+tjceu.machine.armor_infuser.name=Armor Infuser
+tjceu.machine.chaos_replicator.name=Chaos Replicator
+tjceu.machine.dragon_egg_replicator.name=Dragon Egg Replicator
+
+# Recipemaps
+recipemap.armor_infusion.name=Armor Infusion
+recipemap.chaos_replication.name=Chaos Replication
+recipemap.dragon_egg_replication.name=Dragon Egg Replication

@@ -3,15 +3,11 @@
   "packId": "tjceu",
   "version": "1.0.0",
   "debug": false,
-  "classes": {
-    "all": [
-      "classes/",
-      "materials/"
-    ]
-  },
   "loaders": {
     "preInit": [
-      "preInit/"
+      "preInit/",
+      "classes/",
+      "materials/"
     ],
     "init": [
       "init/"

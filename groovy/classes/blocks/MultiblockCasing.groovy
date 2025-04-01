@@ -32,11 +32,7 @@ class MultiblockCasing extends VariantBlock<MultiblockCasing.CasingType> {
             this.harvestLevel = harvestLevel
         }
 
-        String func_176610_l() { // IStringSerializable#getName(); GrS issue
-            this.name
-        }
-
-        String getName() { // GrS issue
+        String getName() {
             this.name
         }
 
