@@ -29,7 +29,7 @@ class TJMetaTileEntities {
             .startId(0)
             .mtes(VIAL_PROCESSOR)
             .recipeMap(TJRecipeMaps.VIAL_PROCESSING)
-            .renderer(Textures.EXTRACTOR_OVERLAY)
+            .renderer(Textures.EXTRACTOR_OVERLAY) // TODO: custom overlay?
             .build().register()
 
         // Multiblocks 2000 - 2999
