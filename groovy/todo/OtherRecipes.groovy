@@ -1,130 +1,66 @@
-// import crafttweaker.item.IItemDefinition;
-// import crafttweaker.item.IItemStack;
-// import crafttweaker.item.IIngredient;
-// import crafttweaker.oredict.IOreDict;
-// import crafttweaker.oredict.IOreDictEntry;
-// import mods.gregtech.recipe.RecipeMap;
-// import mods.gregtech.material.MaterialRegistry;
-// import mods.gregtech.material.Material;
-// import scripts.commonNames;
-// import mods.gregtech.recipe.PBFRecipeBuilder;
-// import mods.gtadditions.recipe.Utils;
-// import mods.enderio.Vat as vat;
-// import mods.gregtech.recipe.CokeOvenRecipeBuilder;
-// import mods.gregtech.recipe.RecipeMaps;
-// //import mods.gtadditions.recipe.GARecipeMaps.ADV_FUSION_RECIPES;
-// 
-// 
-// // gt coal dust 
+// gt coal dust 
 // macerator.recipeBuilder()
 // .inputs([ore('coal')])
 // .outputs([ore('dustCoal')])
 // .duration(160)
 // .EUt(30)
 // .buildAndRegister();
-// 
+
+// Iron Dust
 // macerator.recipeBuilder()
 // .inputs([ore('ingotIron')])
 // .outputs([ore('dustIron')])
 // .duration(160)
 // .EUt(30)
 // .buildAndRegister();
-// 
-// mixer.recipeBuilder()
-// .inputs([ore('dustRedstone') * 64])
-// .fluidInputs(fluid('lava') * 1000)
-// .outputs([item('fluxnetworks:flux:0') * 64])
-// .duration(240)
-// .EUt(524288)
-// .buildAndRegister();
-// 
-// largeMix.recipeBuilder()
-// .inputs([ore('dustRedstone') * 64])
-// .fluidInputs(fluid('lava') * 1000)
-// .outputs([item('fluxnetworks:flux:0') * 64])
-// .duration(240)
-// .EUt(524288)
-// .buildAndRegister();
-// 
-// recipes.remove(item('fluxnetworks:fluxcore:0'));
-// recipes.remove(item('fluxnetworks:fluxpoint:0'));
-// recipes.remove(item('fluxnetworks:fluxplug:0'));
-// recipes.addShapeless(item('fluxnetworks:fluxplug:0'),[item('fluxnetworks:fluxpoint:0')]);
-// recipes.addShapeless(item('fluxnetworks:fluxpoint:0'),[item('fluxnetworks:fluxplug:0')]);
-// assembler.recipeBuilder()
-// .inputs([item('fluxnetworks:flux:0') * 4,item('enderio:block_reinforced_obsidian:0') * 4,item('gregtech:meta_item_1:32724') * 2])
-// .outputs([item('fluxnetworks:fluxcore:0') * 2])
-// .duration(240)
-// .EUt(524288)
-// .buildAndRegister();
-// 
-// assembler.recipeBuilder()
-// .inputs([item('fluxnetworks:fluxcore:0')  * 8,ore('wireGtSingleUvSuperconductor') * 18])
-// .outputs([item('fluxnetworks:fluxpoint:0') * 2])
-//     .notConsumable(item('gregtech:meta_item_1:32766').withTag({Configuration: 1}))
-// .duration(240)
-// .EUt(524288)
-// .buildAndRegister();
-// 
-// assembler.recipeBuilder()
-// .inputs([item('fluxnetworks:fluxcore:0')  * 8,ore('wireGtSingleUvSuperconductor') * 18])
-// .outputs([item('fluxnetworks:fluxplug:0') * 2])
-//     .notConsumable(item('gregtech:meta_item_1:32766').withTag({Configuration: 2}))
-// .duration(240)
-// .EUt(524288)
-// .buildAndRegister();
-// 
+
+// Ender Pearl Dust
 // macerator.recipeBuilder()
 // .inputs([ore('enderpearl,gemEnderPearl,materialEnderPearl')])
 // .outputs([ore('dustEnderPearl')])
 // .duration(160)
 // .EUt(30)
 // .buildAndRegister();
-// 
+
+// Nether Quartz Dust
 // macerator.recipeBuilder()
 // .inputs([ore('gemNetherQuartz,gemQuartz')])
 // .outputs([item('gregtech:meta_item_1:2201')])
 // .duration(160)
 // .EUt(30)
 // .buildAndRegister();
-// 
+
+// Remove macerator recipes
 // macerator.findRecipe(240, [ore('coal,gemCoal,itemCoal')], null).remove();
 // macerator.findRecipe(240, [ore('crystalCertusQuartz,gemCertusQuartz')], null).remove();
 // macerator.findRecipe(240, [ore('ingotIron')], null).remove();
 // macerator.findRecipe(240, [ore('ingotGold')], null).remove();
 // macerator.findRecipe(240, [ore('enderpearl,gemEnderPearl,materialEnderPearl')], null).remove();
 // //alloy.findRecipe(5120, [ore('dustRedstone'),item('gregtech:meta_item_1:371')], null).remove();
-// 
+
+// Certus Quartz Dust
 // macerator.recipeBuilder()
 // .inputs([ore('crystalCertusQuartz,gemCertusQuartz')])
 // .outputs([item('gregtech:meta_item_1:2202')])
 // .duration(160)
 // .EUt(30)
 // .buildAndRegister();
+
+// Obsidian Dust
 // macerator.recipeBuilder()
 // .inputs([item('minecraft:obsidian')])
 // .outputs([ore('dustObsidian')])
 // .duration(160)
 // .EUt(30)
 // .buildAndRegister();
+
+// Gold Dust
 // macerator.recipeBuilder()
 // .inputs([ore('ingotGold')])
 // .outputs([item('gregtech:meta_item_1:2026')])
 // .duration(160)
 // .EUt(30)
 // .buildAndRegister();
-// 
-// 
-// 
-// 
-// /*
-// chemreactor.recipeBuilder()
-// .inputs([item('extrautils2:compressedsand:1')])
-// .fluidInputs(fluid('lava') * 1000)
-// .outputs([ore('endstone,oc:stoneEndstone,stoneEndstone')])
-// .duration(160)
-// .EUt(30)
-// .buildAndRegister();*/
 // 
 // brewer.recipeBuilder()
 // .inputs([item('gregtech:meta_item_1:439')])
@@ -133,15 +69,7 @@
 // .duration(1440)
 // .EUt(3)
 // .buildAndRegister();
-// /*
-// distillery.recipeBuilder()
-// .notConsumable(item('gregtech:meta_item_1:32766').withTag({Configuration: 0}))
-// .fluidInputs(fluid('biomass') * 1000)
-// .fluidOutputs(fluid(' ethanol') * 700)
-// .duration(160)
-// .EUt(30)
-// .buildAndRegister();
-// */
+//
 // chemreactor.recipeBuilder()
 // .inputs([ore('dustTinySodiumHydroxide')])
 // .fluidInputs( fluid(' creosote') * 6000, fluid(' ethanol') * 1000)
