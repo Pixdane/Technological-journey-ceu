@@ -1,5 +1,4 @@
-// import gregtech.api.unification.material.Materials
-// import static gregtech.api.unification.material.Materials.*
+import gregtech.api.unification.material.properties.PropertyKey
 
 class MaterialModifications {
 
@@ -54,10 +53,8 @@ class MaterialModifications {
         //material('titanium').addOre()
         //material('tungsten').addOre()
 
-        (material('gcyl:lv_superconductor_base').getProperty(PropertyKey.WIRE) as WireProperties)
-            .setLossPerBlock(6)
-        (material('gcyl:bright_steel').getProperty(PropertyKey.WIRE) as WireProperties)
-            .setLossPerBlock(2)
+        material('gcyl:lv_superconductor_base').getProperty(PropertyKey.WIRE).setLossPerBlock(6)
+        material('gcyl:bright_steel').getProperty(PropertyKey.WIRE).setLossPerBlock(2)
     }
 
 }
