@@ -38,13 +38,13 @@ eventManager.listen(EventPriority.LOWEST) {
 }
 
 // Register metaitems
-eventManager.listen(EventPriority.LOWEST) {
-    RegistryEvent.Register<Item> event ->
-        {
+//eventManager.listen(EventPriority.LOWEST) {
+//    RegistryEvent.Register<Item> event ->
+//        {
             TJMetaItems.registerItems()
             TJMetaItems.registerBehaviors()
-        }
-}
+//        }
+//}
 
 // Register blocks
 // eventManager.listen(EventPriority.LOWEST) {
