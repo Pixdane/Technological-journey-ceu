@@ -116,3 +116,4 @@ config/ScalingGUIs/ScalingGUIs.cfg
 .gitignore
 config/ScalingGUIs/ScalingGUIsCustomScales.json
 /packwiz.exe
+/config/bogosorter/orePrefix.json
