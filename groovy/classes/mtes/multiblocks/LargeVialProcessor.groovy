@@ -42,15 +42,15 @@ class LargeVialProcessor extends RecipeMapMultiblockController {
                 .aisle('CTETC', ' GEG ', ' GEG ', ' GEG ', 'CTETC')
                 .aisle('CTTTC', ' XGX ', ' XGX ', ' XGX ', 'CTTTC')
                 .aisle('CCSCC', 'F   F', 'F   F', 'F   F', 'CCCCC')
-                .where('S' as char, selfPredicate())
-                .where('C' as char, states(blockstate('tjceu:multiblock_casing', 'variant=soul_insulation')).setMinGlobalLimited(22).or(autoAbilities()))
-                .where('T' as char, states(blockstate('gregtech:boiler_casing', 'variant=tungstensteel_pipe')))
-                .where('E' as char, states(blockstate('enderio:block_alloy', 'variant=end_steel')))
-                .where('G' as char, states(blockstate('gregtech:multiblock_casing', 'active=false', 'variant=grate')))
-                .where('X' as char, states(blockstate('gregtech:turbine_casing', 'variant=tungstensteel_gearbox')))
-//                .where('F' as char, frames(material('protactinium')))    TODO: Protactinium frame
-                .where('F' as char, frames(material('tjceu:soularium')))
-                .where(' ' as char, this.any())
+                .where('S', selfPredicate())
+                .where('C', states(blockstate('tjceu:multiblock_casing', 'variant=soul_insulation')).setMinGlobalLimited(22).or(autoAbilities()))
+                .where('T', states(blockstate('gregtech:boiler_casing', 'variant=tungstensteel_pipe')))
+                .where('E', states(blockstate('enderio:block_alloy', 'variant=end_steel')))
+                .where('G', states(blockstate('gregtech:multiblock_casing', 'active=false', 'variant=grate')))
+                .where('X', states(blockstate('gregtech:turbine_casing', 'variant=tungstensteel_gearbox')))
+//                .where('F', frames(material('protactinium')))    TODO: Protactinium frame
+                .where('F', frames(material('tjceu:soularium')))
+                .where(' ', this.any())
                 .build()
     }
 

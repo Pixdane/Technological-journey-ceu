@@ -32,9 +32,9 @@ class DragonEggReplicator extends RecipeMapMultiblockController {
                 .aisle('CCC', 'CCC', 'CCC')
                 .aisle('CCC', 'C C', 'CCC')
                 .aisle('CCC', 'CSC', 'CCC')
-                .where('S' as char, selfPredicate())
-                .where('C' as char, states(blockstate('tjceu:multiblock_casing', 'variant=awakened_draconium')).setMinGlobalLimited(15).or(autoAbilities())) // TODO: Awakened casing
-                .where(' ' as char, air())
+                .where('S', selfPredicate())
+                .where('C', states(blockstate('tjceu:multiblock_casing', 'variant=awakened_draconium')).setMinGlobalLimited(15).or(autoAbilities())) // TODO: Awakened casing
+                .where(' ', air())
                 .build()
     }
 }

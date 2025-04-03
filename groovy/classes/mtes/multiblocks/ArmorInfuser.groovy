@@ -38,12 +38,12 @@ class ArmorInfuser extends RecipeMapMultiblockController {
                 .aisle('CCCCC', ' FOF ', ' FOF ', 'AFOFA', ' FOF ', ' FOF ', 'AFOFA', ' FOF ', ' FOF ', 'CCCCC')
                 .aisle('CCCCC', '  F  ', '  F  ', 'A F A', '  F  ', '  F  ', 'A F A', '  F  ', '  F  ', 'CCCCC')
                 .aisle('CCSCC', '     ', '     ', 'AAAAA', '     ', '     ', 'AAAAA', '     ', '     ', 'CCCCC')
-                .where('S' as char, selfPredicate())
-                .where('O' as char, fusionCoil)
-                .where('F' as char, fusionCasing)
-                .where('A' as char, advFusionCoil)
-                .where('C' as char, casing.or(autoAbilities()))
-                .where('#' as char, this.any())
+                .where('S', selfPredicate())
+                .where('O', fusionCoil)
+                .where('F', fusionCasing)
+                .where('A', advFusionCoil)
+                .where('C', casing.or(autoAbilities()))
+                .where('#', this.any())
                 .build()
     }
 

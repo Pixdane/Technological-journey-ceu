@@ -62,10 +62,10 @@ class PrimitiveAlloySmelter extends RecipeMapSteamMultiblockController {
                 .aisle('CCC', 'CCC', 'DDD')
                 .aisle('CCC', 'C#C', 'D D')
                 .aisle('CCC', 'CSC', 'DDD')
-                .where('S' as char, selfPredicate())
-                .where('D' as char, bronzeHull)
-                .where('C' as char, casing.or(autoAbilities()))
-                .where('#' as char, air())
+                .where('S', selfPredicate())
+                .where('D', bronzeHull)
+                .where('C', casing.or(autoAbilities()))
+                .where('#', air())
                 .build()
     }
 }
