@@ -3,6 +3,7 @@
 
 # Exclude README
 /README.md
+*.exe
 packwiz
 Pull requests template
 thumb.png
