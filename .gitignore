@@ -4,6 +4,7 @@
 # Exclude exported Modrinth modpacks
 *.mrpack
 
+*.iml
 *.pdf
 
 .DS_Store
@@ -11,6 +12,7 @@
 packwiz
 
 .vscode
+.idea
 
 config/ftbutilities.cfg
 config/ironfurnaces.cfg
