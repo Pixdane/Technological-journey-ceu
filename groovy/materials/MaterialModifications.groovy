@@ -8,12 +8,8 @@ class MaterialModifications {
     }
 
     static void changeFlags() {
-        //material('iron').addFlags("generate_small_gear)
-        //material('cosmic_neutronium').addFlags("generate_round")
-        //material('neutronium').addFlags("generate_round")
-        //material('qcd_confined_matter').addFlags("generate_gear")
-        //no_replication
 
+        //no_replication
         material('gcyl:adamantium').addFlags('no_replication')
         material('gcyl:vibranium').addFlags('no_replication')
         material('gcyl:taranium').addFlags('no_replication')
@@ -26,19 +22,17 @@ class MaterialModifications {
     }
 
     static void modifyProperties() {
+
+        material('iron').addBlastProperty(1751) // minimum temperature for hot ingot generation
+
+        // Ore
         material('nether_star').addOre(true)
-        //material('glowstone').addOre()
-        //material('cryotheum').addOre()
-        //material('pyrotheum').addOre()
         material('coke').addOre()
-        //material('plutonium_radioactive').addOre()
         material('neptunium').addOre()
         material('gcyl:rhodium_salt').addOre()
         material('californium').addOre()
         material('curium').addOre()
-        //material('plutonium').addOre()
         material('rutherfordium').addOre()
-        //material('duranium').addOre()
         material('tritanium').addOre()
         material('naquadria').addOre()
         material('bohrium').addOre()
@@ -49,9 +43,6 @@ class MaterialModifications {
         material('berkelium').addOre()
         material('rhodium').addOre()
         material('ruthenium').addOre()
-        //material('dubnium').addOre()
-        //material('titanium').addOre()
-        //material('tungsten').addOre()
 
         material('gcyl:lv_superconductor_base').getProperty(PropertyKey.WIRE).setLossPerBlock(6)
         material('gcyl:bright_steel').getProperty(PropertyKey.WIRE).setLossPerBlock(2)
