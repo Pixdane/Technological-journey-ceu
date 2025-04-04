@@ -23,7 +23,7 @@ class MaterialModifications {
 
     static void modifyProperties() {
 
-        material('iron').addBlastProperty(1751) // minimum temperature for hot ingot generation
+        material('iron').addBlastProperty(1811)
 
         // Ore
         material('nether_star').addOre(true)
