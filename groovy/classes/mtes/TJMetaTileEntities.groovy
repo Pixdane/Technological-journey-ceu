@@ -38,8 +38,8 @@ class TJMetaTileEntities {
             .renderer(Textures.EXTRACTOR_OVERLAY) // TODO: custom overlay?
             .build().register()
         
-        HV_QUADRUPLE_IMPORT_HATCH = mte(13, new MetaTileEntityMultiFluidHatch(tjId('fluid_hatch.import_4x.hv'), GTValues.HV, 4, false))
-        HV_QUADRUPLE_EXPORT_HATCH = mte(14, new MetaTileEntityMultiFluidHatch(tjId('fluid_hatch.export_4x.hv'), GTValues.HV, 4, true))
+        HV_QUADRUPLE_IMPORT_HATCH = mte(13, new MetaTileEntityMultiFluidHatch(tjId('fluid_hatch.import_4x.hv'), GTValues.HV, 4, false) { /* Some magic for JEI to work */ })
+        HV_QUADRUPLE_EXPORT_HATCH = mte(14, new MetaTileEntityMultiFluidHatch(tjId('fluid_hatch.export_4x.hv'), GTValues.HV, 4, true) { /* Some magic for JEI to work */ })
 
         // Multiblocks 2000 - 2999
         PRIMITIVE_ALLOY_SMELTER = mte(2000, new PrimitiveAlloySmelter(tjId('primitive_alloy_smelter')))
