@@ -17,15 +17,15 @@ class TJMetaTileEntities {
 
     static final def VIAL_PROCESSOR = new SimpleMachineMetaTileEntity[GTValues.V.length - 1]
 
-    static def HV_QUADRUPLE_IMPORT_HATCH
-    static def HV_QUADRUPLE_EXPORT_HATCH
-
     static def PRIMITIVE_ALLOY_SMELTER
     static def ARMOR_INFUSER
     static def CHAOS_REPLICATOR
     static def DRAGON_EGG_REPLICATOR
     static def LARGE_VIAL_PROCESSOR
     static def LARGE_POWERED_SPAWNER
+
+    static def HV_QUADRUPLE_IMPORT_HATCH
+    static def HV_QUADRUPLE_EXPORT_HATCH
 
     static void register() {
 
@@ -37,9 +37,6 @@ class TJMetaTileEntities {
             .recipeMap(TJRecipeMaps.VIAL_PROCESSING)
             .renderer(Textures.EXTRACTOR_OVERLAY) // TODO: custom overlay?
             .build().register()
-        
-        HV_QUADRUPLE_IMPORT_HATCH = mte(13, new MetaTileEntityMultiFluidHatch(tjId('fluid_hatch.import_4x.hv'), GTValues.HV, 4, false) { /* Some magic for JEI to work */ })
-        HV_QUADRUPLE_EXPORT_HATCH = mte(14, new MetaTileEntityMultiFluidHatch(tjId('fluid_hatch.export_4x.hv'), GTValues.HV, 4, true) { /* Some magic for JEI to work */ })
 
         // Multiblocks 2000 - 2999
         PRIMITIVE_ALLOY_SMELTER = mte(2000, new PrimitiveAlloySmelter(tjId('primitive_alloy_smelter')))
@@ -49,7 +46,11 @@ class TJMetaTileEntities {
         LARGE_VIAL_PROCESSOR = mte(2004, new LargeVialProcessor(tjId('large_vial_processor')))
         LARGE_POWERED_SPAWNER = mte(2005, new LargePoweredSpawner(tjId('large_powered_spawner')))
 
-        // Others 3000 - 3999
+        // Hatches 3000 - 3999
+        HV_QUADRUPLE_IMPORT_HATCH = mte(3000, new MetaTileEntityMultiFluidHatch(tjId('fluid_hatch.import_4x.hv'), GTValues.HV, 4, false) { /* Some magic for JEI to work */ })
+        HV_QUADRUPLE_EXPORT_HATCH = mte(3001, new MetaTileEntityMultiFluidHatch(tjId('fluid_hatch.export_4x.hv'), GTValues.HV, 4, true) { /* Some magic for JEI to work */ })
+
+        // Others 4000 - 4999
 
     }
 
