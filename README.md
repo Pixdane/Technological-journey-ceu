@@ -1,6 +1,7 @@
 ## TODO:
 
-### FTB Quests Migration:
+### FTB Quests Migration
+
 - [x] Beginning
 - [x] Steam Age
 - [x] LV Age
@@ -22,19 +23,23 @@
 - [x] Progression
 - [ ] Periodic Table
 
-### Game Features:
-- [ ] HV Quadruple Input Hatch
+### Game Features
+
+- [x] HV Quadruple Input Hatch
 - [ ] Pure Ores & Rich Ores
-- [ ] Vial Processor
+- [x] Vial Processor
 - [x] Primitive Alloy Smelter
-- [ ] Hot Iron Ingot
+- [x] Hot Iron Ingot
 - [x] Coke Oven recipes
 - [ ] Hot Steam
 
-<div align="center">
+<p align="center">
   <img src="thumb.png" alt="Minecraft Title" style="width: 50%;" />
-  <h1>Technological Journey</h1>
-  <h5>Minecraft tech modpack based around <a href="https://gregtech.overminddl1.com/">Gregtech<a> and its multiple counterparts. <a href="https://discord.gg/sKbWskxXdG/"> TJ Discord<a></h5>    
+</p>
+
+# Technological Journey
+
+#### Minecraft tech modpack based around [Gregtech](https://gregtech.overminddl1.com/) and its multiple counterparts. [TJ Discord](https://discord.gg/sKbWskxXdG/)
   
   <h1 align="center">
     <a href="https://github.com/Technological-Journey/Technological-journey/">
@@ -78,21 +83,20 @@ Welcome to **Technological Journey**, a Minecraft modpack designed for players w
 
 ## Key Features
 
-- [TODO:](#todo)
-  - [FTB Quests Migration:](#ftb-quests-migration)
-  - [Game Features:](#game-features)
-- [Overview](#overview)
-- [Key Features](#key-features)
-- [Gameplay and Progression](#gameplay-and-progression)
-  - [Modified GregTechCE and Gregicality Integration](#modified-gregtechce-and-gregicality-integration)
-  - [Craftable Supra-Causal Circuits](#craftable-supra-causal-circuits)
-  - [Advanced Machines and Multiblocks](#advanced-machines-and-multiblocks)
-  - [Polymers, Chemistry, and New Circuit Types](#polymers-chemistry-and-new-circuit-types)
-  - [EnderIO and AE2 Integration](#enderio-and-ae2-integration)
-  - [Early Game: Steam Age](#early-game-steam-age)
-  - [Mid-Game: Advanced Automation](#mid-game-advanced-automation)
-  - [Endgame: Draconic Evolution](#endgame-draconic-evolution)
-      - [New logo and readme created by simonx](#new-logo-and-readme-created-by-simonx)
+- [Technological Journey](#technological-journey)
+      - [Minecraft tech modpack based around Gregtech and its multiple counterparts. TJ Discord](#minecraft-tech-modpack-based-around-gregtech-and-its-multiple-counterparts-tj-discord)
+  - [Overview](#overview)
+  - [Key Features](#key-features)
+  - [Gameplay and Progression](#gameplay-and-progression)
+    - [Modified GregTechCE and Gregicality Integration](#modified-gregtechce-and-gregicality-integration)
+    - [Craftable Supra-Causal Circuits](#craftable-supra-causal-circuits)
+    - [Advanced Machines and Multiblocks](#advanced-machines-and-multiblocks)
+    - [Polymers, Chemistry, and New Circuit Types](#polymers-chemistry-and-new-circuit-types)
+    - [EnderIO and AE2 Integration](#enderio-and-ae2-integration)
+    - [Early Game: Steam Age](#early-game-steam-age)
+    - [Mid-Game: Advanced Automation](#mid-game-advanced-automation)
+    - [Endgame: Draconic Evolution](#endgame-draconic-evolution)
+        - [New logo and readme created by simonx](#new-logo-and-readme-created-by-simonx)
 
 ---
 

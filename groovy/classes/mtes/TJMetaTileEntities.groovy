@@ -8,6 +8,7 @@ import gregtech.api.util.GTUtility
 import gregtech.client.renderer.ICubeRenderer
 import gregtech.client.renderer.texture.Textures
 import gregtech.common.metatileentities.MetaTileEntities
+import gregtech.common.metatileentities.multi.multiblockpart.MetaTileEntityMultiFluidHatch
 import groovy.transform.builder.Builder
 
 import static classes.utils.TJUtility.tjId
@@ -15,6 +16,9 @@ import static classes.utils.TJUtility.tjId
 class TJMetaTileEntities {
 
     static final def VIAL_PROCESSOR = new SimpleMachineMetaTileEntity[GTValues.V.length - 1]
+
+    static def HV_QUADRUPLE_IMPORT_HATCH
+    static def HV_QUADRUPLE_EXPORT_HATCH
 
     static def PRIMITIVE_ALLOY_SMELTER
     static def ARMOR_INFUSER
@@ -33,6 +37,9 @@ class TJMetaTileEntities {
             .recipeMap(TJRecipeMaps.VIAL_PROCESSING)
             .renderer(Textures.EXTRACTOR_OVERLAY) // TODO: custom overlay?
             .build().register()
+        
+        HV_QUADRUPLE_IMPORT_HATCH = mte(13, new MetaTileEntityMultiFluidHatch(tjId('fluid_hatch.import_4x.hv'), GTValues.HV, 4, false))
+        HV_QUADRUPLE_EXPORT_HATCH = mte(14, new MetaTileEntityMultiFluidHatch(tjId('fluid_hatch.export_4x.hv'), GTValues.HV, 4, true))
 
         // Multiblocks 2000 - 2999
         PRIMITIVE_ALLOY_SMELTER = mte(2000, new PrimitiveAlloySmelter(tjId('primitive_alloy_smelter')))

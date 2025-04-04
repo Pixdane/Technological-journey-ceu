@@ -21,3 +21,24 @@ crafting.addShaped(item('gregtech:machine_casing', 7), [
 // .duration(40)
 // .EUt(1024)
 // .buildAndRegister();
+
+// HV Quadruple Hatch
+crafting.addShaped(metaitem('tjceu:fluid_hatch.import_4x.hv'), [[ore('craftingToolScrewdriver')], [metaitem('tjceu:fluid_hatch.export_4x.hv')]])
+crafting.addShaped(metaitem('tjceu:fluid_hatch.export_4x.hv'), [[ore('craftingToolScrewdriver')], [metaitem('tjceu:fluid_hatch.import_4x.hv')]])
+
+ASSEMBLER.recipeBuilder()
+        .circuitMeta(0)
+        .inputs([metaitem('pipeLargeFluidTitanium') * 4, metaitem('hull.mv')])
+        .outputs([metaitem('tjceu:fluid_hatch.import_4x.hv')])
+        .duration(100)
+        .EUt(120)
+        .buildAndRegister()
+
+ASSEMBLER.recipeBuilder()
+        .circuitMeta(1)
+        .inputs([metaitem('pipeLargeFluidTitanium') * 4, metaitem('hull.mv')])
+        .outputs([metaitem('tjceu:fluid_hatch.export_4x.hv')])
+        .duration(100)
+        .EUt(120)
+        .buildAndRegister()
+

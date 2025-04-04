@@ -61,6 +61,8 @@ tjceu.machine.vial_processor.uev.name=Epic Vial Processor II
 tjceu.machine.vial_processor.uiv.name=Epic Vial Processor III
 tjceu.machine.vial_processor.uxv.name=Epic Vial Processor IV
 tjceu.machine.vial_processor.opv.name=Legendary Vial Processor
+tjceu.machine.fluid_hatch.import_4x.hv.name=HV Quadruple Input Hatch
+tjceu.machine.fluid_hatch.export_4x.hv.name=HV Quadruple Output Hatch
 
 # Recipemaps
 recipemap.armor_infusion.name=Armor Infusion
