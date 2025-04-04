@@ -1,5 +1,5 @@
 {
-	icon: "gregtech:machine 1 2559",
+	icon: "gcym:mte 1 1",
 	x: 14.5d,
 	y: 3.0d,
 	dependencies: [
@@ -9,28 +9,28 @@
 		uid: "ed9250ad",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 2559"
+			item: "gcym:mte 1 1"
 		}]
 	},
 	{
 		uid: "a3a097b5",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 744"
+			item: "gregtech:mte 1 1214"
 		}]
 	},
 	{
 		uid: "e3f99d0e",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 743"
+			item: "gregtech:mte 1 1199"
 		}]
 	},
 	{
 		uid: "49448d8e",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 740"
+			item: "gregtech:mte 1 1154"
 		}]
 	},
 	{

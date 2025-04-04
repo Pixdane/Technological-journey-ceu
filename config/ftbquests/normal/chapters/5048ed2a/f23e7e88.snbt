@@ -1,5 +1,5 @@
 {
-	icon: "gregtech:machine 1 2530",
+	icon: "gregtech:mte 1 1023",
 	x: -1.5d,
 	y: 5.0d,
 	text: [
@@ -14,14 +14,14 @@
 		uid: "9b1d4c78",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 2530"
+			item: "gregtech:mte 1 1023"
 		}]
 	},
 	{
 		uid: "a015253b",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_multiblock_casing 1 1"
+			item: "gregtech:metal_casing 1 9"
 		}],
 		count: 15L
 	},
@@ -51,7 +51,7 @@
 	rewards: [{
 		uid: "779a0bf0",
 		type: "item",
-		item: "gregtech:meta_item_1 1 12145",
+		item: "gregtech:meta_foil 1 1016",
 		count: 32
 	},
 	{

@@ -18,29 +18,28 @@
 		uid: "70b4fa6e",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 1002"
+			item: "tjceu:mte 1 2000"
 		}]
 	},
 	{
 		uid: "36ddf28d",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 700"
-		}],
-		count: 2L
+			item: "gregtech:mte 1 1652"
+		}]
 	},
 	{
 		uid: "71a5eeb4",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 702"
+			item: "gregtech:mte 1 1653"
 		}]
 	},
 	{
 		uid: "d050af60",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 701"
+			item: "gregtech:mte 1 1651"
 		}]
 	},
 	{
@@ -49,7 +48,7 @@
 		items: [{
 			item: "gregtech:metal_casing 1 1"
 		}],
-		count: 12L
+		count: 13L
 	},
 	{
 		uid: "2b799f63",

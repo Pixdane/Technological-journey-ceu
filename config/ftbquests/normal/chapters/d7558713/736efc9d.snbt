@@ -72,7 +72,7 @@
 		uid: "d9ca77ca",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 744"
+			item: "gregtech:mte 1 1214"
 		}]
 	},
 	{

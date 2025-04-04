@@ -9,7 +9,7 @@
 		uid: "745c7b3e",
 		type: "item",
 		items: [{
-			item: "gtadditions:ga_multiblock_casing 1 1"
+			item: "gregtech:metal_casing 1 9"
 		}],
 		count: 15L
 	}]
