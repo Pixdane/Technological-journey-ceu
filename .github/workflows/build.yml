@@ -42,7 +42,7 @@ jobs:
       - name: Unzip output.zip
         run: |
           unzip build/output.zip -d build/output
-          mv output.zip Technological-Journey-CEu-$COMMIT_SHORT_SHA.zip
+          mv build/output.zip build/Technological-Journey-CEu-$COMMIT_SHORT_SHA.zip
       
       - name: Download Cleanroom
         uses: robinraju/release-downloader@v1.12
