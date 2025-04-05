@@ -58,7 +58,7 @@ jobs:
         run: |
           cd build/Cleanroom
           mv libraries patches mmc-pack.json -t ../output
-          cd ../iutput
+          cd ../output
           zip -r ../Technological-Journey-CEu-Cleanroom-$COMMIT_SHORT_SHA.zip ./*
 
       - name: Publish to GitHub
