@@ -18,7 +18,7 @@ class UnknownCompositionMaterials {
                 .liquid().plasma()
                 .iconSet(DULL)
                 .color(0x3b2a15)
-                .toolStats(new ToolProperty(13.0F, 6, 512, 10))
+                .toolStats(13.0F, 6, 512, 10)
                 .flags(GENERATE_PLATE, GENERATE_DENSE, GENERATE_ROD, GENERATE_FRAME, GENERATE_BOLT_SCREW)
                 .build()
 
@@ -48,7 +48,7 @@ class UnknownCompositionMaterials {
                 .ingot(4)
                 .iconSet(SHINY)
                 .color(0x050A30)
-                .blastTemp(7000)
+                .blast(b -> b.temp(7000))
                 .flags(GENERATE_PLATE, GENERATE_DENSE)
                 .build()
 
