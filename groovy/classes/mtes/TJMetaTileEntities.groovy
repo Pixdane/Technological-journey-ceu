@@ -26,6 +26,8 @@ class TJMetaTileEntities {
 
     static def HV_QUADRUPLE_IMPORT_HATCH
     static def HV_QUADRUPLE_EXPORT_HATCH
+    static def HV_NONUPLE_IMPORT_HATCH
+    static def HV_NONUPLE_EXPORT_HATCH
 
     static void register() {
 
@@ -49,6 +51,12 @@ class TJMetaTileEntities {
         // Hatches 3000 - 3999
         HV_QUADRUPLE_IMPORT_HATCH = mte(3000, new MetaTileEntityMultiFluidHatch(tjId('fluid_hatch.import_4x.hv'), GTValues.HV, 4, false) { /* Some magic for JEI to work */ })
         HV_QUADRUPLE_EXPORT_HATCH = mte(3001, new MetaTileEntityMultiFluidHatch(tjId('fluid_hatch.export_4x.hv'), GTValues.HV, 4, true) { /* Some magic for JEI to work */ })
+        HV_NONUPLE_IMPORT_HATCH = mte(3002, new MetaTileEntityMultiFluidHatch(tjId('fluid_hatch.import_9x.hv'), GTValues.HV, 9, false) {
+            /* Some magic for JEI to work */
+        })
+        HV_NONUPLE_EXPORT_HATCH = mte(3003, new MetaTileEntityMultiFluidHatch(tjId('fluid_hatch.export_9x.hv'), GTValues.HV, 9, true) {
+            /* Some magic for JEI to work */
+        })
 
         // Others 4000 - 4999
 
@@ -72,6 +80,7 @@ class TJMetaTileEntities {
             MetaTileEntities.registerMetaTileEntities(mtes, startId, name, { tier, voltageName ->
                 new SimpleMachineMetaTileEntity(tjId("${name}.${voltageName}"), recipeMap, renderer, tier, directional, GTUtility.defaultTankSizeFunction) }
             )
+
         }
 
     }
