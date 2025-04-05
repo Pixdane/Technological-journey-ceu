@@ -27,7 +27,13 @@ jobs:
         run: |
           wget -O packwiz.zip https://nightly.link/packwiz/packwiz/workflows/go/main/Linux%2064-bit%20x86.zip
           unzip packwiz.zip
-      
+
+      - name: Set short git commit SHA
+        id: vars
+        run: |
+          calculatedSha=$(git rev-parse --short ${{ github.sha }})
+          echo "COMMIT_SHORT_SHA=$calculatedSha" >> $GITHUB_ENV
+    
       - name: Build Curseforge modpack
         run: |
           mkdir build
@@ -36,19 +42,7 @@ jobs:
       - name: Unzip output.zip
         run: |
           unzip build/output.zip -d build/output
-
-      - name: Set short git commit SHA
-        id: vars
-        run: |
-          calculatedSha=$(git rev-parse --short ${{ github.sha }})
-          echo "COMMIT_SHORT_SHA=$calculatedSha" >> $GITHUB_ENV
-
-      - name: Upload modpack
-        uses: actions/upload-artifact@v4.3.3
-        with:
-          name: Technological-Journey-CEu-${{ env.COMMIT_SHORT_SHA }}
-          # A file, directory or wildcard pattern that describes what to upload
-          path: build/output
+          mv output.zip Technological-Journey-CEu-$COMMIT_SHORT_SHA.zip
       
       - name: Download Cleanroom
         uses: robinraju/release-downloader@v1.12
@@ -64,10 +58,15 @@ jobs:
         run: |
           cd build/Cleanroom
           mv libraries patches mmc-pack.json -t ../output
+          cd ../iutput
+          zip -r ../Technological-Journey-CEu-Cleanroom-$COMMIT_SHORT_SHA.zip ./*
 
-      - name: Upload Cleanroom version
-        uses: actions/upload-artifact@v4.3.3
+      - name: Publish to GitHub
+        uses: softprops/action-gh-release@v1
         with:
-          name: Technological-Journey-CEu-Cleanroom-${{ env.COMMIT_SHORT_SHA }}
-          # A file, directory or wildcard pattern that describes what to upload
-          path: build/output
+          files: "build/*.zip"
+          fail_on_unmatched_files: true
+          prerelease: true
+          tag_name: "testing"
+          name: "Beta Release Testing ${{ env.COMMIT_SHORT_SHA }}"
+          body: "Testing Pre-release for TJ-CEu package"
