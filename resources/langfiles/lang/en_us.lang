@@ -13,3 +13,6 @@ tile.defiled_ground.name=Cursed Earth
 
 ## Beneath
 tile.teleporterbeneath.name=Deep Dark Portal
+
+## GCyL:CEu
+gcyl.material.chaos=Refined Chaos

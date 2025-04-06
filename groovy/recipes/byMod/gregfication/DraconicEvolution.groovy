@@ -1,5 +1,8 @@
 import static classes.utils.TJUtility.*
 
+ASSEMBLER = recipemap('assembler')
+ASSLINE = recipemap('assembly_line')
+
 // Recipe removals
 furnace.removeByOutput(item('draconicevolution:draconium_ingot'))
 crafting.removeByOutput(item('draconicevolution:nugget'))
@@ -8,45 +11,75 @@ crafting.removeByOutput(item('draconicevolution:draconium_ingot'))
 crafting.removeByOutput(item('draconicevolution:nugget', 1))
 crafting.removeByOutput(item('draconicevolution:draconic_ingot'))
 crafting.removeByOutput(item('draconicevolution:draconic_block'))
-crafting.removeByOutput(item('draconicevolution:info_tablet:0'))
-// crafting.addShaped(item('draconicevolution:info_tablet:0'), [[ore('stoneSmooth'), ore('stoneSmooth'), ore('stoneSmooth')],[ore('stoneSmooth'), ore('dustRegularDraconium'), ore('stoneSmooth')], [ore('stoneSmooth'), ore('stoneSmooth'), ore('stoneSmooth')]]);
-// crafting.addShapeless(item('gregtech:meta_item_1:9519'), [ore('nuggetDraconiumAwakened')]);
-// crafting.addShapeless(item('gregtech:meta_item_1:10519'), [ore('ingotDraconiumAwakened')]);
-// crafting.addShapeless(item('gregtech:meta_item_1:9518'), [ore('nuggetDraconium')]);
-// crafting.addShapeless(item('gregtech:meta_item_1:10518'), [ore('ingotDraconium')]);
-// crafting.addShapeless(ore('blockDraconium'), [ore('blockDraconium')]);
-// crafting.addShapeless(ore('blockDraconiumAwakened'), [ore('blockAwakenDraconium')]);
-// crafting.addShapeless(ore('blockDraconium'), [ore('blockDraconium')]);
-// 
-//     assembly_line.recipeBuilder()
-//     .inputs(item('gregtech:frame_tritanium') * 10,ore('plateDraconium') * 10,item('gregtech:meta_item_1:12524') * 10,ore('plateMendelevium') * 10,item('gregtech:meta_item_2:32436') * 2,item('gregtech:meta_item_1:32676'), item('gregtech:meta_item_1:32686'), item('gregtech:meta_item_1:32696'), ore('circuitInfinite'))
-//     .outputs(item('draconicevolution:draconic_core:0') * 2)
-//     .duration(1200)
-//     .EUt(524288)
-//     .buildAndRegister();
-// 
-//     assembly_line.recipeBuilder()
-//     .inputs(item('gregtech:frame_hdcs')* 10,ore('plateTantalumHafniumSeaborgiumCarbide') * 10,ore('plateDraconium') * 10,ore('plateProtoAdamantium') * 10,ore('plateTitanSteel') * 10,item('gregtech:meta_item_1:32677'),item('gregtech:meta_item_1:32687'),item('gregtech:meta_item_1:32697'),ore('circuitUev'),item('draconicevolution:draconic_core:0'))
-//     .outputs(item('draconicevolution:wyvern_core:0') * 2)
-//     .duration(1200)
-//     .EUt(2097152)
-//     .buildAndRegister();
-// 
-//     assembly_line.recipeBuilder()
-//     .inputs(item('gregtech:frame_trinium_titanium') * 10,item('gtadditions:ga_dust:385') * 10,ore('plateAwakenDraconium') * 10,ore('plateSuperheavyLAlloy') * 10,ore('plateSuperheavyHAlloy') * 10,item('gregtech:meta_item_1:212'),item('gregtech:meta_item_1:227'), item('gregtech:meta_item_1:242'), ore('circuitUiv'),item('draconicevolution:wyvern_core:0'))
-//     .outputs(item('draconicevolution:awakened_core:0')* 2)
-//     .duration(600)
-//     .EUt(8388608)
-//     .buildAndRegister();
-// 
-//     assembly_line.recipeBuilder()
-//     .inputs(item('gregtech:frame_quantum') * 10,ore('plateCinobite') * 10,ore('plateAwakenDraconium') * 10,item('gregtech:meta_item_1:12520') * 10,item('gtadditions:ga_meta_item:32381'), item('gtadditions:ga_meta_item:32393'), item('gtadditions:ga_meta_item:32375'), ore('circuitUxv'), item('contenttweaker:refinedchaoscrystal'),item('draconicevolution:awakened_core:0'))
-//     .outputs(item('draconicevolution:chaotic_core:0') * 2)
-//     .duration(600)
-//     .EUt(33554432)
-//     .buildAndRegister();
-// 
-// 
+
+ASSLINE.recipeBuilder()
+    .inputs(ore('frameNeutronium'))
+    .inputs(ore('plateDraconium') * 10)
+    .inputs(ore('plateStarmetalAlloy') * 10)
+    .inputs(ore('plateMendelevium') * 10)
+    .inputs(metaitem('neutron_reflector') * 2)
+    .inputs(metaitem('field.generator.zpm'))
+    .inputs(metaitem('emitter.zpm'))
+    .inputs(metaitem('sensor.zpm'))
+    .inputs(ore('circuitUhv'))
+    .fluidInputs(fluid('soldering_alloy') * 50)
+    .outputs(item('draconicevolution:draconic_core:0') * 2)
+    .duration(1200)
+    .EUt(524288)
+    .buildAndRegister()
+
+ASSLINE.recipeBuilder()
+    .inputs(ore('frameGtHdcs') * 10)
+    .inputs(ore('plateTantalumHafniumSeaborgiumCarbide') * 10)
+    .inputs(ore('plateDraconium') * 10)
+    .inputs(ore('plateProtoAdamantium') * 10)
+    .inputs(ore('plateTitanSteel') * 10)
+    .inputs(metaitem('field.generator.uv'))
+    .inputs(metaitem('emitter.uv'))
+    .inputs(metaitem('sensor.uv'))
+    .inputs(ore('circuitUev'))
+    .inputs(item('draconicevolution:draconic_core:0'))
+    .fluidInputs(fluid('soldering_alloy') * 50)
+    .outputs(item('draconicevolution:wyvern_core:0') * 2)
+    .duration(1200)
+    .EUt(2097152)
+    .buildAndRegister()
+
+ASSLINE.recipeBuilder()
+    .inputs(ore('frameGtTriniumTitanium') * 10)
+    .inputs(ore('dustLegendarium') * 10)
+    .inputs(ore('plateAwakenDraconium') * 10)
+    .inputs(ore('plateSuperheavyLAlloy') * 10)
+    .inputs(ore('plateSuperheavyHAlloy') * 10)
+    .inputs(metaitem('field.generator.uiv'))
+    .inputs(metaitem('emitter.uiv'))
+    .inputs(metaitem('sensor.uiv'))
+    .inputs(ore('circuitUiv'))
+    .inputs(item('draconicevolution:wyvern_core:0'))
+    .fluidInputs(fluid('soldering_alloy') * 50)
+    .outputs(item('draconicevolution:awakened_core:0') * 2)
+    .duration(600)
+    .EUt(8388608)
+    .buildAndRegister()
+
+ASSLINE.recipeBuilder()
+    .inputs(ore('frameGtQuantum') * 10)
+    .inputs(ore('plateCinobite') * 10)
+    .inputs(ore('plateAwakenDraconium') * 10)
+    .inputs(ore('plateChaos') * 10)
+    .inputs(metaitem('field.generator.uxv'))
+    .inputs(metaitem('emitter.uxv'))
+    .inputs(metaitem('sensor.uxv'))
+    .inputs(ore('circuitUxv'))
+    .inputs(metaitem('tjceu:crystal.refined_chaos'))
+    .inputs(item('draconicevolution:awakened_core:0'))
+    .fluidInputs(fluid('soldering_alloy') * 50)
+    .outputs(item('draconicevolution:chaotic_core:0') * 2)
+    .duration(600)
+    .EUt(33554432)
+    .buildAndRegister()
+
+
 //     chemical_bath.recipeBuilder()
 //     .inputs(item('draconicevolution:chaos_shard:0'))
 //     .fluidInputs(fluid('rutherfordium') * 1000)
@@ -108,7 +141,7 @@ crafting.removeByOutput(item('draconicevolution:info_tablet:0'))
 //     .EUt(8388608)
 //     .buildAndRegister();
 // //armor
-//     assembly_line.recipeBuilder()
+//     ASSLINE.recipeBuilder()
 //     .inputs(item('gregtech:machine:2505'),item('gregtech:meta_item_1:32655') * 2,ore('plateRutherfordium') * 10,ore('cableGtSingleNaquadahAlloy') * 10,ore('screwStaballoy') * 18,ore('plateDraconium') * 5)
 //     .fluidInputs(fluid('dubnium') * 1296,fluid('californium')* 2592)
 //     .outputs(item('gregtech:machine:1004'))
@@ -116,7 +149,7 @@ crafting.removeByOutput(item('draconicevolution:info_tablet:0'))
 //     .EUt(7864320)
 //     .buildAndRegister();
 // //eggBoi
-//    assembly_line.recipeBuilder()
+//    ASSLINE.recipeBuilder()
 //     .inputs(item('gregtech:mte:994'),ore('plateTantalumHafniumSeaborgiumCarbide') * 10,ore('plateDraconium') * 10, ore('plateAwakenDraconium') * 10,item('gregtech:ga_cable:5855') * 10,ore('circuitInfinite'),item('gcyl:gcyl_meta_item:465'),item('gregtech:meta_item_1:240'))
 //     .fluidInputs(fluid('incoloy813') * 1296,fluid('einsteinium') * 2592)
 //     .outputs(item('gregtech:machine:1006'))
@@ -124,7 +157,7 @@ crafting.removeByOutput(item('draconicevolution:info_tablet:0'))
 //     .EUt(7864320)
 //     .buildAndRegister();
 //     //chaos
-//     assembly_line.recipeBuilder()
+//     ASSLINE.recipeBuilder()
 //     .inputs(item('gregtech:mte:995'),ore('plateLafium') * 10,ore('plateHastelloyk243') * 10,ore('plateHastelloyx78') * 10,ore('plateHdcs') * 5,ore('plateAwakenDraconium') * 10,item('gregtech:meta_item_1:196'),ore('cableGtSinglePikyonium') * 10,ore('circuitUev'),item('draconicevolution:awakened_core:0') * 2)
 //     .fluidInputs(fluid('titan_steel') * 1296,fluid('mendelevium') * 2592,fluid('cinobite') * 1296)
 //     .outputs(item('gregtech:machine:1005'))
@@ -132,7 +165,7 @@ crafting.removeByOutput(item('draconicevolution:info_tablet:0'))
 //     .EUt(2097152)
 //     .buildAndRegister();
 // 
-//     assembly_line.recipeBuilder()
+//     ASSLINE.recipeBuilder()
 //     .inputs(item('draconicevolution:wyvern_energy_core:0') * 4,item('draconicevolution:wyvern_core:0'),ore('gemDiamond'),item('draconicevolution:energy_crystal:1') *4)
 //     .fluidInputs(fluid('mendelevium') * 144)
 //     .outputs(item('draconicevolution:energy_crystal:2') * 4)
@@ -140,7 +173,7 @@ crafting.removeByOutput(item('draconicevolution:info_tablet:0'))
 //     .EUt(2097152)
 //     .buildAndRegister();
 // 
-//     assembly_line.recipeBuilder()
+//     ASSLINE.recipeBuilder()
 //     .inputs(ore('enderpearl,gemEnderPearl,materialEnderPearl') * 3,ore('gemEnderEye,pearlEnderEye') * 7,item('draconicevolution:dislocator:0'),item('gregtech:meta_item_1:32724'))
 //     .fluidInputs(fluid('draconium') * 576)
 //     .outputs(item('draconicevolution:dislocator_advanced:0'))
@@ -148,7 +181,7 @@ crafting.removeByOutput(item('draconicevolution:info_tablet:0'))
 //     .EUt(32768)
 //     .buildAndRegister();
 // 
-//     assembly_line.recipeBuilder()
+//     ASSLINE.recipeBuilder()
 //     .inputs(ore('gemEnderEye,pearlEnderEye') * 7,item('draconicevolution:wyvern_core:0'),item('draconicevolution:draconic_core:0') * 2,item('draconicevolution:dislocator:0'),item('draconicadditions:chaotic_energy_core:0'),ore('itemSkull'))
 //     .fluidInputs(fluid('blaze') * 2304)
 //     .outputs(item('draconicevolution:ender_energy_manipulator:0'))
@@ -156,7 +189,7 @@ crafting.removeByOutput(item('draconicevolution:info_tablet:0'))
 //     .EUt(2097152)
 //     .buildAndRegister();
 // 
-//     assembly_line.recipeBuilder()
+//     ASSLINE.recipeBuilder()
 //     .inputs(item('draconicevolution:magnet:0'),item('draconicevolution:dislocator_advanced:0'),ore('plateAwakenDraconium') * 4,ore('dustNeodymiumMagnetic') *2)
 //     .outputs(item('draconicevolution:magnet:1'))
 //     .duration(200)
@@ -204,7 +237,7 @@ crafting.removeByOutput(item('draconicevolution:info_tablet:0'))
 //     .duration(50)
 //     .buildAndRegister();
 // 
-//     assembly_line.recipeBuilder()
+//     ASSLINE.recipeBuilder()
 //     .inputs(item('gtadditions:ga_meta_item:1518') *10,item('gregtech:meta_item_1:12524') * 10,item('gregtech:meta_item_2:32436'),item('gregtech:meta_item_1:32687'))
 //     .outputs(item('draconicevolution:crafting_injector:3'))
 //     .duration(200)
@@ -214,7 +247,7 @@ crafting.removeByOutput(item('draconicevolution:info_tablet:0'))
 // crafting.removeByOutput(item('draconicevolution:wyvern_energy_core:0'));
 // 
 // //energy cores
-//     assembly_line.recipeBuilder()
+//     ASSLINE.recipeBuilder()
 //     .inputs(item('draconicevolution:wyvern_core:0') * 4,ore('plateDraconium') * 10,item('gregtech:cable:5518') * 10,item('gregtech:meta_item_1:32725'))
 //     .fluidInputs(fluid('redstone') * 1440)
 //     .outputs(item('draconicevolution:wyvern_energy_core:0'))
@@ -222,7 +255,7 @@ crafting.removeByOutput(item('draconicevolution:info_tablet:0'))
 //     .EUt(31457280)
 //     .buildAndRegister();
 // 
-//     assembly_line.recipeBuilder()
+//     ASSLINE.recipeBuilder()
 //     .inputs(item('draconicevolution:awakened_core:0') * 4,ore('plateAwakenDraconium') * 10,item('gregtech:cable:5519') * 10,item('gregtech:meta_item_1:283'))
 //     .fluidInputs(fluid('redstone') * 1440)
 //     .outputs(item('draconicevolution:draconic_energy_core:0'))
@@ -230,7 +263,7 @@ crafting.removeByOutput(item('draconicevolution:info_tablet:0'))
 //     .EUt(31457280)
 //     .buildAndRegister();
 // 
-//     assembly_line.recipeBuilder()
+//     ASSLINE.recipeBuilder()
 //     .inputs(item('draconicevolution:chaotic_core:0')* 4,item('gregtech:meta_item_1:12520') * 10,item('gregtech:cable:5520') * 10,item('gcyl:gcyl_meta_item:343'))
 //     .fluidInputs(fluid('redstone') * 1440)
 //     .outputs(item('draconicadditions:chaotic_energy_core:0'))
@@ -249,7 +282,7 @@ crafting.removeByOutput(item('draconicevolution:info_tablet:0'))
 // 
 // 
 // 
-//     assembly_line.recipeBuilder()
+//     ASSLINE.recipeBuilder()
 //     .inputs(ore('plateDenseDraconium') * 8, ore('plateEnrichedNaquadahAlloy') * 8, item('appliedenergistics2:dense_energy_cell:0') * 64,ore('wireGtSingleUvSuperconductor') * 32, ore('circuitSuperconductor') * 2)
 //     .fluidInputs(fluid('tritanium') * 720,fluid('soldering_alloy') * 1296)
 //     .outputs(item('appliedenergistics2:creative_energy_cell:0'))
@@ -267,7 +300,7 @@ crafting.removeByOutput(item('draconicevolution:info_tablet:0'))
 //     crafting.removeByOutput(item('thermalfoundation:upgrade:35'));
 //     crafting.removeByOutput(item('thermalfoundation:upgrade:256'));
 // 
-//     assembly_line.recipeBuilder()
+//     ASSLINE.recipeBuilder()
 //     .inputs(item('draconicevolution:chaotic_core:0') * 4,item('draconicadditions:chaotic_energy_core:0') * 4,ore('plateQuantum') * 64,ore('plateZylon') * 64,item('thermalfoundation:upgrade:0') ,item('thermalfoundation:upgrade:1') ,item('draconicevolution:draconium_capacitor:1'), item('gtadditions:ga_cell_casing:11'),  item('gcyl:gcyl_meta_item:377') * 2)
 //     .fluidInputs(fluid('soldering_alloy') *1440,fluid('chaosalloy') * 1440)
 //     .outputs(item('draconicevolution:draconium_capacitor:2'))
@@ -275,7 +308,7 @@ crafting.removeByOutput(item('draconicevolution:info_tablet:0'))
 //     .EUt(2013265920)
 //     .buildAndRegister();
 // 
-//     assembly_line.recipeBuilder()
+//     ASSLINE.recipeBuilder()
 //     .inputs(item('nae2:material:4') * 2,ore('plateSuperheavyLAlloy')* 64,ore('plateSuperheavyHAlloy') * 64,item('thermalfoundation:upgrade:2'),item('thermalfoundation:upgrade:3')  ,item('draconicevolution:chaotic_core:0') * 2, item('gcyl:gcyl_meta_item:395') * 2)
 //     .fluidInputs(fluid('soldering_alloy') *1440,fluid('chaosalloy') * 1440,fluid('heavy_quark_degenerate_matter') * 1440)
 //     .outputs(item('storagedrawers:upgrade_creative:0'))
@@ -283,7 +316,7 @@ crafting.removeByOutput(item('draconicevolution:info_tablet:0'))
 //     .EUt(2013265920)
 //     .buildAndRegister();
 // //hardened upgrade
-//     assembly_line.recipeBuilder()
+//     ASSLINE.recipeBuilder()
 //     .inputs(item('draconicevolution:draconic_core:0') * 10,item('gregtech:meta_item_1:12524') * 64,ore('wireGtSingleUvSuperconductor') * 64,ore('plateTitanSteel') * 64)
 //     .fluidInputs(fluid('soldering_alloy') *1440,fluid('draconium') * 1440)
 //     .outputs(item('thermalfoundation:upgrade:0'))
@@ -291,7 +324,7 @@ crafting.removeByOutput(item('draconicevolution:info_tablet:0'))
 //     .EUt(2013265920)
 //     .buildAndRegister();
 // 
-//     assembly_line.recipeBuilder()
+//     ASSLINE.recipeBuilder()
 //     .inputs(item('draconicevolution:wyvern_core:0') * 10,ore('plateProtoAdamantium') * 64,ore('wireGtSingleUhvSuperconductor') * 64,ore('platePikyonium') * 64)
 //     .fluidInputs(fluid('soldering_alloy') *1440,fluid('draconium') * 1440,fluid('naquadah_alloy') * 1440)
 //     .outputs(item('thermalfoundation:upgrade:1'))
@@ -299,7 +332,7 @@ crafting.removeByOutput(item('draconicevolution:info_tablet:0'))
 //     .EUt(2013265920)
 //     .buildAndRegister();
 // 
-//     assembly_line.recipeBuilder()
+//     ASSLINE.recipeBuilder()
 //     .inputs(item('draconicevolution:awakened_core:0') * 10,ore('plateSeaborgium') * 64,ore('wireGtSingleUevSuperconductor')* 64,ore('plateBlackTitanium') * 64)
 //     .fluidInputs(fluid('soldering_alloy') *1440,fluid('awaken_draconium') * 1440,fluid('enriched_naquadah_alloy') * 1440)
 //     .outputs(item('thermalfoundation:upgrade:2'))
@@ -307,7 +340,7 @@ crafting.removeByOutput(item('draconicevolution:info_tablet:0'))
 //     .EUt(2013265920)
 //     .buildAndRegister();
 // 
-//     assembly_line.recipeBuilder()
+//     ASSLINE.recipeBuilder()
 //     .inputs(item('draconicevolution:chaotic_core:0') * 10,ore('plateBohrium') * 64,ore('wireGtSingleUivSuperconductor')* 64,ore('plateHdcs') * 64)
 //     .fluidInputs(fluid('soldering_alloy') *1440,fluid('chaos') * 1440,fluid('naquadriatic_taranium') * 1440)
 //     .outputs(item('thermalfoundation:upgrade:3'))
@@ -316,7 +349,7 @@ crafting.removeByOutput(item('draconicevolution:info_tablet:0'))
 //     .buildAndRegister();
 //     //creative conversion kit
 // 
-//     assembly_line.recipeBuilder()
+//     ASSLINE.recipeBuilder()
 //     .inputs(item('thermalfoundation:upgrade:0') * 1,item('thermalfoundation:upgrade:1')* 1,item('thermalfoundation:upgrade:2')* 1,item('thermalfoundation:upgrade:3')* 1)
 //     .fluidInputs(fluid('naquadriatic_taranium') * 1440, fluid('cosmic_neutronium') * 1440,fluid('enriched_naquadah_alloy') * 1440,fluid('naquadah_alloy') * 1440)
 //     .outputs(item('thermalfoundation:upgrade:256'))
@@ -324,7 +357,7 @@ crafting.removeByOutput(item('draconicevolution:info_tablet:0'))
 //     .EUt(2013265920)
 //     .buildAndRegister();
 // 
-//     assembly_line.recipeBuilder()
+//     ASSLINE.recipeBuilder()
 //     .inputs(item('thermalfoundation:upgrade:256') * 1,item('storagedrawers:upgrade_creative:0') * 1, item('draconicevolution:draconium_capacitor:2'), item('contenttweaker:refinedchaoscrystal') * 64, item('contenttweaker:refinedchaoscrystal') * 64,item('contenttweaker:certificate_of_being_a_noob'), ore('circuitMax'),item('gcyl:gcyl_meta_item:383') * 4,item('contenttweaker:eternitycrystal') * 4)
 //     .inputs(item('draconicadditions:chaos_stabilizer_core:0'), item('gregtech:meta_item_2:32715'), item('gtadditions:ga_cell_casing:11') * 64,item('gtadditions:ga_cell_casing:11') * 64,item('gtadditions:ga_cell_casing:11') * 14, item('gtadditions:ga_multiblock_casing:12'), item('nae2:material:4') * 64)
 //     .fluidInputs(fluid('chaosalloy') * 11520)
