@@ -95,8 +95,7 @@ ASSEMBLER.recipeBuilder()
         .EUt(120)
         .buildAndRegister()
 
-// item('actuallyadditions:block_misc:9').displayName = 'Stainless Steel Casing' //TODO: move to lang override
-crafting.addShaped(tjceu('iron_casing'), item('actuallyadditions:block_misc:9'), [[null, ore('plateStainlessSteel'), null], [ore('plateStainlessSteel'), item('actuallyadditions:item_misc:5'), ore('plateStainlessSteel')], [null, ore('plateStainlessSteel'), null]])
+crafting.addShaped(tjceu('stainless_steel_casing'), item('actuallyadditions:block_misc:9'), [[null, ore('plateStainlessSteel'), null], [ore('plateStainlessSteel'), item('actuallyadditions:item_misc:5'), ore('plateStainlessSteel')], [null, ore('plateStainlessSteel'), null]])
 
 // TODO: custom lense for AA recipes?
 

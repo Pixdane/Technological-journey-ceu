@@ -133,12 +133,6 @@ SOLIDIFIER.recipeBuilder()
         .EUt(8)
         .buildAndRegister()
 
-//TODO: move to lang override
-// item('enderio:item_power_conduit').displayName = "Stainless Steel Energy Conduit";
-// item('enderio:item_power_conduit:1').displayName = "Titanium Energy Conduit";
-// item('enderio:item_endergy_conduit:11').displayName = "Superconducting Energy Conduit";
-// item('enderio:item_power_conduit:2').displayName = "Tungstensteel Energy Conduit";
-
 crafting.removeByOutput(item('enderio:block_soul_binder'))
 crafting.addShaped(tjceu('block_soul_binder'), item('enderio:block_soul_binder'), [
         [item('enderio:item_alloy_ingot:7'), item('minecraft:skull:2'), item('enderio:item_alloy_ingot:7')],

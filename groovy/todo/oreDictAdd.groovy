@@ -473,7 +473,7 @@
 // h(item('variegated:silvered_apple:1'));
 // h(item('appliedenergistics2:part:260'));
 // h(item('extracells:part.base:12'));
-// item('variegated:defiled_ground:0').displayName = "Cursed Earth";
+
 // 
 // 
 // /*

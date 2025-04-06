@@ -75,3 +75,16 @@ recipemap.dragon_egg_replication.name=Dragon Egg Replication
 recipemap.vial_processing.name=Vial Processing
 recipemap.advanced_vial_processing.name=Advanced Vial Processing
 recipemap.soul_capture.name=Soul Capture
+
+# Name Overrides
+## Actually Additions
+tile.actuallyadditions.block_misc_iron_casing.name=Stainless Steel Casing
+
+## EnderIO
+enderio.item_power_conduit.name=Stainless Steel Energy Conduit
+enderio.item_power_conduit_enhanced.name=Titanium Energy Conduit
+enderio.item_power_conduit_ender.name=Tungstensteel Energy Conduit
+enderio.item_endergy_conduit_stellar.name=Superconducting Energy Conduit
+
+## Variegated
+tile.defiled_ground.name=Cursed Earth

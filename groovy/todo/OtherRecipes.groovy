@@ -1376,11 +1376,6 @@
 // .buildAndRegister();
 // 
 // 
-// item('gregtech:machine:790').displayName = "Input Bus (UHV)";
-// item('gregtech:machine:791').displayName = "Output Bus (UHV)";
-// item('gregtech:machine:792').displayName = "Input Hatch (UHV)";
-// item('gregtech:machine:793').displayName = "Output Hatch (UHV)";
-// item('gregtech:machine:819').displayName = "Rotor Holder (UHV)";
 // 
 // recipes.remove(item('gregtech:machine:793'));
 // recipes.remove(item('gregtech:machine:792'));
