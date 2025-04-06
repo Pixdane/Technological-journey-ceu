@@ -57,6 +57,8 @@ class MaterialModifications {
         OrePrefix.ingot.setIgnored(material('tjceu:soularium'))
         OrePrefix.block.setIgnored(material('tjceu:soularium'))
 
+        OrePrefix.gem.setIgnored(material('tjceu:aquamarine'))
+
         OrePrefix.dust.setIgnored(material('gcyl:draconium'))
         OrePrefix.nugget.setIgnored(material('gcyl:draconium'))
         OrePrefix.ingot.setIgnored(material('gcyl:draconium'))
@@ -65,8 +67,6 @@ class MaterialModifications {
         OrePrefix.nugget.setIgnored(material('gcyl:awaken_draconium'))
         OrePrefix.ingot.setIgnored(material('gcyl:awaken_draconium'))
         OrePrefix.block.setIgnored(material('gcyl:awaken_draconium'))
-
-        OrePrefix.gem.setIgnored(material('tjceu:aquamarine'))
 
     }
 
