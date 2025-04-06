@@ -8,9 +8,9 @@
 // .EUt(524288)
 // .buildAndRegister();
 // 
-// recipes.remove(item('fluxnetworks:fluxcore:0'));
-// recipes.remove(item('fluxnetworks:fluxpoint:0'));
-// recipes.remove(item('fluxnetworks:fluxplug:0'));
+// crafting.removeByOutput(item('fluxnetworks:fluxcore:0'));
+// crafting.removeByOutput(item('fluxnetworks:fluxpoint:0'));
+// crafting.removeByOutput(item('fluxnetworks:fluxplug:0'));
 // recipes.addShapeless(item('fluxnetworks:fluxplug:0'),[item('fluxnetworks:fluxpoint:0')]);
 // recipes.addShapeless(item('fluxnetworks:fluxpoint:0'),[item('fluxnetworks:fluxplug:0')]);
 // assembler.recipeBuilder()

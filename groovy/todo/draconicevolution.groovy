@@ -9,14 +9,14 @@
 // import scripts.commonNames;
 // import mods.gtadditions.recipe.Utils;
 // 
-// furnace.remove(ore('ingotDraconium'));
-// recipes.remove(ore('blockDraconium'));
-// recipes.remove(ore('ingotDraconium'));
-// recipes.remove(ore('nuggetDraconium'));
-// recipes.remove(ore('blockDraconiumAwakened'));
-// recipes.remove(ore('ingotDraconiumAwakened'));
-// recipes.remove(ore('nuggetDraconiumAwakened'));
-// recipes.remove(item('draconicevolution:info_tablet:0'));
+// furnace.removeByOutput(ore('ingotDraconium'));
+// crafting.removeByOutput(ore('blockDraconium'));
+// crafting.removeByOutput(ore('ingotDraconium'));
+// crafting.removeByOutput(ore('nuggetDraconium'));
+// crafting.removeByOutput(ore('blockDraconiumAwakened'));
+// crafting.removeByOutput(ore('ingotDraconiumAwakened'));
+// crafting.removeByOutput(ore('nuggetDraconiumAwakened'));
+// crafting.removeByOutput(item('draconicevolution:info_tablet:0'));
 // recipes.addShaped(item('draconicevolution:info_tablet:0'), [[ore('stoneSmooth'), ore('stoneSmooth'), ore('stoneSmooth')],[ore('stoneSmooth'), ore('dustRegularDraconium'), ore('stoneSmooth')], [ore('stoneSmooth'), ore('stoneSmooth'), ore('stoneSmooth')]]);
 // recipes.addShapeless(item('gregtech:meta_item_1:9519'), [ore('nuggetDraconiumAwakened')]);
 // recipes.addShapeless(item('gregtech:meta_item_1:10519'), [ore('ingotDraconiumAwakened')]);
@@ -171,7 +171,7 @@
 //     .EUt(2097152)
 //     .buildAndRegister();
 // 
-//     recipes.remove(item('draconicevolution:celestial_manipulator:0'));
+//     crafting.removeByOutput(item('draconicevolution:celestial_manipulator:0'));
 //     recipes.addShaped(item('draconicevolution:celestial_manipulator:0'), [[item('minecraft:redstone_block'), item('minecraft:clock:0'), item('minecraft:redstone_block')],[item('gregtech:meta_item_1:12524'), item('gregtech:meta_item_1:32675'), item('gregtech:meta_item_1:12524')], [item('gregtech:meta_item_1:12524'), item('gregtech:meta_item_2:26299'), item('gregtech:meta_item_1:12524')]]);
 //     item('draconicevolution:celestial_manipulator:0').addTooltip(format.darkRed("Will not work on AR planets"));
 // 
@@ -219,7 +219,7 @@
 //     .EUt(524288)
 //     .buildAndRegister();
 // 
-// recipes.remove(item('draconicevolution:wyvern_energy_core:0'));
+// crafting.removeByOutput(item('draconicevolution:wyvern_energy_core:0'));
 // 
 // //energy cores
 //     assembly_line.recipeBuilder()
@@ -266,14 +266,14 @@
 //     .buildAndRegister();
 // 
 // 
-//     recipes.remove(item('thermalfoundation:upgrade:0'));
-//     recipes.remove(item('thermalfoundation:upgrade:1'));
-//     recipes.remove(item('thermalfoundation:upgrade:2'));
-//     recipes.remove(item('thermalfoundation:upgrade:3'));
-//     recipes.remove(item('thermalfoundation:upgrade:33'));
-//     recipes.remove(item('thermalfoundation:upgrade:34'));
-//     recipes.remove(item('thermalfoundation:upgrade:35'));
-//     recipes.remove(item('thermalfoundation:upgrade:256'));
+//     crafting.removeByOutput(item('thermalfoundation:upgrade:0'));
+//     crafting.removeByOutput(item('thermalfoundation:upgrade:1'));
+//     crafting.removeByOutput(item('thermalfoundation:upgrade:2'));
+//     crafting.removeByOutput(item('thermalfoundation:upgrade:3'));
+//     crafting.removeByOutput(item('thermalfoundation:upgrade:33'));
+//     crafting.removeByOutput(item('thermalfoundation:upgrade:34'));
+//     crafting.removeByOutput(item('thermalfoundation:upgrade:35'));
+//     crafting.removeByOutput(item('thermalfoundation:upgrade:256'));
 // 
 //     assembly_line.recipeBuilder()
 //     .inputs(item('draconicevolution:chaotic_core:0') * 4,item('draconicadditions:chaotic_energy_core:0') * 4,ore('plateQuantum') * 64,ore('plateZylon') * 64,item('thermalfoundation:upgrade:0') ,item('thermalfoundation:upgrade:1') ,item('draconicevolution:draconium_capacitor:1'), item('gtadditions:ga_cell_casing:11'),  item('gcyl:gcyl_meta_item:377') * 2)

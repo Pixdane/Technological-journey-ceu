@@ -1,4 +1,4 @@
-import static classes.utils.TJUtility.tjceu
+import static classes.utils.TJUtility.*
 
 ALLOY_SMELTER = recipemap('alloy_smelter')
 MIXER = recipemap('mixer')

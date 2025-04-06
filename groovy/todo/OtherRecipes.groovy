@@ -377,8 +377,8 @@
 //     .EUt(30)
 //     .buildAndRegister();
 // 
-// furnace.remove(ore('ingotLvSuperconductor'));
-// furnace.remove(item('gregtech:meta_item_1:10517'));
+// furnace.removeByOutput(ore('ingotLvSuperconductor'));
+// furnace.removeByOutput(item('gregtech:meta_item_1:10517'));
 // 
 // blast_furnace.recipeBuilder()
 //     .inputs(ore('dustLvSuperconductor'))
@@ -406,13 +406,13 @@
 // .duration(150)
 // .EUt(30)
 // .buildAndRegister();
-// furnace.remove(item('thermalfoundation:material:833'), item('gregtech:meta_item_1:438'));
+// furnace.removeByOutput(item('thermalfoundation:material:833'), item('gregtech:meta_item_1:438'));
 // Utils.removeRecipeByOutput(hammer, [ore('ingotWroughtIron')], [], false); 
 // //Utils.removeRecipeByOutput(largeHammer, [ore('ingotWroughtIron')], [], false); 
-// recipes.remove(item('enderio:item_extract_speed_upgrade:0'));
+// crafting.removeByOutput(item('enderio:item_extract_speed_upgrade:0'));
 // recipes.addShaped(item('enderio:item_extract_speed_upgrade:0'), [[ore('ingotIron'), ore('ingotIron'), ore('ingotIron')],[ore('ingotBronze'), ore('craftingPiston'), ore('ingotBronze')], [ore('ingotBronze'), ore('dustRedstone'), ore('ingotBronze')]]);
-// recipes.remove(item('enderio:item_liquid_conduit:2'));
-// recipes.remove(item('enderio:item_liquid_conduit:0'));
+// crafting.removeByOutput(item('enderio:item_liquid_conduit:2'));
+// crafting.removeByOutput(item('enderio:item_liquid_conduit:0'));
 // recipes.addShaped(item('enderio:item_liquid_conduit:0') * 8, [[ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')],[item('minecraft:glass'), item('minecraft:glass'), item('minecraft:glass')], [ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')]]);
 // recipes.addShaped(item('enderio:item_liquid_conduit:2') * 8, [[ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')],[ore('nuggetPulsatingIron'), item('enderio:item_liquid_conduit:1'), ore('nuggetPulsatingIron')], [ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')]]);
 // recipes.addShaped(item('enderio:item_liquid_conduit:2') * 8, [[ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')],[ore('nuggetPulsatingIron'), ore('fusedQuartz'), ore('nuggetPulsatingIron')], [ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')]]);
@@ -422,22 +422,22 @@
 //     
 // recipes.addShaped(metaitem('tjceu:steam.motor.ulv'), [[ore('stickWood'), ore('plateBronze'), ore('stickIron')],[ore('plateBronze'), ore('stickIron'), ore('plateBronze')], [ore('ingotIron'), ore('plateBronze'), ore('stickWood')]]);
 // 
-// recipes.remove(item('gregtech:meta_item_1:32600'));
+// crafting.removeByOutput(item('gregtech:meta_item_1:32600'));
 // recipes.addShaped(item('gregtech:meta_item_1:32600'), [[ore('cableGtSingleTin'), ore('wireGtSingleCopper'), ore('stickIron')],[ore('wireGtSingleCopper'), ore('stickIronMagnetic'), ore('wireGtSingleCopper')], [ore('stickIron'), ore('wireGtSingleCopper'), ore('cableGtSingleTin')]]);
 // //recipes.addShaped(item('supercritical:mte:14400'), [[item('gregtech:metal_casing:1'), item('contenttweaker:steampiston'), item('gregtech:metal_casing:1')],[metaitem('tjceu:steam.motor.ulv'), null, item('contenttweaker:steampiston')], [item('gregtech:metal_casing:1'), metaitem('tjceu:steam.motor.ulv'), item('gregtech:metal_casing:1')]]);
-// recipes.remove(item('gregtech:mte:9'));
-// recipes.remove(item('gregtech:mte:10'));
-// recipes.remove(item('gregtech:mte:11'));
-// recipes.remove(item('gregtech:mte:7'));
+// crafting.removeByOutput(item('gregtech:mte:9'));
+// crafting.removeByOutput(item('gregtech:mte:10'));
+// crafting.removeByOutput(item('gregtech:mte:11'));
+// crafting.removeByOutput(item('gregtech:mte:7'));
 // recipes.addShaped(item('gregtech:mte:9'), [[item('contenttweaker:steampiston'), item('gregtech:fluid_pipe:1095'), item('contenttweaker:steampiston')],[item('gregtech:fluid_pipe:1095'), item('gregtech:steam_casing:0'), item('gregtech:fluid_pipe:1095')], [metaitem('tjceu:steam.motor.ulv'), item('gregtech:fluid_pipe:1095'), metaitem('tjceu:steam.motor.ulv')]]);
 // recipes.addShaped(item('gregtech:mte:10'), [[item('contenttweaker:steampiston'), item('gregtech:fluid_pipe:1184'), item('contenttweaker:steampiston')],[item('gregtech:fluid_pipe:1184'), item('gregtech:steam_casing:2'), item('gregtech:fluid_pipe:1184')], [metaitem('tjceu:steam.motor.ulv'), item('gregtech:fluid_pipe:1184'), metaitem('tjceu:steam.motor.ulv')]]);
-// recipes.remove(item('gregtech:mte:12'));
+// crafting.removeByOutput(item('gregtech:mte:12'));
 // recipes.addShaped(item('gregtech:mte:12'), [[item('gregtech:fluid_pipe:1184'), item('gregtech:fluid_pipe:1184'), item('gregtech:fluid_pipe:1184')],[metaitem('tjceu:steam.motor.ulv'), item('gregtech:steam_casing:2'), item('contenttweaker:steampiston')], [item('gregtech:fluid_pipe:1184'), item('gregtech:fluid_pipe:1184'), item('gregtech:fluid_pipe:1184')]]);
 // recipes.addShaped(item('gregtech:mte:11'), [[item('gregtech:fluid_pipe:1095'), item('gregtech:fluid_pipe:1095'), item('gregtech:fluid_pipe:1095')],[metaitem('tjceu:steam.motor.ulv'), item('gregtech:steam_casing:0'), item('contenttweaker:steampiston')], [item('gregtech:fluid_pipe:1095'), item('gregtech:fluid_pipe:1095'), item('gregtech:fluid_pipe:1095')]]);
 // recipes.addShaped(item('gregtech:mte:7'), [[item('gregtech:fluid_pipe:1095'), item('gregtech:fluid_pipe:1095'), item('gregtech:fluid_pipe:1095')],[item('contenttweaker:steampiston'), item('gregtech:steam_casing:0'), item('minecraft:glass')], [item('gregtech:fluid_pipe:1095'), item('gregtech:fluid_pipe:1095'), item('gregtech:fluid_pipe:1095')]]);
-// recipes.remove(item('gregtech:machine:2235'));
+// crafting.removeByOutput(item('gregtech:machine:2235'));
 // recipes.addShaped(item('gregtech:machine:2235'), [[item('minecraft:glass'), ore('rotorBronze'), item('minecraft:glass')],[item('contenttweaker:steampiston'), item('gregtech:fluid_pipe:1184'), item('contenttweaker:steampiston')], [item('gregtech:fluid_pipe:1184'), item('gregtech:steam_casing:0'), item('gregtech:fluid_pipe:1184')]]);
-// recipes.remove(item('gregtech:mte:985'));
+// crafting.removeByOutput(item('gregtech:mte:985'));
 // recipes.addShaped(item('gregtech:mte:985'), [[null, null, null],[ore('plateWroughtIron'), ore('plateWroughtIron'), ore('plateWroughtIron')], [ore('cableGtSingleLead'), item('gregtech:machine_casing:0'), ore('cableGtSingleLead')]]);
 // recipes.removeShaped(ore('blockHopper'), [[ore('ingotIron'), null, ore('ingotIron')],[ore('ingotIron'), ore('chest,chestWood'), ore('ingotIron')], [null, ore('ingotIron'), null]]);
 //   //ADV_FUSION_RECIPES.recipeBuilder().fluidInputs(Adamantium.getFluid(125), Neutronium.getFluid(125)).fluidOutputs(Vibranium.getFluid(125)).duration(100).EUt(8000000).coilTier(2).euStart(2500000000L).buildAndRegister(); 
@@ -479,9 +479,9 @@
 // recipes.addShaped(item('gregtech:meta_block_compressed_11:8'), [[ore('ingotSteel'), ore('ingotSteel'), ore('ingotSteel')],[ore('ingotSteel'), ore('ingotSteel'), ore('ingotSteel')], [ore('ingotSteel'), ore('ingotSteel'), ore('ingotSteel')]]);
 // recipes.addShaped(item('bonsaitrees:bonsaipot:1'), [[ore('plateDoubleRhodiumPlatedPalladium'), item('bonsaitrees:bonsaipot:0'), ore('plateDoubleRhodiumPlatedPalladium')],[ore('plateDoubleRhodiumPlatedPalladium'), null, ore('plateDoubleRhodiumPlatedPalladium')], [ore('plateDoubleRhodiumPlatedPalladium'), null, ore('plateDoubleRhodiumPlatedPalladium')]]);
 // recipes.addShaped(item('bonsaitrees:bonsaipot:0'), [[null, null, null],[ore('plateDoubleTungstenSteel'), null, ore('plateDoubleTungstenSteel')], [ore('plateDoubleTungstenSteel'), ore('plateDoubleTungstenSteel'), ore('plateDoubleTungstenSteel')]]);
-// recipes.remove(item('bonsaitrees:bonsaipot:1'));
-// recipes.remove(item('bonsaitrees:bonsaipot:0'));
-// recipes.remove(item('gregtech:machine:2540'));
+// crafting.removeByOutput(item('bonsaitrees:bonsaipot:1'));
+// crafting.removeByOutput(item('bonsaitrees:bonsaipot:0'));
+// crafting.removeByOutput(item('gregtech:machine:2540'));
 // recipes.addShaped(item('gregtech:machine:2540'), [[item('gregtech:meta_item_1:32643'), ore('circuitExtreme'), item('gregtech:meta_item_1:32643')],[item('gregtech:meta_item_1:32603'), item('gregtech:mte:989'), item('gregtech:meta_item_1:32603')], [ore('gearTitanium'), ore('wireGtSingleTungstenSteel'), ore('gearTitanium')]]);
 // /*
 // electrolyzer.findRecipe(240, [ore('dustMagnesiumChloride') * 3], null).remove();
@@ -526,15 +526,15 @@
 // .duration(400)
 // .EUt(10)
 // .buildAndRegister();
-// recipes.remove(item('gregtech:mte:97'));
-// recipes.remove(item('gregtech:mte:96'));
-// recipes.remove(item('gregtech:mte:95'));
+// crafting.removeByOutput(item('gregtech:mte:97'));
+// crafting.removeByOutput(item('gregtech:mte:96'));
+// crafting.removeByOutput(item('gregtech:mte:95'));
 // recipes.addShaped(item('gregtech:mte:97'), [[ore('cableGtQuadrupleGold'), item('gregtech:meta_item_1:10012'), ore('cableGtQuadrupleGold')],[ore('circuitAdvanced'), item('gregtech:mte:988'), ore('circuitAdvanced')], [ore('plateStainlessSteel'), ore('plateStainlessSteel'), ore('plateStainlessSteel')]]);
 // recipes.addShaped(item('gregtech:mte:96'), [[ore('cableGtQuadrupleCopper'), item('gregtech:meta_item_1:10012'), ore('cableGtQuadrupleCopper')],[ore('circuitGood'), item('gregtech:mte:987'), ore('circuitGood')], [ore('plateAluminium'), ore('plateAluminium'), ore('plateAluminium')]]);
 // recipes.addShaped(item('gregtech:mte:95'), [[ore('cableGtQuadrupleTin'), item('gregtech:meta_item_1:10012'), ore('cableGtQuadrupleTin')],[ore('circuitBasic'), item('gregtech:mte:986'), ore('circuitBasic')], [ore('plateSteel'), ore('plateSteel'), ore('plateSteel')]]);
 // recipes.addShaped(ore('blockStainlessSteel'), [[ore('ingotStainlessSteel'), ore('ingotStainlessSteel'), ore('ingotStainlessSteel')],[ore('ingotStainlessSteel'), ore('ingotStainlessSteel'), ore('ingotStainlessSteel')], [ore('ingotStainlessSteel'), ore('ingotStainlessSteel'), ore('ingotStainlessSteel')]]);
 // 
-// recipes.remove(item('actuallyadditions:block_fermenting_barrel:0'));
+// crafting.removeByOutput(item('actuallyadditions:block_fermenting_barrel:0'));
 // 
 // fluid_extractor.recipeBuilder()
 // .inputs(ore('seedCanola') * 10)
@@ -588,7 +588,7 @@
 // .EUt(30)
 // .buildAndRegister();
 // 
-// recipes.remove(item('enderio:block_farm_station:0'));
+// crafting.removeByOutput(item('enderio:block_farm_station:0'));
 // 
 // assembler.recipeBuilder()
 // .inputs([item('gregtech:mte:986'),ore('circuitBasic') *2,ore('skullZombieController'),ore('toolHoe')])
@@ -629,15 +629,15 @@
 // .EUt(30)
 // .buildAndRegister();
 // 
-// furnace.remove(item('libvulpes:productingot:7'));
-// furnace.remove(item('libvulpes:productingot:6'));
-// furnace.remove(item('libvulpes:productingot:3'));
-// furnace.remove(item('libvulpes:productingot:4'));
-// furnace.remove(item('libvulpes:productingot:5'));
-// furnace.remove(item('libvulpes:productingot:9'));
-// furnace.remove(item('libvulpes:productingot:10'));
-// furnace.remove(ore('ingotTitaniumIridium'));
-// furnace.remove(ore('ingotTitaniumAluminide'));
+// furnace.removeByOutput(item('libvulpes:productingot:7'));
+// furnace.removeByOutput(item('libvulpes:productingot:6'));
+// furnace.removeByOutput(item('libvulpes:productingot:3'));
+// furnace.removeByOutput(item('libvulpes:productingot:4'));
+// furnace.removeByOutput(item('libvulpes:productingot:5'));
+// furnace.removeByOutput(item('libvulpes:productingot:9'));
+// furnace.removeByOutput(item('libvulpes:productingot:10'));
+// furnace.removeByOutput(ore('ingotTitaniumIridium'));
+// furnace.removeByOutput(ore('ingotTitaniumAluminide'));
 // 
 // freezer.recipeBuilder()
 // .fluidInputs(fluid('air')* 1000)
@@ -657,8 +657,8 @@
 // recipes.removeShaped(item('thermalfoundation:material:802') * 9, [[null, null, null],[null, ore('blockFuelCoke'), null], [null, null, null]]);
 // recipes.addShaped(item('danknull:dank_null_panel_0:0'), [[item('minecraft:redstone_block'), item('minecraft:coal_block'), item('minecraft:redstone_block')],[item('minecraft:coal_block'), item('minecraft:glass'), item('minecraft:coal_block')], [item('minecraft:redstone_block'), item('minecraft:coal_block'), item('minecraft:redstone_block')]]);
 // recipes.addShaped(item('danknull:dank_null_0:0'), [[item('danknull:dank_null_panel_0:0'), item('danknull:dank_null_panel_0:0'), item('danknull:dank_null_panel_0:0')],[item('danknull:dank_null_panel_0:0'), item('minecraft:coal_block'), item('danknull:dank_null_panel_0:0')], [item('danknull:dank_null_panel_0:0'), item('danknull:dank_null_panel_0:0'), item('danknull:dank_null_panel_0:0')]]);
-// recipes.remove(item('danknull:dank_null_0:0'));
-// recipes.remove(item('danknull:dank_null_panel_0:0'));
+// crafting.removeByOutput(item('danknull:dank_null_0:0'));
+// crafting.removeByOutput(item('danknull:dank_null_panel_0:0'));
 // 
 // implosion.recipeBuilder()
 // .inputs(ore('dustBlaze,itemBlazePowder') *15)
@@ -684,9 +684,9 @@
 // .EUt(30)
 // .buildAndRegister();
 // 
-// recipes.remove(item('gregtech:machine:2514'));
+// crafting.removeByOutput(item('gregtech:machine:2514'));
 // recipes.addShaped(item('gregtech:machine:2514'), [[ore('plateTungstenCarbide'), item('gregtech:mte:68'), ore('plateTungstenCarbide')],[item('gregtech:machine:62'), ore('circuitExtreme'), item('gregtech:machine:62')], [ore('plateTungstenCarbide'), item('gregtech:mte:990'), ore('plateTungstenCarbide')]]);
-// furnace.remove(ore('dustOsmium'));
+// furnace.removeByOutput(ore('dustOsmium'));
 // 
 // Utils.removeRecipeByOutput(large_chem, [], [fluid('ortho_xylene') * 10000], false);
 // 
@@ -712,7 +712,7 @@
 // recipes.addShapeless(item('thermalfoundation:material:657'), [item('architecturecraft:sawblade:0')]);
 // recipes.addShapeless(item('appliedenergistics2:part:221'), [item('appliedenergistics2:part:220'),ore('gemLapis')]);
 // recipes.addShapeless(item('appliedenergistics2:part:220'), [item('appliedenergistics2:part:221')]);
-// furnace.remove(ore('ingotOsmium'));
+// furnace.removeByOutput(ore('ingotOsmium'));
 // 
 // macerator.recipeBuilder()
 // .inputs([item('libvulpes:ore0')])
@@ -839,7 +839,7 @@
 // .buildAndRegister();
 // 
 // recipes.addShaped(item('gregtech:machine:2543'), [[ore('circuitMaster'), ore('gearTungstenSteel'), ore('circuitMaster')],[ore('gearTungstenSteel'), item('gregtech:mte:991'), ore('gearTungstenSteel')], [item('gregtech:fluid_pipe:3235'), ore('gearTungstenSteel'), item('gregtech:fluid_pipe:3235')]]);
-// recipes.remove(item('gregtech:machine:2543'));
+// crafting.removeByOutput(item('gregtech:machine:2543'));
 // 
 // blast_furnace.findRecipe(480, [item('minecraft:emerald_block'),item('gregtech:meta_item_1:701') ],[fluid('helium') * 1000]).remove();
 // blast_furnace.findRecipe(480, [item('gregtech:meta_item_1:701'),ore('blockOlivine')],[fluid('helium') * 1000]).remove();
@@ -855,7 +855,7 @@
 // Utils.removeRecipeByOutput(assembler, [item('gtadditions:ga_meta_item:32309').withTag({"GT.Detrav": {}})], [], false);
 // 
 // recipes.addShaped(item('gtadditions:ga_meta_item:32309').withTag({"GT.Detrav": {}}), [[ore('plateDoubleSteel'), ore('plateDoubleSteel'), metaitem('tjceu:steam.motor.ulv')],[item('contenttweaker:steampiston'), ore('plateDoubleSteel'), ore('plateDoubleSteel')], [ore('plateDoubleSteel'), item('contenttweaker:steampiston'), ore('plateDoubleSteel')]]);
-// recipes.remove(item('gregtech:machine:2004'));
+// crafting.removeByOutput(item('gregtech:machine:2004'));
 // recipes.addShaped(item('gregtech:machine:2004'), [[item('gregtech:multiblock_casing:2'), item('gregtech:meta_item_1:32655'), item('gregtech:multiblock_casing:2')],[ore('circuitMaster'), item('gregtech:mte:991'), ore('circuitMaster')], [item('gregtech:multiblock_casing:2'), item('gregtech:meta_item_1:32655'), item('gregtech:multiblock_casing:2')]]);
 // 
 // Utils.removeRecipeByOutput(assembler, [item('gcyl:gcyl_meta_item:250') * 24], [], true);
@@ -868,7 +868,7 @@
 // .EUt(7904)
 // .buildAndRegister();
 // /*
-// recipes.remove(item('gregtech:machine:2530'));
+// crafting.removeByOutput(item('gregtech:machine:2530'));
 // recipes.addShaped(item('gregtech:machine:2530'), [[item('gtadditions:ga_multiblock_casing:1'), ore('circuitExtreme'), item('gtadditions:ga_multiblock_casing:1')],[item('gregtech:meta_item_1:32603'), item('gregtech:mte:218'), item('gregtech:meta_item_1:32603')], [item('gtadditions:ga_multiblock_casing:1'), ore('circuitExtreme'), item('gtadditions:ga_multiblock_casing:1')]]);
 // */
 // Utils.removeRecipeByOutput(assembler, [item('gtadditions:ga_meta_item:32131')], [], true);
@@ -880,12 +880,12 @@
 // .EUt(30)
 // .buildAndRegister();
 // 
-// recipes.remove(item('gregtech:machine:4212'));
+// crafting.removeByOutput(item('gregtech:machine:4212'));
 // recipes.addShaped(item('gregtech:machine:4212'), [[item('gregtech:fluid_pipe:2095'), item('gregtech:fluid_pipe:2095'), item('gregtech:fluid_pipe:2095')],[item('contenttweaker:steampiston'), item('gregtech:steam_casing:0'), item('contenttweaker:steampiston')], [ore('rotorBronze'), item('gregtech:fluid_pipe:2095'), ore('rotorBronze')]]);
 // 
 // recipes.addShaped(ore('componentResistor') * 2, [[item('gregtech:meta_item_1:438'), ore('wireGtSingleCopper'), item('gregtech:meta_item_1:438')],[ore('wireGtSingleCopper'), ore('dustCharcoal'), ore('wireGtSingleCopper')], [null, ore('wireGtSingleCopper'), null]]);
 // recipes.addShaped(ore('componentResistor') * 2, [[item('gregtech:meta_item_1:438'), ore('wireGtSingleCopper'), item('gregtech:meta_item_1:438')],[ore('wireGtSingleCopper'), ore('dustCoal'), ore('wireGtSingleCopper')], [null, ore('wireGtSingleCopper'), null]]);
-// recipes.remove(item('apotheosis:hellshelf:0'));
+// crafting.removeByOutput(item('apotheosis:hellshelf:0'));
 // recipes.addShaped(item('apotheosis:hellshelf:0'), [[item('minecraft:nether_brick'), ore('logWood'), item('minecraft:nether_brick')],[ore('bookEmpty,craftingBook'), ore('bookEmpty,craftingBook'), ore('bookEmpty,craftingBook')], [item('minecraft:nether_brick'), ore('logWood'), item('minecraft:nether_brick')]]);
 // recipes.addShaped(item('apotheosis:hellshelf:0'), [[item('minecraft:nether_brick'), item('minecraft:nether_brick'), item('minecraft:nether_brick')],[null, item('minecraft:bookshelf:0'), null], [item('minecraft:nether_brick'), item('minecraft:nether_brick'), item('minecraft:nether_brick')]]);
 // recipes.addShapeless(item('gregtech:mte:560'), [item('actuallyadditions:block_atomic_reconstructor:0')]);
@@ -982,7 +982,7 @@
 // Utils.removeRecipeByOutput(large_centrifuge, [], [fluid('oil') * 100], true);
 // 
 // recipes.addShaped(item('variegated:defiled_ground:0') * 4, [[ore('itemSkull'), item('minecraft:soul_sand:0'), ore('itemSkull')],[item('minecraft:soul_sand:0'), ore('ingotSoularium'), item('minecraft:soul_sand:0')], [ore('itemSkull'), item('minecraft:soul_sand:0'), ore('itemSkull')]]);
-// recipes.remove(item('variegated:defiled_ground:0'));
+// crafting.removeByOutput(item('variegated:defiled_ground:0'));
 // 
 // //concrete recipes
 // 
@@ -1026,27 +1026,27 @@
 // .buildAndRegister();
 // }
 // 
-// recipes.remove(item('gregtech:machine:4024'));
+// crafting.removeByOutput(item('gregtech:machine:4024'));
 // recipes.addShaped(item('gregtech:machine:4024'), [[item('minecraft:glass'), item('minecraft:glass'), item('minecraft:glass')],[ore('plateSteel'), item('gregtech:mte:986'), ore('plateSteel')], [ore('cableGtSingleTin'), ore('toolHeadDrillSteel'), ore('cableGtSingleTin')]]);
-// recipes.remove(item('draconicevolution:diss_enchanter:0'));
+// crafting.removeByOutput(item('draconicevolution:diss_enchanter:0'));
 // recipes.addShaped(item('draconicevolution:diss_enchanter:0'), [[ore('gemEmerald'), ore('plateDoubleAluminium'), ore('gemEmerald')],[ore('plateDoubleAluminium'), item('minecraft:enchanting_table:0'), ore('plateDoubleAluminium')], [item('minecraft:bookshelf:0'), item('minecraft:bookshelf:0'), item('minecraft:bookshelf:0')]]);
 // //MOB stuff
-// recipes.remove(item('mob_grinding_utils:fan:0'));
+// crafting.removeByOutput(item('mob_grinding_utils:fan:0'));
 // recipes.addShaped(item('mob_grinding_utils:fan:0'), [[ore('plateAluminium'), ore('dustRedstone'), ore('cableGtSingleTin')],[ore('dustRedstone'), item('gregtech:mte:986'), ore('rotorSteel')], [ore('plateAluminium'), ore('dustRedstone'), ore('cableGtSingleTin')]]);
-// recipes.remove(item('mob_grinding_utils:spikes:0'));
+// crafting.removeByOutput(item('mob_grinding_utils:spikes:0'));
 // recipes.addShaped(item('mob_grinding_utils:spikes:0'), [[null, item('gregtech:meta_item_2:33'), null],[item('gregtech:meta_item_2:33'), item('gregtech:mte:986'), item('gregtech:meta_item_2:33')], [item('gtadditions:ga_meta_item:1033'), item('gtadditions:ga_meta_item:1033'), item('gtadditions:ga_meta_item:1033')]]);
-// recipes.remove(item('mob_grinding_utils:saw:0'));
+// crafting.removeByOutput(item('mob_grinding_utils:saw:0'));
 // recipes.addShaped(item('mob_grinding_utils:saw:0'), [[ore('plateStainlessSteel'), item('gregtech:meta_item_2:183'), ore('plateStainlessSteel')],[ore('gemExquisiteDiamond'), item('mob_grinding_utils:spikes:0'), ore('gemExquisiteDiamond')], [ore('plateStainlessSteel'), ore('plateStainlessSteel'), ore('plateStainlessSteel')]]);
-// recipes.remove(item('mob_grinding_utils:fan_upgrade:1'));
-// recipes.remove(item('mob_grinding_utils:fan_upgrade:0'));
+// crafting.removeByOutput(item('mob_grinding_utils:fan_upgrade:1'));
+// crafting.removeByOutput(item('mob_grinding_utils:fan_upgrade:0'));
 // recipes.addShaped(item('mob_grinding_utils:fan_upgrade:1'), [[ore('plateIron'), ore('craftingFeather,feather'), ore('plateIron')],[null, ore('rotorSteel'), null], [ore('plateIron'), ore('craftingFeather,feather'), ore('plateIron')]]);
 // recipes.addShaped(item('mob_grinding_utils:fan_upgrade:0'), [[ore('plateIron'), null, ore('plateIron')],[ore('craftingFeather,feather'), ore('rotorSteel'), ore('craftingFeather,feather')], [ore('plateIron'), null, ore('plateIron')]]);
 // recipes.addShaped(item('mob_grinding_utils:fan_upgrade:2'), [[ore('plateIron'), ore('craftingFeather,feather'), ore('plateIron')],[ore('craftingFeather,feather'), ore('rotorSteel'), ore('craftingFeather,feather')], [ore('plateIron'), ore('craftingFeather,feather'), ore('plateIron')]]);
-// recipes.remove(item('mob_grinding_utils:saw_upgrade:4'));
-// recipes.remove(item('mob_grinding_utils:saw_upgrade:3'));
-// recipes.remove(item('mob_grinding_utils:saw_upgrade:0'));
-// recipes.remove(item('mob_grinding_utils:fan_upgrade:2'));
-// recipes.remove(item('mob_grinding_utils:saw_upgrade:2'));
+// crafting.removeByOutput(item('mob_grinding_utils:saw_upgrade:4'));
+// crafting.removeByOutput(item('mob_grinding_utils:saw_upgrade:3'));
+// crafting.removeByOutput(item('mob_grinding_utils:saw_upgrade:0'));
+// crafting.removeByOutput(item('mob_grinding_utils:fan_upgrade:2'));
+// crafting.removeByOutput(item('mob_grinding_utils:saw_upgrade:2'));
 // recipes.addShaped(item('mob_grinding_utils:saw_upgrade:4'), [[ore('plateGold'), item('minecraft:spider_eye:0'), ore('plateGold')],[item('minecraft:spider_eye:0'), ore('plateRedstone'), item('minecraft:spider_eye:0')], [ore('plateGold'), item('minecraft:spider_eye:0'), ore('plateGold')]]);
 // recipes.addShaped(item('mob_grinding_utils:saw_upgrade:3'), [[ore('plateGold'), item('minecraft:rotten_flesh:0'), ore('plateGold')],[item('minecraft:rotten_flesh:0'), ore('plateRedstone'), item('minecraft:rotten_flesh:0')], [ore('plateGold'), item('minecraft:rotten_flesh:0'), ore('plateGold')]]);
 // recipes.addShaped(item('mob_grinding_utils:saw_upgrade:2'), [[ore('plateGold'), ore('dustBlaze,itemBlazePowder'), ore('plateGold')],[ore('dustBlaze,itemBlazePowder'), ore('plateRedstone'), ore('dustBlaze,itemBlazePowder')], [ore('plateGold'), ore('dustBlaze,itemBlazePowder'), ore('plateGold')]]);
@@ -1060,8 +1060,8 @@
 // .EUt(16)
 // .buildAndRegister();
 // 
-// furnace.remove(ore('ingotSignalum'));
-// furnace.remove(ore('ingotLumium'));
+// furnace.removeByOutput(ore('ingotSignalum'));
+// furnace.removeByOutput(ore('ingotLumium'));
 // recipes.addShaped(ore('dustAerotheum'), [[null, ore('dustSulfur'), null],[ore('dustSulfur'), ore('dustBlaze,itemBlazePowder'), ore('dustSulfur')], [null, ore('dustSulfur'), null]]);
 // 
 // /*
@@ -1133,7 +1133,7 @@
 // 
 // //grappling hooks
 // 
-// recipes.remove(item('hooked:microcrafting:2'));
+// crafting.removeByOutput(item('hooked:microcrafting:2'));
 // 
 // lathe.recipeBuilder()
 // .inputs(ore('stickIron'))
@@ -1149,9 +1149,9 @@
 // .EUt(30)
 // .buildAndRegister();
 // 
-// recipes.remove(item('hooked:hook:3'));
-// recipes.remove(item('hooked:hook:2'));
-// recipes.remove(item('hooked:hook:1'));
+// crafting.removeByOutput(item('hooked:hook:3'));
+// crafting.removeByOutput(item('hooked:hook:2'));
+// crafting.removeByOutput(item('hooked:hook:1'));
 // recipes.addShaped(item('hooked:hook:3'), [[ore('plateRedstone'), ore('plateRedstone'), item('actuallyadditions:block_crystal:0')],[null, item('hooked:hook:2'), ore('plateRedstone')], [ore('plateRedstone'), null, ore('plateRedstone')]]);
 // recipes.addShaped(item('hooked:hook:2'), [[null, ore('plateDiamond'), ore('plateDiamond')],[null, item('hooked:hook:1'), ore('plateDiamond')], [ore('plateDiamond'), null, null]]);
 // recipes.addShaped(item('hooked:hook:1'), [[item('gtadditions:ga_meta_item:1033'), item('gtadditions:ga_meta_item:1033'), item('gregtech:meta_item_2:1033')],[null, item('hooked:microcrafting:3'), item('gtadditions:ga_meta_item:1033')], [item('hooked:microcrafting:3'), null, item('gtadditions:ga_meta_item:1033')]]);
@@ -1159,7 +1159,7 @@
 // recipes.addShaped(item('fluxnetworks:fluxpoint:0'), [[null, null, null],[null, item('fluxnetworks:fluxplug:0'), null], [null, null, null]]);
 // recipes.addShaped(item('fluxnetworks:fluxplug:0'), [[null, null, null],[null, item('fluxnetworks:fluxpoint:0'), null], [null, null, null]]);
 // 
-// recipes.remove(item('enderio:item_advanced_item_filter:0'));
+// crafting.removeByOutput(item('enderio:item_advanced_item_filter:0'));
 // recipes.addShaped(item('enderio:item_advanced_item_filter:0'), [[ore('plateRedstone'), ore('plateDiamond'), ore('plateRedstone')],[ore('plateDiamond'), item('enderio:item_basic_item_filter:0'), ore('plateDiamond')], [ore('plateRedstone'), ore('plateDiamond'), ore('plateRedstone')]]);
 // 
 //         fluid_extractor.recipeBuilder()
@@ -1182,11 +1182,11 @@
 //         .duration(100)
 //         .EUt(30)
 //         .buildAndRegister();
-//         recipes.remove(item('enderio:item_capacitor_stellar:0'));
+//         crafting.removeByOutput(item('enderio:item_capacitor_stellar:0'));
 //         recipes.addShaped(item('enderio:item_capacitor_stellar:0'), [[ore('plateSterlingSilver'), ore('dustSilverChloride'), ore('plateSterlingSilver')],[item('enderio:item_basic_capacitor:2'), item('minecraft:lapis_block'), item('enderio:item_basic_capacitor:2')], [ore('plateSterlingSilver'), ore('dustSilverChloride'), ore('plateSterlingSilver')]]);
 // 
 //         Utils.removeRecipeByOutput(forming, [item('gcyl:gcyl_meta_item:230')], [], false);
-//         recipes.remove(item('minecraft:end_crystal:0'));
+//         crafting.removeByOutput(item('minecraft:end_crystal:0'));
 //         recipes.removeShaped(item('minecraft:end_crystal:0'), [[ore('paneGlassColorless'), ore('paneGlassColorless'), ore('paneGlassColorless')],[ore('paneGlassColorless'), item('gregtech:meta_item_1:32725'), ore('paneGlassColorless')], [ore('paneGlassColorless'), item('gregtech:meta_item_1:32672'), ore('paneGlassColorless')]]);
 // 
 //         Utils.removeRecipeByOutput(tower, [], [fluid('argon')], false);
@@ -1272,7 +1272,7 @@
 // .EUt(30)
 // .buildAndRegister();
 // 
-// recipes.remove(item('randomthings:spectreenergyinjector:0'));
+// crafting.removeByOutput(item('randomthings:spectreenergyinjector:0'));
 // recipes.addShaped(item('randomthings:spectreenergyinjector:0'), [[item('minecraft:obsidian'), item('randomthings:spectrelens:0'), item('minecraft:obsidian')],[item('randomthings:ingredient:12'), item('randomthings:spectrecharger:0'), item('randomthings:ingredient:12')], [item('minecraft:obsidian'), item('randomthings:ingredient:12'), item('minecraft:obsidian')]]);
 // 
 // //naq
@@ -1377,11 +1377,11 @@
 // 
 // 
 // 
-// recipes.remove(item('gregtech:machine:793'));
-// recipes.remove(item('gregtech:machine:792'));
-// recipes.remove(item('gregtech:machine:791'));
-// recipes.remove(item('gregtech:machine:790'));
-// //recipes.remove(item('gregtech:machine:819'));
+// crafting.removeByOutput(item('gregtech:machine:793'));
+// crafting.removeByOutput(item('gregtech:machine:792'));
+// crafting.removeByOutput(item('gregtech:machine:791'));
+// crafting.removeByOutput(item('gregtech:machine:790'));
+// //crafting.removeByOutput(item('gregtech:machine:819'));
 // 
 // recipes.addShaped(item('gregtech:machine:793'), [[null, null, null],[null, item('gregtech:mte:994'), null], [null, item('minecraft:glass'), null]]);
 // recipes.addShaped(item('gregtech:machine:792'), [[null, item('minecraft:glass'), null],[null, item('gregtech:mte:994'), null], [null, null, null]]);
@@ -1424,7 +1424,7 @@
 // .EUt(30)
 // .buildAndRegister();
 // 
-// furnace.remove(item('gregtech:meta_item_1:2518'));
+// furnace.removeByOutput(item('gregtech:meta_item_1:2518'));
 // 
 // Utils.removeRecipeByOutput(fluid_extractor, [], [fluid('pyrotheum') * 250], true);
 // 
@@ -1485,9 +1485,9 @@
 // .buildAndRegister();
 // 
 // 
-// furnace.remove(ore('ingotDuranium'));
-// furnace.remove(ore('ingotRutherfordium'));
-// furnace.remove(ore('ingotTritanium'));
+// furnace.removeByOutput(ore('ingotDuranium'));
+// furnace.removeByOutput(ore('ingotRutherfordium'));
+// furnace.removeByOutput(ore('ingotTritanium'));
 // 
 // 
 //     blast_furnace.recipeBuilder()
@@ -1515,15 +1515,15 @@
 //     .EUt(120)
 //     .buildAndRegister();
 // 
-//     furnace.remove(item('gregtech:meta_item_1:10518'));
-//     furnace.remove(ore('ingotNaquadria'));
+//     furnace.removeByOutput(item('gregtech:meta_item_1:10518'));
+//     furnace.removeByOutput(ore('ingotNaquadria'));
 // 
-// recipes.remove(item('gregtech:machine:3208'));
-// recipes.remove(item('gregtech:machine:3209'));
-// recipes.remove(item('gregtech:machine:3210'));
-// recipes.remove(item('gregtech:machine:817'));
-// recipes.remove(item('gregtech:machine:818'));
-// recipes.remove(item('gregtech:machine:819'));
+// crafting.removeByOutput(item('gregtech:machine:3208'));
+// crafting.removeByOutput(item('gregtech:machine:3209'));
+// crafting.removeByOutput(item('gregtech:machine:3210'));
+// crafting.removeByOutput(item('gregtech:machine:817'));
+// crafting.removeByOutput(item('gregtech:machine:818'));
+// crafting.removeByOutput(item('gregtech:machine:819'));
 // 
 // recipes.addShaped(item('gregtech:machine:819'), [[item('gregtech:meta_item_2:17850'), ore('gearHsss'), item('gregtech:meta_item_2:17850')],[ore('gearHsss'), item('gregtech:mte:994'), ore('gearHsss')], [item('gregtech:meta_item_2:17850'), ore('gearHsss'), item('gregtech:meta_item_2:17850')]]);
 // recipes.addShaped(item('gregtech:machine:3210'), [[item('gregtech:meta_item_2:17850'), ore('gearSeaborgium'), item('gregtech:meta_item_2:17850')],[ore('gearSeaborgium'), item('gregtech:mte:994'), ore('gearSeaborgium')], [item('gregtech:meta_item_2:17850'), ore('gearSeaborgium'), item('gregtech:meta_item_2:17850')]]);
@@ -1532,7 +1532,7 @@
 // recipes.addShaped(item('gregtech:machine:817'), [[ore('gearSmallAluminium'), ore('gearStainlessSteel'), ore('gearSmallAluminium')],[ore('gearStainlessSteel'), item('gregtech:mte:988'), ore('gearStainlessSteel')], [ore('gearSmallAluminium'), ore('gearStainlessSteel'), ore('gearSmallAluminium')]]);
 // recipes.addShaped(item('gregtech:machine:3208'), [[ore('gearSmallAluminium'), ore('gearBlackSteel'), ore('gearSmallAluminium')],[ore('gearBlackSteel'), item('gregtech:mte:988'), ore('gearBlackSteel')], [ore('gearSmallAluminium'), ore('gearBlackSteel'), ore('gearSmallAluminium')]]);
 // 
-// recipes.remove(item('enderio:item_big_item_filter:0'));
+// crafting.removeByOutput(item('enderio:item_big_item_filter:0'));
 // recipes.addShaped(item('enderio:item_big_item_filter:0'), [[ore('plateAluminium'), ore('plateRedstone'), ore('plateAluminium')],[ore('plateRedstone'), item('enderio:item_basic_item_filter:0'), ore('plateRedstone')], [ore('plateAluminium'), ore('plateRedstone'), ore('plateAluminium')]]);
 // 
 // recipes.addShaped(item('draconicevolution:grinder:0'), [[ore('plateNaquadahAlloy'), item('gregtech:meta_item_2:47'), ore('plateNaquadahAlloy')],[item('gregtech:meta_item_2:47'), item('gregtech:mte:990'), item('gregtech:meta_item_1:206')], [ore('plateNaquadahAlloy'), item('gregtech:meta_item_2:47'), ore('plateNaquadahAlloy')]]);
@@ -1777,7 +1777,7 @@
 //         .EUt(536870900)
 //         .buildAndRegister();
 // 
-// furnace.remove(ore('ingotBrightSteel'));
+// furnace.removeByOutput(ore('ingotBrightSteel'));
 // 
 // 
 // 
@@ -1790,7 +1790,7 @@
 //     .buildAndRegister();
 // 
 // //solar panels
-// recipes.remove(item('gregtech:meta_item_1:32752'));
+// crafting.removeByOutput(item('gregtech:meta_item_1:32752'));
 // recipes.addShaped(item('gregtech:meta_item_2:32714'), [[item('gregtech:meta_item_1:242'), ore('gemExquisiteLeadZirconateTitanate'), item('gregtech:meta_item_1:242')],[ore('circuitUiv'), item('gregtech:mte:996'), ore('circuitUiv')], [ore('cableGtSingleBlackTitanium'), item('gtadditions:ga_meta_item2:7'), ore('cableGtSingleBlackTitanium')]]);
 // recipes.addShaped(item('gregtech:meta_item_2:32713'), [[item('gregtech:meta_item_1:241'), ore('gemExquisiteCubicZirconia'), item('gregtech:meta_item_1:241')],[ore('circuitUev'), item('gregtech:mte:995'), ore('circuitUev')], [ore('cableGtSingleTitanSteel'), item('gtadditions:ga_meta_item2:4'), ore('cableGtSingleTitanSteel')]]);
 // recipes.addShaped(item('gregtech:meta_item_2:32712'), [[item('gregtech:meta_item_1:240'), ore('gemExquisiteRhodiumSalt'), item('gregtech:meta_item_1:240')],[ore('circuitInfinite'), item('gregtech:mte:994'), ore('circuitInfinite')], [ore('cableGtSingleAbyssalAlloy'), item('gregtech:meta_item_1:32598'), ore('cableGtSingleAbyssalAlloy')]]);
@@ -1811,8 +1811,8 @@
 // recipes.addShaped(item('gregtech:meta_item_1:32752'), [[item('gregtech:meta_item_1:32693'), ore('gemExquisiteDiamond'), item('gregtech:meta_item_1:32693')],[ore('circuitExtreme'), item('gregtech:mte:989'), ore('circuitExtreme')], [ore('cableGtSingleAluminium'), item('gregtech:meta_item_1:32519'), ore('cableGtSingleAluminium')]]);
 // 
 // //EV/IV motors
-// recipes.remove(item('gregtech:meta_item_1:32604'));
-// recipes.remove(item('gregtech:meta_item_1:32603'));
+// crafting.removeByOutput(item('gregtech:meta_item_1:32604'));
+// crafting.removeByOutput(item('gregtech:meta_item_1:32603'));
 // 
 // recipes.addShaped(item('gregtech:meta_item_1:32604'), [[ore('cableGtSingleTungsten'), ore('wireGtQuadrupleBrightSteel'), ore('stickTungstenSteel')],[ore('wireGtQuadrupleBrightSteel'), ore('stickNeodymiumMagnetic'), ore('wireGtQuadrupleBrightSteel')], [ore('stickTungstenSteel'), ore('wireGtQuadrupleBrightSteel'), ore('cableGtSingleTungsten')]]);
 // recipes.addShaped(item('gregtech:meta_item_1:32603'), [[ore('cableGtSingleAluminium'), ore('wireGtQuadrupleGold'), ore('stickTitanium')],[ore('wireGtQuadrupleGold'), ore('stickNeodymiumMagnetic'), ore('wireGtQuadrupleGold')], [ore('stickTitanium'), ore('wireGtQuadrupleGold'), ore('cableGtSingleAluminium')]]);
@@ -1864,7 +1864,7 @@
 //     .EUt(30720)
 //     .buildAndRegister();
 // 
-// recipes.remove(item('minecraft:golden_apple:1'));
+// crafting.removeByOutput(item('minecraft:golden_apple:1'));
 // 
 // mixer.recipeBuilder()
 //     .inputs(ore('dustEuropium'), ore('dustCaesium') * 2, ore('dustSteel') * 4,ore('dustBismuth') * 2)
@@ -1884,12 +1884,12 @@
 // var removals = [item('gtadditions:ga_machine_casing:3'),item('gregtech:machine_casing:11')] as IItemStack[];
 // for i in removals{
 // Utils.removeRecipeByOutput(assembler, [i], [], true);
-// recipes.remove(i);
+// crafting.removeByOutput(i);
 // }
 // 
 // var removals2 = [item('gregtech:mte:997'),item('gregtech:machine:3242'),item('gregtech:mte:996')] as IItemStack[];
 // for i in removals2{
-// recipes.remove(i);
+// crafting.removeByOutput(i);
 // }
 // 
 // Utils.removeRecipeByOutput(assembler, [item('gregtech:machine:509')], [], true);
@@ -2001,7 +2001,7 @@
 // item('gregtech:fusion_casing:0').addTooltip(format.darkRed("blacklisted from working in non-fusion multiblock machines"));
 // item('gregtech:fusion_casing:1').addTooltip(format.darkRed("blacklisted from working in non-fusion multiblock machines"));
 // 
-// recipes.remove(item('simplevoidworld:portal:0'));
+// crafting.removeByOutput(item('simplevoidworld:portal:0'));
 // recipes.addShaped(item('simplevoidworld:portal:0'), [[ore('obsidian'), ore('gemDiamond'), ore('obsidian')],[ore('gemDiamond'), ore('toolPickaxe'), ore('gemDiamond')], [ore('obsidian'), ore('gemDiamond'), ore('obsidian')]]);
 // 
 // assembler.recipeBuilder()
@@ -2020,10 +2020,10 @@
 //     .EUt(2147483647)
 //     .buildAndRegister();
 // 
-// recipes.remove(item('ae2stuff:grower:0'));
+// crafting.removeByOutput(item('ae2stuff:grower:0'));
 // recipes.addShaped(item('ae2stuff:grower:0'), [[item('minecraft:glass'), ore('rotorTin'), item('minecraft:glass')],[ore('crystalFluix'), item('gregtech:meta_item_1:32600'), ore('crystalFluix')], [ore('cableGtSingleTin'), item('gregtech:mte:986'), ore('cableGtSingleTin')]]);
 // 
-// recipes.remove(item('gcyl:mte:17'));
+// crafting.removeByOutput(item('gcyl:mte:17'));
 // recipes.addShaped(item('gcyl:mte:17'), [[ore('circuitExtreme'), item('gregtech:fluid_pipe:3235'), ore('circuitExtreme')],[ore('gearTitanium'), item('gregtech:mte:188'), ore('gearTitanium')], [item('gregtech:meta_item_1:12981'), item('gregtech:meta_item_1:13981'), item('gregtech:meta_item_1:12981')]]);
 // 
 // 
@@ -2068,7 +2068,7 @@
 //     .EUt(1920)
 //     .buildAndRegister();
 // 
-// recipes.remove(item('randomthings:ingredient:1'));
+// crafting.removeByOutput(item('randomthings:ingredient:1'));
 // recipes.addShaped(item('randomthings:ingredient:1'), [[item('randomthings:stableenderpearl:0'), ore('foilStainlessSteel'), item('randomthings:stableenderpearl:0')],[ore('foilStainlessSteel'), ore('itemSkull'), ore('foilStainlessSteel')], [item('randomthings:stableenderpearl:0'), ore('foilStainlessSteel'), item('randomthings:stableenderpearl:0')]]);
 // 
 // centrifuge.findRecipe(640, [ore('dustNaquadahEnriched')], []).remove();
@@ -2090,8 +2090,8 @@
 // recipes.addShaped(item('gregtech:machine:4034'), [[null, null, null],[null, item('gregtech:mte:997'), ore('cableGtSingleNeutronium')], [null, null, null]]);
 // recipes.addShaped(item('gregtech:machine:4029'), [[null, null, null],[ore('cableGtSingleNeutronium'), item('gregtech:mte:997'), null], [null, null, null]]);
 // 
-// recipes.remove(item('danknull:dank_null_1:0'));
-// recipes.remove(item('danknull:dank_null_panel_1:0'));
+// crafting.removeByOutput(item('danknull:dank_null_1:0'));
+// crafting.removeByOutput(item('danknull:dank_null_panel_1:0'));
 // recipes.addShaped(item('danknull:dank_null_1:0'), [[item('danknull:dank_null_panel_1:0'), item('danknull:dank_null_panel_1:0'), item('danknull:dank_null_panel_1:0')],[item('danknull:dank_null_panel_1:0'), item('danknull:dank_null_0:0'), item('danknull:dank_null_panel_1:0')], [item('danknull:dank_null_panel_1:0'), item('danknull:dank_null_panel_1:0'), item('danknull:dank_null_panel_1:0')]]);
 // recipes.addShaped(item('danknull:dank_null_panel_1:0'), [[ore('blockLapis'), ore('blockCoalCoke'), ore('blockLapis')],[ore('blockCoalCoke'), item('gtadditions:ga_transparent_casing:1'), ore('blockCoalCoke')], [ore('blockLapis'), ore('blockCoalCoke'), ore('blockLapis')]]);
 // 
@@ -2122,9 +2122,9 @@
 //     .EUt(30)
 //     .buildAndRegister();
 // //update vacuume tube
-// recipes.remove(ore('circuitUlv'));
+// crafting.removeByOutput(ore('circuitUlv'));
 // recipes.addShaped(ore('circuitUlv'), [[null, item('gregtech:meta_item_1:517'), null],[null, item('gregtech:meta_item_1:16018'), null], [ore('stickWroughtIron'), null, ore('stickWroughtIron')]]);
-// recipes.remove(item('gregtech:meta_item_1:502'));
+// crafting.removeByOutput(item('gregtech:meta_item_1:502'));
 // 
 // 
 // chemreactor.recipeBuilder()
@@ -2519,11 +2519,11 @@
 // Utils.removeRecipeByOutput(assembler, [item('gregtech:meta_item_1:32673')], [], false);
 // Utils.removeRecipeByOutput(assembler, [item('gregtech:meta_item_1:206')], [], false);
 // 
-// recipes.remove(item('gregtech:meta_item_1:32670'));
-// recipes.remove(item('gregtech:meta_item_1:32671'));
-// recipes.remove(item('gregtech:meta_item_1:32672'));
-// recipes.remove(item('gregtech:meta_item_1:32673'));
-// recipes.remove(item('gregtech:meta_item_1:206'));
+// crafting.removeByOutput(item('gregtech:meta_item_1:32670'));
+// crafting.removeByOutput(item('gregtech:meta_item_1:32671'));
+// crafting.removeByOutput(item('gregtech:meta_item_1:32672'));
+// crafting.removeByOutput(item('gregtech:meta_item_1:32673'));
+// crafting.removeByOutput(item('gregtech:meta_item_1:206'));
 // 
 // 
 // //lv
@@ -2670,4 +2670,4 @@
 //     .EUt(30)
 //     .buildAndRegister();
 //     
-// recipes.remove(item('gregtech:machine:2552'));
+// crafting.removeByOutput(item('gregtech:machine:2552'));

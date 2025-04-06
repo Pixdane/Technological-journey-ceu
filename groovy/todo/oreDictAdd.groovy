@@ -485,26 +485,26 @@
 // */
 // 
 // //ae2 stuff
-// recipes.remove(item('threng:machine:2'));
-// recipes.remove(item('appliedenergistics2:interface:0'));
-// recipes.remove(item('appliedenergistics2:fluid_interface:0'));
-// recipes.remove(item('threng:machine:1'));
-// recipes.remove(item('threng:machine:0'));
-// recipes.remove(item('threng:machine:3'));
-// recipes.remove(item('threng:machine:4'));
-// recipes.remove(item('threng:machine:5'));
-// recipes.remove(item('appliedenergistics2:energy_acceptor:0'));
-// recipes.remove(item('appliedenergistics2:material:52'));
-// recipes.remove(item('actuallyadditions:block_display_stand:0'));
-// recipes.remove(item('actuallyadditions:block_empowerer:0'));
+// crafting.removeByOutput(item('threng:machine:2'));
+// crafting.removeByOutput(item('appliedenergistics2:interface:0'));
+// crafting.removeByOutput(item('appliedenergistics2:fluid_interface:0'));
+// crafting.removeByOutput(item('threng:machine:1'));
+// crafting.removeByOutput(item('threng:machine:0'));
+// crafting.removeByOutput(item('threng:machine:3'));
+// crafting.removeByOutput(item('threng:machine:4'));
+// crafting.removeByOutput(item('threng:machine:5'));
+// crafting.removeByOutput(item('appliedenergistics2:energy_acceptor:0'));
+// crafting.removeByOutput(item('appliedenergistics2:material:52'));
+// crafting.removeByOutput(item('actuallyadditions:block_display_stand:0'));
+// crafting.removeByOutput(item('actuallyadditions:block_empowerer:0'));
 // h(item('actuallyadditions:block_display_stand:0'));
 // h(item('actuallyadditions:block_empowerer:0'));
-// recipes.remove(item('actuallyadditions:block_misc:9'));
+// crafting.removeByOutput(item('actuallyadditions:block_misc:9'));
 // 
-// furnace.remove(item('gregtech:meta_item_1:10712'));
+// furnace.removeByOutput(item('gregtech:meta_item_1:10712'));
 // item('draconicevolution:draconium_block:1').addTooltip(format.darkRed("Do not place this block in world"));
-// recipes.remove(item('snad:snad:1'));
-// recipes.remove(item('snad:snad:0'));
+// crafting.removeByOutput(item('snad:snad:1'));
+// crafting.removeByOutput(item('snad:snad:0'));
 // h(item('advancedrocketry:oxygenfluid'));
 // h(item('advancedrocketry:hydrogenfluid'));
 // h(item('advancedrocketry:rocketfuel'));
