@@ -49,14 +49,10 @@ class TJMetaTileEntities {
         LARGE_POWERED_SPAWNER = mte(2005, new LargePoweredSpawner(tjId('large_powered_spawner')))
 
         // Hatches 3000 - 3999
-        HV_QUADRUPLE_IMPORT_HATCH = mte(3000, new MetaTileEntityMultiFluidHatch(tjId('fluid_hatch.import_4x.hv'), GTValues.HV, 4, false) { /* Some magic for JEI to work */ })
-        HV_QUADRUPLE_EXPORT_HATCH = mte(3001, new MetaTileEntityMultiFluidHatch(tjId('fluid_hatch.export_4x.hv'), GTValues.HV, 4, true) { /* Some magic for JEI to work */ })
-        HV_NONUPLE_IMPORT_HATCH = mte(3002, new MetaTileEntityMultiFluidHatch(tjId('fluid_hatch.import_9x.hv'), GTValues.HV, 9, false) {
-            /* Some magic for JEI to work */
-        })
-        HV_NONUPLE_EXPORT_HATCH = mte(3003, new MetaTileEntityMultiFluidHatch(tjId('fluid_hatch.export_9x.hv'), GTValues.HV, 9, true) {
-            /* Some magic for JEI to work */
-        })
+        HV_QUADRUPLE_IMPORT_HATCH = mte(3000, new MetaTileEntityMultiFluidHatch(tjId('fluid_hatch.import_4x.hv'), GTValues.HV, 4, false){}) // Using anonymous class as a workaround on subitem registration
+        HV_QUADRUPLE_EXPORT_HATCH = mte(3001, new MetaTileEntityMultiFluidHatch(tjId('fluid_hatch.export_4x.hv'), GTValues.HV, 4, true){})
+        HV_NONUPLE_IMPORT_HATCH = mte(3002, new MetaTileEntityMultiFluidHatch(tjId('fluid_hatch.import_9x.hv'), GTValues.HV, 9, false){})
+        HV_NONUPLE_EXPORT_HATCH = mte(3003, new MetaTileEntityMultiFluidHatch(tjId('fluid_hatch.export_9x.hv'), GTValues.HV, 9, true){})
 
         // Others 4000 - 4999
 

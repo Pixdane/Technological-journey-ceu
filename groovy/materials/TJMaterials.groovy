@@ -1,4 +1,3 @@
-/* groovylint-disable PropertyName */
 import gregtech.api.unification.material.Material
 
 class TJMaterials {

@@ -32,6 +32,7 @@ class MultiblockCasing extends VariantBlock<MultiblockCasing.CasingType> {
             this.harvestLevel = harvestLevel
         }
 
+        @Override
         String getName() {
             this.name
         }
