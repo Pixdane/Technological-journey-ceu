@@ -1,25 +1,22 @@
 import static classes.utils.TJUtility.*
 
-// Recipe
-// furnace.removeByOutput(item('draconicevolution:draconium_ingot'));
-// crafting.removeByOutput(item('draconicevolution:draconium_block'));
-// crafting.removeByOutput(metaitem('gcyl:blockDraconium'));
-// crafting.removeByOutput(item('draconicevolution:draconium_ingot'));
-// crafting.removeByOutput(metaitem('ingotDraconium'));
-// crafting.removeByOutput(item('draconicevolution:nugget'));
-// crafting.removeByOutput(metaitem('nuggetDraconium'));
-// crafting.removeByOutput(ore('blockDraconiumAwakened'));
-// crafting.removeByOutput(ore('ingotDraconiumAwakened'));
-// crafting.removeByOutput(ore('nuggetDraconiumAwakened'));
-// crafting.removeByOutput(item('draconicevolution:info_tablet:0'));
-// recipes.addShaped(item('draconicevolution:info_tablet:0'), [[ore('stoneSmooth'), ore('stoneSmooth'), ore('stoneSmooth')],[ore('stoneSmooth'), ore('dustRegularDraconium'), ore('stoneSmooth')], [ore('stoneSmooth'), ore('stoneSmooth'), ore('stoneSmooth')]]);
-// recipes.addShapeless(item('gregtech:meta_item_1:9519'), [ore('nuggetDraconiumAwakened')]);
-// recipes.addShapeless(item('gregtech:meta_item_1:10519'), [ore('ingotDraconiumAwakened')]);
-// recipes.addShapeless(item('gregtech:meta_item_1:9518'), [ore('nuggetDraconium')]);
-// recipes.addShapeless(item('gregtech:meta_item_1:10518'), [ore('ingotDraconium')]);
-// recipes.addShapeless(ore('blockDraconium'), [ore('blockDraconium')]);
-// recipes.addShapeless(ore('blockDraconiumAwakened'), [ore('blockAwakenDraconium')]);
-// recipes.addShapeless(ore('blockDraconium'), [ore('blockDraconium')]);
+// Recipe removals
+furnace.removeByOutput(item('draconicevolution:draconium_ingot'))
+crafting.removeByOutput(item('draconicevolution:nugget'))
+crafting.removeByOutput(item('draconicevolution:draconium_block'))
+crafting.removeByOutput(item('draconicevolution:draconium_ingot'))
+crafting.removeByOutput(item('draconicevolution:nugget', 1))
+crafting.removeByOutput(item('draconicevolution:draconic_ingot'))
+crafting.removeByOutput(item('draconicevolution:draconic_block'))
+crafting.removeByOutput(item('draconicevolution:info_tablet:0'))
+// crafting.addShaped(item('draconicevolution:info_tablet:0'), [[ore('stoneSmooth'), ore('stoneSmooth'), ore('stoneSmooth')],[ore('stoneSmooth'), ore('dustRegularDraconium'), ore('stoneSmooth')], [ore('stoneSmooth'), ore('stoneSmooth'), ore('stoneSmooth')]]);
+// crafting.addShapeless(item('gregtech:meta_item_1:9519'), [ore('nuggetDraconiumAwakened')]);
+// crafting.addShapeless(item('gregtech:meta_item_1:10519'), [ore('ingotDraconiumAwakened')]);
+// crafting.addShapeless(item('gregtech:meta_item_1:9518'), [ore('nuggetDraconium')]);
+// crafting.addShapeless(item('gregtech:meta_item_1:10518'), [ore('ingotDraconium')]);
+// crafting.addShapeless(ore('blockDraconium'), [ore('blockDraconium')]);
+// crafting.addShapeless(ore('blockDraconiumAwakened'), [ore('blockAwakenDraconium')]);
+// crafting.addShapeless(ore('blockDraconium'), [ore('blockDraconium')]);
 // 
 //     assembly_line.recipeBuilder()
 //     .inputs(item('gregtech:frame_tritanium') * 10,ore('plateDraconium') * 10,item('gregtech:meta_item_1:12524') * 10,ore('plateMendelevium') * 10,item('gregtech:meta_item_2:32436') * 2,item('gregtech:meta_item_1:32676'), item('gregtech:meta_item_1:32686'), item('gregtech:meta_item_1:32696'), ore('circuitInfinite'))
@@ -92,8 +89,8 @@ import static classes.utils.TJUtility.*
 //     .EUt(16000000)
 //     .buildAndRegister();
 // 
-//     //recipes.addShaped(item('contenttweaker:refinedchaoscrystal'), [[item('contenttweaker:refinedchaosshard'), item('contenttweaker:refinedchaosshard'), item('contenttweaker:refinedchaosshard')],[item('contenttweaker:refinedchaosshard'), item('contenttweaker:refinedchaosshard'), item('contenttweaker:refinedchaosshard')], [item('contenttweaker:refinedchaosshard'), item('contenttweaker:refinedchaosshard'), item('contenttweaker:refinedchaosshard')]]);
-//     recipes.addShapeless(item('contenttweaker:refinedchaosshard') * 9, [item('contenttweaker:refinedchaoscrystal')]);
+//     //crafting.addShaped(item('contenttweaker:refinedchaoscrystal'), [[item('contenttweaker:refinedchaosshard'), item('contenttweaker:refinedchaosshard'), item('contenttweaker:refinedchaosshard')],[item('contenttweaker:refinedchaosshard'), item('contenttweaker:refinedchaosshard'), item('contenttweaker:refinedchaosshard')], [item('contenttweaker:refinedchaosshard'), item('contenttweaker:refinedchaosshard'), item('contenttweaker:refinedchaosshard')]]);
+//     crafting.addShapeless(item('contenttweaker:refinedchaosshard') * 9, [item('contenttweaker:refinedchaoscrystal')]);
 // 
 //     bioreactor.recipeBuilder()
 //     .inputs(item('gregtech:meta_item_1:709') * 10,item('draconicevolution:dragon_heart:0') * 2)
@@ -167,13 +164,13 @@ import static classes.utils.TJUtility.*
 //     .buildAndRegister();
 // 
 //     crafting.removeByOutput(item('draconicevolution:celestial_manipulator:0'));
-//     recipes.addShaped(item('draconicevolution:celestial_manipulator:0'), [[item('minecraft:redstone_block'), item('minecraft:clock:0'), item('minecraft:redstone_block')],[item('gregtech:meta_item_1:12524'), item('gregtech:meta_item_1:32675'), item('gregtech:meta_item_1:12524')], [item('gregtech:meta_item_1:12524'), item('gregtech:meta_item_2:26299'), item('gregtech:meta_item_1:12524')]]);
+//     crafting.addShaped(item('draconicevolution:celestial_manipulator:0'), [[item('minecraft:redstone_block'), item('minecraft:clock:0'), item('minecraft:redstone_block')],[item('gregtech:meta_item_1:12524'), item('gregtech:meta_item_1:32675'), item('gregtech:meta_item_1:12524')], [item('gregtech:meta_item_1:12524'), item('gregtech:meta_item_2:26299'), item('gregtech:meta_item_1:12524')]]);
 //     item('draconicevolution:celestial_manipulator:0').addTooltip(format.darkRed("Will not work on AR planets"));
 // 
 // 
-// recipes.addShaped(item('contenttweaker:chaoticcasing') * 3, [[ore('plateEnrichedNaquadahAlloy'), item('gregtech:meta_tool:6'), ore('plateEnrichedNaquadahAlloy')],[ore('plateEnrichedNaquadahAlloy'), ore('frameGtChaos'), ore('plateEnrichedNaquadahAlloy')], [ore('plateEnrichedNaquadahAlloy'), ore('GTWrench'), ore('plateEnrichedNaquadahAlloy')]]);
-// recipes.addShaped(item('contenttweaker:awakenedcasing') * 3, [[item('gregtech:meta_item_1:12855'), item('gregtech:meta_tool:6'), item('gregtech:meta_item_1:12855')],[item('gregtech:meta_item_1:12855'), ore('frameGtAwakenDraconium'), item('gregtech:meta_item_1:12855')], [item('gregtech:meta_item_1:12855'), ore('GTWrench'), item('gregtech:meta_item_1:12855')]]);
-// recipes.addShaped(item('contenttweaker:draconiccasing') * 3, [[ore('plateDraconium'), item('gregtech:meta_tool:6'), ore('plateDraconium')],[ore('plateDraconium'), ore('frameGtDraconium'), ore('plateDraconium')], [ore('plateDraconium'), ore('GTWrench'), ore('plateDraconium')]]);
+// crafting.addShaped(item('contenttweaker:chaoticcasing') * 3, [[ore('plateEnrichedNaquadahAlloy'), item('gregtech:meta_tool:6'), ore('plateEnrichedNaquadahAlloy')],[ore('plateEnrichedNaquadahAlloy'), ore('frameGtChaos'), ore('plateEnrichedNaquadahAlloy')], [ore('plateEnrichedNaquadahAlloy'), ore('GTWrench'), ore('plateEnrichedNaquadahAlloy')]]);
+// crafting.addShaped(item('contenttweaker:awakenedcasing') * 3, [[item('gregtech:meta_item_1:12855'), item('gregtech:meta_tool:6'), item('gregtech:meta_item_1:12855')],[item('gregtech:meta_item_1:12855'), ore('frameGtAwakenDraconium'), item('gregtech:meta_item_1:12855')], [item('gregtech:meta_item_1:12855'), ore('GTWrench'), item('gregtech:meta_item_1:12855')]]);
+// crafting.addShaped(item('contenttweaker:draconiccasing') * 3, [[ore('plateDraconium'), item('gregtech:meta_tool:6'), ore('plateDraconium')],[ore('plateDraconium'), ore('frameGtDraconium'), ore('plateDraconium')], [ore('plateDraconium'), ore('GTWrench'), ore('plateDraconium')]]);
 // 
 //     assembler.recipeBuilder()
 //     .inputs(item('gregtech:frame_draconium'),ore('plateDraconium') * 6)
@@ -336,7 +333,7 @@ import static classes.utils.TJUtility.*
 //     .EUt(1)
 //     .buildAndRegister();
 // 
-//     recipes.addShaped(item('draconicadditions:chaos_stabilizer_core:0'), [[item('draconicadditions:chaotic_helm:0'), item('draconicadditions:chaotic_staff_of_power:0'), item('draconicadditions:chaotic_chest:0')],[item('draconicevolution:draconic_energy_core:0'), item('draconicadditions:chaotic_energy_core:0'), item('draconicevolution:draconic_energy_core:0')], [item('draconicadditions:chaotic_legs:0'), item('draconicadditions:chaotic_bow:0'), item('draconicadditions:chaotic_boots:0')]]);
+//     crafting.addShaped(item('draconicadditions:chaos_stabilizer_core:0'), [[item('draconicadditions:chaotic_helm:0'), item('draconicadditions:chaotic_staff_of_power:0'), item('draconicadditions:chaotic_chest:0')],[item('draconicevolution:draconic_energy_core:0'), item('draconicadditions:chaotic_energy_core:0'), item('draconicevolution:draconic_energy_core:0')], [item('draconicadditions:chaotic_legs:0'), item('draconicadditions:chaotic_bow:0'), item('draconicadditions:chaotic_boots:0')]]);
 // 
 // Utils.removeRecipeByOutput(bioreactor, [item('gregtech:meta_item_1:709') * 2], [], true);
 // 
