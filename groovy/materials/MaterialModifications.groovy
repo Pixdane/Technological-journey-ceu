@@ -1,10 +1,12 @@
 import gregtech.api.unification.material.properties.PropertyKey
+import gregtech.api.unification.ore.OrePrefix
 
 class MaterialModifications {
 
     static void init() {
         changeFlags()
         modifyProperties()
+        modifyOrePrefixes()
     }
 
     static void changeFlags() {
@@ -46,6 +48,26 @@ class MaterialModifications {
 
         material('gcyl:lv_superconductor_base').getProperty(PropertyKey.WIRE).setLossPerBlock(6)
         material('gcyl:bright_steel').getProperty(PropertyKey.WIRE).setLossPerBlock(2)
+    }
+
+    static void modifyOrePrefixes() {
+
+        OrePrefix.dust.setIgnored(material('tjceu:soularium'))
+        OrePrefix.nugget.setIgnored(material('tjceu:soularium'))
+        OrePrefix.ingot.setIgnored(material('tjceu:soularium'))
+        OrePrefix.block.setIgnored(material('tjceu:soularium'))
+
+        OrePrefix.dust.setIgnored(material('gcyl:draconium'))
+        OrePrefix.nugget.setIgnored(material('gcyl:draconium'))
+        OrePrefix.ingot.setIgnored(material('gcyl:draconium'))
+        OrePrefix.block.setIgnored(material('gcyl:draconium'))
+
+        OrePrefix.nugget.setIgnored(material('gcyl:awaken_draconium'))
+        OrePrefix.ingot.setIgnored(material('gcyl:awaken_draconium'))
+        OrePrefix.block.setIgnored(material('gcyl:awaken_draconium'))
+
+        OrePrefix.gem.setIgnored(material('tjceu:aquamarine'))
+
     }
 
 }

@@ -1,4 +1,8 @@
 import classes.mtes.TJMetaTileEntities
+import materials.unification.TJUnifications
 
-// no_reload
+// Registering MTEs
 TJMetaTileEntities.register()
+
+// Modify unification data
+TJUnifications.registerUnifications()
