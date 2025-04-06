@@ -1,5 +1,3 @@
-print(blockstate('enderio:block_fused_quartz', 'color=white', 'render=auto'))
-
 ALLOY_SMELTER = recipemap('alloy_smelter')
 AUTOCLAVE = recipemap('autoclave')
 MACERATOR = recipemap('macerator')
