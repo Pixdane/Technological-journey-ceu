@@ -1,10 +1,10 @@
-import static classes.utils.TJUtility.tjceu
+import static classes.utils.TJUtility.*
 
 ASSEMBLER = recipemap('assembler')
 LASER_ENGRAVER = recipemap('laser_engraver')
 
 
-//red
+// Red
 ASSEMBLER.recipeBuilder()
         .inputs([item('actuallyadditions:block_crystal'), item('minecraft:brick') * 2, item('minecraft:netherbrick') * 2, item('minecraft:redstone_block') * 2])
         .fluidInputs(fluid('plastic') * 288)
@@ -12,6 +12,7 @@ ASSEMBLER.recipeBuilder()
         .duration(160)
         .EUt(120)
         .buildAndRegister()
+
 ASSEMBLER.recipeBuilder()
         .inputs([item('actuallyadditions:item_crystal'), item('minecraft:brick_block') * 2, item('minecraft:nether_brick') * 2, item('minecraft:redstone_block') * 2])
         .fluidInputs(fluid('plastic') * 288)
@@ -19,7 +20,8 @@ ASSEMBLER.recipeBuilder()
         .duration(160)
         .EUt(120)
         .buildAndRegister()
-//blue
+
+// Blue
 ASSEMBLER.recipeBuilder()
         .inputs([item('actuallyadditions:block_crystal:1'), item('minecraft:prismarine') * 2, item('minecraft:lapis_block') * 2])
         .fluidInputs(fluid('plastic') * 288)
@@ -27,6 +29,7 @@ ASSEMBLER.recipeBuilder()
         .duration(160)
         .EUt(120)
         .buildAndRegister()
+
 ASSEMBLER.recipeBuilder()
         .inputs([item('actuallyadditions:item_crystal:1'), item('minecraft:prismarine') * 2, item('minecraft:lapis_block') * 2])
         .fluidInputs(fluid('plastic') * 288)
@@ -34,7 +37,8 @@ ASSEMBLER.recipeBuilder()
         .duration(160)
         .EUt(120)
         .buildAndRegister()
-//white
+
+// White
 ASSEMBLER.recipeBuilder()
         .inputs([item('actuallyadditions:block_crystal:5'), item('minecraft:snow') * 2, item('minecraft:stone') * 2])
         .fluidInputs(fluid('plastic') * 288)
@@ -42,6 +46,7 @@ ASSEMBLER.recipeBuilder()
         .duration(160)
         .EUt(120)
         .buildAndRegister()
+
 ASSEMBLER.recipeBuilder()
         .inputs([item('actuallyadditions:item_crystal:5'), item('minecraft:snow') * 2, item('minecraft:stone') * 2])
         .fluidInputs(fluid('plastic') * 288)
@@ -49,7 +54,8 @@ ASSEMBLER.recipeBuilder()
         .duration(160)
         .EUt(120)
         .buildAndRegister()
-//black
+        
+// Black
 ASSEMBLER.recipeBuilder()
         .inputs([item('actuallyadditions:block_crystal:3'), ore('blockCharcoal') * 2, ore('blockCoalCoke') * 2])
         .fluidInputs(fluid('plastic') * 288)
@@ -57,6 +63,7 @@ ASSEMBLER.recipeBuilder()
         .duration(160)
         .EUt(120)
         .buildAndRegister()
+
 ASSEMBLER.recipeBuilder()
         .inputs([item('actuallyadditions:item_crystal:3'), ore('blockCharcoal') * 2, ore('blockCoalCoke') * 2])
         .fluidInputs(fluid('plastic') * 288)
@@ -64,7 +71,8 @@ ASSEMBLER.recipeBuilder()
         .duration(160)
         .EUt(120)
         .buildAndRegister()
-//light blue
+
+// Light blue
 ASSEMBLER.recipeBuilder()
         .inputs([item('actuallyadditions:block_crystal:2'), item('minecraft:clay') * 4])
         .fluidInputs(fluid('plastic') * 288)
@@ -72,6 +80,7 @@ ASSEMBLER.recipeBuilder()
         .duration(160)
         .EUt(120)
         .buildAndRegister()
+
 ASSEMBLER.recipeBuilder()
         .inputs([item('actuallyadditions:item_crystal:2'), item('minecraft:clay') * 4])
         .fluidInputs(fluid('plastic') * 288)
@@ -79,7 +88,8 @@ ASSEMBLER.recipeBuilder()
         .duration(160)
         .EUt(120)
         .buildAndRegister()
-//green
+
+// Green
 ASSEMBLER.recipeBuilder()
         .inputs([item('actuallyadditions:block_crystal:4'), ore('blockSlime') * 2, metaitem('plant_ball') * 2])
         .fluidInputs(fluid('plastic') * 288)
@@ -87,6 +97,7 @@ ASSEMBLER.recipeBuilder()
         .duration(160)
         .EUt(120)
         .buildAndRegister()
+
 ASSEMBLER.recipeBuilder()
         .inputs([item('actuallyadditions:item_crystal:4'), ore('blockSlime') * 2, metaitem('plant_ball') * 2])
         .fluidInputs(fluid('plastic') * 288)
@@ -97,9 +108,9 @@ ASSEMBLER.recipeBuilder()
 
 crafting.addShaped(tjceu('stainless_steel_casing'), item('actuallyadditions:block_misc:9'), [[null, ore('plateStainlessSteel'), null], [ore('plateStainlessSteel'), item('actuallyadditions:item_misc:5'), ore('plateStainlessSteel')], [null, ore('plateStainlessSteel'), null]])
 
-// TODO: custom lense for AA recipes?
+// TODO: custom lens for AA recipes?
 
-//attomic recipes
+// Attomic recipes
 LASER_ENGRAVER.recipeBuilder()
         .inputs(item('minecraft:quartz_block', 1))
         .notConsumable(ore('craftingLensGreen'))
@@ -217,6 +228,7 @@ crafting.addShaped(tjceu('block_laser_relay_item'), item('actuallyadditions:bloc
         [item('actuallyadditions:item_crystal:4'), item('actuallyadditions:item_misc:8'), item('actuallyadditions:item_crystal:4')],
         [item('minecraft:obsidian'), item('minecraft:emerald_block'), item('minecraft:obsidian')]
 ])
+
 crafting.addShaped(tjceu('block_laser_relay_fluids'), item('actuallyadditions:block_laser_relay_fluids') * 4, [
         [item('minecraft:obsidian'), item('minecraft:lapis_block'), item('minecraft:obsidian')],
         [item('actuallyadditions:item_crystal:1'), item('actuallyadditions:item_misc:8'), item('actuallyadditions:item_crystal:1')],
