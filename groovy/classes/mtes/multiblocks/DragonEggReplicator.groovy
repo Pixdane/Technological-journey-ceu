@@ -8,7 +8,6 @@ import gregtech.api.metatileentity.multiblock.RecipeMapMultiblockController
 import gregtech.api.pattern.BlockPattern
 import gregtech.api.pattern.FactoryBlockPattern
 import gregtech.client.renderer.ICubeRenderer
-import gregtech.client.renderer.texture.Textures
 
 class DragonEggReplicator extends RecipeMapMultiblockController {
     DragonEggReplicator(ResourceLocation metaTileEntityId) {
