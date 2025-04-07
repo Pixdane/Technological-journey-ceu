@@ -1,7 +1,6 @@
 import gregicality.multiblocks.api.fluids.GCYMFluidStorageKeys
 import gregtech.api.fluids.FluidBuilder
 import gregtech.api.unification.material.Material
-import gregtech.api.unification.material.properties.ToolProperty
 
 import static classes.utils.TJUtility.tjId
 import static gregtech.api.unification.material.Materials.*

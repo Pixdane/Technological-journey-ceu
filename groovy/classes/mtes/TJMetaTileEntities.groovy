@@ -33,12 +33,12 @@ class TJMetaTileEntities {
 
         // Singleblocks 0 - 1999
         MTE.builder()
-            .name('vial_processor')
-            .startId(0)
-            .mtes(VIAL_PROCESSOR)
-            .recipeMap(TJRecipeMaps.VIAL_PROCESSING)
-            .renderer(Textures.EXTRACTOR_OVERLAY) // TODO: custom overlay?
-            .build().register()
+                .name('vial_processor')
+                .startId(0)
+                .mtes(VIAL_PROCESSOR)
+                .recipeMap(TJRecipeMaps.VIAL_PROCESSING)
+                .renderer(Textures.EXTRACTOR_OVERLAY) // TODO: custom overlay?
+                .build().register()
 
         // Multiblocks 2000 - 2999
         PRIMITIVE_ALLOY_SMELTER = mte(2000, new PrimitiveAlloySmelter(tjId('primitive_alloy_smelter')))
@@ -49,10 +49,14 @@ class TJMetaTileEntities {
         LARGE_POWERED_SPAWNER = mte(2005, new LargePoweredSpawner(tjId('large_powered_spawner')))
 
         // Hatches 3000 - 3999
-        HV_QUADRUPLE_IMPORT_HATCH = mte(3000, new MetaTileEntityMultiFluidHatch(tjId('fluid_hatch.import_4x.hv'), GTValues.HV, 4, false){}) // Using anonymous class as a workaround on subitem registration
-        HV_QUADRUPLE_EXPORT_HATCH = mte(3001, new MetaTileEntityMultiFluidHatch(tjId('fluid_hatch.export_4x.hv'), GTValues.HV, 4, true){})
-        HV_NONUPLE_IMPORT_HATCH = mte(3002, new MetaTileEntityMultiFluidHatch(tjId('fluid_hatch.import_9x.hv'), GTValues.HV, 9, false){})
-        HV_NONUPLE_EXPORT_HATCH = mte(3003, new MetaTileEntityMultiFluidHatch(tjId('fluid_hatch.export_9x.hv'), GTValues.HV, 9, true){})
+        HV_QUADRUPLE_IMPORT_HATCH = mte(3000, new MetaTileEntityMultiFluidHatch(tjId('fluid_hatch.import_4x.hv'), GTValues.HV, 4, false) {
+        }) // Using anonymous class as a workaround on subitem registration
+        HV_QUADRUPLE_EXPORT_HATCH = mte(3001, new MetaTileEntityMultiFluidHatch(tjId('fluid_hatch.export_4x.hv'), GTValues.HV, 4, true) {
+        })
+        HV_NONUPLE_IMPORT_HATCH = mte(3002, new MetaTileEntityMultiFluidHatch(tjId('fluid_hatch.import_9x.hv'), GTValues.HV, 9, false) {
+        })
+        HV_NONUPLE_EXPORT_HATCH = mte(3003, new MetaTileEntityMultiFluidHatch(tjId('fluid_hatch.export_9x.hv'), GTValues.HV, 9, true) {
+        })
 
         // Others 4000 - 4999
 
@@ -74,8 +78,8 @@ class TJMetaTileEntities {
 
         void register() {
             MetaTileEntities.registerMetaTileEntities(mtes, startId, name, { tier, voltageName ->
-                new SimpleMachineMetaTileEntity(tjId("${name}.${voltageName}"), recipeMap, renderer, tier, directional, GTUtility.defaultTankSizeFunction) }
-            )
+                new SimpleMachineMetaTileEntity(tjId("${name}.${voltageName}"), recipeMap, renderer, tier, directional, GTUtility.defaultTankSizeFunction)
+            })
 
         }
 

@@ -5,22 +5,22 @@ LPS = recipemap('soul_capture')
 def vial = { it.isEmpty() ? item('enderio:item_soul_vial') : item('enderio:item_soul_vial', 1).withNbt(['entityId': it]) }
 
 def mobs = [
-    'minecraft:enderman',
-    'minecraft:zombie',
-    'minecraft:skeleton',
-    'minecraft:blaze',
-    'minecraft:ghast',
-    'minecraft:spider',
-    'minecraft:slime',
-    'minecraft:creeper',
-    'minecraft:magma_cube',
-    'minecraft:witch',
-    'minecraft:wither_skeleton',
-    'minecraft:snowman',
-    'minecraft:sheep',
-    'minecraft:pig',
-    'minecraft:chicken',
-    'minecraft:cow'
+        'minecraft:enderman',
+        'minecraft:zombie',
+        'minecraft:skeleton',
+        'minecraft:blaze',
+        'minecraft:ghast',
+        'minecraft:spider',
+        'minecraft:slime',
+        'minecraft:creeper',
+        'minecraft:magma_cube',
+        'minecraft:witch',
+        'minecraft:wither_skeleton',
+        'minecraft:snowman',
+        'minecraft:sheep',
+        'minecraft:pig',
+        'minecraft:chicken',
+        'minecraft:cow'
 ]
 
 VIAL_PROCESSOR.recipeBuilder()
@@ -72,7 +72,7 @@ LVP.recipeBuilder()
                 item('enderio:block_enderman_skull') * 192,
                 item('minecraft:ender_pearl') * 192,
                 item('actuallyadditions:item_solidified_experience') * 128
-                )
+        )
         .duration(20)
         .EUt(30720)
         .buildAndRegister()
@@ -87,7 +87,7 @@ LVP.recipeBuilder()
                 item('minecraft:carrot') * 4,
                 item('minecraft:melon') * 4,
                 item('actuallyadditions:item_solidified_experience') * 128
-                )
+        )
         .duration(20)
         .EUt(30720)
         .buildAndRegister()
@@ -99,7 +99,7 @@ LVP.recipeBuilder()
                 item('minecraft:skull') * 24,
                 item('minecraft:bone') * 128,
                 item('actuallyadditions:item_solidified_experience') * 128
-                )
+        )
         .duration(20)
         .EUt(30720)
         .buildAndRegister()
@@ -111,7 +111,7 @@ LVP.recipeBuilder()
                 item('minecraft:blaze_rod') * 160,
                 item('minecraft:blaze_powder') * 64,
                 item('actuallyadditions:item_solidified_experience') * 128
-                )
+        )
         .duration(20)
         .EUt(30720)
         .buildAndRegister()
@@ -123,7 +123,7 @@ LVP.recipeBuilder()
                 item('minecraft:ghast_tear') * 112,
                 metaitem('dustSalt') * 48,
                 item('actuallyadditions:item_solidified_experience') * 128
-                )
+        )
         .duration(20)
         .EUt(30720)
         .buildAndRegister()
@@ -136,7 +136,7 @@ LVP.recipeBuilder()
                 item('minecraft:web') * 12,
                 item('minecraft:spider_eye') * 16,
                 item('actuallyadditions:item_solidified_experience') * 128
-                )
+        )
         .duration(20)
         .EUt(30720)
         .buildAndRegister()
@@ -148,7 +148,7 @@ LVP.recipeBuilder()
                 item('minecraft:slime_ball') * 128,
                 item('minecraft:slime') * 4,
                 item('actuallyadditions:item_solidified_experience') * 128
-                )
+        )
         .duration(20)
         .EUt(30720)
         .buildAndRegister()
@@ -163,7 +163,7 @@ LVP.recipeBuilder()
                 metaitem('dustSaltpeter') * 16,
                 metaitem('dustCoal') * 16,
                 item('actuallyadditions:item_solidified_experience') * 128
-                )
+        )
         .duration(20)
         .EUt(30720)
         .buildAndRegister()
@@ -175,7 +175,7 @@ LVP.recipeBuilder()
                 item('minecraft:magma_cream') * 80,
                 item('minecraft:blaze_powder') * 32,
                 item('actuallyadditions:item_solidified_experience') * 128
-                )
+        )
         .duration(20)
         .EUt(30720)
         .buildAndRegister()
@@ -192,7 +192,7 @@ LVP.recipeBuilder()
                 item('minecraft:glass_bottle') * 12,
                 item('minecraft:potion').withNbt(['Potion': 'minecraft:water']) * 4,
                 item('actuallyadditions:item_solidified_experience') * 128
-                )
+        )
         .duration(20)
         .EUt(30720)
         .buildAndRegister()
@@ -205,7 +205,7 @@ LVP.recipeBuilder()
                 item('minecraft:bone') * 48,
                 metaitem('dustCoal') * 32,
                 item('actuallyadditions:item_solidified_experience') * 128
-                )
+        )
         .duration(20)
         .EUt(30720)
         .buildAndRegister()
@@ -219,7 +219,7 @@ LVP.recipeBuilder()
                 item('minecraft:ice') * 8,
                 item('minecraft:pumpkin') * 4,
                 item('actuallyadditions:item_solidified_experience') * 128
-                )
+        )
         .duration(20)
         .EUt(30720)
         .buildAndRegister()
@@ -232,7 +232,7 @@ LVP.recipeBuilder()
                 item('minecraft:mutton') * 128,
                 item('minecraft:string') * 32,
                 item('actuallyadditions:item_solidified_experience') * 128
-                )
+        )
         .duration(20)
         .EUt(30720)
         .buildAndRegister()
@@ -243,7 +243,7 @@ LVP.recipeBuilder()
                 vial('') * 16,
                 item('minecraft:porkchop') * 1024,
                 item('actuallyadditions:item_solidified_experience') * 128
-                )
+        )
         .duration(20)
         .EUt(30720)
         .buildAndRegister()
@@ -255,7 +255,7 @@ LVP.recipeBuilder()
                 item('minecraft:egg') * 960,
                 item('minecraft:feather') * 400,
                 item('actuallyadditions:item_solidified_experience') * 128
-                )
+        )
         .duration(20)
         .EUt(30720)
         .buildAndRegister()
@@ -266,21 +266,21 @@ LVP.recipeBuilder()
                 item('minecraft:beef') * 512,
                 item('minecraft:leather') * 128,
                 item('actuallyadditions:item_solidified_experience') * 128
-                )
+        )
         .fluidOutputs(fluid('milk') * 16000)
         .duration(20)
         .EUt(30720)
         .buildAndRegister()
 
 mobs.eachWithIndex { mob, i ->
-        LPS.recipeBuilder()
-        .inputs(vial('') * 16)
-        .fluidInputs(fluid('xpjuice') * 16000)
-        .circuitMeta(i)
-        .outputs(vial(mob) * 16)
-        .duration(20)
-        .EUt(30720)
-        .buildAndRegister()
+    LPS.recipeBuilder()
+            .inputs(vial('') * 16)
+            .fluidInputs(fluid('xpjuice') * 16000)
+            .circuitMeta(i)
+            .outputs(vial(mob) * 16)
+            .duration(20)
+            .EUt(30720)
+            .buildAndRegister()
 }
 
 // TODO: more recipes

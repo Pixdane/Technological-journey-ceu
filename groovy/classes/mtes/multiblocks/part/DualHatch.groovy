@@ -56,7 +56,7 @@ import org.jetbrains.annotations.NotNull
 import org.jetbrains.annotations.Nullable
 
 class DualHatch extends MetaTileEntityMultiblockNotifiablePart
-                                           implements IMultiblockAbilityPart<Object>, IControllable, IGhostSlotConfigurable {
+        implements IMultiblockAbilityPart<Object>, IControllable, IGhostSlotConfigurable {
 
     private static final int BASE_TANK_SIZE = 8000
 
@@ -310,8 +310,8 @@ class DualHatch extends MetaTileEntityMultiblockNotifiablePart
     @Override
     List<MultiblockAbility> getAbilities() {
         return [
-            (isExportHatch ? MultiblockAbility.EXPORT_ITEMS : MultiblockAbility.IMPORT_ITEMS),
-            (isExportHatch ? MultiblockAbility.EXPORT_FLUIDS : MultiblockAbility.IMPORT_FLUIDS)
+                (isExportHatch ? MultiblockAbility.EXPORT_ITEMS : MultiblockAbility.IMPORT_ITEMS),
+                (isExportHatch ? MultiblockAbility.EXPORT_FLUIDS : MultiblockAbility.IMPORT_FLUIDS)
         ]
     }
 
@@ -463,13 +463,15 @@ class DualHatch extends MetaTileEntityMultiblockNotifiablePart
                         .add(new ItemSlot()
                                 .slot(SyncHandlers.itemSlot(handler, index)
                                         .slotGroup("item_inv")
-                                        .changeListener({newItem, onlyAmountChanged, client, init -> {
-                                            if (onlyAmountChanged &&
-                                                    handler instanceof GTItemStackHandler) {
-                                                GTItemStackHandler gtHandler = (GTItemStackHandler) handler
-                                                gtHandler.onContentsChanged(index)
+                                        .changeListener({ newItem, onlyAmountChanged, client, init ->
+                                            {
+                                                if (onlyAmountChanged &&
+                                                        handler instanceof GTItemStackHandler) {
+                                                    GTItemStackHandler gtHandler = (GTItemStackHandler) handler
+                                                    gtHandler.onContentsChanged(index)
+                                                }
                                             }
-                                        }})
+                                        })
                                         .accessibility(!isExportHatch, true)))
             }
         }
@@ -499,30 +501,35 @@ class DualHatch extends MetaTileEntityMultiblockNotifiablePart
                                 .value(new BoolValue.Dynamic(workingStateValue::getBoolValue,
                                         workingStateValue::setBoolValue))
                                 .overlay(GTGuiTextures.BUTTON_ITEM_OUTPUT)
-                                .tooltipBuilder({t -> t.setAutoUpdate(true)
-                                        .addLine(isExportHatch ?
-                                                (workingStateValue.getBoolValue() ?
-                                                        IKey.lang("gregtech.gui.item_auto_output.tooltip.enabled") :
-                                                        IKey.lang("gregtech.gui.item_auto_output.tooltip.disabled")) :
-                                                (workingStateValue.getBoolValue() ?
-                                                        IKey.lang("gregtech.gui.item_auto_input.tooltip.enabled") :
-                                                        IKey.lang("gregtech.gui.item_auto_input.tooltip.disabled")))}))
+                                .tooltipBuilder({ t ->
+                                    t.setAutoUpdate(true)
+                                            .addLine(isExportHatch ?
+                                                    (workingStateValue.getBoolValue() ?
+                                                            IKey.lang("gregtech.gui.item_auto_output.tooltip.enabled") :
+                                                            IKey.lang("gregtech.gui.item_auto_output.tooltip.disabled")) :
+                                                    (workingStateValue.getBoolValue() ?
+                                                            IKey.lang("gregtech.gui.item_auto_input.tooltip.enabled") :
+                                                            IKey.lang("gregtech.gui.item_auto_input.tooltip.disabled")))
+                                }))
                         .child(new ToggleButton()
                                 .top(18)
                                 .value(new BoolValue.Dynamic(collapseStateValue::getBoolValue,
                                         collapseStateValue::setBoolValue))
                                 .overlay(GTGuiTextures.BUTTON_AUTO_COLLAPSE)
-                                .tooltipBuilder({t -> t.setAutoUpdate(true)
-                                        .addLine(collapseStateValue.getBoolValue() ?
-                                                IKey.lang("gregtech.gui.item_auto_collapse.tooltip.enabled") :
-                                                IKey.lang("gregtech.gui.item_auto_collapse.tooltip.disabled"))}))
+                                .tooltipBuilder({ t ->
+                                    t.setAutoUpdate(true)
+                                            .addLine(collapseStateValue.getBoolValue() ?
+                                                    IKey.lang("gregtech.gui.item_auto_collapse.tooltip.enabled") :
+                                                    IKey.lang("gregtech.gui.item_auto_collapse.tooltip.disabled"))
+                                }))
                         .childIf(hasGhostCircuit, new GhostCircuitSlotWidget()
                                 .slot(SyncHandlers.itemSlot(circuitInventory, 0))
                                 .background(GTGuiTextures.SLOT, GTGuiTextures.INT_CIRCUIT_OVERLAY))
                         .childIf(!hasGhostCircuit, new Widget<>()
                                 .background(GTGuiTextures.SLOT, GTGuiTextures.BUTTON_X)
-                                .tooltip({t -> t.addLine(
-                                        IKey.lang("gregtech.gui.configurator_slot.unavailable.tooltip"))
+                                .tooltip({ t ->
+                                    t.addLine(
+                                            IKey.lang("gregtech.gui.configurator_slot.unavailable.tooltip"))
                                 })))
     }
 }

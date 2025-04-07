@@ -1,8 +1,4 @@
-import mods.astralsorcery.grindstone
-import mods.astralsorcery.infusion_altar
-import mods.astralsorcery.light_transmutation
-import mods.astralsorcery.lightwell
-import mods.astralsorcery.starlight_altar
+import mods.astralsorcery.*
 
 EBF = recipemap('electric_blast_furnace')
 MIXER = recipemap('mixer')

@@ -48,7 +48,7 @@
 //     .buildAndRegister();
 // 
 //     assembly_line.recipeBuilder()
-//     .inputs(item('gregtech:frame_quantum') * 10,ore('plateCinobite') * 10,ore('plateAwakenDraconium') * 10,item('gregtech:meta_item_1:12520') * 10,item('gtadditions:ga_meta_item:32381'), item('gtadditions:ga_meta_item:32393'), item('gtadditions:ga_meta_item:32375'), ore('circuitUxv'), item('contenttweaker:refinedchaoscrystal'),item('draconicevolution:awakened_core:0'))
+//     .inputs(item('gregtech:frame_quantum') * 10,ore('plateCinobite') * 10,ore('plateAwakenDraconium') * 10,item('gregtech:meta_item_1:12520') * 10,item('gtadditions:ga_meta_item:32381'), item('gtadditions:ga_meta_item:32393'), item('gtadditions:ga_meta_item:32375'), ore('circuitUxv'), metaitem('tjceu:crystal.refined_chaos'),item('draconicevolution:awakened_core:0'))
 //     .outputs(item('draconicevolution:chaotic_core:0') * 2)
 //     .duration(600)
 //     .EUt(33554432)
@@ -58,29 +58,29 @@
 //     chemical_bath.recipeBuilder()
 //     .inputs(item('draconicevolution:chaos_shard:0'))
 //     .fluidInputs(fluid('rutherfordium') * 1000)
-//     .outputs(item('contenttweaker:refinedchaoscrystal')* 2)
+//     .outputs(metaitem('tjceu:crystal.refined_chaos')* 2)
 //     .duration(600)
 //     .EUt(8388608)
 //     .buildAndRegister();
 // 
 //     chemical_bath.recipeBuilder()
-//     .inputs(item('contenttweaker:refinedchaosshard') * 9)
+//     .inputs(metaitem('tjceu:shard.refined_chaos') * 9)
 //     .fluidInputs(fluid('rutherfordium') * 500)
-//     .outputs(item('contenttweaker:refinedchaoscrystal'))
+//     .outputs(metaitem('tjceu:crystal.refined_chaos'))
 //     .duration(600)
 //     .EUt(131072)
 //     .buildAndRegister();
 // 
 //     Stellar.recipeBuilder()
-//     .inputs(item('draconicevolution:awakened_core:0') * 3,item('contenttweaker:refinedchaoscrystal'),ore('blockAwakenDraconium') * 2)
-//     .fluidOutputs(fluid('rawchaos') * 2592)
+//     .inputs(item('draconicevolution:awakened_core:0') * 3,metaitem('tjceu:crystal.refined_chaos'),ore('blockAwakenDraconium') * 2)
+//     .fluidOutputs(fluid('raw_chaos') * 2592)
 //     .duration(600)
 //     .EUt(8388608)
 //     .buildAndRegister();
 // 
 //     Stellar.recipeBuilder()
 //     .inputs(item('draconicevolution:awakened_core:0'),item('draconicadditions:chaos_heart:0'),ore('blockAwakenDraconium') * 4)
-//     .fluidOutputs(fluid('rawchaos') * 5184)
+//     .fluidOutputs(fluid('raw_chaos') * 5184)
 //     .outputs(item('draconicevolution:dragon_heart:0'))
 //     .duration(600)
 //     .EUt(8388608)
@@ -88,7 +88,7 @@
 // 
 // 
 //     ADVFusion.recipeBuilder()
-//     .fluidInputs(fluid('rawchaos') * 288, fluid('bohrium') * 288)//,fluid('lead_bismuth_eutatic') * 7440)
+//     .fluidInputs(fluid('raw_chaos') * 288, fluid('bohrium') * 288)//,fluid('lead_bismuth_eutatic') * 7440)
 //     .fluidOutputs(fluid('plasma.chaos') * 576)//, fluid('supercritical_lead_bismuth_eutectic') * 7440)
 //     .property("eu_to_start", 2000000000)
 //     .property("coilTier", 5)
@@ -97,20 +97,20 @@
 //     .EUt(16000000)
 //     .buildAndRegister();
 // 
-//     //crafting.addShaped(item('contenttweaker:refinedchaoscrystal'), [[item('contenttweaker:refinedchaosshard'), item('contenttweaker:refinedchaosshard'), item('contenttweaker:refinedchaosshard')],[item('contenttweaker:refinedchaosshard'), item('contenttweaker:refinedchaosshard'), item('contenttweaker:refinedchaosshard')], [item('contenttweaker:refinedchaosshard'), item('contenttweaker:refinedchaosshard'), item('contenttweaker:refinedchaosshard')]]);
-//     crafting.addShapeless(item('contenttweaker:refinedchaosshard') * 9, [item('contenttweaker:refinedchaoscrystal')]);
+//     //crafting.addShaped(metaitem('tjceu:crystal.refined_chaos'), [[metaitem('tjceu:shard.refined_chaos'), metaitem('tjceu:shard.refined_chaos'), metaitem('tjceu:shard.refined_chaos')],[metaitem('tjceu:shard.refined_chaos'), metaitem('tjceu:shard.refined_chaos'), metaitem('tjceu:shard.refined_chaos')], [metaitem('tjceu:shard.refined_chaos'), metaitem('tjceu:shard.refined_chaos'), metaitem('tjceu:shard.refined_chaos')]]);
+//     crafting.addShapeless(metaitem('tjceu:shard.refined_chaos') * 9, [metaitem('tjceu:crystal.refined_chaos')]);
 // 
 //     bioreactor.recipeBuilder()
 //     .inputs(item('gregtech:meta_item_1:709') * 10,item('draconicevolution:dragon_heart:0') * 2)
 //     .fluidInputs(fluid('sterilized_growth_medium') * 2000)
-//     .fluidOutputs(fluid('dragonstem') * 2000)
+//     .fluidOutputs(fluid('draconic_stem_cell_fluid') * 2000)
 //     .duration(600)
 //     .EUt(2097152)
 //     .buildAndRegister();
 // 
 //     Stellar.recipeBuilder()
 //     .inputs(item('draconicevolution:wyvern_core:0') * 2,ore('blockDraconium') * 3)
-//     .fluidInputs(fluid('dragonstem') * 2000)
+//     .fluidInputs(fluid('draconic_stem_cell_fluid') * 2000)
 //     .fluidOutputs(fluid('depleted_growth_medium') * 2000, fluid('plasma.awaken_draconium') * 3888)
 //     .duration(100)
 //     .EUt(8388608)
@@ -149,7 +149,7 @@
 //     .buildAndRegister();
 // 
 //     assembly_line.recipeBuilder()
-//     .inputs(ore('enderpearl,gemEnderPearl,materialEnderPearl') * 3,ore('gemEnderEye,pearlEnderEye') * 7,item('draconicevolution:dislocator:0'),item('gregtech:meta_item_1:32724'))
+//     .inputs(ore('enderpearl') * 3,ore('pearlEnderEye') * 7,item('draconicevolution:dislocator:0'),item('gregtech:meta_item_1:32724'))
 //     .fluidInputs(fluid('draconium') * 576)
 //     .outputs(item('draconicevolution:dislocator_advanced:0'))
 //     .duration(200)
@@ -157,7 +157,7 @@
 //     .buildAndRegister();
 // 
 //     assembly_line.recipeBuilder()
-//     .inputs(ore('gemEnderEye,pearlEnderEye') * 7,item('draconicevolution:wyvern_core:0'),item('draconicevolution:draconic_core:0') * 2,item('draconicevolution:dislocator:0'),item('draconicadditions:chaotic_energy_core:0'),ore('itemSkull'))
+//     .inputs(ore('pearlEnderEye') * 7,item('draconicevolution:wyvern_core:0'),item('draconicevolution:draconic_core:0') * 2,item('draconicevolution:dislocator:0'),item('draconicadditions:chaotic_energy_core:0'),ore('itemSkull'))
 //     .fluidInputs(fluid('blaze') * 2304)
 //     .outputs(item('draconicevolution:ender_energy_manipulator:0'))
 //     .duration(200)
@@ -333,7 +333,7 @@
 //     .buildAndRegister();
 // 
 //     assembly_line.recipeBuilder()
-//     .inputs(item('thermalfoundation:upgrade:256') * 1,item('storagedrawers:upgrade_creative:0') * 1, item('draconicevolution:draconium_capacitor:2'), item('contenttweaker:refinedchaoscrystal') * 64, item('contenttweaker:refinedchaoscrystal') * 64,item('contenttweaker:certificate_of_being_a_noob'), ore('circuitMax'),item('gcyl:gcyl_meta_item:383') * 4,item('contenttweaker:eternitycrystal') * 4)
+//     .inputs(item('thermalfoundation:upgrade:256') * 1,item('storagedrawers:upgrade_creative:0') * 1, item('draconicevolution:draconium_capacitor:2'), metaitem('tjceu:crystal.refined_chaos') * 64, metaitem('tjceu:crystal.refined_chaos') * 64,item('contenttweaker:certificate_of_being_a_noob'), ore('circuitMax'),item('gcyl:gcyl_meta_item:383') * 4,metaitem('tjceu:crystal.eternity') * 4)
 //     .inputs(item('draconicadditions:chaos_stabilizer_core:0'), item('gregtech:meta_item_2:32715'), item('gtadditions:ga_cell_casing:11') * 64,item('gtadditions:ga_cell_casing:11') * 64,item('gtadditions:ga_cell_casing:11') * 14, item('gtadditions:ga_multiblock_casing:12'), item('nae2:material:4') * 64)
 //     .fluidInputs(fluid('chaosalloy') * 11520)
 //     .outputs(item('appliedenergistics2:creative_storage_cell:0'))
@@ -363,7 +363,7 @@
 //     .buildAndRegister();
 // 
 // blast_furnace.recipeBuilder()
-//     .inputs(item('contenttweaker:refinedchaoscrystal') * 1, ore('boltChaosalloy') * 8, item('gcyl:gcyl_meta_item:561') * 1)
+//     .inputs(metaitem('tjceu:crystal.refined_chaos') * 1, ore('boltChaosalloy') * 8, item('gcyl:gcyl_meta_item:561') * 1)
 //     .fluidInputs(fluid('light_quarks') * 750)
 //     .outputs(item('contenttweaker:infintycrystal'))
 //     .property("temperature", 19302)
@@ -408,7 +408,7 @@
 // blast_furnace.recipeBuilder()
 //     .inputs(item('gcyl:gcyl_meta_item:559'), item('gcyl:gcyl_meta_item:569') * 8, item('contenttweaker:infintycrystal'))
 //     .fluidInputs(fluid('high_energy_qgp') * 288)
-//     .outputs(item('contenttweaker:eternitycrystal'))
+//     .outputs(metaitem('tjceu:crystal.eternity'))
 //     .property("temperature", 51237)
 //     .duration(10000)
 //     .EUt(536870900)

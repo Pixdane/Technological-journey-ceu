@@ -21,22 +21,22 @@ mods.gregtech.vacuum_freezer.removeByInput(120, [metaitem('ingotHotIron')], null
 
 // Iron Ingot -> Hot Iron Ingot
 furnace.recipeBuilder()
-    .input(ore('ingotIron'))
-    .output(metaitem('ingotHotIron'))
-    .exp(0.1)
-    .register()
+        .input(ore('ingotIron'))
+        .output(metaitem('ingotHotIron'))
+        .exp(0.1)
+        .register()
 
 // Hot Iron Ingot -> Wrought Iron Ingot
 crafting.shapelessBuilder()
-    .input(ore('craftingToolHardHammer'), ore('ingotHotIron'))
-    .name(tjId('wrought_iron_forging'))
-    .output(metaitem('ingotWroughtIron'))
-    .register()
+        .input(ore('craftingToolHardHammer'), ore('ingotHotIron'))
+        .name(tjId('wrought_iron_forging'))
+        .output(metaitem('ingotWroughtIron'))
+        .register()
 
 // Hot Iron Ingot -> Wrought Iron Ingot
 ALLOY_SMELTER.recipeBuilder()
-    .inputs(ore('ingotHotIron'))
-    .outputs(metaitem('ingotWroughtIron'))
-    .duration(150)
-    .EUt(6)
-    .buildAndRegister()
+        .inputs(ore('ingotHotIron'))
+        .outputs(metaitem('ingotWroughtIron'))
+        .duration(150)
+        .EUt(6)
+        .buildAndRegister()

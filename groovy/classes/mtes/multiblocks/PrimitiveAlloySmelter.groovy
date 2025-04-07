@@ -1,8 +1,8 @@
-import gregtech.api.metatileentity.multiblock.ParallelLogicType
 import gregtech.api.capability.impl.SteamMultiWorkable
 import gregtech.api.metatileentity.MetaTileEntity
 import gregtech.api.metatileentity.interfaces.IGregTechTileEntity
 import gregtech.api.metatileentity.multiblock.IMultiblockPart
+import gregtech.api.metatileentity.multiblock.ParallelLogicType
 import gregtech.api.metatileentity.multiblock.RecipeMapSteamMultiblockController
 import gregtech.api.pattern.BlockPattern
 import gregtech.api.pattern.FactoryBlockPattern
@@ -22,7 +22,7 @@ class PrimitiveAlloySmelter extends RecipeMapSteamMultiblockController {
             ParallelLogicType getParallelLogicType() {
                 ParallelLogicType.MULTIPLY
             }
-            
+
         }
 
         this.recipeMapWorkable.setParallelLimit(PARALLEL_LIMIT)

@@ -41,7 +41,7 @@
 // crafting.removeByOutput(item('enderio:item_redstone_conduit:0'));
 // crafting.removeByOutput(item('appliedenergistics2:part:140'));
 // crafting.removeByOutput(item('appliedenergistics2:quartz_glass:0'));
-// recipes.removeShapeless(ore('gemEnderEye,pearlEnderEye'), [ ore('enderpearl,gemEnderPearl,materialEnderPearl'), ore('dustBlaze,itemBlazePowder')]);
+// recipes.removeShapeless(ore('pearlEnderEye'), [ ore('enderpearl'), ore('dustBlaze,itemBlazePowder')]);
 // recipes.removeShapeless(item('appliedenergistics2:part:36'), [ item('appliedenergistics2:part:16'), ore('wool')]);
 // recipes.removeShapeless(ore('dustClay'), [ ore('blockClay,oreClay')]);
 // crafting.removeByOutput(item('enderio:item_power_conduit:1'));

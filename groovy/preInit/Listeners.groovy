@@ -1,13 +1,12 @@
-import classes.recipes.TJRecipeMaps
 import classes.blocks.TJMetaBlocks
 import classes.items.TJMetaItems
+import classes.recipes.TJRecipeMaps
 import gregtech.api.GregTechAPI
 import gregtech.api.unification.material.event.MaterialEvent
 import gregtech.api.unification.material.event.MaterialRegistryEvent
 import gregtech.api.unification.material.event.PostMaterialEvent
 import materials.MaterialModifications
 import materials.TJMaterials
-import net.minecraftforge.event.RegistryEvent
 import net.minecraftforge.fml.common.eventhandler.EventPriority
 
 // Modify existing recipe maps
@@ -41,8 +40,8 @@ eventManager.listen(EventPriority.LOWEST) {
 //eventManager.listen(EventPriority.LOWEST) {
 //    RegistryEvent.Register<Item> event ->
 //        {
-            TJMetaItems.registerItems()
-            TJMetaItems.registerBehaviors()
+TJMetaItems.registerItems()
+TJMetaItems.registerBehaviors()
 //        }
 //}
 

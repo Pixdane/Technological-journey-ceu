@@ -16,7 +16,7 @@
 
 // Ender Pearl Dust
 // macerator.recipeBuilder()
-// .inputs([ore('enderpearl,gemEnderPearl,materialEnderPearl')])
+// .inputs([ore('enderpearl')])
 // .outputs([ore('dustEnderPearl')])
 // .duration(160)
 // .EUt(30)
@@ -35,7 +35,7 @@
 // macerator.findRecipe(240, [ore('crystalCertusQuartz,gemCertusQuartz')], null).remove();
 // macerator.findRecipe(240, [ore('ingotIron')], null).remove();
 // macerator.findRecipe(240, [ore('ingotGold')], null).remove();
-// macerator.findRecipe(240, [ore('enderpearl,gemEnderPearl,materialEnderPearl')], null).remove();
+// macerator.findRecipe(240, [ore('enderpearl')], null).remove();
 // //alloy.findRecipe(5120, [ore('dustRedstone'),item('gregtech:meta_item_1:371')], null).remove();
 
 // Certus Quartz Dust
@@ -2570,8 +2570,8 @@
 // crafting.addShaped(item('gregtech:meta_item_1:206'), [[ore('wireGtHexIvSuperconductorBase'), ore('circuitElite'), ore('wireGtHexIvSuperconductorBase')],[ore('circuitElite'), item('gregtech:meta_item_1:32725'), ore('circuitElite')], [ore('wireGtHexIvSuperconductorBase'), ore('circuitElite'), ore('wireGtHexIvSuperconductorBase')]]);
 // crafting.addShaped(item('gregtech:meta_item_1:32673'), [[ore('wireGtOctalEvSuperconductorBase'), ore('circuitExtreme'), ore('wireGtOctalEvSuperconductorBase')],[ore('circuitExtreme'), ore('gemNetherStar,netherStar'), ore('circuitExtreme')], [ore('wireGtOctalEvSuperconductorBase'), ore('circuitExtreme'), ore('wireGtOctalEvSuperconductorBase')]]);
 // crafting.addShaped(item('gregtech:meta_item_1:32672'), [[ore('wireGtQuadrupleHvSuperconductorBase'), ore('circuitAdvanced'), ore('wireGtQuadrupleHvSuperconductorBase')],[ore('circuitAdvanced'), item('gregtech:meta_item_1:32724'), ore('circuitAdvanced')], [ore('wireGtQuadrupleHvSuperconductorBase'), ore('circuitAdvanced'), ore('wireGtQuadrupleHvSuperconductorBase')]]);
-// crafting.addShaped(item('gregtech:meta_item_1:32671'), [[ore('wireGtDoubleMvSuperconductorBase'), ore('circuitGood'), ore('wireGtDoubleMvSuperconductorBase')],[ore('circuitGood'), ore('gemEnderEye,pearlEnderEye'), ore('circuitGood')], [ore('wireGtDoubleMvSuperconductorBase'), ore('circuitGood'), ore('wireGtDoubleMvSuperconductorBase')]]);
-// crafting.addShaped(item('gregtech:meta_item_1:32670'), [[item('gregtech:cable:516'), ore('circuitBasic'), item('gregtech:cable:516')],[ore('circuitBasic'), ore('enderpearl,gemEnderPearl,materialEnderPearl'), ore('circuitBasic')], [item('gregtech:cable:516'), ore('circuitBasic'), item('gregtech:cable:516')]]);
+// crafting.addShaped(item('gregtech:meta_item_1:32671'), [[ore('wireGtDoubleMvSuperconductorBase'), ore('circuitGood'), ore('wireGtDoubleMvSuperconductorBase')],[ore('circuitGood'), ore('pearlEnderEye'), ore('circuitGood')], [ore('wireGtDoubleMvSuperconductorBase'), ore('circuitGood'), ore('wireGtDoubleMvSuperconductorBase')]]);
+// crafting.addShaped(item('gregtech:meta_item_1:32670'), [[item('gregtech:cable:516'), ore('circuitBasic'), item('gregtech:cable:516')],[ore('circuitBasic'), ore('enderpearl'), ore('circuitBasic')], [item('gregtech:cable:516'), ore('circuitBasic'), item('gregtech:cable:516')]]);
 // 
 // Utils.removeRecipeByOutput(largeMix, [ore('dustNiobiumNitride') * 2], [], true);
 // 

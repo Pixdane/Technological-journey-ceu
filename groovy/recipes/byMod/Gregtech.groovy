@@ -45,7 +45,7 @@ ASSEMBLER.recipeBuilder()
         .duration(300)
         .EUt(480)
         .buildAndRegister()
-        
+
 // HV Nonuple Hatch
 crafting.addShaped(metaitem('tjceu:fluid_hatch.import_9x.hv'), [[ore('craftingToolScrewdriver')], [metaitem('tjceu:fluid_hatch.export_9x.hv')]])
 crafting.addShaped(metaitem('tjceu:fluid_hatch.export_9x.hv'), [[ore('craftingToolScrewdriver')], [metaitem('tjceu:fluid_hatch.import_9x.hv')]])

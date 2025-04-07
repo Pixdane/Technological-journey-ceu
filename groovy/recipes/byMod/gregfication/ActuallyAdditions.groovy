@@ -54,7 +54,7 @@ ASSEMBLER.recipeBuilder()
         .duration(160)
         .EUt(120)
         .buildAndRegister()
-        
+
 // Black
 ASSEMBLER.recipeBuilder()
         .inputs([item('actuallyadditions:block_crystal:3'), ore('blockCharcoal') * 2, ore('blockCoalCoke') * 2])
