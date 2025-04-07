@@ -13,8 +13,8 @@ infusion_altar.removeByOutput(item('minecraft:emerald') * 4)
 infusion_altar.removeByOutput(item('minecraft:diamond') * 4)
 infusion_altar.removeByOutput(item('minecraft:lapis_block'))
 infusion_altar.removeByOutput(item('minecraft:redstone_block'))
-infusion_altar.removeByOutput(item('astralsorcery:itemcraftingcomponent:4'))
-infusion_altar.removeByOutput(item('astralsorcery:itemcraftingcomponent:3'))
+infusion_altar.removeByOutput(item('astralsorcery:itemcraftingcomponent', 4))
+infusion_altar.removeByOutput(item('astralsorcery:itemcraftingcomponent', 3))
 
 infusion_altar.recipeBuilder()
         .input(metaitem('lensNetherStar'))
@@ -263,7 +263,7 @@ starlight_altar.constellationRecipeBuilder()
 
 crafting.removeByOutput(runed_marble)
 
-crafting.addShaped(item('astralsorcery:blockmachine:1'), [
+crafting.addShaped(item('astralsorcery:blockmachine', 1), [
         [null, ore('dustIron'), null],
         [ore('plankWood'), ore('stone'), ore('stickWood')],
         [ore('plankWood'), ore('plankWood'), metaitem('tjceu:steam.motor.ulv')]
@@ -311,7 +311,7 @@ EBF.recipeBuilder()
 MIXER.recipeBuilder()
         .circuitMeta(1)
         .inputs([ore('dustGlowstone') * 4, ore('gemAquamarine')])
-        .outputs([item('astralsorcery:itemusabledust:0') * 16])
+        .outputs([item('astralsorcery:itemusabledust') * 16])
         .duration(30)
         .EUt(800)
         .buildAndRegister()
@@ -319,8 +319,8 @@ MIXER.recipeBuilder()
 // Nocturnal Powder
 MIXER.recipeBuilder()
         .circuitMeta(1)
-        .inputs([item('astralsorcery:itemusabledust:0'), ore('gemLapis'), ore('dustCarbon') * 3])
-        .outputs([item('astralsorcery:itemusabledust:1') * 4])
+        .inputs([item('astralsorcery:itemusabledust'), ore('gemLapis'), ore('dustCarbon') * 3])
+        .outputs([item('astralsorcery:itemusabledust', 1) * 4])
         .duration(30)
         .EUt(1150)
         .buildAndRegister()
@@ -340,13 +340,13 @@ MACERATOR.recipeBuilder()
 // ore('dustAstralStarmetal').addTooltip("Ax");
 // ore('ingotAstralStarmetal').addTooltip("(AxSx)");
 // ore('oreAstralStarmetal').addTooltip("Ax");
-// item('astraladditions:block_starmetal:0').addTooltip("(AxSx)");
+// item('astraladditions:block_starmetal').addTooltip("(AxSx)");
 // ore('gemAquamarine').addTooltip("Be₃Al₃Si₆O₁₈");
-// item('astralsorcery:itemcraftingcomponent:4').addTooltip("Be₃Al₃Si₆O₁₈Sx");
+// item('astralsorcery:itemcraftingcomponent', 4).addTooltip("Be₃Al₃Si₆O₁₈Sx");
 // util.getCrystalORIngredient(false, false).addTooltip("(SiO₂)﹖");
 
 // Treebeacon
-crafting.addShaped(item('astralsorcery:blocktreebeacon:0'), [
+crafting.addShaped(item('astralsorcery:blocktreebeacon'), [
         [ore('circuitLv'), ore('treeSapling'), ore('circuitLv')],
         [ore('plateSteel'), ore('circuitLv'), ore('plateSteel')],
         [ore('plateDoubleSteel'), ore('plateSteel'), ore('plateDoubleSteel')]
@@ -373,14 +373,14 @@ EBF.recipeBuilder()
         .buildAndRegister()
 
 // TODO: Add Tooltips
-// item('gregtech:meta_item_1:524').addTooltip("(AxSx)Nq(Ir₃Os)");
+// item('gregtech:meta_item_1', 524).addTooltip("(AxSx)Nq(Ir₃Os)");
 // item('gregtech:meta_item_1:1524').addTooltip("(AxSx)Nq(Ir₃Os)");
 // item('gregtech:meta_item_1:2524').addTooltip("(AxSx)Nq(Ir₃Os)");
 // item('gregtech:meta_item_1:9524').addTooltip("(AxSx)Nq(Ir₃Os)");
 // item('gregtech:meta_item_1:10524').addTooltip("(AxSx)Nq(Ir₃Os)");
 // item('gregtech:meta_item_1:11524').addTooltip("(AxSx)Nq(Ir₃Os)");
 // item('gregtech:meta_item_1:12524').addTooltip("(AxSx)Nq(Ir₃Os)");
-// item('gregtech:meta_block_compressed_32:12').addTooltip("(AxSx)Nq(Ir₃Os)");
+// item('gregtech:meta_block_compressed_32', 12).addTooltip("(AxSx)Nq(Ir₃Os)");
 // fluid('star_metal_alloy').addTooltip("(AxSx)Nq(Ir₃Os)");
 
 // ZPM Direct Starmetal

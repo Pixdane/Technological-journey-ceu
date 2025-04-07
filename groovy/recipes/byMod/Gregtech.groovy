@@ -11,13 +11,13 @@ crafting.addShaped(item('gregtech:machine_casing', 7), [
         [ore('plateStarmetalAlloy'), ore('plateStarmetalAlloy'), ore('plateStarmetalAlloy')]
 ])
 
-// crafting.removeByOutput(item('gregtech:mte:992'));
-// crafting.addShaped(item('gregtech:mte:992'), [[null, null, null],[ore('platePolybenzimidazole'), item('gregtech:meta_item_1:12524'), ore('platePolybenzimidazole')], [ore('cableGtSingleNaquadah'), item('gregtech:machine_casing:7'), ore('cableGtSingleNaquadah')]]);
+// crafting.removeByOutput(item('gregtech:mte', 992));
+// crafting.addShaped(item('gregtech:mte', 992), [[null, null, null],[ore('platePolybenzimidazole'), item('gregtech:meta_item_1:12524'), ore('platePolybenzimidazole')], [ore('cableGtSingleNaquadah'), item('gregtech:machine_casing', 7), ore('cableGtSingleNaquadah')]]);
 // 
 // assembler.recipeBuilder()
 // .inputs(item('gregtech:meta_item_1:12524') * 8)
 // .notConsumable(item('gregtech:meta_item_1:32766').withTag({Configuration: 8}))
-// .outputs(item('gregtech:machine_casing:7'))
+// .outputs(item('gregtech:machine_casing', 7))
 // .duration(40)
 // .EUt(1024)
 // .buildAndRegister();

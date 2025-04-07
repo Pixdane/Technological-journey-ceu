@@ -32,35 +32,35 @@ VIAL_PROCESSOR.recipeBuilder()
 
 VIAL_PROCESSOR.recipeBuilder()
         .inputs(vial('minecraft:blaze'))
-        .outputs(item('minecraft:blaze_rod') * 10, vial(''), item('actuallyadditions:item_solidified_experience:0') * 4)
+        .outputs(item('minecraft:blaze_rod') * 10, vial(''), item('actuallyadditions:item_solidified_experience') * 4)
         .EUt(16)
         .duration(3)
         .buildAndRegister()
 
 VIAL_PROCESSOR.recipeBuilder()
         .inputs(vial('minecraft:zombie'))
-        .outputs(item('minecraft:skull', 2) * 9, vial(''), item('minecraft:rotten_flesh:0') * 9, item('actuallyadditions:item_solidified_experience:0') * 2)
+        .outputs(item('minecraft:skull', 2) * 9, vial(''), item('minecraft:rotten_flesh') * 9, item('actuallyadditions:item_solidified_experience') * 2)
         .EUt(16)
         .duration(3)
         .buildAndRegister()
 
 VIAL_PROCESSOR.recipeBuilder()
         .inputs(vial('minecraft:skeleton'))
-        .outputs(item('minecraft:bone') * 8, vial(''), item('actuallyadditions:item_solidified_experience:0') * 2)
+        .outputs(item('minecraft:bone') * 8, vial(''), item('actuallyadditions:item_solidified_experience') * 2)
         .EUt(16)
         .duration(3)
         .buildAndRegister()
 
 VIAL_PROCESSOR.recipeBuilder()
         .inputs(vial('minecraft:pig'))
-        .outputs(item('minecraft:porkchop:0') * 64, vial(''), item('actuallyadditions:item_solidified_experience:0') * 1)
+        .outputs(item('minecraft:porkchop') * 64, vial(''), item('actuallyadditions:item_solidified_experience') * 1)
         .EUt(16)
         .duration(3)
         .buildAndRegister()
 
 VIAL_PROCESSOR.recipeBuilder()
         .inputs(vial('minecraft:chicken'))
-        .outputs(item('minecraft:egg') * 64, item('minecraft:feather') * 26, vial(''), item('actuallyadditions:item_solidified_experience:0') * 1)
+        .outputs(item('minecraft:egg') * 64, item('minecraft:feather') * 26, vial(''), item('actuallyadditions:item_solidified_experience') * 1)
         .EUt(16)
         .duration(3)
         .buildAndRegister()
@@ -285,4 +285,4 @@ mobs.eachWithIndex { mob, i ->
 
 // TODO: more recipes
 // TODO: machine recipes
-// crafting.addShaped(item('gregtech:machine:1400'), [[item('enderio:item_soul_vial:1'), item('minecraft:diamond_sword:0'), item('enderio:item_soul_vial:1')],[item('minecraft:diamond_sword:0'), item('gregtech:mte:986'), item('minecraft:diamond_sword:0')], [ore('plateDoubleSteel'), ore('plateDoubleSteel'), ore('plateDoubleSteel')]]);
+// crafting.addShaped(item('gregtech:machine:1400'), [[item('enderio:item_soul_vial', 1), item('minecraft:diamond_sword'), item('enderio:item_soul_vial', 1)],[item('minecraft:diamond_sword'), item('gregtech:mte', 986), item('minecraft:diamond_sword')], [ore('plateDoubleSteel'), ore('plateDoubleSteel'), ore('plateDoubleSteel')]]);

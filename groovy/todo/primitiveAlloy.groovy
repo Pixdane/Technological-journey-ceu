@@ -32,14 +32,14 @@
 //                 "CCC",
 //                 "CCC")
 //             .whereOr("C",
-//                 item('metastate:gregtech:metal_casing:1'),
+//                 item('metastate:gregtech:metal_casing', 1),
 //                 IBlockMatcher.abilityPartPredicate(
 //                     MultiblockAbility.IMPORT_FLUIDS,
 //                     MultiblockAbility.IMPORT_ITEMS,
 //                     MultiblockAbility.EXPORT_ITEMS
 //                 ))
 //                 .whereOr("D",
-//                 item('metastate:gregtech:machine_casing:10'),
+//                 item('metastate:gregtech:machine_casing', 10),
 //                 IBlockMatcher.abilityPartPredicate(
 //                     MultiblockAbility.IMPORT_FLUIDS,
 //                     MultiblockAbility.IMPORT_ITEMS,
@@ -62,8 +62,8 @@
 //                 "OCE",
 //                 "CCC",
 //                 "DDD")
-//             .where("D", item('metastate:gregtech:machine_casing:10'))
-//             .where("C", item('metastate:gregtech:metal_casing:1'))
+//             .where("D", item('metastate:gregtech:machine_casing', 10))
+//             .where("C", item('metastate:gregtech:metal_casing', 1))
 //             .where("S", IBlockInfo.controller(loc))
 //             .where("I", MetaTileEntities.ITEM_IMPORT_BUS[0], IFacing.west())
 //             .where("O", MetaTileEntities.ITEM_EXPORT_BUS[0], IFacing.west())
@@ -110,8 +110,8 @@
 //     
 //     primitive_alloy.recipeMap.recipeBuilder()
 //     .inputs(ore('dustGlass') * 4)
-//     .notConsumable(item('gregtech:meta_item_1:17'))
-//     .outputs(item('gregtech:meta_item_1:517') * 4)
+//     .notConsumable(item('gregtech:meta_item_1', 17))
+//     .outputs(item('gregtech:meta_item_1', 517) * 4)
 //     .fluidInputs(fluid('steam') * 1000)
 //     .duration(150)
 //     .buildAndRegister();
