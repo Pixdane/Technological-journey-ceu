@@ -35,7 +35,7 @@ metaitem.ban.certificate.name=Certificate of Being a Noob
 # Blocks
 tile.multiblock_casing.draconic.name=Draconic Machine Casing
 tile.multiblock_casing.awakened_draconium.name=Awakened Draconium Machine Casing
-tile.multiblock_casing.refined_chaos.name=Refined Chaos Casing
+tile.multiblock_casing.refined_chaos.name=Chaotic Casing
 tile.multiblock_casing.soul_insulation.name=Soul Insulation Casing
 
 # Machines
