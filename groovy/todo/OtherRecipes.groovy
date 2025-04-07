@@ -130,7 +130,7 @@
 // blast_furnace.recipeBuilder()
 //     .inputs(ore('dustSignalum') * 1)
 //     .outputs(ore('ingotSignalum') * 1)
-//     .property("temperature", 4500) //this is a minimal temperature at which the item will be smelted
+//     .blastFurnaceTemp(4500) //this is a minimal temperature at which the item will be smelted
 //     .duration(1530)
 //     .EUt(120)
 //     .buildAndRegister();
@@ -138,7 +138,7 @@
 //     blast_furnace.recipeBuilder()
 //     .inputs(ore('dustLumium') * 1)
 //     .outputs(ore('ingotLumium') * 1)
-//     .property("temperature", 4500) //this is a minimal temperature at which the item will be smelted
+//     .blastFurnaceTemp(4500) //this is a minimal temperature at which the item will be smelted
 //     .duration(1530)
 //     .EUt(120)
 //     .buildAndRegister();
@@ -355,7 +355,7 @@
 // blast_furnace.recipeBuilder()
 //     .inputs(item('gregtech:meta_item_1:2517'))
 //     .outputs(item('gregtech:meta_item_1:10517'))
-//     .property("temperature", 1800) //this is a minimal temperature at which the item will be smelted
+//     .blastFurnaceTemp(1800) //this is a minimal temperature at which the item will be smelted
 //     .duration(40)
 //     .EUt(16)
 //     .buildAndRegister();
@@ -363,7 +363,7 @@
 // blast_alloy.recipeBuilder()
 //     .inputs([ore('dustEuropium')*1, ore('dustSteel')*4, ore('dustCaesium')*2, ore('dustBismuth')*2])
 //     .fluidOutputs(fluid('bright_steel') * 1296)
-//     .property("temperature", 2900)
+//     .blastFurnaceTemp(2900)
 //     .duration(1800)
 //     .EUt(120)
 //     .buildAndRegister();
@@ -383,7 +383,7 @@
 // blast_furnace.recipeBuilder()
 //     .inputs(ore('dustLvSuperconductor'))
 //     .outputs(ore('ingotLvSuperconductor'))
-//     .property("temperature", 1800) //this is a minimal temperature at which the item will be smelted
+//     .blastFurnaceTemp(1800) //this is a minimal temperature at which the item will be smelted
 //     .duration(350)
 //     .EUt(500)
 //     .buildAndRegister();
@@ -446,9 +446,9 @@
 //     .fluidInputs(fluid('degenerate_rhenium_plasma') * 15,fluid('neutron_plasma') * 15)
 //     .fluidOutputs(fluid('plasma.cosmic_neutronium')* 15)
 //     .duration(100)
-//     .property("coilTier",2)
+//     .AdvCoilTier(2)
 //     .EUt(8000000)
-//     .property("eu_to_start",30000000) 
+//     .EUToStart(30000000) 
 //     .euReturn(2)
 //     .buildAndRegister();
 //     */
@@ -663,7 +663,7 @@
 // implosion.recipeBuilder()
 // .inputs(ore('dustBlaze,itemBlazePowder') *15)
 // .outputs(ore('itemBlazeRod,rodBlaze,stickBlaze') *3)
-// .property("explosives", 10)
+// .explosives(10)
 // .duration(20)
 // .EUt(30)
 // .buildAndRegister();
@@ -833,7 +833,7 @@
 // fusion.recipeBuilder()
 // .fluidInputs(fluid('helium') * 16, fluid('uranium') * 16)
 // .fluidOutputs(fluid('plutonium') * 16)
-// .property("eu_to_start",120000000) 
+// .EUToStart(120000000) 
 // .duration(128)
 // .EUt(32000)
 // .buildAndRegister();
@@ -1085,7 +1085,7 @@
 // fusion.recipeBuilder()
 // .fluidInputs(fluid('neon')* 144, fluid('plutonium') * 144)
 // .fluidOutputs(fluid('rutherfordium') * 144)
-// .property("eu_to_start",150000000) 
+// .EUToStart(150000000) 
 // .duration(64)
 // .EUt(16384)
 // .buildAndRegister();
@@ -1093,7 +1093,7 @@
 // fusion.recipeBuilder()
 // .fluidInputs(fluid('radon')* 1125, fluid('gallium') * 144)
 // .fluidOutputs(fluid('duranium') * 144)
-// .property("eu_to_start",180000000) 
+// .EUToStart(180000000) 
 // .duration(64)
 // .EUt(24576)
 // .buildAndRegister();
@@ -1101,7 +1101,7 @@
 // fusion.recipeBuilder()
 // .fluidInputs(fluid('duranium')* 288, fluid('titanium') * 432)
 // .fluidOutputs(fluid('tritanium') * 144)
-// .property("eu_to_start",200000000) 
+// .EUToStart(200000000) 
 // .duration(64)
 // .EUt(32768)
 // .buildAndRegister();
@@ -1109,7 +1109,7 @@
 // fusion.recipeBuilder()
 // .fluidInputs(fluid('mercury')* 64, fluid('gold') * 64)
 // .fluidOutputs(fluid('plasma.radon') * 500)
-// .property("eu_to_start",200000000) 
+// .EUToStart(200000000) 
 // .duration(64)
 // .EUt(32768)
 // .buildAndRegister();
@@ -1117,7 +1117,7 @@
 // fusion.recipeBuilder()
 // .fluidInputs(fluid('neon') * 288, fluid('americium') * 288)
 // .fluidOutputs(fluid('dubnium') * 288)
-// .property("eu_to_start",200000000) 
+// .EUToStart(200000000) 
 // .duration(64)
 // .EUt(131072)
 // .buildAndRegister();
@@ -1125,7 +1125,7 @@
 // fusion.recipeBuilder()
 // .fluidInputs(fluid('neon') * 288, fluid('americium243') * 288)
 // .fluidOutputs(fluid('dubnium') * 288)
-// .property("eu_to_start",200000000) 
+// .EUToStart(200000000) 
 // .duration(64)
 // .EUt(131072)
 // .buildAndRegister();
@@ -1204,7 +1204,7 @@
 //     .inputs(ore('dustVanadium'))
 //     .notConsumable(item('gregtech:meta_item_1:32766').withTag({Configuration: 1}))
 //     .outputs(ore('ingotHotVanadium'))
-//     .property("temperature", 2183) //this is a minimal temperature at which the item will be smelted
+//     .blastFurnaceTemp(2183) //this is a minimal temperature at which the item will be smelted
 //     .duration(2226)
 //     .EUt(120)
 //     .buildAndRegister();
@@ -1246,7 +1246,7 @@
 // 
 // implosion.recipeBuilder()
 //     .inputs(item('gregtech:meta_item_2:32434'))
-//     .property("explosives", item('gregtech:itnt') * 4)
+//     .explosives(item('gregtech:itnt') * 4)
 //     .outputs(item('gregtech:meta_item_2:32435'))
 //     .duration(20)
 //     .EUt(30)
@@ -1254,7 +1254,7 @@
 // 
 //     implosion.recipeBuilder()
 //     .inputs(ore('dustDiamond') * 4)
-//     .property("explosives", item('gregtech:itnt') * 24)
+//     .explosives(item('gregtech:itnt') * 24)
 //     .outputs(ore('gemDiamond') * 3)
 //     .duration(20)
 //     .EUt(30)
@@ -1279,7 +1279,7 @@
 // 
 // nuclear_reactor.recipeBuilder()
 // .inputs([ore('stickNaquadah') * 2])
-// .property("temperature",1000)
+// .blastFurnaceTemp(1000)
 // .notConsumable(item('gregtech:meta_item_1:32766').withTag({Configuration: 0}))
 // .outputs([ore('stickPlatinum') * 2, item('gtadditions:ga_meta_item:32312') * 16])
 // .duration(500)
@@ -1288,7 +1288,7 @@
 // 
 // nuclear_breeder.recipeBuilder()
 // .inputs([ore('stickNaquadah') * 2, item('gtadditions:ga_meta_item:17075') * 10])
-// .property("temperature",1000)
+// .blastFurnaceTemp(1000)
 // .notConsumable(item('gregtech:meta_item_1:32766').withTag({Configuration: 0}))
 // .outputs([ore('stickPlatinum') * 2, item('gtadditions:ga_meta_item:32312') * 8 , item('gtadditions:ga_meta_item:9815') * 10 , item('gtadditions:ga_meta_item:9819') * 10])
 // .duration(500)
@@ -1299,7 +1299,7 @@
 // 
 // nuclear_reactor.recipeBuilder()
 // .inputs([ore('stickNaquadahEnriched') * 2])
-// .property("temperature",1000)
+// .blastFurnaceTemp(1000)
 // .notConsumable(item('gregtech:meta_item_1:32766').withTag({Configuration: 0}))
 // .outputs([ore('stickNaquadah') * 2, item('gtadditions:ga_meta_item:32312') * 16])
 // .duration(500)
@@ -1308,7 +1308,7 @@
 // 
 // nuclear_breeder.recipeBuilder()
 // .inputs([ore('stickNaquadahEnriched') * 2, item('gtadditions:ga_meta_item:16053')* 10])
-// .property("temperature",1000)
+// .blastFurnaceTemp(1000)
 // .notConsumable(item('gregtech:meta_item_1:32766').withTag({Configuration: 0}))
 // .outputs([ore('stickNaquadah') * 2, item('gtadditions:ga_meta_item:32312') * 8, item('gtadditions:ga_meta_item:11809') * 10 , item('gtadditions:ga_meta_item:11053') * 10])
 // .duration(500)
@@ -1319,7 +1319,7 @@
 // 
 // nuclear_reactor.recipeBuilder()
 // .inputs([ore('stickNaquadria') * 2])
-// .property("temperature",1000)
+// .blastFurnaceTemp(1000)
 // .notConsumable(item('gregtech:meta_item_1:32766').withTag({Configuration: 0}))
 // .outputs([ore('stickNaquadahEnriched') * 2, item('gtadditions:ga_meta_item:32312') * 16])
 // .duration(500)
@@ -1328,7 +1328,7 @@
 // 
 // nuclear_breeder.recipeBuilder()
 // .inputs([ore('stickNaquadria') * 2, item('gtadditions:ga_meta_item:16809') * 10])
-// .property("temperature",1000)
+// .blastFurnaceTemp(1000)
 // .notConsumable(item('gregtech:meta_item_1:32766').withTag({Configuration: 0}))
 // .outputs([ore('stickNaquadahEnriched') * 2, item('gtadditions:ga_meta_item:32312') * 8, item('gtadditions:ga_meta_item:11799') * 10, item('gtadditions:ga_meta_item:9804') * 10])
 // .duration(500)
@@ -1339,7 +1339,7 @@
 // 
 // nuclear_reactor.recipeBuilder()
 // .inputs([ore('stickAwakenDraconium') * 2])
-// .property("temperature",1000)
+// .blastFurnaceTemp(1000)
 // .notConsumable(item('gregtech:meta_item_1:32766').withTag({Configuration: 0}))
 // .outputs([ore('stickDraconium') * 2, item('gtadditions:ga_meta_item:32312') * 30])
 // .duration(500)
@@ -1348,7 +1348,7 @@
 // 
 // nuclear_breeder.recipeBuilder()
 // .inputs([ore('stickAwakenDraconium') * 2, item('gtadditions:ga_meta_item:17795') * 10])
-// .property("temperature",1000)
+// .blastFurnaceTemp(1000)
 // .notConsumable(item('gregtech:meta_item_1:32766').withTag({Configuration: 0}))
 // .outputs([ore('stickDraconium') * 2, item('gtadditions:ga_meta_item:32312') * 16, item('gtadditions:ga_meta_item:11789') * 10, item('gtadditions:ga_meta_item:9793') * 10])
 // .duration(500)
@@ -1359,7 +1359,7 @@
 // 
 // nuclear_reactor.recipeBuilder()
 // .inputs([item('gregtech:meta_item_1:14520') * 2])
-// .property("temperature",1000)
+// .blastFurnaceTemp(1000)
 // .notConsumable(item('gregtech:meta_item_1:32766').withTag({Configuration: 0}))
 // .outputs([ore('stickAwakenDraconium') * 2, item('gtadditions:ga_meta_item:32312') * 32])
 // .duration(500)
@@ -1368,7 +1368,7 @@
 // 
 // nuclear_breeder.recipeBuilder()
 // .inputs([item('gregtech:meta_item_1:14520') * 2, item('gtadditions:ga_meta_item:17784') * 10])
-// .property("temperature",1000)
+// .blastFurnaceTemp(1000)
 // .notConsumable(item('gregtech:meta_item_1:32766').withTag({Configuration: 0}))
 // .outputs([ore('stickAwakenDraconium') * 2, item('gtadditions:ga_meta_item:32312') * 16, item('gtadditions:ga_meta_item:11778') * 10, item('gtadditions:ga_meta_item:11783') * 10])
 // .duration(500)
@@ -1393,9 +1393,9 @@
 //     ADVFusion.recipeBuilder()
 //     .fluidInputs(fluid('sodium') * 144, fluid('curium250') * 144)
 //     .fluidOutputs(fluid('bohrium') * 288)
-//     .property("eu_to_start",1000000000)
-//     .property("coilTier",1)
-//     .property("euReturn",40)
+//     .EUToStart(1000000000)
+//     .AdvCoilTier(1)
+//     .EUReturn(40)
 //     .duration(50)
 //     .EUt(1000000)
 //     .buildAndRegister();
@@ -1493,7 +1493,7 @@
 //     blast_furnace.recipeBuilder()
 //     .inputs(ore('dustRutherfordium'))
 //     .outputs(ore('ingotRutherfordium'))
-//     .property("temperature", 5400) //this is a minimal temperature at which the item will be smelted
+//     .blastFurnaceTemp(5400) //this is a minimal temperature at which the item will be smelted
 //     .duration(16560)
 //     .EUt(120)
 //     .buildAndRegister();
@@ -1501,7 +1501,7 @@
 //     blast_furnace.recipeBuilder()
 //     .inputs(ore('dustTritanium'))
 //     .outputs(ore('ingotTritanium'))
-//     .property("temperature", 11000) //this is a minimal temperature at which the item will be smelted
+//     .blastFurnaceTemp(11000) //this is a minimal temperature at which the item will be smelted
 //     .duration(16560)
 //     .EUt(120)
 //     .buildAndRegister();
@@ -1510,7 +1510,7 @@
 //     blast_furnace.recipeBuilder()
 //     .inputs(ore('dustDuranium'))
 //     .outputs(ore('ingotDuranium'))
-//     .property("temperature", 6000) //this is a minimal temperature at which the item will be smelted
+//     .blastFurnaceTemp(6000) //this is a minimal temperature at which the item will be smelted
 //     .duration(16560)
 //     .EUt(120)
 //     .buildAndRegister();
@@ -1642,7 +1642,7 @@
 // //max componets
 // //motor
 // assembly_line.recipeBuilder()
-//         .inputs([ore('stickLongNaquadriaticTaranium') * 64, ore('stickLongNaquadriaticTaranium') * 64,ore('wireFineHeavyQuarkDegenerateMatter') * 64, ore('wireFineHeavyQuarkDegenerateMatter') * 64, ore('wireFineHeavyQuarkDegenerateMatter') * 64, ore('wireFineHeavyQuarkDegenerateMatter') * 64, ore('stickLongCosmicNeutronium') * 2, ore('ringCosmicNeutronium') * 4,ore('roundCosmicNeutronium') * 16, ore('cableGtHexCosmicNeutronium') * 2, item('gcyl:gcyl_meta_item', 569) * 8])
+//         .inputs([ore('stickLongNaquadriaticTaranium') * 64, ore('stickLongNaquadriaticTaranium') * 64,ore('wireFineHeavyQuarkDegenerateMatter') * 64, ore('wireFineHeavyQuarkDegenerateMatter') * 64, ore('wireFineHeavyQuarkDegenerateMatter') * 64, ore('wireFineHeavyQuarkDegenerateMatter') * 64, ore('stickLongCosmicNeutronium') * 2, ore('ringCosmicNeutronium') * 4,ore('roundCosmicNeutronium') * 16, ore('cableGtHexCosmicNeutronium') * 2, metaitem('gcyl:cosmic.fabric') * 8])
 //         .notConsumable(item('gcyl:gcyl_meta_item', 518))
 //         .outputs(item('gcyl:gcyl_meta_item', 359))
 //         .fluidInputs(fluid('lubricant') * 3000,fluid('soldering_alloy') * 1728)
@@ -1687,7 +1687,7 @@
 // 
 // //field generator
 // assembly_line.recipeBuilder()
-//         .inputs([item('gregtech:meta_item_2:16520') * 64,item('gregtech:meta_item_2:16520') * 64, ore('cableGtSingleCosmicNeutronium') * 4, ore('frameGtChaos'), item('gcyl:gcyl_meta_item', 519), ore('boltChaosalloy') * 16, item('gcyl:gcyl_meta_item', 568) * 4, item('gcyl:gcyl_meta_item', 556) * 4, item('gregtech:cable', 354) * 4, ore('circuitMax') ])
+//         .inputs([item('gregtech:meta_item_2:16520') * 64,item('gregtech:meta_item_2:16520') * 64, ore('cableGtSingleCosmicNeutronium') * 4, ore('frameGtChaos'), item('gcyl:gcyl_meta_item', 519), ore('boltChaosalloy') * 16, metaitem('gcyl:cosmic.mesh') * 4, metaitem('gcyl:qcd.protective.plating') * 4, item('gregtech:cable', 354) * 4, ore('circuitMax') ])
 //         .outputs(item('gcyl:gcyl_meta_item', 383))
 //         .fluidInputs(fluid('soldering_alloy') * 864)
 //         .duration(600)
@@ -1703,7 +1703,7 @@
 //         .buildAndRegister();
 // //sensor
 // assembly_line.recipeBuilder()
-//         .inputs([item('gcyl:gcyl_meta_item', 569) * 4, ore('circuitMax') * 2, ore('cableGtSingleCosmicNeutronium')* 4,item('gregtech:meta_item_1:19520') * 64, ore('foilFullerenePolymerMatrix') * 64, item('gcyl:gcyl_meta_item', 459) * 32, item('gcyl:gcyl_meta_item', 516),ore('frameGtCosmicNeutronium') ])
+//         .inputs([metaitem('gcyl:cosmic.fabric') * 4, ore('circuitMax') * 2, ore('cableGtSingleCosmicNeutronium')* 4,item('gregtech:meta_item_1:19520') * 64, ore('foilFullerenePolymerMatrix') * 64, item('gcyl:gcyl_meta_item', 459) * 32, item('gcyl:gcyl_meta_item', 516),ore('frameGtCosmicNeutronium') ])
 //         .outputs(item('gcyl:gcyl_meta_item', 395))
 //         .fluidInputs(fluid('high_energy_qgp') * 2000)
 //         .duration(600)
@@ -1755,7 +1755,7 @@
 // 
 // assembly_line.recipeBuilder()
 //         .inputs([item('gcyl:gcyl_meta_item', 597),item('gtadditions:ga_meta_item2', 10), ore('wireGtSingleOpvSuperconductor') * 4, ore('circuitOpv') * 2, item('gcyl:gcyl_meta_item', 511), ore('frameGtVibranium'), ore('cableGtSingleNeutronium') * 4, ore('wireFineVibranium') * 64, ore('wireFineVibranium') * 64 ])
-//         .outputs(item('gregtech:meta_item_1', 213))
+//         .outputs(metaitem('field.generator.opv'))
 //         .fluidInputs(fluid('soldering_alloy') * 864)
 //         .duration(600)
 //         .EUt(536870900)
@@ -1784,7 +1784,7 @@
 //     blast_furnace.recipeBuilder()
 //     .inputs(ore('dustBrightSteel'))
 //     .outputs(ore('ingotBrightSteel'))
-//     .property("temperature", 2900) //this is a minimal temperature at which the item will be smelted
+//     .blastFurnaceTemp(2900) //this is a minimal temperature at which the item will be smelted
 //     .duration(1200)
 //     .EUt(120)
 //     .buildAndRegister();
@@ -1952,14 +1952,14 @@
 // //fix cosmic mesh and fabric
 // 
 // 
-// Utils.removeRecipeByOutput(condenser, [item('gcyl:gcyl_meta_item', 569)], [], true);
-// Utils.removeRecipeByOutput(condenser, [item('gcyl:gcyl_meta_item', 568)], [], true);
+// Utils.removeRecipeByOutput(condenser, [metaitem('gcyl:cosmic.fabric')], [], true);
+// Utils.removeRecipeByOutput(condenser, [metaitem('gcyl:cosmic.mesh')], [], true);
 // 
 // //facric
 // condenser.recipeBuilder()
 //     .inputs(item('gcyl:gcyl_meta_item', 567))
 //     .notConsumable(item('gcyl:gcyl_meta_item', 562))
-//     .outputs(item('gcyl:gcyl_meta_item', 569),item('gcyl:gcyl_meta_item', 515))
+//     .outputs(metaitem('gcyl:cosmic.fabric'),metaitem('gcyl:time.dilation.containment.unit'))
 //     .fluidInputs(fluid('xenon') * 500,fluid('superfluid_helium') * 24000)
 //     .fluidOutputs(fluid('helium') * 24000)
 //     .duration(500)
@@ -1971,7 +1971,7 @@
 // condenser.recipeBuilder()
 //     .inputs(item('gcyl:gcyl_meta_item', 567))
 //     .notConsumable(item('gcyl:gcyl_meta_item', 431))
-//     .outputs(item('gcyl:gcyl_meta_item', 568),item('gcyl:gcyl_meta_item', 515))
+//     .outputs(metaitem('gcyl:cosmic.mesh'),metaitem('gcyl:time.dilation.containment.unit'))
 //     .fluidInputs(fluid('superfluid_helium') * 24000)
 //     .fluidOutputs(fluid('helium') * 24000)
 //     .duration(500)
@@ -1979,11 +1979,11 @@
 //     .buildAndRegister();
 // 
 // Utils.removeRecipeByOutput(assembler, [item('gcyl:gcyl_meta_item', 552)], [], true);
-// Utils.removeRecipeByOutput(assembly_line, [item('gcyl:gcyl_meta_item', 515)], [], false);
+// Utils.removeRecipeByOutput(assembly_line, [metaitem('gcyl:time.dilation.containment.unit')], [], false);
 // 
 // 
 // assembler.recipeBuilder()
-//     .inputs(item('gregtech:meta_item_1', 241),item('gcyl:gcyl_meta_item', 556) * 2,item('gcyl:gcyl_meta_item', 511),item('gcyl:gcyl_meta_item', 516))
+//     .inputs(item('gregtech:meta_item_1', 241),metaitem('gcyl:qcd.protective.plating') * 2,item('gcyl:gcyl_meta_item', 511),item('gcyl:gcyl_meta_item', 516))
 //     .outputs(item('gcyl:gcyl_meta_item', 552))
 //     .fluidInputs(fluid('neutronium') * 144)
 //     .duration(600)
@@ -1992,7 +1992,7 @@
 // 
 // assembly_line.recipeBuilder()
 //     .inputs(ore('plateNeutronium') * 4,item('gcyl:gcyl_meta_item', 430) * 4, ore('plateFullerenePolymerMatrix') * 4, ore('plateQuantum') * 4, ore('stickEnrichedNaquadahAlloy')* 3, ore('wireGtSingleUhvSuperconductor') * 2, ore('circuitSuperconductor'))
-//     .outputs(item('gcyl:gcyl_meta_item', 515) * 4)
+//     .outputs(metaitem('gcyl:time.dilation.containment.unit') * 4)
 //     .fluidInputs(fluid('tritanium') * 144)
 //     .duration(100)
 //     .EUt(800000)
@@ -2272,8 +2272,8 @@
 //     .EUt(116)
 //     .buildAndRegister();
 // 
-// crafting.addShaped(item('contenttweaker:eternityblock'), [[item('contenttweaker:eternityingot'), item('contenttweaker:eternityingot'), item('contenttweaker:eternityingot')],[item('contenttweaker:eternityingot'), item('contenttweaker:eternityingot'), item('contenttweaker:eternityingot')], [item('contenttweaker:eternityingot'), item('contenttweaker:eternityingot'), item('contenttweaker:eternityingot')]]);
-// crafting.addShapeless(item('contenttweaker:eternityingot') * 9, [item('contenttweaker:eternityblock')]);
+// crafting.addShaped(metaitem('tjceu:blockEternity'), [[metaitem('tjceu:ingotEternity'), metaitem('tjceu:ingotEternity'), metaitem('tjceu:ingotEternity')],[metaitem('tjceu:ingotEternity'), metaitem('tjceu:ingotEternity'), metaitem('tjceu:ingotEternity')], [metaitem('tjceu:ingotEternity'), metaitem('tjceu:ingotEternity'), metaitem('tjceu:ingotEternity')]]);
+// crafting.addShapeless(metaitem('tjceu:ingotEternity') * 9, [metaitem('tjceu:blockEternity')]);
 // 
 // crafting.addShaped(ore('toolHoe').withTag({Unbreakable: 1 as long, RepairCost: 1, display: {Name: "Unbreakable Emerald Tipped Diamond Hoe"}}), [[ore('gemEmerald'), ore('gemEmerald'), null],[ore('gemEmerald'), ore('toolHoe'), null], [null, null, null]]);
 // mods.jei.JEI.addItem(ore('toolHoe').withTag({display:{Name: "Unbreakable Emerald Tipped Diamond Hoe"}}));
@@ -2281,7 +2281,7 @@
 // blast_alloy.recipeBuilder()
 //     .inputs([ore('dustSeaborgium') * 4])
 //     .inputs([ore('dustBohrium') * 4])
-//     .property("temperature", 11200)
+//     .blastFurnaceTemp(11200)
 //     .fluidOutputs(fluid('fusion1') * 1152)
 //     .duration(160)
 //     .EUt(1000000)
@@ -2289,7 +2289,7 @@
 // 
 // blast_alloy.recipeBuilder()
 //     .inputs([ore('dustRutherfordium') * 4])
-//     .property("temperature", 11200)
+//     .blastFurnaceTemp(11200)
 //     .inputs([ore('dustDubnium') * 4])
 //     .fluidOutputs(fluid('fusion2') * 1152)
 //     .duration(160)
@@ -2302,9 +2302,9 @@
 // ADVFusion.recipeBuilder()
 //     .fluidInputs(fluid('fusion1') * 288, fluid('fusion2') * 288)//,fluid('lead_bismuth_eutatic') * 7440)
 //     .fluidOutputs(fluid('superheavy_mix') * 1000)//, fluid('supercritical_lead_bismuth_eutectic') * 7440)
-//     .property("eu_to_start", 10000000000)
-//     .property("coilTier", 4)
-//     .property("euReturn", 75)
+//     .EUToStart(10000000000)
+//     .AdvCoilTier(4)
+//     .EUReturn(75)
 //     .duration(50)
 //     .EUt(4000000)
 //     .buildAndRegister();

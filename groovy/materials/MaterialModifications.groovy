@@ -21,6 +21,9 @@ class MaterialModifications {
         material('gcyl:metastable_flerovium').addFlags('no_replication')
         material('gcyl:metastable_hassium').addFlags('no_replication')
         material('trinium').addFlags('no_replication')
+
+        material('neodymium_magnetic').addFlags('generate_gear')
+        material('gcyl:draconium').addFlags('generate_double_plate')
     }
 
     static void modifyProperties() {

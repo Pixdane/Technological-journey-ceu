@@ -1,4 +1,8 @@
-import mods.astralsorcery.*
+import mods.astralsorcery.grindstone
+import mods.astralsorcery.infusion_altar
+import mods.astralsorcery.light_transmutation
+import mods.astralsorcery.lightwell
+import mods.astralsorcery.starlight_altar
 
 EBF = recipemap('electric_blast_furnace')
 MIXER = recipemap('mixer')
@@ -292,7 +296,7 @@ EBF.recipeBuilder()
         .inputs(ore('dustAstralStarmetal'))
         .fluidInputs(fluid('astralsorcery.liquidstarlight') * 6000)
         .outputs(item('astralsorcery:itemcraftingcomponent', 1))
-        .property("temperature", 7000)
+        .blastFurnaceTemp(7000)
         .duration(1000)
         .EUt(6000)
         .buildAndRegister()
@@ -302,7 +306,7 @@ EBF.recipeBuilder()
         .inputs(ore('gemAquamarine'))
         .fluidInputs(fluid('astralsorcery.liquidstarlight') * 6000)
         .outputs(item('astralsorcery:itemcraftingcomponent', 4))
-        .property("temperature", 7000)
+        .blastFurnaceTemp(7000)
         .duration(1000)
         .EUt(6000)
         .buildAndRegister()
@@ -367,7 +371,7 @@ lightwell.recipeBuilder()
 EBF.recipeBuilder()
         .inputs(ore('ingotNaquadahAlloy'), ore('ingotAstralStarmetal'))
         .outputs(metaitem('tjceu:ingotHotStarmetalAlloy') * 2)
-        .property("temperature", 7600)
+        .blastFurnaceTemp(7600)
         .duration(1000)
         .EUt(30720)
         .buildAndRegister()
