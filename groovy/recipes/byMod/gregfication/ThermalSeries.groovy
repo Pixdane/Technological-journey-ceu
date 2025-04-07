@@ -1,0 +1,8 @@
+crafting.removeByOutput(item('thermalfoundation:upgrade'))
+crafting.removeByOutput(item('thermalfoundation:upgrade', 1))
+crafting.removeByOutput(item('thermalfoundation:upgrade', 2))
+crafting.removeByOutput(item('thermalfoundation:upgrade', 3))
+crafting.removeByOutput(item('thermalfoundation:upgrade', 33))
+crafting.removeByOutput(item('thermalfoundation:upgrade', 34))
+crafting.removeByOutput(item('thermalfoundation:upgrade', 35))
+crafting.removeByOutput(item('thermalfoundation:upgrade', 256))
