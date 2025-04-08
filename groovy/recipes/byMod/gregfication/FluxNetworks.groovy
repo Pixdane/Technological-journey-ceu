@@ -23,7 +23,7 @@
 // assembler.recipeBuilder()
 // .inputs([item('fluxnetworks:fluxcore')  * 8,ore('wireGtSingleUvSuperconductor') * 18])
 // .outputs([item('fluxnetworks:fluxpoint') * 2])
-//     .notConsumable(item('gregtech:meta_item_1:32766').withTag({Configuration: 1}))
+//     .notConsumable(item('gregtech:meta_item_1:32766').withNbt({Configuration: 1}))
 // .duration(240)
 // .EUt(524288)
 // .buildAndRegister();
@@ -31,7 +31,7 @@
 // assembler.recipeBuilder()
 // .inputs([item('fluxnetworks:fluxcore')  * 8,ore('wireGtSingleUvSuperconductor') * 18])
 // .outputs([item('fluxnetworks:fluxplug') * 2])
-//     .notConsumable(item('gregtech:meta_item_1:32766').withTag({Configuration: 2}))
+//     .notConsumable(item('gregtech:meta_item_1:32766').withNbt({Configuration: 2}))
 // .duration(240)
 // .EUt(524288)
 // .buildAndRegister();

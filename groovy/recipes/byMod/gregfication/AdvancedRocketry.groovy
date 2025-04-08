@@ -186,9 +186,9 @@ crafting.addShaped(item('libvulpes:structuremachine') * 4, [
 ])
 
 crafting.addShaped(item('advancedrocketry:warpcore'), [
-        [ore('plateTitanium'), ore('circuitExtreme'), ore('plateTitanium')],
+        [ore('plateTitanium'), ore('circuitEv'), ore('plateTitanium')],
         [ore('plateTitanium'), metaitem('hull.ev'), ore('plateTitanium')],
-        [ore('plateTitanium'), ore('circuitExtreme'), ore('plateTitanium')]
+        [ore('plateTitanium'), ore('circuitEv'), ore('plateTitanium')]
 ])
 
 crafting.addShaped(item('advancedrocketry:circlelight'), [

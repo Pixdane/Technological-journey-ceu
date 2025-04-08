@@ -187,7 +187,7 @@
 //     .notConsumable(i)
 //     .inputs(ore('dustBone,dye,dyeWhite'))
 //     .fluidInputs(fluid('water') * 2000)
-//     .notConsumable(item('gregtech:meta_item_1:32766').withTag({Configuration: 1}))
+//     .notConsumable(item('gregtech:meta_item_1:32766').withNbt({Configuration: 1}))
 //     .outputs([i])
 //     .duration(160)
 //     .EUt(14)
@@ -197,7 +197,7 @@
 //     .notConsumable(i)
 //     .inputs(ore('dustOrganicFertilizer'))
 //     .fluidInputs(fluid('water') * 2000)
-//     .notConsumable(item('gregtech:meta_item_1:32766').withTag({Configuration: 2}))
+//     .notConsumable(item('gregtech:meta_item_1:32766').withNbt({Configuration: 2}))
 //     .outputs([i * 2])
 //     .duration(160)
 //     .EUt(14)
@@ -531,8 +531,8 @@
 // h(item('danknull:dank_null_panel_5'));
 // h(item('danknull:danknull_dock'));
 // h(item('gregtech:machine:2005'));
-// h(item('extracells:storage.fluid', 5).withTag({fuzzyMode: "IGNORE_ALL"}));
-// h(item('extracells:storage.fluid', 6).withTag({fuzzyMode: "IGNORE_ALL"}));
+// h(item('extracells:storage.fluid', 5).withNbt({fuzzyMode: "IGNORE_ALL"}));
+// h(item('extracells:storage.fluid', 6).withNbt({fuzzyMode: "IGNORE_ALL"}));
 // h(item('extracells:storage.component', 9));
 // h(item('extracells:storage.component', 10));
 // h(item('actuallyadditions:block_atomic_reconstructor'));
@@ -569,7 +569,7 @@
 // h(item('gcyl:gcyl_meta_item', 230));
 // h(item('gcyl:gcyl_meta_item', 231));
 // var megnet = [ore('circuitUlv'),ore('circuitLv'),ore('circuitMv'),ore('circuitHv'),ore('circuitEv'),ore('circuitIv'),ore('circuitLuv'),ore('circuitZpm'),ore('circuitUv'),ore('circuitUhv'),ore('circuitUev')] as IItemStack[];
-// var circuitdict = [ore('circuitPrimitive'),ore('circuitBasic'),ore('circuitGood'),ore('circuitAdvanced'),ore('circuitExtreme'),ore('circuitElite'),ore('circuitMaster'),ore('circuitUltimate'),ore('circuitSuperconductor'),ore('circuitInfinite'),ore('circuitUev')] as IOreDictEntry[];
+// var circuitdict = [ore('circuitPrimitive'),ore('circuitBasic'),ore('circuitGood'),ore('circuitHv'),ore('circuitEv'),ore('circuitIv'),ore('circuitMaster'),ore('circuitZpm'),ore('circuitSuperconductor'),ore('circuitInfinite'),ore('circuitUev')] as IOreDictEntry[];
 // 
 // for i in 0 to 11{
 // 	circuitdict[i].remove(megnet[i]);
@@ -592,14 +592,14 @@
 // h(item('enderio:block_solar_panel', 5));
 // h(item('enderio:block_solar_panel', 5));
 // h(item('enderio:block_solar_panel', 6));
-// h(item('enderio:item_dark_steel_upgrade', 1).withTag({"enderio:dsu": "enderiomachines:solar"}));
-// h(item('enderio:item_dark_steel_upgrade', 1).withTag({"enderio:dsu": "enderiomachines:solar", "enderio:enabled": 1 as byte}));
-// h(item('enderio:item_dark_steel_upgrade', 1).withTag({"enderio:dsu": "enderiomachines:solar1"}));
-// h(item('enderio:item_dark_steel_upgrade', 1).withTag({"enderio:dsu": "enderiomachines:solar1", "enderio:enabled": 1 as byte}));
-// h(item('enderio:item_dark_steel_upgrade', 1).withTag({"enderio:dsu": "enderiomachines:solar2"}));
-// h(item('enderio:item_dark_steel_upgrade', 1).withTag({"enderio:dsu": "enderiomachines:solar2", "enderio:enabled": 1 as byte}));
-// h(item('enderio:item_dark_steel_upgrade', 1).withTag({"enderio:dsu": "enderiomachines:solar3"}));
-// h(item('enderio:item_dark_steel_upgrade', 1).withTag({"enderio:dsu": "enderiomachines:solar3", "enderio:enabled": 1 as byte}));
+// h(item('enderio:item_dark_steel_upgrade', 1).withNbt({"enderio:dsu": "enderiomachines:solar"}));
+// h(item('enderio:item_dark_steel_upgrade', 1).withNbt({"enderio:dsu": "enderiomachines:solar", "enderio:enabled": 1 as byte}));
+// h(item('enderio:item_dark_steel_upgrade', 1).withNbt({"enderio:dsu": "enderiomachines:solar1"}));
+// h(item('enderio:item_dark_steel_upgrade', 1).withNbt({"enderio:dsu": "enderiomachines:solar1", "enderio:enabled": 1 as byte}));
+// h(item('enderio:item_dark_steel_upgrade', 1).withNbt({"enderio:dsu": "enderiomachines:solar2"}));
+// h(item('enderio:item_dark_steel_upgrade', 1).withNbt({"enderio:dsu": "enderiomachines:solar2", "enderio:enabled": 1 as byte}));
+// h(item('enderio:item_dark_steel_upgrade', 1).withNbt({"enderio:dsu": "enderiomachines:solar3"}));
+// h(item('enderio:item_dark_steel_upgrade', 1).withNbt({"enderio:dsu": "enderiomachines:solar3", "enderio:enabled": 1 as byte}));
 // //h(item('gcyl:mte', 18));
 // //h(ore('itemPrecientPowder'));
 // h(ore('itemVibrantPowder'));

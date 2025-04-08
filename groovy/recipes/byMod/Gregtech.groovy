@@ -16,7 +16,7 @@ crafting.addShaped(item('gregtech:machine_casing', 7), [
 // 
 // assembler.recipeBuilder()
 // .inputs(item('gregtech:meta_item_1:12524') * 8)
-// .notConsumable(item('gregtech:meta_item_1:32766').withTag({Configuration: 8}))
+// .notConsumable(item('gregtech:meta_item_1:32766').withNbt({Configuration: 8}))
 // .outputs(item('gregtech:machine_casing', 7))
 // .duration(40)
 // .EUt(1024)
