@@ -48,6 +48,7 @@ tjceu.machine.large_vial_processor.name=Large Vial Processor
 tjceu.machine.large_powered_spawner.name=Large Powered Spawner
 
 ## Singleblocks
+### Vial Processors
 tjceu.machine.vial_processor.lv.name=Basic Vial Processor
 tjceu.machine.vial_processor.mv.name=Advanced Vial Processor
 tjceu.machine.vial_processor.hv.name=Advanced Vial Processor II
@@ -62,6 +63,21 @@ tjceu.machine.vial_processor.uiv.name=Epic Vial Processor III
 tjceu.machine.vial_processor.uxv.name=Epic Vial Processor IV
 tjceu.machine.vial_processor.opv.name=Legendary Vial Processor
 
+### Gardening Greenhouses
+tjceu.machine.gardening_greenhouse.lv.name=Basic Gardening Greenhouse
+tjceu.machine.gardening_greenhouse.mv.name=Advanced Gardening Greenhouse
+tjceu.machine.gardening_greenhouse.hv.name=Advanced Gardening Greenhouse II
+tjceu.machine.gardening_greenhouse.ev.name=Advanced Gardening Greenhouse III
+tjceu.machine.gardening_greenhouse.iv.name=Elite Gardening Greenhouse
+tjceu.machine.gardening_greenhouse.luv.name=Elite Gardening Greenhouse II
+tjceu.machine.gardening_greenhouse.zpm.name=Elite Gardening Greenhouse III
+tjceu.machine.gardening_greenhouse.uv.name=Ultimate Gardening Greenhouse
+tjceu.machine.gardening_greenhouse.uhv.name=Epic Gardening Greenhouse
+tjceu.machine.gardening_greenhouse.uev.name=Epic Gardening Greenhouse II
+tjceu.machine.gardening_greenhouse.uiv.name=Epic Gardening Greenhouse III
+tjceu.machine.gardening_greenhouse.uxv.name=Epic Gardening Greenhouse IV
+tjceu.machine.gardening_greenhouse.opv.name=Legendary Gardening Greenhouse
+
 ## Hatches
 tjceu.machine.fluid_hatch.import_4x.hv.name=HV Quadruple Input Hatch
 tjceu.machine.fluid_hatch.export_4x.hv.name=HV Quadruple Output Hatch
@@ -75,3 +91,4 @@ recipemap.dragon_egg_replication.name=Dragon Egg Replication
 recipemap.vial_processing.name=Vial Processing
 recipemap.advanced_vial_processing.name=Advanced Vial Processing
 recipemap.soul_capture.name=Soul Capture
+recipemap.horticultural_cultivation.name=Horticultural Cultivation

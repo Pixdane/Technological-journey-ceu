@@ -185,32 +185,7 @@ ore_dict.remove('stickSteel', item('libvulpes:productrod', 6))
 ore_dict.remove('stickTitanium', item('libvulpes:productrod', 7))
 ore_dict.remove('stickIridium', item('libvulpes:productrod', 10))
 
-// TODO: singleblock greenhouse & GTFO greenhouse integration
-// var plant = [item('futuremc:wither_rose'),item('minecraft:red_flower'),item('minecraft:red_flower', 1),item('minecraft:red_flower', 2),item('minecraft:red_flower', 3),item('minecraft:red_flower', 4),item('minecraft:red_flower', 5),item('minecraft:red_flower', 6),item('minecraft:red_flower', 7),item('minecraft:yellow_flower'),item('minecraft:double_plant', 1),item('futuremc:lily_of_the_valley'),item('futuremc:cornflower'),item('minecraft:double_plant'),item('minecraft:double_plant', 4),item('minecraft:double_plant', 5),item('minecraft:red_flower', 8),item('minecraft:waterlily'),ore('dye,dyeBrown')]as IItemStack[];
-// 
-// for i in plant{
-// 
-// green_house.recipeBuilder()
-//     .notConsumable(i)
-//     .inputs(ore('dustBone,dye,dyeWhite'))
-//     .fluidInputs(fluid('water') * 2000)
-//     .notConsumable(item('gregtech:meta_item_1:32766').withNbt({Configuration: 1}))
-//     .outputs([i])
-//     .duration(160)
-//     .EUt(14)
-//     .buildAndRegister();
-// 
-// green_house.recipeBuilder()
-//     .notConsumable(i)
-//     .inputs(ore('dustOrganicFertilizer'))
-//     .fluidInputs(fluid('water') * 2000)
-//     .notConsumable(item('gregtech:meta_item_1:32766').withNbt({Configuration: 2}))
-//     .outputs([i * 2])
-//     .duration(160)
-//     .EUt(14)
-// 	.buildAndRegister();
-// 
-// }
+
 
 // //Hide AR stuff
 // h(item('advancedrocketry:deployablerocketbuilder'));

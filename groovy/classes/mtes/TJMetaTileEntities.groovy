@@ -16,6 +16,7 @@ import static classes.utils.TJUtility.tjId
 class TJMetaTileEntities {
 
     static final def VIAL_PROCESSOR = new SimpleMachineMetaTileEntity[GTValues.V.length - 1]
+    static final def GARDENING_GREENHOUSE = new SimpleMachineMetaTileEntity[GTValues.V.length - 1]
 
     static def PRIMITIVE_ALLOY_SMELTER
     static def ARMOR_INFUSER
@@ -38,6 +39,14 @@ class TJMetaTileEntities {
                 .mtes(VIAL_PROCESSOR)
                 .recipeMap(TJRecipeMaps.VIAL_PROCESSING)
                 .renderer(Textures.EXTRACTOR_OVERLAY) // TODO: custom overlay?
+                .build().register()
+
+        MTE.builder()
+                .name('gardening_greenhouse')
+                .startId(15)
+                .mtes(GARDENING_GREENHOUSE)
+                .recipeMap(TJRecipeMaps.HORTICULTURAL_CULTIVATION)
+                .renderer(Textures.FERMENTER_OVERLAY) // TODO: custom overlay?
                 .build().register()
 
         // Multiblocks 2000 - 2999
