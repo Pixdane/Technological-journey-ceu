@@ -48,6 +48,9 @@ class MaterialModifications {
         material('berkelium').addOre()
         material('rhodium').addOre()
         material('ruthenium').addOre()
+        material('naquadah_enriched').addOre()
+        material('niobium').addOre()
+        material('rarest_metal_mixture').addOre()
 
         material('gcyl:lv_superconductor_base').getProperty(PropertyKey.WIRE).setLossPerBlock(6)
         material('gcyl:bright_steel').getProperty(PropertyKey.WIRE).setLossPerBlock(2)

@@ -1,22 +1,23 @@
 {
-  "name": "gregtech.veins.fluid.heavy_oil",
-  "weight": 15,
+  "name": "tjceu.veins.fluid.water",
+  "weight": 0,
   "yield": {
-    "min": 100,
-    "max": 200
+    "min": 50,
+    "max": 100
   },
   "depletion": {
     "amount": 1,
-    "chance": 100,
+    "chance": 20,
     "depleted_yield": 20
   },
-  "fluid": "oil_heavy",
+  "fluid": "water",
   "dimension_filter": [
     "name:overworld"
   ],
   "biome_modifier": {
     "type": "biome_dictionary",
-    "ocean": 5,
+    "forest": 20,
+    "plains": 10,
     "sandy": 10
   }
 }

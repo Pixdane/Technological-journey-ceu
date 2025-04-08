@@ -7,10 +7,13 @@
   },
   "depletion": {
     "amount": 1,
-    "chance": 100,
+    "chance": 0,
     "depleted_yield": 15
   },
   "fluid": "sea_water",
+  "dimension_filter": [
+    "name:overworld"
+  ],
   "biome_modifier": {
     "type": "biome_map",
     "ocean": 150,

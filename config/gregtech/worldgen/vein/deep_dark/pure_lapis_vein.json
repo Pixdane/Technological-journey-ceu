@@ -1,0 +1,40 @@
+{
+    "name": "tjceu.veins.ore.pure_lapis.deep_dark",
+    "weight": 40,
+    "density": 1,
+    "max_height": 120,
+    "min_height": 0,
+    "dimension_filter": [
+        "dimension_id:4"
+    ],
+    "generator": {
+        "type": "ellipsoid",
+        "radius": [
+            8,
+            9
+        ]
+    },
+    "filler": {
+        "type": "simple",
+        "value": {
+            "type": "weight_random",
+            "values": [{
+                    "weight": 30,
+                    "value": "ore:lazurite"
+                },
+                {
+                    "weight": 20,
+                    "value": "ore:sodalite"
+                },
+                {
+                    "weight": 35,
+                    "value": "ore:lapis"
+                },
+                {
+                    "weight": 15,
+                    "value": "ore:pure:calcite"
+                }
+            ]
+        }
+    }
+}

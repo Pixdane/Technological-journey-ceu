@@ -1,0 +1,36 @@
+{
+    "name": "tjceu.veins.ore.naquadah.deimos",
+    "weight": 50,
+    "density": 1,
+    "max_height": 50,
+    "min_height": 10,
+    "dimension_filter": [
+        "dimension_id:406"
+    ],
+    "generator": {
+        "type": "ellipsoid",
+        "radius": [
+            20,
+            20
+        ]
+    },
+    "filler": {
+        "type": "simple",
+        "value": {
+            "type": "weight_random",
+            "values": [{
+                    "weight": 25,
+                    "value": "ore:naquadah"
+                },
+                {
+                    "weight": 25,
+                    "value": "ore:naquadah_enriched"
+                },
+                {
+                    "weight": 50,
+                    "value": "ore:naquadria"
+                }
+            ]
+        }
+    }
+}

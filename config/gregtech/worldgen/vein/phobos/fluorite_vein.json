@@ -1,0 +1,29 @@
+{
+    "name": "tjceu.veins.ore.fluorite.phobos",
+    "weight": 100,
+    "density": 1,
+    "min_height": 40,
+    "dimension_filter": [
+        "dimension_id:402"
+    ],
+    "surface_stone_material": "salt",
+    "generator": {
+        "type": "ellipsoid",
+        "radius": [30, 30]
+    },
+    "filler": {
+        "type": "simple",
+        "value": {
+            "type": "weight_random",
+            "values": [{
+                    "weight": 50,
+                    "value": "ore:salt"
+                },
+                {
+                    "weight": 50,
+                    "value": "ore:gcyl:fluorite"
+                }
+            ]
+        }
+    }
+}

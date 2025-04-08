@@ -1,0 +1,36 @@
+{
+    "name": "tjceu.veins.ore.rhodium_salt.mars",
+    "weight": 50,
+    "density": 1,
+    "max_height": 50,
+    "min_height": 10,
+    "dimension_filter": [
+        "dimension_id:405"
+    ],
+    "generator": {
+        "type": "ellipsoid",
+        "radius": [
+            18,
+            18
+        ]
+    },
+    "filler": {
+        "type": "simple",
+        "value": {
+            "type": "weight_random",
+            "values": [{
+                    "weight": 40,
+                    "value": "ore:gcyl:platinum_metallic_powder"
+                },
+                {
+                    "weight": 40,
+                    "value": "ore:gcyl:palladium_metallic_powder"
+                },
+                {
+                    "weight": 20,
+                    "value": "ore:gcyl:rhodium_salt"
+                }
+            ]
+        }
+    }
+}

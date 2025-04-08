@@ -1,0 +1,36 @@
+{
+    "name": "tjceu.veins.ore.pure_tetrahedrite.deep_dark",
+    "weight": 60,
+    "density": 1,
+    "max_height": 120,
+    "min_height": 0,
+    "dimension_filter": [
+        "dimension_id:4"
+    ],
+    "generator": {
+        "type": "ellipsoid",
+        "radius": [
+            12,
+            13
+        ]
+    },
+    "filler": {
+        "type": "simple",
+        "value": {
+            "type": "weight_random",
+            "values": [{
+                    "weight": 60,
+                    "value": "ore:tetrahedrite"
+                },
+                {
+                    "weight": 20,
+                    "value": "ore:copper"
+                },
+                {
+                    "weight": 20,
+                    "value": "ore:stibnite"
+                }
+            ]
+        }
+    }
+}

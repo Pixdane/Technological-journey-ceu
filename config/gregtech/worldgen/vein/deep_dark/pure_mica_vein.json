@@ -1,0 +1,30 @@
+{
+    "name": "tjceu.veins.ore.pure_mica.deep_dark",
+    "weight": 50,
+    "density": 1,
+    "max_height": 120,
+    "min_height": 0,
+    "dimension_filter": [
+        "dimension_id:4"
+    ],
+
+    "generator": {
+        "type": "ellipsoid",
+        "radius": [15, 17]
+    },
+    "filler": {
+        "type": "simple",
+        "value": {
+            "type": "weight_random",
+            "values": [{
+                    "weight": 50,
+                    "value": "ore:mica"
+                },
+                {
+                    "weight": 50,
+                    "value": "ore:asbestos"
+                }
+            ]
+        }
+    }
+}

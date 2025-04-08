@@ -1,0 +1,33 @@
+{
+    "name": "tjceu.veins.ore.netherstar.mercury",
+    "weight": 50,
+    "density": 0.5,
+    "max_height": 70,
+    "min_height": 5,
+    "dimension_filter": [
+        "dimension_id:403"
+    ],
+    "generator": {
+        "type": "ellipsoid",
+        "radius": [
+            13,
+            13
+        ]
+    },
+    "filler": {
+        "type": "simple",
+        "value": {
+            "type": "weight_random",
+            "values": [{
+                    "weight": 30,
+                    "value": "ore:diamond"
+                },
+                {
+                    "weight": 70,
+                    "value": "ore:nether_star"
+                }
+
+            ]
+        }
+    }
+}

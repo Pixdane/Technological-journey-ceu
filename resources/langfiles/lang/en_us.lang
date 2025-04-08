@@ -16,3 +16,94 @@ tile.teleporterbeneath.name=Deep Dark Portal
 
 ## GCyL:CEu
 gcyl.material.chaos=Refined Chaos
+
+# Ore Veins
+gcyl.veins.fluid.blood=Remains of Blood Pond Hell
+gcyl.veins.fluid.hydrogen_sulfide=Nether Sour Gas Deposit
+gcyl.veins.fluid.sea_water=Underground Seawater Deposit
+tjceu.veins.fluid.water=Groundwater Deposit
+
+gcyl.veins.ore.beryllium_end=End Beryllium Vein
+gcyl.veins.ore.manganese_end=End Manganese Vein
+gcyl.veins.ore.molybdenum_end=End Molybdenum Vein
+gcyl.veins.ore.tungstate_end=End Tungstate Vein
+gcyl.veins.ore.uranium_end=End Uranium Vein
+gcyl.veins.ore.chalcopyrite.nether=Nether Chalcopyrite Vein
+gcyl.veins.ore.iron.nether=Nether Iron Vein
+gcyl.veins.ore.magnetite.nether=Nether Magnetite Vein
+gcyl.veins.ore.netherquartz.nether=Nether Quartz Vein
+gcyl.veins.ore.nickel.nether=Nether Nickel Vein
+gcyl.veins.ore.precious.nether=Nether Precious Metals Vein
+gcyl.veins.ore.redstone.nether=Nether Redstone Vein
+gcyl.veins.ore.sulfur.nether=Nether Sulfur Vein
+gcyl.veins.ore.tetrahedrite.nether=Nether Tetrahedrite Vein
+gcyl.veins.ore.topaz.nether=Nether Topaz Vein
+gcyl.veins.ore.zircon.nether=Nether Zircon Vein
+
+gcyl.veins.ore.aluminium=Aluminium Vein
+gcyl.veins.ore.bornite=Bornite Vein
+gcyl.veins.ore.dolomite=Dolomite Vein
+gcyl.veins.ore.kaolinite=Kaolinite Vein
+gcyl.veins.ore.kyanite=Kyanite Vein
+gcyl.veins.ore.light_oil_sphere=Light Oil Sphere
+gcyl.veins.ore.lignite=Lignite Vein
+gcyl.veins.ore.malachite=Malachite Vein
+gcyl.veins.ore.quartz=Quartz Vein
+gcyl.veins.ore.tenorite=Tenorite Vein
+gcyl.veins.ore.tin=Tin Vein
+gcyl.veins.ore.topaz=Topaz Vein
+gcyl.veins.ore.uranium_generic=Uranium Vein
+
+tjceu.veins.ore.heavy_oil_sphere.titan=Titan Heavy Oil Sphere
+tjceu.veins.ore.light_oil_sphere.titan=Titan Light Oil Sphere
+tjceu.veins.ore.medium_oil_sphere.titan=Titan Medium Oil Sphere
+tjceu.veins.ore.natural_gas_plate.titan=Titan Natural Gas Plate
+tjceu.veins.ore.rich_coal.titan=Titan Rich Coal Vein
+tjceu.veins.ore.rich_oil_sands.titan=Titan Rich Oil Sands Vein
+
+tjceu.veins.ore.aquamarine_shale.pluto=Pluto Aquamarine Shale Vein
+
+tjceu.veins.ore.radioactive.mars=Mars Radioactive Vein
+tjceu.veins.ore.rhodium_salt.mars=Mars Rhodium Salt Vein
+
+tjceu.veins.ore.aluminium.moon=Lunar Aluminium Vein
+tjceu.veins.ore.diamond.moon=Lunar Diamond Vein
+tjceu.veins.ore.pyrochlore.moon=Lunar Pyrochlore Vein
+tjceu.veins.ore.rutile.moon=Lunar Rutile Vein
+
+tjceu.veins.ore.naquadric.mercury=Mercury Naquadric Debris
+tjceu.veins.ore.netherstar.mercury=Mercury Netherstar Vein
+tjceu.veins.ore.pure_molybdenum.mercury=Mercury Pure Molybdenum Vein
+tjceu.veins.ore.pure_monazite.mercury=Mercury Pure Monazite Vein
+tjceu.veins.ore.pure_platinum.mercury=Mercury Pure Platinum Vein
+tjceu.veins.ore.sulfur.mercury=Mercury Sulfur Vein
+
+tjceu.veins.ore.naquadah.deimos=Deimos Naquadah Debris
+tjceu.veins.ore.radioactive.deimos=Deimos Radioactive Vein
+tjceu.veins.ore.superheavy.deimos=Deimos Superheavy Vein
+
+tjceu.veins.ore.fluorite.phobos=Phobos Fluorite Vein
+tjceu.veins.ore.salt.phobos=Phobos Salt Vein
+
+tjceu.veins.ore.chromite.deep_dark=Deep Dark Chromite Vein
+tjceu.veins.ore.niobium.deep_dark=Deep Dark Niobium Vein
+tjceu.veins.ore.pure_aluminium.deep_dark=Deep Dark Pure Aluminium Vein
+tjceu.veins.ore.pure_beryllium.deep_dark=Deep Dark Pure Beryllium Vein
+tjceu.veins.ore.pure_diamond.deep_dark=Deep Dark Pure Diamond Vein
+tjceu.veins.ore.pure_galena.deep_dark=Deep Dark Pure Galena Vein
+tjceu.veins.ore.pure_lapis.deep_dark=Deep Dark Pure Lapis Vein
+tjceu.veins.ore.pure_magnetite.deep_dark=Deep Dark Pure Magnetite Vein
+tjceu.veins.ore.pure_manganese.deep_dark=Deep Dark Pure Manganese Vein
+tjceu.veins.ore.pure_mica.deep_dark=Deep Dark Pure Mica Vein
+tjceu.veins.ore.pure_nickel.deep_dark=Deep Dark Pure Nickel Vein
+tjceu.veins.ore.pure_pyrite.deep_dark=Deep Dark Pure Pyrite Vein
+tjceu.veins.ore.pure_quartz.deep_dark=Deep Dark Pure Quartz Vein
+tjceu.veins.ore.pure_redstone.deep_dark=Deep Dark Pure Redstone Vein
+tjceu.veins.ore.pure_sapphire.deep_dark=Deep Dark Pure Sapphire Vein
+tjceu.veins.ore.pure_tenorite.deep_dark=Deep Dark Pure Tenorite Vein
+tjceu.veins.ore.pure_tetrahedrite.deep_dark=Deep Dark Pure Tetrahedrite Vein
+tjceu.veins.ore.pure_tin.deep_dark=Deep Dark Pure Tin Vein
+tjceu.veins.ore.pure_tungstate.deep_dark=Deep Dark Pure Tungstate Vein
+tjceu.veins.ore.rarest_metal.deep_dark=Deep Dark Rarest Metal Vein
+tjceu.veins.ore.rich_uranium.deep_dark=Deep Dark Rich Uranium Vein
+tjceu.veins.ore.starmetal.deep_dark=Deep Dark Starmetal Vein

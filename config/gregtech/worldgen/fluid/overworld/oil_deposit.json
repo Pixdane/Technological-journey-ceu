@@ -11,6 +11,9 @@
     "depleted_yield": 25
   },
   "fluid": "oil",
+  "dimension_filter": [
+    "name:overworld"
+  ],
   "biome_modifier": {
     "type": "biome_dictionary",
     "ocean": 5,

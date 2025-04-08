@@ -1,0 +1,33 @@
+{
+    "name": "tjceu.veins.ore.rich_coal.titan",
+    "weight": 100,
+    "density": 1,
+    "max_height": 100,
+    "min_height": 10,
+    "dimension_filter": [
+        "dimension_id:400"
+    ],
+    "generator": {
+        "type": "ellipsoid",
+        "radius": [20, 20]
+    },
+    "filler": {
+        "type": "simple",
+        "value": {
+            "type": "weight_random",
+            "values": [{
+                    "weight": 50,
+                    "value": "ore:coal"
+                },
+                {
+                    "weight": 25,
+                    "value": "ore:gcyl:lignite"
+                },
+                {
+                    "weight": 25,
+                    "value": "ore:coke"
+                }
+            ]
+        }
+    }
+}

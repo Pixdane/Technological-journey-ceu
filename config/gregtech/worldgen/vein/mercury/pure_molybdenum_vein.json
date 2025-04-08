@@ -1,0 +1,36 @@
+{
+    "name": "tjceu.veins.ore.pure_molybdenum.mercury",
+    "weight": 10,
+    "density": 1,
+    "max_height": 40,
+    "min_height": 10,
+    "dimension_filter": [
+        "dimension_id:403"
+    ],
+    "generator": {
+        "type": "ellipsoid",
+        "radius": [
+            8,
+            8
+        ]
+    },
+    "filler": {
+        "type": "simple",
+        "value": {
+            "type": "weight_random",
+            "values": [{
+                    "weight": 10,
+                    "value": "ore:wulfenite"
+                },
+                {
+                    "weight": 80,
+                    "value": "ore:molybdenite"
+                },
+                {
+                    "weight": 10,
+                    "value": "ore:powellite"
+                }
+            ]
+        }
+    }
+}

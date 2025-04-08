@@ -1,0 +1,36 @@
+{
+    "name": "tjceu.veins.ore.rarest_metal.deep_dark",
+    "weight": 50,
+    "density": 0.4,
+    "max_height": 120,
+    "min_height": 0,
+    "dimension_filter": [
+        "dimension_id:4"
+    ],
+    "generator": {
+        "type": "ellipsoid",
+        "radius": [
+            13,
+            13
+        ]
+    },
+    "filler": {
+        "type": "simple",
+        "value": {
+            "type": "weight_random",
+            "values": [{
+                    "weight": 80,
+                    "value": "ore:rarest_metal_mixture"
+                },
+                {
+                    "weight": 5,
+                    "value": "ore:bowieite"
+                },
+                {
+                    "weight": 15,
+                    "value": "ore:celestine"
+                }
+            ]
+        }
+    }
+}
