@@ -120,3 +120,5 @@ config/ScalingGUIs/ScalingGUIsCustomScales.json
 /config/bogosorter/orePrefix.json
 /config/jei/jei.cfg
 /groovy/.groovylintrc.json
+/config/brandon3055/contributors.json
+/config/splash.properties
