@@ -118,3 +118,5 @@ config/ScalingGUIs/ScalingGUIs.cfg
 config/ScalingGUIs/ScalingGUIsCustomScales.json
 /packwiz.exe
 /config/bogosorter/orePrefix.json
+/config/jei/jei.cfg
+/groovy/.groovylintrc.json
