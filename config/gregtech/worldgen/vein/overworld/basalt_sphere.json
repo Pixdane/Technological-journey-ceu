@@ -12,6 +12,9 @@
       20
     ]
   },
+  "dimension_filter": [
+    "name:overworld"
+  ],
   "filler": {
     "type": "ignore_bedrock",
     "value": {

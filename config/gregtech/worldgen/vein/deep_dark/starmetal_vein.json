@@ -5,7 +5,7 @@
     "max_height": 120,
     "min_height": 0,
     "dimension_filter": [
-        "dimension_id:4"
+        "dimension_id:404"
     ],
     "generator": {
         "type": "ellipsoid",
@@ -17,9 +17,10 @@
         "type": "simple",
         "value": {
             "type": "weight_random",
-            "values": [{
+            "values": [
+                {
                     "weight": 60,
-                    "value": "block:astralsorcery:blockcustomore:1"
+                    "value": "ore_dict:oreAstralStarmetal"
                 },
                 {
                     "weight": 40,

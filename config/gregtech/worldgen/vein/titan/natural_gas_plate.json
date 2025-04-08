@@ -10,7 +10,6 @@
     "priority": -100,
     "count_as_vein": false,
     "generation_predicate": "any",
-
     "biome_modifier": {
         "type": "biome_dictionary",
         "sandy": 5

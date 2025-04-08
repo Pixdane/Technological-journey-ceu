@@ -5,7 +5,7 @@
     "max_height": 120,
     "min_height": 0,
     "dimension_filter": [
-        "dimension_id:4"
+        "dimension_id:404"
     ],
     "generator": {
         "type": "ellipsoid",
@@ -28,7 +28,7 @@
                 },
                 {
                     "weight": 15,
-                    "value": "ore:celestine"
+                    "value": "ore:gcyl:celestine"
                 }
             ]
         }

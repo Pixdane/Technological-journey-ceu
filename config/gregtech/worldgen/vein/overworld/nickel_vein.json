@@ -12,6 +12,9 @@
     "type": "ellipsoid",
     "radius": [13, 14]
   },
+  "dimension_filter": [
+    "name:overworld"
+  ],
   "filler": {
     "type": "simple",
     "value": {
