@@ -36,7 +36,7 @@
 // macerator.findRecipe(240, [ore('ingotIron')], null).remove();
 // macerator.findRecipe(240, [ore('ingotGold')], null).remove();
 // macerator.findRecipe(240, [ore('enderpearl')], null).remove();
-// //alloy.findRecipe(5120, [ore('dustRedstone'),item('gregtech:meta_item_1', 371)], null).remove();
+// //alloy.findRecipe(5120, [ore('dustRedstone'),metaitem('wafer.silicon')], null).remove();
 
 // Certus Quartz Dust
 // macerator.recipeBuilder()
@@ -482,7 +482,7 @@
 // crafting.removeByOutput(item('bonsaitrees:bonsaipot', 1));
 // crafting.removeByOutput(item('bonsaitrees:bonsaipot'));
 // crafting.removeByOutput(item('gregtech:machine:2540'));
-// crafting.addShaped(item('gregtech:machine:2540'), [[item('gregtech:meta_item_1:32643'), ore('circuitExtreme'), item('gregtech:meta_item_1:32643')],[item('gregtech:meta_item_1:32603'), item('gregtech:mte', 989), item('gregtech:meta_item_1:32603')], [ore('gearTitanium'), ore('wireGtSingleTungstenSteel'), ore('gearTitanium')]]);
+// crafting.addShaped(item('gregtech:machine:2540'), [[item('gregtech:meta_item_1:32643'), ore('circuitExtreme'), item('gregtech:meta_item_1:32643')],[item('gregtech:meta_item_1:32603'), metaitem('hull.ev'), item('gregtech:meta_item_1:32603')], [ore('gearTitanium'), ore('wireGtSingleTungstenSteel'), ore('gearTitanium')]]);
 // /*
 // electrolyzer.findRecipe(240, [ore('dustMagnesiumChloride') * 3], null).remove();
 // reactor.recipeBuilder()
@@ -529,7 +529,7 @@
 // crafting.removeByOutput(item('gregtech:mte', 97));
 // crafting.removeByOutput(item('gregtech:mte', 96));
 // crafting.removeByOutput(item('gregtech:mte', 95));
-// crafting.addShaped(item('gregtech:mte', 97), [[ore('cableGtQuadrupleGold'), item('gregtech:meta_item_1:10012'), ore('cableGtQuadrupleGold')],[ore('circuitAdvanced'), item('gregtech:mte', 988), ore('circuitAdvanced')], [ore('plateStainlessSteel'), ore('plateStainlessSteel'), ore('plateStainlessSteel')]]);
+// crafting.addShaped(item('gregtech:mte', 97), [[ore('cableGtQuadrupleGold'), item('gregtech:meta_item_1:10012'), ore('cableGtQuadrupleGold')],[ore('circuitAdvanced'), metaitem('hull.hv'), ore('circuitAdvanced')], [ore('plateStainlessSteel'), ore('plateStainlessSteel'), ore('plateStainlessSteel')]]);
 // crafting.addShaped(item('gregtech:mte', 96), [[ore('cableGtQuadrupleCopper'), item('gregtech:meta_item_1:10012'), ore('cableGtQuadrupleCopper')],[ore('circuitGood'), item('gregtech:mte', 987), ore('circuitGood')], [ore('plateAluminium'), ore('plateAluminium'), ore('plateAluminium')]]);
 // crafting.addShaped(item('gregtech:mte', 95), [[ore('cableGtQuadrupleTin'), item('gregtech:meta_item_1:10012'), ore('cableGtQuadrupleTin')],[ore('circuitBasic'), item('gregtech:mte', 986), ore('circuitBasic')], [ore('plateSteel'), ore('plateSteel'), ore('plateSteel')]]);
 // crafting.addShaped(ore('blockStainlessSteel'), [[ore('ingotStainlessSteel'), ore('ingotStainlessSteel'), ore('ingotStainlessSteel')],[ore('ingotStainlessSteel'), ore('ingotStainlessSteel'), ore('ingotStainlessSteel')], [ore('ingotStainlessSteel'), ore('ingotStainlessSteel'), ore('ingotStainlessSteel')]]);
@@ -741,14 +741,14 @@
 // .buildAndRegister();
 // 
 // assembler.recipeBuilder()
-// .inputs([item('enderio:block_reservoir') * 4, item('gregtech:mte', 988)])
+// .inputs([item('enderio:block_reservoir') * 4, metaitem('hull.hv')])
 // .outputs([item('gcyl:gcyl_meta_item', 572)])
 // .duration(200)
 // .EUt(500)
 // .buildAndRegister();
 // 
 // assembler.recipeBuilder()
-// .inputs([item('enderio:block_reservoir') * 4, item('gregtech:mte', 989)])
+// .inputs([item('enderio:block_reservoir') * 4, metaitem('hull.ev')])
 // .outputs([item('gcyl:gcyl_meta_item', 573)])
 // .duration(200)
 // .EUt(2048)
@@ -1069,7 +1069,7 @@
 // Utils.removeRecipeByOutput(assembler, [item('gregtech:machine:15000')], [], false);
 // 
 // assembler.recipeBuilder()
-// .inputs(ore('circuitExtreme') *2,item('appliedenergistics2:material', 42),item('ae2wtlib:infinity_booster_card'),item('gregtech:mte', 989),item('gtadditions:ga_metal_casing_1', 8))
+// .inputs(ore('circuitExtreme') *2,item('appliedenergistics2:material', 42),item('ae2wtlib:infinity_booster_card'),metaitem('hull.ev'),item('gtadditions:ga_metal_casing_1', 8))
 // .outputs(item('gregtech:machine:15000'))
 // .EUt(30)
 // .duration(2048)
@@ -1529,8 +1529,8 @@
 // crafting.addShaped(item('gregtech:machine:3210'), [[item('gregtech:meta_item_2:17850'), ore('gearSeaborgium'), item('gregtech:meta_item_2:17850')],[ore('gearSeaborgium'), item('gregtech:mte', 994), ore('gearSeaborgium')], [item('gregtech:meta_item_2:17850'), ore('gearSeaborgium'), item('gregtech:meta_item_2:17850')]]);
 // crafting.addShaped(item('gregtech:machine', 818), [[ore('gearSmallTungstenSteel'), item('gregtech:meta_item_2:26016'), ore('gearSmallTungstenSteel')],[item('gregtech:meta_item_2:26016'), item('gregtech:mte', 991), item('gregtech:meta_item_2:26016')], [ore('gearSmallTungstenSteel'), item('gregtech:meta_item_2:26016'), ore('gearSmallTungstenSteel')]]);
 // crafting.addShaped(item('gregtech:machine:3209'), [[ore('gearSmallTungstenSteel'), ore('gearRhodiumPlatedPalladium'), ore('gearSmallTungstenSteel')],[ore('gearRhodiumPlatedPalladium'), item('gregtech:mte', 991), ore('gearRhodiumPlatedPalladium')], [ore('gearSmallTungstenSteel'), ore('gearRhodiumPlatedPalladium'), ore('gearSmallTungstenSteel')]]);
-// crafting.addShaped(item('gregtech:machine', 817), [[ore('gearSmallAluminium'), ore('gearStainlessSteel'), ore('gearSmallAluminium')],[ore('gearStainlessSteel'), item('gregtech:mte', 988), ore('gearStainlessSteel')], [ore('gearSmallAluminium'), ore('gearStainlessSteel'), ore('gearSmallAluminium')]]);
-// crafting.addShaped(item('gregtech:machine:3208'), [[ore('gearSmallAluminium'), ore('gearBlackSteel'), ore('gearSmallAluminium')],[ore('gearBlackSteel'), item('gregtech:mte', 988), ore('gearBlackSteel')], [ore('gearSmallAluminium'), ore('gearBlackSteel'), ore('gearSmallAluminium')]]);
+// crafting.addShaped(item('gregtech:machine', 817), [[ore('gearSmallAluminium'), ore('gearStainlessSteel'), ore('gearSmallAluminium')],[ore('gearStainlessSteel'), metaitem('hull.hv'), ore('gearStainlessSteel')], [ore('gearSmallAluminium'), ore('gearStainlessSteel'), ore('gearSmallAluminium')]]);
+// crafting.addShaped(item('gregtech:machine:3208'), [[ore('gearSmallAluminium'), ore('gearBlackSteel'), ore('gearSmallAluminium')],[ore('gearBlackSteel'), metaitem('hull.hv'), ore('gearBlackSteel')], [ore('gearSmallAluminium'), ore('gearBlackSteel'), ore('gearSmallAluminium')]]);
 // 
 // crafting.removeByOutput(item('enderio:item_big_item_filter'));
 // crafting.addShaped(item('enderio:item_big_item_filter'), [[ore('plateAluminium'), ore('plateRedstone'), ore('plateAluminium')],[ore('plateRedstone'), item('enderio:item_basic_item_filter'), ore('plateRedstone')], [ore('plateAluminium'), ore('plateRedstone'), ore('plateAluminium')]]);
@@ -1806,9 +1806,9 @@
 // crafting.addShaped(item('gregtech:meta_item_2:32708'), [[item('gregtech:meta_item_1', 236), ore('gemExquisiteRuby'), item('gregtech:meta_item_1', 236)],[ore('circuitElite'), item('gregtech:mte', 990), ore('circuitElite')], [ore('cableGtSingleTungsten'), item('gregtech:meta_item_1:32528'), ore('cableGtSingleTungsten')]]);
 // crafting.addShaped(item('gregtech:meta_item_2:32708'), [[item('gregtech:meta_item_1', 236), ore('gemExquisiteRuby'), item('gregtech:meta_item_1', 236)],[ore('circuitElite'), item('gregtech:mte', 990), ore('circuitElite')], [ore('cableGtSingleTungsten'), item('gregtech:meta_item_1:32527'), ore('cableGtSingleTungsten')]]);
 // crafting.addShaped(item('gregtech:meta_item_2:32708'), [[item('gregtech:meta_item_1', 236), ore('gemExquisiteRuby'), item('gregtech:meta_item_1', 236)],[ore('circuitElite'), item('gregtech:mte', 990), ore('circuitElite')], [ore('cableGtSingleTungsten'), item('gregtech:meta_item_1:32529'), ore('cableGtSingleTungsten')]]);
-// crafting.addShaped(item('gregtech:meta_item_1:32752'), [[item('gregtech:meta_item_1:32693'), ore('gemExquisiteDiamond'), item('gregtech:meta_item_1:32693')],[ore('circuitExtreme'), item('gregtech:mte', 989), ore('circuitExtreme')], [ore('cableGtSingleAluminium'), item('gregtech:meta_item_1:32517'), ore('cableGtSingleAluminium')]]);
-// crafting.addShaped(item('gregtech:meta_item_1:32752'), [[item('gregtech:meta_item_1:32693'), ore('gemExquisiteDiamond'), item('gregtech:meta_item_1:32693')],[ore('circuitExtreme'), item('gregtech:mte', 989), ore('circuitExtreme')], [ore('cableGtSingleAluminium'), item('gregtech:meta_item_1:32518'), ore('cableGtSingleAluminium')]]);
-// crafting.addShaped(item('gregtech:meta_item_1:32752'), [[item('gregtech:meta_item_1:32693'), ore('gemExquisiteDiamond'), item('gregtech:meta_item_1:32693')],[ore('circuitExtreme'), item('gregtech:mte', 989), ore('circuitExtreme')], [ore('cableGtSingleAluminium'), item('gregtech:meta_item_1:32519'), ore('cableGtSingleAluminium')]]);
+// crafting.addShaped(item('gregtech:meta_item_1:32752'), [[item('gregtech:meta_item_1:32693'), ore('gemExquisiteDiamond'), item('gregtech:meta_item_1:32693')],[ore('circuitExtreme'), metaitem('hull.ev'), ore('circuitExtreme')], [ore('cableGtSingleAluminium'), item('gregtech:meta_item_1:32517'), ore('cableGtSingleAluminium')]]);
+// crafting.addShaped(item('gregtech:meta_item_1:32752'), [[item('gregtech:meta_item_1:32693'), ore('gemExquisiteDiamond'), item('gregtech:meta_item_1:32693')],[ore('circuitExtreme'), metaitem('hull.ev'), ore('circuitExtreme')], [ore('cableGtSingleAluminium'), item('gregtech:meta_item_1:32518'), ore('cableGtSingleAluminium')]]);
+// crafting.addShaped(item('gregtech:meta_item_1:32752'), [[item('gregtech:meta_item_1:32693'), ore('gemExquisiteDiamond'), item('gregtech:meta_item_1:32693')],[ore('circuitExtreme'), metaitem('hull.ev'), ore('circuitExtreme')], [ore('cableGtSingleAluminium'), item('gregtech:meta_item_1:32519'), ore('cableGtSingleAluminium')]]);
 // 
 // //EV/IV motors
 // crafting.removeByOutput(item('gregtech:meta_item_1:32604'));
@@ -2646,7 +2646,7 @@
 // Utils.removeRecipeByOutput(large_engrav, [item('gregtech:meta_item_1', 566)], [], true);
 // 
 // engraver.recipeBuilder()
-//     .inputs([item('gregtech:meta_item_1', 371)])
+//     .inputs([metaitem('wafer.silicon')])
 //     .outputs(item('gregtech:meta_item_1', 566))
 //     .notConsumable(ore('craftingLensWhite'))
 //     .duration(45*20)
@@ -2654,7 +2654,7 @@
 //     .buildAndRegister();
 // 
 // large_engrav.recipeBuilder()
-//     .inputs([item('gregtech:meta_item_1', 371)])
+//     .inputs([metaitem('wafer.silicon')])
 //     .outputs(item('gregtech:meta_item_1', 566))
 //     .notConsumable(ore('craftingLensWhite'))
 //     .duration(45*20)

@@ -68,7 +68,7 @@ crafting.addShaped(item('minecraft:enchanted_book').withNbt(StoredEnchantments: 
 
 crafting.addShaped(item('advancedrocketry:spacehelmet'), [
         [ore('wool'), ore('plateStainlessSteel'), ore('wool')],
-        [ore('wool'), item('gregtech:meta_lens:2000'), ore('wool')],
+        [ore('wool'), metaitem('lensGlass'), ore('wool')],
         [ore('plateStainlessSteel'), item('minecraft:leather_helmet'), ore('plateStainlessSteel')]
 ])
 
@@ -103,9 +103,15 @@ crafting.addShaped(item('advancedrocketry:fueltank') * 2, [
 ])
 
 crafting.removeByOutput(item('advancedrocketry:rocketmotor'))
-crafting.removeByOutput(item('gcyl:mte', 114))
+crafting.removeByOutput(item('advancedrocketry:bipropellantrocketmotor'))
+crafting.removeByOutput(item('advancedrocketry:advrocketmotor'))
+crafting.removeByOutput(item('advancedrocketry:advbipropellantrocketmotor'))
+crafting.removeByOutput(item('advancedrocketry:nuclearrocketmotor'))
 crafting.removeByOutput(item('advancedrocketry:fuelingstation'))
 crafting.removeByOutput(item('advancedrocketry:fueltank'))
+crafting.removeByOutput(item('advancedrocketry:bipropellantfueltank'))
+crafting.removeByOutput(item('advancedrocketry:oxidizerfueltank'))
+crafting.removeByOutput(item('advancedrocketry:nuclearfueltank'))
 crafting.removeByOutput(item('advancedrocketry:guidancecomputer'))
 crafting.removeByOutput(ore('dustThermite'))
 crafting.removeByOutput(item('advancedrocketry:ic', 5))
@@ -124,17 +130,17 @@ crafting.removeByOutput(item('advancedrocketry:warpmonitor'))
 crafting.removeByOutput(item('advancedrocketry:orientationcontroller'))
 crafting.removeByOutput(item('advancedrocketry:gravitycontroller'))
 crafting.removeByOutput(item('advancedrocketry:rocketbuilder'))
-
+ 
 crafting.addShaped(item('advancedrocketry:warpmonitor'), [
-        [ore('plateStainlessSteel'), item('gregtech:meta_item_1', 234), ore('plateStainlessSteel')],
-        [item('gregtech:meta_item_1', 234), item('gregtech:mte', 988), item('gregtech:meta_item_1', 234)],
-        [ore('plateStainlessSteel'), item('gregtech:meta_item_1', 234), ore('plateStainlessSteel')]
+        [ore('plateStainlessSteel'), metaitem('sensor.hv'), ore('plateStainlessSteel')],
+        [metaitem('sensor.hv'), metaitem('hull.hv'), metaitem('sensor.hv')],
+        [ore('plateStainlessSteel'), metaitem('sensor.hv'), ore('plateStainlessSteel')]
 ])
 
 crafting.addShaped(item('advancedrocketry:orientationcontroller'), [
-        [ore('plateStainlessSteel'), item('gregtech:mte', 988), ore('plateStainlessSteel')],
-        [item('gregtech:mte', 988), item('advancedrocketry:misc'), item('gregtech:mte', 988)],
-        [ore('plateStainlessSteel'), item('gregtech:mte', 988), ore('plateStainlessSteel')]
+        [ore('plateStainlessSteel'), metaitem('hull.hv'), ore('plateStainlessSteel')],
+        [metaitem('hull.hv'), item('advancedrocketry:misc'), metaitem('hull.hv')],
+        [ore('plateStainlessSteel'), metaitem('hull.hv'), ore('plateStainlessSteel')]
 ])
 
 crafting.addShaped(item('advancedrocketry:loader', 1), [
@@ -145,31 +151,31 @@ crafting.addShaped(item('advancedrocketry:loader', 1), [
 
 crafting.addShaped(item('advancedrocketry:oxygencharger'), [
         [null, null, null],
-        [ore('plateStainlessSteel'), item('gregtech:meta_item_1', 144), ore('plateStainlessSteel')],
-        [null, item('gregtech:mte:1611'), null]
+        [ore('plateStainlessSteel'), metaitem('electric.pump.hv'), ore('plateStainlessSteel')],
+        [null, metaitem('drum.bronze'), null]
 ])
 
 crafting.addShaped(item('advancedrocketry:oxygenvent'), [
-        [null, item('gregtech:meta_item_1', 144), null],
-        [null, item('gregtech:mte', 988), null],
+        [null, metaitem('electric.pump.hv'), null],
+        [null, metaitem('hull.hv'), null],
         [ore('plateStainlessSteel'), ore('plateStainlessSteel'), ore('plateStainlessSteel')]
 ])
 
 crafting.addShaped(item('advancedrocketry:oxygenscrubber'), [
         [ore('plateStainlessSteel'), ore('plateStainlessSteel'), ore('plateStainlessSteel')],
-        [null, item('gregtech:mte', 988), null],
-        [null, item('gregtech:meta_item_1', 144), null]
+        [null, metaitem('hull.hv'), null],
+        [null, metaitem('electric.pump.hv'), null]
 ])
 
 crafting.addShaped(item('advancedrocketry:gravitycontroller'), [
-        [ore('plateStainlessSteel'), item('gregtech:meta_item_1', 219), ore('plateStainlessSteel')],
-        [ore('plateStainlessSteel'), item('gregtech:mte', 988), ore('plateStainlessSteel')],
-        [ore('plateStainlessSteel'), item('gregtech:meta_item_1', 234), ore('plateStainlessSteel')]
+        [ore('plateStainlessSteel'), metaitem('emitter.hv'), ore('plateStainlessSteel')],
+        [ore('plateStainlessSteel'), metaitem('hull.hv'), ore('plateStainlessSteel')],
+        [ore('plateStainlessSteel'), metaitem('sensor.hv'), ore('plateStainlessSteel')]
 ])
 
 crafting.addShaped(item('advancedrocketry:rocketbuilder'), [
         [ore('plateTitanium'), item('advancedrocketry:misc'), ore('plateTitanium')],
-        [item('gregtech:meta_item_1', 189), item('gregtech:mte', 988), item('gregtech:meta_item_1', 189)],
+        [metaitem('robot.arm.hv'), metaitem('hull.hv'), metaitem('robot.arm.hv')],
         [ore('plateTitanium'), null, ore('plateTitanium')]
 ])
 
@@ -181,7 +187,7 @@ crafting.addShaped(item('libvulpes:structuremachine') * 4, [
 
 crafting.addShaped(item('advancedrocketry:warpcore'), [
         [ore('plateTitanium'), ore('circuitExtreme'), ore('plateTitanium')],
-        [ore('plateTitanium'), item('gregtech:mte', 989), ore('plateTitanium')],
+        [ore('plateTitanium'), metaitem('hull.ev'), ore('plateTitanium')],
         [ore('plateTitanium'), ore('circuitExtreme'), ore('plateTitanium')]
 ])
 
@@ -193,30 +199,30 @@ crafting.addShaped(item('advancedrocketry:circlelight'), [
 
 crafting.addShaped(item('advancedrocketry:altitudecontroller'), [
         [ore('plateStainlessSteel'), item('advancedrocketry:misc'), ore('plateStainlessSteel')],
-        [item('gregtech:meta_item_1', 234), item('gregtech:mte', 988), item('gregtech:meta_item_1', 234)],
+        [metaitem('sensor.hv'), metaitem('hull.hv'), metaitem('sensor.hv')],
         [ore('plateStainlessSteel'), ore('plateStainlessSteel'), ore('plateStainlessSteel')]
 ])
 
 crafting.addShaped(item('advancedrocketry:stationmarker'), [
         [ore('plateStainlessSteel'), item('advancedrocketry:misc'), ore('plateStainlessSteel')],
-        [ore('plateStainlessSteel'), item('gregtech:mte', 988), ore('plateStainlessSteel')],
+        [ore('plateStainlessSteel'), metaitem('hull.hv'), ore('plateStainlessSteel')],
         [ore('plateStainlessSteel'), ore('plateStainlessSteel'), ore('plateStainlessSteel')]
 ])
 
 crafting.addShaped(item('advancedrocketry:gravitymachine'), [
-        [item('gregtech:meta_item_1', 219), item('advancedrocketry:misc'), item('gregtech:meta_item_1', 219)],
-        [ore('plateStainlessSteel'), item('gregtech:mte', 988), ore('plateStainlessSteel')],
-        [ore('plateStainlessSteel'), item('gregtech:meta_item_1', 219), ore('plateStainlessSteel')]
+        [metaitem('emitter.hv'), item('advancedrocketry:misc'), metaitem('emitter.hv')],
+        [ore('plateStainlessSteel'), metaitem('hull.hv'), ore('plateStainlessSteel')],
+        [ore('plateStainlessSteel'), metaitem('emitter.hv'), ore('plateStainlessSteel')]
 ])
 
 crafting.addShaped(item('advancedrocketry:stationbuilder'), [
-        [item('gregtech:meta_item_1', 234), ore('plateStainlessSteel'), item('gregtech:meta_item_1', 234)],
-        [item('gregtech:meta_item_1', 189), item('gregtech:mte', 988), item('gregtech:meta_item_1', 189)],
-        [ore('plateStainlessSteel'), item('gregtech:meta_item_1', 219), ore('plateStainlessSteel')]
+        [metaitem('sensor.hv'), ore('plateStainlessSteel'), metaitem('sensor.hv')],
+        [metaitem('robot.arm.hv'), metaitem('hull.hv'), metaitem('robot.arm.hv')],
+        [ore('plateStainlessSteel'), metaitem('emitter.hv'), ore('plateStainlessSteel')]
 ])
 
 ALLOY_SMELTER.recipeBuilder()
-        .inputs([item('gregtech:meta_item_1', 371), item('minecraft:glass_pane')])
+        .inputs([metaitem('wafer.silicon'), item('minecraft:glass_pane')])
         .outputs([ore('waferSilicon').getFirst()])
         .duration(160)
         .EUt(30)
@@ -267,26 +273,27 @@ crafting.addShaped(item('advancedrocketry:satelliteidchip'), [
 ])
 
 crafting.addShaped(item('advancedrocketry:fuelingstation'), [
-        [ore('plateStainlessSteel'), item('gregtech:meta_item_1', 144), ore('plateStainlessSteel')],
-        [item('gregtech:meta_item_1', 144), item('gregtech:mte', 988), item('gregtech:meta_item_1', 144)],
-        [ore('plateStainlessSteel'), item('gregtech:meta_item_1', 144), ore('plateStainlessSteel')]
+        [ore('plateStainlessSteel'), metaitem('electric.pump.hv'), ore('plateStainlessSteel')],
+        [metaitem('electric.pump.hv'), metaitem('hull.hv'), metaitem('electric.pump.hv')],
+        [ore('plateStainlessSteel'), metaitem('electric.pump.hv'), ore('plateStainlessSteel')]
 ])
 
 crafting.addShaped(item('advancedrocketry:guidancecomputer'), [
         [ore('plateIron'), item('advancedrocketry:misc'), ore('plateIron')],
-        [item('gregtech:meta_item_1', 219), item('gregtech:mte', 988), item('gregtech:meta_item_1', 219)],
-        [ore('plateIron'), item('gregtech:meta_item_1', 234), ore('plateIron')]
+        [metaitem('emitter.hv'), metaitem('hull.hv'), metaitem('emitter.hv')],
+        [ore('plateIron'), metaitem('sensor.hv'), ore('plateIron')]
 ])
 
 crafting.addShapeless(item('advancedrocketry:landingpad'), [item('advancedrocketry:launchpad'), item('advancedrocketry:ic')])
 
 crafting.addShaped(item('libvulpes:holoprojector'), [
-        [item('minecraft:glass_pane'), item('gregtech:meta_item_1', 219), item('minecraft:glass_pane')],
-        [null, item('gregtech:mte', 988), null],
+        [item('minecraft:glass_pane'), metaitem('emitter.hv'), item('minecraft:glass_pane')],
+        [null, metaitem('hull.hv'), null],
         [null, null, null]]
 )
 
-crafting.addShaped(item('gcyl:mte', 114), [
+// TODO: recipes for other engines & fuel tanks
+crafting.addShaped(item('advancedrocketry:rocketmotor'), [
         [null, ore('stickStainlessSteel'), null],
         [ore('stickStainlessSteel'), null, ore('stickStainlessSteel')],
         [ore('plateTitanium'), ore('plateTitanium'), ore('plateTitanium')]
@@ -361,7 +368,7 @@ AUTOCLAVE.recipeBuilder()
 // Low tank
 EXTRUDER.recipeBuilder()
         .inputs([ore('ingotIron') * 16])
-        .notConsumable(item('gregtech:meta_item_1', 20))
+        .notConsumable(metaitem('shape.mold.cylinder'))
         .outputs([item('advancedrocketry:pressuretank')])
         .duration(600)
         .EUt(30)
@@ -370,7 +377,7 @@ EXTRUDER.recipeBuilder()
 // Medium tank
 EXTRUDER.recipeBuilder()
         .inputs([ore('ingotSteel') * 16])
-        .notConsumable(item('gregtech:meta_item_1', 20))
+        .notConsumable(metaitem('shape.mold.cylinder'))
         .outputs([item('advancedrocketry:pressuretank', 1)])
         .duration(600)
         .EUt(120)
@@ -379,7 +386,7 @@ EXTRUDER.recipeBuilder()
 // Large tank
 EXTRUDER.recipeBuilder()
         .inputs([ore('ingotStainlessSteel') * 16])
-        .notConsumable(item('gregtech:meta_item_1', 20))
+        .notConsumable(metaitem('shape.mold.cylinder'))
         .outputs([item('advancedrocketry:pressuretank', 2)])
         .duration(600)
         .EUt(500)
@@ -388,7 +395,7 @@ EXTRUDER.recipeBuilder()
 // Max tank
 EXTRUDER.recipeBuilder()
         .inputs([ore('ingotTitanium') * 16])
-        .notConsumable(item('gregtech:meta_item_1', 20))
+        .notConsumable(metaitem('shape.mold.cylinder'))
         .outputs([item('advancedrocketry:pressuretank', 3)])
         .duration(600)
         .EUt(1048)

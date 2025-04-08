@@ -368,12 +368,12 @@ ASSEMBLER.recipeBuilder()
 
 crafting.addShaped(item('threng:machine'), [
         [ore('blockHopper'), ore('blockHopper'), ore('blockHopper')],
-        [ore('dustRedstone'), item('gregtech:mte', 988), ore('dustRedstone')],
+        [ore('dustRedstone'), metaitem('hull.hv'), ore('dustRedstone')],
         [item('appliedenergistics2:material', 22), item('ae2stuff:grower'), item('appliedenergistics2:material', 22)]
 ])
 
 ASSEMBLER.recipeBuilder()
-        .inputs([ore('blockHopper') * 3, item('gregtech:mte', 988), item('appliedenergistics2:material', 22) * 2, item('ae2stuff:grower')])
+        .inputs([ore('blockHopper') * 3, metaitem('hull.hv'), item('appliedenergistics2:material', 22) * 2, item('ae2stuff:grower')])
         .outputs([item('threng:machine')])
         .duration(160)
         .EUt(480)
@@ -381,12 +381,12 @@ ASSEMBLER.recipeBuilder()
 
 crafting.addShaped(item('threng:machine', 3), [
         [ore('ingotFluixSteel'), item('appliedenergistics2:material', 24), ore('ingotFluixSteel')],
-        [item('appliedenergistics2:crafting_accelerator'), item('gregtech:mte', 989), item('appliedenergistics2:crafting_accelerator')],
+        [item('appliedenergistics2:crafting_accelerator'), metaitem('hull.ev'), item('appliedenergistics2:crafting_accelerator')],
         [ore('ingotFluixSteel'), item('appliedenergistics2:material', 24), ore('ingotFluixSteel')]
 ])
 
 ASSEMBLER.recipeBuilder()
-        .inputs([item('appliedenergistics2:crafting_accelerator') * 2, item('gregtech:mte', 989), ore('ingotFluixSteel') * 4])
+        .inputs([item('appliedenergistics2:crafting_accelerator') * 2, metaitem('hull.ev'), ore('ingotFluixSteel') * 4])
         .outputs([item('threng:machine', 3)])
         .duration(160)
         .EUt(1920)
@@ -400,26 +400,26 @@ crafting.addShaped(item('threng:material', 2), [
 
 crafting.addShaped(item('threng:machine', 1), [
         [ore('ingotFluixSteel'), item('appliedenergistics2:material', 22), ore('ingotFluixSteel')],
-        [item('threng:material', 4), item('gregtech:mte', 988), item('threng:material', 4)],
+        [item('threng:material', 4), metaitem('hull.hv'), item('threng:material', 4)],
         [ore('ingotFluixSteel'), item('appliedenergistics2:material', 22), ore('ingotFluixSteel')]
 ])
 
 ASSEMBLER.recipeBuilder()
-        .inputs([item('threng:material', 4), item('gregtech:mte', 989), ore('ingotFluixSteel') * 5, item('appliedenergistics2:material', 22) * 2])
+        .inputs([item('threng:material', 4), metaitem('hull.ev'), ore('ingotFluixSteel') * 5, item('appliedenergistics2:material', 22) * 2])
         .outputs([item('threng:machine', 1)])
         .duration(160)
         .EUt(1920)
         .buildAndRegister()
 
 ASSEMBLER.recipeBuilder()
-        .inputs([item('threng:material', 4), item('gregtech:mte', 989), ore('ingotFluixSteel') * 4, item('appliedenergistics2:part', 280)])
+        .inputs([item('threng:material', 4), metaitem('hull.ev'), ore('ingotFluixSteel') * 4, item('appliedenergistics2:part', 280)])
         .outputs([item('threng:machine', 4)])
         .duration(160)
         .EUt(1920)
         .buildAndRegister()
 
 ASSEMBLER.recipeBuilder()
-        .inputs([item('gregtech:mte', 988), ore('ingotFluixSteel') * 4, item('appliedenergistics2:dense_energy_cell'), item('appliedenergistics2:charger')])
+        .inputs([metaitem('hull.hv'), ore('ingotFluixSteel') * 4, item('appliedenergistics2:dense_energy_cell'), item('appliedenergistics2:charger')])
         .outputs([item('threng:machine', 5)])
         .duration(160)
         .EUt(1920)
@@ -726,14 +726,14 @@ h.yeet(item('nae2:reconstruction_chamber'))
 
 
 ASSEMBLER.recipeBuilder()
-        .inputs([item('gregtech:mte', 988), item('appliedenergistics2:quartz_glass') * 2, item('gregtech:meta_item_1', 144) * 2])
+        .inputs([metaitem('hull.hv'), item('appliedenergistics2:quartz_glass') * 2, metaitem('electric.pump.hv') * 2])
         .outputs([item('appliedenergistics2:fluid_interface') * 4])
         .duration(150)
         .EUt(480)
         .buildAndRegister()
 
 ASSEMBLER.recipeBuilder()
-        .inputs([item('gregtech:mte', 988), item('appliedenergistics2:quartz_glass') * 2, item('gregtech:meta_item_1', 174) * 2])
+        .inputs([metaitem('hull.hv'), item('appliedenergistics2:quartz_glass') * 2, item('gregtech:meta_item_1', 174) * 2])
         .outputs([item('appliedenergistics2:interface') * 4])
         .duration(150)
         .EUt(480)
