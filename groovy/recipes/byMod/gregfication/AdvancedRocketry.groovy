@@ -107,6 +107,9 @@ mods.jei.ingredient.yeet(
         item('libvulpes:elitemotor'),
 
         item('libvulpes:gtplug'),
+
+        item('libvulpes:battery'),
+        item('libvulpes:battery', 1),
 )
 
 crafting.removeByOutput(item('advancedrocketry:launchpad'))
