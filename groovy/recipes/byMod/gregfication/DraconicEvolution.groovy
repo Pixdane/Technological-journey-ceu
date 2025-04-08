@@ -19,7 +19,7 @@ crafting.removeByOutput(item('draconicevolution:wyvern_energy_core'))
 crafting.removeByOutput(item('draconicevolution:celestial_manipulator'))
 
 ASSLINE.recipeBuilder()
-        .inputs(ore('frameNeutronium'))
+        .inputs(ore('frameGtNeutronium'))
         .inputs(ore('plateDraconium') * 10)
         .inputs(ore('plateStarmetalAlloy') * 10)
         .inputs(ore('plateMendelevium') * 10)
