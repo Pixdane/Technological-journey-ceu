@@ -122,3 +122,4 @@ config/ScalingGUIs/ScalingGUIsCustomScales.json
 /groovy/.groovylintrc.json
 /config/brandon3055/contributors.json
 /config/splash.properties
+/config/gregtech/persistent_data.dat
