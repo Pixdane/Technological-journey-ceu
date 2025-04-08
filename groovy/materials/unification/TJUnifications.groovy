@@ -20,6 +20,10 @@ class TJUnifications {
         OreDictUnifier.registerOre(item('draconicevolution:nugget', 1), OrePrefix.nugget, material('gcyl:awaken_draconium'))
         OreDictUnifier.registerOre(item('draconicevolution:draconic_ingot'), OrePrefix.ingot, material('gcyl:awaken_draconium'))
         OreDictUnifier.registerOre(item('draconicevolution:draconic_block'), OrePrefix.block, material('gcyl:awaken_draconium'))
+
+        OreDictUnifier.registerOre(item('thermalfoundation:material', 1024), OrePrefix.dust, material('gcyl:pyrotheum'))
+
+        OreDictUnifier.registerOre(item('thermalfoundation:material', 1025), OrePrefix.dust, material('gcyl:cryotheum'))
     }
 
 }

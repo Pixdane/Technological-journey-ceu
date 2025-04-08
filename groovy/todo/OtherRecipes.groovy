@@ -1895,10 +1895,10 @@
 // Utils.removeRecipeByOutput(assembler, [item('gregtech:machine', 509)], [], true);
 // 
 // 
-// crafting.addShaped(item('gregtech:machine_casing', 14), [[ore('plateNeutronium'), ore('plateNeutronium'), ore('plateNeutronium')],[ore('plateNeutronium'), ore('GTWrench'), ore('plateNeutronium')], [ore('plateNeutronium'), ore('plateNeutronium'), ore('plateNeutronium')]]);
-// crafting.addShaped(item('gregtech:machine_casing', 12), [[ore('plateHeavyQuarkDegenerateMatter'), ore('plateHeavyQuarkDegenerateMatter'), ore('plateHeavyQuarkDegenerateMatter')],[ore('plateHeavyQuarkDegenerateMatter'), ore('GTWrench'), ore('plateHeavyQuarkDegenerateMatter')], [ore('plateHeavyQuarkDegenerateMatter'), ore('plateHeavyQuarkDegenerateMatter'), ore('plateHeavyQuarkDegenerateMatter')]]);
-// crafting.addShaped(item('gtadditions:ga_machine_casing', 3), [[ore('plateVibranium'), ore('plateVibranium'), ore('plateVibranium')],[ore('plateVibranium'), ore('GTWrench'), ore('plateVibranium')], [ore('plateVibranium'), ore('plateVibranium'), ore('plateVibranium')]]);
-// crafting.addShaped(item('gregtech:machine_casing', 11), [[ore('plateAdamantium'), ore('plateAdamantium'), ore('plateAdamantium')],[ore('plateAdamantium'), ore('GTWrench'), ore('plateAdamantium')], [ore('plateAdamantium'), ore('plateAdamantium'), ore('plateAdamantium')]]);
+// crafting.addShaped(item('gregtech:machine_casing', 14), [[ore('plateNeutronium'), ore('plateNeutronium'), ore('plateNeutronium')],[ore('plateNeutronium'), ore('craftingToolWrench'), ore('plateNeutronium')], [ore('plateNeutronium'), ore('plateNeutronium'), ore('plateNeutronium')]]);
+// crafting.addShaped(item('gregtech:machine_casing', 12), [[ore('plateHeavyQuarkDegenerateMatter'), ore('plateHeavyQuarkDegenerateMatter'), ore('plateHeavyQuarkDegenerateMatter')],[ore('plateHeavyQuarkDegenerateMatter'), ore('craftingToolWrench'), ore('plateHeavyQuarkDegenerateMatter')], [ore('plateHeavyQuarkDegenerateMatter'), ore('plateHeavyQuarkDegenerateMatter'), ore('plateHeavyQuarkDegenerateMatter')]]);
+// crafting.addShaped(item('gtadditions:ga_machine_casing', 3), [[ore('plateVibranium'), ore('plateVibranium'), ore('plateVibranium')],[ore('plateVibranium'), ore('craftingToolWrench'), ore('plateVibranium')], [ore('plateVibranium'), ore('plateVibranium'), ore('plateVibranium')]]);
+// crafting.addShaped(item('gregtech:machine_casing', 11), [[ore('plateAdamantium'), ore('plateAdamantium'), ore('plateAdamantium')],[ore('plateAdamantium'), ore('craftingToolWrench'), ore('plateAdamantium')], [ore('plateAdamantium'), ore('plateAdamantium'), ore('plateAdamantium')]]);
 // 
 // 
 // assembler.recipeBuilder()

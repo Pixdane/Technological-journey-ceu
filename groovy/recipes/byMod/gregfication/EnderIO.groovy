@@ -8,6 +8,28 @@ ASSEMBLER = recipemap('assembler')
 ARC_FURNACE = recipemap('arc_furnace')
 ALLOY_BLAST_SMELTER = recipemap('alloy_blast_smelter')
 
+// Hide items from JEI
+mods.jei.ingredient.yeet(
+        item('enderio:item_material', 21),
+        item('enderio:item_material', 23),
+        item('enderio:item_material', 24),
+        item('enderio:item_material', 25),
+        item('enderio:item_material', 26),
+        item('enderio:item_material', 27),
+        item('enderio:item_material', 28),
+        item('enderio:item_material', 29),
+        item('enderio:item_material', 32),
+        item('enderio:item_material', 33),
+        item('enderio:item_material', 51),
+        item('enderio:item_material', 76),
+        item('enderio:item_capacitor_grainy'),
+        item('enderio:item_capacitor_crystalline'),
+        item('enderio:item_capacitor_melodic'),
+        item('enderio:item_capacitor_silver'),
+        item('enderio:item_capacitor_energetic_silver'),
+        item('enderio:item_capacitor_vivid')
+)
+
 // EIO metals to gregtech 
 // End Alloy
 ALLOY_SMELTER.recipeBuilder()

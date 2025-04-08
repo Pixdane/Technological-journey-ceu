@@ -788,7 +788,7 @@ AUTOCLAVE.recipeBuilder()
         .duration(80)
         .buildAndRegister()
 
-furnace.removeByOutput(ore('itemSilicon'))
+furnace.removeByOutput(item('appliedenergistics2:material', 5))
 
 // Fix security station
 crafting.removeByOutput(item('appliedenergistics2:security_station'))

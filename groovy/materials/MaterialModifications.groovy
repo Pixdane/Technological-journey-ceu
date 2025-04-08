@@ -74,6 +74,10 @@ class MaterialModifications {
         OrePrefix.ingot.setIgnored(material('gcyl:awaken_draconium'))
         OrePrefix.block.setIgnored(material('gcyl:awaken_draconium'))
 
+        OrePrefix.dust.setIgnored(material('gcyl:pyrotheum'))
+
+        OrePrefix.dust.setIgnored(material('gcyl:cryotheum'))
+
     }
 
 }

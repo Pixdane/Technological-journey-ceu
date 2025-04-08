@@ -1,7 +1,7 @@
 class TJUtility {
 
-    static Closure tjceu = { String name -> 'tjceu:' + name }
+    static def tjceu = { String name -> 'tjceu:' + name }
 
-    static Closure tjId = { String name -> resource('tjceu', name) }
+    static def tjId = { String name -> resource('tjceu', name) }
 
 }

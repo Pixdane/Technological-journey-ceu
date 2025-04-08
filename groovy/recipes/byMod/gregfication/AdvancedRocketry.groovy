@@ -7,13 +7,6 @@ LASER_ENGRAVER = recipemap('laser_engraver')
 MIXER = recipemap('mixer')
 CUTTER = recipemap('cutter')
 
-ore_dict.remove('oreCopper', item('libvulpes:ore0', 4))
-ore_dict.remove('oreTin', item('libvulpes:ore0', 5))
-ore_dict.remove('oreRutile', item('libvulpes:ore0', 8))
-ore_dict.remove('oreTitanium', item('libvulpes:ore0', 8))
-ore_dict.remove('oreAluminum', item('libvulpes:ore0', 9))
-ore_dict.remove('oreIridium', item('libvulpes:ore0', 10))
-
 mods.advancedrocketry.chemical_reactor.removeAll()
 mods.advancedrocketry.precision_assembler.removeAll()
 mods.advancedrocketry.cutting_machine.removeAll()
@@ -23,6 +16,98 @@ mods.advancedrocketry.electrolyser.removeAll()
 mods.advancedrocketry.electric_arc_furnace.removeAll()
 mods.advancedrocketry.crystallizer.removeAll()
 mods.advancedrocketry.small_plate_presser.removeAll()
+
+// Hide items from JEI
+mods.jei.ingredient.yeet(
+        item('libvulpes:ore0', 4),
+        item('libvulpes:ore0', 5),
+        item('libvulpes:ore0', 8),
+        item('libvulpes:ore0', 8),
+        item('libvulpes:ore0', 9),
+        item('libvulpes:ore0', 10),
+
+        item('libvulpes:productingot', 3),
+        item('libvulpes:productingot', 4),
+        item('libvulpes:productingot', 5),
+        item('libvulpes:productingot', 6),
+        item('libvulpes:productingot', 7),
+        item('libvulpes:productingot', 9),
+        item('libvulpes:productingot', 10),
+
+        item('libvulpes:metal0', 4),
+        item('libvulpes:metal0', 5),
+        item('libvulpes:metal0', 6),
+        item('libvulpes:metal0', 7),
+        item('libvulpes:metal0', 9),
+        item('libvulpes:metal0', 10),
+
+        item('libvulpes:productplate', 1),
+        item('libvulpes:productplate', 2),
+        item('libvulpes:productplate', 3),
+        item('libvulpes:productplate', 4),
+        item('libvulpes:productplate', 5),
+        item('libvulpes:productplate', 6),
+        item('libvulpes:productplate', 7),
+        item('libvulpes:productplate', 9),
+        item('libvulpes:productplate', 10),
+
+        item('libvulpes:productdust', 1),
+        item('libvulpes:productdust', 2),
+        item('libvulpes:productdust', 3),
+        item('libvulpes:productdust', 4),
+        item('libvulpes:productdust', 5),
+        item('libvulpes:productdust', 6),
+        item('libvulpes:productdust', 7),
+        item('libvulpes:productdust', 9),
+        item('libvulpes:productdust', 10),
+
+        item('libvulpes:productnugget', 3),
+        item('libvulpes:productnugget', 4),
+        item('libvulpes:productnugget', 5),
+        item('libvulpes:productnugget', 6),
+        item('libvulpes:productnugget', 7),
+        item('libvulpes:productnugget', 9),
+        item('libvulpes:productnugget', 10),
+
+        item('libvulpes:productgear', 6),
+        item('libvulpes:productgear', 7),
+
+        item('libvulpes:productrod', 1),
+        item('libvulpes:productrod', 4),
+        item('libvulpes:productrod', 6),
+        item('libvulpes:productrod', 7),
+        item('libvulpes:productrod', 10),
+
+        item('libvulpes:productboule', 3),
+
+        item('libvulpes:productsheet', 1),
+        item('libvulpes:productsheet', 4),
+        item('libvulpes:productsheet', 6),
+        item('libvulpes:productsheet', 7),
+        item('libvulpes:productsheet', 9),
+        
+        item('libvulpes:coil0', 2),
+        item('libvulpes:coil0', 4),
+        item('libvulpes:coil0', 7),
+        item('libvulpes:coil0', 9),
+        item('libvulpes:coil0', 10),
+
+        item('libvulpes:hatch', 1),
+        item('libvulpes:hatch', 2),
+        item('libvulpes:hatch', 3),
+
+        item('libvulpes:forgepowerinput'),
+        item('libvulpes:forgepoweroutput'),
+
+        item('libvulpes:coalgenerator'),
+
+        item('libvulpes:motor'),
+        item('libvulpes:advancedmotor'),
+        item('libvulpes:enhancedmotor'),
+        item('libvulpes:elitemotor'),
+
+        item('libvulpes:gtplug'),
+)
 
 crafting.removeByOutput(item('advancedrocketry:launchpad'))
 
@@ -113,7 +198,7 @@ crafting.removeByOutput(item('advancedrocketry:bipropellantfueltank'))
 crafting.removeByOutput(item('advancedrocketry:oxidizerfueltank'))
 crafting.removeByOutput(item('advancedrocketry:nuclearfueltank'))
 crafting.removeByOutput(item('advancedrocketry:guidancecomputer'))
-crafting.removeByOutput(ore('dustThermite'))
+crafting.removeByOutput(item('advancedrocketry:thermite'))
 crafting.removeByOutput(item('advancedrocketry:ic', 5))
 crafting.removeByOutput(item('advancedrocketry:ic', 4))
 crafting.removeByOutput(item('advancedrocketry:gravitymachine'))
@@ -302,7 +387,7 @@ crafting.addShaped(item('advancedrocketry:rocketmotor'), [
 CHEMICAL_REACTOR.recipeBuilder()
         .inputs([ore('dustIron') * 2, ore('dustAluminium') * 1])
         .fluidInputs(fluid('oxygen') * 2000)
-        .outputs([ore('dustThermite').getFirst() * 3])
+        .outputs(item('advancedrocketry:thermite') * 3)
         .duration(600)
         .EUt(30)
         .buildAndRegister()
