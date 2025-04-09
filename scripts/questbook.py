@@ -5,7 +5,7 @@
 # Inspired by Nomifactory's quest_i18n TypeScript code, licensed as LGPLv3
 # https://github.com/Nomifactory/Nomifactory/blob/dev/buildtools/tasks/shared/transforms/quest_i18n.ts
 #
-# Modified by Supersymmetry, not the original creator (slightly modified)
+# Then used by Supersymmetry, not the original creator (slightly modified)
 # Source: https://github.com/Divine-Journey-2/Divine-Journey-2/blob/main/buildtools/questbook.py
 #
 # Again used here by TJ:CEu
