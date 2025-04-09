@@ -9,8 +9,11 @@ ASSEMBLER = recipemap('assembler')
     crafting.removeByOutput(it)
 }
 
-// 1 * Wrought Iron Nugget
+// Wrought Iron Nugget
 furnace.removeByOutput(metaitem('nuggetWroughtIron'))
+
+// Nether Star
+furnace.removeByOutput(item('minecraft:nether_star'))
 
 // ZPM Machine Casing * 1
 mods.gregtech.assembler.removeByInput(16, [metaitem('circuit.integrated').withNbt(['Configuration': 8]), metaitem('plateDuranium') * 8], null)
