@@ -31,15 +31,20 @@ mods.jei.ingredient.yeet(
     crafting.removeByOutput(it)
 }
 
-inscriber.removeByOutput(item('appliedenergistics2:material', 20))
-inscriber.removeByOutput(item('appliedenergistics2:material', 24))
-inscriber.removeByOutput(item('appliedenergistics2:material', 23))
-inscriber.removeByOutput(item('appliedenergistics2:material', 22))
-inscriber.removeByOutput(item('appliedenergistics2:material', 18))
-inscriber.removeByOutput(item('appliedenergistics2:material', 17))
-inscriber.removeByOutput(item('appliedenergistics2:material', 16))
-inscriber.removeByOutput(item('threng:material', 2))
-inscriber.removeByOutput(item('appliedenergistics2:material', 59))
+// Inscriber recipe removals
+[
+        item('appliedenergistics2:material', 20),
+        item('appliedenergistics2:material', 24),
+        item('appliedenergistics2:material', 23),
+        item('appliedenergistics2:material', 22),
+        item('appliedenergistics2:material', 18),
+        item('appliedenergistics2:material', 17),
+        item('appliedenergistics2:material', 16),
+        item('threng:material', 2),
+        item('appliedenergistics2:material', 59),
+].forEach {
+    inscriber.removeByOutput(it)
+}
 
 // Engineering Processor
 inscriber.recipeBuilder()
