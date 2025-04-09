@@ -3,13 +3,12 @@
   "order:3": 16,
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "tjceu.quest.ql.962396847.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 22,
         "id:8": "appliedenergistics2:material"
       },
-      "name:8": "Applied Energistics 2"
+      "name:8": "tjceu.quest.ql.962396847.title"
     }
   },
   "quests:9": {

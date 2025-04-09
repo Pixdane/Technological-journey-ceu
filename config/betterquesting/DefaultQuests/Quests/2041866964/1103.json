@@ -4,19 +4,17 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Multiblocks are very modular and can have most of  their casing replaced with hatches. This allows you to move hatches around for better automation or wall sharing. There are limits (listed in JEI) to the amount of casing to hatch ratio. \n\nIn addition, do not build multiblocks over chunk boundaries as it will break with uneven loading and void items/fluids.",
+      "desc:8": "tjceu.quest.db.1103.desc",
       "icon:10": {
-        "Count:3": 1,
         "id:8": "minecraft:nether_star"
       },
-      "name:8": "Multiblock Modularity",
+      "name:8": "tjceu.quest.db.1103.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 1103,
   "rewards:9": {
     "0:10": {
-      "index:3": 0,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
@@ -29,7 +27,6 @@
   },
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
   }

@@ -4,9 +4,8 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "You need either a uxv single block or uxv large macerator to make degen rhenium dust.",
+      "desc:8": "tjceu.quest.db.367.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 32357,
         "id:8": "betterquesting:placeholder",
         "tag:10": {
@@ -14,14 +13,13 @@
           "orig_meta:3": 32357
         }
       },
-      "name:8": "UXV Macerator",
+      "name:8": "tjceu.quest.db.367.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 367,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
   }

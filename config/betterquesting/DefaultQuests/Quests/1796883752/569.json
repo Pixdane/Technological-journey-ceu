@@ -1,20 +1,18 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "tjceu.quest.db.569.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 116,
         "id:8": "gregtech:mte"
       },
-      "name:8": "Elite Assembling Machine III",
+      "name:8": "tjceu.quest.db.569.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 569,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

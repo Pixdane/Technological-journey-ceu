@@ -4,20 +4,18 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "This one is a pain to synethsize, and you\u0027ll need it later for some more advanced processes. It may be worthwhile to setup a buffer of sodium ruthenate, and only process it when that buffer is above a certain amount. ",
+      "desc:8": "tjceu.quest.db.906.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 758,
         "id:8": "gcyl:meta_dust"
       },
-      "name:8": "Sodium Ruthenate Dust",
+      "name:8": "tjceu.quest.db.906.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 906,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

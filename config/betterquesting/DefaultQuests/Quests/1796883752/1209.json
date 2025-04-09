@@ -1,20 +1,18 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "tjceu.quest.db.1209.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 5,
         "id:8": "gregtech:wire_coil"
       },
-      "name:8": "Naquadah Coil Block",
+      "name:8": "tjceu.quest.db.1209.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 1209,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

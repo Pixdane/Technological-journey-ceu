@@ -5,9 +5,8 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "About now, you\u0027re probably looking for a way to store power. Buffered fuels are incredibly strong, as laid out in the \u0027All the Power\u0027 quest tab. However, if you\u0027re really looking to store raw EU, this is the way to do it. \n\nYou can use the energy detector cover to turn off generators when the battery tower is halfway full. \n\nBe careful about energy feedback loops. Putting an energy input right next to an energy output will try to push energy between the two. Causing you to \"use\" alot more power than you think.",
+      "desc:8": "tjceu.quest.db.1060.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 2562,
         "id:8": "betterquesting:placeholder",
         "tag:10": {
@@ -15,14 +14,13 @@
           "orig_meta:3": 2562
         }
       },
-      "name:8": "Item Placeholder",
+      "name:8": "tjceu.quest.db.1060.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 1060,
   "rewards:9": {
     "0:10": {
-      "index:3": 0,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
@@ -39,7 +37,6 @@
   },
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

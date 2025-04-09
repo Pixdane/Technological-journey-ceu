@@ -7,20 +7,18 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "If you REALLY don\u0027t like making mortars and have a lot of time on your hands... I guess you can use this for dusts.",
+      "desc:8": "tjceu.quest.db.928.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 1,
         "id:8": "astralsorcery:blockmachine"
       },
-      "name:8": "Grindstone",
+      "name:8": "tjceu.quest.db.928.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 928,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

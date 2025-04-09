@@ -4,20 +4,18 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The platinum residue you\u0027re producing is used in IV to produce the rest of the platinum group elements. For now, just platinum itself will suffice. However, make sure your platinum line is robust enough to support relatively fast processing, as you\u0027ll need a significant amount of osmium, iridium, palladium, and rhodium.",
+      "desc:8": "tjceu.quest.db.1282.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 344,
         "id:8": "gregtech:meta_dust"
       },
-      "name:8": "Advanced Platline",
+      "name:8": "tjceu.quest.db.1282.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 1282,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
   }

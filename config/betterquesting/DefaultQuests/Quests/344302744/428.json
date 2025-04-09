@@ -1,20 +1,18 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "This page should act like a guide for the basics of gregtech energy along with the generally regarded best progression for power. If you’re a GT veteran, feel free to skip this chapter as it likely won’t apply to you. If you haven’t played a significant amount of GT or are feeling lost as to what to do to generate the absurd amount of power you\u0027re going to need, this is where you\u0027ll find answers.\n\n Every single quest in this page is optional, and it isn’t even recommended to pursue all of these options. Power in this pack has been buffed considerably, and shouldn’t be an issue as long as you remember to occasionally upgrade your infrastructure.",
+      "desc:8": "tjceu.quest.db.428.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 2,
         "id:8": "draconicevolution:draconium_capacitor"
       },
-      "name:8": "Power Tab",
+      "name:8": "tjceu.quest.db.428.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 428,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
   }

@@ -6,20 +6,18 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "tjceu.quest.db.189.desc",
       "icon:10": {
-        "Count:3": 2,
         "Damage:2": 32655,
         "id:8": "gregtech:meta_item_1"
       },
-      "name:8": "invalid item",
+      "name:8": "tjceu.quest.db.189.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 189,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,

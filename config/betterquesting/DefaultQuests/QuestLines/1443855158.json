@@ -3,12 +3,11 @@
   "order:3": 0,
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "tjceu.quest.ql.1443855158.desc",
       "icon:10": {
-        "Count:3": 1,
         "id:8": "minecraft:wooden_pickaxe"
       },
-      "name:8": "Beginning "
+      "name:8": "tjceu.quest.ql.1443855158.title"
     }
   },
   "quests:9": {

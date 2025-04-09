@@ -4,9 +4,8 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Gregtech axes will chop the entire tree and will seek out neighboring wood blocks. This can sometimes result in forests being mined by one swing.",
+      "desc:8": "tjceu.quest.db.7.desc",
       "icon:10": {
-        "Count:3": 1,
         "id:8": "gregtech:axe",
         "tag:10": {
           "GT.Tool:10": {
@@ -17,14 +16,13 @@
           }
         }
       },
-      "name:8": "GregTech Axe",
+      "name:8": "tjceu.quest.db.7.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 7,
   "rewards:9": {
     "0:10": {
-      "index:3": 0,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
@@ -36,7 +34,6 @@
   },
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
   }

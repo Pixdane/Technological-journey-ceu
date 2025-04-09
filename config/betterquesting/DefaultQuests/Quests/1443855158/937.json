@@ -4,9 +4,8 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Yea it\u0027s.... it\u0027s not an actual hot ingot. At least, it won\u0027t burn you. Pretend you\u0027re not allowed to hold it or something/",
+      "desc:8": "tjceu.quest.db.937.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 32037,
         "id:8": "betterquesting:placeholder",
         "tag:10": {
@@ -14,14 +13,13 @@
           "orig_meta:3": 32037
         }
       },
-      "name:8": "Item Placeholder",
+      "name:8": "tjceu.quest.db.937.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 937,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

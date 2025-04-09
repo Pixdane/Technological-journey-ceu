@@ -4,20 +4,18 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "If you’re coming from an RF pack, you may be looking for a way to store your energy. Other than the battery tower (which is honestly not worth it until much later), your best bet is a super tank of whatever fuel you\u0027re using. A basic super tank full of nitro diesel, for instance, is 23 billion EU worth of stored power. When you get to later fuels you’ll likely have the battery tower anyways, but the same basic super tank full of hyper fuel 4 is nearly as much power as a full MAX battery – enough to run even the most advanced base for years. ",
+      "desc:8": "tjceu.quest.db.774.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 1575,
         "id:8": "gregtech:mte"
       },
-      "name:8": "Power Buffer",
+      "name:8": "tjceu.quest.db.774.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 774,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
   }

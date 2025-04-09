@@ -4,13 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "This quest will accept the LuV Laser Engraver singleblock or 3 LuV Emitter blocks if you\u0027re using a multiblock laser engraver for this. ",
+      "desc:8": "tjceu.quest.db.227.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 565,
         "id:8": "gregtech:mte"
       },
-      "name:8": "Elite Precision Laser Engraver II",
+      "name:8": "tjceu.quest.db.227.title",
       "tasklogic:8": "OR",
       "visibility:8": "ALWAYS"
     }
@@ -18,7 +17,6 @@
   "questID:3": 227,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

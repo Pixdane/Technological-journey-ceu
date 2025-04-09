@@ -4,20 +4,18 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The LCR is an incredibly important multiblock. It can run (nearly) any recipe that can be run in a typical chemical reactor, along with several that cannot. It has a perfect overclock, which is generally faster than a single block of the same tier. You will be making hundreds of these.\n\nThe structure the quest was based on has 7 hatches—1 energy, 3 fluid outputs, I each item Input/output, and 2 fluid inputs.",
+      "desc:8": "tjceu.quest.db.166.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 1023,
         "id:8": "gregtech:mte"
       },
-      "name:8": "Large Chemical Reactor",
+      "name:8": "tjceu.quest.db.166.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 166,
   "rewards:9": {
     "0:10": {
-      "index:3": 0,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
@@ -41,7 +39,6 @@
   },
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

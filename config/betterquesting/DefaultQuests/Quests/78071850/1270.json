@@ -4,20 +4,18 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Turning moving electrons into a moving axle. \n\nThis is your first \u0027real\u0027 component, and it will be used a lot. You\u0027d probably be better off making a batch of ~10 of these, and then a larger batch once you have access to better ratios from machines like the wiremill and lathe. ",
+      "desc:8": "tjceu.quest.db.1270.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 127,
         "id:8": "gregtech:meta_item_1"
       },
-      "name:8": "LV Electric Motor",
+      "name:8": "tjceu.quest.db.1270.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 1270,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

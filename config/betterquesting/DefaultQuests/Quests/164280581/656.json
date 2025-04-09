@@ -5,20 +5,18 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "tjceu.quest.db.656.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 23,
         "id:8": "gcyl:meta_ingot"
       },
-      "name:8": "Peek",
+      "name:8": "tjceu.quest.db.656.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 656,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
   }

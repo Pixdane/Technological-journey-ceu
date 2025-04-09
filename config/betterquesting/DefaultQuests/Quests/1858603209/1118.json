@@ -1,19 +1,17 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "#wiki in the TJ discord contains a link discribing how to build the structures and go to space. You can also just ask us questions :)",
+      "desc:8": "tjceu.quest.db.1118.desc",
       "icon:10": {
-        "Count:3": 9,
         "id:8": "advancedrocketry:launchpad"
       },
-      "name:8": "Launch Pad",
+      "name:8": "tjceu.quest.db.1118.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 1118,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 9,

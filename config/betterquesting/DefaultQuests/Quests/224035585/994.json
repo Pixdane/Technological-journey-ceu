@@ -1,23 +1,20 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "You might notice that you need a lot of these gasses. Now that you\u0027re in MV, you can use the `Sodium Hydroxide Loop` to make them much faster than any earlier methods. To do this, combine sodium and water in a chemical reactor for sodium hydroxide and hydrogen. Electrolyzing the sodium hydroxide gives both oxygen and more hydrogen, along with your sodium back. This loop consumes only water, and makes hydrogen and oxygen at roughly three times the speed of water electrolysis.",
+      "desc:8": "tjceu.quest.db.994.desc",
       "icon:10": {
-        "Count:3": 1,
-        "id:8": "forge:bucketfilled",
+        "id:8": "appliedenergistics2:dummy_fluid_item",
         "tag:10": {
-          "Amount:3": 1000,
           "FluidName:8": "oxygen"
         }
       },
-      "name:8": "Hydrogen + Oxygen",
+      "name:8": "tjceu.quest.db.994.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 994,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
   }

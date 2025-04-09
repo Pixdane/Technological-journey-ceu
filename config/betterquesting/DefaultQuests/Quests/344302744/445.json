@@ -4,9 +4,8 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Advanced Fusion requires coolant and produces supercritical coolant. While it may be ideal to use steam and simply void the supercritical output, you can utilize it for power as well. However, be cautious as you probably dont want your power infrastructure to be dependant on consistant advanced fusion.",
+      "desc:8": "tjceu.quest.db.445.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 3237,
         "id:8": "betterquesting:placeholder",
         "tag:10": {
@@ -14,14 +13,13 @@
           "orig_meta:3": 3237
         }
       },
-      "name:8": "Advanced Fusion Reactor",
+      "name:8": "tjceu.quest.db.445.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 445,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
   }

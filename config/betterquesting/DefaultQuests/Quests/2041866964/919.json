@@ -1,19 +1,17 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "You\u0027ll need some string to wrap your cables.\n\nIf you like farming: Use flax, it\u0027s busted.\n\nIf you hate farming: Breed sheep, shear them, and macerate the wool. This is slower, more effort, and will tie up your macerator. The choice is yours. ",
+      "desc:8": "tjceu.quest.db.919.desc",
       "icon:10": {
-        "Count:3": 1,
         "id:8": "minecraft:string"
       },
-      "name:8": "String",
+      "name:8": "tjceu.quest.db.919.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 919,
   "rewards:9": {
     "0:10": {
-      "index:3": 0,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
@@ -40,7 +38,6 @@
   },
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
   }

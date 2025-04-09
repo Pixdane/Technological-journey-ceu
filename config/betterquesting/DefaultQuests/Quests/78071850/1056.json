@@ -4,19 +4,17 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "While gold line is achievable in LV it is not required until the middle of MV. You can smelt precious metal twice to get gold ingots and mine up poor gold in the nether for now.",
+      "desc:8": "tjceu.quest.db.1056.desc",
       "icon:10": {
-        "Count:3": 1,
         "id:8": "minecraft:gold_ingot"
       },
-      "name:8": "The Gold Line",
+      "name:8": "tjceu.quest.db.1056.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 1056,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
   }

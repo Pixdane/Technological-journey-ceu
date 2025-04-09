@@ -4,9 +4,8 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Patterns for gregtech machines are fairly straight forward. Wrench the machine to point its output side into an interface, and right click that side with a screwdriver. Open the machine gui, and turn on auto-push items. This way, the pattern in the interface will push items into the machine because the output face allows items to be pushed through it. The machine processes the items, and pushes the finished products back out through the output face into the interface. ",
+      "desc:8": "tjceu.quest.db.654.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 8,
         "id:8": "betterquesting:placeholder",
         "tag:10": {
@@ -19,14 +18,13 @@
           }
         }
       },
-      "name:8": "Simple Gregtech Automation",
+      "name:8": "tjceu.quest.db.654.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 654,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
   }

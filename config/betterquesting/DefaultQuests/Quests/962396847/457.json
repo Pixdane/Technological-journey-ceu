@@ -4,20 +4,18 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Level emitters should be used to shut off your machines when buffers fill up. §c§lIf you do not shut off machines, you will end up with TPS issues late game. Make sure to not backstuff machines.§r \n\nAlternatively, you can use item and fluid detector covers.  \n\nA third option is to use level emitters to enable machines when they need to run, rather than disabling them when they no longer need to run. This will keep you safe from accidentally chewing through all of those rare resources.",
+      "desc:8": "tjceu.quest.db.457.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 281,
         "id:8": "appliedenergistics2:part"
       },
-      "name:8": "ME Fluid Level Emitter",
+      "name:8": "tjceu.quest.db.457.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 457,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

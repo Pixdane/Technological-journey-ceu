@@ -4,20 +4,18 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "It\u0027s red, and it\u0027s an alloy. Redpower 2 users are turning in their tombs right now.",
+      "desc:8": "tjceu.quest.db.11.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 2517,
         "id:8": "gregtech:meta_ingot"
       },
-      "name:8": "Red Alloy Ingot",
+      "name:8": "tjceu.quest.db.11.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 11,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

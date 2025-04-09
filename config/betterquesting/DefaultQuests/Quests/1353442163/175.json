@@ -4,20 +4,18 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "This will get an obscene, and I mean OBSCENE, amount of gold. You will never worry about gold again. ",
+      "desc:8": "tjceu.quest.db.175.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 41,
         "id:8": "gregtech:meta_dust"
       },
-      "name:8": "Gold Dust",
+      "name:8": "tjceu.quest.db.175.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 175,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

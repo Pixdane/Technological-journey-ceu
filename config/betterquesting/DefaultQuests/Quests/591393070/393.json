@@ -4,20 +4,18 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Finally, the ultimate fusion donut! While it is required for progression in order to produce Refined Chaos Plasma, it can also be used to produce Neutron Plasma at a much faster and more efficient rate",
+      "desc:8": "tjceu.quest.db.393.desc",
       "icon:10": {
-        "Count:3": 64,
         "Damage:2": 4,
         "id:8": "gcyl:gcyl_cryostat_casing"
       },
-      "name:8": "Advanced Fusion Cryostat MK V",
+      "name:8": "tjceu.quest.db.393.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 393,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,

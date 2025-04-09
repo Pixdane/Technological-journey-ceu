@@ -4,20 +4,18 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "You can centrifuge purified and impure dusts for unique byproducts. Sphalerite, for instance, gives you gallium - an element you\u0027ll need for diodes. ",
+      "desc:8": "tjceu.quest.db.737.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 322,
         "id:8": "gregtech:meta_dust_impure"
       },
-      "name:8": "Impure Pile of Sphalerite Dust",
+      "name:8": "tjceu.quest.db.737.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 737,
   "rewards:9": {
     "0:10": {
-      "index:3": 0,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
@@ -30,7 +28,6 @@
   },
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

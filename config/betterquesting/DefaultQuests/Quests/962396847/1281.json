@@ -1,20 +1,18 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Forge\u0027s /rtp uses the same random function as AE does for meteor distribution, so if you /rtp you will find a meteor something like 80% of the time.\n\nIf you for some reason don\u0027t want to do that, the plates all have laser engraver recipes.  ",
+      "desc:8": "tjceu.quest.db.1281.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 13,
         "id:8": "appliedenergistics2:material"
       },
-      "name:8": "Inscriber Calculation Press",
+      "name:8": "tjceu.quest.db.1281.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 1281,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

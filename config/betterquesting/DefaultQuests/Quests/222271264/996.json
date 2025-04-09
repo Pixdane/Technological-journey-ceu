@@ -6,19 +6,17 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "tjceu.quest.db.996.desc",
       "icon:10": {
-        "Count:3": 1,
         "id:8": "storagedrawers:upgrade_creative"
       },
-      "name:8": "Creative Storage Upgrade",
+      "name:8": "tjceu.quest.db.996.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 996,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

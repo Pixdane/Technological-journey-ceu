@@ -4,19 +4,17 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Gregtech multiblocks have a unique feature, this is the ability to share blocks. All non-functional blocks can be shared between one or more controllers. This allows you to reduce the cost of the more expensive multiblocks.\n\nIf you\u0027re a gregtech veteran, you may be confused about why multiblocks take a little bit to form. §c§lWe have a 3 second delay on multiblock forming checks, to reduce late game lag from LCR spam. You can force a check any time by right clicking the multiblock controller with a GT hard hammer. §r If you\u0027re looking to increase, decrease, or otherwise alter this please ask in the discord.",
+      "desc:8": "tjceu.quest.db.1233.desc",
       "icon:10": {
-        "Count:3": 1,
         "id:8": "minecraft:nether_star"
       },
-      "name:8": "Important things about GTCE multiblocks",
+      "name:8": "tjceu.quest.db.1233.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 1233,
   "rewards:9": {
     "0:10": {
-      "index:3": 0,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
@@ -28,7 +26,6 @@
   },
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
   }

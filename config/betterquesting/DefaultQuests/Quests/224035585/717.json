@@ -4,20 +4,18 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Working with silicon and more advanced substrates has opened up a new type of circuit - this represents the primitve circuits modernized and miniaturized.",
+      "desc:8": "tjceu.quest.db.717.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 623,
         "id:8": "gregtech:meta_item_1"
       },
-      "name:8": "Integrated Logic Circuit",
+      "name:8": "tjceu.quest.db.717.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 717,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

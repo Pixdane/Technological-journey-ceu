@@ -5,16 +5,15 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "tjceu.quest.db.397.desc",
       "icon:10": {
-        "Count:3": 1,
         "id:8": "betterquesting:placeholder",
         "tag:10": {
           "orig_id:8": "contenttweaker:refinedchaoscrystal",
           "orig_meta:3": 0
         }
       },
-      "name:8": "Item Placeholder",
+      "name:8": "tjceu.quest.db.397.title",
       "questlogic:8": "OR",
       "visibility:8": "ALWAYS"
     }
@@ -22,7 +21,6 @@
   "questID:3": 397,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

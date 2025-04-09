@@ -4,9 +4,8 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "You will need to make either a nuclear reactor or a breeder reactor. The breeder is more complicated to automate, requires IV components, and needs some U-235 already separated (you can get this from ore processing). However, it rewards with better yields and enables you to skip rungs on the nuclear ladder, which you\u0027ll learn about soon.",
+      "desc:8": "tjceu.quest.db.127.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 2546,
         "id:8": "betterquesting:placeholder",
         "tag:10": {
@@ -14,7 +13,7 @@
           "orig_meta:3": 2546
         }
       },
-      "name:8": "Reactor Types",
+      "name:8": "tjceu.quest.db.127.title",
       "tasklogic:8": "OR",
       "visibility:8": "ALWAYS"
     }
@@ -22,7 +21,6 @@
   "questID:3": 127,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

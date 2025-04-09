@@ -1,19 +1,17 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "This quest is renewable. No, dont bother making a witch farm with it. ",
+      "desc:8": "tjceu.quest.db.888.desc",
       "icon:10": {
-        "Count:3": 1,
         "id:8": "minecraft:redstone"
       },
-      "name:8": "Redstone",
+      "name:8": "tjceu.quest.db.888.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 888,
   "rewards:9": {
     "0:10": {
-      "index:3": 0,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
@@ -30,7 +28,6 @@
   "tasks:9": {
     "0:10": {
       "consume:1": 1,
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

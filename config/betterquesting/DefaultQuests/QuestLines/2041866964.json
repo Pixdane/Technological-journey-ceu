@@ -3,12 +3,11 @@
   "order:3": 1,
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "tjceu.quest.ql.2041866964.desc",
       "icon:10": {
-        "Count:3": 1,
         "id:8": "tjceu:tj_meta_item"
       },
-      "name:8": "Steam Age"
+      "name:8": "tjceu.quest.ql.2041866964.title"
     }
   },
   "quests:9": {

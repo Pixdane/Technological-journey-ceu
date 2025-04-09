@@ -5,16 +5,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The rewards from this quest can be used to desulfurize oil at a lower quantity, which is useful when you don\u0027t have an abundance (like now).",
+      "desc:8": "tjceu.quest.db.84.desc",
       "icon:10": {
-        "Count:3": 1,
-        "id:8": "forge:bucketfilled",
+        "id:8": "appliedenergistics2:dummy_fluid_item",
         "tag:10": {
-          "Amount:3": 1000,
           "FluidName:8": "sulfuric_light_fuel"
         }
       },
-      "name:8": "Sulfuric Light Fuel",
+      "name:8": "tjceu.quest.db.84.title",
       "questlogic:8": "OR",
       "visibility:8": "ALWAYS"
     }
@@ -22,7 +20,6 @@
   "questID:3": 84,
   "rewards:9": {
     "0:10": {
-      "index:3": 0,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
@@ -50,7 +47,6 @@
   },
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
   }

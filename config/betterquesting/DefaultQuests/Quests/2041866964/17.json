@@ -4,20 +4,18 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "You\u0027ll want to use a mortar to grind up your copper ingots into dust. These break VERY fast, so either use flint as a cheap material or wrought iron so they last as long as possible.",
+      "desc:8": "tjceu.quest.db.17.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 25,
         "id:8": "gregtech:meta_dust"
       },
-      "name:8": "Copper Dust",
+      "name:8": "tjceu.quest.db.17.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 17,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

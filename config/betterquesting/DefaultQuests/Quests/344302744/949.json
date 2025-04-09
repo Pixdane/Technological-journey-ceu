@@ -1,23 +1,20 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "If you elect to use biodiesel, you\u0027ll see that there are two ways to produce it. \n\nMethanol is better in terms of EU in to biodiesel produced, as well as fully passive from carbon, oxygen, and hydrogen, but Ethanol may be easier in the beginning due to the fact that a) you need to set Ethanol up for Polyethylene regardless, and b) the relatively small infrastructure requirement it represents.",
+      "desc:8": "tjceu.quest.db.949.desc",
       "icon:10": {
-        "Count:3": 1,
-        "id:8": "forge:bucketfilled",
+        "id:8": "appliedenergistics2:dummy_fluid_item",
         "tag:10": {
-          "Amount:3": 1000,
           "FluidName:8": "methanol"
         }
       },
-      "name:8": "Methanol or Ethanol?",
+      "name:8": "tjceu.quest.db.949.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 949,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
   }

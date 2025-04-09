@@ -4,9 +4,8 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "A lot of resources are a pain to get early on, and we don\u0027t want to encourage you to make a huge and laggy mobfarm. Instead, use these spawners (and others) on capture mode, and run the vials through a vial processor.\n\nThis pack has native EU-\u003eRF conversion, meaning you can power your RF machines with gregtech energy. ",
+      "desc:8": "tjceu.quest.db.821.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 1400,
         "id:8": "betterquesting:placeholder",
         "tag:10": {
@@ -14,14 +13,13 @@
           "orig_meta:3": 1400
         }
       },
-      "name:8": "Item Placeholder",
+      "name:8": "tjceu.quest.db.821.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 821,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

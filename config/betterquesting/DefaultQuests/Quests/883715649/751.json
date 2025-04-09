@@ -4,9 +4,8 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "tjceu.quest.db.751.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 32318,
         "id:8": "betterquesting:placeholder",
         "tag:10": {
@@ -14,14 +13,13 @@
           "orig_meta:3": 32318
         }
       },
-      "name:8": "Item Placeholder",
+      "name:8": "tjceu.quest.db.751.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 751,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

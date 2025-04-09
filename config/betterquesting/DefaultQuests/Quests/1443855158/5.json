@@ -4,19 +4,17 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "A dev/Null can help keep stone out of your inventory while mining.\n\nEach slot of the null can hold 256 items. matching items past that number are voided. This can be useful for mining but don’t put building blocks in here",
+      "desc:8": "tjceu.quest.db.5.desc",
       "icon:10": {
-        "Count:3": 1,
         "id:8": "danknull:dank_null_0"
       },
-      "name:8": "/dev/null/",
+      "name:8": "tjceu.quest.db.5.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 5,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

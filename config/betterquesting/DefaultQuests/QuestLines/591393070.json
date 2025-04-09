@@ -3,13 +3,12 @@
   "order:3": 13,
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "tjceu.quest.ql.591393070.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 138,
         "id:8": "gregtech:meta_item_1"
       },
-      "name:8": "UXV+ Age"
+      "name:8": "tjceu.quest.ql.591393070.title"
     }
   },
   "quests:9": {

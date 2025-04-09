@@ -4,20 +4,18 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Moving things (in a line) with the power of steam!",
+      "desc:8": "tjceu.quest.db.769.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 1,
         "id:8": "tjceu:tj_meta_item"
       },
-      "name:8": "Steam Piston (ULV)",
+      "name:8": "tjceu.quest.db.769.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 769,
   "rewards:9": {
     "0:10": {
-      "index:3": 0,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
@@ -29,7 +27,6 @@
   },
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

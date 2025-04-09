@@ -1,20 +1,18 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Fluid and item detectors read the contents of the inventory they are attached to, and emit a corresponding redstone signal. This is useful for turning off machines when buffers fill without needing level emitters or AE subnets. ",
+      "desc:8": "tjceu.quest.db.1114.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 305,
         "id:8": "gregtech:meta_item_1"
       },
-      "name:8": "Item Detector",
+      "name:8": "tjceu.quest.db.1114.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 1114,
   "rewards:9": {
     "0:10": {
-      "index:3": 0,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
@@ -38,7 +36,6 @@
   },
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

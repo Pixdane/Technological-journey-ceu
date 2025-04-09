@@ -1,20 +1,18 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Machines and other GTCE blocks can have covers -- pumps, conveyors, robot arms, filters, etc. These go on the outside of the block to add features. \n\nThe first one is the conveyor cover: these allow the block to auto pull and push to neighboring blocks. \n\nA robot arm does the same thing but has more features: these allow the ability to pull a certain amount or maintain a certain amount. \n\nThe machine controller allows the machine to be controlled by a redstone signal.\n\n The pump allows the machine to import and export fluids. The fluid regulator allows for percise control over fluids similar to robot arms for items. \n\nFilters can also be used as covers and will be respected by other mods means of transferring items/fluids. Filters can also be put inside of other covers to allow for more control. Each cover can be accessed by right clicking with a screwdriver.\n\nThe other thing that machines can do is auto export fluids and items: this is the arrows inside the gui. Orange means item, blue means fluids. Using these options will also cause the output on the machine to have an outline of the respective color. These outputs can also be set to allow inputs, you need to hit them with a screwdriver.  ",
+      "desc:8": "tjceu.quest.db.669.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 157,
         "id:8": "gregtech:meta_item_1"
       },
-      "name:8": "LV Conveyor Module",
+      "name:8": "tjceu.quest.db.669.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 669,
   "rewards:9": {
     "0:10": {
-      "index:3": 0,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
@@ -49,7 +47,6 @@
   },
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

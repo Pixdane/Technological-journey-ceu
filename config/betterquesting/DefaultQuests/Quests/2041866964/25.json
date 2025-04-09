@@ -1,20 +1,18 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Copper can be found in large quantities in bornite veins, alongside iron in pyrite veins, and alongside stibnite in tetrahedrite veins. Several other veins contain copper as a tertiary or sparodic ore, and can be freely mined as you see fit. You\u0027ll need lots of copper for bronze, circuit components, and wires. ",
+      "desc:8": "tjceu.quest.db.25.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 25,
         "id:8": "gregtech:meta_ingot"
       },
-      "name:8": "Copper Ingot",
+      "name:8": "tjceu.quest.db.25.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 25,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

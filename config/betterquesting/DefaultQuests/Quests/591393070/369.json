@@ -4,20 +4,18 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "tjceu.quest.db.369.desc",
       "icon:10": {
-        "Count:3": 64,
         "Damage:2": 3,
         "id:8": "gcyl:gcyl_cryostat_casing"
       },
-      "name:8": "Advanced Fusion Cryostat MK IV",
+      "name:8": "tjceu.quest.db.369.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 369,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,

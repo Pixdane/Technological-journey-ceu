@@ -1,20 +1,18 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Tin can be found in cassiterite veins, which provide hundreds or thousands of tin each. You\u0027ll need a significant amount of tin for bronze and for wires, so mining an entire vein isn\u0027t a bad idea.",
+      "desc:8": "tjceu.quest.db.748.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 112,
         "id:8": "gregtech:meta_ingot"
       },
-      "name:8": "Tin Ingot",
+      "name:8": "tjceu.quest.db.748.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 748,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

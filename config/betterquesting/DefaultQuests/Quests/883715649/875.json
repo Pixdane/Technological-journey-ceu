@@ -4,23 +4,20 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Coolant is a closed loop. If you want to make power with nuclear, you can dump any (finite) amount of coolant into the system and it will be looped between the reactor and turbines forever. However, keep in mind that hot coolant turbines are fairly slow, so they may be the bottleneck for your entire nuclear setup.\n\nIf you want this for products only, you may choose to  void spent coolant and provide infinite steam.",
+      "desc:8": "tjceu.quest.db.875.desc",
       "icon:10": {
-        "Count:3": 1,
-        "id:8": "forge:bucketfilled",
+        "id:8": "appliedenergistics2:dummy_fluid_item",
         "tag:10": {
-          "Amount:3": 1000,
           "FluidName:8": "steam"
         }
       },
-      "name:8": "Steam Bucket",
+      "name:8": "tjceu.quest.db.875.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 875,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

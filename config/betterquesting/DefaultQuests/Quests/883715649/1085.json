@@ -5,16 +5,14 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "tjceu.quest.db.1085.desc",
       "icon:10": {
-        "Count:3": 1,
-        "id:8": "forge:bucketfilled",
+        "id:8": "appliedenergistics2:dummy_fluid_item",
         "tag:10": {
-          "Amount:3": 1000,
           "FluidName:8": "sodium_tungstate"
         }
       },
-      "name:8": "Sodium Tungstate Bucket",
+      "name:8": "tjceu.quest.db.1085.title",
       "questlogic:8": "OR",
       "visibility:8": "ALWAYS"
     }
@@ -22,7 +20,6 @@
   "questID:3": 1085,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
   }

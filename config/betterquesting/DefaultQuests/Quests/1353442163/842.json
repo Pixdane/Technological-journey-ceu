@@ -4,13 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "You need an IV solidifier to make Rhodium Plated Palladium, but you\u0027re free to use a multi for it. It will need at least IV pump blocks to run this recipe however.",
+      "desc:8": "tjceu.quest.db.842.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 399,
         "id:8": "gregtech:mte"
       },
-      "name:8": "Elite Fluid Solidifier",
+      "name:8": "tjceu.quest.db.842.title",
       "tasklogic:8": "OR",
       "visibility:8": "ALWAYS"
     }
@@ -18,7 +17,6 @@
   "questID:3": 842,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

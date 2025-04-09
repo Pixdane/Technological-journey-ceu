@@ -4,19 +4,17 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Dual interfaces are useful for instances in two instances. \n\n1: you want to supply both items and fluids from the same block.\n2: you want to return both items and fluids to ae2 from the same block.\n\nThey are not needed when using fluid crafting patterns. A normal interface can send both fluids and items.",
+      "desc:8": "tjceu.quest.db.458.desc",
       "icon:10": {
-        "Count:3": 1,
         "id:8": "ae2fc:dual_interface"
       },
-      "name:8": "ME Dual Interface",
+      "name:8": "tjceu.quest.db.458.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 458,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

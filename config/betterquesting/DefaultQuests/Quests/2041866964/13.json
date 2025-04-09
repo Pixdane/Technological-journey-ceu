@@ -4,20 +4,18 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "While this says it conducts ULV power, there is nothing in the game that generates or uses ULV power (other than transformers). Like the tin cables you made earlier, this is a crafting ingredient for now.",
+      "desc:8": "tjceu.quest.db.13.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 2517,
         "id:8": "gregtech:cable_single"
       },
-      "name:8": "1x Red Alloy Cable",
+      "name:8": "tjceu.quest.db.13.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 13,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

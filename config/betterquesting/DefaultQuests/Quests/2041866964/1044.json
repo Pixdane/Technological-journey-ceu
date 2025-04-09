@@ -4,19 +4,17 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Glass but better. This is used to make both the endervoir and conduits. Neither are required, but they represent a few huge QoL steps in your automation.",
+      "desc:8": "tjceu.quest.db.1044.desc",
       "icon:10": {
-        "Count:3": 1,
         "id:8": "enderio:block_fused_quartz"
       },
-      "name:8": "Fused Quartz",
+      "name:8": "tjceu.quest.db.1044.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 1044,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

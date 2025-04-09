@@ -1,19 +1,17 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "To launch a space station, you must first package the space station into a satelite bay using the space station assembler, which functions in a similar manner to the rocket assembling machine. You must also provide a fresh station ID chip when building your satelite. \n\nOnce you have the space station container, place it inside a satelite bay on a rocket, and place the newly made station ID chip into the rocket\u0027s guidance computer. \n\nGet on the rocket, and launch. This should bring you and the space station to space, deploy the space station, and land on it.\n\nLike so many other AR mechanics, this is confusing and poorly documented. For additional help, as with everything, ask on the TJ discord.",
+      "desc:8": "tjceu.quest.db.499.desc",
       "icon:10": {
-        "Count:3": 1,
         "id:8": "advancedrocketry:stationbuilder"
       },
-      "name:8": "Space Station Assembler",
+      "name:8": "tjceu.quest.db.499.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 499,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

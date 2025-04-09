@@ -4,9 +4,8 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "These are very useful for some up and coming multiblock chemistry you\u0027ll have to do. \n\nParticularly nice use cases include distilation towers, steam crackers and LCR\u0027s, though later on you\u0027ll find these very useful for filling multiblock assemblers and assembly lines with ALL the fluids.",
+      "desc:8": "tjceu.quest.db.831.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 4235,
         "id:8": "betterquesting:placeholder",
         "tag:10": {
@@ -14,14 +13,13 @@
           "orig_meta:3": 4235
         }
       },
-      "name:8": "Item Placeholder",
+      "name:8": "tjceu.quest.db.831.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 831,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

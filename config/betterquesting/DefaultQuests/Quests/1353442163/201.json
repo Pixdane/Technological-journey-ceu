@@ -6,20 +6,18 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Manipulates quantum uncertaincy to perform parallel computation. Why are ender eyes and plutonium 244 able to create quantum uncertancy? It\u0027s better not to ask these questions. ",
+      "desc:8": "tjceu.quest.db.201.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 636,
         "id:8": "gregtech:meta_item_1"
       },
-      "name:8": "Quantum Processor",
+      "name:8": "tjceu.quest.db.201.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 201,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

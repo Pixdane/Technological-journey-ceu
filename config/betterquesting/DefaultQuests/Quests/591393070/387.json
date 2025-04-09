@@ -4,20 +4,18 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Finally neutronium! A little more complex than a couple of neutron collectors, wouldn\u0027t you agree?\n\nYou\u0027ll have to passive this if you want to use hyper fuel IV.",
+      "desc:8": "tjceu.quest.db.387.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 127,
         "id:8": "gregtech:meta_ingot"
       },
-      "name:8": "Neutronium Ingot",
+      "name:8": "tjceu.quest.db.387.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 387,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

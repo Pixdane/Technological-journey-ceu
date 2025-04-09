@@ -1,23 +1,21 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "You can now make and charge a drill, but consider the fact that you will be able to do all mining by abusing TIAB and chunk miners soon.",
+      "desc:8": "tjceu.quest.db.42.desc",
       "icon:10": {
-        "Count:3": 1,
         "id:8": "thermalinnovation:drill",
         "tag:10": {
           "Energy:3": 40000,
           "Mode:3": 1
         }
       },
-      "name:8": "Fluxbore (Basic)",
+      "name:8": "tjceu.quest.db.42.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 42,
   "rewards:9": {
     "0:10": {
-      "index:3": 0,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
@@ -56,7 +54,6 @@
   },
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

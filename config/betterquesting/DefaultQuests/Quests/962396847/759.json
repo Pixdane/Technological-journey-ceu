@@ -1,9 +1,8 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "You may have noticed this pack contains fluid crafting rework. This mod is beneficial for smaller crafts like melting metals for assline/CAL, polyethylene early on to avoid filling buffers, and soldering alloys. But please don’t get into a habit of using it for everything. For a large amount of chemistry, it is much more TPS-efficient to fully passive and pause the machine via detector cover and machine controller cover. ",
+      "desc:8": "tjceu.quest.db.759.desc",
       "icon:10": {
-        "Count:3": 1,
         "id:8": "extracells:pattern.fluid",
         "tag:10": {
           "Fluid:10": {
@@ -12,14 +11,13 @@
           }
         }
       },
-      "name:8": "AE2fc?",
+      "name:8": "tjceu.quest.db.759.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 759,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
   }

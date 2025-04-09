@@ -4,20 +4,18 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "The heat exchanger will use water in one input hatch and lava in another, and produce both hot steam and pahoehoe lava, which can be electrolyzed for carbon,\n sulfur, and obsidian. The hot steam can be either voided, or used in a coolant turbine for a considerable amount of power. ",
+      "desc:8": "tjceu.quest.db.128.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 14400,
         "id:8": "supercritical:mte"
       },
-      "name:8": "Heat Exchanger",
+      "name:8": "tjceu.quest.db.128.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 128,
   "rewards:9": {
     "0:10": {
-      "index:3": 0,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
@@ -29,7 +27,6 @@
   },
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

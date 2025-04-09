@@ -7,9 +7,8 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Tired of checking for maintenance often? \nTry an auto-taping maintenance hatch, just place tape in the hatch and when there is an issue it will auto apply tape to fix it.",
+      "desc:8": "tjceu.quest.db.205.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 4214,
         "id:8": "betterquesting:placeholder",
         "tag:10": {
@@ -17,14 +16,13 @@
           "orig_meta:3": 4214
         }
       },
-      "name:8": "Item Placeholder",
+      "name:8": "tjceu.quest.db.205.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 205,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

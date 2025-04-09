@@ -4,19 +4,17 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "tjceu.quest.db.505.desc",
       "icon:10": {
-        "Count:3": 1,
         "id:8": "advancedrocketry:charcoallog"
       },
-      "name:8": "Charcoal Log",
+      "name:8": "tjceu.quest.db.505.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 505,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

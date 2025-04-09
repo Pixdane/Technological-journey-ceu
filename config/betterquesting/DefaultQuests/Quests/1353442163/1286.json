@@ -4,20 +4,18 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "tjceu.quest.db.1286.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 393,
         "id:8": "gcyl:meta_dust"
       },
-      "name:8": "Naquadriatic Compound Dust",
+      "name:8": "tjceu.quest.db.1286.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 1286,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

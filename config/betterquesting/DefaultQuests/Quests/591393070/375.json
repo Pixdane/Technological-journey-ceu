@@ -4,20 +4,18 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "You\u0027ll need a OpV assembler for this. This is the highest teir machine that you need to make - any OpV machines other than this, or any upgrades to MAX, are purely optional.",
+      "desc:8": "tjceu.quest.db.375.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 122,
         "id:8": "gregtech:mte"
       },
-      "name:8": "Legendary Assembling Machine",
+      "name:8": "tjceu.quest.db.375.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 375,
   "rewards:9": {
     "0:10": {
-      "index:3": 0,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
@@ -30,7 +28,6 @@
   },
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

@@ -4,13 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "These are components - you can read more about what each does in the `Covers + Simple Automation` quest directly above this. They are used in automation but also to craft various machines. This quest will accept any one of them, but if you make the pump, conveyer, and robot arm, you\u0027ll get a nice reward from the aforementioned quest. \n\nYou will have to make a version these for the majority of voltages. Good luck! ",
+      "desc:8": "tjceu.quest.db.30.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 187,
         "id:8": "gregtech:meta_item_1"
       },
-      "name:8": "You\u0027re gonna... love this!",
+      "name:8": "tjceu.quest.db.30.title",
       "tasklogic:8": "OR",
       "visibility:8": "ALWAYS"
     }
@@ -18,7 +17,6 @@
   "questID:3": 30,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

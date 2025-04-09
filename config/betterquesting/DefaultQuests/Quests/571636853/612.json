@@ -1,20 +1,18 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "tjceu.quest.db.612.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 64,
         "id:8": "gregtech:meta_ingot"
       },
-      "name:8": "Molybdenum Ingot",
+      "name:8": "tjceu.quest.db.612.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 612,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

@@ -1,20 +1,18 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "tjceu.quest.db.1298.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 911,
         "id:8": "gcyl:meta_ingot"
       },
-      "name:8": "Cosmic Neutronium Ingot",
+      "name:8": "tjceu.quest.db.1298.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 1298,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

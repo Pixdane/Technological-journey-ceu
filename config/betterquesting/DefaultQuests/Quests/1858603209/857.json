@@ -4,19 +4,17 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "tjceu.quest.db.857.desc",
       "icon:10": {
-        "Count:3": 1,
         "id:8": "advancedrocketry:oxygencharger"
       },
-      "name:8": "Gas Charge Pad",
+      "name:8": "tjceu.quest.db.857.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 857,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

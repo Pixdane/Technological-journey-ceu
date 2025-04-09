@@ -1,20 +1,18 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "tjceu.quest.db.712.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 22,
         "id:8": "gcyl:meta_ingot"
       },
-      "name:8": "Lithium Niobate Ingot",
+      "name:8": "tjceu.quest.db.712.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 712,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

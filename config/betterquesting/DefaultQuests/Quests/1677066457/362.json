@@ -1,20 +1,18 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Bonus points if you built it upside down at the height limit (you get 1mb/t more heavy lepton mixture at UHV). This is due to the controller being close to build height.",
+      "desc:8": "tjceu.quest.db.362.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 10,
         "id:8": "gcyl:mte"
       },
-      "name:8": "Cosmic Ray Detector (CRD)",
+      "name:8": "tjceu.quest.db.362.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 362,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

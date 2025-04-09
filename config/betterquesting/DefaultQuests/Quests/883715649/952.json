@@ -4,20 +4,18 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Naquadah (which you\u0027ll make in IV) rods can be used in a breeder reactor to net a large amount of nuclear waste, as well as provide a boost to fissile element breeding. \n\nWhile making your nuclear entirely dependant on naquadah is not advised, it can be used to rush for a specific element like californium, which you need to visit mars.",
+      "desc:8": "tjceu.quest.db.952.desc",
       "icon:10": {
-        "Count:3": 2,
         "Damage:2": 124,
         "id:8": "gregtech:meta_stick"
       },
-      "name:8": "Naquadah Rod",
+      "name:8": "tjceu.quest.db.952.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 952,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,

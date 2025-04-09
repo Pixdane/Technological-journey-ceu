@@ -4,19 +4,17 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "This one is a little harder than the rest of the planets.",
+      "desc:8": "tjceu.quest.db.1258.desc",
       "icon:10": {
-        "Count:3": 1,
         "id:8": "gcyl:meta_block_compressed_3"
       },
-      "name:8": "Deimos dim ID 406",
+      "name:8": "tjceu.quest.db.1258.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 1258,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

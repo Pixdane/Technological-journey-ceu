@@ -4,9 +4,8 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "You may have noticed that CPP is an awful recipe. I hope you didn\u0027t try and passive it, because graphene aligned CNT provides a positive loop which enables infinite carbon nanotubes with only methane (and a lot of power) as an input. ",
+      "desc:8": "tjceu.quest.db.291.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 163,
         "id:8": "betterquesting:placeholder",
         "tag:10": {
@@ -14,14 +13,13 @@
           "orig_meta:3": 163
         }
       },
-      "name:8": "Graphene Aligned CNT",
+      "name:8": "tjceu.quest.db.291.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 291,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

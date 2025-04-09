@@ -4,9 +4,8 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "tjceu.quest.db.348.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 951,
         "id:8": "betterquesting:placeholder",
         "tag:10": {
@@ -14,14 +13,13 @@
           "orig_meta:3": 951
         }
       },
-      "name:8": "Uncommon Residues",
+      "name:8": "tjceu.quest.db.348.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 348,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
   }

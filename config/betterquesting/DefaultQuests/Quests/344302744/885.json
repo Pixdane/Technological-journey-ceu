@@ -5,9 +5,8 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Diesel Engine 2! This works just like the normal diesel engine, but instead of EV power, it makes IV. 12 amps boosted, 4 amps unboosted, with the same efficiency numbers as before. ",
+      "desc:8": "tjceu.quest.db.885.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 4242,
         "id:8": "betterquesting:placeholder",
         "tag:10": {
@@ -15,14 +14,13 @@
           "orig_meta:3": 4242
         }
       },
-      "name:8": "Item Placeholder",
+      "name:8": "tjceu.quest.db.885.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 885,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

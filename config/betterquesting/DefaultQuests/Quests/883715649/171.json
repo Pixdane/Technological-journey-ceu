@@ -1,9 +1,8 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Large variants of machines have a few perks. For starters they have an eu per recipe cost reduction and a time per recipe reduction. They also run a certain amount of recipes at once in parallel, as well as provide an increased chance at outputs when running chanced recipes. \n\nThey’re useful when you need a process to be fast, high yield or (in the case of LCR\u0027s and other multiblocks that dont use component blocks) don\u0027t want to make the expensive on-tier machine equivilent. These are the replacement for processing arrays, except cheaper and more efficient. ",
+      "desc:8": "tjceu.quest.db.171.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 354,
         "id:8": "betterquesting:placeholder",
         "tag:10": {
@@ -11,14 +10,13 @@
           "orig_meta:3": 354
         }
       },
-      "name:8": "Large machines",
+      "name:8": "tjceu.quest.db.171.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 171,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
   }

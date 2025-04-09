@@ -4,9 +4,8 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "If you would like to use astral purely as a Tech mod with great QOL, use this quest to completely skip over all of astrals research progression and learn all constellations.",
+      "desc:8": "tjceu.quest.db.125.desc",
       "icon:10": {
-        "Count:3": 1,
         "id:8": "astralsorcery:itemknowledgeshare",
         "tag:10": {
           "astralsorcery:10": {
@@ -14,14 +13,13 @@
           }
         }
       },
-      "name:8": "Man it can be fun to cheat",
+      "name:8": "tjceu.quest.db.125.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 125,
   "rewards:9": {
     "0:10": {
-      "index:3": 0,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
@@ -38,7 +36,6 @@
   },
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
   }

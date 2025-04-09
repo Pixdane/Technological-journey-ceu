@@ -4,13 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "This needs some gold. Assuming you have a wiremill, you\u0027ll need 2 gold ingots to make an electrolyzer, which means smelting 18 precious metal ingots into nuggets.",
+      "desc:8": "tjceu.quest.db.944.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 275,
         "id:8": "gregtech:mte"
       },
-      "name:8": "Basic Electrolyzer",
+      "name:8": "tjceu.quest.db.944.title",
       "tasklogic:8": "OR",
       "visibility:8": "ALWAYS"
     }
@@ -18,7 +17,6 @@
   "questID:3": 944,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

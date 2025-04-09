@@ -1,23 +1,20 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "If you make biodiesel, you definitely want to be using empowered oil ASAP. It\u0027s much more efficient in almost every way, and most importantly offers a massive boost in the amount of biodiesel (and therefore EU) you can produce in a given amount of time. ",
+      "desc:8": "tjceu.quest.db.423.desc",
       "icon:10": {
-        "Count:3": 1,
-        "id:8": "forge:bucketfilled",
+        "id:8": "appliedenergistics2:dummy_fluid_item",
         "tag:10": {
-          "Amount:3": 1000,
           "FluidName:8": "empoweredoil"
         }
       },
-      "name:8": "Empowered Oil",
+      "name:8": "tjceu.quest.db.423.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 423,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
   }

@@ -4,12 +4,11 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "So far, you\u0027ve only had access to bauxite processing as a source of rutile. Now that you\u0027ve built a rocket, you\u0027re able to explore other planets and moons to find rare materials and fluids. The first stop is the moon, which is useful for rutile and bauxite ores for more titanium, along with dilithium to power a warp core which will enable you to visit more exotic locations.",
+      "desc:8": "tjceu.quest.db.1248.desc",
       "icon:10": {
-        "Count:3": 1,
         "id:8": "advancedrocketry:moonturf_dark"
       },
-      "name:8": "To the Moon!",
+      "name:8": "tjceu.quest.db.1248.title",
       "tasklogic:8": "OR",
       "visibility:8": "ALWAYS"
     }
@@ -17,7 +16,6 @@
   "questID:3": 1248,
   "rewards:9": {
     "0:10": {
-      "index:3": 0,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
@@ -49,7 +47,6 @@
   },
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

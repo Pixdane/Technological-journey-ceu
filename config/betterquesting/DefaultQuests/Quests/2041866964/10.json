@@ -4,20 +4,18 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "You\u0027ll need to compress wood pulp into planks, resin into rubber, as well as fireclay into firebricks. ",
+      "desc:8": "tjceu.quest.db.10.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 11,
         "id:8": "gregtech:mte"
       },
-      "name:8": "Steam Compressor",
+      "name:8": "tjceu.quest.db.10.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 10,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

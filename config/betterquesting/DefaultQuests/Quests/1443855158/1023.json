@@ -5,9 +5,8 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "You will need to find a magnetite, limonite, pyrite, or mineral sands vein for iron. This iron (optionally converted to wrought iron) can be used to make the tools required for early gregtech. You\u0027ll need several of most of these tools, so don\u0027t get too attached.\n\nHammers are used to make ingots into plates.\n\nWrenches are used to break and rotate gregtech blocks as well as set the output faces of machines.\n\nScrewdrivers are used to interact with machine covers.\n\nWire cutters are used to cut plates into wires.\n\nFiles are used to make ingots into rods.\n\nMortars are used to grind down metals and other materials.\n\nWhile there are several tools not mentioned here, these are the ones required to get through early game gregtech. Almost all the crafting functionality of these hand tools will be superceded by machines once you unlock LV and basic electricity, but some of the tools (screwdriver and wrench in particular) will become a mainstay in your inventory. While you are still using the tools for crafting, expect to go through them fairly quickly. Don\u0027t get too attached to your rose gold hammer.",
+      "desc:8": "tjceu.quest.db.1023.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 32767,
         "OreDict:8": "craftingToolHardHammer",
         "id:8": "gregtech:hammer",
@@ -17,14 +16,13 @@
           }
         }
       },
-      "name:8": "To get started with Gregtech you will need a few tools.",
+      "name:8": "tjceu.quest.db.1023.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 1023,
   "rewards:9": {
     "0:10": {
-      "index:3": 0,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
@@ -37,7 +35,6 @@
   },
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

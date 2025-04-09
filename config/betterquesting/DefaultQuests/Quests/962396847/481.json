@@ -4,20 +4,18 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "If you want to use the wireless cards across dimensions you will need a quantum link card. This must be placed inside a quantum bridge. The bridge can only support one mode.",
+      "desc:8": "tjceu.quest.db.481.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 59,
         "id:8": "appliedenergistics2:material"
       },
-      "name:8": "Quantum Link Card",
+      "name:8": "tjceu.quest.db.481.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 481,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

@@ -4,9 +4,8 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Component blocks are used in several multiblocks, and dictate the tier of recipe the multi is able to run. A multiblock with an EV motor block will be able to run (and overclock) recipies that use up to and including 2048 EU/t, but won\u0027t be able to do more costly recipes even with the appropriate amount of power. They must go in the places indicated in the JEI preview, but do not have to be the same tier as indicated. ",
+      "desc:8": "tjceu.quest.db.1307.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 13,
         "id:8": "betterquesting:placeholder",
         "tag:10": {
@@ -14,14 +13,13 @@
           "orig_meta:3": 13
         }
       },
-      "name:8": "Component Blocks",
+      "name:8": "tjceu.quest.db.1307.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 1307,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
   }

@@ -1,20 +1,18 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Maintenance can be dealt with in 2 ways. One is to have the tools that correspond to the errors in the multiblocks controller in your inventory and press the square in the hatch.\n\nThe other is to have duct tape in your inventory and press the square in the hatch, duct tape will remove all issues.\n\nAgain, the square in the hatch is a button, not a slot. You dont need to drag anything to it, just click it when you have the appropriate item(s) in your inventory. \n\nRemember not to try and share these between multiblocks -- everything else is fine. ",
+      "desc:8": "tjceu.quest.db.814.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 1654,
         "id:8": "gregtech:mte"
       },
-      "name:8": "Maintenance Hatch",
+      "name:8": "tjceu.quest.db.814.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 814,
   "rewards:9": {
     "0:10": {
-      "index:3": 0,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
@@ -27,7 +25,6 @@
   },
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
   }

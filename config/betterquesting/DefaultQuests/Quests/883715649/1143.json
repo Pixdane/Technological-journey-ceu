@@ -4,23 +4,20 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "At this point, you can boost the yeild of this reaction using a small amount of titanium tetrachloride. It\u0027s your choice - PTFE will be used a lot in the future, but so will titanium.",
+      "desc:8": "tjceu.quest.db.1143.desc",
       "icon:10": {
-        "Count:3": 1,
-        "id:8": "forge:bucketfilled",
+        "id:8": "appliedenergistics2:dummy_fluid_item",
         "tag:10": {
-          "Amount:3": 1000,
           "FluidName:8": "tetrafluoroethylene"
         }
       },
-      "name:8": "Tetrafluoreothylene Bucket",
+      "name:8": "tjceu.quest.db.1143.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 1143,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
   }

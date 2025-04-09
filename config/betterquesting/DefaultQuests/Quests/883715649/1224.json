@@ -4,20 +4,18 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "You will need a considerable amount of Pu244 as the pack goes on and you progress into better circuits and fusion. Focus your nuclear on making as much Pu244 as possible. It may be wise to setup a system now to passive all fuels from uranium to Pu244.",
+      "desc:8": "tjceu.quest.db.1224.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 10052,
         "id:8": "gregtech:meta_item_1"
       },
-      "name:8": "invalid item",
+      "name:8": "tjceu.quest.db.1224.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 1224,
   "rewards:9": {
     "0:10": {
-      "index:3": 0,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
@@ -34,7 +32,6 @@
   },
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

@@ -4,20 +4,18 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Keep in mind that you can run any hyper fuel in any reactor, but higher tier reactors have a greater boost multiplier.\n\nBoost these with their respective plasmas - they consume almost none, and double their effective power output. \n\nAlso, make sure to burn excess naq fuels in large naq reactors. For the light and enriched light fuels, run them in the highest tier gas turbines you can make or mix and burn hyper fuel 1.",
+      "desc:8": "tjceu.quest.db.435.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 12,
         "id:8": "gcyl:mte"
       },
-      "name:8": "Hyper Reactor I (HR I)",
+      "name:8": "tjceu.quest.db.435.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 435,
   "rewards:9": {
     "0:10": {
-      "index:3": 0,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
@@ -30,7 +28,6 @@
   },
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

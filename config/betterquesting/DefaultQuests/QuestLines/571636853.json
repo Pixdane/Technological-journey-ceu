@@ -3,13 +3,12 @@
   "order:3": 19,
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "tjceu.quest.ql.571636853.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 276,
         "id:8": "gregtech:meta_gem_exquisite"
       },
-      "name:8": "Periodic Table"
+      "name:8": "tjceu.quest.ql.571636853.title"
     }
   },
   "quests:9": {

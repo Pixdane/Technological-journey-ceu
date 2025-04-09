@@ -4,20 +4,18 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Uses light to move information at the fastest possible speed, manipulating frequency to perform analogue computation.\n\nThese little descriptions of how circuits work are getting harder to write as I dunno what I\u0027m talking about anymore.",
+      "desc:8": "tjceu.quest.db.1246.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 501,
         "id:8": "gcyl:gcyl_meta_item"
       },
-      "name:8": "Optical Processor",
+      "name:8": "tjceu.quest.db.1246.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 1246,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

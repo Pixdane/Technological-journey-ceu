@@ -7,19 +7,17 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Biodiesel is best made using the most advanced vairent of canola -- it\u0027s simply more diesel per unit time.\n\nThe \u0027green goo\u0027 rocket fuel is strong and availible early, and is completely renewable. Starlight rocket fuel is an enourmous upgrade, but a significant amount of infrastructure to pull off. \n\nThe large naq reactor has been buffed considerably, and boosting it with oxygen plasma is a good idea.\n\nPlasma turbine rotors barely take durability damage.\n\nYou can use hot coolant for a significant amount of power, either from the heat exchanger (slow and not recommended) or from advanced fusion (supercritical steam, you will probably have to void excess).",
+      "desc:8": "tjceu.quest.db.941.desc",
       "icon:10": {
-        "Count:3": 1,
         "id:8": "bibliocraft:biblioclipboard"
       },
-      "name:8": "Some Notes on Power Generation:",
+      "name:8": "tjceu.quest.db.941.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 941,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
   }

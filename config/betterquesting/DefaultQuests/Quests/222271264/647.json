@@ -4,19 +4,17 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "tjceu.quest.db.647.desc",
       "icon:10": {
-        "Count:3": 1,
         "id:8": "draconicadditions:chaotic_energy_core"
       },
-      "name:8": "Chaotic Energy Core",
+      "name:8": "tjceu.quest.db.647.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 647,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

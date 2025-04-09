@@ -3,13 +3,12 @@
   "order:3": 3,
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "tjceu.quest.ql.224035585.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 128,
         "id:8": "gregtech:meta_item_1"
       },
-      "name:8": "MV Age"
+      "name:8": "tjceu.quest.ql.224035585.title"
     }
   },
   "quests:9": {

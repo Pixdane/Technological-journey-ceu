@@ -4,23 +4,21 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "So you’ve made it through UV in Gregtech, congratulations you\u0027re a noob. From now on the recipes, power generation methods, and chemistry are significantly more difficult. With this, you can now enter the next phase of Gregtech: UV and beyond.\n\nThis is typically assumed to be a pointless flex, but it\u0027s a relatively good test of your infrastructure. You\u0027ll need well over this amount of tritanium going forward, and if you can\u0027t make the BAN then you most likely aren\u0027t ready to move forward without taking a look at your infrastructure and re-evaluating.\n\n§4One very important note about this, you can only craft BAN in a single block machine",
+      "desc:8": "tjceu.quest.db.1305.desc",
       "icon:10": {
-        "Count:3": 1,
         "id:8": "betterquesting:placeholder",
         "tag:10": {
           "orig_id:8": "contenttweaker:certificate_of_being_a_noob",
           "orig_meta:3": 0
         }
       },
-      "name:8": "you’re a Noob Harry",
+      "name:8": "tjceu.quest.db.1305.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 1305,
   "rewards:9": {
     "0:10": {
-      "index:3": 0,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
@@ -58,7 +56,6 @@
   },
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

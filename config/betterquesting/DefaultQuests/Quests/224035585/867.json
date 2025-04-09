@@ -1,13 +1,12 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "You may make either an LV or an MV Distillery to complete this quest.",
+      "desc:8": "tjceu.quest.db.867.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 260,
         "id:8": "gregtech:mte"
       },
-      "name:8": "Basic Distillery",
+      "name:8": "tjceu.quest.db.867.title",
       "tasklogic:8": "OR",
       "visibility:8": "ALWAYS"
     }
@@ -15,7 +14,6 @@
   "questID:3": 867,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

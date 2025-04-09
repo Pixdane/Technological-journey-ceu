@@ -4,13 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "tjceu.quest.db.1297.desc",
       "icon:10": {
-        "Count:3": 15,
         "Damage:2": 1,
         "id:8": "gregtech:meta_block_compressed_7"
       },
-      "name:8": "Block of Titanium",
+      "name:8": "tjceu.quest.db.1297.title",
       "visibility:8": "ALWAYS"
     }
   },
@@ -18,7 +17,6 @@
   "tasks:9": {
     "0:10": {
       "consume:1": 1,
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 15,

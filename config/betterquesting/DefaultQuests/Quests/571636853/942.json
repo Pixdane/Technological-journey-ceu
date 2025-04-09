@@ -1,19 +1,17 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "tjceu.quest.db.942.desc",
       "icon:10": {
-        "Count:3": 1,
         "id:8": "minecraft:nether_star"
       },
-      "name:8": "Nobelium Comming SoonTM",
+      "name:8": "tjceu.quest.db.942.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 942,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
   }

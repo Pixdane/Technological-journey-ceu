@@ -5,20 +5,18 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "tjceu.quest.db.472.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 38,
         "id:8": "appliedenergistics2:material"
       },
-      "name:8": "§b64k§r ME Storage Component",
+      "name:8": "tjceu.quest.db.472.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 472,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

@@ -1,19 +1,17 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "This is a basic ethanol line, designed to be fully passive from sugarcane. \n\nSnad works like sand, except that sugarcane planted on it grows each time the block of snad receives a redstone signal. This can be used to make an incredibly fast sugarcane farm using an enderIO timer.",
+      "desc:8": "tjceu.quest.db.1034.desc",
       "icon:10": {
-        "Count:3": 1,
         "id:8": "snad:snad"
       },
-      "name:8": "Snad",
+      "name:8": "tjceu.quest.db.1034.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 1034,
   "rewards:9": {
     "0:10": {
-      "index:3": 0,
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
@@ -55,7 +53,6 @@
   },
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

@@ -3,13 +3,12 @@
   "order:3": 18,
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "tjceu.quest.ql.1796883752.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 800,
         "id:8": "tjceu:tj_meta_item"
       },
-      "name:8": "Progression"
+      "name:8": "tjceu.quest.ql.1796883752.title"
     }
   },
   "quests:9": {

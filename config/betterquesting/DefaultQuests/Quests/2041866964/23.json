@@ -4,20 +4,18 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "This will run eight recipes every 30 seconds, which makes it faster than any singleblock macerator until HV. Consider setting a few of them up to handle ore processing for a while.\n\nThe steam hatch must be filled with steam for this to run, and it consumes steam as it processes, which means it\u0027s possible to run out in the middle of a craft. Make sure your steam supply is consistent \u0026 fast before you make this.",
+      "desc:8": "tjceu.quest.db.23.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 1025,
         "id:8": "gregtech:mte"
       },
-      "name:8": "Steam Grinder",
+      "name:8": "tjceu.quest.db.23.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 23,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

@@ -7,20 +7,18 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "This is the cheapest LV circuit you will get for a while, at least until you unlock the SoC recipe at a higher voltage tier. It may not seem like much, but remember you used to have to make primitve processors 1 at a time.\n\nThe advent of SMD technology and plastic boards allows for compact and efficent processors. ",
+      "desc:8": "tjceu.quest.db.74.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 203,
         "id:8": "gcyl:gcyl_meta_item"
       },
-      "name:8": "Refined Processor",
+      "name:8": "tjceu.quest.db.74.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 74,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

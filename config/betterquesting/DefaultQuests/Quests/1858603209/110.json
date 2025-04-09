@@ -5,20 +5,18 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Central monitors can be used for remote management. Set a digital cover on a machine to proxy mode and connect the cover to a cable/wire. Connect the same cable/wire line to the back of the monitor. Now in the monitor GUI you can select the machine and size you want the display.",
+      "desc:8": "tjceu.quest.db.110.desc",
       "icon:10": {
-        "Count:3": 1,
         "Damage:2": 1029,
         "id:8": "gregtech:mte"
       },
-      "name:8": "Central Monitor",
+      "name:8": "tjceu.quest.db.110.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 110,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

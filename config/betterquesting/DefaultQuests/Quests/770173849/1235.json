@@ -4,19 +4,17 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Ever find it hard to work under your ebf? \nEver wanted to see the top of a multi without jumping?\nWell now that you have access to nether stars, you can make the resising trinket.\nSimply right-click an empty trinket after drinking a shrink or growing potion and you can have a permanent device that can augment your height.\n\nWarning we are not responsible for your hitbox being inside the floor, please use it responsibly and not with commands.",
+      "desc:8": "tjceu.quest.db.1235.desc",
       "icon:10": {
-        "Count:3": 1,
         "id:8": "minecraft:glass_bottle"
       },
-      "name:8": "Empty Trinket",
+      "name:8": "tjceu.quest.db.1235.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 1235,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
   }

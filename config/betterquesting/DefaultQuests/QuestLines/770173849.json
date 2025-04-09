@@ -3,12 +3,11 @@
   "order:3": 17,
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "tjceu.quest.ql.770173849.desc",
       "icon:10": {
-        "Count:3": 1,
         "id:8": "advancedrocketry:rocketmotor"
       },
-      "name:8": "Space \u0026 Dimensions"
+      "name:8": "tjceu.quest.ql.770173849.title"
     }
   },
   "quests:9": {

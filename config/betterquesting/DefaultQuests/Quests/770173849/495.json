@@ -4,22 +4,20 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Resonating wands used to start crafts for many astral tables. There are also rumors that if a wand is held in your off hand at night on Pluto important places to dig may reveal themself",
+      "desc:8": "tjceu.quest.db.495.desc",
       "icon:10": {
-        "Count:3": 1,
         "id:8": "astralsorcery:itemwand",
         "tag:10": {
           "astralsorcery:10": {}
         }
       },
-      "name:8": "Resonating Wand",
+      "name:8": "tjceu.quest.db.495.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 495,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,

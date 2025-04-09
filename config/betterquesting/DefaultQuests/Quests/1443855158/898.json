@@ -1,19 +1,17 @@
 {
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Both the aroma mining dimension and the void dimension exist, but contain no ores. They are intended to be used for base building, and so are gated behind practically nothing.\n\nAlso, if you need to find a rubber tree, we can\u0027t figure out how to make GT not spawn them in aroma. So they\u0027re everywhere.",
+      "desc:8": "tjceu.quest.db.898.desc",
       "icon:10": {
-        "Count:3": 1,
         "id:8": "minecraft:nether_star"
       },
-      "name:8": "Extra-Dimensional",
+      "name:8": "tjceu.quest.db.898.title",
       "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 898,
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
     }
   }
