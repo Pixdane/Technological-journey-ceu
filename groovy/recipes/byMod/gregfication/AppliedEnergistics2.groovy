@@ -13,6 +13,21 @@ LASER_ENGRAVER = recipemap('laser_engraver')
 EBF = recipemap('electric_blast_furnace')
 
 
+// Hide items from JEI
+mods.jei.ingredient.yeet(
+        item('appliedenergistics2:material', 49),
+        item('appliedenergistics2:material', 51),
+)
+
+// Recipe removals
+[
+        item('appliedenergistics2:part'),
+        item('appliedenergistics2:part', 140),
+        item('appliedenergistics2:quartz_glass'),
+].forEach {
+    crafting.removeByOutput(it)
+}
+
 inscriber.removeByOutput(item('appliedenergistics2:material', 20))
 inscriber.removeByOutput(item('appliedenergistics2:material', 24))
 inscriber.removeByOutput(item('appliedenergistics2:material', 23))
@@ -1064,3 +1079,15 @@ ASSLINE.recipeBuilder()
        .duration(2147483647)
        .EUt(1)
        .buildAndRegister()
+
+crafting.addShaped(item('appliedenergistics2:quartz_glass') * 4, [
+        [ore('dustCertusQuartz'), ore('blockGlassColorless'), ore('dustCertusQuartz')],
+        [ore('blockGlassColorless'), null, ore('blockGlassColorless')],
+        [ore('dustCertusQuartz'), ore('blockGlassColorless'), ore('dustCertusQuartz')]
+])
+
+crafting.addShaped(item('appliedenergistics2:quartz_glass') * 4, [
+        [ore('dustNetherQuartz'), ore('blockGlassColorless'), ore('dustNetherQuartz')],
+        [ore('blockGlassColorless'), null, ore('blockGlassColorless')],
+        [ore('dustNetherQuartz'), ore('blockGlassColorless'), ore('dustNetherQuartz')]
+])

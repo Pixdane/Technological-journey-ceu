@@ -127,16 +127,29 @@ mods.jei.ingredient.yeet(
         item('thermalfoundation:material', 290),
         item('thermalfoundation:material', 291),
         item('thermalfoundation:material', 295),
+
+        item('thermalfoundation:geode'),
 )
 
 // Recipe removals
-crafting.removeByOutput(item('thermalfoundation:upgrade'))
-crafting.removeByOutput(item('thermalfoundation:upgrade', 1))
-crafting.removeByOutput(item('thermalfoundation:upgrade', 2))
-crafting.removeByOutput(item('thermalfoundation:upgrade', 3))
-crafting.removeByOutput(item('thermalfoundation:upgrade', 33))
-crafting.removeByOutput(item('thermalfoundation:upgrade', 34))
-crafting.removeByOutput(item('thermalfoundation:upgrade', 35))
+[
+        item('thermalfoundation:upgrade'),
+        item('thermalfoundation:upgrade', 1),
+        item('thermalfoundation:upgrade', 2),
+        item('thermalfoundation:upgrade', 3),
+        item('thermalfoundation:upgrade', 33),
+        item('thermalfoundation:upgrade', 34),
+        item('thermalfoundation:upgrade', 35),
+
+        item('thermalfoundation:material', 101),
+        item('thermalfoundation:material', 102),
+        item('thermalfoundation:material', 1026),
+        item('thermalfoundation:material', 1027),
+].forEach {
+    crafting.removeByOutput(it)
+}
+
+furnace.add(item('thermalfoundation:material', 833), metaitem('rubber_drop'), 0.0);
 
 // Hardened upgrade
 ASSLINE.recipeBuilder()

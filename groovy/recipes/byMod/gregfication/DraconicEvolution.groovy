@@ -9,14 +9,23 @@ BIO_REACTOR = recipemap('bio_reactor')
 
 // Recipe removals
 furnace.removeByOutput(item('draconicevolution:draconium_ingot'))
-crafting.removeByOutput(item('draconicevolution:nugget'))
-crafting.removeByOutput(item('draconicevolution:draconium_block'))
-crafting.removeByOutput(item('draconicevolution:draconium_ingot'))
-crafting.removeByOutput(item('draconicevolution:nugget', 1))
-crafting.removeByOutput(item('draconicevolution:draconic_ingot'))
-crafting.removeByOutput(item('draconicevolution:draconic_block'))
-crafting.removeByOutput(item('draconicevolution:wyvern_energy_core'))
-crafting.removeByOutput(item('draconicevolution:celestial_manipulator'))
+
+// Recipe removals
+[
+        item('draconicevolution:nugget'),
+        item('draconicevolution:draconium_block'),
+        item('draconicevolution:draconium_ingot'),
+        item('draconicevolution:nugget', 1),
+        item('draconicevolution:draconic_ingot'),
+        item('draconicevolution:draconic_block'),
+        item('draconicevolution:wyvern_energy_core'),
+        item('draconicevolution:celestial_manipulator'),
+        item('draconicevolution:grinder'),
+        item('draconicevolution:wyvern_core'),
+        item('draconicevolution:draconic_core'),
+].forEach {
+    crafting.removeByOutput(it)
+}
 
 ASSLINE.recipeBuilder()
         .inputs(ore('frameGtNeutronium'))

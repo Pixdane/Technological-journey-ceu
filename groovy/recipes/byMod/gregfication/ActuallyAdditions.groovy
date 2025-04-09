@@ -4,6 +4,37 @@ ASSEMBLER = recipemap('assembler')
 LASER_ENGRAVER = recipemap('laser_engraver')
 
 
+// Hide items from JEI
+mods.jei.ingredient.yeet(
+        item('actuallyadditions:block_misc', 7),
+        item('actuallyadditions:block_lava_factory_controller'),
+        item('actuallyadditions:block_tiny_torch'),
+        item('actuallyadditions:item_color_lens'),
+        item('actuallyadditions:item_mining_lens'),
+        item('actuallyadditions:block_coal_generator'),
+        item('actuallyadditions:block_firework_box'),
+        item('actuallyadditions:block_canola_press'),
+        item('actuallyadditions:block_heat_collector'),
+        item('actuallyadditions:block_coffee_machine'),
+        item('actuallyadditions:block_inputter'),
+        item('actuallyadditions:block_inputter_advanced'),
+        item('actuallyadditions:block_item_repairer'),
+        item('actuallyadditions:block_miner'),
+        item('actuallyadditions:block_leaf_generator'),
+        item('actuallyadditions:block_bio_reactor'),
+        item('actuallyadditions:block_oil_generator'),
+        item('actuallyadditions:block_enervator'),
+        item('actuallyadditions:block_energizer'),
+        item('actuallyadditions:block_grinder'),
+        item('actuallyadditions:block_grinder_double'),
+        item('actuallyadditions:block_furnace_double'),
+)
+// Recipe removals
+[
+].forEach {
+    crafting.removeByOutput(it)
+}
+
 // Red
 ASSEMBLER.recipeBuilder()
         .inputs([item('actuallyadditions:block_crystal'), item('minecraft:brick') * 2, item('minecraft:netherbrick') * 2, item('minecraft:redstone_block') * 2])

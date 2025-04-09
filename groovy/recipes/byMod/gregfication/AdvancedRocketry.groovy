@@ -112,7 +112,48 @@ mods.jei.ingredient.yeet(
         item('libvulpes:battery', 1),
 )
 
-crafting.removeByOutput(item('advancedrocketry:launchpad'))
+// Recipe removals
+[
+        item('advancedrocketry:launchpad'),
+        item('advancedrocketry:loader', 1),
+        item('advancedrocketry:ic', 3),
+        item('advancedrocketry:spaceboots'),
+        item('advancedrocketry:spacechestplate'),
+        item('libvulpes:structuremachine'),
+        item('libvulpes:holoprojector'),
+        item('advancedrocketry:spaceleggings'),
+        item('advancedrocketry:spacehelmet'),
+        item('advancedrocketry:rocketmotor'),
+        item('advancedrocketry:bipropellantrocketmotor'),
+        item('advancedrocketry:advrocketmotor'),
+        item('advancedrocketry:advbipropellantrocketmotor'),
+        item('advancedrocketry:nuclearrocketmotor'),
+        item('advancedrocketry:fuelingstation'),
+        item('advancedrocketry:fueltank'),
+        item('advancedrocketry:bipropellantfueltank'),
+        item('advancedrocketry:oxidizerfueltank'),
+        item('advancedrocketry:nuclearfueltank'),
+        item('advancedrocketry:guidancecomputer'),
+        item('advancedrocketry:thermite'),
+        item('advancedrocketry:ic', 5),
+        item('advancedrocketry:ic', 4),
+        item('advancedrocketry:gravitymachine'),
+        item('advancedrocketry:altitudecontroller'),
+        item('advancedrocketry:stationmarker'),
+        item('advancedrocketry:circlelight'),
+        item('advancedrocketry:stationbuilder'),
+        item('advancedrocketry:oxygenscrubber'),
+        item('advancedrocketry:oxygenvent'),
+        item('advancedrocketry:oxygencharger'),
+        item('advancedrocketry:landingpad'),
+        item('advancedrocketry:warpcore'),
+        item('advancedrocketry:warpmonitor'),
+        item('advancedrocketry:orientationcontroller'),
+        item('advancedrocketry:gravitycontroller'),
+        item('advancedrocketry:rocketbuilder')
+].forEach {
+    crafting.removeByOutput(it)
+}
 
 MIXER.recipeBuilder()
         .inputs([ore('blockConcrete') * 3, ore('dyeYellow'), ore('dyeBlack')])
@@ -120,15 +161,6 @@ MIXER.recipeBuilder()
         .duration(240)
         .EUt(16)
         .buildAndRegister()
-
-crafting.removeByOutput(item('advancedrocketry:loader', 1))
-crafting.removeByOutput(item('advancedrocketry:ic', 3))
-crafting.removeByOutput(item('advancedrocketry:spaceboots'))
-crafting.removeByOutput(item('advancedrocketry:spacechestplate'))
-crafting.removeByOutput(item('libvulpes:structuremachine'))
-crafting.removeByOutput(item('libvulpes:holoprojector'))
-crafting.removeByOutput(item('advancedrocketry:spaceleggings'))
-crafting.removeByOutput(item('advancedrocketry:spacehelmet'))
 
 crafting.addShaped(item('minecraft:enchanted_book').withNbt(StoredEnchantments: [lvl: 1 as short, id: 13 as short]), [
         [null, ore('stickLongStainlessSteel'), null],
@@ -189,35 +221,6 @@ crafting.addShaped(item('advancedrocketry:fueltank') * 2, [
         [ore('plateStainlessSteel'), null, ore('plateStainlessSteel')],
         [ore('stickStainlessSteel'), ore('plateStainlessSteel'), ore('stickStainlessSteel')]
 ])
-
-crafting.removeByOutput(item('advancedrocketry:rocketmotor'))
-crafting.removeByOutput(item('advancedrocketry:bipropellantrocketmotor'))
-crafting.removeByOutput(item('advancedrocketry:advrocketmotor'))
-crafting.removeByOutput(item('advancedrocketry:advbipropellantrocketmotor'))
-crafting.removeByOutput(item('advancedrocketry:nuclearrocketmotor'))
-crafting.removeByOutput(item('advancedrocketry:fuelingstation'))
-crafting.removeByOutput(item('advancedrocketry:fueltank'))
-crafting.removeByOutput(item('advancedrocketry:bipropellantfueltank'))
-crafting.removeByOutput(item('advancedrocketry:oxidizerfueltank'))
-crafting.removeByOutput(item('advancedrocketry:nuclearfueltank'))
-crafting.removeByOutput(item('advancedrocketry:guidancecomputer'))
-crafting.removeByOutput(item('advancedrocketry:thermite'))
-crafting.removeByOutput(item('advancedrocketry:ic', 5))
-crafting.removeByOutput(item('advancedrocketry:ic', 4))
-crafting.removeByOutput(item('advancedrocketry:gravitymachine'))
-crafting.removeByOutput(item('advancedrocketry:altitudecontroller'))
-crafting.removeByOutput(item('advancedrocketry:stationmarker'))
-crafting.removeByOutput(item('advancedrocketry:circlelight'))
-crafting.removeByOutput(item('advancedrocketry:stationbuilder'))
-crafting.removeByOutput(item('advancedrocketry:oxygenscrubber'))
-crafting.removeByOutput(item('advancedrocketry:oxygenvent'))
-crafting.removeByOutput(item('advancedrocketry:oxygencharger'))
-crafting.removeByOutput(item('advancedrocketry:landingpad'))
-crafting.removeByOutput(item('advancedrocketry:warpcore'))
-crafting.removeByOutput(item('advancedrocketry:warpmonitor'))
-crafting.removeByOutput(item('advancedrocketry:orientationcontroller'))
-crafting.removeByOutput(item('advancedrocketry:gravitycontroller'))
-crafting.removeByOutput(item('advancedrocketry:rocketbuilder'))
  
 crafting.addShaped(item('advancedrocketry:warpmonitor'), [
         [ore('plateStainlessSteel'), metaitem('sensor.hv'), ore('plateStainlessSteel')],
@@ -377,8 +380,8 @@ crafting.addShapeless(item('advancedrocketry:landingpad'), [item('advancedrocket
 crafting.addShaped(item('libvulpes:holoprojector'), [
         [item('minecraft:glass_pane'), metaitem('emitter.hv'), item('minecraft:glass_pane')],
         [null, metaitem('hull.hv'), null],
-        [null, null, null]]
-)
+        [null, null, null]
+])
 
 // TODO: recipes for other engines & fuel tanks
 crafting.addShaped(item('advancedrocketry:rocketmotor'), [

@@ -2,6 +2,16 @@
 
 ASSEMBLER = recipemap('assembler')
 
+// Recipe removals
+[
+        metaitem('compressed.coke_clay'),
+].forEach {
+    crafting.removeByOutput(it)
+}
+
+// 1 * Wrought Iron Nugget
+furnace.removeByOutput(metaitem('nuggetWroughtIron'))
+
 // ZPM Machine Casing * 1
 mods.gregtech.assembler.removeByInput(16, [metaitem('circuit.integrated').withNbt(['Configuration': 8]), metaitem('plateDuranium') * 8], null)
 
@@ -70,3 +80,14 @@ ASSEMBLER.recipeBuilder()
         .EUt(480)
         .buildAndRegister()
 
+crafting.addShaped(metaitem('electric_blast_furnace') * 3, [
+        [ore('craftingFurnace'), ore('craftingFurnace'), ore('craftingFurnace')],
+        [ore('circuitMv'), item('gregtech:metal_casing', 2), ore('circuitMv')],
+        [ore('cableGtSingleTin'), ore('circuitMv'), ore('cableGtSingleTin')]
+])
+
+crafting.addShaped(metaitem('compressed.coke_clay') * 4, [
+        [item('minecraft:clay_ball'), item('minecraft:clay_ball'), item('minecraft:clay_ball')],
+        [ore('sand'), metaitem('wooden_form.brick'), ore('sand')],
+        [ore('sand'), ore('sand'), ore('sand')]
+])

@@ -30,6 +30,8 @@ class MaterialModifications {
 
         material('iron').addBlastProperty(1811)
 
+        material('nether_star').addFlags('no_smelting')
+
         // Ore
         material('nether_star').addOre(true)
         material('coke').addOre()
