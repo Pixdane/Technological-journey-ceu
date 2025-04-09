@@ -43,13 +43,17 @@ mods.jei.ingredient.yeet(
         item('enderutilities:dolly'),
         item('enderutilities:enderarrow'),
         item('enderutilities:enderbow'),
-        item('enderutilities:endercapacitor', 3).withNbt(['EnderChargeAmount': 1000000000]),
+        item('enderutilities:endercapacitor', 3)
+                .withNbt(['EnderChargeAmount': 1000000000]),
         item('enderutilities:endercapacitor', 3),
-        item('enderutilities:endercapacitor', 2).withNbt(['EnderChargeAmount': 500000]),
+        item('enderutilities:endercapacitor', 2)
+                .withNbt(['EnderChargeAmount': 500000]),
         item('enderutilities:endercapacitor', 2),
-        item('enderutilities:endercapacitor', 1).withNbt(['EnderChargeAmount': 100000]),
+        item('enderutilities:endercapacitor', 1)
+                .withNbt(['EnderChargeAmount': 100000]),
         item('enderutilities:endercapacitor', 1),
-        item('enderutilities:endercapacitor').withNbt(['EnderChargeAmount': 10000]),
+        item('enderutilities:endercapacitor')
+                .withNbt(['EnderChargeAmount': 10000]),
         item('enderutilities:endercapacitor'),
         item('enderutilities:linkcrystal', 2),
         item('enderutilities:enderpearlreusable', 1),

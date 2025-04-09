@@ -1,5 +1,5 @@
 // gt coal dust 
-// macerator.recipeBuilder()
+// MACERATOR.recipeBuilder()
 // .inputs([ore('coal')])
 // .outputs([ore('dustCoal')])
 // .duration(160)
@@ -7,7 +7,7 @@
 // .buildAndRegister();
 
 // Iron Dust
-// macerator.recipeBuilder()
+// MACERATOR.recipeBuilder()
 // .inputs([ore('ingotIron')])
 // .outputs([ore('dustIron')])
 // .duration(160)
@@ -15,7 +15,7 @@
 // .buildAndRegister();
 
 // Ender Pearl Dust
-// macerator.recipeBuilder()
+// MACERATOR.recipeBuilder()
 // .inputs([ore('enderpearl')])
 // .outputs([ore('dustEnderPearl')])
 // .duration(160)
@@ -23,7 +23,7 @@
 // .buildAndRegister();
 
 // Nether Quartz Dust
-// macerator.recipeBuilder()
+// MACERATOR.recipeBuilder()
 // .inputs([ore('gemNetherQuartz,gemQuartz')])
 // .outputs([item('gregtech:meta_item_1:2201')])
 // .duration(160)
@@ -39,7 +39,7 @@
 // //alloy.findRecipe(5120, [ore('dustRedstone'),metaitem('wafer.silicon')], null).remove();
 
 // Certus Quartz Dust
-// macerator.recipeBuilder()
+// MACERATOR.recipeBuilder()
 // .inputs([ore('crystalCertusQuartz,gemCertusQuartz')])
 // .outputs([item('gregtech:meta_item_1:2202')])
 // .duration(160)
@@ -47,7 +47,7 @@
 // .buildAndRegister();
 
 // Obsidian Dust
-// macerator.recipeBuilder()
+// MACERATOR.recipeBuilder()
 // .inputs([item('minecraft:obsidian')])
 // .outputs([ore('dustObsidian')])
 // .duration(160)
@@ -55,7 +55,7 @@
 // .buildAndRegister();
 
 // Gold Dust
-// macerator.recipeBuilder()
+// MACERATOR.recipeBuilder()
 // .inputs([ore('ingotGold')])
 // .outputs([item('gregtech:meta_item_1:2026')])
 // .duration(160)
@@ -86,34 +86,34 @@
 // .EUt(30)
 // .buildAndRegister();
 // 
-// macerator.recipeBuilder()
+// MACERATOR.recipeBuilder()
 // .inputs([ore('stoneGraniteBlack')])
 // .outputs([ore('dustGraniteBlack') * 4])
 // .duration(160)
 // .EUt(30)
 // .buildAndRegister();
 // 
-// macerator.recipeBuilder()
+// MACERATOR.recipeBuilder()
 // .inputs([item('advancedrocketry:basalt')])
 // .outputs([ore('dustBasalt') * 4])
 // .duration(160)
 // .EUt(30)
 // .buildAndRegister();
 // 
-// macerator.recipeBuilder()
+// MACERATOR.recipeBuilder()
 // .inputs([ore('stoneGraniteRed')])
 // .outputs([ore('dustGraniteRed') * 4])
 // .duration(160)
 // .EUt(30)
 // .buildAndRegister();
-// macerator.recipeBuilder()
+// MACERATOR.recipeBuilder()
 // .inputs([item('gregtech:mineral', 2)])
 // .outputs([ore('dustBasalt') * 4])
 // .duration(160)
 // .EUt(30)
 // .buildAndRegister();
 // 
-// macerator.recipeBuilder()
+// MACERATOR.recipeBuilder()
 // .inputs([ore('stoneGraniteRed')])
 // .outputs([ore('dustGraniteRed') * 4])
 // .duration(160)
@@ -298,7 +298,7 @@
 // vat.removeRecipe(fluid('rocket_fuel') *1000);
 // Utils.removeRecipeByOutput(macerator, [item('gregtech:meta_item_1:2345')], [], false);
 // 
-// macerator.recipeBuilder()
+// MACERATOR.recipeBuilder()
 // .inputs([ore('cropWheat,itemWheat') * 1])
 // .outputs(item('gregtech:meta_item_1:2345') * 2)
 // .chancedOutput(item('gregtech:meta_item_1:2345'), 1000,1000)
@@ -714,7 +714,7 @@
 // crafting.addShapeless(item('appliedenergistics2:part', 220), [item('appliedenergistics2:part', 221)]);
 // furnace.removeByOutput(ore('ingotOsmium'));
 // 
-// macerator.recipeBuilder()
+// MACERATOR.recipeBuilder()
 // .inputs([item('libvulpes:ore0')])
 // .outputs(item('libvulpes:productdust') * 2)
 // .duration(120)
