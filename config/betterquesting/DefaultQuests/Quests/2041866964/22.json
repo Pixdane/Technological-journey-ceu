@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    1202
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Making plates at a 3-2 ratio! You\u0027ll get access to a 1-1 ratio in LV with the bending machine.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 14,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "High Pressure Steam Forge Hammer",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 22,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 14,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

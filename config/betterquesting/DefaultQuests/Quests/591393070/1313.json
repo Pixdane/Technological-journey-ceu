@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    399,
+    1243,
+    371
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Travels back in time to begin computation at the exact instant required to arrive at an answer percisely as the question is asked. Remind me why we need to combine them into assemblies, computers, or mainframes? Can\u0027t it just go back in time twice?",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 546,
+        "id:8": "gcyl:gcyl_meta_item"
+      },
+      "name:8": "Supra-Causal Processor",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1313,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 546,
+          "id:8": "gcyl:gcyl_meta_item"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

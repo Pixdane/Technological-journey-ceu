@@ -1,0 +1,49 @@
+{
+  "preRequisites:11": [
+    1248
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The moon has Dilithium ore. The GT prospector can\u0027t see it, and neither can the GT miners. This is because dilithium ore is added by Vulpes, and means that you will have to do a small amount of lunar mining by hand. However, with proper management you can visit every warp destination using less than a stack of Dilithium in total. \n\nThis vein also contains rutile ore, useful for making titanium in a more efficent way than bauxite electrolysis. Of course, this vein contains bauxite as well. Later on, you may consider setting up the Red Mud processing line to maximize your titanium production.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gregtech:ore_rutile_0"
+      },
+      "name:8": "Dilithium",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 501,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_rutile_0"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "libvulpes:ore0"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:ore_bauxite_0"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

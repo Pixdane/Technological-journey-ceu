@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    70
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Realgar looks like a good source of arsenic, but it doesn\u0027t actually generate. All early sources of arsenic require an MV electrolyzer.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 6,
+        "id:8": "gregtech:meta_dust"
+      },
+      "name:8": "Arsenic Dust",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 711,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

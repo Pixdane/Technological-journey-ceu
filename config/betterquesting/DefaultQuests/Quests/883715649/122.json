@@ -1,0 +1,39 @@
+{
+  "preRequisites:11": [
+    1173
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Nuclear waste, a byproduct of all nuclear processing, is a poor source of nearly every element on the periodic table. The vast majority of metals, along with a non-insignificant amount of radon, xenon, and krypton, can be sourced here. Make sure you build your nuclear reprocessing sufficiantly well, as it will be functioning for the forseeable future. ",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 32312,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "gtadditions:ga_meta_item",
+          "orig_meta:3": 32312
+        }
+      },
+      "name:8": "Item Placeholder",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 122,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32312,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gtadditions:ga_meta_item",
+            "orig_meta:3": 32312
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

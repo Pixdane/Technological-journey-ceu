@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    863,
+    758,
+    1277,
+    400
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This is the end of gregicality, and represents the most advanced circuit in the pack. If you can make this, you can consider gregicality beaten. Some players elected to stop here, which you may find required due to TPS issues. The remainder of the pack represents a considerable challenge for the most seasoned gregtech players and should be respected as such. If you attempt to finish the pack, you\u0027ll need to aim towords the creative storage cell.\n\nPost a screenshot of your supra mainframe in the TJ discord for some internet points. ",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 549,
+        "id:8": "gcyl:gcyl_meta_item"
+      },
+      "name:8": "Supra-Causal Mainframe",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 958,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 549,
+          "id:8": "gcyl:gcyl_meta_item"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

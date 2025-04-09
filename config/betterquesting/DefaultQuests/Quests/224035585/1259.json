@@ -1,0 +1,24 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "There are two ways to get oil.\n1. You can place a pump over a oil sprout\n2. You can build a fluid plant over a oil vein. \n\nFluid veins must be scanned using a solar fluid sampler for now.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "oil"
+        }
+      },
+      "name:8": "Options for oil",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1259,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "preRequisites:11": [
+    161
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 16813,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "gtadditions:ga_meta_item",
+          "orig_meta:3": 16813
+        }
+      },
+      "name:8": "Item Placeholder",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 699,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 16813,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gtadditions:ga_meta_item",
+            "orig_meta:3": 16813
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 16053,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gtadditions:ga_meta_item",
+            "orig_meta:3": 16053
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

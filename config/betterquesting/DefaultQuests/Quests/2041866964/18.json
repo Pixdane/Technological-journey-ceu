@@ -1,0 +1,34 @@
+{
+  "preRequisiteTypes:7": [
+    1
+  ],
+  "preRequisites:11": [
+    1202
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The freedom wrench is very useful for building \u0026 debugging multiblocks. It can be used to rotate controllers to build multiblocks in unconventional \norientations (shift right click on controller), or to either preview, build or debug multiblock structures (right click on controller). To change mode, shift right click the air. \n\nNote: The build function does not work with tiered components, which must be placed by hand. It will also not magically know what hatch and bus layout you want.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1004,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "Multiblock Builder",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 18,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1004,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

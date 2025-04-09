@@ -1,0 +1,54 @@
+{
+  "preRequisites:11": [
+    1044,
+    798
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Conduits are your best bet for moving items and fluids right now as they are relatively cheap, easy to setup, and quite flexible. ",
+      "icon:10": {
+        "Count:3": 8,
+        "Damage:2": 2,
+        "id:8": "enderio:item_liquid_conduit"
+      },
+      "name:8": "Ender Fluid Conduit",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 15,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "enderio:item_extract_speed_upgrade"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 2,
+          "id:8": "enderio:item_liquid_conduit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "enderio:item_item_conduit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

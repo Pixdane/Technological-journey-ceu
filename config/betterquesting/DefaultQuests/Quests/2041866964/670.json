@@ -1,0 +1,100 @@
+{
+  "preRequisites:11": [
+    1324
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Turns logs into creosote and charcoal, and turns charcoal or normal coal into creosote and coke. All of these products are burnable in the LBB.\n\nIn this pack, all hatches and busses may be shared between multiblocks, meaning you can fit three coke ovens in a 3x7x3 space, four in a 5x5x3, etc.\n\nThe one exception to this rule is maintenance hatches, which shouldn\u0027t be shared as it can cause some bugs leading to excessive maintenance requirements. ",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1017,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "Coke Oven",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 670,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 25357,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtech:meta_item_2",
+            "orig_meta:3": 25357
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1017,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 700,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtech:machine",
+            "orig_meta:3": 700
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1651,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "3:10": {
+      "index:3": 3,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 703,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtech:machine",
+            "orig_meta:3": 703
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "4:10": {
+      "index:3": 4,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 22,
+          "Damage:2": 8,
+          "id:8": "gregtech:metal_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

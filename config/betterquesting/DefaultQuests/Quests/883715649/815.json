@@ -1,0 +1,176 @@
+{
+  "preRequisites:11": [
+    122
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 32324,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "gtadditions:ga_meta_item",
+          "orig_meta:3": 32324
+        }
+      },
+      "name:8": "Waste Types",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 815,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32315,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gtadditions:ga_meta_item",
+            "orig_meta:3": 32315
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32324,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gtadditions:ga_meta_item",
+            "orig_meta:3": 32324
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32325,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gtadditions:ga_meta_item",
+            "orig_meta:3": 32325
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32326,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gtadditions:ga_meta_item",
+            "orig_meta:3": 32326
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "3:10": {
+      "index:3": 3,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32327,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gtadditions:ga_meta_item",
+            "orig_meta:3": 32327
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "4:10": {
+      "index:3": 4,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32328,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gtadditions:ga_meta_item",
+            "orig_meta:3": 32328
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "5:10": {
+      "index:3": 5,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32329,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gtadditions:ga_meta_item",
+            "orig_meta:3": 32329
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "6:10": {
+      "index:3": 6,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32330,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gtadditions:ga_meta_item",
+            "orig_meta:3": 32330
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "7:10": {
+      "index:3": 7,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32331,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gtadditions:ga_meta_item",
+            "orig_meta:3": 32331
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "8:10": {
+      "index:3": 8,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32332,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gtadditions:ga_meta_item",
+            "orig_meta:3": 32332
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

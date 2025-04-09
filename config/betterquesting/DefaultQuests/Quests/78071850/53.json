@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    1201,
+    51
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Tree beacon too slow to supply your coke ovens? Consider using the wood from a farming station to craft axes and hoes, and feeding them back into the farming station(s). This is MUCH faster than the tree beacon, and even a relatively simple one ought to provide enough wood until mid-late game, depending on if and how fast you process charcoal byproducts.\n\nThis pack has native EU-\u003eRF conversion, meaning you can power your RF machines with gregtech energy.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:block_farm_station"
+      },
+      "name:8": "Farming Station",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 53,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "enderio:item_basic_capacitor"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "enderio:block_farm_station"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "preRequisites:11": [
+    1218
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Funny looking tooltip. The stellar forge sure is fun to passive, right?\n\nYou\u0027re going to want a lot of heavy quarks right now, and a lot of gluons later. It\u0027s important to ensure that you don\u0027t run out of either, as some processes (like QCD charges) depend on having a significant quantity of one or the other. Maybe consider a crafting card and dummy items? Or you can dedicate a star forge to it.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "quark_gluon_plasma"
+        }
+      },
+      "name:8": "Quark Gluon Plasma",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 977,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

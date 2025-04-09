@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    802
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "You\u0027ll need one of these for AE2, as well as for SMD components",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 111,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "Advanced Assembling Machine",
+      "questlogic:8": "OR",
+      "tasklogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1130,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 111,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

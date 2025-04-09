@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    490
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Linking tools are used to link collector crystals to blocks. By using this to connect a collector crystal to iron ore it will slowly transform into starmetal ore. It is important for the deep dark portal, where starmetal can be mined instead.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "astralsorcery:itemlinkingtool"
+      },
+      "name:8": "Linking Tool",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 493,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "astralsorcery:itemlinkingtool"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

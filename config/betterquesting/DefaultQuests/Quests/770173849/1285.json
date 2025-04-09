@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    485
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "In order to get exotic metals you will need to travel to the planet Mercury. To warp you will need a block of platinum. Platinum can be collected in small amounts from nickel ore on earth.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:compass"
+      },
+      "name:8": "Mercury dim ID 403",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1285,
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": 403,
+      "index:3": 0,
+      "name:8": "TODO: unknown",
+      "taskID:8": "bq_standard:location",
+      "visible:1": 1
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "gregtech:meta_block_compressed_3"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

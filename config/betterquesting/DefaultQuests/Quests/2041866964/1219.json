@@ -1,0 +1,84 @@
+{
+  "preRequisites:11": [
+    953
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "It\u0027s like a furnace, but bigger. This does 8x parallel recipes.\n\nThe steam hatch must be filled with steam for this to run, and it consumes steam as it processes, which means it\u0027s possible to run out in the middle of a craft. Make sure your steam supply is consistent \u0026 fast before you make this.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1024,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "Steam Oven",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1219,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1024,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1653,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1652,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "3:10": {
+      "index:3": 3,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1651,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "4:10": {
+      "index:3": 4,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "gregtech:boiler_firebox_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "5:10": {
+      "index:3": 5,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "gregtech:metal_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

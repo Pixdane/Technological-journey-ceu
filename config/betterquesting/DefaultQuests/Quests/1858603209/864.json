@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    98
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 3,
+        "Damage:2": 1160,
+        "id:8": "gcyl:wire_single"
+      },
+      "name:8": "1x HV Superconductor Wire",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 864,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 3,
+          "Damage:2": 1160,
+          "id:8": "gcyl:wire_single"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

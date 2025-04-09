@@ -1,0 +1,24 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Gregtech ore veins generate thousands of ores in a roughly 4 square chunk area. Instead of mining a couple hundred vanilla iron veins, you\u0027ll likely \nwant to mine a single magnetite or limonite vein for an equivlent amount of iron. \n\nKeep in mind that there are over a hundred ore types, each representing a new mineral or element. Right now, the vast majority of these ores will be \nuseless to you, so use your prospector to find the veins you really want. \n\nGregtech also has some advanced ore-processing, which you don\u0027t need to get into at this point. If you\u0027re really desperate to increase yeild, you can make a couple of steam grinders and manually wash the impure dust they produce by throwing stacks of it into a cauldron.   ",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "gregtech:pure_ore_uranium_0",
+          "orig_meta:3": 0
+        }
+      },
+      "name:8": "Mining in Gregtech",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

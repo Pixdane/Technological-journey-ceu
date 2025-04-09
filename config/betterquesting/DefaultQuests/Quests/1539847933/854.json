@@ -1,0 +1,55 @@
+{
+  "preRequisites:11": [
+    242
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "id:8": "astralsorcery:blockaltar"
+      },
+      "name:8": "Iridescent Altar",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 854,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "astralsorcery:itemtunedcelestialcrystal",
+          "tag:10": {
+            "astralsorcery:10": {
+              "constellationName:8": "astralsorcery.constellation.octans",
+              "crystalProperties:10": {
+                "collectiveCapability:3": 100,
+                "fract:3": 0,
+                "purity:3": 100,
+                "size:3": 900,
+                "sizeOverride:3": -1
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "astralsorcery:blockaltar"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 14,
+        "id:8": "minecraft:golden_apple"
+      },
+      "name:8": "If you would rather not fight the chaos guardian",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1115,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:chaos_shard"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "consume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 14,
+          "id:8": "minecraft:golden_apple"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "consume:1": 1,
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 14,
+          "id:8": "minecraft:diamond"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "consume:1": 1,
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 14,
+          "Damage:2": 32724,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "3:10": {
+      "consume:1": 1,
+      "index:3": 3,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 22,
+          "id:8": "draconicevolution:draconic_core"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "4:10": {
+      "consume:1": 1,
+      "index:3": 4,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 28,
+          "id:8": "minecraft:nether_star"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "5:10": {
+      "consume:1": 1,
+      "index:3": 5,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 14,
+          "id:8": "minecraft:emerald"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "6:10": {
+      "consume:1": 1,
+      "index:3": 6,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 22,
+          "id:8": "draconicevolution:wyvern_core"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "7:10": {
+      "consume:1": 1,
+      "index:3": 7,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 14,
+          "id:8": "minecraft:emerald_block"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "8:10": {
+      "consume:1": 1,
+      "index:3": 8,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "draconicevolution:awakened_core"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "9:10": {
+      "consume:1": 1,
+      "index:3": 9,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 1167,
+          "id:8": "gcyl:wire_double"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "10:10": {
+      "consume:1": 1,
+      "index:3": 10,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 1,
+          "id:8": "gcyl:meta_block_compressed_12"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

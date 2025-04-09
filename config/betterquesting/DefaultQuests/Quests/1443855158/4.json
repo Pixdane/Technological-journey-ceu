@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    8
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "craftingstation:crafting_station"
+      },
+      "name:8": "Crafting Station",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 4,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "craftingstation:crafting_station"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

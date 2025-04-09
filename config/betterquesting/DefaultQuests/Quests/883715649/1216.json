@@ -1,0 +1,24 @@
+{
+  "preRequisites:11": [
+    1175
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Welcome to gregicality nuclear - your means of obtaining neptunium, plutonium, americium, curium, berkelium, californium, einstienium, fermium, and mendelevium, along with the majority of elements in small quantities.\n\nNuclear can be summarized as a ladder, with rungs consisting of fissile elements starting with uranium. Each element must be processed into isotopes and run through a reactor to create depleted fuel, which can be processed for a dust of the next \u0027rung\u0027 on the ladder. For instance, depleted uranium is processed into neptunium. \n\nYou will have to climb the entire nuclear ladder eventually, but for now you should begin by creating the uranium line detailed on the right. One thing to keep in mind when embarking on this project is that you\u0027ll have to copy this line for every rung on the ladder eventually, so leave some space. ",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "gregtech:warning_sign"
+      },
+      "name:8": "What the hell is all this?",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1216,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

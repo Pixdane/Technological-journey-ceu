@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    116
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "You probably want one of these. ",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "enderutilities:handybag"
+      },
+      "name:8": "Handy Bag (Large)",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 154,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "enderutilities:handybag"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

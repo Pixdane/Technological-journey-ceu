@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    848
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 557,
+        "id:8": "gcyl:gcyl_meta_item"
+      },
+      "name:8": "Closed Timelike Curve Guidance Unit",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 803,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 557,
+          "id:8": "gcyl:gcyl_meta_item"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Item lasers are very useful for automating the assembly line and the circuit assembly line. Below is a short summary of their mechanics. \n\nWhen connected, item lasers create a \u0027network\u0027 of connected inventories. Any inventory that is touching any side of a laser that is part of the network is included. When an item laser is adjacent to an item interface, the interface acts as an input to the network. Any items put into the interface are distributed among the connected inventories instantly, with destinations decided based on the priority of the lasers. This makes lasers incredibly flexible, useful for everything from handling ore processing throughput to automating the assembly line. ",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "actuallyadditions:block_item_viewer"
+      },
+      "name:8": "Item Interface",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 198,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "actuallyadditions:block_item_viewer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "actuallyadditions:item_laser_wrench"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 7,
+          "id:8": "actuallyadditions:block_laser_relay_item"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

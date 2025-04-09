@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    394,
+    384
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Make sure your gluons are setup well and truly passive. You\u0027ll need hundreds or thosuands of these, depending on which circuits you use for some recipes. ",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "id:8": "gcyl:gcyl_explosive"
+      },
+      "name:8": "Quantum Chromodynamic Charge",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 395,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "gcyl:gcyl_explosive"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

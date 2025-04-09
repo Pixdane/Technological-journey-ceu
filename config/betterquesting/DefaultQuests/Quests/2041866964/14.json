@@ -1,0 +1,62 @@
+{
+  "preRequisites:11": [
+    1049
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Tired of chopping down trees? Then try a tree beacon. Grow a tree around and the beacon will absorb it, Then periodically drop logs. Will also drop other drops from the trees used like apples, rubber, or ectoplasm.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "astralsorcery:blocktreebeacon"
+      },
+      "name:8": "Tree Beacon",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 14,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "randomthings:advanceditemcollector"
+        }
+      }
+    },
+    "1:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "randomthings:itemfilter"
+        }
+      }
+    },
+    "2:10": {
+      "index:3": 2,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "minecraft:sapling"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "astralsorcery:blocktreebeacon"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

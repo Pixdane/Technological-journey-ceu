@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    662
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "You may have noticed that pikyonium seems impossible to craft. It requires a higher heat level than titan steel can provide, which means you\u0027ll have to rely on overclocking either an EBF or an ABS to UEV at least to reach the temperature required to bootstrap your first pikyonium. Once you have a set of coils, you no longer need so much power to attain such high heat and can therefore cook pikyonium using more reasonable amounts of power.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "gcyl:wire_coil"
+      },
+      "name:8": "Titan Steel Coil Block",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 271,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 21,
+          "id:8": "gcyl:meta_dust"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "gcyl:wire_coil"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

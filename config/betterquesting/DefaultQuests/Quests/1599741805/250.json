@@ -1,0 +1,107 @@
+{
+  "preRequisites:11": [
+    1001,
+    1180
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2506,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "gregtech:machine",
+          "orig_meta:3": 2506
+        }
+      },
+      "name:8": "Fusion Reactor Mk. 3",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 250,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 128,
+          "id:8": "gregtech:meta_ingot"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2506,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtech:machine",
+            "orig_meta:3": 2506
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 32,
+          "Damage:2": 4,
+          "id:8": "gregtech:fusion_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 784,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtech:machine",
+            "orig_meta:3": 784
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "3:10": {
+      "index:3": 3,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gtadditions:ga_fusion_casing",
+            "orig_meta:3": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "4:10": {
+      "index:3": 4,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 15,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gtadditions:ga_fusion_casing",
+            "orig_meta:3": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

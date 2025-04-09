@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    247
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Draconium is a UHV wire material. This can be useful for power infrastructure given the fact that a 1x wire carries 10 UHV amps. It may even be cheaper to use draconium wires for previous tiers when setting up the enourmous automation lines that you are soon to need.\n\nIt\u0027s also pretty broken as a turbine material. ",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10518,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "invalid item",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 245,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10518,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

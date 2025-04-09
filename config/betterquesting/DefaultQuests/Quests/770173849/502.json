@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    991
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Collector crystals can be found in monuments usually in the room under the fountain. If a crafting table is placed near the crystal it will automatically provide the table with starlight. These crystal will also be necessary for making star metal ore",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "astralsorcery:blockcollectorcrystal",
+        "tag:10": {
+          "astralsorcery:10": {
+            "collectorType:3": 0,
+            "constellationName:8": "astralsorcery.constellation.discidia",
+            "crystalProperties:10": {
+              "collectiveCapability:3": 100,
+              "fract:3": 0,
+              "purity:3": 100,
+              "size:3": 400,
+              "sizeOverride:3": -1
+            }
+          }
+        }
+      },
+      "name:8": "Collector crystal",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 502,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:creative_storage_cell",
+        "tag:10": {}
+      },
+      "name:8": "Discord",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 0,
+  "tasks:9": {}
+}

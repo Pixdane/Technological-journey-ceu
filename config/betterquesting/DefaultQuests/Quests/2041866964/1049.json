@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    13,
+    26,
+    1312,
+    1144
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Just a step up from an abacus. Primitive technology, but it runs your LV machines.\n\nThis was the goal of the steam age. Now that you can make these, you\u0027re ready to start putting a couple dozen of them to use in your first electric machines.",
+      "icon:10": {
+        "Count:3": 1,
+        "OreDict:8": "circuitLv",
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "Copper Credit",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1049,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2517,
+          "id:8": "gregtech:meta_ingot"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "OreDict:8": "circuitLv",
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

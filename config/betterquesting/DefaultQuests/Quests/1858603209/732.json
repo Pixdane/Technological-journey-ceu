@@ -1,0 +1,27 @@
+{
+  "preRequisites:11": [
+    997
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "For now, your rutile should be coming from bauxite electrolysis. Later on, you will be able to mine it on the moon or fully process bauxite via red mud to increase yeild.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "titanium_tetrachloride"
+        }
+      },
+      "name:8": "Titanium Tetrachloride",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 732,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

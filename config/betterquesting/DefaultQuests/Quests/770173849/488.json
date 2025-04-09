@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    1178
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "In order to make celestial crystals you need to throw a rock crystal and stardust into a pool of starlight. Later one you can use a machine to get a tier one crystal cluster. The machine recipe can also be used to reroll already made celestial crystals.\n\n§4The machine recipe will also accept attuned crystals, so make sure you\u0027re using the right one.\n\n§fGrowing a crystal on top of starmetal ore can speed up growth. This does have the chance to return the ore back to iron however so it is best to keep a collector crystal linked to it",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "astralsorcery:itemtunedcelestialcrystal",
+        "tag:10": {
+          "astralsorcery:10": {
+            "constellationName:8": "astralsorcery.constellation.discidia",
+            "crystalProperties:10": {
+              "collectiveCapability:3": 100,
+              "fract:3": 0,
+              "purity:3": 100,
+              "size:3": 900,
+              "sizeOverride:3": -1
+            }
+          }
+        }
+      },
+      "name:8": "Celestial Crystals",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 488,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

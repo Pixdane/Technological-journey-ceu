@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    88,
+    84
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "While diesel is an appealing power choice for seasoned gregtech players, biodiesel is far surperior as it can be setup now and completely forgotten about. Check the power tab for more information.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "fuel"
+        }
+      },
+      "name:8": "Diesel Bucket",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 82,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "preRequisites:11": [
+    8
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "If you want to put hammering on the given hammer, it will allow you to condense different types of ore varients (ie: stone and diorite) into their crushed varients at the expense of more inventory clutter. It\u0027s your choice. \n\nWhile fortune does work with this enchant, it is capped at a max of 2x the drop amount to keep it balanced with the macerator.\n \n§4Crushed ore must be broken down again with a GT hard hammer to receive impure ore dust.\nResulting in nuggets instead of ingots.\nIt is not advised you use this enchant until you can smelt ore fast.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:enchanted_book",
+        "tag:10": {
+          "StoredEnchantments:9": {
+            "0:10": {
+              "id:2": 1,
+              "lvl:2": 4
+            }
+          }
+        }
+      },
+      "name:8": "Hammering enchant",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 2,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:enchanted_book",
+          "tag:10": {
+            "StoredEnchantments:9": {
+              "0:10": {
+                "id:2": 36,
+                "lvl:2": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    191
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Now that you have access to naquadah, you are able to make naquadah doped wafers. These can be engraved into SoC (System on Chip) wafers, which may be used to make circuit production much cheaper. Of course, for new circuits you\u0027ll always need to make the hard version first.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 597,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "SoC",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 766,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 597,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

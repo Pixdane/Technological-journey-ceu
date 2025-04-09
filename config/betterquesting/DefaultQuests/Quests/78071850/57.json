@@ -1,0 +1,56 @@
+{
+  "preRequisites:11": [
+    31,
+    1049
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Super tanks and super chests can be used to hold bulk quantities of fluids and items from LV onwards. These hold 32000 buckets and 2048000 items, respectively, so it should be plenty of storage for any short - medium term needs. \n\nThese also retain their contents when broken.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1575,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "Super Tank I",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 57,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1615,
+          "id:8": "gregtech:mte"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1575,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1560,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

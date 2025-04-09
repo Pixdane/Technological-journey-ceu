@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    782
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Like naquadah rods, enriched naquadah rods can be used to boost fissile breeding. ",
+      "icon:10": {
+        "Count:3": 2,
+        "Damage:2": 125,
+        "id:8": "gregtech:meta_stick"
+      },
+      "name:8": "Enriched Naquadah Rod",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 135,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 125,
+          "id:8": "gregtech:meta_stick"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

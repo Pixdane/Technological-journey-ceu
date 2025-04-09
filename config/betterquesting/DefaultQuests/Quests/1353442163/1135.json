@@ -1,0 +1,27 @@
+{
+  "preRequisites:11": [
+    915
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "enriched_xenon_hexafluoronaquadate"
+        }
+      },
+      "name:8": "Enriched Xenon HexaFluoronaquadate Bucket",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1135,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

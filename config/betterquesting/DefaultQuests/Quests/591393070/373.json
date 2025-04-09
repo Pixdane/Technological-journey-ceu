@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    936,
+    930
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Neutrons, but denser. These (extremely durable plasma cells) are quite expensive, so consider only making a few and passiving conversion of dense neutron plasma into cells, along with the condensation of cosmic neutron cells. This will use a LOT of QCD charges, so be wary of this process using your stellar forge for several hours. You\u0027ll need at minimum 384 cosmic neutronium, or 20 crafts of dense neutron plasma. Thats a lot of time spent in the plasma condenser running at UXV. It will be several trillion EU just to condense the cosmic neutronium. Not to mention 100 blocks of neutronium and 100 blocks of heavy quark degenerate matter.\n\nTake it slow, and remember how far you\u0027ve come. The end is in sight (almost)!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 564,
+        "id:8": "gcyl:gcyl_meta_item"
+      },
+      "name:8": "Dense Neutron Plasma Cell",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 373,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 564,
+          "id:8": "gcyl:gcyl_meta_item"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

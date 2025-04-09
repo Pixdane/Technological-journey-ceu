@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    369
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gcyl:gcyl_simple_block"
+      },
+      "name:8": "Superheavy Block",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 391,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gcyl:gcyl_simple_block"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

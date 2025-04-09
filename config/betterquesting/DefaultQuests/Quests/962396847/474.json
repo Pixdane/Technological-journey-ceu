@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    480
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Up to 3 capacity cards can be placed into an interface. These will allow an extra interface worth of patterns to be placed into the same interface. Using these cards does come with a energy cost, up to an 4x energy cost with 3 cards.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 58,
+        "id:8": "appliedenergistics2:material"
+      },
+      "name:8": "Pattern Expansion Card",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 474,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 58,
+          "id:8": "appliedenergistics2:material"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 58,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

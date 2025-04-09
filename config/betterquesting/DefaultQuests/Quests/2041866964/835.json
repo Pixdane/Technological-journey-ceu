@@ -1,0 +1,54 @@
+{
+  "preRequisites:11": [
+    21
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Finally, steel. This is your gate for the majority of the LV tab, as well as the hull material for LV machines. \n\nThis is quite slow, and if you\u0027re looking make more steel faster, consider making an industrial primitive blast furance (iPBF). If you don\u0027t want to do this, consider making your iron into wrought iron before putting it through the PBF, as it cooks much faster that way.\n\nUnlike other multiblocks, this one has a GUI. No busses or hatches needed.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1000,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "Primitive Blast Furnace",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 835,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:iron_block"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1000,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 32,
+          "Damage:2": 1,
+          "id:8": "gregtech:metal_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

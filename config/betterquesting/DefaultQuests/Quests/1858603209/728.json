@@ -1,0 +1,55 @@
+{
+  "preRequisites:11": [
+    869,
+    115,
+    95
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "There are two schools of thought for creating epoxy. Raw naphtha, and Bisphenol-A (BPA). The ratio from the Naphtha route is awful, but it is easier to setup. The BPA route is more complex, but generally worth it as it makes much more epoxy. You will be using epoxy for circuit boards until LuV, so you want to create a robust automation for epoxy. You\u0027re passiving all the fluids, right?",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "epoxid"
+        }
+      },
+      "name:8": "Bucket",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 728,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "forge:bucketfilled",
+          "tag:10": {
+            "Amount:3": 1000,
+            "FluidName:8": "epoxid"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "forge:bucketfilled",
+          "tag:10": {
+            "Amount:3": 1000,
+            "FluidName:8": "epoxid"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    1044
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Finally, decent infinite water. ",
+      "icon:10": {
+        "Count:3": 4,
+        "id:8": "enderio:block_reservoir"
+      },
+      "name:8": "Endervoir",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 27,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "enderio:item_liquid_conduit"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "enderio:block_reservoir"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

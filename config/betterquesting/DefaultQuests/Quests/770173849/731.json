@@ -1,0 +1,60 @@
+{
+  "preRequisites:11": [
+    866,
+    907
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Once you get into late IV you can make the Deep dark portal, Many veins in this dimension have been changed to use Pure variants.\n\n§c§lDo not try and go above the top layer of bedrock as you would in the nether. You will be unable to place a light because you\u0027re above the build limit. Because there is no light, you will take damage every so often. This damage is just often enough to stop you from using /home, meaning you\u0027ll be stuck. When you inevitably die, your grave will not be built because it\u0027s over the build limit. It happened to me, once. §r",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "beneath:teleporterbeneath"
+      },
+      "name:8": "Deep Dark Dim ID 404",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 731,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "torchmaster:feral_flare_lantern"
+        }
+      }
+    },
+    "1:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 113,
+          "id:8": "gcyl:mte"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "beneath:teleporterbeneath"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "dimension:3": 404,
+      "index:3": 1,
+      "name:8": "TODO: unknown",
+      "taskID:8": "bq_standard:location",
+      "visible:1": 1
+    }
+  }
+}

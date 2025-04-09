@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    485
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "For the love of god please don’t pump up the oceans on planets. They are purely cosmetic. You will ruin your game via fluid calculations as Minecraft struggles to handle the mess of flowing blocks. All fluids offered in the oceans are in the fluid drilling multiblocks.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 32308,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "gtadditions:ga_meta_item",
+          "orig_meta:3": 32308
+        }
+      },
+      "name:8": "For the love of god",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 509,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

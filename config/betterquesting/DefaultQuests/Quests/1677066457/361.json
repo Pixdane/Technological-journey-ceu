@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    887
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "You can\u0027t replicate this one either. Good luck!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 172,
+        "id:8": "gcyl:meta_dust"
+      },
+      "name:8": "Taranium Dust",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 361,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1599,
+          "id:8": "gregtech:meta_dust"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 172,
+          "id:8": "gcyl:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

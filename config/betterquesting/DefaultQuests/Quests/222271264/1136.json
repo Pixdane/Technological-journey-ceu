@@ -1,0 +1,36 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "You will need 144 of these :)",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 11,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "gtadditions:ga_cell_casing",
+          "orig_meta:3": 11
+        }
+      },
+      "name:8": "Item Placeholder",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1136,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 11,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gtadditions:ga_cell_casing",
+            "orig_meta:3": 11
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

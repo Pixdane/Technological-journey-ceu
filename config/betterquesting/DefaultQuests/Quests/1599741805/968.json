@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    248,
+    265
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 53,
+        "id:8": "gcyl:meta_wire_fine"
+      },
+      "name:8": "Fine PEDOT Wire",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 968,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 53,
+          "id:8": "gcyl:meta_wire_fine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 53,
+          "id:8": "gcyl:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

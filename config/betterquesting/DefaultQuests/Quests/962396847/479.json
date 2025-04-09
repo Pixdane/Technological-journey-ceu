@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    470
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "View cells can be used to hide the now large amount of fluid drops that are in your network. To do this configure the cell to just the drops in a cell workbench followed by an inverter card. After this place the cell in the termal. You will need to do this for all terminals you are using. ",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:view_cell"
+      },
+      "name:8": "View Cell",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 479,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:view_cell"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

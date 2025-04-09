@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    1113
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Machine hulls are needed to craft all tiers of machines, hatches, and busses. There are no ULV machines (if you just thought \u0027technically there is an ore washer\u0027 then I don\u0027t like you), but there are ULV busses and hatches. This is what your first machine hulls will be for.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 985,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "ULV Machine Hull",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1324,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 985,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

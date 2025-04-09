@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    802
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Feel free to upgrade as much or as little of your infrastructure to MV as you like. It will make processing faster, but will also consume more power. Maybe do biodiesel if you haven\u0027t already?",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 141,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "Advanced Bending Machine",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 695,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 141,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

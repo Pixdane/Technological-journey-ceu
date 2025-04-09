@@ -1,0 +1,56 @@
+{
+  "preRequisites:11": [
+    948
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "To overcome some weirdness with maintenance and large machines, a few require auto-maintenance hatches to function. As you cannot make these for (likely) another tier, you\u0027ll need a way to run your LRE\u0027s. Luckily for you, we made this here quest! Give us 8 auto-taping hatches and you\u0027ll get 4 full-auto ones in return. This isn\u0027t repeatable, so be sure to ration your fancy new full-auto maintenance hatches wisely.",
+      "icon:10": {
+        "Count:3": 8,
+        "Damage:2": 4214,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "gregtech:machine",
+          "orig_meta:3": 4214
+        }
+      },
+      "name:8": "Item Placeholder",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 947,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4215,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtech:machine",
+            "orig_meta:3": 4215
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 4214,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtech:machine",
+            "orig_meta:3": 4214
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

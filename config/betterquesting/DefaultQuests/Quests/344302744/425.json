@@ -1,0 +1,28 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Large Naq. Reactor has (surprise) been buffed. If you\u0027re already making oxygen plasma, it\u0027s highly reccomended to boost these. If you aren\u0027t already making oxygen plasma, consider doing so.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 19,
+        "id:8": "gcyl:mte"
+      },
+      "name:8": "Large Naquadah Reactor (LNR)",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 425,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 19,
+          "id:8": "gcyl:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

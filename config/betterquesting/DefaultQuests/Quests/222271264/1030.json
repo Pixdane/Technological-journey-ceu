@@ -1,0 +1,25 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "In order to craft cell you are required to make a 16 long assline.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2502,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "gregtech:machine",
+          "orig_meta:3": 2502
+        }
+      },
+      "name:8": "assline upgrades",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1030,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

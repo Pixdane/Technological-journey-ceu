@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    485
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "To get a decent amount of oil and graphite  you will need to warp to the carbon wasteland. This planet requires an artifact, the charcoal log.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "advancedrocketry:charcoallog"
+      },
+      "name:8": "Titan dim ID 400",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 491,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:charcoallog"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "dimension:3": 400,
+      "index:3": 1,
+      "name:8": "TODO: unknown",
+      "taskID:8": "bq_standard:location",
+      "visible:1": 1
+    }
+  }
+}

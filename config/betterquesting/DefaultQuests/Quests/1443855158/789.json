@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    898
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "aroma1997sdimension:miningmultitool"
+      },
+      "name:8": "Mining Multitool",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 789,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "aroma1997sdimension:miningmultitool"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "preRequisites:11": [
+    263
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Hydrogen sulfide fluid veins are in the nether for the endless amounts of sulfur you will need. You can also use the heat exchanger with a lava fluid vein from the nether.\n\nOnce you can reach deimos, you can directly drill pyrotheum and cryotheum",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "hydrogen_sulfide"
+        }
+      },
+      "name:8": "Hydrogen sulfide",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 260,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

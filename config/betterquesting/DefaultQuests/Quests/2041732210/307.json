@@ -1,0 +1,39 @@
+{
+  "preRequisites:11": [
+    708
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Wurtz(hexanitrohexaazaisowurtzitane) my beloved. This one\u0027s fun to pronounce.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 209,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "gcyl:meta_dus",
+          "orig_meta:3": 209
+        }
+      },
+      "name:8": "2,4,6,8,10,12-Hexanitro-2,4,6,8,10,12-hexaazatetracyclo[5.5.0.03,11.05,9]dodecane",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 307,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 209,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gcyl:meta_dus",
+            "orig_meta:3": 209
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

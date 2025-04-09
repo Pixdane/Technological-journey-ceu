@@ -1,0 +1,39 @@
+{
+  "preRequisites:11": [
+    854
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "All astral fluid veins have a minimum of 50000000mb fluid in them. The list of possible veins is below.\n\n        charcoal byproducts\n        natural gas\n        sulfuric gas\n        sulfuric naphtha \n        sulfuric light fuel\n        sulfuric heavy fuel\n        steamcracked naphtha \n        steamcracked gas \n        cracked light fuel \n        cracked heavy fuel \n        hydrocracked naphtha \n        hydrocracked gas\n        hydrocracked light fuel \n        hydrocracked heavy fuel",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "astralsorcery:blockbore"
+      },
+      "name:8": "Evershifting Fountain",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1048,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "astralsorcery:blockbore"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "astralsorcery:blockborehead"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

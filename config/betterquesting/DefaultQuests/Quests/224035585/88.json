@@ -1,0 +1,57 @@
+{
+  "preRequisites:11": [
+    855,
+    85
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The rewards from this quest can be used to desulfurize oil at a lower quantity, which is useful when you don\u0027t have an abundance (like now).",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "sulfuric_heavy_fuel"
+        }
+      },
+      "name:8": "Sulfuric Heavy Fuel",
+      "questlogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 88,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 293,
+          "id:8": "gregtech:meta_dust"
+        }
+      }
+    },
+    "1:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 292,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gtadditions:ga_dust",
+            "orig_meta:3": 292
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

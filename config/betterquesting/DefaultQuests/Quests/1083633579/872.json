@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    653
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "You\u0027ll need a lot of these for fusion, which means a lot of LuV pumps. Check your infrastructure and make sure you can handle the HSS-G, copper, and power drain.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1163,
+        "id:8": "gcyl:wire_single"
+      },
+      "name:8": "1x LuV Superconductor Wire",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 872,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1163,
+          "id:8": "gcyl:wire_single"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

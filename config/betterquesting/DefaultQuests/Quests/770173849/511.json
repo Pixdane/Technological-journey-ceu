@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    485
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Once you get through nuclear up to californium you can warp to this planet. Here you will find large amounts of uranium and small quantities of plutonium and neptunium. You will also be able to find rhodium salt ore.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:compass"
+      },
+      "name:8": "Mars dim ID 405",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 511,
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": 405,
+      "index:3": 0,
+      "name:8": "TODO: unknown",
+      "taskID:8": "bq_standard:location",
+      "visible:1": 1
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "gregtech:meta_block_compressed_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

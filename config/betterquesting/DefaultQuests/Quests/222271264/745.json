@@ -1,0 +1,59 @@
+{
+  "preRequisites:11": [
+    690,
+    404,
+    1305,
+    1030,
+    725,
+    409,
+    402,
+    1136,
+    996,
+    958,
+    681
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Congradulations! You\u0027ve beaten Technological Journey, and are now free to touch grass. You might need a whole forest at this point though. \n\nThis is not an easy pack, and beating it is quite an achievement. We would love to see some screenshots of your base (remember the title screen?), as well as hear any feedback you might have about the pack, questbook, and community. We hope you had a good time with the pack -- TJ2 is on the way, bringing new mechanics, chemistry, and complex processing lines. Join the discord for updates or to tell us you hate this pack and wish you\u0027d never played it.\n\n- Carbon, Sage, Terra, and Onion",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:creative_storage_cell",
+        "tag:10": {}
+      },
+      "name:8": "Creative ME Storage Cell",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 745,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "minecraft:tallgrass",
+          "tag:10": {
+            "display:10": {
+              "Name:8": "Maybe this will help?"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:creative_storage_cell",
+          "tag:10": {}
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

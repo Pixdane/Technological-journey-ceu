@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    179
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "While containment chances are small and can only be filled/emptied from bottom they have other important properties. If two are placed near each other the fluids inside can have interactions. Below is a list of a few notable ones\n\nWater + lava \u003d obsidian, cobblestone, and stone (who\u0027da thunk)\nStarlight + water \u003d ice\nStarlight + lava \u003d sand and aquamarine",
+      "icon:10": {
+        "Count:3": 2,
+        "id:8": "astralsorcery:blockchalice"
+      },
+      "name:8": "Containment Chalice",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 192,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "astralsorcery:blockchalice"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

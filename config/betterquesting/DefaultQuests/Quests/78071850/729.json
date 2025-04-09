@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    944
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Silicon dioxide can be made in a couple of ways right now. The easiest is electrolysis of glass dust, but if you don\u0027t have an electrolyzer (or the gold to make one), you might consider centrifuging impure kaolinite, prasiolite, or purified wollastonite dust for tiny piles.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 356,
+        "id:8": "gregtech:meta_dust"
+      },
+      "name:8": "Silicon Dioxide Dust",
+      "questlogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 729,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 356,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "preRequisites:11": [
+    398
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Finally, the ultimate fusion donut! While it is required for progression in order to produce Refined Chaos Plasma, it can also be used to produce Neutron Plasma at a much faster and more efficient rate",
+      "icon:10": {
+        "Count:3": 64,
+        "Damage:2": 4,
+        "id:8": "gcyl:gcyl_cryostat_casing"
+      },
+      "name:8": "Advanced Fusion Cryostat MK V",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 393,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 4,
+          "id:8": "gcyl:gcyl_cryostat_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 47,
+          "Damage:2": 4,
+          "id:8": "gcyl:gcyl_divertor_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 4,
+          "id:8": "gcyl:gcyl_vacuum_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "3:10": {
+      "index:3": 3,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 36,
+          "Damage:2": 4,
+          "id:8": "gcyl:gcyl_vacuum_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "4:10": {
+      "index:3": 4,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 4,
+          "id:8": "gcyl:gcyl_fusion_coil"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "5:10": {
+      "index:3": 5,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 59,
+          "Damage:2": 4,
+          "id:8": "gcyl:gcyl_fusion_coil"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

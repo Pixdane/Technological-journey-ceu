@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    802
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The extruder can be used to make many parts faster and more cheaply. Pipes, cells, gears, etc. can all be produced in an extruder. \n\nIf you\u0027re looking to automate this with AE... yes, you\u0027re going to need a dedicated extruder for each shape (until you get the multiblock).",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 321,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "Advanced Extruder",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 92,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 321,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

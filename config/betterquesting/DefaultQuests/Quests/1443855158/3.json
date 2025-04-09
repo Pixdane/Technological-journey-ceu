@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    1023
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "A backpack can help carry all the tools you just made",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ironbackpacks:backpack",
+        "tag:10": {
+          "packInfo:10": {
+            "spec:8": "NONE",
+            "type:8": "ironbackpacks:basic",
+            "upgrade:9": {}
+          }
+        }
+      },
+      "name:8": "Basic Backpack",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 3,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ironbackpacks:backpack",
+          "tag:10": {
+            "packInfo:10": {
+              "spec:8": "NONE",
+              "type:8": "ironbackpacks:basic",
+              "upgrade:9": {}
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    123,
+    166,
+    1225
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1054,
+        "id:8": "gcyl:meta_dust"
+      },
+      "name:8": "Reprecipitated Platinum Dust",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 746,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

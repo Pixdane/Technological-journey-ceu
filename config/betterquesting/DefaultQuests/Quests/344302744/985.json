@@ -1,0 +1,28 @@
+{
+  "preRequisites:11": [
+    811
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Energy is transported through wires using ‘amps,’ which can be thought of as packets of power. All singleblock generators generate 1 amp of power per tick, the voltage of which changes based on the tier of the generator. A LV steam turbine generates 1 amp of LV power, which is 32 EU/t, whereas a MV steam turbine generates 1 amp of MV power, or 128 EU/t. MV cables can carry LV amps, but LV cables can’t carry MV amps (they will burn.)",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 32465,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "gregtech:meta_item_2",
+          "orig_meta:3": 32465
+        }
+      },
+      "name:8": "Amperage vs Voltage",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 985,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

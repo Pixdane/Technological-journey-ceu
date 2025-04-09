@@ -1,0 +1,39 @@
+{
+  "preRequisites:11": [
+    759
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "To get the best out of fluid crafting you will need the fluid variants of your terminals ",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ae2fc:part_fluid_pattern_terminal"
+      },
+      "name:8": "ME Fluid Pattern Terminal",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1027,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ae2fc:part_fluid_pattern_terminal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ae2fc:part_fluid_pattern_ex_terminal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

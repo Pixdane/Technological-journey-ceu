@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    525,
+    465
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 56,
+        "id:8": "appliedenergistics2:material"
+      },
+      "name:8": "§a16k§r ME Fluid Storage Component",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 467,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 56,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

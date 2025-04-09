@@ -1,0 +1,23 @@
+{
+  "preRequisites:11": [
+    317
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "All the Draconic Plasmas, and a few beyond can be used to gain some Power back by using Turbines.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:nether_star"
+      },
+      "name:8": "\"Draconic\" Plasmas",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 752,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

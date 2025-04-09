@@ -1,0 +1,127 @@
+{
+  "preRequisites:11": [
+    238
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Dubnium is obviously very biologically stable, particularly in screw form. ",
+      "icon:10": {
+        "Count:3": 55,
+        "id:8": "gcyl:gcyl_multiblock_casing2"
+      },
+      "name:8": "Biologically Sterile Casing",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 228,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2042,
+          "id:8": "gregtech:meta_ingot"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 55,
+          "id:8": "gcyl:gcyl_multiblock_casing2"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gcyl:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 36,
+          "Damage:2": 6,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gtadditions:ga_transparent_casing",
+            "orig_meta:3": 6
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "3:10": {
+      "index:3": 3,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 5,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gtadditions:ga_emitter_casing",
+            "orig_meta:3": 5
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "4:10": {
+      "index:3": 4,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 5,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gtadditions:ga_sensor_casing",
+            "orig_meta:3": 5
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "5:10": {
+      "index:3": 5,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 5,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gtadditions:ga_pump_casing",
+            "orig_meta:3": 5
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "6:10": {
+      "index:3": 6,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gtadditions:ga_field_gen_casing",
+            "orig_meta:3": 5
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

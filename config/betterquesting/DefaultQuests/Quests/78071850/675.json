@@ -1,0 +1,60 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Spectre coils are useful for powering enderIO crafters and other singleblock RF machines that don\u0027t use too much power.",
+      "icon:10": {
+        "Count:3": 32,
+        "id:8": "minecraft:sapling"
+      },
+      "name:8": "Trade Offer:",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 675,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "randomthings:spectresapling"
+        }
+      }
+    },
+    "1:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "endercrop:ender_seeds"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "consume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 32,
+          "id:8": "minecraft:sapling"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "consume:1": 1,
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 32,
+          "id:8": "minecraft:wheat_seeds"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

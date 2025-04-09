@@ -1,0 +1,34 @@
+{
+  "preRequisiteTypes:7": [
+    1
+  ],
+  "preRequisites:11": [
+    8
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This quest will refresh, and claiming it will turn mobGriefing off. Nobody likes creepers breaking important things.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:nether_star"
+      },
+      "name:8": "MobGriefing",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1125,
+  "rewards:9": {
+    "0:10": {
+      "command:8": "/gamerule mobGriefing false",
+      "description:8": "",
+      "index:3": 0,
+      "rewardID:8": "bq_standard:command"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

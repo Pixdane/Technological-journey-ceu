@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    684,
+    687,
+    735,
+    1163
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 610,
+        "id:8": "gcyl:gcyl_meta_item"
+      },
+      "name:8": "Saturated Fullerene Sieving Matrix",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 277,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 610,
+          "id:8": "gcyl:gcyl_meta_item"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

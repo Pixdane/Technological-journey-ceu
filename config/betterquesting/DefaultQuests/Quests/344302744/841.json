@@ -1,0 +1,42 @@
+{
+  "preRequisiteTypes:7": [
+    1
+  ],
+  "preRequisites:11": [
+    439
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Biodiesel is very strong in this pack, as the canola derivitives have been buffed a significant amount. If you go the diesel route, you will have to find new sources of oil every so often until EV, when you can visit titan. At that point, you will ideally be using alternate sources of power regardless. Therefore, diesel means you are actively monitoring it until you stop relying on it. \n\nStill, the choice is yours. ",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "bio_diesel"
+        }
+      },
+      "name:8": "Diesel or Bio Diesel?",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 841,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "actuallyadditions:item_canola_seed"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

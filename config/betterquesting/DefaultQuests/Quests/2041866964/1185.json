@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    721,
+    17
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Bronze, a combination of tin and copper, first made in ~3500 B.C.E, is an alloy that combines the hardness of tin with the fusability and corrosion resistance of copper. You will use it for steam powered machines and components.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 260,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "Bronze Ingot",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1185,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 260,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

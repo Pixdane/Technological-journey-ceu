@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    113,
+    693
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2038,
+        "id:8": "gregtech:meta_wire_fine"
+      },
+      "name:8": "Borosilicate Glass Fibers",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 138,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2038,
+          "id:8": "gregtech:meta_wire_fine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "preRequisites:11": [
+    1049
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The large bronze boiler can provide steam for up to 16 LV steam turbines. It can be fueled by creosote, charcoal, and any other burnable fuels.\n\nCoke oven recipes happen to create a perfect ratio with just 3 ovens.The first coke oven makes logs into charcoal, and the other two convert the charcoal produced into creosote and coke. This provides enough fuel to run two LBB\u0027s. If this is too much of an infrastructure investment for you, two coke ovens can fuel a single LBB. You can ostensibly get it to run with just one, but you also probably want some charcoal overhead for steel production. \n\nThe LBB needs at the very least 1 fluid input (water), 1 item input (fuel) and 1 fluid output (steam). It\u0027s a good idea to make one more input hatch for the creosote from your coke ovens as well, though you will need an LV  hatch to hold enough to burn. ",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1013,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "LBB (Large Bronze Boiler)",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 649,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1013,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 23,
+          "id:8": "gregtech:metal_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 6,
+          "id:8": "gregtech:boiler_firebox_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "3:10": {
+      "index:3": 3,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "gregtech:boiler_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

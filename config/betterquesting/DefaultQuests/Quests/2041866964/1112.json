@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    10
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Trust me, it\u0027s harder than just putting a wood log in a crafting table. I promise. ",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1617,
+        "id:8": "gregtech:meta_plate"
+      },
+      "name:8": "Wood Plank",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1112,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1617,
+          "id:8": "gregtech:meta_plate"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

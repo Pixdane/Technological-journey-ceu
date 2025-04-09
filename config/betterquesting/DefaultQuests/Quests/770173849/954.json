@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    490
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Liquid starlight has many uses including fuel, superconductors, and starmetal smelting.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "astralsorcery:blockwell"
+      },
+      "name:8": "Lightwell",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 954,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "astralsorcery:blockwell"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

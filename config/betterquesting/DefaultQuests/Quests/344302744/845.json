@@ -1,0 +1,27 @@
+{
+  "preRequisites:11": [
+    424
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "fl_cracked_medium_naquadah"
+        }
+      },
+      "name:8": "Fluorine-Cracked Medium Naquadah Bucket",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 845,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

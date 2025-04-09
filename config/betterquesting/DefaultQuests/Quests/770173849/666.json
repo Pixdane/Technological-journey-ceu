@@ -1,0 +1,38 @@
+{
+  "preRequisites:11": [
+    509,
+    485
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This planet has a variety of hot and cold regions. This planet has liquid veins of oxygen, hydrogen, and liquid air.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:compass"
+      },
+      "name:8": "Pluto dim ID 401",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 666,
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": 401,
+      "index:3": 0,
+      "name:8": "TODO: unknown",
+      "taskID:8": "bq_standard:location",
+      "visible:1": 1
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 12,
+          "id:8": "gregtech:meta_block_compressed_24"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

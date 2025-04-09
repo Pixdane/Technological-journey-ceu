@@ -1,0 +1,40 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "There are two paths to indium: Nuclear Waste, or through processing \"Zinc Ore Coke Pellets,\" and results in a ~10x better yeild per sphalerite ore, as well as several byproducts. Ultimately, it\u0027s up to you which method you choose.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 48,
+        "id:8": "gregtech:meta_dust_tiny"
+      },
+      "name:8": "Tiny Pile of Indium Dust",
+      "tasklogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1213,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 48,
+          "id:8": "gregtech:meta_dust_tiny"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 48,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

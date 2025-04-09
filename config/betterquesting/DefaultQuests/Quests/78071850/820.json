@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    737
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 39,
+        "id:8": "gregtech:meta_dust_small"
+      },
+      "name:8": "Small Pile of Gallium Dust",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 820,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 39,
+          "id:8": "gregtech:meta_dust_small"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

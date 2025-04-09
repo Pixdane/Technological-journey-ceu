@@ -1,0 +1,23 @@
+{
+  "preRequisites:11": [
+    222
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "With fusion you can create Pu-244 with Helium and Uranium-238",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:nether_star"
+      },
+      "name:8": "Alterative Pu244",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 217,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

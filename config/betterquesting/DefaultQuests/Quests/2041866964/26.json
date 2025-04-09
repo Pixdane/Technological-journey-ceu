@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    794
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Computation? These aren\u0027t exactly top-of-the-line transistors, but they do the job. Put a few of them together and you can make some nice new circuits.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 516,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "Vacuum Tube",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 26,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 516,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

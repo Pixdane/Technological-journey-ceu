@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    759
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "To get started with ae2 fluid crafting you need to place one of these anywhere on your main network.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ae2fc:fluid_discretizer"
+      },
+      "name:8": "ME Fluid Discretizer",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 470,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ae2fc:fluid_discretizer"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

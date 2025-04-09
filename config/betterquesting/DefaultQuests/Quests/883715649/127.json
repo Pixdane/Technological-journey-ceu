@@ -1,0 +1,55 @@
+{
+  "preRequisites:11": [
+    152
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "You will need to make either a nuclear reactor or a breeder reactor. The breeder is more complicated to automate, requires IV components, and needs some U-235 already separated (you can get this from ore processing). However, it rewards with better yields and enables you to skip rungs on the nuclear ladder, which you\u0027ll learn about soon.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2546,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "gregtech:machine",
+          "orig_meta:3": 2546
+        }
+      },
+      "name:8": "Reactor Types",
+      "tasklogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 127,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2546,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtech:machine",
+            "orig_meta:3": 2546
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2545,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtech:machine",
+            "orig_meta:3": 2545
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
