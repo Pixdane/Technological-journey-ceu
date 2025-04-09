@@ -1,3 +1,4 @@
+import appeng.items.parts.ItemFacade
 import mods.appliedenergistics2.inscriber
 import mods.jei.ingredient as h
 import mods.threng.aggregator
@@ -12,6 +13,8 @@ MIXER = recipemap('mixer')
 LASER_ENGRAVER = recipemap('laser_engraver')
 EBF = recipemap('electric_blast_furnace')
 
+// Hide Facades from JEI
+mods.jei.ingredient.hide(((ItemFacade) item('appliedenergistics2:facade').getItem()).getFacades())
 
 // Hide items from JEI
 mods.jei.ingredient.yeet(
