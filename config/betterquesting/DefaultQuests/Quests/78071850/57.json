@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    31,
+    1049
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "tjceu.quest.db.57.desc",
+      "icon:10": {
+        "Damage:2": 1575,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "tjceu.quest.db.57.title",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 57,
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1615,
+          "id:8": "gregtech:mte"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1575,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1560,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

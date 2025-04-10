@@ -1,0 +1,31 @@
+{
+  "preRequisiteTypes:7": [
+    1
+  ],
+  "preRequisites:11": [
+    8
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "tjceu.quest.db.1125.desc",
+      "icon:10": {
+        "id:8": "minecraft:nether_star"
+      },
+      "name:8": "tjceu.quest.db.1125.title",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1125,
+  "rewards:9": {
+    "0:10": {
+      "command:8": "/gamerule mobGriefing false",
+      "description:8": "",
+      "rewardID:8": "bq_standard:command"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

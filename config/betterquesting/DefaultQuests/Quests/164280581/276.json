@@ -1,0 +1,65 @@
+{
+  "preRequisites:11": [
+    268,
+    1284,
+    1070,
+    266
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "tjceu.quest.db.276.desc",
+      "icon:10": {
+        "Damage:2": 489,
+        "id:8": "gcyl:gcyl_meta_item"
+      },
+      "name:8": "tjceu.quest.db.276.title",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 276,
+  "tasks:9": {
+    "0:10": {
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 489,
+          "id:8": "gcyl:gcyl_meta_item"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 482,
+          "id:8": "gcyl:gcyl_meta_item"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 481,
+          "id:8": "gcyl:gcyl_meta_item"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "3:10": {
+      "index:3": 3,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 480,
+          "id:8": "gcyl:gcyl_meta_item"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    744
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "tjceu.quest.db.761.desc",
+      "icon:10": {
+        "Damage:2": 338,
+        "id:8": "gcyl:gcyl_meta_item"
+      },
+      "name:8": "tjceu.quest.db.761.title",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 761,
+  "tasks:9": {
+    "0:10": {
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 338,
+          "id:8": "gcyl:gcyl_meta_item"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

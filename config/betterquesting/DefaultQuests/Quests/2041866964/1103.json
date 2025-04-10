@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    670
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "tjceu.quest.db.1103.desc",
+      "icon:10": {
+        "id:8": "minecraft:nether_star"
+      },
+      "name:8": "tjceu.quest.db.1103.title",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1103,
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 271,
+          "id:8": "gregtech:meta_crushed"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

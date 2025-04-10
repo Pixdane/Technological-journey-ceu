@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    1245
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "tjceu.quest.db.151.desc",
+      "icon:10": {
+        "Damage:2": 32321,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "gtadditions:ga_meta_item",
+          "orig_meta:3": 32321
+        }
+      },
+      "name:8": "tjceu.quest.db.151.title",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 151,
+  "tasks:9": {
+    "0:10": {
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32321,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gtadditions:ga_meta_item",
+            "orig_meta:3": 32321
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

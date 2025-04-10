@@ -1,0 +1,26 @@
+{
+  "preRequisites:11": [
+    1087,
+    1000,
+    1317,
+    1080,
+    1108
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "tjceu.quest.db.432.desc",
+      "icon:10": {
+        "Damage:2": 343,
+        "id:8": "gcyl:gcyl_meta_item"
+      },
+      "name:8": "tjceu.quest.db.432.title",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 432,
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    475
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "tjceu.quest.db.1274.desc",
+      "icon:10": {
+        "Damage:2": 520,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "tjceu.quest.db.1274.title",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1274,
+  "tasks:9": {
+    "0:10": {
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 520,
+          "id:8": "appliedenergistics2:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

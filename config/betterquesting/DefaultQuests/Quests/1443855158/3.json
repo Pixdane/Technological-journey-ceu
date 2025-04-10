@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    1023
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "tjceu.quest.db.3.desc",
+      "icon:10": {
+        "id:8": "ironbackpacks:backpack",
+        "tag:10": {
+          "packInfo:10": {
+            "spec:8": "NONE",
+            "type:8": "ironbackpacks:basic",
+            "upgrade:9": {}
+          }
+        }
+      },
+      "name:8": "tjceu.quest.db.3.title",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 3,
+  "tasks:9": {
+    "0:10": {
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ironbackpacks:backpack",
+          "tag:10": {
+            "packInfo:10": {
+              "spec:8": "NONE",
+              "type:8": "ironbackpacks:basic",
+              "upgrade:9": {}
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

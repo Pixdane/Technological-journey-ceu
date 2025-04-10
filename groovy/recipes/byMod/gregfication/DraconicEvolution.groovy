@@ -9,17 +9,26 @@ BIO_REACTOR = recipemap('bio_reactor')
 
 // Recipe removals
 furnace.removeByOutput(item('draconicevolution:draconium_ingot'))
-crafting.removeByOutput(item('draconicevolution:nugget'))
-crafting.removeByOutput(item('draconicevolution:draconium_block'))
-crafting.removeByOutput(item('draconicevolution:draconium_ingot'))
-crafting.removeByOutput(item('draconicevolution:nugget', 1))
-crafting.removeByOutput(item('draconicevolution:draconic_ingot'))
-crafting.removeByOutput(item('draconicevolution:draconic_block'))
-crafting.removeByOutput(item('draconicevolution:wyvern_energy_core'))
-crafting.removeByOutput(item('draconicevolution:celestial_manipulator'))
+
+// Recipe removals
+[
+        item('draconicevolution:nugget'),
+        item('draconicevolution:draconium_block'),
+        item('draconicevolution:draconium_ingot'),
+        item('draconicevolution:nugget', 1),
+        item('draconicevolution:draconic_ingot'),
+        item('draconicevolution:draconic_block'),
+        item('draconicevolution:wyvern_energy_core'),
+        item('draconicevolution:celestial_manipulator'),
+        item('draconicevolution:grinder'),
+        item('draconicevolution:wyvern_core'),
+        item('draconicevolution:draconic_core'),
+].forEach {
+    crafting.removeByOutput(it)
+}
 
 ASSLINE.recipeBuilder()
-        .inputs(ore('frameNeutronium'))
+        .inputs(ore('frameGtNeutronium'))
         .inputs(ore('plateDraconium') * 10)
         .inputs(ore('plateStarmetalAlloy') * 10)
         .inputs(ore('plateMendelevium') * 10)
@@ -334,21 +343,21 @@ STELLAR_FORGE.recipeBuilder()
         .buildAndRegister()
 
 ASSLINE.recipeBuilder()
-       .inputs(item('draconicevolution:chaotic_core') * 4)
-       .inputs(item('draconicadditions:chaotic_energy_core') * 4)
-       .inputs(ore('plateQuantum') * 64)
-       .inputs(ore('plateZylon') * 64)
-       .inputs(item('thermalfoundation:upgrade'))
-       .inputs(item('thermalfoundation:upgrade', 1))
-       .inputs(item('draconicevolution:draconium_capacitor', 1))
+        .inputs(item('draconicevolution:chaotic_core') * 4)
+        .inputs(item('draconicadditions:chaotic_energy_core') * 4)
+        .inputs(ore('plateQuantum') * 64)
+        .inputs(ore('plateZylon') * 64)
+        .inputs(item('thermalfoundation:upgrade'))
+        .inputs(item('thermalfoundation:upgrade', 1))
+        .inputs(item('draconicevolution:draconium_capacitor', 1))
 //        .inputs(item('gtadditions:ga_cell_casing', 11)) TODO: MAX tier capacitor?
-       .inputs(metaitem('gcyl:emitter.max') * 2)
-       .fluidInputs(fluid('soldering_alloy') * 1440)
-       .fluidInputs(fluid('chaosalloy') * 1440)
-       .outputs(item('draconicevolution:draconium_capacitor', 2))
-       .duration(100)
-       .EUt(2013265920)
-       .buildAndRegister()
+        .inputs(metaitem('gcyl:emitter.max') * 2)
+        .fluidInputs(fluid('soldering_alloy') * 1440)
+        .fluidInputs(fluid('chaosalloy') * 1440)
+        .outputs(item('draconicevolution:draconium_capacitor', 2))
+        .duration(100)
+        .EUt(2013265920)
+        .buildAndRegister()
 
 
 crafting.shapedBuilder()

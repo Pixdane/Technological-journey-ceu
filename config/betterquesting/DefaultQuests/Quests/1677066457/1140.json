@@ -1,0 +1,27 @@
+{
+  "preRequisites:11": [
+    684,
+    1203,
+    338,
+    350
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "tjceu.quest.db.1140.desc",
+      "icon:10": {
+        "id:8": "appliedenergistics2:dummy_fluid_item",
+        "tag:10": {
+          "FluidName:8": "mbba"
+        }
+      },
+      "name:8": "tjceu.quest.db.1140.title",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1140,
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "preRequisites:11": [
+    505
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "tjceu.quest.db.1327.desc",
+      "icon:10": {
+        "id:8": "libvulpes:productgem"
+      },
+      "name:8": "tjceu.quest.db.1327.title",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1327,
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "draconicevolution:dislocator",
+          "tag:10": {
+            "Dimension:3": 400,
+            "DimentionName:8": "planet",
+            "IsSet:1": 1,
+            "Pitch:5": 29.699993,
+            "X:6": 256.5,
+            "Y:6": 255.6099999845028,
+            "Yaw:5": -286.20007,
+            "Z:6": 256.5
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 20,
+          "id:8": "libvulpes:productgem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 4000,
+          "FluidName:8": "rocket_fuel"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

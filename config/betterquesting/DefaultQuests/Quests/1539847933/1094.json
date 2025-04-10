@@ -1,0 +1,24 @@
+{
+  "preRequisites:11": [
+    228
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "tjceu.quest.db.1094.desc",
+      "icon:10": {
+        "id:8": "appliedenergistics2:dummy_fluid_item",
+        "tag:10": {
+          "FluidName:8": "rapidly_replicating_animal_cells"
+        }
+      },
+      "name:8": "tjceu.quest.db.1094.title",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1094,
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

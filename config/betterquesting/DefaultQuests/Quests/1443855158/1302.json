@@ -1,0 +1,27 @@
+{
+  "preRequisites:11": [
+    898
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "tjceu.quest.db.1302.desc",
+      "icon:10": {
+        "id:8": "simplevoidworld:portal"
+      },
+      "name:8": "tjceu.quest.db.1302.title",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1302,
+  "tasks:9": {
+    "0:10": {
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simplevoidworld:portal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

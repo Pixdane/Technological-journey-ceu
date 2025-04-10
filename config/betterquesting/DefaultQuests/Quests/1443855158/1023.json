@@ -1,0 +1,139 @@
+{
+  "preRequisites:11": [
+    4,
+    1170
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "tjceu.quest.db.1023.desc",
+      "icon:10": {
+        "Damage:2": 32767,
+        "OreDict:8": "craftingToolHardHammer",
+        "id:8": "gregtech:hammer",
+        "tag:10": {
+          "GT.Tool:10": {
+            "Durability:3": 0
+          }
+        }
+      },
+      "name:8": "tjceu.quest.db.1023.title",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1023,
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 51,
+          "id:8": "gregtech:meta_plate"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "OreDict:8": "craftingToolHardHammer",
+          "id:8": "gregtech:hammer",
+          "tag:10": {
+            "GT.Tool:10": {
+              "Durability:3": 0
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "OreDict:8": "craftingToolWrench",
+          "id:8": "gregtech:wrench",
+          "tag:10": {
+            "GT.Tool:10": {
+              "Durability:3": 0
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "OreDict:8": "craftingToolScrewdriver",
+          "id:8": "gregtech:screwdriver",
+          "tag:10": {
+            "GT.Tool:10": {
+              "Durability:3": 0
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "3:10": {
+      "index:3": 3,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "OreDict:8": "craftingToolWireCutter",
+          "id:8": "gregtech:wire_cutter",
+          "tag:10": {
+            "GT.Tool:10": {
+              "Durability:3": 0
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "4:10": {
+      "index:3": 4,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "OreDict:8": "craftingToolFile",
+          "id:8": "gregtech:file",
+          "tag:10": {
+            "GT.Tool:10": {
+              "Durability:3": 0
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "5:10": {
+      "index:3": 5,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "OreDict:8": "craftingToolMortar",
+          "id:8": "gregtech:mortar",
+          "tag:10": {
+            "GT.Tool:10": {
+              "Durability:3": 0
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

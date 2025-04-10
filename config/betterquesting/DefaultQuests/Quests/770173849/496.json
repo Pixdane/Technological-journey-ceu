@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    485
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "tjceu.quest.db.496.desc",
+      "icon:10": {
+        "Damage:2": 8,
+        "id:8": "gregtech:meta_block_compressed_19"
+      },
+      "name:8": "tjceu.quest.db.496.title",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 496,
+  "tasks:9": {
+    "0:10": {
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 8,
+          "id:8": "gregtech:meta_block_compressed_19"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "dimension:3": 402,
+      "index:3": 1,
+      "name:8": "TODO: unknown",
+      "taskID:8": "bq_standard:location",
+      "visible:1": 1
+    }
+  }
+}

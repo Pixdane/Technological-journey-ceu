@@ -1,0 +1,26 @@
+{
+  "preRequisites:11": [
+    366
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "tjceu.quest.db.348.desc",
+      "icon:10": {
+        "Damage:2": 951,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "gtadditions:ga_dust",
+          "orig_meta:3": 951
+        }
+      },
+      "name:8": "tjceu.quest.db.348.title",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 348,
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

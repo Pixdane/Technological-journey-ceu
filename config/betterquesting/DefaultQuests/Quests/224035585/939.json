@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    1241
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "tjceu.quest.db.939.desc",
+      "icon:10": {
+        "Damage:2": 324,
+        "id:8": "gregtech:fluid_pipe_tiny"
+      },
+      "name:8": "tjceu.quest.db.939.title",
+      "questlogic:8": "OR",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 939,
+  "tasks:9": {
+    "0:10": {
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 324,
+          "id:8": "gregtech:fluid_pipe_tiny"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -8,6 +8,63 @@ ASSEMBLER = recipemap('assembler')
 ARC_FURNACE = recipemap('arc_furnace')
 ALLOY_BLAST_SMELTER = recipemap('alloy_blast_smelter')
 
+// Hide items from JEI
+mods.jei.ingredient.yeet(
+        item('enderio:item_material', 21),
+        item('enderio:item_material', 23),
+        item('enderio:item_material', 24),
+        item('enderio:item_material', 25),
+        item('enderio:item_material', 26),
+        item('enderio:item_material', 27),
+        item('enderio:item_material', 28),
+        item('enderio:item_material', 29),
+        item('enderio:item_material', 32),
+        item('enderio:item_material', 33),
+        item('enderio:item_material', 51),
+        item('enderio:item_material', 55),
+        item('enderio:item_material', 75),
+        item('enderio:item_material', 76),
+
+        item('enderio:item_capacitor_grainy'),
+        item('enderio:item_capacitor_crystalline'),
+        item('enderio:item_capacitor_melodic'),
+        item('enderio:item_capacitor_silver'),
+        item('enderio:item_capacitor_energetic_silver'),
+        item('enderio:item_capacitor_vivid'),
+
+        item('enderio:item_redstone_conduit'),
+
+        item('enderio:item_power_conduit', 1),
+        item('enderio:item_power_conduit'),
+        item('enderio:item_power_conduit', 2),
+
+        item('enderio:item_endergy_conduit'),
+        item('enderio:item_endergy_conduit', 1),
+        item('enderio:item_endergy_conduit', 2),
+        item('enderio:item_endergy_conduit', 3),
+        item('enderio:item_endergy_conduit', 4),
+        item('enderio:item_endergy_conduit', 5),
+        item('enderio:item_endergy_conduit', 6),
+        item('enderio:item_endergy_conduit', 7),
+        item('enderio:item_endergy_conduit', 8),
+        item('enderio:item_endergy_conduit', 9),
+        item('enderio:item_endergy_conduit', 10),
+        item('enderio:item_endergy_conduit', 11),
+
+        item('enderio:block_lava_generator'),
+        item('enderio:block_enhanced_sag_mill'),
+        item('enderio:block_simple_sag_mill'),
+        item('enderio:block_stirling_generator'),
+        item('enderio:block_sag_mill'),
+        item('enderio:block_combustion_generator'),
+        item('enderio:block_enhanced_combustion_generator'),
+        item('enderio:block_simple_stirling_generator'),
+        item('enderio:block_simple_furnace'),
+        item('enderio:block_simple_alloy_smelter'),
+        item('enderio:block_alloy_smelter'),
+        item('enderio:block_enhanced_alloy_smelter'),
+)
+
 // EIO metals to gregtech 
 // End Alloy
 ALLOY_SMELTER.recipeBuilder()
@@ -214,3 +271,78 @@ ARC_FURNACE.recipeBuilder()
         .duration(120)
         .EUt(28)
         .buildAndRegister()
+
+
+crafting.addShaped(item('enderio:item_redstone_conduit') * 8, [
+        [ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')],
+        [ore('ingotRedAlloy'), ore('ingotRedAlloy'), ore('ingotRedAlloy')],
+        [ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')]
+])
+
+crafting.addShaped(item('enderio:item_material', 41), [
+        [ore('ingotSoularium'), ore('ingotIron'), ore('ingotSoularium')],
+        [ore('dustSilicon'), item('minecraft:skull', 2), ore('dustSilicon')],
+        [ore('dustSilicon'), item('minecraft:redstone_block'), ore('dustSilicon')]
+])
+
+crafting.addShapeless(item('enderio:item_material', 1), [ore('dyeBlack'), ore('itemSimpleMachineChassi')])
+
+crafting.addShapeless(item('enderio:item_material', 53), [ore('dyeSoulMachine'), ore('itemMachineChassi')])
+
+crafting.addShapeless(item('enderio:item_material', 54), [ore('ingotDarkSteel'), ore('itemMachineChassi')])
+
+crafting.addShaped(item('enderio:item_endergy_conduit', 2) * 8, [
+        [ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')],
+        [ore('ingotAluminium'), ore('itemConduitBinder'), ore('ingotAluminium')],
+        [ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')]
+])
+
+crafting.addShaped(item('enderio:item_power_conduit') * 8, [
+        [ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')],
+        [ore('ingotStainlessSteel'), item('enderio:item_endergy_conduit', 2), ore('ingotStainlessSteel')],
+        [ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')]
+])
+
+crafting.addShaped(item('enderio:item_power_conduit', 1) * 8, [
+        [ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')],
+        [ore('ingotTitanium'), item('enderio:item_power_conduit'), ore('ingotTitanium')],
+        [ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')]
+])
+
+crafting.addShaped(item('enderio:item_power_conduit', 2) * 8, [
+        [ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')],
+        [ore('ingotTungstenSteel'), item('enderio:item_power_conduit', 1), ore('ingotTungstenSteel')],
+        [ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')]
+])
+
+crafting.addShaped(item('enderio:item_endergy_conduit', 11) * 8, [
+        [ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')],
+        [ore('wireGtSingleMaxSuperconductor'), ore('wireGtSingleMaxSuperconductor'), ore('wireGtSingleMaxSuperconductor')],
+        [ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')]
+])
+
+//TODO: from OtherRecipes
+
+// vat.removeRecipe(fluid('rocket_fuel') * 1000) //EIO
+// crafting.removeByOutput(item('enderio:item_extract_speed_upgrade'))
+
+// crafting.addShaped(item('enderio:item_extract_speed_upgrade'), [[ore('ingotIron'), ore('ingotIron'), ore('ingotIron')], [ore('ingotBronze'), ore('craftingPiston'), ore('ingotBronze')], [ore('ingotBronze'), ore('dustRedstone'), ore('ingotBronze')]])
+// crafting.removeByOutput(item('enderio:item_liquid_conduit', 2))
+// crafting.removeByOutput(item('enderio:item_liquid_conduit'))
+// crafting.addShaped(item('enderio:item_liquid_conduit') * 8, [[ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')], [item('minecraft:glass'), item('minecraft:glass'), item('minecraft:glass')], [ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')]])
+// crafting.addShaped(item('enderio:item_liquid_conduit', 2) * 8, [[ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')], [ore('nuggetPulsatingIron'), item('enderio:item_liquid_conduit', 1), ore('nuggetPulsatingIron')], [ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')]])
+// crafting.addShaped(item('enderio:item_liquid_conduit', 2) * 8, [[ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')], [ore('nuggetPulsatingIron'), ore('fusedQuartz'), ore('nuggetPulsatingIron')], [ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')]])
+
+// crafting.removeByOutput(item('enderio:block_farm_station'))
+
+
+// ASSEMBLER.recipeBuilder()
+//         .inputs(item('gregtech:mte', 986))
+//         .inputs(ore('circuitBasic') * 2)
+//         .inputs(ore('skullZombieController'))
+//         .inputs(ore('toolHoe'))
+//         .outputs(item('enderio:block_farm_station'))
+//         .circuitMeta(0)
+//         .duration(160)
+//         .EUt(30)
+//         .buildAndRegister()

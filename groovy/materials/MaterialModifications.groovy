@@ -11,6 +11,8 @@ class MaterialModifications {
 
     static void changeFlags() {
 
+        material('nether_star').addFlags('no_smelting')
+
         //no_replication
         material('gcyl:adamantium').addFlags('no_replication')
         material('gcyl:vibranium').addFlags('no_replication')
@@ -29,6 +31,8 @@ class MaterialModifications {
     static void modifyProperties() {
 
         material('iron').addBlastProperty(1811)
+
+        material('carbon').addIngot()
 
         // Ore
         material('nether_star').addOre(true)
@@ -73,6 +77,10 @@ class MaterialModifications {
         OrePrefix.nugget.setIgnored(material('gcyl:awaken_draconium'))
         OrePrefix.ingot.setIgnored(material('gcyl:awaken_draconium'))
         OrePrefix.block.setIgnored(material('gcyl:awaken_draconium'))
+
+        OrePrefix.dust.setIgnored(material('gcyl:pyrotheum'))
+
+        OrePrefix.dust.setIgnored(material('gcyl:cryotheum'))
 
     }
 

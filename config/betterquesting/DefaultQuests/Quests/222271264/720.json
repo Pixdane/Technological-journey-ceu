@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    382
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "tjceu.quest.db.720.desc",
+      "icon:10": {
+        "Damage:2": 1,
+        "id:8": "draconicevolution:draconium_capacitor",
+        "tag:10": {
+          "DEUpgrades:10": {
+            "rfCap:1": 4
+          },
+          "Energy:3": 1920000000
+        }
+      },
+      "name:8": "tjceu.quest.db.720.title",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 720,
+  "tasks:9": {
+    "0:10": {
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "draconicevolution:draconium_capacitor",
+          "tag:10": {
+            "DEUpgrades:10": {
+              "rfCap:1": 4
+            },
+            "Energy:3": 1920000000
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

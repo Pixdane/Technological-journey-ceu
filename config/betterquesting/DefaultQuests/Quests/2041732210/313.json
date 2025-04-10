@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    301,
+    302,
+    318,
+    297,
+    1014
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "tjceu.quest.db.313.desc",
+      "icon:10": {
+        "Damage:2": 600,
+        "id:8": "gcyl:gcyl_meta_item"
+      },
+      "name:8": "tjceu.quest.db.313.title",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 313,
+  "tasks:9": {
+    "0:10": {
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 600,
+          "id:8": "gcyl:gcyl_meta_item"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

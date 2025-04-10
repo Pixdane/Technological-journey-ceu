@@ -1,0 +1,110 @@
+{
+  "preRequisites:11": [
+    501,
+    499
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "tjceu.quest.db.485.desc",
+      "icon:10": {
+        "id:8": "advancedrocketry:warpcore"
+      },
+      "name:8": "tjceu.quest.db.485.title",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 485,
+  "tasks:9": {
+    "0:10": {
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:warpcore"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "minecraft:gold_block"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "libvulpes:hatch"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "3:10": {
+      "index:3": 3,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "libvulpes:structuremachine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "4:10": {
+      "index:3": 4,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:warpmonitor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "5:10": {
+      "index:3": 5,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:stationbuilder"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "6:10": {
+      "index:3": 6,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "advancedrocketry:loader"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "7:10": {
+      "index:3": 7,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "advancedrocketry:spacestationchip"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "8:10": {
+      "index:3": 8,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 15,
+          "Damage:2": 1,
+          "id:8": "gregtech:meta_block_compressed_7"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

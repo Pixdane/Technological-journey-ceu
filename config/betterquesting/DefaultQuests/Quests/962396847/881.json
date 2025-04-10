@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    879
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "tjceu.quest.db.881.desc",
+      "icon:10": {
+        "Damage:2": 3,
+        "id:8": "threng:machine"
+      },
+      "name:8": "tjceu.quest.db.881.title",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 881,
+  "tasks:9": {
+    "0:10": {
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "threng:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

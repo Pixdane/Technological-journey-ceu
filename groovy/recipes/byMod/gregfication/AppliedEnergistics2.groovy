@@ -1,3 +1,4 @@
+import appeng.items.parts.ItemFacade
 import mods.appliedenergistics2.inscriber
 import mods.jei.ingredient as h
 import mods.threng.aggregator
@@ -12,16 +13,38 @@ MIXER = recipemap('mixer')
 LASER_ENGRAVER = recipemap('laser_engraver')
 EBF = recipemap('electric_blast_furnace')
 
+// Hide Facades from JEI
+mods.jei.ingredient.hide(((ItemFacade) item('appliedenergistics2:facade').getItem()).getFacades())
 
-inscriber.removeByOutput(item('appliedenergistics2:material', 20))
-inscriber.removeByOutput(item('appliedenergistics2:material', 24))
-inscriber.removeByOutput(item('appliedenergistics2:material', 23))
-inscriber.removeByOutput(item('appliedenergistics2:material', 22))
-inscriber.removeByOutput(item('appliedenergistics2:material', 18))
-inscriber.removeByOutput(item('appliedenergistics2:material', 17))
-inscriber.removeByOutput(item('appliedenergistics2:material', 16))
-inscriber.removeByOutput(item('threng:material', 2))
-inscriber.removeByOutput(item('appliedenergistics2:material', 59))
+// Hide items from JEI
+mods.jei.ingredient.yeet(
+        item('appliedenergistics2:material', 49),
+        item('appliedenergistics2:material', 51),
+)
+
+// Recipe removals
+[
+        item('appliedenergistics2:part'),
+        item('appliedenergistics2:part', 140),
+        item('appliedenergistics2:quartz_glass'),
+].forEach {
+    crafting.removeByOutput(it)
+}
+
+// Inscriber recipe removals
+[
+        item('appliedenergistics2:material', 20),
+        item('appliedenergistics2:material', 24),
+        item('appliedenergistics2:material', 23),
+        item('appliedenergistics2:material', 22),
+        item('appliedenergistics2:material', 18),
+        item('appliedenergistics2:material', 17),
+        item('appliedenergistics2:material', 16),
+        item('threng:material', 2),
+        item('appliedenergistics2:material', 59),
+].forEach {
+    inscriber.removeByOutput(it)
+}
 
 // Engineering Processor
 inscriber.recipeBuilder()
@@ -368,12 +391,12 @@ ASSEMBLER.recipeBuilder()
 
 crafting.addShaped(item('threng:machine'), [
         [ore('blockHopper'), ore('blockHopper'), ore('blockHopper')],
-        [ore('dustRedstone'), item('gregtech:mte', 988), ore('dustRedstone')],
+        [ore('dustRedstone'), metaitem('hull.hv'), ore('dustRedstone')],
         [item('appliedenergistics2:material', 22), item('ae2stuff:grower'), item('appliedenergistics2:material', 22)]
 ])
 
 ASSEMBLER.recipeBuilder()
-        .inputs([ore('blockHopper') * 3, item('gregtech:mte', 988), item('appliedenergistics2:material', 22) * 2, item('ae2stuff:grower')])
+        .inputs([ore('blockHopper') * 3, metaitem('hull.hv'), item('appliedenergistics2:material', 22) * 2, item('ae2stuff:grower')])
         .outputs([item('threng:machine')])
         .duration(160)
         .EUt(480)
@@ -381,12 +404,12 @@ ASSEMBLER.recipeBuilder()
 
 crafting.addShaped(item('threng:machine', 3), [
         [ore('ingotFluixSteel'), item('appliedenergistics2:material', 24), ore('ingotFluixSteel')],
-        [item('appliedenergistics2:crafting_accelerator'), item('gregtech:mte', 989), item('appliedenergistics2:crafting_accelerator')],
+        [item('appliedenergistics2:crafting_accelerator'), metaitem('hull.ev'), item('appliedenergistics2:crafting_accelerator')],
         [ore('ingotFluixSteel'), item('appliedenergistics2:material', 24), ore('ingotFluixSteel')]
 ])
 
 ASSEMBLER.recipeBuilder()
-        .inputs([item('appliedenergistics2:crafting_accelerator') * 2, item('gregtech:mte', 989), ore('ingotFluixSteel') * 4])
+        .inputs([item('appliedenergistics2:crafting_accelerator') * 2, metaitem('hull.ev'), ore('ingotFluixSteel') * 4])
         .outputs([item('threng:machine', 3)])
         .duration(160)
         .EUt(1920)
@@ -400,26 +423,26 @@ crafting.addShaped(item('threng:material', 2), [
 
 crafting.addShaped(item('threng:machine', 1), [
         [ore('ingotFluixSteel'), item('appliedenergistics2:material', 22), ore('ingotFluixSteel')],
-        [item('threng:material', 4), item('gregtech:mte', 988), item('threng:material', 4)],
+        [item('threng:material', 4), metaitem('hull.hv'), item('threng:material', 4)],
         [ore('ingotFluixSteel'), item('appliedenergistics2:material', 22), ore('ingotFluixSteel')]
 ])
 
 ASSEMBLER.recipeBuilder()
-        .inputs([item('threng:material', 4), item('gregtech:mte', 989), ore('ingotFluixSteel') * 5, item('appliedenergistics2:material', 22) * 2])
+        .inputs([item('threng:material', 4), metaitem('hull.ev'), ore('ingotFluixSteel') * 5, item('appliedenergistics2:material', 22) * 2])
         .outputs([item('threng:machine', 1)])
         .duration(160)
         .EUt(1920)
         .buildAndRegister()
 
 ASSEMBLER.recipeBuilder()
-        .inputs([item('threng:material', 4), item('gregtech:mte', 989), ore('ingotFluixSteel') * 4, item('appliedenergistics2:part', 280)])
+        .inputs([item('threng:material', 4), metaitem('hull.ev'), ore('ingotFluixSteel') * 4, item('appliedenergistics2:part', 280)])
         .outputs([item('threng:machine', 4)])
         .duration(160)
         .EUt(1920)
         .buildAndRegister()
 
 ASSEMBLER.recipeBuilder()
-        .inputs([item('gregtech:mte', 988), ore('ingotFluixSteel') * 4, item('appliedenergistics2:dense_energy_cell'), item('appliedenergistics2:charger')])
+        .inputs([metaitem('hull.hv'), ore('ingotFluixSteel') * 4, item('appliedenergistics2:dense_energy_cell'), item('appliedenergistics2:charger')])
         .outputs([item('threng:machine', 5)])
         .duration(160)
         .EUt(1920)
@@ -492,7 +515,7 @@ ASSEMBLER.recipeBuilder()
 // 16k
 ASSEMBLER.recipeBuilder()
         .circuitMeta(1)
-        .inputs([ore('plateStainlessSteel') * 4, ore('circuitAdvanced'), ore('crystalCertusQuartz') * 4, item('appliedenergistics2:material', 36) * 3])
+        .inputs([ore('plateStainlessSteel') * 4, ore('circuitHv'), ore('crystalCertusQuartz') * 4, item('appliedenergistics2:material', 36) * 3])
         .outputs([item('appliedenergistics2:material', 37)])
         .duration(300)
         .EUt(480)
@@ -501,7 +524,7 @@ ASSEMBLER.recipeBuilder()
 // 64k
 ASSEMBLER.recipeBuilder()
         .circuitMeta(1)
-        .inputs([ore('plateTitanium') * 4, ore('circuitExtreme'), ore('crystalCertusQuartz') * 4, item('appliedenergistics2:material', 37) * 3])
+        .inputs([ore('plateTitanium') * 4, ore('circuitEv'), ore('crystalCertusQuartz') * 4, item('appliedenergistics2:material', 37) * 3])
         .outputs([item('appliedenergistics2:material', 38)])
         .duration(300)
         .EUt(1920)
@@ -528,7 +551,7 @@ ASSEMBLER.recipeBuilder()
 // 16k
 ASSEMBLER.recipeBuilder()
         .circuitMeta(1)
-        .inputs([ore('plateStainlessSteel') * 4, ore('circuitAdvanced'), ore('crystalPureCertusQuartz') * 4, item('appliedenergistics2:material', 36) * 3])
+        .inputs([ore('plateStainlessSteel') * 4, ore('circuitHv'), ore('crystalPureCertusQuartz') * 4, item('appliedenergistics2:material', 36) * 3])
         .outputs([item('appliedenergistics2:material', 37)])
         .duration(300)
         .EUt(480)
@@ -537,7 +560,7 @@ ASSEMBLER.recipeBuilder()
 // 64k
 ASSEMBLER.recipeBuilder()
         .circuitMeta(1)
-        .inputs([ore('plateTitanium') * 4, ore('circuitExtreme'), ore('crystalPureCertusQuartz') * 4, item('appliedenergistics2:material', 37) * 3])
+        .inputs([ore('plateTitanium') * 4, ore('circuitEv'), ore('crystalPureCertusQuartz') * 4, item('appliedenergistics2:material', 37) * 3])
         .outputs([item('appliedenergistics2:material', 38)])
         .duration(300)
         .EUt(1920)
@@ -565,7 +588,7 @@ ASSEMBLER.recipeBuilder()
 // 16k
 ASSEMBLER.recipeBuilder()
         .circuitMeta(2)
-        .inputs([ore('plateStainlessSteel') * 4, ore('circuitAdvanced'), ore('dyeBlue') * 4, item('appliedenergistics2:material', 55) * 3])
+        .inputs([ore('plateStainlessSteel') * 4, ore('circuitHv'), ore('dyeBlue') * 4, item('appliedenergistics2:material', 55) * 3])
         .outputs([item('appliedenergistics2:material', 56)])
         .duration(300)
         .EUt(480)
@@ -574,7 +597,7 @@ ASSEMBLER.recipeBuilder()
 // 64k
 ASSEMBLER.recipeBuilder()
         .circuitMeta(2)
-        .inputs([ore('plateTitanium') * 4, ore('circuitExtreme'), ore('dyeBlue') * 4, item('appliedenergistics2:material', 56) * 3])
+        .inputs([ore('plateTitanium') * 4, ore('circuitEv'), ore('dyeBlue') * 4, item('appliedenergistics2:material', 56) * 3])
         .outputs([item('appliedenergistics2:material', 57)])
         .duration(300)
         .EUt(1920)
@@ -726,14 +749,14 @@ h.yeet(item('nae2:reconstruction_chamber'))
 
 
 ASSEMBLER.recipeBuilder()
-        .inputs([item('gregtech:mte', 988), item('appliedenergistics2:quartz_glass') * 2, item('gregtech:meta_item_1', 144) * 2])
+        .inputs([metaitem('hull.hv'), item('appliedenergistics2:quartz_glass') * 2, metaitem('electric.pump.hv') * 2])
         .outputs([item('appliedenergistics2:fluid_interface') * 4])
         .duration(150)
         .EUt(480)
         .buildAndRegister()
 
 ASSEMBLER.recipeBuilder()
-        .inputs([item('gregtech:mte', 988), item('appliedenergistics2:quartz_glass') * 2, item('gregtech:meta_item_1', 174) * 2])
+        .inputs([metaitem('hull.hv'), item('appliedenergistics2:quartz_glass') * 2, item('gregtech:meta_item_1', 174) * 2])
         .outputs([item('appliedenergistics2:interface') * 4])
         .duration(150)
         .EUt(480)
@@ -788,7 +811,7 @@ AUTOCLAVE.recipeBuilder()
         .duration(80)
         .buildAndRegister()
 
-furnace.removeByOutput(ore('itemSilicon'))
+furnace.removeByOutput(item('appliedenergistics2:material', 5))
 
 // Fix security station
 crafting.removeByOutput(item('appliedenergistics2:security_station'))
@@ -866,7 +889,7 @@ ASSEMBLER.recipeBuilder()
 // Skip
 ASSEMBLER.recipeBuilder()
         .circuitMeta(1)
-        .inputs([ore('plateTungstenSteel') * 4, ore('gemExquisiteDiamond') * 4, metaitem('stem_cells') * 4, ore('circuitElite')])
+        .inputs([ore('plateTungstenSteel') * 4, ore('gemExquisiteDiamond') * 4, metaitem('stem_cells') * 4, ore('circuitIv')])
         .outputs([item('nae2:material', 1)])
         .duration(300)
         .EUt(7680)
@@ -875,7 +898,7 @@ ASSEMBLER.recipeBuilder()
 // From 64k
 ASSEMBLER.recipeBuilder()
         .circuitMeta(1)
-        .inputs([ore('plateTungstenSteel') * 4, ore('crystalPureCertusQuartz') * 4, ore('circuitElite'), item('appliedenergistics2:material', 38) * 3])
+        .inputs([ore('plateTungstenSteel') * 4, ore('crystalPureCertusQuartz') * 4, ore('circuitIv'), item('appliedenergistics2:material', 38) * 3])
         .outputs([item('nae2:material', 1)])
         .duration(300)
         .EUt(7680)
@@ -893,7 +916,7 @@ ASSEMBLER.recipeBuilder()
 // 4096k
 ASSEMBLER.recipeBuilder()
         .circuitMeta(1)
-        .inputs([ore('plateOsmiridium') * 4, ore('circuitUltimate'), ore('gemExquisiteDiamond') * 4, metaitem('stem_cells') * 4, item('nae2:material', 2) * 3])
+        .inputs([ore('plateOsmiridium') * 4, ore('circuitZpm'), ore('gemExquisiteDiamond') * 4, metaitem('stem_cells') * 4, item('nae2:material', 2) * 3])
         .outputs([item('nae2:material', 3)])
         .duration(300)
         .EUt(122800)
@@ -922,7 +945,7 @@ ASSEMBLER.recipeBuilder()
 // From 64k
 ASSEMBLER.recipeBuilder()
         .circuitMeta(2)
-        .inputs([ore('plateTungstenSteel') * 4, ore('circuitElite'), ore('dyeBlue') * 4, item('appliedenergistics2:material', 57) * 3])
+        .inputs([ore('plateTungstenSteel') * 4, ore('circuitIv'), ore('dyeBlue') * 4, item('appliedenergistics2:material', 57) * 3])
         .outputs([item('nae2:material', 5)])
         .duration(300)
         .EUt(76800)
@@ -940,7 +963,7 @@ ASSEMBLER.recipeBuilder()
 // 4096k
 ASSEMBLER.recipeBuilder()
         .circuitMeta(2)
-        .inputs([ore('plateOsmiridium') * 4, ore('circuitUltimate'), ore('dyeBlue') * 4, metaitem('stem_cells') * 4, item('nae2:material', 6) * 3])
+        .inputs([ore('plateOsmiridium') * 4, ore('circuitZpm'), ore('dyeBlue') * 4, metaitem('stem_cells') * 4, item('nae2:material', 6) * 3])
         .outputs([item('nae2:material', 7)])
         .duration(300)
         .EUt(122800)
@@ -958,7 +981,7 @@ ASSEMBLER.recipeBuilder()
 // Co-Processors
 // 4x
 ASSEMBLER.recipeBuilder()
-        .inputs([item('appliedenergistics2:crafting_accelerator') * 2, ore('circuitExtreme') * 4, item('appliedenergistics2:material', 23) * 2, ore('plateTitanium') * 8])
+        .inputs([item('appliedenergistics2:crafting_accelerator') * 2, ore('circuitEv') * 4, item('appliedenergistics2:material', 23) * 2, ore('plateTitanium') * 8])
         .outputs([item('nae2:coprocessor_4x')])
         .duration(600)
         .EUt(1920)
@@ -1029,38 +1052,54 @@ crafting.removeByOutput(item('extracells:fluidcrafter'))
 // }
 
 ASSLINE.recipeBuilder()
-       .inputs(ore('plateDenseDraconium') * 8)
-       .inputs(ore('plateEnrichedNaquadahAlloy') * 8)
-       .inputs(item('appliedenergistics2:dense_energy_cell') * 64)
-       .inputs(ore('wireGtSingleUvSuperconductor') * 32)
-       .inputs(ore('circuitUv') * 2)
-       .fluidInputs(fluid('tritanium') * 720)
-       .fluidInputs(fluid('soldering_alloy') * 1296)
-       .outputs(item('appliedenergistics2:creative_energy_cell'))
-       .duration(1000)
-       .EUt(524288)
-       .buildAndRegister()
+        .inputs(ore('plateDenseDraconium') * 8)
+        .inputs(ore('plateEnrichedNaquadahAlloy') * 8)
+        .inputs(item('appliedenergistics2:dense_energy_cell') * 64)
+        .inputs(ore('wireGtSingleUvSuperconductor') * 32)
+        .inputs(ore('circuitUv') * 2)
+        .fluidInputs(fluid('tritanium') * 720)
+        .fluidInputs(fluid('soldering_alloy') * 1296)
+        .outputs(item('appliedenergistics2:creative_energy_cell'))
+        .duration(1000)
+        .EUt(524288)
+        .buildAndRegister()
 
 
 ASSLINE.recipeBuilder()
-       .inputs(item('thermalfoundation:upgrade', 256))
-       .inputs(item('storagedrawers:upgrade_creative'))
-       .inputs(item('draconicevolution:draconium_capacitor', 2))
-       .inputs(metaitem('tjceu:crystal.refined_chaos') * 64)
-       .inputs(metaitem('tjceu:crystal.refined_chaos') * 64)
-       .inputs(metaitem('tjceu:ban.certificate'))
-       .inputs(ore('circuitMax'))
-       .inputs(metaitem('gcyl:field.generator.max') * 4)
-       .inputs(metaitem('tjceu:crystal.eternity') * 4)
-       .inputs(item('draconicadditions:chaos_stabilizer_core'))
+        .inputs(item('thermalfoundation:upgrade', 256))
+        .inputs(item('storagedrawers:upgrade_creative'))
+        .inputs(item('draconicevolution:draconium_capacitor', 2))
+        .inputs(metaitem('tjceu:crystal.refined_chaos') * 64)
+        .inputs(metaitem('tjceu:crystal.refined_chaos') * 64)
+        .inputs(metaitem('tjceu:ban.certificate'))
+        .inputs(ore('circuitMax'))
+        .inputs(metaitem('gcyl:field.generator.max') * 4)
+        .inputs(metaitem('tjceu:crystal.eternity') * 4)
+        .inputs(item('draconicadditions:chaos_stabilizer_core'))
 //        .inputs(item('gregtech:meta_item_2:32715')) TODO: supra solar panel
 //        .inputs(item('gtadditions:ga_cell_casing', 11) * 64) TODO: MAX capacitor
 //        .inputs(item('gtadditions:ga_cell_casing', 11) * 64)
 //        .inputs(item('gtadditions:ga_cell_casing', 11) * 14)
-       .inputs(metaitem('gcym:tiered_hatch.max'))
-       .inputs(item('nae2:material', 4) * 64)
-       .fluidInputs(fluid('chaosalloy') * 11520)
-       .outputs(item('appliedenergistics2:creative_storage_cell'))
-       .duration(2147483647)
-       .EUt(1)
-       .buildAndRegister()
+        .inputs(metaitem('gcym:tiered_hatch.max'))
+        .inputs(item('nae2:material', 4) * 64)
+        .fluidInputs(fluid('chaosalloy') * 11520)
+        .outputs(item('appliedenergistics2:creative_storage_cell'))
+        .duration(2147483647)
+        .EUt(1)
+        .buildAndRegister()
+
+crafting.addShaped(item('appliedenergistics2:quartz_glass') * 4, [
+        [ore('dustCertusQuartz'), ore('blockGlassColorless'), ore('dustCertusQuartz')],
+        [ore('blockGlassColorless'), null, ore('blockGlassColorless')],
+        [ore('dustCertusQuartz'), ore('blockGlassColorless'), ore('dustCertusQuartz')]
+])
+
+crafting.addShaped(item('appliedenergistics2:quartz_glass') * 4, [
+        [ore('dustNetherQuartz'), ore('blockGlassColorless'), ore('dustNetherQuartz')],
+        [ore('blockGlassColorless'), null, ore('blockGlassColorless')],
+        [ore('dustNetherQuartz'), ore('blockGlassColorless'), ore('dustNetherQuartz')]
+])
+
+//TODO: from OtherRecipes
+// crafting.addShapeless(item('appliedenergistics2:part', 221), [item('appliedenergistics2:part', 220), ore('gemLapis')])
+// crafting.addShapeless(item('appliedenergistics2:part', 220), [item('appliedenergistics2:part', 221)])

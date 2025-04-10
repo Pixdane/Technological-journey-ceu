@@ -1,0 +1,22 @@
+{
+  "preRequisites:11": [
+    440
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "tjceu.quest.db.774.desc",
+      "icon:10": {
+        "Damage:2": 1575,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "tjceu.quest.db.774.title",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 774,
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "preRequisites:11": [
+    54
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "tjceu.quest.db.1056.desc",
+      "icon:10": {
+        "id:8": "minecraft:gold_ingot"
+      },
+      "name:8": "tjceu.quest.db.1056.title",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 1056,
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

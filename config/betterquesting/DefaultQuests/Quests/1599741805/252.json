@@ -1,0 +1,68 @@
+{
+  "preRequisites:11": [
+    253
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "tjceu.quest.db.252.desc",
+      "icon:10": {
+        "id:8": "fluxnetworks:fluxplug"
+      },
+      "name:8": "tjceu.quest.db.252.title",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "questID:3": 252,
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "fluxnetworks:fluxplug"
+        }
+      }
+    },
+    "1:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "fluxnetworks:fluxpoint"
+        }
+      }
+    },
+    "2:10": {
+      "index:3": 2,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "fluxnetworks:gargantuanfluxstorage"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "fluxnetworks:fluxplug"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "fluxnetworks:fluxpoint"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
