@@ -1166,8 +1166,6 @@
 //crafting.addShaped(item('hooked:hook', 2), [[null, ore('plateDiamond'), ore('plateDiamond')], [null, item('hooked:hook', 1), ore('plateDiamond')], [ore('plateDiamond'), null, null]])
 //crafting.addShaped(item('hooked:hook', 1), [[item('gtadditions:ga_meta_item:1033'), item('gtadditions:ga_meta_item:1033'), item('gregtech:meta_item_2:1033')], [null, item('hooked:microcrafting', 3), item('gtadditions:ga_meta_item:1033')], [item('hooked:microcrafting', 3), null, item('gtadditions:ga_meta_item:1033')]])
 //
-//crafting.addShaped(item('fluxnetworks:fluxpoint'), [[null, null, null], [null, item('fluxnetworks:fluxplug'), null], [null, null, null]])
-//crafting.addShaped(item('fluxnetworks:fluxplug'), [[null, null, null], [null, item('fluxnetworks:fluxpoint'), null], [null, null, null]])
 //
 //crafting.removeByOutput(item('enderio:item_advanced_item_filter'))
 //crafting.addShaped(item('enderio:item_advanced_item_filter'), [[ore('plateRedstone'), ore('plateDiamond'), ore('plateRedstone')], [ore('plateDiamond'), item('enderio:item_basic_item_filter'), ore('plateDiamond')], [ore('plateRedstone'), ore('plateDiamond'), ore('plateRedstone')]])
