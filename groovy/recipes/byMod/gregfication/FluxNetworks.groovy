@@ -24,7 +24,7 @@ MIXER.recipeBuilder()
 ASSEMBLER.recipeBuilder()
         .inputs(item('fluxnetworks:flux') * 4)
         .inputs(item('enderio:block_reinforced_obsidian') * 4)
-//        .inputs(item('gregtech:meta_item_1:32724') * 2) TODO
+        .inputs(metaitem('quantumeye') * 2) TODO
         .outputs(item('fluxnetworks:fluxcore') * 2)
         .duration(240)
         .EUt(524288)
