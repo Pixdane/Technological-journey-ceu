@@ -262,8 +262,3 @@ mods.gregtech.large_chemical_reactor.removeByInput(30, [metaitem('circuit.integr
 //         .duration(80)
 //         .EUt(7904)
 //         .buildAndRegister()
-
-
-crafting.removeByOutput(metaitem('gcym:large_circuit_assembler'))
-
-// crafting.addShaped(item('gregtech:machine:2004'), [[item('gregtech:multiblock_casing', 2), item('gregtech:meta_item_1:32655'), item('gregtech:multiblock_casing', 2)], [ore('circuitMaster'), item('gregtech:mte', 991), ore('circuitMaster')], [item('gregtech:multiblock_casing', 2), item('gregtech:meta_item_1:32655'), item('gregtech:multiblock_casing', 2)]])
