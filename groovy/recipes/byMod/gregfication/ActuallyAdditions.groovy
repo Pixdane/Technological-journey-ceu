@@ -28,6 +28,7 @@ mods.jei.ingredient.yeet(
         item('actuallyadditions:block_grinder'),
         item('actuallyadditions:block_grinder_double'),
         item('actuallyadditions:block_furnace_double'),
+        item('actuallyadditions:block_fermenting_barrel'),
 )
 // Recipe removals
 [

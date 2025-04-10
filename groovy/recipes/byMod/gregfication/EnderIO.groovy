@@ -320,3 +320,29 @@ crafting.addShaped(item('enderio:item_endergy_conduit', 11) * 8, [
         [ore('wireGtSingleMaxSuperconductor'), ore('wireGtSingleMaxSuperconductor'), ore('wireGtSingleMaxSuperconductor')],
         [ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')]
 ])
+
+//TODO: from OtherRecipes
+
+// vat.removeRecipe(fluid('rocket_fuel') * 1000) //EIO
+// crafting.removeByOutput(item('enderio:item_extract_speed_upgrade'))
+
+// crafting.addShaped(item('enderio:item_extract_speed_upgrade'), [[ore('ingotIron'), ore('ingotIron'), ore('ingotIron')], [ore('ingotBronze'), ore('craftingPiston'), ore('ingotBronze')], [ore('ingotBronze'), ore('dustRedstone'), ore('ingotBronze')]])
+// crafting.removeByOutput(item('enderio:item_liquid_conduit', 2))
+// crafting.removeByOutput(item('enderio:item_liquid_conduit'))
+// crafting.addShaped(item('enderio:item_liquid_conduit') * 8, [[ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')], [item('minecraft:glass'), item('minecraft:glass'), item('minecraft:glass')], [ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')]])
+// crafting.addShaped(item('enderio:item_liquid_conduit', 2) * 8, [[ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')], [ore('nuggetPulsatingIron'), item('enderio:item_liquid_conduit', 1), ore('nuggetPulsatingIron')], [ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')]])
+// crafting.addShaped(item('enderio:item_liquid_conduit', 2) * 8, [[ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')], [ore('nuggetPulsatingIron'), ore('fusedQuartz'), ore('nuggetPulsatingIron')], [ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')]])
+
+// crafting.removeByOutput(item('enderio:block_farm_station'))
+
+
+// ASSEMBLER.recipeBuilder()
+//         .inputs(item('gregtech:mte', 986))
+//         .inputs(ore('circuitBasic') * 2)
+//         .inputs(ore('skullZombieController'))
+//         .inputs(ore('toolHoe'))
+//         .outputs(item('enderio:block_farm_station'))
+//         .circuitMeta(0)
+//         .duration(160)
+//         .EUt(30)
+//         .buildAndRegister()

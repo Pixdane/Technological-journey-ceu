@@ -33,3 +33,18 @@ ASSEMBLER.recipeBuilder()
         .duration(40)
         .EUt(122880)
         .buildAndRegister()
+
+//TODO: from OtherRecipes
+
+// crafting.addShaped(ore('dyeGreen'), [[null, item('minecraft:tallgrass', 1), null], [item('minecraft:tallgrass', 1), null, item('minecraft:tallgrass', 1)], [null, item('minecraft:tallgrass', 1), null]])
+
+// Blaze Rod * 1
+mods.gregtech.compressor.removeByInput(2, [item('minecraft:blaze_powder') * 4 * 4], null)
+
+// IMPLOSION_COMPRESSOR.recipeBuilder()
+//         .inputs(ore('dustBlaze,itemBlazePowder') * 15)
+//         .outputs(ore('itemBlazeRod,rodBlaze,stickBlaze') * 3)
+//         .explosives(10)
+//         .duration(20)
+//         .EUt(30)
+//         .buildAndRegister()

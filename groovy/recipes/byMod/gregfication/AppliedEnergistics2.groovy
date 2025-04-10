@@ -1099,3 +1099,7 @@ crafting.addShaped(item('appliedenergistics2:quartz_glass') * 4, [
         [ore('blockGlassColorless'), null, ore('blockGlassColorless')],
         [ore('dustNetherQuartz'), ore('blockGlassColorless'), ore('dustNetherQuartz')]
 ])
+
+//TODO: from OtherRecipes
+// crafting.addShapeless(item('appliedenergistics2:part', 221), [item('appliedenergistics2:part', 220), ore('gemLapis')])
+// crafting.addShapeless(item('appliedenergistics2:part', 220), [item('appliedenergistics2:part', 221)])

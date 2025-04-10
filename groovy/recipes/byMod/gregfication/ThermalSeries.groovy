@@ -1,5 +1,9 @@
 import static classes.utils.TJUtility.*
 
+ASSLINE = recipemap('assembly_line')
+EBF = recipemap('electric_blast_furnace')
+MIXER = recipemap('mixer')
+
 // Hide items from JEI
 mods.jei.ingredient.yeet(
         item('thermalfoundation:ore'),
@@ -220,3 +224,44 @@ ASSLINE.recipeBuilder()
         .duration(100)
         .EUt(2013265920)
         .buildAndRegister()
+
+EBF.recipeBuilder()
+        .inputs(ore('dustSignalum'))
+        .outputs(item('thermalfoundation:material', 165))
+        .blastFurnaceTemp(4500)
+        .duration(1530)
+        .EUt(120)
+        .buildAndRegister()
+
+EBF.recipeBuilder()
+        .inputs(ore('dustLumium'))
+        .outputs(item('thermalfoundation:material', 166))
+        .blastFurnaceTemp(4500)
+        .duration(1530)
+        .EUt(120)
+        .buildAndRegister()
+
+MIXER.recipeBuilder()
+        .inputs(ore('dustCopper') * 3)
+        .inputs(ore('dustSilver'))
+        .fluidInputs(fluid('redstone') * 1000)
+        .outputs(item('thermalfoundation:material', 101) * 4)
+        .duration(240)
+        .EUt(500)
+        .buildAndRegister()
+MIXER.recipeBuilder()
+        .inputs(ore('dustTin') * 3)
+        .inputs(ore('dustSilver'))
+        .fluidInputs(fluid('glowstone') * 1000)
+        .outputs(item('thermalfoundation:material', 102) * 4)
+        .duration(240)
+        .EUt(500)
+        .buildAndRegister()
+
+//TODO: from OtherRecipes
+// crafting.addShaped(item('thermalfoundation:material', 640), [[null, null, null], [null, item('actuallyadditions:item_misc', 16), null], [null, null, null]])
+// crafting.addShaped(item('thermalfoundation:material', 656), [[null, ore('plateDenseStainlessSteel'), null], [ore('plateDenseStainlessSteel'), ore('stickLongStainlessSteel'), ore('plateDenseStainlessSteel')], [null, ore('plateDenseStainlessSteel'), null]])
+
+
+// furnace.removeByOutput(item('thermalfoundation:material', 833), item('gregtech:meta_item_1', 438))
+// crafting.addShapeless(item('thermalfoundation:material', 657), [item('architecturecraft:sawblade')])

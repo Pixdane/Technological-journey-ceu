@@ -11,6 +11,8 @@ class MaterialModifications {
 
     static void changeFlags() {
 
+        material('nether_star').addFlags('no_smelting')
+
         //no_replication
         material('gcyl:adamantium').addFlags('no_replication')
         material('gcyl:vibranium').addFlags('no_replication')
@@ -30,7 +32,7 @@ class MaterialModifications {
 
         material('iron').addBlastProperty(1811)
 
-        material('nether_star').addFlags('no_smelting')
+        material('carbon').addIngot()
 
         // Ore
         material('nether_star').addOre(true)

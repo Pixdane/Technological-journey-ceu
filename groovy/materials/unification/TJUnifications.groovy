@@ -24,6 +24,9 @@ class TJUnifications {
         OreDictUnifier.registerOre(item('thermalfoundation:material', 1024), OrePrefix.dust, material('gcyl:pyrotheum'))
 
         OreDictUnifier.registerOre(item('thermalfoundation:material', 1025), OrePrefix.dust, material('gcyl:cryotheum'))
+
+        OreDictUnifier.registerOre(item('advancedrocketry:basalt'), OrePrefix.stone, material('basalt'))
+        // TODO: remove it from worldgen?
     }
 
 }

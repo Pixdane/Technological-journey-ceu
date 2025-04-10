@@ -98,3 +98,172 @@ EBF.recipeBuilder()
         .duration(10000)
         .EUt(536870900)
         .buildAndRegister()
+
+//TODO: from OtherRecipes
+
+// LCR.recipeBuilder()
+//         .inputs(ore('dustSodaAsh') * 6)
+//         .fluidInputs(fluid('water') * 1000)
+//         .circuitMeta(1)
+//         .outputs(item('gtadditions:ga_dust', 194) * 6)
+//         .outputs(ore('dustSodiumHydroxide') * 3)
+//         .duration(140)
+//         .EUt(30)
+//         .buildAndRegister()
+
+// Sodium Bicarbonate Dust * 6
+// TODO: wrong stoichiometry, report to GCYL:CEu
+mods.gregtech.large_chemical_reactor.removeByInput(30, [metaitem('circuit.integrated').withNbt(['Configuration': 2]), metaitem('dustSodaAsh')], [fluid('water') * 1000])
+
+
+// LCR.recipeBuilder()
+//         .inputs(ore('dustSodaAsh') * 6)
+//         .fluidInputs(fluid('water') * 2000)
+//         .fluidInputs(fluid('epichlorhydrin') * 1000)
+//         .circuitMeta(2)
+//         .outputs(ore('dustSalt') * 2)
+//         .outputs(item('gtadditions:ga_dust', 194) * 6)
+//         .fluidOutputs([fluid('glycerol') * 1000])
+//         .duration(100)
+//         .EUt(1024)
+//         .buildAndRegister()
+
+// TODO: should TJCEu item recipes be moved to individual files?
+// crafting.addShaped(metaitem('tjceu:steam.motor.ulv'), [[ore('stickWood'), ore('plateBronze'), ore('stickIron')], [ore('plateBronze'), ore('stickIron'), ore('plateBronze')], [ore('ingotIron'), ore('plateBronze'), ore('stickWood')]])
+
+// furnace.addRecipe(ore('ingotGold'), ore('blockPreciousMetal'), 0.0)
+
+
+// extruder.recipeBuilder()
+//         .inputs(ore('blockTritanium') * 64)
+//         .inputs(ore('blockTritanium') * 64)
+//         .outputs(item('contenttweaker:certificate_of_being_a_noob'))
+//         .duration(30000000)
+//         .EUt(3)
+//         .buildAndRegister()
+
+// ASSEMBLER.recipeBuilder()
+//         .inputs(item('enderio:block_reservoir') * 4)
+//         .inputs(item('gregtech:mte', 987))
+//         .outputs(item('gcyl:gcyl_meta_item', 571))
+//         .duration(200)
+//         .EUt(110)
+//         .buildAndRegister()
+
+// ASSEMBLER.recipeBuilder()
+//         .inputs(item('enderio:block_reservoir') * 4)
+//         .inputs(metaitem('hull.hv'))
+//         .outputs(item('gcyl:gcyl_meta_item', 572))
+//         .duration(200)
+//         .EUt(500)
+//         .buildAndRegister()
+
+// ASSEMBLER.recipeBuilder()
+//         .inputs(item('enderio:block_reservoir') * 4)
+//         .inputs(metaitem('hull.ev'))
+//         .outputs(item('gcyl:gcyl_meta_item', 573))
+//         .duration(200)
+//         .EUt(2048)
+//         .buildAndRegister()
+
+// ASSEMBLER.recipeBuilder()
+//         .inputs(item('enderio:block_reservoir') * 4)
+//         .inputs(item('gregtech:mte', 990))
+//         .outputs(item('gcyl:gcyl_meta_item', 574))
+//         .duration(200)
+//         .EUt(8192)
+//         .buildAndRegister()
+
+// ASSEMBLER.recipeBuilder()
+//         .inputs(item('enderio:block_reservoir') * 4)
+//         .inputs(item('gregtech:mte', 991))
+//         .outputs(item('gcyl:gcyl_meta_item', 575))
+//         .duration(200)
+//         .EUt(32768)
+//         .buildAndRegister()
+
+
+// ASSEMBLER.recipeBuilder()
+//         .inputs(item('enderio:block_reservoir') * 4)
+//         .inputs(item('gregtech:mte', 992))
+//         .outputs(item('gcyl:gcyl_meta_item', 576))
+//         .duration(200)
+//         .EUt(131072)
+//         .buildAndRegister()
+
+// ASSEMBLER.recipeBuilder()
+//         .inputs(item('enderio:block_reservoir') * 4)
+//         .inputs(item('gregtech:mte', 993))
+//         .outputs(item('gcyl:gcyl_meta_item', 577))
+//         .duration(200)
+//         .EUt(524288)
+//         .buildAndRegister()
+
+// //Upgrade recipes
+
+// ASSEMBLER.recipeBuilder()
+//         .inputs(item('enderio:block_reservoir') * 4)
+//         .inputs(item('gregtech:mte', 987))
+//         .outputs(item('gcyl:gcyl_meta_item', 571))
+//         .duration(200)
+//         .EUt(110)
+//         .buildAndRegister()
+
+// ASSEMBLER.recipeBuilder()
+//         .inputs(item('enderio:block_reservoir') * 4)
+//         .inputs(item('gcyl:gcyl_meta_item', 572))
+//         .outputs(item('gcyl:gcyl_meta_item', 573))
+//         .duration(200)
+//         .EUt(2048)
+//         .buildAndRegister()
+
+// ASSEMBLER.recipeBuilder()
+//         .inputs(item('enderio:block_reservoir') * 4)
+//         .inputs(item('gcyl:gcyl_meta_item', 573))
+//         .outputs(item('gcyl:gcyl_meta_item', 574))
+//         .duration(200)
+//         .EUt(8192)
+//         .buildAndRegister()
+
+// ASSEMBLER.recipeBuilder()
+//         .inputs(item('enderio:block_reservoir') * 4)
+//         .inputs(item('gcyl:gcyl_meta_item', 574))
+//         .outputs(item('gcyl:gcyl_meta_item', 575))
+//         .duration(200)
+//         .EUt(32768)
+//         .buildAndRegister()
+
+
+// ASSEMBLER.recipeBuilder()
+//         .inputs(item('enderio:block_reservoir') * 4)
+//         .inputs(item('gcyl:gcyl_meta_item', 575))
+//         .outputs(item('gcyl:gcyl_meta_item', 576))
+//         .duration(200)
+//         .EUt(131072)
+//         .buildAndRegister()
+
+// ASSEMBLER.recipeBuilder()
+//         .inputs(item('enderio:block_reservoir') * 4)
+//         .inputs(item('gcyl:gcyl_meta_item', 576))
+//         .outputs(item('gcyl:gcyl_meta_item', 577))
+//         .duration(200)
+//         .EUt(524288)
+//         .buildAndRegister()
+
+
+// Utils.removeRecipeByOutput(assembler, [item('gcyl:gcyl_meta_item', 250) * 24], [], true)
+
+// ASSEMBLER.recipeBuilder()
+//         .inputs(ore('plateGraphene'))
+//         .inputs(ore('plateRuthenium'))
+//         .inputs(ore('wireFineNaquadahAlloy') * 8)
+//         .fluidInputs(fluid('soldering_alloy') * 144)
+//         .outputs(item('gcyl:gcyl_meta_item', 250) * 24)
+//         .duration(80)
+//         .EUt(7904)
+//         .buildAndRegister()
+
+
+crafting.removeByOutput(metaitem('gcym:large_circuit_assembler'))
+
+// crafting.addShaped(item('gregtech:machine:2004'), [[item('gregtech:multiblock_casing', 2), item('gregtech:meta_item_1:32655'), item('gregtech:multiblock_casing', 2)], [ore('circuitMaster'), item('gregtech:mte', 991), ore('circuitMaster')], [item('gregtech:multiblock_casing', 2), item('gregtech:meta_item_1:32655'), item('gregtech:multiblock_casing', 2)]])

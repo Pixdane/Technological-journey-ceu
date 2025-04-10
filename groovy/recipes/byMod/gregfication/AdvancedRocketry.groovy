@@ -491,3 +491,58 @@ EXTRUDER.recipeBuilder()
         .duration(600)
         .EUt(1048)
         .buildAndRegister()
+
+//TODO: from OtherRecipes
+// furnace.setFuel(item('advancedrocketry:charcoallog'), 640000)
+
+
+// furnace.removeByOutput(item('libvulpes:productingot', 7))
+// furnace.removeByOutput(item('libvulpes:productingot', 6))
+// furnace.removeByOutput(item('libvulpes:productingot', 3))
+// furnace.removeByOutput(item('libvulpes:productingot', 4))
+// furnace.removeByOutput(item('libvulpes:productingot', 5))
+// furnace.removeByOutput(item('libvulpes:productingot', 9))
+// furnace.removeByOutput(item('libvulpes:productingot', 10))
+// furnace.removeByOutput(ore('ingotTitaniumIridium'))
+// furnace.removeByOutput(ore('ingotTitaniumAluminide'))
+
+
+// CENTRIFUGE.recipeBuilder()
+//         .inputs(ore('turfMoon'))
+//         .outputs(ore('dustSmallSilicon'))
+//         .chancedOutput(ore('dustSmallSilicon'), 3000, 400)
+//         .fluidOutputs(fluid('helium3') * 40)
+//         .duration(120)
+//         .EUt(30)
+//         .buildAndRegister()
+
+// CENTRIFUGE.recipeBuilder()
+//         .inputs(ore('turfMoon'))
+//         .outputs(ore('dustSmallSilicon'))
+//         .chancedOutput(ore('dustSmallSilicon'), 3000, 400)
+//         .fluidOutputs(fluid('helium3') * 40)
+//         .duration(120)
+//         .EUt(30)
+//         .buildAndRegister()
+
+// CENTRIFUGE.recipeBuilder()
+//         .inputs(item('advancedrocketry:electricmushroom'))
+//         .fluidOutputs(fluid('methane') * 500)
+//         .duration(100)
+//         .EUt(30)
+//         .buildAndRegister()
+
+// TODO: register GT material for this?
+// MACERATOR.recipeBuilder()
+//         .inputs(item('libvulpes:ore0'))
+//         .outputs(item('libvulpes:productdust') * 2)
+//         .duration(120)
+//         .EUt(17)
+//         .buildAndRegister()
+
+// ELECTROLYZER.recipeBuilder()
+//         .inputs(item('libvulpes:productdust'))
+//         .outputs(ore('dustLithium') * 2)
+//         .duration(120)
+//         .EUt(17)
+//         .buildAndRegister()
