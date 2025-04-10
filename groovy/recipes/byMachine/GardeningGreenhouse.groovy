@@ -20,6 +20,8 @@ def plants = [
         item('minecraft:double_plant', 5),
         item('minecraft:waterlily'),
         item('minecraft:dye', 3),
+        item('randomthings:glowingmushroom'),
+
 ]
 
 // TODO: more fertilizers?
@@ -44,3 +46,23 @@ plants.forEach {
             .EUt(14)
             .buildAndRegister()
 }
+
+GARDEING_GREENHOUSE.recipeBuilder()
+        .circuitMeta(3)
+        .inputs(item('minecraft:brown_mushroom'))
+        .inputs(ore('dustGlowstone'))
+        .fluidInputs(fluid('water') * 2000)
+        .outputs(item('randomthings:glowingmushroom'))
+        .duration(160)
+        .EUt(14)
+        .buildAndRegister();
+
+GARDEING_GREENHOUSE.recipeBuilder()
+        .circuitMeta(3)
+        .inputs(item('minecraft:red_mushroom'))
+        .inputs(ore('dustGlowstone'))
+        .fluidInputs(fluid('water') * 2000)
+        .outputs(item('randomthings:glowingmushroom'))
+        .duration(160)
+        .EUt(14)
+        .buildAndRegister();
