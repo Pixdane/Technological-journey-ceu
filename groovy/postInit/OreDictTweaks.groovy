@@ -117,7 +117,7 @@ ore_dict.remove('gearTin', item('thermalfoundation:material', 257))
 ore_dict.remove('gearSilver', item('thermalfoundation:material', 258))
 ore_dict.remove('gearLead', item('thermalfoundation:material', 259))
 ore_dict.remove('gearAluminum', item('thermalfoundation:material', 260))
-ore_dict.remove('gearNickel', item('thermalfoundation:material',261))
+ore_dict.remove('gearNickel', item('thermalfoundation:material', 261))
 ore_dict.remove('gearPlatinum', item('thermalfoundation:material', 262))
 ore_dict.remove('gearIridium', item('thermalfoundation:material', 263))
 ore_dict.remove('gearSteel', item('thermalfoundation:material', 288))
@@ -184,7 +184,6 @@ ore_dict.remove('stickCopper', item('libvulpes:productrod', 4))
 ore_dict.remove('stickSteel', item('libvulpes:productrod', 6))
 ore_dict.remove('stickTitanium', item('libvulpes:productrod', 7))
 ore_dict.remove('stickIridium', item('libvulpes:productrod', 10))
-
 
 
 // //Hide AR stuff

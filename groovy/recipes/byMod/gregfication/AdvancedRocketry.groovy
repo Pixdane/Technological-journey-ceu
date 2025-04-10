@@ -85,7 +85,7 @@ mods.jei.ingredient.yeet(
         item('libvulpes:productsheet', 6),
         item('libvulpes:productsheet', 7),
         item('libvulpes:productsheet', 9),
-        
+
         item('libvulpes:coil0', 2),
         item('libvulpes:coil0', 4),
         item('libvulpes:coil0', 7),
@@ -221,7 +221,7 @@ crafting.addShaped(item('advancedrocketry:fueltank') * 2, [
         [ore('plateStainlessSteel'), null, ore('plateStainlessSteel')],
         [ore('stickStainlessSteel'), ore('plateStainlessSteel'), ore('stickStainlessSteel')]
 ])
- 
+
 crafting.addShaped(item('advancedrocketry:warpmonitor'), [
         [ore('plateStainlessSteel'), metaitem('sensor.hv'), ore('plateStainlessSteel')],
         [metaitem('sensor.hv'), metaitem('hull.hv'), metaitem('sensor.hv')],

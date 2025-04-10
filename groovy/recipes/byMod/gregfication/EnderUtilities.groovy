@@ -147,43 +147,43 @@ crafting.addShaped(item('enderutilities:enderpart', 51), [
 ])
 
 crafting.addShaped(item('enderutilities:storage_0', 6), [
-        [ ore('circuitZpm')],
-        [ item('enderutilities:storage_0', 5)],
-        [ ore('circuitZpm')]
+        [ore('circuitZpm')],
+        [item('enderutilities:storage_0', 5)],
+        [ore('circuitZpm')]
 ])
 
 crafting.addShaped(item('enderutilities:storage_0', 5), [
-        [ ore('circuitIv')],
-        [ item('enderutilities:storage_0', 4)],
-        [ ore('circuitIv')]
+        [ore('circuitIv')],
+        [item('enderutilities:storage_0', 4)],
+        [ore('circuitIv')]
 ])
 
 crafting.addShaped(item('enderutilities:storage_0', 4), [
-        [ ore('circuitEv')],
-        [ item('enderutilities:storage_0', 3)],
-        [ ore('circuitEv')]
+        [ore('circuitEv')],
+        [item('enderutilities:storage_0', 3)],
+        [ore('circuitEv')]
 ])
 
 crafting.addShaped(item('enderutilities:storage_0', 3), [
-        [ ore('circuitHv')],
-        [ metaitem('crate.stainless_steel')],
-        [ ore('circuitHv')]
+        [ore('circuitHv')],
+        [metaitem('crate.stainless_steel')],
+        [ore('circuitHv')]
 ])
 
 crafting.addShaped(item('enderutilities:storage_0', 2), [
-        [ ore('circuitIv')],
-        [ item('enderutilities:storage_0', 1)],
-        [ item('enderutilities:storage_0', 1)]
+        [ore('circuitIv')],
+        [item('enderutilities:storage_0', 1)],
+        [item('enderutilities:storage_0', 1)]
 ])
 
 crafting.addShaped(item('enderutilities:storage_0', 1), [
-        [ ore('circuitEv')],
-        [ item('enderutilities:storage_0')]
+        [ore('circuitEv')],
+        [item('enderutilities:storage_0')]
 ])
 
 crafting.addShaped(item('enderutilities:storage_0'), [
-        [ ore('circuitHv')],
-        [ metaitem('crate.stainless_steel')]
+        [ore('circuitHv')],
+        [metaitem('crate.stainless_steel')]
 ])
 
 crafting.addShaped(item('enderutilities:handybag', 1), [
