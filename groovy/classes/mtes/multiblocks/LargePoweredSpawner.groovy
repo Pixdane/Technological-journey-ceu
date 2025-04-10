@@ -48,8 +48,7 @@ class LargePoweredSpawner extends RecipeMapMultiblockController {
                 .where('E', states(blockstate('enderio:block_alloy', 'variant=end_steel')))
                 .where('M', states(blockstate('enderio:block_decoration1', 'type=type00')))
                 .where('G', states(blockstate('gregtech:multiblock_casing', 'active=false', 'variant=grate')))
-//                .where('F', frames(material('protactinium')))    TODO: Protactinium frame
-                .where('F', frames(material('tjceu:soularium')))
+                .where('F', frames(material('protactinium')))
                 .where(' ', this.any())
                 .build()
     }

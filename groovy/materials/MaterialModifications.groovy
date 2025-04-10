@@ -13,6 +13,8 @@ class MaterialModifications {
 
         material('nether_star').addFlags('no_smelting')
 
+        material('protactinium').addFlags('generate_frame')
+
         //no_replication
         material('gcyl:adamantium').addFlags('no_replication')
         material('gcyl:vibranium').addFlags('no_replication')
