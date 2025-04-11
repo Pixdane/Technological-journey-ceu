@@ -21,7 +21,7 @@ ASSLINE.recipeBuilder()
         .inputs(metaitem('robot.arm.luv') * 2)
         .inputs(metaitem('fusion_reactor.zpm'))
         .fluidInputs(fluid('dubnium') * 1296)
-// .fluidInputs(fluid('californium') * 2592) TODO: Californium
+        .fluidInputs(fluid('californium') * 2592)
         .outputs(metaitem('tjceu:armor_infuser'))
         .duration(600)
         .EUt(7864329)   // TODO: magic number
@@ -67,8 +67,7 @@ ASSLINE.recipeBuilder()
 // Large Powered Spawner
 ASSLINE.recipeBuilder()
         .inputs(item('enderio:block_powered_spawner') * 16)
-// .inputs(ore('plateCurium') * 10) TODO: regular curium
-        .inputs(ore('plateCurium247') * 12)
+        .inputs(ore('plateCurium') * 12)
         .inputs(ore('cableGtQuadrupleNiobiumTitanium') * 8)
         .inputs(item('tjceu:multiblock_casing', 3) * 4)
         .inputs(ore('circuitZpm') * 2)
@@ -89,8 +88,7 @@ ASSLINE.recipeBuilder()
 // Large Vial Processor
 ASSLINE.recipeBuilder()
         .inputs(metaitem('tjceu:vial_processor.hv') * 16)
-// .inputs(ore('plateCurium') * 10) TODO: regular curium
-        .inputs(ore('plateCurium247') * 12)
+        .inputs(ore('plateCurium') * 12)
         .inputs(ore('cableGtQuadrupleNiobiumTitanium') * 8)
         .inputs(item('tjceu:multiblock_casing', 3) * 4)
         .inputs(ore('circuitZpm') * 2)
