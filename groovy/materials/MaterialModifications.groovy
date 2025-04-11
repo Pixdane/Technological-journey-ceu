@@ -1,3 +1,6 @@
+import gregtech.api.fluids.FluidBuilder
+import gregtech.api.fluids.store.FluidStorageKeys
+import gregtech.api.unification.material.properties.FluidProperty
 import gregtech.api.unification.material.properties.PropertyKey
 import gregtech.api.unification.ore.OrePrefix
 
@@ -14,6 +17,8 @@ class MaterialModifications {
         material('nether_star').addFlags('no_smelting')
 
         material('protactinium').addFlags('generate_frame')
+
+        material('curium').addFlags('generate_plate')
 
         //no_replication
         material('gcyl:adamantium').addFlags('no_replication')
@@ -34,7 +39,55 @@ class MaterialModifications {
 
         material('iron').addBlastProperty(1811)
 
+        // For periodic table
+        material('lithium').addIngot()
         material('carbon').addIngot()
+        material('sodium').addIngot()
+        material('magnesium').addIngot()
+        material('potassium').addIngot()
+        material('scandium').addIngot()
+        material('germanium').addIngot()
+        material('rubidium').addIngot()
+        material('strontium').addIngot()
+        material('technetium').addIngot()
+        material('cadmium').addIngot()
+        material('tellurium').addIngot()
+        material('caesium').addIngot()
+        material('polonium').addIngot()
+        material('francium').addIngot()
+        material('radium').addIngot()
+        material('meitnerium').addIngot()
+        material('roentgenium').addIngot()
+        material('copernicium').addIngot()
+        material('nihonium').addIngot()
+        material('moscovium').addIngot()
+        material('livermorium').addIngot()
+        material('lanthanum').addIngot()
+        material('praseodymium').addIngot()
+        material('promethium').addIngot()
+        material('gadolinium').addIngot()
+        material('terbium').addIngot()
+        material('dysprosium').addIngot()
+        material('holmium').addIngot()
+        material('erbium').addIngot()
+        material('thulium').addIngot()
+        material('ytterbium').addIngot()
+        material('lutetium').addIngot()
+        material('actinium').addIngot()
+        material('uranium').addIngot()
+        material('protactinium').addIngot()
+        material('neptunium').addIngot()
+        material('curium').addIngot()
+        material('berkelium').addIngot()
+        material('einsteinium').addIngot()
+        material('fermium').addIngot()
+        material('mendelevium').addIngot()
+        material('nobelium').addIngot()
+        material('lawrencium').addIngot()
+
+        def property = new FluidProperty();
+        property.enqueueRegistration(FluidStorageKeys.LIQUID, new FluidBuilder().temperature(1173))
+        material('californium').setProperty(PropertyKey.FLUID, property)
 
         // Ore
         material('nether_star').addOre(true)
