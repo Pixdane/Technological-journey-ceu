@@ -85,7 +85,7 @@ class MaterialModifications {
         material('nobelium').addIngot()
         material('lawrencium').addIngot()
 
-        def property = new FluidProperty();
+        def property = new FluidProperty()
         property.enqueueRegistration(FluidStorageKeys.LIQUID, new FluidBuilder().temperature(1173))
         material('californium').setProperty(PropertyKey.FLUID, property)
 
@@ -136,6 +136,16 @@ class MaterialModifications {
         OrePrefix.dust.setIgnored(material('gcyl:pyrotheum'))
 
         OrePrefix.dust.setIgnored(material('gcyl:cryotheum'))
+
+        // Colors
+        material('holmium').setIconSet('SHINY')
+        material('holmium').setMaterialRGB(0xA25F79)
+        material('promethium').setMaterialRGB(0x6E1D26)
+        material('lawrencium').setMaterialRGB(0x95C278)
+        material('terbium').setMaterialRGB(0xBABBAC)
+        material('dysprosium').setMaterialRGB(0xCCBDFA3)
+        material('erbium').setMaterialRGB(0xEAB8C8)
+        material('thulium').setMaterialRGB(0xCABFBE)
 
     }
 
