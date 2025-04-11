@@ -6,12 +6,8 @@
     "betterquesting:10": {
       "desc:8": "tjceu.quest.db.831.desc",
       "icon:10": {
-        "Damage:2": 4235,
-        "id:8": "betterquesting:placeholder",
-        "tag:10": {
-          "orig_id:8": "gregtech:machine",
-          "orig_meta:3": 4235
-        }
+        "Damage:2": 3000,
+        "id:8": "tjceu:mte"
       },
       "name:8": "tjceu.quest.db.831.title",
       "visibility:8": "ALWAYS"
@@ -23,12 +19,8 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 4235,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "gregtech:machine",
-            "orig_meta:3": 4235
-          }
+          "Damage:2": 3000,
+          "id:8": "tjceu:mte"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -38,12 +30,8 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 4237,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "gregtech:machine",
-            "orig_meta:3": 4237
-          }
+          "Damage:2": 3001,
+          "id:8": "tjceu:mte"
         }
       },
       "taskID:8": "bq_standard:retrieval"

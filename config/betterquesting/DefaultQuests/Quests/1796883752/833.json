@@ -1,4 +1,7 @@
 {
+  "preRequisites:11": [
+    572
+  ],
   "properties:10": {
     "betterquesting:10": {
       "desc:8": "tjceu.quest.db.833.desc",

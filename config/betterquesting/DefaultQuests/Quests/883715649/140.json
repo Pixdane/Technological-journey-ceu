@@ -26,26 +26,12 @@
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
-      "index:3": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 31,
-          "id:8": "gcyl:gcyl_metal_casing_2"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "2:10": {
       "index:3": 2,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 1,
-          "Damage:2": 15,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "gtadditions:ga_multiblock_casing",
-            "orig_meta:3": 15
-          }
+          "Count:3": 50,
+          "Damage:2": 9,
+          "id:8": "gcym:large_multiblock_casing"
         }
       },
       "taskID:8": "bq_standard:retrieval"

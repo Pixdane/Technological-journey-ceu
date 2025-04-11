@@ -6,12 +6,8 @@
     "betterquesting:10": {
       "desc:8": "tjceu.quest.db.913.desc",
       "icon:10": {
-        "Damage:2": 2529,
-        "id:8": "betterquesting:placeholder",
-        "tag:10": {
-          "orig_id:8": "gregtech:machine",
-          "orig_meta:3": 2529
-        }
+        "Damage:2": 21,
+        "id:8": "gcym:mte"
       },
       "name:8": "tjceu.quest.db.913.title",
       "visibility:8": "ALWAYS"
@@ -23,12 +19,8 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 2529,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "gregtech:machine",
-            "orig_meta:3": 2529
-          }
+          "Damage:2": 21,
+          "id:8": "gcym:mte"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -37,20 +29,9 @@
       "index:3": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 41,
-          "Damage:2": 5,
-          "id:8": "gcyl:gcyl_metal_casing_1"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "2:10": {
-      "index:3": 2,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 2,
-          "Damage:2": 2,
-          "id:8": "gregtech:turbine_casing"
+          "Count:3": 31,
+          "Damage:2": 3,
+          "id:8": "gcym:large_multiblock_casing"
         }
       },
       "taskID:8": "bq_standard:retrieval"
