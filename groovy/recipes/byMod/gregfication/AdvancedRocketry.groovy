@@ -546,3 +546,11 @@ EXTRUDER.recipeBuilder()
 //         .duration(120)
 //         .EUt(17)
 //         .buildAndRegister()
+
+
+// FORGE_HAMMER.recipeBuilder()
+//         .inputs(item('advancedrocketry:charcoallog'))
+//         .outputs(ore('charcoal,gemCharcoal,itemCharcoal') * 4)
+//         .duration(100)
+//         .EUt(30)
+//         .buildAndRegister()

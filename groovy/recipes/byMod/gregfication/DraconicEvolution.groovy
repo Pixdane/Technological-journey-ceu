@@ -375,3 +375,13 @@ crafting.shapedBuilder()
         .key('B', item('draconicadditions:chaotic_boots'))
         .output(item('draconicadditions:chaos_stabilizer_core'))
         .register()
+//TODO: from OtherRecipes
+
+// crafting.removeByOutput(item('draconicevolution:diss_enchanter'))
+// crafting.addShaped(item('draconicevolution:diss_enchanter'), [[ore('gemEmerald'), ore('plateDoubleAluminium'), ore('gemEmerald')], [ore('plateDoubleAluminium'), item('minecraft:enchanting_table'), ore('plateDoubleAluminium')], [item('minecraft:bookshelf'), item('minecraft:bookshelf'), item('minecraft:bookshelf')]])
+
+
+// Draconium Dust
+// furnace.removeByOutput(item('gregtech:meta_item_1:2518'))
+
+// crafting.addShaped(item('draconicevolution:grinder'), [[ore('plateNaquadahAlloy'), item('gregtech:meta_item_2', 47), ore('plateNaquadahAlloy')], [item('gregtech:meta_item_2', 47), item('gregtech:mte', 990), item('gregtech:meta_item_1', 206)], [ore('plateNaquadahAlloy'), item('gregtech:meta_item_2', 47), ore('plateNaquadahAlloy')]])

@@ -1,4 +1,5 @@
 //TODO: from OtherRecipes
+
 // Utils.removeRecipeByOutput(tower, [], [fluid('sulfuric_heavy_fuel')], false) //triple all values-
 // DISTILLATION_TOWER.recipeBuilder()
 //         .fluidInputs(fluid('oil_heavy') * 4500)
@@ -24,3 +25,9 @@
 //         .duration(400)
 //         .EUt(10)
 //         .buildAndRegister()
+
+
+// Utils.removeRecipeByOutput(centrifuge, [], [fluid('oil') * 100], true)
+// Utils.removeRecipeByOutput(large_centrifuge, [], [fluid('oil') * 100], true)
+
+// distillery.findRecipe(24, [item('gregtech:meta_item_1:32766').withNbt({ Configuration: 2 })], [fluid('oil_light') * 150]).remove()

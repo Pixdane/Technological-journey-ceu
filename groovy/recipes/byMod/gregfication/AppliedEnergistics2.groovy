@@ -1101,5 +1101,17 @@ crafting.addShaped(item('appliedenergistics2:quartz_glass') * 4, [
 ])
 
 //TODO: from OtherRecipes
+
 // crafting.addShapeless(item('appliedenergistics2:part', 221), [item('appliedenergistics2:part', 220), ore('gemLapis')])
 // crafting.addShapeless(item('appliedenergistics2:part', 220), [item('appliedenergistics2:part', 221)])
+
+// LATHE.recipeBuilder()
+//         .inputs(ore('screwIron'))
+//         .outputs(item('appliedenergistics2:part', 120) * 10)
+//         .duration(100)
+//         .EUt(16)
+//         .buildAndRegister()
+
+
+// crafting.removeByOutput(item('ae2stuff:grower'))
+// crafting.addShaped(item('ae2stuff:grower'), [[item('minecraft:glass'), ore('rotorTin'), item('minecraft:glass')], [ore('crystalFluix'), item('gregtech:meta_item_1:32600'), ore('crystalFluix')], [ore('cableGtSingleTin'), item('gregtech:mte', 986), ore('cableGtSingleTin')]])

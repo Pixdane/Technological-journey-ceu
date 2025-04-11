@@ -265,3 +265,36 @@ MIXER.recipeBuilder()
 
 // furnace.removeByOutput(item('thermalfoundation:material', 833), item('gregtech:meta_item_1', 438))
 // crafting.addShapeless(item('thermalfoundation:material', 657), [item('architecturecraft:sawblade')])
+
+
+// furnace.removeByOutput(ore('ingotSignalum'))
+// furnace.removeByOutput(ore('ingotLumium'))
+// crafting.addShaped(ore('dustAerotheum'), [[null, ore('dustSulfur'), null], [ore('dustSulfur'), ore('dustBlaze,itemBlazePowder'), ore('dustSulfur')], [null, ore('dustSulfur'), null]])
+
+
+// extruder.recipeBuilder()
+//         .inputs(ore('ingotSignalum') * 4)
+//         .notConsumable(item('gregtech:meta_item_1', 52))
+//         .outputs(ore('gearSignalum'))
+//         .duration(380)
+//         .EUt(30)
+//         .buildAndRegister()
+
+
+// Utils.removeRecipeByOutput(fluid_extractor, [], [fluid('pyrotheum') * 250], true)
+
+// EXTRACTOR.recipeBuilder()
+//         .inputs(ore('dustPyrotheum'))
+//         .fluidOutputs(fluid('pyrotheum') * 1000)
+//         .EUt(24)
+//         .duration(35)
+//         .buildAndRegister()
+
+// Utils.removeRecipeByOutput(fluid_extractor, [], [fluid('cryotheum') * 250], true)
+
+// EXTRACTOR.recipeBuilder()
+//         .inputs(ore('dustCryotheum'))
+//         .fluidOutputs(fluid('cryotheum') * 1000)
+//         .EUt(24)
+//         .duration(35)
+//         .buildAndRegister()

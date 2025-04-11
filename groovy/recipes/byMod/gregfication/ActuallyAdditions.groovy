@@ -266,3 +266,16 @@ crafting.addShaped(tjceu('block_laser_relay_fluids'), item('actuallyadditions:bl
         [item('actuallyadditions:item_crystal', 1), item('actuallyadditions:item_misc', 8), item('actuallyadditions:item_crystal', 1)],
         [item('minecraft:obsidian'), item('minecraft:lapis_block'), item('minecraft:obsidian')]
 ])
+
+//TODO: from OtherRecipes
+
+// Basic Precision Laser Engraver TODO:?????
+// crafting.addShapeless(item('gregtech:mte', 560), [item('actuallyadditions:block_atomic_reconstructor')])
+
+
+// EXTRACTOR.recipeBuilder()
+//         .inputs(item('actuallyadditions:item_solidified_experience') * 64)
+//         .fluidOutputs(fluid('xpjuice') * 10240)
+//         .duration(100)
+//         .EUt(30)
+//         .buildAndRegister()

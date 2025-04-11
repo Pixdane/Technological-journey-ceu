@@ -68,3 +68,14 @@
 //         .duration(100)
 //         .EUt(30)
 //         .buildAndRegister()
+
+
+// distillery.findRecipe(100, [item('gregtech:meta_item_1:32766').withNbt({ Configuration: 0 })], [fluid('biomass') * 2000]).remove()
+
+// DISTILLERY.recipeBuilder()
+//         .fluidInputs(fluid('biomass') * 1000)
+//         .fluidOutputs(fluid('ethanol') * 600)
+//         .circuitMeta(0)
+//         .EUt(16)
+//         .duration(80)
+//         .buildAndRegister()
