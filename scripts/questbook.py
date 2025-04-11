@@ -200,7 +200,7 @@ def build(args):
     if (knowKeys > 0):
         print("Already knew %s keys " % knowKeys)
     
-    with open(langFile, "w") as file:
+    with open(langFile, "w", encoding="utf-8") as file:
         for i in sorted(questKeys, key=key):
             file.write(i + "=" + questKeys[i] + "\n")
 

@@ -1,9 +1,12 @@
 {
+  "preRequisites:11": [
+    1326
+  ],
   "properties:10": {
     "betterquesting:10": {
       "desc:8": "tjceu.quest.db.1187.desc",
       "icon:10": {
-        "Damage:2": 5,
+        "Damage:2": 6,
         "id:8": "gcyl:wire_coil"
       },
       "name:8": "tjceu.quest.db.1187.title",
@@ -16,7 +19,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 5,
+          "Damage:2": 6,
           "id:8": "gcyl:wire_coil"
         }
       },

@@ -7,12 +7,8 @@
     "betterquesting:10": {
       "desc:8": "tjceu.quest.db.1060.desc",
       "icon:10": {
-        "Damage:2": 2562,
-        "id:8": "betterquesting:placeholder",
-        "tag:10": {
-          "orig_id:8": "gregtech:machine",
-          "orig_meta:3": 2562
-        }
+        "Damage:2": 1041,
+        "id:8": "gregtech:mte"
       },
       "name:8": "tjceu.quest.db.1060.title",
       "visibility:8": "ALWAYS"
@@ -40,12 +36,8 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 2562,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "gregtech:machine",
-            "orig_meta:3": 2562
-          }
+          "Damage:2": 1041,
+          "id:8": "gregtech:mte"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -54,64 +46,19 @@
       "index:3": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 64,
+          "Count:3": 14,
+          "Damage:2": 11,
+          "id:8": "gregtech:metal_casing"
+        },
+        "1:10": {
+          "Count:3": 57,
+          "Damage:2": 2,
+          "id:8": "gregtech:transparent_casing"
+        },
+        "2:10": {
+          "Count:3": 18,
           "Damage:2": 1,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "gtadditions:ga_transparent_casing",
-            "orig_meta:3": 1
-          }
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "2:10": {
-      "index:3": 2,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 36,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "gtadditions:ga_cell_casing",
-            "orig_meta:3": 0
-          }
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "3:10": {
-      "index:3": 3,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 1213,
-          "id:8": "gregtech:mte"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "4:10": {
-      "index:3": 4,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 48,
-          "Damage:2": 13,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "gtadditions:ga_metal_casing_1",
-            "orig_meta:3": 13
-          }
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "5:10": {
-      "index:3": 5,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 306,
-          "id:8": "gregtech:meta_item_1"
+          "id:8": "gregtech:battery_block"
         }
       },
       "taskID:8": "bq_standard:retrieval"
