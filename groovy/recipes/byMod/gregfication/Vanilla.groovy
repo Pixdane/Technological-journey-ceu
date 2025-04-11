@@ -1,5 +1,3 @@
-package gregfication
-
 ASSEMBLER = recipemap('assembler')
 
 // Recipe removals
