@@ -21,7 +21,7 @@
 - [ ] Applied Energistics 2
 - [ ] Space & Dimensions
 - [x] Progression
-- [ ] Periodic Table
+- [x] Periodic Table
 
 ### Game Features
 
