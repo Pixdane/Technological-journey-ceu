@@ -16,19 +16,14 @@
   "questID:3": 831,
   "tasks:9": {
     "0:10": {
+      "entryLogic:8": "OR",
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 3000,
           "id:8": "tjceu:mte"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
-      "index:3": 1,
-      "requiredItems:9": {
-        "0:10": {
+        },
+        "1:10": {
           "Count:3": 1,
           "Damage:2": 3001,
           "id:8": "tjceu:mte"
