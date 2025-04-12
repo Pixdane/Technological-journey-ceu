@@ -3,7 +3,10 @@
 
 //  TODO: Nuclear stuff
 // //naq
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 // nuclear_reactor.recipeBuilder()
 //         .inputs(ore('stickNaquadah') * 2)
 //         .blastFurnaceTemp(1000)

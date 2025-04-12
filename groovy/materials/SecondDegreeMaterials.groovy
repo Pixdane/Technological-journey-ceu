@@ -50,6 +50,16 @@ class SecondDegreeMaterials {
                 .build()
 
         Fordnium.setFormula('RfDb', true)
+
+        FermentationBase = new Material.Builder(1006, tjId('fermentation_base'))
+                .liquid()
+                .color(0x3D5917)
+                .build()
+
+        Juice = new Material.Builder(1007, tjId('juice'))
+                .liquid()
+                .color(0xA8C972)
+                .build()
     }
 
 }

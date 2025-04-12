@@ -1,4 +1,6 @@
 ASSEMBLER = recipemap('assembler')
+MIXER = recipemap('mixer')
+EBF = recipemap('electric_blast_furnace')
 
 // LV
 ASSEMBLER.recipeBuilder()
@@ -80,51 +82,33 @@ ASSEMBLER.recipeBuilder()
         .EUt(524288)
         .buildAndRegister()
 
-//TODO: from OtherRecipes
+mods.gregtech.wiremill.removeByInput(7, [item('gcyl:meta_ingot', 1158), metaitem('circuit.integrated').withNbt(['Configuration': 1])], null)
+mods.gregtech.extruder.removeByInput(42, [item('gcyl:meta_ingot', 1158), metaitem('shape.extruder.wire')], null)
 
-// Utils.removeRecipeByOutput(wiremill, [item('gregtech:cable', 516)], [], false)
-// Utils.removeRecipeByOutput(extruder, [item('gregtech:cable', 516)], [], false)
+MIXER.recipeBuilder()
+        .inputs(ore('dustGallium') * 2)
+        .inputs(ore('dustSolderingAlloy') * 10)
+        .outputs(item('gcyl:wire_single', 1145) * 12)
+        .duration(240)
+        .EUt(30)
+        .buildAndRegister()
 
+EBF.recipeBuilder()
+        .inputs(item('gcyl:wire_single', 1145))
+        .outputs(item('gcyl:meta_ingot', 1145))
+        .blastFurnaceTemp(1800) //this is a minimal temperature at which the item will be smelted
+        .duration(40)
+        .EUt(16)
+        .buildAndRegister()
 
-// MIXER.recipeBuilder()
-//         .inputs(ore('dustGallium') * 2)
-//         .inputs(ore('dustSolderingAlloy') * 10)
-//         .outputs(item('gregtech:meta_item_1:2517') * 12)
-//         .duration(240)
-//         .EUt(30)
-//         .buildAndRegister()
+furnace.removeByOutput(item('gcyl:meta_ingot', 1158))
+mods.futuremc.blast_furnace.removeByOutput(item('gcyl:meta_ingot', 1158))
+//furnace.removeByOutput(item('gcyl:meta_ingot', 1145))
 
-// EBF.recipeBuilder()
-//         .inputs(item('gregtech:meta_item_1:2517'))
-//         .outputs(item('gregtech:meta_item_1:10517'))
-//         .blastFurnaceTemp(1800) //this is a minimal temperature at which the item will be smelted
-//         .duration(40)
-//         .EUt(16)
-//         .buildAndRegister()
-
-// ASSEMBLER.recipeBuilder()
-//         .inputs(item('gregtech:cable', 517) * 3)
-//         .inputs(metaitem('electric.pump.lv') * 2)
-//         .inputs(item('gregtech:fluid_pipe', 184))
-//         .circuitMeta(1)
-//         .fluidInputs(fluid('nitrogen') * 1000)
-//         .outputs(item('gregtech:cable', 516) * 3)
-//         .duration(350)
-//         .EUt(30)
-//         .buildAndRegister()
-
-
-// furnace.removeByOutput(ore('ingotLvSuperconductor'))
-// furnace.removeByOutput(item('gregtech:meta_item_1:10517'))
-
-// EBF.recipeBuilder()
-//         .inputs(ore('dustLvSuperconductor'))
-//         .outputs(ore('ingotLvSuperconductor'))
-//         .blastFurnaceTemp(1800) //this is a minimal temperature at which the item will be smelted
-//         .duration(350)
-//         .EUt(500)
-//         .buildAndRegister()
-
-
-// chemreactor.findRecipe(1920, [item('gregtech:meta_item_1', 569), item('gregtech:cable:5354') * 8], null).remove()
-// large_chem.findRecipe(1920, [item('gregtech:meta_item_1', 569), item('gregtech:cable:5354') * 8], null).remove()
+EBF.recipeBuilder()
+        .inputs(ore('dustLvSuperconductor'))
+        .outputs(item('gcyl:meta_ingot', 1158))
+        .blastFurnaceTemp(1800) //this is a minimal temperature at which the item will be smelted
+        .duration(350)
+        .EUt(500)
+        .buildAndRegister()

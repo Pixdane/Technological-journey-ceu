@@ -17,6 +17,8 @@ tjceu.material.naquadric_fuel_catalyst=Naquadric Fuel Catalyst
 tjceu.material.eternity_preparation=Eternity Preparation
 tjceu.material.starlight_complex=Starlight Complex
 tjceu.material.eternity=Eternity
+tjceu.material.fermentation_base=Fermentation Base
+tjceu.material.juice=Fruit Juice
 
 # MetaPrefixItem Name Overrides
 item.tjceu.material.octaazacubane.dust=Metastable Octaazacubane Booster
@@ -31,6 +33,7 @@ metaitem.crystal.refined_chaos.name=Refined Chaos Crystal
 metaitem.crystal.infinity.name=Infinity Crystal
 metaitem.crystal.eternity.name=Eternity Crystal
 metaitem.ban.certificate.name=Certificate of Being a Noob
+metaitem.ban.certificate.tooltip=§1Image by Emperdog
 
 # Blocks
 tile.multiblock_casing.draconic.name=Draconic Machine Casing
