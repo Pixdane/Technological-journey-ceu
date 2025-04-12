@@ -37,6 +37,17 @@ FERMENTER.recipeBuilder()
         .buildAndRegister()
 
 // TOOD: juice (GTFO?)
+// Melon recipe conflict (GTFO)
+mods.gregtech.extractor.removeByInput(2, [item('minecraft:melon')], null)
+
+EXTRACTOR.recipeBuilder()
+        .inputs(item('minecraft:melon'))
+        .fluidOutputs(fluid('gtfo_melon_extract') * 50)
+        .circuitMeta(0)
+        .duration(10)
+        .EUt(2)
+        .buildAndRegister()
+
 EXTRACTOR.recipeBuilder()
         .inputs(item('minecraft:melon'))
         .fluidOutputs(fluid('juice') * 50)
