@@ -26,6 +26,7 @@ metaitem.steam.motor.ulv.name=Steam Motor (ULV)
 metaitem.steam.piston.ulv.name=Steam Piston (ULV)
 metaitem.conveyor.module.ulv.name=Steam Conveyor Module (ULV)
 metaitem.steam.pump.ulv.name=Steam Pump (ULV)
+metaitem.solar_panel.max.name=Supra Solar Panel (MAX)
 metaitem.shard.refined_chaos.name=Refined Chaos Shard
 metaitem.crystal.refined_chaos.name=Refined Chaos Crystal
 metaitem.crystal.infinity.name=Infinity Crystal

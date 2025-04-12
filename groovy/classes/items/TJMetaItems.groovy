@@ -3,6 +3,7 @@ import gregtech.api.items.metaitem.MetaItem
 import gregtech.api.items.metaitem.StandardMetaItem
 import gregtech.common.covers.CoverConveyor
 import gregtech.common.covers.CoverPump
+import gregtech.common.covers.CoverSolarPanel
 
 import static classes.utils.TJUtility.tjId
 import static gregtech.common.covers.CoverBehaviors.registerBehavior
@@ -15,6 +16,8 @@ class TJMetaItems {
     static def STEAM_PISTON_ULV
     static def CONVEYOR_MODULE_ULV
     static def STEAM_PUMP_LV
+    static def COVER_SOLAR_PANEL_MAX
+
     static def REFINED_CHAOS_SHARD
     static def REFINED_CHAOS_CRYSTAL
     static def INFINITY_CRYSTAL
@@ -38,6 +41,8 @@ class TJMetaItems {
         CONVEYOR_MODULE_ULV = item.addItem(2, 'conveyor.module.ulv')
         STEAM_PUMP_LV = item.addItem(3, 'steam.pump.ulv')
 
+        COVER_SOLAR_PANEL_MAX = item.addItem(4, 'solar_panel.max')
+
         // Ingredients 200 - 799
         REFINED_CHAOS_SHARD = item.addItem(200, 'shard.refined_chaos')
         REFINED_CHAOS_CRYSTAL = item.addItem(201, 'crystal.refined_chaos')
@@ -51,6 +56,8 @@ class TJMetaItems {
     static void registerBehaviors() {
         registerBehavior(tjId('conveyor.module.ulv'), CONVEYOR_MODULE_ULV, { defi, tile, side -> new CoverConveyor(defi, tile, side, GTValues.ULV, 640) })
         registerBehavior(tjId('steam.pump.ulv'), STEAM_PUMP_LV, { defi, tile, side -> new CoverPump(defi, tile, side, GTValues.ULV, 640) })
+
+        registerBehavior(tjId('solar_panel.max'), COVER_SOLAR_PANEL_MAX, { defi, tile, side -> new CoverSolarPanel(defi, tile, side, GTValues.V[GTValues.MAX]) })
     }
 
 }
