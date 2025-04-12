@@ -7,12 +7,8 @@
     "betterquesting:10": {
       "desc:8": "tjceu.quest.db.236.desc",
       "icon:10": {
-        "Damage:2": 2505,
-        "id:8": "betterquesting:placeholder",
-        "tag:10": {
-          "orig_id:8": "gregtech:machine",
-          "orig_meta:3": 2505
-        }
+        "Damage:2": 1021,
+        "id:8": "gregtech:mte"
       },
       "name:8": "tjceu.quest.db.236.title",
       "visibility:8": "ALWAYS"
@@ -24,12 +20,8 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 2505,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "gregtech:machine",
-            "orig_meta:3": 2505
-          }
+          "Damage:2": 1021,
+          "id:8": "gregtech:mte"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -38,45 +30,13 @@
       "index:3": 1,
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 32,
+          "Count:3": 40,
           "Damage:2": 3,
           "id:8": "gregtech:fusion_casing"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "2:10": {
-      "index:3": 2,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 16,
-          "Damage:2": 774,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "gregtech:machine",
-            "orig_meta:3": 774
-          }
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "3:10": {
-      "index:3": 3,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 64,
-          "Damage:2": 3,
-          "id:8": "gregtech:fusion_casing"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "4:10": {
-      "index:3": 4,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 15,
-          "Damage:2": 3,
+        },
+        "1:10": {
+          "Count:3": 4,
+          "Damage:2": 1,
           "id:8": "gregtech:fusion_casing"
         }
       },

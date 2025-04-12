@@ -43,7 +43,8 @@
           "id:8": "gregtech:hammer",
           "tag:10": {
             "GT.Tool:10": {
-              "Durability:3": 0
+              "Durability:3": 0,
+              "Material:8": "iron"
             }
           }
         }
@@ -60,7 +61,8 @@
           "id:8": "gregtech:wrench",
           "tag:10": {
             "GT.Tool:10": {
-              "Durability:3": 0
+              "Durability:3": 0,
+              "Material:8": "iron"
             }
           }
         }
@@ -77,7 +79,8 @@
           "id:8": "gregtech:screwdriver",
           "tag:10": {
             "GT.Tool:10": {
-              "Durability:3": 0
+              "Durability:3": 0,
+              "Material:8": "iron"
             }
           }
         }
@@ -94,7 +97,8 @@
           "id:8": "gregtech:wire_cutter",
           "tag:10": {
             "GT.Tool:10": {
-              "Durability:3": 0
+              "Durability:3": 0,
+              "Material:8": "iron"
             }
           }
         }
@@ -111,7 +115,8 @@
           "id:8": "gregtech:file",
           "tag:10": {
             "GT.Tool:10": {
-              "Durability:3": 0
+              "Durability:3": 0,
+              "Material:8": "iron"
             }
           }
         }
@@ -128,7 +133,8 @@
           "id:8": "gregtech:mortar",
           "tag:10": {
             "GT.Tool:10": {
-              "Durability:3": 0
+              "Durability:3": 0,
+              "Material:8": "iron"
             }
           }
         }

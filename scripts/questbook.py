@@ -193,7 +193,7 @@ def build(args):
                 else:
                     knowKeys += i18n(output=questKeys, id=entryid, entry=currentquest, place="db", prefix=args.prefix)
 
-            with open(os.path.join(root, filename), "w") as file:
+            with open(os.path.join(root, filename), "w", encoding="utf-8") as file:
                 json.dump(currentquest, file, indent=2)
     
     

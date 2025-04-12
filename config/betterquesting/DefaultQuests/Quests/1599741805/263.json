@@ -6,12 +6,8 @@
     "betterquesting:10": {
       "desc:8": "tjceu.quest.db.263.desc",
       "icon:10": {
-        "Damage:2": 2551,
-        "id:8": "betterquesting:placeholder",
-        "tag:10": {
-          "orig_id:8": "gregtech:machine",
-          "orig_meta:3": 2551
-        }
+        "Damage:2": 6,
+        "id:8": "gcyl:mte"
       },
       "name:8": "tjceu.quest.db.263.title",
       "visibility:8": "ALWAYS"
@@ -23,12 +19,8 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 2551,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "gregtech:machine",
-            "orig_meta:3": 2551
-          }
+          "Damage:2": 6,
+          "id:8": "gcyl:mte"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -37,69 +29,18 @@
       "index:3": 1,
       "requiredItems:9": {
         "0:10": {
+          "Count:3": 112,
+          "id:8": "gcyl:gcyl_metal_casing_2"
+        },
+        "1:10": {
+          "Count:3": 118,
+          "Damage:2": 1,
+          "id:8": "gcyl:gcyl_metal_casing_1"
+        },
+        "2:10": {
           "Count:3": 56,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "gregtech:frame_tungsten_steel",
-            "orig_meta:3": 0
-          }
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "2:10": {
-      "index:3": 2,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 784,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "gregtech:machine",
-            "orig_meta:3": 784
-          }
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "3:10": {
-      "index:3": 3,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 64,
-          "Damage:2": 1,
-          "id:8": "gcyl:gcyl_metal_casing_1"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "4:10": {
-      "index:3": 4,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 55,
-          "Damage:2": 1,
-          "id:8": "gcyl:gcyl_metal_casing_1"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "5:10": {
-      "index:3": 5,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 64,
-          "id:8": "gcyl:gcyl_metal_casing_2"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "6:10": {
-      "index:3": 6,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 48,
-          "id:8": "gcyl:gcyl_metal_casing_2"
+          "Damage:2": 13,
+          "id:8": "gregtech:meta_block_frame_125"
         }
       },
       "taskID:8": "bq_standard:retrieval"

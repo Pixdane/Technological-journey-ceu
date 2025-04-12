@@ -85,6 +85,8 @@ class MaterialModifications {
         material('nobelium').addIngot()
         material('lawrencium').addIngot()
 
+        material('supercritical:plutonium_244').addIngot()
+
         def property = new FluidProperty()
         property.enqueueRegistration(FluidStorageKeys.LIQUID, new FluidBuilder().temperature(1173))
         material('californium').setProperty(PropertyKey.FLUID, property)

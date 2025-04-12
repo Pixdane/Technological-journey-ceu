@@ -7,18 +7,18 @@
 - [x] LV Age
 - [x] MV Age
 - [x] HV Age
-- [ ] EV Age
-- [ ] IV Age
-- [ ] LuV Age
-- [ ] ZPM Age
-- [ ] UV Age
+- [x] EV Age (Nuclear chains TBD)
+- [x] IV Age
+- [x] LuV Age
+- [x] ZPM Age
+- [x] UV Age
 - [ ] UHV Age
 - [ ] UEV Age
 - [ ] UIV Age
 - [ ] UXV+ Age
 - [ ] Draconic Age
 - [ ] All the Power
-- [ ] Applied Energistics 2
+- [ ] AppliedEnergistics 2
 - [ ] Space & Dimensions
 - [x] Progression
 - [x] Periodic Table

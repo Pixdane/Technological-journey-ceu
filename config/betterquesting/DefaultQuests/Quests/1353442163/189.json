@@ -8,7 +8,7 @@
     "betterquesting:10": {
       "desc:8": "tjceu.quest.db.189.desc",
       "icon:10": {
-        "Damage:2": 32655,
+        "Damage:2": 192,
         "id:8": "gregtech:meta_item_1"
       },
       "name:8": "tjceu.quest.db.189.title",
@@ -20,8 +20,8 @@
     "0:10": {
       "requiredItems:9": {
         "0:10": {
-          "Count:3": 2,
-          "Damage:2": 32655,
+          "Count:3": 1,
+          "Damage:2": 192,
           "id:8": "gregtech:meta_item_1"
         }
       },
