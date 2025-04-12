@@ -1,2 +1,1 @@
-//TODO: from OtherRecipes
-// //crafting.addShaped(item('supercritical:mte:14400'), [[item('gregtech:metal_casing', 1), item('contenttweaker:steampiston'), item('gregtech:metal_casing', 1)],[metaitem('tjceu:steam.motor.ulv'), null, item('contenttweaker:steampiston')], [item('gregtech:metal_casing', 1), metaitem('tjceu:steam.motor.ulv'), item('gregtech:metal_casing', 1)]])
+crafting.addShaped(item('supercritical:mte:14400'), [[item('gregtech:metal_casing', 1), item('tjceu:tj_meta_item', 1), item('gregtech:metal_casing', 1)],[metaitem('tjceu:steam.motor.ulv'), null, item('tjceu:tj_meta_item', 1)], [item('gregtech:metal_casing', 1), metaitem('tjceu:steam.motor.ulv'), item('gregtech:metal_casing', 1)]])

@@ -19,6 +19,7 @@ tjceu.material.starlight_complex=Starlight Complex
 tjceu.material.eternity=Eternity
 tjceu.material.fermentation_base=Fermentation Base
 tjceu.material.juice=Fruit Juice
+tjceu.material.honey=Honey
 
 # MetaPrefixItem Name Overrides
 item.tjceu.material.octaazacubane.dust=Metastable Octaazacubane Booster

@@ -2,6 +2,7 @@ import static classes.utils.TJUtility.*
 
 ASSEMBLER = recipemap('assembler')
 LASER_ENGRAVER = recipemap('laser_engraver')
+EXTRACTOR = recipemap('extractor')
 
 
 // Hide items from JEI
@@ -267,15 +268,13 @@ crafting.addShaped(tjceu('block_laser_relay_fluids'), item('actuallyadditions:bl
         [item('minecraft:obsidian'), item('minecraft:lapis_block'), item('minecraft:obsidian')]
 ])
 
-//TODO: from OtherRecipes
-
 // Basic Precision Laser Engraver TODO:?????
-// crafting.addShapeless(item('gregtech:mte', 560), [item('actuallyadditions:block_atomic_reconstructor')])
+crafting.addShapeless(item('gregtech:mte', 560), [item('actuallyadditions:block_atomic_reconstructor')])
 
 
-// EXTRACTOR.recipeBuilder()
-//         .inputs(item('actuallyadditions:item_solidified_experience') * 64)
-//         .fluidOutputs(fluid('xpjuice') * 10240)
-//         .duration(100)
-//         .EUt(30)
-//         .buildAndRegister()
+EXTRACTOR.recipeBuilder()
+        .inputs(item('actuallyadditions:item_solidified_experience') * 64)
+        .fluidOutputs(fluid('xpjuice') * 10240)
+        .duration(100)
+        .EUt(30)
+        .buildAndRegister()
