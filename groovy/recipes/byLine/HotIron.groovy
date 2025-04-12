@@ -8,13 +8,13 @@ ALLOY_SMELTER = recipemap('alloy_smelter')
 mods.gregtech.electric_blast_furnace.removeByInput(120, [metaitem('dustIron'), metaitem('circuit.integrated').withNbt(['Configuration': 1])], null)
 
 // Hot Iron Ingot * 1
-mods.gregtech.electric_blast_furnace.removeByInput(120, [metaitem('dustIron'), metaitem('circuit.integrated').withNbt(['Configuration': 2])], [fluid('nitrogen') * 1000 * 1000])
+mods.gregtech.electric_blast_furnace.removeByInput(120, [metaitem('dustIron'), metaitem('circuit.integrated').withNbt(['Configuration': 2])], [fluid('nitrogen') * 1000])
 
 // Hot Iron Ingot * 1
 mods.gregtech.electric_blast_furnace.removeByInput(120, [metaitem('dustIronMagnetic'), metaitem('circuit.integrated').withNbt(['Configuration': 1])], null)
 
 // Hot Iron Ingot * 1
-mods.gregtech.electric_blast_furnace.removeByInput(120, [metaitem('dustIronMagnetic'), metaitem('circuit.integrated').withNbt(['Configuration': 2])], [fluid('nitrogen') * 1000 * 1000])
+mods.gregtech.electric_blast_furnace.removeByInput(120, [metaitem('dustIronMagnetic'), metaitem('circuit.integrated').withNbt(['Configuration': 2])], [fluid('nitrogen') * 1000])
 
 // Iron Ingot * 1
 mods.gregtech.vacuum_freezer.removeByInput(120, [metaitem('ingotHotIron')], null)

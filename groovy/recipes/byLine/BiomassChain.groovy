@@ -1,5 +1,5 @@
 //Utils.removeRecipeByOutput(chemplant, [], [fluid('fermentation_base') * 10000], false)
-mods.gregtech.pyrolyse_oven.removeByInput(10, [metaitem('bio_chaff'), metaitem('circuit.integrated').withNbt(['Configuration': 2])], [fluid('water') * 1500 * 1500])
+mods.gregtech.pyrolyse_oven.removeByInput(10, [metaitem('bio_chaff'), metaitem('circuit.integrated').withNbt(['Configuration': 2])], [fluid('water') * 1500])
 
 PYROLYSE_OVEN = recipemap('pyrolyse_oven')
 CHEMICAL_PLANT = recipemap('chemical_plant')
@@ -19,14 +19,15 @@ PYROLYSE_OVEN.recipeBuilder()
 
 CHEMICAL_PLANT.recipeBuilder()
         .inputs(metaitem('plant_ball') * 5)
-        .fluidInputs(fluid('fermentation_base') * 1000, fluid('biomass') * 1000)
+        .fluidInputs(fluid('fermentation_base') * 1000)
+        .fluidInputs(fluid('biomass') * 1000)
         .fluidOutputs(fluid('fermented_biomass') * 2000)
         .duration(1200)
         .EUt(110)
         .buildAndRegister()
 
-mods.gregtech.fermenter.removeByInput(30, null, [fluid('depleted_growth_medium') * 1000 * 1000])
-mods.gregtech.fermenter.removeByInput(2, null, [fluid('biomass') * 100 * 100])
+mods.gregtech.fermenter.removeByInput(30, null, [fluid('depleted_growth_medium') * 1000])
+mods.gregtech.fermenter.removeByInput(2, null, [fluid('biomass') * 100])
 
 FERMENTER.recipeBuilder()
         .fluidInputs(fluid('biomass') * 144)
@@ -72,8 +73,6 @@ EXTRACTOR.recipeBuilder()
         .duration(100)
         .EUt(30)
         .buildAndRegister()
-
-//distillery.findRecipe(100, [item('gregtech:meta_item_1:32766').withNbt({ Configuration: 0 })], [fluid('biomass') * 2000]).remove()
 
 DISTILLERY.recipeBuilder()
         .fluidInputs(fluid('biomass') * 1000)
