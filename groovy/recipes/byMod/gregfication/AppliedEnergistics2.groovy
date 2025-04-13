@@ -12,6 +12,7 @@ MACERATOR = recipemap('macerator')
 MIXER = recipemap('mixer')
 LASER_ENGRAVER = recipemap('laser_engraver')
 EBF = recipemap('electric_blast_furnace')
+LATHE = recipemap('lathe')
 
 // Hide Facades from JEI
 mods.jei.ingredient.hide(((ItemFacade) item('appliedenergistics2:facade').getItem()).getFacades())
