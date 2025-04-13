@@ -61,6 +61,15 @@ jobs:
           cd ../output
           zip -r ../Technological-Journey-CEu-Cleanroom-$COMMIT_SHORT_SHA.zip ./*
 
+      - name: Delete Releases
+        uses: sgpublic/delete-release-action@v1.2
+        with:
+          # repo: '<owner>/<repoName>' # you can input a another repo here, defaults to current repo
+          pre-release-drop: true
+          pre-release-keep-count: -1
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+
       - name: Publish to GitHub
         uses: softprops/action-gh-release@v1
         with:
