@@ -33,6 +33,9 @@
 - [x] Coke Oven recipes
 - [ ] Hot Steam
 
+### Chore
+- [ ] Credit
+
 <p align="center">
   <img src="thumb.png" alt="Minecraft Title" style="width: 50%;" />
 </p>
