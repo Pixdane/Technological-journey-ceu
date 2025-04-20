@@ -12,7 +12,7 @@
 - [x] LuV Age
 - [x] ZPM Age
 - [x] UV Age
-- [ ] UHV Age
+- [X] UHV Age
 - [ ] UEV Age
 - [ ] UIV Age
 - [ ] UXV+ Age
@@ -26,7 +26,6 @@
 ### Game Features
 
 - [x] HV Quadruple Input Hatch
-- [ ] Pure Ores & Rich Ores
 - [x] Vial Processor
 - [x] Primitive Alloy Smelter
 - [x] Hot Iron Ingot

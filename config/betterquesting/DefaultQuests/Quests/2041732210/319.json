@@ -6,12 +6,8 @@
     "betterquesting:10": {
       "desc:8": "tjceu.quest.db.319.desc",
       "icon:10": {
-        "Damage:2": 4019,
-        "id:8": "betterquesting:placeholder",
-        "tag:10": {
-          "orig_id:8": "gregtech:machine",
-          "orig_meta:3": 4019
-        }
+        "Damage:2": 8,
+        "id:8": "gcyl:mte"
       },
       "name:8": "tjceu.quest.db.319.title",
       "visibility:8": "ALWAYS"
@@ -23,12 +19,8 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 4019,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "gregtech:machine",
-            "orig_meta:3": 4019
-          }
+          "Damage:2": 8,
+          "id:8": "gcyl:mte"
         }
       },
       "taskID:8": "bq_standard:retrieval"
