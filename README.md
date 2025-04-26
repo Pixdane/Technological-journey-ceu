@@ -2,6 +2,7 @@
 
 ### Quests:
 
+- [x] Basic quest porting
 - [ ] Quest refinement for ceu migration
 - [ ] Revamp nuclear (scrit) quests in EV
 - [ ] More quests for QoL & so on
