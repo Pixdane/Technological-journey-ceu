@@ -8,12 +8,9 @@
     "betterquesting:10": {
       "desc:8": "tjceu.quest.db.312.desc",
       "icon:10": {
-        "Damage:2": 916,
-        "id:8": "betterquesting:placeholder",
-        "tag:10": {
-          "orig_id:8": "gtadditions:ga_dust",
-          "orig_meta:3": 916
-        }
+        "Damage:2": 242,
+        "OreDict:8": "dustHexabenzylhexaazaisowurtzitane",
+        "id:8": "gcyl:meta_dust"
       },
       "name:8": "tjceu.quest.db.312.title",
       "visibility:8": "ALWAYS"
@@ -25,12 +22,9 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 916,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "gtadditions:ga_dust",
-            "orig_meta:3": 916
-          }
+          "Damage:2": 242,
+          "OreDict:8": "dustHexabenzylhexaazaisowurtzitane",
+          "id:8": "gcyl:meta_dust"
         }
       },
       "taskID:8": "bq_standard:retrieval"

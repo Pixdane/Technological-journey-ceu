@@ -1,7 +1,0 @@
-{
-	title: "Steam Age",
-	icon: "tjceu:tj_meta_item",
-	always_invisible: 0b,
-	group: 0,
-	default_quest_shape: ""
-}

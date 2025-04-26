@@ -6,12 +6,8 @@
     "betterquesting:10": {
       "desc:8": "tjceu.quest.db.716.desc",
       "icon:10": {
-        "Damage:2": 3237,
-        "id:8": "betterquesting:placeholder",
-        "tag:10": {
-          "orig_id:8": "gregtech:machine",
-          "orig_meta:3": 3237
-        }
+        "Damage:2": 3,
+        "id:8": "gcyl:mte"
       },
       "name:8": "tjceu.quest.db.716.title",
       "visibility:8": "ALWAYS"
@@ -23,12 +19,8 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 1,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "gregtech:pure_ore_tantalite_0",
-            "orig_meta:3": 0
-          }
+          "Count:3": 512,
+          "id:8": "gregtech:ore_tantalite_0"
         }
       }
     }

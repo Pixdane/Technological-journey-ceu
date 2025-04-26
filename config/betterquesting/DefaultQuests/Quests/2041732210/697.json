@@ -6,12 +6,9 @@
     "betterquesting:10": {
       "desc:8": "tjceu.quest.db.697.desc",
       "icon:10": {
-        "Damage:2": 80,
-        "id:8": "betterquesting:placeholder",
-        "tag:10": {
-          "orig_id:8": "gtadditions:ga_dust",
-          "orig_meta:3": 80
-        }
+        "Damage:2": 625,
+        "OreDict:8": "dustPdFullereneMatrix",
+        "id:8": "gcyl:meta_dust"
       },
       "name:8": "tjceu.quest.db.697.title",
       "visibility:8": "ALWAYS"

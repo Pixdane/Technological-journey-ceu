@@ -1,32 +1,15 @@
-## TODO:
+## TODOs:
 
-### FTB Quests Migration
+### Quests:
 
-- [x] Beginning
-- [x] Steam Age
-- [x] LV Age
-- [x] MV Age
-- [x] HV Age
-- [x] EV Age (Nuclear chains TBD)
-- [x] IV Age
-- [x] LuV Age
-- [x] ZPM Age
-- [x] UV Age
-- [ ] UHV Age
-- [ ] UEV Age
-- [ ] UIV Age
-- [ ] UXV+ Age
-- [ ] Draconic Age
-- [ ] All the Power
-- [ ] AppliedEnergistics 2
-- [ ] Space & Dimensions
-- [x] Progression
-- [x] Periodic Table
+- [x] Basic quest porting
+- [ ] Quest refinement for ceu migration
+- [ ] Revamp nuclear (scrit) quests in EV
+- [ ] More quests for QoL & so on
 
 ### Game Features
 
 - [x] HV Quadruple Input Hatch
-- [ ] Pure Ores & Rich Ores
 - [x] Vial Processor
 - [x] Primitive Alloy Smelter
 - [x] Hot Iron Ingot

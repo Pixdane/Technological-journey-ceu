@@ -6,12 +6,8 @@
     "betterquesting:10": {
       "desc:8": "tjceu.quest.db.696.desc",
       "icon:10": {
-        "Damage:2": 790,
-        "id:8": "betterquesting:placeholder",
-        "tag:10": {
-          "orig_id:8": "gregtech:machine",
-          "orig_meta:3": 790
-        }
+        "Damage:2": 1159,
+        "id:8": "gregtech:mte"
       },
       "name:8": "tjceu.quest.db.696.title",
       "visibility:8": "ALWAYS"
@@ -23,12 +19,8 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 790,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "gregtech:machine",
-            "orig_meta:3": 790
-          }
+          "Damage:2": 1159,
+          "id:8": "gregtech:mte"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -38,12 +30,8 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 791,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "gregtech:machine",
-            "orig_meta:3": 791
-          }
+          "Damage:2": 1174,
+          "id:8": "gregtech:mte"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -53,12 +41,8 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 792,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "gregtech:machine",
-            "orig_meta:3": 792
-          }
+          "Damage:2": 1189,
+          "id:8": "gregtech:mte"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -68,12 +52,8 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 793,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "gregtech:machine",
-            "orig_meta:3": 793
-          }
+          "Damage:2": 1204,
+          "id:8": "gregtech:mte"
         }
       },
       "taskID:8": "bq_standard:retrieval"

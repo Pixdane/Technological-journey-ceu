@@ -1,0 +1,11 @@
+{
+  "parent": "tjceu:item/metaitems/dimension_display",
+  "textures": {
+    "front": "tjceu:items/metaitems/dimension_display/nether/front",
+    "back": "tjceu:items/metaitems/dimension_display/nether/back",
+    "left": "tjceu:items/metaitems/dimension_display/nether/left",
+    "right": "tjceu:items/metaitems/dimension_display/nether/right",
+    "top": "tjceu:items/metaitems/dimension_display/nether/top",
+    "bottom": "tjceu:items/metaitems/dimension_display/nether/bottom"
+  }
+}

@@ -6,7 +6,7 @@
     "betterquesting:10": {
       "desc:8": "tjceu.quest.db.497.desc",
       "icon:10": {
-        "id:8": "storagedrawers:basicdrawers"
+        "id:8": "gregtech:ore_platinum_metallic_powder_0"
       },
       "name:8": "tjceu.quest.db.497.title",
       "visibility:8": "ALWAYS"
@@ -18,7 +18,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "id:8": "storagedrawers:basicdrawers"
+          "id:8": "gregtech:ore_platinum_metallic_powder_0"
         }
       },
       "taskID:8": "bq_standard:retrieval"

@@ -6,12 +6,9 @@
     "betterquesting:10": {
       "desc:8": "tjceu.quest.db.327.desc",
       "icon:10": {
-        "Damage:2": 928,
-        "id:8": "betterquesting:placeholder",
-        "tag:10": {
-          "orig_id:8": "gtadditions:ga_dust",
-          "orig_meta:3": 928
-        }
+        "Damage:2": 222,
+        "OreDict:8": "dustHydroxylammoniumSulfate",
+        "id:8": "gcyl:meta_dust"
       },
       "name:8": "tjceu.quest.db.327.title",
       "visibility:8": "ALWAYS"
