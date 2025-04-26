@@ -1,6 +1,6 @@
 ## TODO:
 
-### FTB Quests Migration
+### FTB Quests Migration 
 
 - [x] Beginning
 - [x] Steam Age
@@ -13,8 +13,8 @@
 - [x] ZPM Age
 - [x] UV Age
 - [X] UHV Age
-- [ ] UEV Age
-- [ ] UIV Age
+- [x] UEV Age
+- [x] UIV Age
 - [x] UXV+ Age
 - [x] Draconic Age
 - [x] All the Power
