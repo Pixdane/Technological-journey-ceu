@@ -19,7 +19,7 @@
 - [ ] Draconic Age
 - [ ] All the Power
 - [ ] AppliedEnergistics 2
-- [ ] Space & Dimensions
+- [x] Space & Dimensions
 - [x] Progression
 - [x] Periodic Table
 
