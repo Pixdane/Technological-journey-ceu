@@ -6,7 +6,8 @@
     "betterquesting:10": {
       "desc:8": "tjceu.quest.db.491.desc",
       "icon:10": {
-        "id:8": "advancedrocketry:charcoallog"
+        "Damage:2": 1011,
+        "id:8": "tjceu:tj_meta_item"
       },
       "name:8": "tjceu.quest.db.491.title",
       "visibility:8": "ALWAYS"

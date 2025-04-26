@@ -7,7 +7,8 @@
     "betterquesting:10": {
       "desc:8": "tjceu.quest.db.731.desc",
       "icon:10": {
-        "id:8": "beneath:teleporterbeneath"
+        "Damage:2": 1012,
+        "id:8": "tjceu:tj_meta_item"
       },
       "name:8": "tjceu.quest.db.731.title",
       "visibility:8": "ALWAYS"

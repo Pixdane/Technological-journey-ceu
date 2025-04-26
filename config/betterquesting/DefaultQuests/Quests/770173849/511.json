@@ -6,7 +6,8 @@
     "betterquesting:10": {
       "desc:8": "tjceu.quest.db.511.desc",
       "icon:10": {
-        "id:8": "minecraft:compass"
+        "Damage:2": 1007,
+        "id:8": "tjceu:tj_meta_item"
       },
       "name:8": "tjceu.quest.db.511.title",
       "visibility:8": "ALWAYS"

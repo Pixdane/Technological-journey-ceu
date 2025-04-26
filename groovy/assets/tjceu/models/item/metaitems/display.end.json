@@ -1,0 +1,11 @@
+{
+  "parent": "tjceu:item/metaitems/dimension_display",
+  "textures": {
+    "front": "tjceu:items/metaitems/dimension_display/end/front",
+    "back": "tjceu:items/metaitems/dimension_display/end/back",
+    "left": "tjceu:items/metaitems/dimension_display/end/left",
+    "right": "tjceu:items/metaitems/dimension_display/end/right",
+    "top": "tjceu:items/metaitems/dimension_display/end/top",
+    "bottom": "tjceu:items/metaitems/dimension_display/end/bottom"
+  }
+}

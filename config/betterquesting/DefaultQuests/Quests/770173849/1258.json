@@ -6,7 +6,8 @@
     "betterquesting:10": {
       "desc:8": "tjceu.quest.db.1258.desc",
       "icon:10": {
-        "id:8": "gcyl:meta_block_compressed_3"
+        "Damage:2": 1008,
+        "id:8": "tjceu:tj_meta_item"
       },
       "name:8": "tjceu.quest.db.1258.title",
       "visibility:8": "ALWAYS"

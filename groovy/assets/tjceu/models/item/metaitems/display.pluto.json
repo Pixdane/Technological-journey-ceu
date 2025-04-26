@@ -1,0 +1,11 @@
+{
+  "parent": "tjceu:item/metaitems/dimension_display",
+  "textures": {
+    "front": "tjceu:items/metaitems/dimension_display/pluto/front",
+    "back": "tjceu:items/metaitems/dimension_display/pluto/back",
+    "left": "tjceu:items/metaitems/dimension_display/pluto/left",
+    "right": "tjceu:items/metaitems/dimension_display/pluto/right",
+    "top": "tjceu:items/metaitems/dimension_display/pluto/top",
+    "bottom": "tjceu:items/metaitems/dimension_display/pluto/bottom"
+  }
+}
