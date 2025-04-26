@@ -6,12 +6,8 @@
     "betterquesting:10": {
       "desc:8": "tjceu.quest.db.1196.desc",
       "icon:10": {
-        "Damage:2": 724,
-        "id:8": "betterquesting:placeholder",
-        "tag:10": {
-          "orig_id:8": "gregtech:ga_cable",
-          "orig_meta:3": 724
-        }
+        "Damage:2": 1169,
+        "id:8": "gcyl:wire_single"
       },
       "name:8": "tjceu.quest.db.1196.title",
       "visibility:8": "ALWAYS"
@@ -23,12 +19,8 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 724,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "gregtech:ga_cable",
-            "orig_meta:3": 724
-          }
+          "Damage:2": 1169,
+          "id:8": "gcyl:wire_single"
         }
       },
       "taskID:8": "bq_standard:retrieval"

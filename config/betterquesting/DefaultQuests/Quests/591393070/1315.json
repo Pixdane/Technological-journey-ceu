@@ -4,10 +4,9 @@
       "desc:8": "tjceu.quest.db.1315.desc",
       "icon:10": {
         "Damage:2": 8,
-        "id:8": "betterquesting:placeholder",
+        "id:8": "gcyl:gcyl_meta_item2",
         "tag:10": {
-          "orig_id:8": "gtadditions:ga_meta_item2",
-          "orig_meta:3": 8
+          "Charge:4": 117964800000
         }
       },
       "name:8": "tjceu.quest.db.1315.title",
@@ -21,10 +20,9 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 8,
-          "id:8": "betterquesting:placeholder",
+          "id:8": "gcyl:gcyl_meta_item2",
           "tag:10": {
-            "orig_id:8": "gtadditions:ga_meta_item2",
-            "orig_meta:3": 8
+            "Charge:4": 117964800000
           }
         }
       },

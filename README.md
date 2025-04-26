@@ -15,7 +15,7 @@
 - [X] UHV Age
 - [ ] UEV Age
 - [ ] UIV Age
-- [ ] UXV+ Age
+- [x] UXV+ Age
 - [x] Draconic Age
 - [x] All the Power
 - [x] AppliedEnergistics 2
