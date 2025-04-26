@@ -6,16 +6,20 @@
     "betterquesting:10": {
       "desc:8": "tjceu.quest.db.654.desc",
       "icon:10": {
-        "Damage:2": 8,
-        "id:8": "betterquesting:placeholder",
+        "id:8": "gregtech:wrench",
         "tag:10": {
-          "orig_id:8": "gregtech:meta_tool",
-          "orig_meta:3": 8,
-          "orig_tag:10": {
-            "GT.ToolStats:10": {
-              "Material:8": "darmstadtium"
-            }
-          }
+          "DisallowContainerItem:1": 0,
+          "GT.Behaviours:10": {},
+          "GT.Tool:10": {
+            "AttackDamage:5": 3.0,
+            "AttackSpeed:5": -2.8,
+            "Durability:3": 0,
+            "HarvestLevel:3": 2,
+            "Material:8": "gregtech:iron",
+            "MaxDurability:3": 255,
+            "ToolSpeed:5": 6.0
+          },
+          "HideFlags:3": 2
         }
       },
       "name:8": "tjceu.quest.db.654.title",

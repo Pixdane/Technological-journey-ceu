@@ -16,9 +16,9 @@
 - [ ] UEV Age
 - [ ] UIV Age
 - [ ] UXV+ Age
-- [ ] Draconic Age
+- [x] Draconic Age
 - [ ] All the Power
-- [ ] AppliedEnergistics 2
+- [x] AppliedEnergistics 2
 - [x] Space & Dimensions
 - [x] Progression
 - [x] Periodic Table
