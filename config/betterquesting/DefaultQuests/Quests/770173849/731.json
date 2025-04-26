@@ -6,6 +6,7 @@
   "properties:10": {
     "betterquesting:10": {
       "desc:8": "tjceu.quest.db.731.desc",
+      "frame:8": "CIRCLE",
       "icon:10": {
         "Damage:2": 1012,
         "id:8": "tjceu:tj_meta_item"
