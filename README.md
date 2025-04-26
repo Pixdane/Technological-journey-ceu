@@ -1,27 +1,10 @@
-## TODO:
+## TODOs:
 
-### FTB Quests Migration 
+### Quests:
 
-- [x] Beginning
-- [x] Steam Age
-- [x] LV Age
-- [x] MV Age
-- [x] HV Age
-- [x] EV Age (Nuclear chains TBD)
-- [x] IV Age
-- [x] LuV Age
-- [x] ZPM Age
-- [x] UV Age
-- [X] UHV Age
-- [x] UEV Age
-- [x] UIV Age
-- [x] UXV+ Age
-- [x] Draconic Age
-- [x] All the Power
-- [x] AppliedEnergistics 2
-- [x] Space & Dimensions
-- [x] Progression
-- [x] Periodic Table
+- [ ] Quest refinement for ceu migration
+- [ ] Revamp nuclear (scrit) quests in EV
+- [ ] More quests for QoL & so on
 
 ### Game Features
 

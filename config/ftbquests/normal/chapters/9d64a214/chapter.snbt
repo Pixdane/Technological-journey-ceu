@@ -1,7 +1,0 @@
-{
-	title: "LuV Age",
-	icon: "gregtech:meta_item_1 1 132",
-	always_invisible: 0b,
-	group: 0,
-	default_quest_shape: ""
-}

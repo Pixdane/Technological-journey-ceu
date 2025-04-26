@@ -1,9 +1,0 @@
-{
-	title: "Lawrencium Comming SoonTM",
-	x: 11.5d,
-	y: 6.5d,
-	tasks: [{
-		uid: "1b05f90f",
-		type: "checkmark"
-	}]
-}

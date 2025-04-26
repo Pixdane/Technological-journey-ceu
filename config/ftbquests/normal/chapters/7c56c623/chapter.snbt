@@ -1,7 +1,0 @@
-{
-	title: "Draconic Age",
-	icon: "gcyl:gcyl_meta_item 1 359",
-	always_invisible: 0b,
-	group: 0,
-	default_quest_shape: ""
-}
