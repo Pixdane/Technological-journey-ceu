@@ -17,7 +17,7 @@
 - [ ] UIV Age
 - [ ] UXV+ Age
 - [x] Draconic Age
-- [ ] All the Power
+- [x] All the Power
 - [x] AppliedEnergistics 2
 - [x] Space & Dimensions
 - [x] Progression
