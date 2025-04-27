@@ -50,72 +50,8 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 36,
-          "Damage:2": 6,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "gtadditions:ga_transparent_casing",
-            "orig_meta:3": 6
-          }
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "3:10": {
-      "index:3": 3,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 2,
-          "Damage:2": 5,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "gtadditions:ga_emitter_casing",
-            "orig_meta:3": 5
-          }
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "4:10": {
-      "index:3": 4,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 2,
-          "Damage:2": 5,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "gtadditions:ga_sensor_casing",
-            "orig_meta:3": 5
-          }
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "5:10": {
-      "index:3": 5,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 2,
-          "Damage:2": 5,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "gtadditions:ga_pump_casing",
-            "orig_meta:3": 5
-          }
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "6:10": {
-      "index:3": 6,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 5,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "gtadditions:ga_field_gen_casing",
-            "orig_meta:3": 5
-          }
+          "Damage:2": 2,
+          "id:8": "gregtech:transparent_casing"
         }
       },
       "taskID:8": "bq_standard:retrieval"
