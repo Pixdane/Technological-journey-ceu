@@ -1,13 +1,13 @@
 name = "Gregic Probe: CEu"
-filename = "gregicprobe-1.4.1.jar"
+filename = "gregicprobe-1.4.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "22de4a0665194002b246787df430d955b7dd8672"
+hash = "80e1636fcf4230946b9efdd02e0a28e6f74d2524"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6226262
+file-id = 6393352
 project-id = 1109784
