@@ -278,3 +278,7 @@ EXTRACTOR.recipeBuilder()
         .duration(100)
         .EUt(30)
         .buildAndRegister()
+
+// TODO: tooltips
+// ore('gemQuartzBlack').addTooltip("Smelt Quartzite dust twice")
+// ore('dustQuartzBlack').addTooltip("Smelt Quartzite dust")
