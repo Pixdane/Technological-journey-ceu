@@ -60,6 +60,11 @@ class SecondDegreeMaterials {
                 .liquid()
                 .color(0xA8C972)
                 .build()
+
+        Honey = new Material.Builder(1008, tjId('honey'))
+                .liquid()
+                .color(0xD2C800)
+                .build()
     }
 
 }

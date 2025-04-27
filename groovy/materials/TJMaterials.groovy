@@ -22,6 +22,7 @@ class TJMaterials {
     static Material Fordnium
     static Material FermentationBase
     static Material Juice
+    static Material Honey
 
     //static Material PlutoniumRadioactive
 

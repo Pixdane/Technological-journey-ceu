@@ -3,6 +3,8 @@ import static classes.utils.TJUtility.*
 ASSLINE = recipemap('assembly_line')
 EBF = recipemap('electric_blast_furnace')
 MIXER = recipemap('mixer')
+EXTRUDER = recipemap('extruder')
+EXTRACTOR = recipemap('extractor')
 
 // Hide items from JEI
 mods.jei.ingredient.yeet(
@@ -258,43 +260,55 @@ MIXER.recipeBuilder()
         .EUt(500)
         .buildAndRegister()
 
-//TODO: from OtherRecipes
-// crafting.addShaped(item('thermalfoundation:material', 640), [[null, null, null], [null, item('actuallyadditions:item_misc', 16), null], [null, null, null]])
-// crafting.addShaped(item('thermalfoundation:material', 656), [[null, ore('plateDenseStainlessSteel'), null], [ore('plateDenseStainlessSteel'), ore('stickLongStainlessSteel'), ore('plateDenseStainlessSteel')], [null, ore('plateDenseStainlessSteel'), null]])
+crafting.addShaped(item('thermalfoundation:material', 640), 
+[
+        [null, null, null], 
+        [null, item('actuallyadditions:item_misc', 16), null], 
+        [null, null, null]
+])
+crafting.addShaped(item('thermalfoundation:material', 656), 
+[
+        [null, ore('plateDenseStainlessSteel'), null], 
+        [ore('plateDenseStainlessSteel'), ore('stickLongStainlessSteel'), ore('plateDenseStainlessSteel')], 
+        [null, ore('plateDenseStainlessSteel'), null]
+])
+
+crafting.addShapeless(item('thermalfoundation:material', 657), [item('architecturecraft:sawblade')])
 
 
-// furnace.removeByOutput(item('thermalfoundation:material', 833), item('gregtech:meta_item_1', 438))
-// crafting.addShapeless(item('thermalfoundation:material', 657), [item('architecturecraft:sawblade')])
+furnace.removeByOutput(ore('ingotSignalum').getFirst())
+furnace.removeByOutput(ore('ingotLumium').getFirst())
+crafting.addShaped(item('thermalfoundation:material', 1026), 
+[
+        [null, ore('dustSulfur'), null], 
+        [ore('dustSulfur'), ore('dustBlaze'), ore('dustSulfur')], 
+        [null, ore('dustSulfur'), null]
+])
 
 
-// furnace.removeByOutput(ore('ingotSignalum'))
-// furnace.removeByOutput(ore('ingotLumium'))
-// crafting.addShaped(ore('dustAerotheum'), [[null, ore('dustSulfur'), null], [ore('dustSulfur'), ore('dustBlaze,itemBlazePowder'), ore('dustSulfur')], [null, ore('dustSulfur'), null]])
+EXTRUDER.recipeBuilder()
+        .inputs(ore('ingotSignalum') * 4)
+        .notConsumable(metaitem('shape.extruder.gear'))
+        .outputs(item('thermalfoundation:material', 293))
+        .duration(380)
+        .EUt(30)
+        .buildAndRegister()
 
 
-// extruder.recipeBuilder()
-//         .inputs(ore('ingotSignalum') * 4)
-//         .notConsumable(item('gregtech:meta_item_1', 52))
-//         .outputs(ore('gearSignalum'))
-//         .duration(380)
-//         .EUt(30)
-//         .buildAndRegister()
+mods.gregtech.extractor.removeByInput(30, [item('thermalfoundation:material', 1024)], null)
 
+EXTRACTOR.recipeBuilder()
+        .inputs(ore('dustPyrotheum'))
+        .fluidOutputs(fluid('pyrotheum') * 1000)
+        .EUt(24)
+        .duration(35)
+        .buildAndRegister()
 
-// Utils.removeRecipeByOutput(fluid_extractor, [], [fluid('pyrotheum') * 250], true)
+mods.gregtech.extractor.removeByInput(30, [item('thermalfoundation:material', 1025)], null)
 
-// EXTRACTOR.recipeBuilder()
-//         .inputs(ore('dustPyrotheum'))
-//         .fluidOutputs(fluid('pyrotheum') * 1000)
-//         .EUt(24)
-//         .duration(35)
-//         .buildAndRegister()
-
-// Utils.removeRecipeByOutput(fluid_extractor, [], [fluid('cryotheum') * 250], true)
-
-// EXTRACTOR.recipeBuilder()
-//         .inputs(ore('dustCryotheum'))
-//         .fluidOutputs(fluid('cryotheum') * 1000)
-//         .EUt(24)
-//         .duration(35)
-//         .buildAndRegister()
+EXTRACTOR.recipeBuilder()
+        .inputs(ore('dustCryotheum'))
+        .fluidOutputs(fluid('cryotheum') * 1000)
+        .EUt(24)
+        .duration(35)
+        .buildAndRegister()

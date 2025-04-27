@@ -1,9 +1,5 @@
-//TODO: from OtherRecipes
+crafting.removeByOutput(metaitem('gcym:large_macerator'))
+crafting.addShaped(metaitem('gcym:large_macerator'), [[ore('plateTungstenCarbide'), item('gregtech:mte', 68), ore('plateTungstenCarbide')], [metaitem('macerator.hv'), ore('circuitEv'), metaitem('macerator.hv')], [ore('plateTungstenCarbide'), item('gregtech:mte', 990), ore('plateTungstenCarbide')]])
 
-// crafting.removeByOutput(item('gregtech:machine:2514'))
-// crafting.addShaped(item('gregtech:machine:2514'), [[ore('plateTungstenCarbide'), item('gregtech:mte', 68), ore('plateTungstenCarbide')], [item('gregtech:machine', 62), ore('circuitEv'), item('gregtech:machine', 62)], [ore('plateTungstenCarbide'), item('gregtech:mte', 990), ore('plateTungstenCarbide')]])
-
-
-crafting.removeByOutput(metaitem('gcym:large_circuit_assembler'))
-
-// crafting.addShaped(item('gregtech:machine:2004'), [[item('gregtech:multiblock_casing', 2), item('gregtech:meta_item_1:32655'), item('gregtech:multiblock_casing', 2)], [ore('circuitMaster'), item('gregtech:mte', 991), ore('circuitMaster')], [item('gregtech:multiblock_casing', 2), item('gregtech:meta_item_1:32655'), item('gregtech:multiblock_casing', 2)]])
+crafting.removeByOutput(item('gcym:mte', 28))
+crafting.addShaped(item('gcym:mte', 28), [[item('gcym:large_multiblock_casing', 2), metaitem('robot.arm.luv'), item('gcym:large_multiblock_casing', 2)], [ore('circuitLuv'), item('gregtech:mte', 991), ore('circuitLuv')], [item('gcym:large_multiblock_casing', 2), metaitem('robot.arm.luv'), item('gcym:large_multiblock_casing', 2)]])

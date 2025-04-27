@@ -33,6 +33,7 @@ class MaterialModifications {
 
         material('neodymium_magnetic').addFlags('generate_gear')
         material('gcyl:draconium').addFlags('generate_double_plate')
+        material('iron').addFlags('generate_double_plate')
     }
 
     static void modifyProperties() {

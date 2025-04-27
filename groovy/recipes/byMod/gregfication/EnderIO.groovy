@@ -7,6 +7,7 @@ SOLIDIFIER = recipemap('fluid_solidifier')
 ASSEMBLER = recipemap('assembler')
 ARC_FURNACE = recipemap('arc_furnace')
 ALLOY_BLAST_SMELTER = recipemap('alloy_blast_smelter')
+FORMING_PRESS = recipemap('forming_press')
 
 // Hide items from JEI
 mods.jei.ingredient.yeet(
@@ -321,55 +322,53 @@ crafting.addShaped(item('enderio:item_endergy_conduit', 11) * 8, [
         [ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')]
 ])
 
-//TODO: from OtherRecipes
+mods.enderio.vat.remove(fluid('rocket_fuel') * 1000)
+crafting.removeByOutput(item('enderio:item_extract_speed_upgrade'))
 
-// vat.removeRecipe(fluid('rocket_fuel') * 1000) //EIO
-// crafting.removeByOutput(item('enderio:item_extract_speed_upgrade'))
+crafting.addShaped(item('enderio:item_extract_speed_upgrade'), [[ore('ingotIron'), ore('ingotIron'), ore('ingotIron')], [ore('ingotBronze'), ore('craftingPiston'), ore('ingotBronze')], [ore('ingotBronze'), ore('dustRedstone'), ore('ingotBronze')]])
+crafting.removeByOutput(item('enderio:item_liquid_conduit', 2))
+crafting.removeByOutput(item('enderio:item_liquid_conduit'))
+crafting.addShaped(item('enderio:item_liquid_conduit') * 8, [[ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')], [item('minecraft:glass'), item('minecraft:glass'), item('minecraft:glass')], [ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')]])
+crafting.addShaped(item('enderio:item_liquid_conduit', 2) * 8, [[ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')], [ore('nuggetPulsatingIron'), item('enderio:item_liquid_conduit', 1), ore('nuggetPulsatingIron')], [ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')]])
+crafting.addShaped(item('enderio:item_liquid_conduit', 2) * 8, [[ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')], [ore('nuggetPulsatingIron'), ore('fusedQuartz'), ore('nuggetPulsatingIron')], [ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')]])
 
-// crafting.addShaped(item('enderio:item_extract_speed_upgrade'), [[ore('ingotIron'), ore('ingotIron'), ore('ingotIron')], [ore('ingotBronze'), ore('craftingPiston'), ore('ingotBronze')], [ore('ingotBronze'), ore('dustRedstone'), ore('ingotBronze')]])
-// crafting.removeByOutput(item('enderio:item_liquid_conduit', 2))
-// crafting.removeByOutput(item('enderio:item_liquid_conduit'))
-// crafting.addShaped(item('enderio:item_liquid_conduit') * 8, [[ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')], [item('minecraft:glass'), item('minecraft:glass'), item('minecraft:glass')], [ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')]])
-// crafting.addShaped(item('enderio:item_liquid_conduit', 2) * 8, [[ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')], [ore('nuggetPulsatingIron'), item('enderio:item_liquid_conduit', 1), ore('nuggetPulsatingIron')], [ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')]])
-// crafting.addShaped(item('enderio:item_liquid_conduit', 2) * 8, [[ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')], [ore('nuggetPulsatingIron'), ore('fusedQuartz'), ore('nuggetPulsatingIron')], [ore('itemConduitBinder'), ore('itemConduitBinder'), ore('itemConduitBinder')]])
-
-// crafting.removeByOutput(item('enderio:block_farm_station'))
+crafting.removeByOutput(item('enderio:block_farm_station'))
 
 
-// ASSEMBLER.recipeBuilder()
-//         .inputs(item('gregtech:mte', 986))
-//         .inputs(ore('circuitBasic') * 2)
-//         .inputs(ore('skullZombieController'))
-//         .inputs(ore('toolHoe'))
-//         .outputs(item('enderio:block_farm_station'))
-//         .circuitMeta(0)
-//         .duration(160)
-//         .EUt(30)
-//         .buildAndRegister()
+ASSEMBLER.recipeBuilder()
+        .inputs(item('gregtech:mte', 986))
+        .inputs(ore('circuitLv') * 2)
+        .inputs(ore('skullZombieController'))
+        .inputs(ore('toolHoe'))
+        .outputs(item('enderio:block_farm_station'))
+        .circuitMeta(0)
+        .duration(160)
+        .EUt(30)
+        .buildAndRegister()
 
 
-// crafting.removeByOutput(item('enderio:item_advanced_item_filter'))
-// crafting.addShaped(item('enderio:item_advanced_item_filter'), [[ore('plateRedstone'), ore('plateDiamond'), ore('plateRedstone')], [ore('plateDiamond'), item('enderio:item_basic_item_filter'), ore('plateDiamond')], [ore('plateRedstone'), ore('plateDiamond'), ore('plateRedstone')]])
+crafting.removeByOutput(item('enderio:item_advanced_item_filter'))
+crafting.addShaped(item('enderio:item_advanced_item_filter'), [[ore('plateRedstone'), ore('plateDiamond'), ore('plateRedstone')], [ore('plateDiamond'), item('enderio:item_basic_item_filter'), ore('plateDiamond')], [ore('plateRedstone'), ore('plateDiamond'), ore('plateRedstone')]])
 
 
-// crafting.removeByOutput(item('enderio:item_capacitor_stellar'))
-// crafting.addShaped(item('enderio:item_capacitor_stellar'), [[ore('plateSterlingSilver'), ore('dustSilverChloride'), ore('plateSterlingSilver')], [item('enderio:item_basic_capacitor', 2), item('minecraft:lapis_block'), item('enderio:item_basic_capacitor', 2)], [ore('plateSterlingSilver'), ore('dustSilverChloride'), ore('plateSterlingSilver')]])
+crafting.removeByOutput(item('enderio:item_capacitor_stellar'))
+crafting.addShaped(item('enderio:item_capacitor_stellar'), [[ore('plateSterlingSilver'), ore('dustSilverChloride'), ore('plateSterlingSilver')], [item('enderio:item_basic_capacitor', 2), item('minecraft:lapis_block'), item('enderio:item_basic_capacitor', 2)], [ore('plateSterlingSilver'), ore('dustSilverChloride'), ore('plateSterlingSilver')]])
 
 
-// FORMING_PRESS.recipeBuilder()
-//         .inputs(ore('ingotSoularium') * 2, ore('itemSkull'), ore('dustSilicon') * 2, ore('ingotVibrantAlloy'))
-//         .outputs(ore('skullEnderResonator'))
-//         .EUt(16)
-//         .duration(150)
-//         .buildAndRegister()
+FORMING_PRESS.recipeBuilder()
+        .inputs(ore('ingotSoularium') * 2, ore('itemSkull'), ore('dustSilicon') * 2, ore('ingotVibrantAlloy'))
+        .outputs(item('enderio:item_material', 43))
+        .EUt(16)
+        .duration(150)
+        .buildAndRegister()
 
 
-// crafting.addShaped(ore('darkFusedQuartz') * 8, [[ore('blockGlassHardened'), ore('blockGlassHardened'), ore('blockGlassHardened')], [ore('blockGlassHardened'), ore('dyeBlack'), ore('blockGlassHardened')], [ore('blockGlassHardened'), ore('blockGlassHardened'), ore('blockGlassHardened')]])
-// crafting.addShaped(ore('notHolyEnlightenedFusedQuartz') * 8, [[ore('blockGlassHardened'), ore('blockGlassHardened'), ore('blockGlassHardened')], [ore('blockGlassHardened'), item('astralsorcery:itemusabledust'), ore('blockGlassHardened')], [ore('blockGlassHardened'), ore('blockGlassHardened'), ore('blockGlassHardened')]])
-// crafting.addShaped(ore('darkFusedQuartz') * 8, [[ore('blockGlassHardened'), ore('blockGlassHardened'), ore('blockGlassHardened')], [ore('blockGlassHardened'), item('astralsorcery:itemusabledust', 1), ore('blockGlassHardened')], [ore('blockGlassHardened'), ore('blockGlassHardened'), ore('blockGlassHardened')]])
-// crafting.addShaped(ore('notHolyEnlightenedFusedQuartz') * 8, [[ore('blockGlassHardened'), ore('blockGlassHardened'), ore('blockGlassHardened')], [ore('blockGlassHardened'), ore('dustGlowstone'), ore('blockGlassHardened')], [ore('blockGlassHardened'), ore('blockGlassHardened'), ore('blockGlassHardened')]])
-// crafting.addShaped(item('enderio:item_broken_spawner').withNbt({  }), [[ore('dustSoularium'), ore('dyeSoulMachine'), ore('dustSoularium')], [ore('dyeSoulMachine'), ore('itemSoulMachineChassi'), ore('dyeSoulMachine')], [ore('dustSoularium'), ore('dyeSoulMachine'), ore('dustSoularium')]])
+crafting.addShaped(item('enderio:block_dark_fused_quartz') * 8, [[ore('blockGlassHardened'), ore('blockGlassHardened'), ore('blockGlassHardened')], [ore('blockGlassHardened'), ore('dyeBlack'), ore('blockGlassHardened')], [ore('blockGlassHardened'), ore('blockGlassHardened'), ore('blockGlassHardened')]])
+crafting.addShaped(item('enderio:block_enlightened_fused_quartz') * 8, [[ore('blockGlassHardened'), ore('blockGlassHardened'), ore('blockGlassHardened')], [ore('blockGlassHardened'), item('astralsorcery:itemusabledust'), ore('blockGlassHardened')], [ore('blockGlassHardened'), ore('blockGlassHardened'), ore('blockGlassHardened')]])
+crafting.addShaped(item('enderio:block_dark_fused_quartz') * 8, [[ore('blockGlassHardened'), ore('blockGlassHardened'), ore('blockGlassHardened')], [ore('blockGlassHardened'), item('astralsorcery:itemusabledust', 1), ore('blockGlassHardened')], [ore('blockGlassHardened'), ore('blockGlassHardened'), ore('blockGlassHardened')]])
+crafting.addShaped(item('enderio:block_enlightened_fused_quartz')  * 8, [[ore('blockGlassHardened'), ore('blockGlassHardened'), ore('blockGlassHardened')], [ore('blockGlassHardened'), ore('dustGlowstone'), ore('blockGlassHardened')], [ore('blockGlassHardened'), ore('blockGlassHardened'), ore('blockGlassHardened')]])
+crafting.addShaped(item('enderio:item_broken_spawner'), [[ore('dustSoularium'), ore('dyeSoulMachine'), ore('dustSoularium')], [ore('dyeSoulMachine'), ore('itemSoulMachineChassi'), ore('dyeSoulMachine')], [ore('dustSoularium'), ore('dyeSoulMachine'), ore('dustSoularium')]])
 
 
-// crafting.removeByOutput(item('enderio:item_big_item_filter'))
-// crafting.addShaped(item('enderio:item_big_item_filter'), [[ore('plateAluminium'), ore('plateRedstone'), ore('plateAluminium')], [ore('plateRedstone'), item('enderio:item_basic_item_filter'), ore('plateRedstone')], [ore('plateAluminium'), ore('plateRedstone'), ore('plateAluminium')]])
+crafting.removeByOutput(item('enderio:item_big_item_filter'))
+crafting.addShaped(item('enderio:item_big_item_filter'), [[ore('plateAluminium'), ore('plateRedstone'), ore('plateAluminium')], [ore('plateRedstone'), item('enderio:item_basic_item_filter'), ore('plateRedstone')], [ore('plateAluminium'), ore('plateRedstone'), ore('plateAluminium')]])
