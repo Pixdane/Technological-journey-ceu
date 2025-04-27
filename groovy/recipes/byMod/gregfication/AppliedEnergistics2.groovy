@@ -681,48 +681,6 @@ crafting.addShaped(item('appliedenergistics2:molecular_assembler'), [
         [ore('workbench'), ore('circuitBasic'), ore('workbench')]
 ])
 
-h.yeet(item('extracells:part.base', 10))
-h.yeet(item('extracells:part.base', 11))
-h.yeet(item('extracells:part.base', 9))
-h.yeet(item('extracells:part.base'))
-h.yeet(item('extracells:part.base', 1))
-h.yeet(item('extracells:part.base', 8))
-h.yeet(item('extracells:part.base', 3))
-h.yeet(item('extracells:part.base', 4))
-h.yeet(item('extracells:part.base', 6))
-h.yeet(item('extracells:part.base', 7))
-h.yeet(item('extracells:part.base', 5))
-h.yeet(item('extracells:part.base', 2))
-h.yeet(item('extracells:ecbaseblock'))
-h.yeet(item('extracells:fluidfiller'))
-h.yeet(item('extracells:hardmedrive'))
-h.yeet(item('extracells:vibrantchamberfluid'))
-h.yeet(item('extracells:terminal.universal.wireless'))
-h.yeet(item('extracells:terminal.fluid.wireless'))
-h.yeet(item('extracells:storage.component'))
-h.yeet(item('extracells:storage.component', 1))
-h.yeet(item('extracells:storage.component', 2))
-h.yeet(item('extracells:storage.component', 3))
-h.yeet(item('extracells:storage.component', 4))
-h.yeet(item('extracells:storage.component', 5))
-h.yeet(item('extracells:storage.component', 6))
-h.yeet(item('extracells:storage.component', 7))
-h.yeet(item('extracells:storage.component', 8))
-h.yeet(item('extracells:storage.component', 9))
-h.yeet(item('extracells:storage.component', 10))
-h.yeet(item('extracells:storage.fluid'))
-h.yeet(item('extracells:storage.fluid', 1))
-h.yeet(item('extracells:storage.fluid', 2))
-h.yeet(item('extracells:storage.fluid', 3))
-h.yeet(item('extracells:storage.fluid', 4))
-h.yeet(item('extracells:storage.fluid', 5))
-h.yeet(item('extracells:storage.fluid', 6))
-h.yeet(item('extracells:storage.physical'))
-h.yeet(item('extracells:storage.physical', 1))
-h.yeet(item('extracells:storage.physical', 2))
-h.yeet(item('extracells:storage.physical', 3))
-h.yeet(item('extracells:storage.casing'))
-h.yeet(item('extracells:storage.casing', 1))
 h.yeet(item('nae2:reconstruction_chamber'))
 
 // TODO
@@ -739,15 +697,6 @@ h.yeet(item('nae2:reconstruction_chamber'))
 //         }
 //     }
 // }
-
-// val ae3 as IMod = loadedMods["extracells"];
-// val ae3Items as IItemStack[] = ae3.items;
-// for item in ae3Items {
-//     if(item.displayName has "ME Fluid Pattern") {
-//             h.yeet(item);
-//     }
-// }
-
 
 ASSEMBLER.recipeBuilder()
         .inputs([metaitem('hull.hv'), item('appliedenergistics2:quartz_glass') * 2, metaitem('electric.pump.hv') * 2])
@@ -794,10 +743,6 @@ ASSEMBLER.recipeBuilder()
 crafting.addShapeless(item('appliedenergistics2:interface'), [item('appliedenergistics2:part', 440)])
 
 crafting.addShapeless(item('appliedenergistics2:fluid_interface'), [item('appliedenergistics2:part', 441)])
-
-crafting.removeByOutput(item('extracells:part.base', 12))
-
-crafting.addShapeless(item('extracells:part.base', 12), [item('gregtech:meta_item_1', 292), item('appliedenergistics2:part', 260)])
 
 // Fix certus
 
@@ -1027,30 +972,6 @@ ASSEMBLER.recipeBuilder()
         .duration(450)
         .EUt(1920)
         .buildAndRegister()
-
-// Extracells To NAE2 Cells conversion
-crafting.addShapeless(item('nae2:material', 5), [item('extracells:storage.component', 8)])
-crafting.addShapeless(item('nae2:material', 1), [item('extracells:storage.component')])
-crafting.addShapeless(item('nae2:material', 2), [item('extracells:storage.component', 1)])
-crafting.addShapeless(item('nae2:material', 3), [item('extracells:storage.component', 2)])
-crafting.addShapeless(item('nae2:material', 4), [item('extracells:storage.component', 3)])
-
-// ME fluid asembler
-crafting.addShapeless(item('ae2fc:fluid_assembler'), [item('extracells:fluidcrafter')])
-crafting.removeByOutput(item('extracells:fluidcrafter'))
-
-// TODO
-// //Mark all items a depreciated
-// val ae4 as IMod = loadedMods["extracells"];
-// val ae4Items as IItemStack[] = ae4.items;
-// for item in ae4Items {
-//     item.addTooltip("§4DEPRECIATED WILL BE REMOVED NEXT UPDATE");
-//
-//         if(item.displayName has "Storage Cell") {
-//             item.addTooltip("§buse a ME I/O port to dump contents into new cells. Then you can shift right with the empty cell in your hand to get back the part for conversion");
-//     }
-//
-// }
 
 ASSLINE.recipeBuilder()
         .inputs(ore('plateDenseDraconium') * 8)

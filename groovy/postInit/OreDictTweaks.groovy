@@ -293,7 +293,6 @@ ore_dict.remove('stickIridium', item('libvulpes:productrod', 10))
 // h(item('variegated:silvered_apple'));
 // h(item('variegated:silvered_apple', 1));
 // h(item('appliedenergistics2:part', 260));
-// h(item('extracells:part.base', 12));
 
 // 
 // 
@@ -352,10 +351,6 @@ ore_dict.remove('stickIridium', item('libvulpes:productrod', 10))
 // h(item('danknull:dank_null_panel_5'));
 // h(item('danknull:danknull_dock'));
 // h(item('gregtech:machine:2005'));
-// h(item('extracells:storage.fluid', 5).withNbt({fuzzyMode: "IGNORE_ALL"}));
-// h(item('extracells:storage.fluid', 6).withNbt({fuzzyMode: "IGNORE_ALL"}));
-// h(item('extracells:storage.component', 9));
-// h(item('extracells:storage.component', 10));
 // h(item('actuallyadditions:block_atomic_reconstructor'));
 // h(item('mob_grinding_utils:wither_muffler'));
 // h(item('mob_grinding_utils:saw_upgrade', 5));
