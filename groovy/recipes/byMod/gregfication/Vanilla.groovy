@@ -73,3 +73,13 @@ crafting.addShaped("clay1", item('minecraft:clay') * 8,
 ])
 
 crafting.removeByOutput(item('minecraft:golden_apple', 1))
+
+// crafting.addShaped(item('minecraft:name_tag'), [[null, ore('cropFlax,string'), ore('cropFlax,string')], [null, ore('slimeball'), ore('cropFlax,string')], [ore('cropFlax,string'), null, null]])
+
+// crafting.addShaped(ore('toolHoe').withNbt({ Unbreakable:
+// 1 as long ,
+//     RepairCost: 1 ,
+//     display:
+//     { Name: "Unbreakable Emerald Tipped Diamond Hoe" } }), [[ore('gemEmerald'), ore('gemEmerald'), null], [ore('gemEmerald'), ore('toolHoe'), null], [null, null, null]])
+// mods.jei.JEI.addItem(ore('toolHoe').withNbt({ display:
+// { Name: "Unbreakable Emerald Tipped Diamond Hoe" } }))

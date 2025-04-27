@@ -312,3 +312,13 @@ EXTRACTOR.recipeBuilder()
         .EUt(24)
         .duration(35)
         .buildAndRegister()
+
+
+// LARGE_MIXER.recipeBuilder()
+//         .inputs(ore('dustCopper') * 3)
+//         .inputs(ore('dustSilver'))
+//         .fluidInputs(fluid('redstone') * 1000)
+//         .outputs(ore('dustSignalum') * 4)
+//         .duration(240)
+//         .EUt(500)
+//         .buildAndRegister()

@@ -725,3 +725,237 @@ furnace.removeByOutput(metaitem('ingotTritanium'))
 //         .duration(50)
 //         .EUt(16)
 //         .buildAndRegister()
+
+// OpV energy hatch & dynamo
+// crafting.addShaped(item('gregtech:machine:4034'), [[null, null, null], [null, item('gregtech:mte', 997), ore('cableGtSingleNeutronium')], [null, null, null]])
+// crafting.addShaped(item('gregtech:machine:4029'), [[null, null, null], [ore('cableGtSingleNeutronium'), item('gregtech:mte', 997), null], [null, null, null]])
+
+// //update vacuume tube
+// crafting.removeByOutput(ore('circuitUlv'))
+// crafting.addShaped(ore('circuitUlv'), [[null, item('gregtech:meta_item_1', 517), null], [null, item('gregtech:meta_item_1:16018'), null], [ore('stickWroughtIron'), null, ore('stickWroughtIron')]])
+
+// crafting.removeByOutput(item('gregtech:meta_item_1', 502))
+// CHEMICAL_REACTOR.recipeBuilder()
+//         .inputs(ore('wool') * 5)
+//         .fluidInputs(fluid('glue') * 144, fluid('plastic') * 144)
+//         .outputs(item('gregtech:meta_item_1', 502) * 10)
+//         .duration(160)
+//         .EUt(14)
+//         .buildAndRegister()
+
+
+// CHEMICAL_REACTOR.recipeBuilder()
+//         .inputs(ore('wool') * 5)
+//         .fluidInputs(fluid('glue') * 144, fluid('polytetrafluoroethylene') * 144)
+//         .outputs(item('gregtech:meta_item_1', 502) * 20)
+//         .duration(160)
+//         .EUt(116)
+//         .buildAndRegister()
+
+
+// CHEMICAL_REACTOR.recipeBuilder()
+//         .inputs(ore('wool') * 5)
+//         .fluidInputs(fluid('glue') * 144, fluid('polybenzimidazole') * 144)
+//         .outputs(item('gregtech:meta_item_1', 502) * 40)
+//         .duration(160)
+//         .EUt(116)
+//         .buildAndRegister()
+
+
+// UV Machine Hull
+// Utils.removeRecipeByOutput(assembler, [item('gregtech:mte', 993)], [], true)
+
+// ASSEMBLER.recipeBuilder()
+//         .inputs(ore('cableGtSingleNaquadahAlloy') * 2)
+//         .inputs(item('gregtech:machine_casing', 8))
+//         .outputs(item('gregtech:mte', 993))
+//         .fluidInputs(fluid('polybenzimidazole') * 288)
+//         .duration(50)
+//         .EUt(16)
+//         .buildAndRegister()
+
+
+// //capacitor recipes
+// crafting.addShaped(ore('componentCapacitor') * 4, [[ore('foilAluminium'), ore('foilAluminium'), ore('foilAluminium')], [ore('foilAluminium'), ore('foilAluminium'), ore('foilAluminium')], [ore('wireGtSingleTin'), null, ore('wireGtSingleTin')]])
+
+// Utils.removeRecipeByOutput(assembler, [ore('componentCapacitor') * 2], [], false)
+
+// ASSEMBLER.recipeBuilder()
+//         .inputs(ore('foilAluminium') * 4)
+//         .inputs(ore('platePlastic'))
+//         .outputs(ore('componentCapacitor') * 12)
+//         .duration(80)
+//         .EUt(16)
+//         .buildAndRegister()
+
+// //new electronic circuit recipe
+// /*
+// Utils.removeRecipeByOutput(CIRCUIT_ASSEMBLER, [item('gregtech:meta_item_2:32488')], [], false)
+
+// CIRCUIT_ASSEMBLER.recipeBuilder()
+// .inputs(ore('componentResistor') * 8)
+// .inputs(ore('componentCapacitor') * 4)
+// .inputs(ore('wireFineCopper') * 4)
+// .inputs(item('gtadditions:ga_meta_item:32030'))
+// .fluidInputs(fluid('soldering_alloy') * 50)
+// .outputs(item('gregtech:meta_item_2:32488'))
+// .duration(100)
+// .EUt(16)
+// .buildAndRegister()
+
+// CIRCUIT_ASSEMBLER.recipeBuilder()
+// .inputs(item('gcyl:gcyl_meta_item', 241) * 2)
+// .inputs(item('gcyl:gcyl_meta_item', 242) * 2)
+// .inputs(ore('wireFineCopper') * 4)
+// .inputs(item('gtadditions:ga_meta_item:32030'))
+// .fluidInputs(fluid('soldering_alloy') * 50)
+// .outputs(item('gregtech:meta_item_2:32488'))
+// .duration(100)
+// .EUt(16)
+// .buildAndRegister()
+// */
+
+// field generators
+// Utils.removeRecipeByOutput(assembler, [item('gregtech:meta_item_1:32670')], [], false)
+// Utils.removeRecipeByOutput(assembler, [item('gregtech:meta_item_1:32671')], [], false)
+// Utils.removeRecipeByOutput(assembler, [item('gregtech:meta_item_1:32672')], [], false)
+// Utils.removeRecipeByOutput(assembler, [item('gregtech:meta_item_1:32673')], [], false)
+// Utils.removeRecipeByOutput(assembler, [item('gregtech:meta_item_1', 206)], [], false)
+
+// crafting.removeByOutput(item('gregtech:meta_item_1:32670'))
+// crafting.removeByOutput(item('gregtech:meta_item_1:32671'))
+// crafting.removeByOutput(item('gregtech:meta_item_1:32672'))
+// crafting.removeByOutput(item('gregtech:meta_item_1:32673'))
+// crafting.removeByOutput(item('gregtech:meta_item_1', 206))
+
+// //lv
+// ASSEMBLER.recipeBuilder()
+//         .inputs(ore('circuitBasic'))
+//         .inputs(ore('dustEnderPearl'))
+//         .outputs(item('gregtech:meta_item_1:32670'))
+//         .fluidInputs(fluid('lv_superconductor_base') * 288)
+//         .duration(100)
+//         .EUt(30)
+//         .buildAndRegister()
+// //mv
+// ASSEMBLER.recipeBuilder()
+//         .inputs(ore('circuitGood') * 4)
+//         .inputs(ore('dustEnderEye'))
+//         .outputs(item('gregtech:meta_item_1:32671'))
+//         .fluidInputs(fluid('mv_superconductor_base') * 576)
+//         .duration(100)
+//         .EUt(120)
+//         .buildAndRegister()
+// //hv
+// ASSEMBLER.recipeBuilder()
+//         .inputs(ore('circuitHv') * 4)
+//         .inputs(item('gregtech:meta_item_1:32724'))
+//         .outputs(item('gregtech:meta_item_1:32672'))
+//         .fluidInputs(fluid('hv_superconductor_base') * 1152)
+//         .duration(100)
+//         .EUt(480)
+//         .buildAndRegister()
+// //EV
+// ASSEMBLER.recipeBuilder()
+//         .inputs(ore('circuitEv') * 4)
+//         .inputs(ore('dustNetherStar'))
+//         .outputs(item('gregtech:meta_item_1:32673'))
+//         .fluidInputs(fluid('ev_superconductor_base') * 2304)
+//         .duration(100)
+//         .EUt(1920)
+//         .buildAndRegister()
+// //IV
+// ASSEMBLER.recipeBuilder()
+//         .inputs(ore('circuitIv') * 4)
+//         .inputs(item('gregtech:meta_item_1:32725'))
+//         .outputs(item('gregtech:meta_item_1', 206))
+//         .fluidInputs(fluid('iv_superconductor_base') * 4608)
+//         .duration(100)
+//         .EUt(7680)
+//         .buildAndRegister()
+
+
+// crafting.addShaped(item('gregtech:meta_item_1', 206), [[ore('wireGtHexIvSuperconductorBase'), ore('circuitIv'), ore('wireGtHexIvSuperconductorBase')], [ore('circuitIv'), item('gregtech:meta_item_1:32725'), ore('circuitIv')], [ore('wireGtHexIvSuperconductorBase'), ore('circuitIv'), ore('wireGtHexIvSuperconductorBase')]])
+// crafting.addShaped(item('gregtech:meta_item_1:32673'), [[ore('wireGtOctalEvSuperconductorBase'), ore('circuitEv'), ore('wireGtOctalEvSuperconductorBase')], [ore('circuitEv'), ore('gemNetherStar,netherStar'), ore('circuitEv')], [ore('wireGtOctalEvSuperconductorBase'), ore('circuitEv'), ore('wireGtOctalEvSuperconductorBase')]])
+// crafting.addShaped(item('gregtech:meta_item_1:32672'), [[ore('wireGtQuadrupleHvSuperconductorBase'), ore('circuitHv'), ore('wireGtQuadrupleHvSuperconductorBase')], [ore('circuitHv'), item('gregtech:meta_item_1:32724'), ore('circuitHv')], [ore('wireGtQuadrupleHvSuperconductorBase'), ore('circuitHv'), ore('wireGtQuadrupleHvSuperconductorBase')]])
+// crafting.addShaped(item('gregtech:meta_item_1:32671'), [[ore('wireGtDoubleMvSuperconductorBase'), ore('circuitGood'), ore('wireGtDoubleMvSuperconductorBase')], [ore('circuitGood'), ore('pearlEnderEye'), ore('circuitGood')], [ore('wireGtDoubleMvSuperconductorBase'), ore('circuitGood'), ore('wireGtDoubleMvSuperconductorBase')]])
+// crafting.addShaped(item('gregtech:meta_item_1:32670'), [[item('gregtech:cable', 516), ore('circuitBasic'), item('gregtech:cable', 516)], [ore('circuitBasic'), ore('enderpearl'), ore('circuitBasic')], [item('gregtech:cable', 516), ore('circuitBasic'), item('gregtech:cable', 516)]])
+
+// Utils.removeRecipeByOutput(largeMix, [ore('dustNiobiumNitride') * 2], [], true)
+
+// LARGE_MIXER.recipeBuilder()
+//         .inputs(ore('dustNiobium'))
+//         .outputs(ore('dustNiobiumNitride') * 2)
+//         .fluidInputs(fluid('nitrogen') * 1000)
+//         .circuitMeta(1)
+//         .duration(108)
+//         .EUt(30)
+//         .buildAndRegister()
+
+// Utils.removeRecipeByOutput(largeMix, [ore('dustNichrome') * 5], [], true)
+
+// LARGE_MIXER.recipeBuilder()
+//         .inputs(ore('dustChrome'))
+//         .inputs(ore('dustNickel') * 4)
+//         .outputs(ore('dustNichrome') * 5)
+//         .circuitMeta(11)
+//         .duration(280)
+//         .EUt(30)
+//         .buildAndRegister()
+
+// //steel
+// ASSEMBLER.recipeBuilder()
+//         .inputs(ore('plateSteel') * 4)
+//         .inputs(ore('frameGtSteel'))
+//         .inputs(ore('gearSteel') * 2)
+//         .outputs(item('gregtech:turbine_casing', 1))
+//         .duration(200)
+//         .EUt(30)
+//         .buildAndRegister()
+// //ti
+// ASSEMBLER.recipeBuilder()
+//         .inputs(ore('plateSteel') * 4)
+//         .inputs(item('gregtech:frame_titanium'))
+//         .inputs(ore('gearTitanium') * 2)
+//         .outputs(item('gregtech:turbine_casing', 2) * 3)
+//         .duration(200)
+//         .EUt(30)
+//         .buildAndRegister()
+
+// Utils.removeRecipeByOutput(assembly_line, [ore('dustNiobiumNitride') * 2], [], true)
+// Utils.removeRecipeByOutput(assembly_line, [item('gregtech:meta_item_1:32670') * 16], [], true)
+
+// assembly_line.recipeBuilder()
+//         .inputs(ore('ingotSolderingAlloy') * 2)
+//         .inputs(ore('circuitBasic') * 8)
+//         .inputs(ore('dustEnderPearl') * 4)
+//         .outputs(item('gregtech:meta_item_1:32670') * 16)
+//         .circuitMeta(1)
+//         .circuitMeta(2)
+//         .duration(6000)
+//         .EUt(8000)
+//         .buildAndRegister()
+
+
+// Utils.removeRecipeByOutput(engraver, [item('gregtech:meta_item_1', 566)], [], true)
+// Utils.removeRecipeByOutput(large_engrav, [item('gregtech:meta_item_1', 566)], [], true)
+
+
+// engraver.recipeBuilder()
+//         .inputs(metaitem('wafer.silicon'))
+//         .outputs(item('gregtech:meta_item_1', 566))
+//         .notConsumable(ore('craftingLensWhite'))
+//         .duration(45 * 20)
+//         .EUt(18)
+//         .buildAndRegister()
+
+// large_engrav.recipeBuilder()
+//         .inputs(metaitem('wafer.silicon'))
+//         .outputs(item('gregtech:meta_item_1', 566))
+//         .notConsumable(ore('craftingLensWhite'))
+//         .duration(45 * 20)
+//         .EUt(18)
+//         .buildAndRegister()
+
+
+// Utils.removeRecipeByOutput(forming, [item('gregtech:meta_item_2:15518')], [], true)

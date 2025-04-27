@@ -548,3 +548,12 @@ FORGE_HAMMER.recipeBuilder()
         .duration(100)
         .EUt(30)
         .buildAndRegister()
+
+
+// ASSEMBLER.recipeBuilder()
+//         .inputs(item('minecraft:iron_bars') * 3)
+//         .inputs(ore('plateIron') * 6)
+//         .outputs(item('advancedrocketry:carbonscrubbercartridge'))
+//         .duration(90)
+//         .EUt(30)
+//         .buildAndRegister()
