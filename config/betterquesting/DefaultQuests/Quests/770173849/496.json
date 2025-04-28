@@ -28,8 +28,9 @@
     },
     "1:10": {
       "dimension:3": 402,
+      "hideInfo:1": 1,
       "index:3": 1,
-      "name:8": "TODO: unknown",
+      "name:8": "Visit Phobos",
       "taskID:8": "bq_standard:location",
       "visible:1": 1
     }
