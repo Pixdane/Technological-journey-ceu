@@ -39,7 +39,7 @@ jobs:
       - name: Build Curseforge modpack
         run: |
           mkdir build
-          ./packwiz curseforge export --output build/output.zip
+          packwiz curseforge export --output build/output.zip
       
       - name: Unzip output.zip
         run: |
