@@ -7,4 +7,8 @@ crafting.addShaped(item('randomthings:spectreenergyinjector'), [
     [item('minecraft:obsidian'), item('randomthings:ingredient', 12), item('minecraft:obsidian')]
 ])
 
-// crafting.addShaped(item('randomthings:ingredient', 1), [[item('randomthings:stableenderpearl'), ore('foilStainlessSteel'), item('randomthings:stableenderpearl')], [ore('foilStainlessSteel'), ore('itemSkull'), ore('foilStainlessSteel')], [item('randomthings:stableenderpearl'), ore('foilStainlessSteel'), item('randomthings:stableenderpearl')]])
+crafting.addShaped(item('randomthings:ingredient', 1), [
+    [item('randomthings:stableenderpearl'), ore('foilStainlessSteel'), item('randomthings:stableenderpearl')], 
+    [ore('foilStainlessSteel'), ore('itemSkull'), ore('foilStainlessSteel')], 
+    [item('randomthings:stableenderpearl'), ore('foilStainlessSteel'), item('randomthings:stableenderpearl')]
+])
