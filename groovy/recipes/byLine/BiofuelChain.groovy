@@ -1,6 +1,7 @@
 CHEMICAL_REACTOR = recipemap('chemical_reactor')
 EXTRACTOR = recipemap('extractor')
 FERMENTER = recipemap('fermenter')
+LCR = recipemap('large_chemical_reactor')
 
 CHEMICAL_REACTOR.recipeBuilder()
         .inputs(ore('dustTinySodiumHydroxide'))
