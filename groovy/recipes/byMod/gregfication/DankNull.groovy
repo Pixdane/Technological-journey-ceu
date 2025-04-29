@@ -12,7 +12,15 @@ crafting.addShaped(item('danknull:dank_null_0'), [
         [item('danknull:dank_null_panel_0'), item('danknull:dank_null_panel_0'), item('danknull:dank_null_panel_0')]
 ])
 
-// crafting.removeByOutput(item('danknull:dank_null_1'))
-// crafting.removeByOutput(item('danknull:dank_null_panel_1'))
-// crafting.addShaped(item('danknull:dank_null_1'), [[item('danknull:dank_null_panel_1'), item('danknull:dank_null_panel_1'), item('danknull:dank_null_panel_1')], [item('danknull:dank_null_panel_1'), item('danknull:dank_null_0'), item('danknull:dank_null_panel_1')], [item('danknull:dank_null_panel_1'), item('danknull:dank_null_panel_1'), item('danknull:dank_null_panel_1')]])
-// crafting.addShaped(item('danknull:dank_null_panel_1'), [[ore('blockLapis'), ore('blockCoalCoke'), ore('blockLapis')], [ore('blockCoalCoke'), item('gtadditions:ga_transparent_casing', 1), ore('blockCoalCoke')], [ore('blockLapis'), ore('blockCoalCoke'), ore('blockLapis')]])
+crafting.removeByOutput(item('danknull:dank_null_1'))
+crafting.removeByOutput(item('danknull:dank_null_panel_1'))
+crafting.addShaped(item('danknull:dank_null_1'), [
+        [item('danknull:dank_null_panel_1'), item('danknull:dank_null_panel_1'), item('danknull:dank_null_panel_1')], 
+        [item('danknull:dank_null_panel_1'), item('danknull:dank_null_0'), item('danknull:dank_null_panel_1')], 
+        [item('danknull:dank_null_panel_1'), item('danknull:dank_null_panel_1'), item('danknull:dank_null_panel_1')]
+])
+crafting.addShaped(item('danknull:dank_null_panel_1'), [
+        [ore('blockLapis'), ore('blockCoalCoke'), ore('blockLapis')], 
+        [ore('blockCoalCoke'), item('gregtech:transparent_casing') * 2, ore('blockCoalCoke')], 
+        [ore('blockLapis'), ore('blockCoalCoke'), ore('blockLapis')]
+])

@@ -74,7 +74,11 @@ crafting.addShaped("clay1", item('minecraft:clay') * 8,
 
 crafting.removeByOutput(item('minecraft:golden_apple', 1))
 
-// crafting.addShaped(item('minecraft:name_tag'), [[null, ore('cropFlax,string'), ore('cropFlax,string')], [null, ore('slimeball'), ore('cropFlax,string')], [ore('cropFlax,string'), null, null]])
+crafting.addShaped(item('minecraft:name_tag'), [
+        [null, ore('cropFlax').or(ore('string')), ore('cropFlax').or(ore('string'))], 
+        [null, ore('slimeball'), ore('cropFlax').or(ore('string'))], 
+        [ore('cropFlax').or(ore('string')), null, null]
+])
 
 // crafting.addShaped(ore('toolHoe').withNbt({ Unbreakable:
 // 1 as long ,

@@ -73,12 +73,8 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 35,
-          "Damage:2": 14,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "gtadditions:ga_metal_casing_1",
-            "orig_meta:3": 14
-          }
+          "Damage:2": 1,
+          "id:8": "gcyl:gcyl_metal_casing_1"
         }
       },
       "taskID:8": "bq_standard:retrieval"

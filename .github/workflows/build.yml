@@ -23,10 +23,12 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
 
+      - name: Setup Go environment
+        uses: actions/setup-go@v5.4.0
+
       - name: Install Packwiz
         run: |
-          wget -O packwiz.zip https://nightly.link/packwiz/packwiz/workflows/go/main/Linux%2064-bit%20x86.zip
-          unzip packwiz.zip
+          go install github.com/packwiz/packwiz@latest
 
       - name: Set short git commit SHA
         id: vars
@@ -37,12 +39,18 @@ jobs:
       - name: Build Curseforge modpack
         run: |
           mkdir build
-          ./packwiz curseforge export --output build/output.zip
+          packwiz curseforge export --output build/output.zip
       
       - name: Unzip output.zip
         run: |
           unzip build/output.zip -d build/output
           mv build/output.zip build/Technological-Journey-CEu-$COMMIT_SHORT_SHA.zip
+      
+      - name: Upload modpack
+        uses: actions/upload-artifact@v4.3.3
+        with:
+          name: Technological-Journey-CEu-${{ env.COMMIT_SHORT_SHA }}
+          path: build/output
       
       - name: Download Cleanroom
         uses: robinraju/release-downloader@v1.12
@@ -58,15 +66,9 @@ jobs:
         run: |
           cd build/Cleanroom
           mv libraries patches mmc-pack.json -t ../output
-          cd ../output
-          zip -r ../Technological-Journey-CEu-Cleanroom-$COMMIT_SHORT_SHA.zip ./*
 
-      - name: Publish to GitHub
-        uses: softprops/action-gh-release@v1
+      - name: Upload Cleanroom
+        uses: actions/upload-artifact@v4.3.3
         with:
-          files: "build/*.zip"
-          fail_on_unmatched_files: true
-          prerelease: true
-          tag_name: "testing"
-          name: "Beta Release Testing ${{ env.COMMIT_SHORT_SHA }}"
-          body: "Testing Pre-release for TJ-CEu package"
+          name: Technological-Journey-CEu-Cleanroom-${{ env.COMMIT_SHORT_SHA }}
+          path: build/output
