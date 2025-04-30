@@ -2,19 +2,19 @@
 tjceu.material.aquamarine=海蓝宝石
 tjceu.material.explosive_hydrazine_mixture=爆炸性肼燃料混合物
 tjceu.material.octogen=奥克托今（HMX）
-tjceu.material.octaazacubane=八氮立方烷
-tjceu.material.octaazacubane_solution=湿态八氮立方烷溶液
-tjceu.material.seabohrgium=Seabohrgium
-tjceu.material.fordnium=Fordnium
+tjceu.material.octaazacubane=八氮杂立方烷
+tjceu.material.octaazacubane_solution=湿八氮杂立方烷溶液
 tjceu.material.soularium=魂金
 tjceu.material.stellar_alloy=恒星合金
-tjceu.material.draconic_stem_cell_fluid=龙干细胞液
+tjceu.material.draconic_stem_cell_fluid=龙干细胞培养液
 tjceu.material.raw_chaos=粗制混沌
-tjceu.material.pahoehoe_lava=结壳熔岩
+tjceu.material.pahoehoe_lava=冷却熔岩
+tjceu.material.starmetal=星辉
 tjceu.material.starmetal_alloy=星辉合金
+tjceu.material.starlight=星能液
 tjceu.material.starlight_rocket_fuel=星能火箭燃料
 tjceu.material.naquadric_fuel_catalyst=硅岩燃料催化剂
-tjceu.material.eternity_preparation=永恒制剂
+tjceu.material.eternity_preparation=永恒预制物
 tjceu.material.starlight_complex=星能复合物
 tjceu.material.eternity=永恒等离子体
 tjceu.material.fermentation_base=发酵基
@@ -22,20 +22,20 @@ tjceu.material.juice=果汁
 tjceu.material.honey=蜂蜜
 
 # MetaPrefixItem Name Overrides
-item.tjceu.material.octaazacubane.dust=亚稳八氮立方烷增强剂
+item.tjceu.material.octaazacubane.dust=亚稳态八氮杂立方烷增强剂
 
 # Metaitems
 metaitem.steam.motor.ulv.name=ULV蒸汽马达
 metaitem.steam.piston.ulv.name=ULV蒸汽活塞
 metaitem.conveyor.module.ulv.name=ULV蒸汽传送带
 metaitem.steam.pump.ulv.name=ULV蒸汽泵
-metaitem.solar_panel.max.name=上限压太阳能板 (MAX)
+metaitem.solar_panel.max.name=上限压太阳能板（MAX）
 metaitem.shard.refined_chaos.name=精炼混沌碎片
 metaitem.crystal.refined_chaos.name=精炼混沌水晶
 metaitem.crystal.infinity.name=无尽水晶
 metaitem.crystal.eternity.name=永恒水晶
 metaitem.ban.certificate.name=初学者证明
-metaitem.ban.certificate.tooltip=§1图片来自 Emperdog
+metaitem.ban.certificate.tooltip=§1纹理由Emperdog提供
 
 ## Dimension Display Items
 metaitem.display.overworld.name=主世界
@@ -56,7 +56,7 @@ metaitem.display.deep_dark.name=漆黑之地
 tile.multiblock_casing.draconic.name=龙机械方块
 tile.multiblock_casing.awakened_draconium.name=觉醒龙机械方块
 tile.multiblock_casing.refined_chaos.name=精炼混沌机械方块
-tile.multiblock_casing.soul_insulation.name=大型灵魂操控机械方块
+tile.multiblock_casing.soul_insulation.name=灵魂阻断机械方块
 
 # Machines
 ## Multiblocks
@@ -65,7 +65,7 @@ tjceu.machine.armor_infuser.name=盔甲注能器
 tjceu.machine.chaos_replicator.name=混沌复制机
 tjceu.machine.dragon_egg_replicator.name=龙蛋复制机
 tjceu.machine.large_vial_processor.name=大型灵魂瓶处理厂
-tjceu.machine.large_powered_spawner.name=大型电动刷怪笼
+tjceu.machine.large_powered_spawner.name=大型电动刷怪箱
 
 ## Singleblocks
 ### Vial Processors
@@ -99,10 +99,10 @@ tjceu.machine.gardening_greenhouse.uxv.name=史诗园艺温室 IV
 tjceu.machine.gardening_greenhouse.opv.name=传奇园艺温室
 
 ## Hatches
-tjceu.machine.fluid_hatch.import_4x.hv.name=§bMV§r四重输入仓
-tjceu.machine.fluid_hatch.export_4x.hv.name=§bMV§r四重输出仓
-tjceu.machine.fluid_hatch.import_9x.hv.name=§bMV§r九重输入仓
-tjceu.machine.fluid_hatch.export_9x.hv.name=§bMV§r九重输出仓
+tjceu.machine.fluid_hatch.import_4x.hv.name=§bHV§r四重输入仓
+tjceu.machine.fluid_hatch.export_4x.hv.name=§bHV§r四重输出仓
+tjceu.machine.fluid_hatch.import_9x.hv.name=§bHV§r九重输入仓
+tjceu.machine.fluid_hatch.export_9x.hv.name=§bHV§r九重输出仓
 
 # Recipemaps
 recipemap.armor_infusion.name=盔甲注能
@@ -110,5 +110,17 @@ recipemap.chaos_replication.name=混沌复制
 recipemap.dragon_egg_replication.name=龙蛋复制
 recipemap.vial_processing.name=灵魂瓶处理
 recipemap.advanced_vial_processing.name=进阶灵魂瓶处理
-recipemap.soul_capture.name=灵魂捕捉
+recipemap.soul_capture.name=灵魂捕获
 recipemap.horticultural_cultivation.name=园艺栽培
+
+# Tooltips addition
+tjceu.tooltip.black_quartz=烧制石英岩粉两次来获得
+tjceu.tooltip.black_quartz_dust=烧制石英岩粉来获得
+tjceu.tooltip.celestial_manipulator=§4无法在AR行星上运行！
+tjceu.tooltip.charged_draconium_block=§4不要将此方块放置在世界中！
+tjceu.tooltip.charcoal_log=§6ID 400 维度信物
+tjceu.tooltip.tungsten_carbide_block=§6ID 401维度信物
+tjceu.tooltip.salt_block=§6ID 402维度信物
+tjceu.tooltip.platinum_block=§6ID 403维度信物
+tjceu.tooltip.californium_block=§6ID 405维度信物
+tjceu.tooltip.adamantium_block=§6ID 406维度信物

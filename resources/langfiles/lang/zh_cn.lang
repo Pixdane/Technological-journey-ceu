@@ -18,10 +18,10 @@ tile.teleporterbeneath.name=漆黑之门
 gcyl.material.chaos=精炼混沌
 
 # Ore Veins
-gcyl.veins.fluid.blood=地狱血池遗迹
-gcyl.veins.fluid.hydrogen_sulfide=下界酸性气体矿藏
-gcyl.veins.fluid.sea_water=地下海水矿藏
-tjceu.veins.fluid.water=地下水沉积
+gcyl.veins.fluid.blood=血池地狱遗址
+gcyl.veins.fluid.hydrogen_sulfide=下界酸性气气田
+gcyl.veins.fluid.sea_water=地下海水储层
+tjceu.veins.fluid.water=地下水储层
 
 gcyl.veins.ore.beryllium_end=末地铍矿脉
 gcyl.veins.ore.manganese_end=末地锰矿脉
@@ -45,7 +45,7 @@ gcyl.veins.ore.bornite=斑铜矿脉
 gcyl.veins.ore.dolomite=白云石矿脉
 gcyl.veins.ore.kaolinite=高岭土矿脉
 gcyl.veins.ore.kyanite=蓝晶石矿脉
-gcyl.veins.ore.light_oil_sphere=轻油矿藏
+gcyl.veins.ore.light_oil_sphere=轻油储层
 gcyl.veins.ore.lignite=褐煤矿脉
 gcyl.veins.ore.malachite=孔雀石矿脉
 gcyl.veins.ore.quartz=石英矿脉
@@ -54,10 +54,10 @@ gcyl.veins.ore.tin=锡矿脉
 gcyl.veins.ore.topaz=黄玉矿脉
 gcyl.veins.ore.uranium_generic=铀矿脉
 
-tjceu.veins.ore.heavy_oil_sphere.titan=土卫六（泰坦）重油矿藏
-tjceu.veins.ore.light_oil_sphere.titan=土卫六（泰坦）轻油矿藏
-tjceu.veins.ore.medium_oil_sphere.titan=土卫六（泰坦）原油矿藏
-tjceu.veins.ore.natural_gas_plate.titan=土卫六（泰坦）天然气矿藏
+tjceu.veins.ore.heavy_oil_sphere.titan=土卫六（泰坦）重油储层
+tjceu.veins.ore.light_oil_sphere.titan=土卫六（泰坦）轻油储层
+tjceu.veins.ore.medium_oil_sphere.titan=土卫六（泰坦）原油储层
+tjceu.veins.ore.natural_gas_plate.titan=土卫六（泰坦）天然气储层
 tjceu.veins.ore.rich_coal.titan=土卫六（泰坦）富集碳矿脉
 tjceu.veins.ore.rich_oil_sands.titan=土卫六（泰坦）富集油砂矿脉
 
@@ -71,16 +71,16 @@ tjceu.veins.ore.diamond.moon=月球钻石矿脉
 tjceu.veins.ore.pyrochlore.moon=月球烧绿石矿脉
 tjceu.veins.ore.rutile.moon=月球金红石矿脉
 
-tjceu.veins.ore.naquadric.mercury=水星硅岩残骸
+tjceu.veins.ore.naquadric.mercury=水星硅岩化合物矿脉遗址
 tjceu.veins.ore.netherstar.mercury=水星下界之星矿脉
 tjceu.veins.ore.pure_molybdenum.mercury=水星纯钼矿脉
 tjceu.veins.ore.pure_monazite.mercury=水星纯独居石矿脉
 tjceu.veins.ore.pure_platinum.mercury=水星纯铂矿脉
 tjceu.veins.ore.sulfur.mercury=水星硫矿脉
 
-tjceu.veins.ore.naquadah.deimos=火卫二（德摩斯）硅岩残骸
+tjceu.veins.ore.naquadah.deimos=火卫二（德摩斯）硅岩矿脉遗址
 tjceu.veins.ore.radioactive.deimos=火卫二（德摩斯）放射性元素矿脉
-tjceu.veins.ore.superheavy.deimos=火卫二（德摩斯）超重矿脉
+tjceu.veins.ore.superheavy.deimos=火卫二（德摩斯）超重元素矿脉
 
 tjceu.veins.ore.fluorite.phobos=火卫一（福波斯）氟石矿脉
 tjceu.veins.ore.salt.phobos=火卫一（福波斯）盐矿脉
@@ -103,7 +103,7 @@ tjceu.veins.ore.pure_sapphire.deep_dark=漆黑之地纯蓝宝石矿脉
 tjceu.veins.ore.pure_tenorite.deep_dark=漆黑之地纯黑铜矿脉
 tjceu.veins.ore.pure_tetrahedrite.deep_dark=漆黑之地纯黝铜矿脉
 tjceu.veins.ore.pure_tin.deep_dark=漆黑之地纯锡矿脉
-tjceu.veins.ore.pure_tungstate.deep_dark=漆黑之地纯钨酸矿脉
-tjceu.veins.ore.rarest_metal.deep_dark=漆黑之地超贵金属矿脉
-tjceu.veins.ore.rich_uranium.deep_dark=漆黑之地富铀矿脉
+tjceu.veins.ore.pure_tungstate.deep_dark=漆黑之地纯钨酸盐矿脉
+tjceu.veins.ore.rarest_metal.deep_dark=漆黑之地贵金属矿脉
+tjceu.veins.ore.rich_uranium.deep_dark=漆黑之地富集铀矿脉
 tjceu.veins.ore.starmetal.deep_dark=漆黑之地星辉矿脉
