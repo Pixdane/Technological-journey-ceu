@@ -21,6 +21,7 @@ mods.jei.ingredient.yeet(
         item('enderio:item_material', 29),
         item('enderio:item_material', 32),
         item('enderio:item_material', 33),
+        item('enderio:item_material', 38),
         item('enderio:item_material', 51),
         item('enderio:item_material', 55),
         item('enderio:item_material', 75),
@@ -65,6 +66,19 @@ mods.jei.ingredient.yeet(
         item('enderio:block_alloy_smelter'),
         item('enderio:block_enhanced_alloy_smelter'),
 )
+
+// Hide JEI categories
+[
+        'LavaGenerator',
+        'StirlingGenerator',
+        'SolarPanel',
+        'GrindingBall',
+        'SagMill',
+        'CombustionGenerator',
+        'AlloySmelter',
+].each {
+    mods.jei.category.hideCategory(it)
+}
 
 // EIO metals to gregtech 
 // End Alloy

@@ -4,10 +4,11 @@ ASSEMBLER = recipemap('assembler')
 LASER_ENGRAVER = recipemap('laser_engraver')
 EXTRACTOR = recipemap('extractor')
 
-
 // Hide items from JEI
 mods.jei.ingredient.yeet(
         item('actuallyadditions:block_misc', 7),
+        item('actuallyadditions:block_atomic_reconstructor'),
+        item('actuallyadditions:block_empowerer'),
         item('actuallyadditions:block_lava_factory_controller'),
         item('actuallyadditions:block_tiny_torch'),
         item('actuallyadditions:item_color_lens'),
@@ -31,10 +32,22 @@ mods.jei.ingredient.yeet(
         item('actuallyadditions:block_furnace_double'),
         item('actuallyadditions:block_fermenting_barrel'),
 )
+
 // Recipe removals
 [
 ].forEach {
     crafting.removeByOutput(it)
+}
+
+// Hide JEI categories
+[
+        'actuallyadditions.coffee',
+        'actuallyadditions.crushing',
+        'actuallyadditions.reconstructor',
+        'actuallyadditions.empowerer',
+        'actuallyadditions.booklet',
+].each {
+    mods.jei.category.hideCategory(it)
 }
 
 // Red
@@ -268,7 +281,7 @@ crafting.addShaped(tjceu('block_laser_relay_fluids'), item('actuallyadditions:bl
         [item('minecraft:obsidian'), item('minecraft:lapis_block'), item('minecraft:obsidian')]
 ])
 
-// Basic Precision Laser Engraver TODO:?????
+// Basic Precision Laser Engraver
 crafting.addShapeless(item('gregtech:mte', 560), [item('actuallyadditions:block_atomic_reconstructor')])
 
 
@@ -278,7 +291,3 @@ EXTRACTOR.recipeBuilder()
         .duration(100)
         .EUt(30)
         .buildAndRegister()
-
-// TODO: tooltips
-// ore('gemQuartzBlack').addTooltip("Smelt Quartzite dust twice")
-// ore('dustQuartzBlack').addTooltip("Smelt Quartzite dust")

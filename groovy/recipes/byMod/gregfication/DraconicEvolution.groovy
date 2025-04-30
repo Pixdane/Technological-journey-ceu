@@ -220,9 +220,6 @@ crafting.shapedBuilder()
         .output(item('draconicevolution:celestial_manipulator'))
         .register()
 
-// TODO: tooltip
-//item('draconicevolution:celestial_manipulator').addTooltip(format.darkRed("Will not work on AR planets"))
-
 crafting.shapedBuilder()
         .name(tjceu('chaotic_casing'))
         .row('PHP')

@@ -87,10 +87,3 @@ crafting.addShaped(item('minecraft:name_tag'), [
 //     { Name: "Unbreakable Emerald Tipped Diamond Hoe" } }), [[ore('gemEmerald'), ore('gemEmerald'), null], [ore('gemEmerald'), ore('toolHoe'), null], [null, null, null]])
 // mods.jei.JEI.addItem(ore('toolHoe').withNbt({ display:
 // { Name: "Unbreakable Emerald Tipped Diamond Hoe" } }))
-
-// TODO: tooltips
-// ore('bookEnchanted,craftingBook').withNbt({ StoredEnchantments:
-// [{ lvl:
-// 1 as short ,
-//      id:
-//      13 as short }] }).addTooltip("§4DO NOT STACK THESE IN THE ANVIL IT WILL VOID YOUR BOOKS")
