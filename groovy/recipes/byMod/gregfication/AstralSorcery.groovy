@@ -338,17 +338,6 @@ MACERATOR.recipeBuilder()
         .EUt(12)
         .buildAndRegister()
 
-// TODO: Add Tooltips
-// //tooltips addTooltip(); format."color()"
-// fluid('astralsorcery.liquidstarlight').addTooltip("Sx");
-// ore('dustAstralStarmetal').addTooltip("Ax");
-// ore('ingotAstralStarmetal').addTooltip("(AxSx)");
-// ore('oreAstralStarmetal').addTooltip("Ax");
-// item('astraladditions:block_starmetal').addTooltip("(AxSx)");
-// ore('gemAquamarine').addTooltip("Be₃Al₃Si₆O₁₈");
-// item('astralsorcery:itemcraftingcomponent', 4).addTooltip("Be₃Al₃Si₆O₁₈Sx");
-// util.getCrystalORIngredient(false, false).addTooltip("(SiO₂)﹖");
-
 // Treebeacon
 crafting.addShaped(item('astralsorcery:blocktreebeacon'), [
         [ore('circuitLv'), ore('treeSapling'), ore('circuitLv')],
@@ -375,17 +364,6 @@ EBF.recipeBuilder()
         .duration(1000)
         .EUt(30720)
         .buildAndRegister()
-
-// TODO: Add Tooltips
-// item('gregtech:meta_item_1', 524).addTooltip("(AxSx)Nq(Ir₃Os)");
-// item('gregtech:meta_item_1:1524').addTooltip("(AxSx)Nq(Ir₃Os)");
-// item('gregtech:meta_item_1:2524').addTooltip("(AxSx)Nq(Ir₃Os)");
-// item('gregtech:meta_item_1:9524').addTooltip("(AxSx)Nq(Ir₃Os)");
-// item('gregtech:meta_item_1:10524').addTooltip("(AxSx)Nq(Ir₃Os)");
-// item('gregtech:meta_item_1:11524').addTooltip("(AxSx)Nq(Ir₃Os)");
-// item('gregtech:meta_item_1:12524').addTooltip("(AxSx)Nq(Ir₃Os)");
-// item('gregtech:meta_block_compressed_32', 12).addTooltip("(AxSx)Nq(Ir₃Os)");
-// fluid('star_metal_alloy').addTooltip("(AxSx)Nq(Ir₃Os)");
 
 // ZPM Direct Starmetal
 CHEMICAL_BATH.recipeBuilder()

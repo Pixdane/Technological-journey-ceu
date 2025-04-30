@@ -113,6 +113,9 @@ mods.jei.ingredient.yeet(
 
         item('libvulpes:battery'),
         item('libvulpes:battery', 1),
+
+        item('advancedrocketry:centrifuge'),
+        item('advancedrocketry:precisionlaseretcher'),
 )
 
 // Recipe removals
@@ -153,9 +156,17 @@ mods.jei.ingredient.yeet(
         item('advancedrocketry:warpmonitor'),
         item('advancedrocketry:orientationcontroller'),
         item('advancedrocketry:gravitycontroller'),
-        item('advancedrocketry:rocketbuilder')
+        item('advancedrocketry:rocketbuilder'),
 ].forEach {
     crafting.removeByOutput(it)
+}
+
+// Hide JEI categories
+[
+        'zmaster587.AR.centrifuge',
+        'zmaster587.AR.precisionlaseretcher',
+].each {
+    mods.jei.category.hideCategory(it)
 }
 
 MIXER.recipeBuilder()
@@ -451,14 +462,6 @@ AUTOCLAVE.recipeBuilder()
         .EUt(500)
         .buildAndRegister()
 
-// TODO: Adding tooltips
-// item('advancedrocketry:charcoallog').addTooltip("ID 400 artifact");
-// ore('blockTungstenCarbide').addTooltip("ID 401 artifact");
-// ore('blockSalt').addTooltip("ID 402 artifact");
-// item('gregtech:meta_block_compressed_3', 3).addTooltip("ID 403 artifact");
-// ore('blockCalifornium').addTooltip("ID 405 artifact");
-// ore('blockAdamantium').addTooltip("ID 406 artifact");
-
 // Low tank
 EXTRUDER.recipeBuilder()
         .inputs([ore('ingotIron') * 16])
@@ -498,7 +501,6 @@ EXTRUDER.recipeBuilder()
 // TODO Fuel burn time
 //furnace.addFuel(item('advancedrocketry:charcoallog'), 640000)
 
-
 furnace.removeByOutput(item('libvulpes:productingot', 7))
 furnace.removeByOutput(item('libvulpes:productingot', 6))
 furnace.removeByOutput(item('libvulpes:productingot', 3))
@@ -508,7 +510,6 @@ furnace.removeByOutput(item('libvulpes:productingot', 9))
 furnace.removeByOutput(item('libvulpes:productingot', 10))
 furnace.removeByOutput(item('advancedrocketry:productingot', 1))
 furnace.removeByOutput(item('advancedrocketry:productingot'))
-
 
 CENTRIFUGE.recipeBuilder()
         .inputs(ore('turfMoon'))
@@ -541,14 +542,12 @@ ELECTROLYZER.recipeBuilder()
         .EUt(17)
         .buildAndRegister()
 
-
 FORGE_HAMMER.recipeBuilder()
         .inputs(item('advancedrocketry:charcoallog'))
         .outputs(item('minecraft:coal', 1) * 4)
         .duration(100)
         .EUt(30)
         .buildAndRegister()
-
 
 ASSEMBLER.recipeBuilder()
         .inputs(item('minecraft:iron_bars') * 3)
