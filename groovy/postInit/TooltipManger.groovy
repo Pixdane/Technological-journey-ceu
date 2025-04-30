@@ -34,10 +34,10 @@ item('actuallyadditions:item_dust', 7).addTooltip('tjceu.tooltip.black_quartz_du
 
 // AstralSorcery
 fluid('astralsorcery.liquidstarlight').addTooltip('§eSx')
-(item('astraladditions:block_starmetal') |
-        item('astralsorcery:itemcraftingcomponent', 1) |
-        item('astralsorcery:itemcraftingcomponent', 2) |
-        item('astralsorcery:blockcustomore', 1)).addTooltip('§eAxSx')
+item('astraladditions:block_starmetal').addTooltip('§eAxSx')
+item('astralsorcery:itemcraftingcomponent', 1).addTooltip('§eAxSx')
+item('astralsorcery:itemcraftingcomponent', 2).addTooltip('§eAxSx')
+item('astralsorcery:blockcustomore', 1).addTooltip('§eAxSx')
 item('astralsorcery:blockcustomsandore').addTooltip('§eBe₃Al₃Si₆O₁₈')
 
 // Advanced Rocketry
