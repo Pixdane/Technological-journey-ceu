@@ -14,7 +14,7 @@ class SecondDegreeMaterials {
                 .color(0x3b0c5c)
                 .build()
 
-        ExplosiveHydrazineFuelMixture.setFormula('(8((N2H4)(CH4O))4(C7H7NO2)(C3H5N3O9))', true)
+        ExplosiveHydrazineFuelMixture.setFormula('((N2H4)(CH4O))8(C7H7NO2)4(C3H5N3O9)', true)
 
         Octogen = new Material.Builder(1001, tjId('octogen'))
                 .dust()
@@ -37,36 +37,22 @@ class SecondDegreeMaterials {
                 .flags(DISABLE_DECOMPOSITION)
                 .build()
 
-        Seabohrgium = new Material.Builder(1004, tjId('seabohrgium'))
-                .liquid()
-                .color(0x7B0EFF)
-                .build()
-
-        Seabohrgium.setFormula('BhSg', true)
-
-        Fordnium = new Material.Builder(1005, tjId('fordnium'))
-                .liquid()
-                .color(0xE9FA50)
-                .build()
-
-        Fordnium.setFormula('RfDb', true)
-
-        FermentationBase = new Material.Builder(1006, tjId('fermentation_base'))
+        FermentationBase = new Material.Builder(1004, tjId('fermentation_base'))
                 .liquid()
                 .color(0x3D5917)
                 .build()
 
-        Juice = new Material.Builder(1007, tjId('juice'))
+        Juice = new Material.Builder(1005, tjId('juice'))
                 .liquid()
                 .color(0xA8C972)
                 .build()
 
-        Honey = new Material.Builder(1008, tjId('honey'))
+        Honey = new Material.Builder(1006, tjId('honey'))
                 .liquid()
                 .color(0xD2C800)
                 .build()
 
-        Starmetal = new Material.Builder(1009, tjId('starmetal'))
+        Starmetal = new Material.Builder(1007, tjId('starmetal'))
                 .ingot()
                 .iconSet(SHINY)
                 .color(0x000D46)

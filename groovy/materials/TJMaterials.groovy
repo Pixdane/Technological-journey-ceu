@@ -18,8 +18,6 @@ class TJMaterials {
     static Material Octaazacubane
     static Material OctaazacubaneSolution
     static Material Eternity
-    static Material Seabohrgium
-    static Material Fordnium
     static Material FermentationBase
     static Material Juice
     static Material Honey
