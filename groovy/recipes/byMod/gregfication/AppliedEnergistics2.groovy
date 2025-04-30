@@ -683,21 +683,6 @@ crafting.addShaped(item('appliedenergistics2:molecular_assembler'), [
 
 h.yeet(item('nae2:reconstruction_chamber'))
 
-// TODO
-// Written by MadMan310
-// val ae2 as IMod = loadedMods["appliedenergistics2"];
-// val ae2Items as IItemStack[] = ae2.items;
-// for item in ae2Items {
-//     if(item.displayName has "Cable Facade") {
-//         if(item.displayName has "MAX Power Cell") {
-//             item.addTooltip(format.darkAqua("All facades are still craftable, they are just hidden from JEI to avoid clutter"));
-//         }
-//         else {
-//             mods.jei.JEI.hide(item);
-//         }
-//     }
-// }
-
 ASSEMBLER.recipeBuilder()
         .inputs([metaitem('hull.hv'), item('appliedenergistics2:quartz_glass') * 2, metaitem('electric.pump.hv') * 2])
         .outputs([item('appliedenergistics2:fluid_interface') * 4])

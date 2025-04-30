@@ -322,7 +322,6 @@ ore_dict.remove('stickIridium', item('libvulpes:productrod', 10))
 // crafting.removeByOutput(item('actuallyadditions:block_misc', 9));
 // 
 // furnace.removeByOutput(item('gregtech:meta_item_1:10712'));
-// item('draconicevolution:draconium_block', 1).addTooltip(format.darkRed("Do not place this block in world"));
 // crafting.removeByOutput(item('snad:snad', 1));
 // crafting.removeByOutput(item('snad:snad'));
 // h(item('advancedrocketry:oxygenfluid'));

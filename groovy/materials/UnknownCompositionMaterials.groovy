@@ -51,6 +51,8 @@ class UnknownCompositionMaterials {
                 .flags(GENERATE_PLATE, GENERATE_DENSE)
                 .build()
 
+        StarmetalAlloy.setFormula('(AxSx)Nq(Ir₃Os)', true)
+
         StarlightRocketFuel = new Material.Builder(1506, tjId('starlight_rocket_fuel'))
                 .liquid()
                 .color(0xdf362d)

@@ -21,6 +21,7 @@ mods.jei.ingredient.yeet(
         item('enderio:item_material', 29),
         item('enderio:item_material', 32),
         item('enderio:item_material', 33),
+        item('enderio:item_material', 38),
         item('enderio:item_material', 51),
         item('enderio:item_material', 55),
         item('enderio:item_material', 75),
@@ -65,6 +66,19 @@ mods.jei.ingredient.yeet(
         item('enderio:block_alloy_smelter'),
         item('enderio:block_enhanced_alloy_smelter'),
 )
+
+// Hide JEI categories
+[
+        'LavaGenerator',
+        'StirlingGenerator',
+        'SolarPanel',
+        'GrindingBall',
+        'SagMill',
+        'CombustionGenerator',
+        'AlloySmelter',
+].each {
+    mods.jei.category.hideCategory(it)
+}
 
 // EIO metals to gregtech 
 // End Alloy
@@ -373,12 +387,12 @@ crafting.addShaped(item('enderio:item_broken_spawner'), [[ore('dustSoularium'), 
 crafting.removeByOutput(item('enderio:item_big_item_filter'))
 crafting.addShaped(item('enderio:item_big_item_filter'), [[ore('plateAluminium'), ore('plateRedstone'), ore('plateAluminium')], [ore('plateRedstone'), item('enderio:item_basic_item_filter'), ore('plateRedstone')], [ore('plateAluminium'), ore('plateRedstone'), ore('plateAluminium')]])
 
-// LARGE_MIXER.recipeBuilder()
-//         .inputs(ore('sand') * 4)
-//         .inputs(ore('gravel') * 4)
-//         .circuitMeta(3)
-//         .fluidInputs(fluid('water') * 1000)
-//         .outputs(ore('itemBinderComposite') * 16)
-//         .EUt(500)
-//         .duration(80)
-//         .buildAndRegister()
+LARGE_MIXER.recipeBuilder()
+        .inputs(ore('sand') * 4)
+        .inputs(ore('gravel') * 4)
+        .circuitMeta(3)
+        .fluidInputs(fluid('water') * 1000)
+        .outputs(ore('itemBinderComposite').getFirst() * 16)
+        .EUt(500)
+        .duration(80)
+        .buildAndRegister()

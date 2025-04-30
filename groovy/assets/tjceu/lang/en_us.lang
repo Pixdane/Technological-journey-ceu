@@ -11,7 +11,9 @@ tjceu.material.stellar_alloy=Stellar Alloy
 tjceu.material.draconic_stem_cell_fluid=Draconic Stem Cell Fluid
 tjceu.material.raw_chaos=Raw Chaos
 tjceu.material.pahoehoe_lava=Pahoehoe Lava
+tjceu.material.starmetal=Starmetal
 tjceu.material.starmetal_alloy=Starmetal Alloy
+tjceu.material.starlight=Starlight
 tjceu.material.starlight_rocket_fuel=Starlight Rocket Fuel
 tjceu.material.naquadric_fuel_catalyst=Naquadric Fuel Catalyst
 tjceu.material.eternity_preparation=Eternity Preparation
@@ -112,3 +114,15 @@ recipemap.vial_processing.name=Vial Processing
 recipemap.advanced_vial_processing.name=Advanced Vial Processing
 recipemap.soul_capture.name=Soul Capture
 recipemap.horticultural_cultivation.name=Horticultural Cultivation
+
+# Tooltips addition
+tjceu.tooltip.black_quartz=Smelt Quartzite dust twice
+tjceu.tooltip.black_quartz_dust=Smelt Quartzite dust
+tjceu.tooltip.celestial_manipulator=§4Will not work on AR planets
+tjceu.tooltip.charged_draconium_block=§4Do not place this block in world
+tjceu.tooltip.charcoal_log=§6ID 400 artifact
+tjceu.tooltip.tungsten_carbide_block=§6ID 401 artifact
+tjceu.tooltip.salt_block=§6ID 402 artifact
+tjceu.tooltip.platinum_block=§6ID 403 artifact
+tjceu.tooltip.californium_block=§6ID 405 artifact
+tjceu.tooltip.adamantium_block=§6ID 406 artifact
