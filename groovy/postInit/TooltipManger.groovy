@@ -1,22 +1,25 @@
 // side: client
 
+
 import com.cleanroommc.groovyscript.api.IIngredient
+import gregtech.api.unification.OreDictUnifier
 import gregtech.api.unification.stack.ItemAndMetadata
-import gregtech.api.util.FluidTooltipUtil
 import net.minecraft.client.resources.I18n
+import net.minecraft.util.text.TextFormatting
 import net.minecraftforge.event.entity.player.ItemTooltipEvent
-import net.minecraftforge.fluids.FluidStack
 
 def storage = [:]
 
 IIngredient.metaClass.addTooltip << { String line ->
-    if (delegate in FluidStack) { // Non-reloadable
-        f = delegate.getFluid()
-        FluidTooltipUtil.getFluidTooltip(f) ?: FluidTooltipUtil.registerTooltip(f, { -> [I18n.format(line)] })
-    } else {
-        delegate.matchingStacks.each { stack ->
-            storage[new ItemAndMetadata(stack)] = line
-        }
+    delegate.matchingStacks.each { stack ->
+        storage[new ItemAndMetadata(stack)] = line
+    }
+}
+
+IIngredient.metaClass.addUnificationTooltip << { ->
+    delegate.matchingStacks.each { stack ->
+        formula = OreDictUnifier.getUnificationEntry(stack)?.material?.chemicalFormula
+        if (formula) storage[new ItemAndMetadata(stack)] = "${TextFormatting.YELLOW}${formula}".toString()
     }
 }
 
@@ -33,12 +36,9 @@ item('actuallyadditions:item_misc', 5).addTooltip('tjceu.tooltip.black_quartz')
 item('actuallyadditions:item_dust', 7).addTooltip('tjceu.tooltip.black_quartz_dust')
 
 // AstralSorcery
-fluid('astralsorcery.liquidstarlight').addTooltip('§eSx')
-item('astraladditions:block_starmetal').addTooltip('§eAxSx')
-item('astralsorcery:itemcraftingcomponent', 1).addTooltip('§eAxSx')
-item('astralsorcery:itemcraftingcomponent', 2).addTooltip('§eAxSx')
-item('astralsorcery:blockcustomore', 1).addTooltip('§eAxSx')
-item('astralsorcery:blockcustomsandore').addTooltip('§eBe₃Al₃Si₆O₁₈')
+item('astraladditions:block_starmetal').addUnificationTooltip()
+item('astralsorcery:blockcustomore', 1).addUnificationTooltip()
+item('astralsorcery:blockcustomsandore').addUnificationTooltip()
 
 // Advanced Rocketry
 item('advancedrocketry:charcoallog').addTooltip('tjceu.tooltip.charcoal_log')

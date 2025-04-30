@@ -16,6 +16,12 @@ class FirstDegreeMaterials {
                 .color(0x45b3e7)
                 .components(Beryllium * 3, Aluminium * 3, Silicon * 6, Oxygen * 18)
                 .build()
+
+        Starlight = new Material.Builder(501, tjId('starlight'))
+                .color(0xffffff)
+                .build()
+
+        Starlight.setFormula('Sx', true)
     }
 
 }

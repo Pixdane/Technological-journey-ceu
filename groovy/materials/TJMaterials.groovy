@@ -23,6 +23,8 @@ class TJMaterials {
     static Material FermentationBase
     static Material Juice
     static Material Honey
+    static Material Starlight
+    static Material Starmetal
 
     //static Material PlutoniumRadioactive
 
