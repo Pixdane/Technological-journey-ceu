@@ -5,6 +5,7 @@
   "debug": false,
   "loaders": {
     "preInit": [
+      "metaprogramming/",
       "preInit/",
       "classes/",
       "materials/"
