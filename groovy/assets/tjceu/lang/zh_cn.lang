@@ -1,0 +1,114 @@
+# Materials
+tjceu.material.aquamarine=海蓝宝石
+tjceu.material.explosive_hydrazine_mixture=爆炸性肼燃料混合物
+tjceu.material.octogen=奥克托今（HMX）
+tjceu.material.octaazacubane=八氮立方烷
+tjceu.material.octaazacubane_solution=湿态八氮立方烷溶液
+tjceu.material.seabohrgium=Seabohrgium
+tjceu.material.fordnium=Fordnium
+tjceu.material.soularium=魂金
+tjceu.material.stellar_alloy=恒星合金
+tjceu.material.draconic_stem_cell_fluid=龙干细胞液
+tjceu.material.raw_chaos=粗制混沌
+tjceu.material.pahoehoe_lava=结壳熔岩
+tjceu.material.starmetal_alloy=星辉合金
+tjceu.material.starlight_rocket_fuel=星能火箭燃料
+tjceu.material.naquadric_fuel_catalyst=硅岩燃料催化剂
+tjceu.material.eternity_preparation=永恒制剂
+tjceu.material.starlight_complex=星能复合物
+tjceu.material.eternity=永恒等离子体
+tjceu.material.fermentation_base=发酵基
+tjceu.material.juice=果汁
+tjceu.material.honey=蜂蜜
+
+# MetaPrefixItem Name Overrides
+item.tjceu.material.octaazacubane.dust=亚稳八氮立方烷增强剂
+
+# Metaitems
+metaitem.steam.motor.ulv.name=ULV蒸汽马达
+metaitem.steam.piston.ulv.name=ULV蒸汽活塞
+metaitem.conveyor.module.ulv.name=ULV蒸汽传送带
+metaitem.steam.pump.ulv.name=ULV蒸汽泵
+metaitem.solar_panel.max.name=上限压太阳能板 (MAX)
+metaitem.shard.refined_chaos.name=精炼混沌碎片
+metaitem.crystal.refined_chaos.name=精炼混沌水晶
+metaitem.crystal.infinity.name=无尽水晶
+metaitem.crystal.eternity.name=永恒水晶
+metaitem.ban.certificate.name=初学者证明
+metaitem.ban.certificate.tooltip=§1图片来自 Emperdog
+
+## Dimension Display Items
+metaitem.display.overworld.name=主世界
+metaitem.display.nether.name=下界
+metaitem.display.end.name=末地
+metaitem.display.end_main_island.name=末地主岛
+metaitem.display.end_outer_islands.name=末地外岛
+metaitem.display.moon.name=月球
+metaitem.display.mercury.name=水星
+metaitem.display.mars.name=火星
+metaitem.display.deimos.name=火卫二（德摩斯）
+metaitem.display.phobos.name=火卫一（福波斯）
+metaitem.display.pluto.name=冥王星
+metaitem.display.titan.name=土卫六（泰坦）
+metaitem.display.deep_dark.name=漆黑之地
+
+# Blocks
+tile.multiblock_casing.draconic.name=龙机械方块
+tile.multiblock_casing.awakened_draconium.name=觉醒龙机械方块
+tile.multiblock_casing.refined_chaos.name=精炼混沌机械方块
+tile.multiblock_casing.soul_insulation.name=大型灵魂操控机械方块
+
+# Machines
+## Multiblocks
+tjceu.machine.primitive_alloy_smelter.name=原始合金炉
+tjceu.machine.armor_infuser.name=盔甲注能器
+tjceu.machine.chaos_replicator.name=混沌复制机
+tjceu.machine.dragon_egg_replicator.name=龙蛋复制机
+tjceu.machine.large_vial_processor.name=大型灵魂瓶处理厂
+tjceu.machine.large_powered_spawner.name=大型电动刷怪笼
+
+## Singleblocks
+### Vial Processors
+tjceu.machine.vial_processor.lv.name=基础灵魂瓶处理机
+tjceu.machine.vial_processor.mv.name=进阶灵魂瓶处理机
+tjceu.machine.vial_processor.hv.name=进阶灵魂瓶处理机 II
+tjceu.machine.vial_processor.ev.name=进阶灵魂瓶处理机 III
+tjceu.machine.vial_processor.iv.name=精英灵魂瓶处理机
+tjceu.machine.vial_processor.luv.name=精英灵魂瓶处理机 II
+tjceu.machine.vial_processor.zpm.name=精英灵魂瓶处理机 III
+tjceu.machine.vial_processor.uv.name=终极灵魂瓶处理机
+tjceu.machine.vial_processor.uhv.name=史诗灵魂瓶处理机
+tjceu.machine.vial_processor.uev.name=史诗灵魂瓶处理机 II
+tjceu.machine.vial_processor.uiv.name=史诗灵魂瓶处理机 III
+tjceu.machine.vial_processor.uxv.name=史诗灵魂瓶处理机 IV
+tjceu.machine.vial_processor.opv.name=传奇灵魂瓶处理机
+
+### Gardening Greenhouses
+tjceu.machine.gardening_greenhouse.lv.name=基础园艺温室
+tjceu.machine.gardening_greenhouse.mv.name=进阶园艺温室
+tjceu.machine.gardening_greenhouse.hv.name=进阶园艺温室 II
+tjceu.machine.gardening_greenhouse.ev.name=进阶园艺温室 III
+tjceu.machine.gardening_greenhouse.iv.name=精英园艺温室
+tjceu.machine.gardening_greenhouse.luv.name=精英园艺温室 II
+tjceu.machine.gardening_greenhouse.zpm.name=精英园艺温室 III
+tjceu.machine.gardening_greenhouse.uv.name=终极园艺温室
+tjceu.machine.gardening_greenhouse.uhv.name=史诗园艺温室
+tjceu.machine.gardening_greenhouse.uev.name=史诗园艺温室 II
+tjceu.machine.gardening_greenhouse.uiv.name=史诗园艺温室 III
+tjceu.machine.gardening_greenhouse.uxv.name=史诗园艺温室 IV
+tjceu.machine.gardening_greenhouse.opv.name=传奇园艺温室
+
+## Hatches
+tjceu.machine.fluid_hatch.import_4x.hv.name=§bMV§r四重输入仓
+tjceu.machine.fluid_hatch.export_4x.hv.name=§bMV§r四重输出仓
+tjceu.machine.fluid_hatch.import_9x.hv.name=§bMV§r九重输入仓
+tjceu.machine.fluid_hatch.export_9x.hv.name=§bMV§r九重输出仓
+
+# Recipemaps
+recipemap.armor_infusion.name=盔甲注能
+recipemap.chaos_replication.name=混沌复制
+recipemap.dragon_egg_replication.name=龙蛋复制
+recipemap.vial_processing.name=灵魂瓶处理
+recipemap.advanced_vial_processing.name=进阶灵魂瓶处理
+recipemap.soul_capture.name=灵魂捕捉
+recipemap.horticultural_cultivation.name=园艺栽培
