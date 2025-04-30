@@ -50,6 +50,18 @@ mods.jei.ingredient.yeet(
     mods.jei.category.hideCategory(it)
 }
 
+furnace.removeByOutput(item('actuallyadditions:item_misc', 5))
+
+furnace.recipeBuilder()
+    .input(ore('dustQuartzite'))
+    .output(item('actuallyadditions:item_dust', 7))
+    .register()
+
+furnace.recipeBuilder()
+    .input(ore('dustQuartzBlack'))
+    .output(item('actuallyadditions:item_misc', 5))
+    .register()
+
 // Red
 ASSEMBLER.recipeBuilder()
         .inputs([item('actuallyadditions:block_crystal'), item('minecraft:brick') * 2, item('minecraft:netherbrick') * 2, item('minecraft:redstone_block') * 2])

@@ -125,6 +125,13 @@ class MaterialModifications {
         OrePrefix.ingot.setIgnored(material('tjceu:soularium'))
         OrePrefix.block.setIgnored(material('tjceu:soularium'))
 
+        OrePrefix.dust.setIgnored(material('tjceu:starmetal'))
+        OrePrefix.dustSmall.setIgnored(material('tjceu:starmetal'))
+        OrePrefix.dustTiny.setIgnored(material('tjceu:starmetal'))
+        OrePrefix.nugget.setIgnored(material('tjceu:starmetal'))
+        OrePrefix.ingot.setIgnored(material('tjceu:starmetal'))
+        OrePrefix.block.setIgnored(material('tjceu:starmetal'))
+
         OrePrefix.gem.setIgnored(material('tjceu:aquamarine'))
 
         OrePrefix.dust.setIgnored(material('gcyl:draconium'))

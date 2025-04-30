@@ -65,6 +65,14 @@ class SecondDegreeMaterials {
                 .liquid()
                 .color(0xD2C800)
                 .build()
+
+        Starmetal = new Material.Builder(1009, tjId('starmetal'))
+                .ingot()
+                .iconSet(SHINY)
+                .color(0x000D46)
+                .build()
+
+        Starmetal.setFormula('SxAx', true)
     }
 
 }

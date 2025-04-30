@@ -125,3 +125,4 @@ config/ScalingGUIs/ScalingGUIsCustomScales.json
 /config/gregtech/persistent_data.dat
 /groovy/assets/tjceu/models/block/multiblock_casing.json
 /groovy/assets/tjceu/models/item/multiblock_casing.json
+/config/relauncher.json
