@@ -26,7 +26,7 @@ class UnknownCompositionMaterials {
                 .color(0xffefb5)
                 .build()
 
-        StellarAlloy.setFormula('(5(AxSx)Nq(Ir₃Os)4(Am)(??))', true)
+        StellarAlloy.setFormula('(5(AxSx)Nq(Ir3Os)4(Am)(??))', true)
 
         DraconicStemCellFluid = new Material.Builder(1502, tjId('draconic_stem_cell_fluid'))
                 .liquid()
@@ -48,10 +48,10 @@ class UnknownCompositionMaterials {
                 .iconSet(SHINY)
                 .color(0x050A30)
                 .blast(b -> b.temp(7000))
-                .flags(GENERATE_PLATE, GENERATE_DENSE)
+                .flags(GENERATE_PLATE, GENERATE_DENSE, GENERATE_DOUBLE_PLATE)
                 .build()
 
-        StarmetalAlloy.setFormula('(AxSx)Nq(Ir₃Os)', true)
+        StarmetalAlloy.setFormula('(AxSx)Nq(Ir3Os)', true)
 
         StarlightRocketFuel = new Material.Builder(1506, tjId('starlight_rocket_fuel'))
                 .liquid()
