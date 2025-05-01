@@ -160,23 +160,6 @@ LCR.recipeBuilder()
         .EUt(30)
         .buildAndRegister()
 
-// Sodium Bicarbonate Dust * 6
-// TODO: wrong stoichiometry, report to GCYL:CEu
-mods.gregtech.large_chemical_reactor.removeByInput(30, [metaitem('circuit.integrated').withNbt(['Configuration': 2]), metaitem('dustSodaAsh')], [fluid('water') * 1000])
-
-
-LCR.recipeBuilder()
-        .inputs(ore('dustSodaAsh') * 6)
-        .fluidInputs(fluid('water') * 2000)
-        .fluidInputs(fluid('epichlorohydrin') * 1000)
-        .circuitMeta(2)
-        .outputs(metaitem('dustSalt') * 2)
-        .outputs(metaitem('dustSodiumBicarbonate') * 6)
-        .fluidOutputs([fluid('glycerol') * 1000])
-        .duration(100)
-        .EUt(1024)
-        .buildAndRegister()
-
 // TODO: should TJCEu item recipes be moved to individual files?
 crafting.addShaped(metaitem('tjceu:steam.motor.ulv'), [[ore('stickWood'), ore('plateBronze'), ore('stickIron')], [ore('plateBronze'), ore('stickIron'), ore('plateBronze')], [ore('ingotIron'), ore('plateBronze'), ore('stickWood')]])
 
