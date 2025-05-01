@@ -31,9 +31,9 @@ metaitem.conveyor.module.ulv.name=ULV蒸汽传送带
 metaitem.steam.pump.ulv.name=ULV蒸汽泵
 metaitem.solar_panel.max.name=上限压太阳能板（MAX）
 metaitem.shard.refined_chaos.name=精炼混沌碎片
-metaitem.crystal.refined_chaos.name=精炼混沌水晶
-metaitem.crystal.infinity.name=无尽水晶
-metaitem.crystal.eternity.name=永恒水晶
+metaitem.crystal.refined_chaos.name=精炼混沌晶体
+metaitem.crystal.infinity.name=无尽晶体
+metaitem.crystal.eternity.name=永恒晶体
 metaitem.ban.certificate.name=初学者证明
 metaitem.ban.certificate.tooltip=§1纹理由Emperdog提供
 
@@ -99,10 +99,10 @@ tjceu.machine.gardening_greenhouse.uxv.name=史诗园艺温室 IV
 tjceu.machine.gardening_greenhouse.opv.name=传奇园艺温室
 
 ## Hatches
-tjceu.machine.fluid_hatch.import_4x.hv.name=§bHV§r四重输入仓
-tjceu.machine.fluid_hatch.export_4x.hv.name=§bHV§r四重输出仓
-tjceu.machine.fluid_hatch.import_9x.hv.name=§bHV§r九重输入仓
-tjceu.machine.fluid_hatch.export_9x.hv.name=§bHV§r九重输出仓
+tjceu.machine.fluid_hatch.import_4x.hv.name=§6HV§r四重输入仓
+tjceu.machine.fluid_hatch.export_4x.hv.name=§6HV§r四重输出仓
+tjceu.machine.fluid_hatch.import_9x.hv.name=§6HV§r九重输入仓
+tjceu.machine.fluid_hatch.export_9x.hv.name=§6HV§r九重输出仓
 
 # Recipemaps
 recipemap.armor_infusion.name=盔甲注能
