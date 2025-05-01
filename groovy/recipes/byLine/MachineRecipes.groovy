@@ -1,3 +1,7 @@
+import classes.utils.TJUtility.Tier
+
+import static classes.utils.TJUtility.*
+
 ASSEMBLER = recipemap('assembler')
 ASSLINE = recipemap('assembly_line')
 
@@ -105,3 +109,40 @@ ASSLINE.recipeBuilder()
         .EUt(30000)
         .outputs(metaitem('tjceu:large_vial_processor'))
         .buildAndRegister()
+
+// Tiering Machines
+Tier.TR.each { tier ->
+
+    if (tier < Tier.LuV) {
+
+        // Vial Processors
+        crafting.shapedBuilder()
+                .name(tjceu("tjceu.machine.vial_processor.${tier.lc()}"))
+                .row('VKV')
+                .row('SHR')
+                .row('PPP')
+                .key('V', item('enderio:item_soul_vial'))
+                .key('K', tier.pipeNormal())
+                .key('S', tier.sensor())
+                .key('R', tier.robotArm())
+                .key('H', tier.hull())
+                .key('P', tier.plateDouble())
+                .output(metaitem("tjceu:vial_processor.${tier.lc()}"))
+                .register()
+
+        // Gardening Greenhouses
+        crafting.shapedBuilder()
+                .name(tjceu("tjceu.gardening_greenhouse.${tier.lc()}"))
+                .row('GGG')
+                .row('RHR')
+                .row('CWC')
+                .key('G', tier.glass())
+                .key('R', tier.robotArm())
+                .key('H', tier.hull())
+                .key('C', tier.circuit())
+                .key('W', tier.cable())
+                .output(metaitem("tjceu:gardening_greenhouse.${tier.lc()}"))
+                .register()
+    }
+
+}
