@@ -5,6 +5,7 @@ import gregtech.api.unification.material.properties.FluidProperty
 import gregtech.api.unification.material.properties.PropertyKey
 import gregtech.api.util.FluidTooltipUtil
 import net.minecraftforge.fluids.FluidStack
+import org.apache.commons.lang3.StringUtils
 
 Material.metaClass.addFluid << { FluidStack stack ->
     f = stack.getFluid()
@@ -17,4 +18,10 @@ Material.metaClass.addFluid << { FluidStack stack ->
 
     FluidTooltipUtil.registerTooltip(f, FluidTooltipUtil.createFluidTooltip(delegate, f, FluidState.LIQUID))
     delegate
+}
+
+String.metaClass.toSnakeCase = { ->
+    StringUtils.splitByCharacterTypeCamelCase(delegate)
+            *.toUpperCase()
+            .join('_')
 }
