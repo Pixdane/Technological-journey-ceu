@@ -1,3 +1,5 @@
+package recipes.byMod.gregfication
+
 import static classes.utils.TJUtility.tjceu
 
 ALLOY_SMELTER = recipemap('alloy_smelter')
@@ -380,7 +382,7 @@ FORMING_PRESS.recipeBuilder()
 crafting.addShaped(item('enderio:block_dark_fused_quartz') * 8, [[ore('blockGlassHardened'), ore('blockGlassHardened'), ore('blockGlassHardened')], [ore('blockGlassHardened'), ore('dyeBlack'), ore('blockGlassHardened')], [ore('blockGlassHardened'), ore('blockGlassHardened'), ore('blockGlassHardened')]])
 crafting.addShaped(item('enderio:block_enlightened_fused_quartz') * 8, [[ore('blockGlassHardened'), ore('blockGlassHardened'), ore('blockGlassHardened')], [ore('blockGlassHardened'), item('astralsorcery:itemusabledust'), ore('blockGlassHardened')], [ore('blockGlassHardened'), ore('blockGlassHardened'), ore('blockGlassHardened')]])
 crafting.addShaped(item('enderio:block_dark_fused_quartz') * 8, [[ore('blockGlassHardened'), ore('blockGlassHardened'), ore('blockGlassHardened')], [ore('blockGlassHardened'), item('astralsorcery:itemusabledust', 1), ore('blockGlassHardened')], [ore('blockGlassHardened'), ore('blockGlassHardened'), ore('blockGlassHardened')]])
-crafting.addShaped(item('enderio:block_enlightened_fused_quartz')  * 8, [[ore('blockGlassHardened'), ore('blockGlassHardened'), ore('blockGlassHardened')], [ore('blockGlassHardened'), ore('dustGlowstone'), ore('blockGlassHardened')], [ore('blockGlassHardened'), ore('blockGlassHardened'), ore('blockGlassHardened')]])
+crafting.addShaped(item('enderio:block_enlightened_fused_quartz') * 8, [[ore('blockGlassHardened'), ore('blockGlassHardened'), ore('blockGlassHardened')], [ore('blockGlassHardened'), ore('dustGlowstone'), ore('blockGlassHardened')], [ore('blockGlassHardened'), ore('blockGlassHardened'), ore('blockGlassHardened')]])
 crafting.addShaped(item('enderio:item_broken_spawner'), [[ore('dustSoularium'), ore('dyeSoulMachine'), ore('dustSoularium')], [ore('dyeSoulMachine'), ore('itemSoulMachineChassi'), ore('dyeSoulMachine')], [ore('dustSoularium'), ore('dyeSoulMachine'), ore('dustSoularium')]])
 
 

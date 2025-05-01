@@ -1,3 +1,5 @@
+package recipes.byMod.gregfication
+
 ALLOY_SMELTER = recipemap('alloy_smelter')
 AUTOCLAVE = recipemap('autoclave')
 MACERATOR = recipemap('macerator')

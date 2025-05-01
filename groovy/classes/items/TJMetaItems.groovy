@@ -1,3 +1,5 @@
+package classes.items
+
 import gregtech.api.GTValues
 import gregtech.api.items.metaitem.MetaItem
 import gregtech.api.items.metaitem.StandardMetaItem
@@ -6,6 +8,7 @@ import gregtech.common.covers.CoverPump
 import gregtech.common.covers.CoverSolarPanel
 import gregtech.common.items.behaviors.TooltipBehavior
 import net.minecraft.client.resources.I18n
+import net.minecraft.util.ResourceLocation
 
 import static classes.utils.TJUtility.tjId
 import static gregtech.common.covers.CoverBehaviors.registerBehavior
@@ -56,7 +59,7 @@ class TJMetaItems {
         STEAM_PISTON_ULV = item.addItem(1, 'steam.piston.ulv')
 
         CONVEYOR_MODULE_ULV = item.addItem(2, 'conveyor.module.ulv')
-                .addComponents(new TooltipBehavior(lines -> {
+                .addComponents(new TooltipBehavior({ lines ->
                     lines.add(I18n.format("metaitem.conveyor.module.tooltip"))
                     lines.add(I18n.format("gregtech.universal.tooltip.item_transfer_rate", 4))
                 }))

@@ -1,3 +1,5 @@
+package recipes.byMachine
+
 ARMOR_INFUSION = recipemap('armor_infusion')
 
 // Voltage

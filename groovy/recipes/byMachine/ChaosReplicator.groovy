@@ -1,3 +1,5 @@
+package recipes.byMachine
+
 CHAOS_REPLICATION = recipemap('chaos_replication')
 
 CHAOS_REPLICATION.recipeBuilder()

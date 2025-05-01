@@ -1,3 +1,5 @@
+package postInit
+
 // itemSilicon
 ore_dict.remove('itemSilicon', item('appliedenergistics2:material', 5))
 ore_dict.remove('itemSilicon', item('enderio:item_material', 5))

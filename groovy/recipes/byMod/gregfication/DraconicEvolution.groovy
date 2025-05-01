@@ -1,3 +1,5 @@
+package recipes.byMod.gregfication
+
 import static classes.utils.TJUtility.*
 
 ASSEMBLER = recipemap('assembler')

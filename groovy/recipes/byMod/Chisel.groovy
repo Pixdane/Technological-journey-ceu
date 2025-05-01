@@ -1,3 +1,5 @@
+package recipes.byMod
+
 mods.chisel.Carving.removeVariation('marble', item('astralsorcery:blockmarble'))
 
 [

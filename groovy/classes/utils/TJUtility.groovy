@@ -1,14 +1,23 @@
+package classes.utils
+
 import gregtech.api.unification.OreDictUnifier
 import gregtech.api.unification.ore.OrePrefix
 import gregtech.api.unification.stack.UnificationEntry
 import gregtech.loaders.recipe.CraftingComponent
 import groovy.transform.TupleConstructor
+import net.minecraft.block.Block
+import net.minecraft.item.Item
+import net.minecraft.item.ItemStack
 
 class TJUtility {
 
-    static tjceu = { String name -> 'tjceu:' + name }
+    static tjceu(String name) {
+        return 'tjceu:' + name
+    }
 
-    static tjId = { String name -> resource('tjceu', name) }
+    static tjId(String name) {
+        return resource('tjceu', name)
+    }
 
     @TupleConstructor
     enum Tier {
@@ -38,7 +47,7 @@ class TJUtility {
         def methodMissing(String methodName, args) {
             def snakeCase = methodName.toSnakeCase()
             if (CraftingComponent.hasProperty(snakeCase)) {
-                def component = CraftingComponent.@"${snakeCase}"
+                def component = CraftingComponent.@"${snakeCase}" as CraftingComponent.Component
                 return this.getTieredComponent(component)
             }
 

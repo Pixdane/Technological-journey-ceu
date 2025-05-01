@@ -1,5 +1,5 @@
 // side: client
-
+package postInit
 
 import com.cleanroommc.groovyscript.api.IIngredient
 import gregtech.api.unification.OreDictUnifier
@@ -7,18 +7,23 @@ import gregtech.api.unification.stack.ItemAndMetadata
 import net.minecraft.client.resources.I18n
 import net.minecraft.util.text.TextFormatting
 import net.minecraftforge.event.entity.player.ItemTooltipEvent
+import net.minecraftforge.fml.common.eventhandler.EventPriority
 
 def storage = [:]
 
 IIngredient.metaClass.addTooltip << { String line ->
+    assert delegate in IIngredient
+
     delegate.matchingStacks.each { stack ->
         storage[new ItemAndMetadata(stack)] = line
     }
 }
 
 IIngredient.metaClass.addUnificationTooltip << { ->
+    assert delegate in IIngredient
+
     delegate.matchingStacks.each { stack ->
-        formula = OreDictUnifier.getUnificationEntry(stack)?.material?.chemicalFormula
+        def formula = OreDictUnifier.getUnificationEntry(stack)?.material?.chemicalFormula
         if (formula) storage[new ItemAndMetadata(stack)] = "${TextFormatting.YELLOW}${formula}".toString()
     }
 }
@@ -26,7 +31,7 @@ IIngredient.metaClass.addUnificationTooltip << { ->
 eventManager.listen(EventPriority.HIGH) {
     ItemTooltipEvent event ->
         {
-            line = storage[new ItemAndMetadata(event.itemStack)]
+            def line = storage[new ItemAndMetadata(event.itemStack)]
             !line ?: event.toolTip << I18n.format(line)
         }
 }

@@ -1,3 +1,5 @@
+package classes.mtes.multiblocks
+
 import classes.recipes.TJRecipeMaps
 import classes.textures.TJTextures
 import gregtech.api.capability.impl.MultiblockRecipeLogic
@@ -10,6 +12,9 @@ import gregtech.api.pattern.FactoryBlockPattern
 import gregtech.client.renderer.ICubeRenderer
 import gregtech.client.utils.TooltipHelper
 import net.minecraft.client.resources.I18n
+import net.minecraft.item.ItemStack
+import net.minecraft.util.ResourceLocation
+import net.minecraft.world.World
 
 class LargeVialProcessor extends RecipeMapMultiblockController {
 
@@ -30,7 +35,7 @@ class LargeVialProcessor extends RecipeMapMultiblockController {
 
     @Override
     void addInformation(ItemStack stack, World world, List<String> tooltip, boolean advanced) {
-        super.addInformation(stack, world, tooltip, advanced);
+        super.addInformation(stack, world, tooltip, advanced)
         tooltip.add("${TooltipHelper.RAINBOW_SLOW}${I18n.format('gregtech.machine.perfect_oc', new Object[0])}".toString())
     }
 

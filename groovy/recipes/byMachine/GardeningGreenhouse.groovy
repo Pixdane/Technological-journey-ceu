@@ -1,3 +1,5 @@
+package recipes.byMachine
+
 GARDEING_GREENHOUSE = recipemap('horticultural_cultivation')
 
 def plants = [
@@ -55,7 +57,7 @@ GARDEING_GREENHOUSE.recipeBuilder()
         .outputs(item('randomthings:glowingmushroom'))
         .duration(160)
         .EUt(14)
-        .buildAndRegister();
+        .buildAndRegister()
 
 GARDEING_GREENHOUSE.recipeBuilder()
         .circuitMeta(3)
@@ -65,4 +67,4 @@ GARDEING_GREENHOUSE.recipeBuilder()
         .outputs(item('randomthings:glowingmushroom'))
         .duration(160)
         .EUt(14)
-        .buildAndRegister();
+        .buildAndRegister()

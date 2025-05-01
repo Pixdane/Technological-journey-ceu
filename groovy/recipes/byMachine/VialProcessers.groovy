@@ -1,3 +1,5 @@
+package recipes.byMachine
+
 VIAL_PROCESSOR = recipemap('vial_processing')
 LVP = recipemap('advanced_vial_processing')
 LPS = recipemap('soul_capture')

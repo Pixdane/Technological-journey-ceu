@@ -1,3 +1,5 @@
+package recipes.byMachine
+
 DRAGON_EGG_REPLICATION = recipemap('dragon_egg_replication')
 
 DRAGON_EGG_REPLICATION.recipeBuilder()

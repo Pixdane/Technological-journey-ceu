@@ -1,3 +1,5 @@
+package recipes.byMachine
+
 COKE_OVEN = recipemap('coke_oven')
 
 // Charcoal * 1

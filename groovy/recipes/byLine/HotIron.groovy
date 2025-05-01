@@ -1,3 +1,5 @@
+package recipes.byLine
+
 import static classes.utils.TJUtility.tjId
 
 ALLOY_SMELTER = recipemap('alloy_smelter')

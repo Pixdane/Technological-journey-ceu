@@ -1,3 +1,5 @@
+package recipes.byMod.gregfication
+
 import static classes.utils.TJUtility.*
 
 ASSEMBLER = recipemap('assembler')
@@ -53,14 +55,14 @@ mods.jei.ingredient.yeet(
 furnace.removeByOutput(item('actuallyadditions:item_misc', 5))
 
 furnace.recipeBuilder()
-    .input(ore('dustQuartzite'))
-    .output(item('actuallyadditions:item_dust', 7))
-    .register()
+        .input(ore('dustQuartzite'))
+        .output(item('actuallyadditions:item_dust', 7))
+        .register()
 
 furnace.recipeBuilder()
-    .input(ore('dustQuartzBlack'))
-    .output(item('actuallyadditions:item_misc', 5))
-    .register()
+        .input(ore('dustQuartzBlack'))
+        .output(item('actuallyadditions:item_misc', 5))
+        .register()
 
 // Red
 ASSEMBLER.recipeBuilder()

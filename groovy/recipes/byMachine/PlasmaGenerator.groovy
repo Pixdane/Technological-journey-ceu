@@ -1,3 +1,5 @@
+package recipes.byMachine
+
 PLASMA_GENERATOR = recipemap('plasma_generator')
 
 // Oxygen Gas * 1

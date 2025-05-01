@@ -1,3 +1,5 @@
+package materials
+
 import gregtech.api.unification.material.Material
 
 import static classes.utils.TJUtility.tjId

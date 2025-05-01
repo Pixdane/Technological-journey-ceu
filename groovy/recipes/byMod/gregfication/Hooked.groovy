@@ -1,3 +1,5 @@
+package recipes.byMod.gregfication
+
 //grappling hooks
 LATHE = recipemap('lathe')
 

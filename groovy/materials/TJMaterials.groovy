@@ -1,30 +1,28 @@
-import gregtech.api.unification.material.Material
+package materials
 
 class TJMaterials {
 
-    static Material Soularium
-    static Material StellarAlloy
-    static Material DraconicStemCellFluid
-    static Material RawChaos
-    static Material PahoehoeLava
-    static Material StarmetalAlloy
-    static Material Aquamarine
-    static Material StarlightRocketFuel
-    static Material NaquadricFuelCatalyst
-    static Material ExplosiveHydrazineFuelMixture
-    static Material EternityPreparation
-    static Material StarlightComplex
-    static Material Octogen
-    static Material Octaazacubane
-    static Material OctaazacubaneSolution
-    static Material Eternity
-    static Material FermentationBase
-    static Material Juice
-    static Material Honey
-    static Material Starlight
-    static Material Starmetal
-
-    //static Material PlutoniumRadioactive
+    public static def Soularium
+    public static def StellarAlloy
+    public static def DraconicStemCellFluid
+    public static def RawChaos
+    public static def PahoehoeLava
+    public static def StarmetalAlloy
+    public static def Aquamarine
+    public static def StarlightRocketFuel
+    public static def NaquadricFuelCatalyst
+    public static def ExplosiveHydrazineFuelMixture
+    public static def EternityPreparation
+    public static def StarlightComplex
+    public static def Octogen
+    public static def Octaazacubane
+    public static def OctaazacubaneSolution
+    public static def Eternity
+    public static def FermentationBase
+    public static def Juice
+    public static def Honey
+    public static def Starlight
+    public static def Starmetal
 
     static void register() {
 

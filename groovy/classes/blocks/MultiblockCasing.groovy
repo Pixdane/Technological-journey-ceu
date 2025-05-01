@@ -1,3 +1,5 @@
+package classes.blocks
+
 import gregtech.api.block.IStateHarvestLevel
 import gregtech.api.block.VariantBlock
 import gregtech.api.items.toolitem.ToolClasses
@@ -6,7 +8,7 @@ import net.minecraft.block.material.Material
 import net.minecraft.block.state.IBlockState
 import net.minecraft.util.IStringSerializable
 
-class MultiblockCasing extends VariantBlock<MultiblockCasing.CasingType> {
+class MultiblockCasing extends VariantBlock<CasingType> {
 
     MultiblockCasing() {
         super(Material.IRON)

@@ -1,3 +1,4 @@
+package recipes.byLine
 // Liquid Air * 4000
 mods.gregtech.vacuum_freezer.removeByInput(480, null, [fluid('air') * 4000])
 

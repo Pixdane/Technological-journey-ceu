@@ -1,3 +1,5 @@
+package materials
+
 import gregtech.api.fluids.FluidBuilder
 import gregtech.api.fluids.store.FluidStorageKeys
 import gregtech.api.unification.material.properties.FluidProperty

@@ -1,5 +1,7 @@
-import classes.textures.TJTextures
+package classes.mtes.multiblocks
+
 import classes.recipes.TJRecipeMaps
+import classes.textures.TJTextures
 import gregtech.api.capability.impl.MultiblockRecipeLogic
 import gregtech.api.metatileentity.MetaTileEntity
 import gregtech.api.metatileentity.interfaces.IGregTechTileEntity
@@ -8,6 +10,7 @@ import gregtech.api.metatileentity.multiblock.RecipeMapMultiblockController
 import gregtech.api.pattern.BlockPattern
 import gregtech.api.pattern.FactoryBlockPattern
 import gregtech.client.renderer.ICubeRenderer
+import net.minecraft.util.ResourceLocation
 
 class ArmorInfuser extends RecipeMapMultiblockController {
 

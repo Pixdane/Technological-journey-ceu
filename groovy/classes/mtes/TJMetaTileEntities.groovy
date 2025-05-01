@@ -1,3 +1,5 @@
+package classes.mtes
+
 import classes.mtes.multiblocks.*
 import classes.recipes.TJRecipeMaps
 import gregtech.api.GTValues
@@ -76,7 +78,7 @@ class TJMetaTileEntities {
     }
 
     @Builder
-    private class MTE {
+    private static class MTE {
 
         String name
         int startId

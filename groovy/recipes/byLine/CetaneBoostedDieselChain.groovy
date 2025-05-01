@@ -1,3 +1,5 @@
+package recipes.byLine
+
 MIXER = recipemap('mixer')
 CHEMICAL_REACTOR = recipemap('chemical_reactor')
 
@@ -6,9 +8,9 @@ mods.gregtech.mixer.removeByInput(480, null, [fluid('diesel') * 1000, fluid('tet
 // Cetane-Boosted Diesel * 750
 mods.gregtech.mixer.removeByInput(480, null, [fluid('bio_diesel') * 1000, fluid('tetranitromethane') * 40])
 // Cetane-Boosted Diesel * 10000
-mods.gregtech.large_chemical_reactor.removeByInput(480, [metaitem('circuit.integrated').withNbt(['Configuration': 24])], [fluid('diesel') * 10000 , fluid('tetranitromethane') * 200])
+mods.gregtech.large_chemical_reactor.removeByInput(480, [metaitem('circuit.integrated').withNbt(['Configuration': 24])], [fluid('diesel') * 10000, fluid('tetranitromethane') * 200])
 // Cetane-Boosted Diesel * 7500
-mods.gregtech.large_chemical_reactor.removeByInput(480, [metaitem('circuit.integrated').withNbt(['Configuration': 24])], [fluid('bio_diesel') * 10000 , fluid('tetranitromethane') * 400])
+mods.gregtech.large_chemical_reactor.removeByInput(480, [metaitem('circuit.integrated').withNbt(['Configuration': 24])], [fluid('bio_diesel') * 10000, fluid('tetranitromethane') * 400])
 
 MIXER.recipeBuilder()
         .fluidInputs(fluid('diesel') * 2000)

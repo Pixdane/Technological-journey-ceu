@@ -1,3 +1,5 @@
+package recipes.byMachine
+
 HEAT_EXCHANGER = recipemap('heat_exchanger')
 ELECTROLYZER = recipemap('electrolyzer')
 

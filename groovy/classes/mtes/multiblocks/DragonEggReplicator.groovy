@@ -1,3 +1,6 @@
+package classes.mtes.multiblocks
+
+import classes.recipes.TJRecipeMaps
 import classes.textures.TJTextures
 import classes.recipes.TJRecipeMaps
 import gregtech.api.capability.impl.MultiblockRecipeLogic
@@ -8,6 +11,7 @@ import gregtech.api.metatileentity.multiblock.RecipeMapMultiblockController
 import gregtech.api.pattern.BlockPattern
 import gregtech.api.pattern.FactoryBlockPattern
 import gregtech.client.renderer.ICubeRenderer
+import net.minecraft.util.ResourceLocation
 
 class DragonEggReplicator extends RecipeMapMultiblockController {
     DragonEggReplicator(ResourceLocation metaTileEntityId) {

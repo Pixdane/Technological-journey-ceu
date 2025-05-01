@@ -1,3 +1,5 @@
+package recipes.byMod.gregfication
+
 import appeng.items.parts.ItemFacade
 import mods.appliedenergistics2.inscriber
 import mods.jei.ingredient as h

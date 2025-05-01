@@ -1,3 +1,5 @@
+package recipes.byMod.gregfication
+
 import mods.astralsorcery.grindstone
 import mods.astralsorcery.infusion_altar
 import mods.astralsorcery.light_transmutation

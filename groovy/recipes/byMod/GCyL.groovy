@@ -1,3 +1,5 @@
+package recipes.byMod
+
 import gregtech.api.metatileentity.multiblock.CleanroomType
 
 BIO_REACTOR = recipemap('bio_reactor')

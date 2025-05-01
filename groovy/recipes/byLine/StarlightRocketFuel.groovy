@@ -1,3 +1,5 @@
+package recipes.byLine
+
 MIXER = recipemap('mixer')
 LARGE_MIXER = recipemap('large_mixer')
 CHEMICAL_REACTOR = recipemap('chemical_reactor')

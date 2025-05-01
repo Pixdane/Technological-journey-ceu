@@ -1,3 +1,5 @@
+package recipes.byLine
+
 //Utils.removeRecipeByOutput(chemplant, [], [fluid('fermentation_base') * 10000], false)
 mods.gregtech.pyrolyse_oven.removeByInput(10, [metaitem('bio_chaff'), metaitem('circuit.integrated').withNbt(['Configuration': 2])], [fluid('water') * 1500])
 

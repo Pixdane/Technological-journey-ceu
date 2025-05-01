@@ -1,3 +1,5 @@
+package recipes.byMod.gregfication
+
 EXTRACTOR = recipemap('extractor')
 CANNER = recipemap('canner')
 

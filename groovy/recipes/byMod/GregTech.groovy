@@ -1,3 +1,5 @@
+package recipes.byMod
+
 // TODO: Modifie Machine Casings & Hull Recipes (ZPM, UIV, UXV, OpV, MAX)
 
 ASSEMBLER = recipemap('assembler')
@@ -154,7 +156,7 @@ crafting.addShaped(item('gregtech:mte', 985), [[null, null, null], [ore('plateWr
 
 // TODO: this chanbges it to use a EV circuit instead of a IV one
 // Dunno if it's worth it to change
-crafting.removeByOutput(metaitem('large_combustion_engine')) 
+crafting.removeByOutput(metaitem('large_combustion_engine'))
 crafting.addShaped(metaitem('large_combustion_engine'), [[metaitem('electric.piston.ev'), ore('circuitEv'), metaitem('electric.piston.ev')], [metaitem('electric.motor.ev'), metaitem('hull.ev'), metaitem('electric.motor.ev')], [ore('gearTitanium'), ore('wireGtSingleTungstenSteel'), ore('gearTitanium')]])
 
 

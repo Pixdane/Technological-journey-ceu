@@ -1,3 +1,5 @@
+package recipes.byMod
+
 crafting.removeByOutput(metaitem('gcym:large_macerator'))
 crafting.addShaped(metaitem('gcym:large_macerator'), [[ore('plateTungstenCarbide'), item('gregtech:mte', 68), ore('plateTungstenCarbide')], [metaitem('macerator.hv'), ore('circuitEv'), metaitem('macerator.hv')], [ore('plateTungstenCarbide'), item('gregtech:mte', 990), ore('plateTungstenCarbide')]])
 

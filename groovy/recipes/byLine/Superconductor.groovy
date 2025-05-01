@@ -1,3 +1,5 @@
+package recipes.byLine
+
 ASSEMBLER = recipemap('assembler')
 MIXER = recipemap('mixer')
 EBF = recipemap('electric_blast_furnace')
