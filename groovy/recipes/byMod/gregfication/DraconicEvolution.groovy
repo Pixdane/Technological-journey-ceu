@@ -1,6 +1,6 @@
 package recipes.byMod.gregfication
 
-import static classes.utils.TJUtility.*
+import static classes.utils.TJUtility.tjceu
 
 ASSEMBLER = recipemap('assembler')
 ASSLINE = recipemap('assembly_line')
@@ -9,7 +9,30 @@ STELLAR_FORGE = recipemap('stellar_forge')
 ADV_FUSION = recipemap('adv_fusion')
 BIO_REACTOR = recipemap('bio_reactor')
 
-// Recipe removals
+// Hide items from JEI
+mods.jei.ingredient.yeet(
+        item('draconicevolution:draconium_chest'),
+        item('draconicevolution:flow_gate'),
+        item('draconicevolution:flow_gate', 8),
+        item('draconicevolution:reactor_part', 4),
+        item('draconicevolution:reactor_component'),
+        item('draconicevolution:reactor_component', 1),
+        item('draconicevolution:reactor_part', 1),
+        item('draconicevolution:reactor_part'),
+        item('draconicevolution:reactor_part', 2),
+        item('draconicevolution:reactor_part', 3),
+        item('draconicevolution:reactor_core'),
+        item('draconicevolution:crafting_injector'),
+        item('draconicevolution:crafting_injector', 1),
+        item('draconicevolution:crafting_injector', 2),
+        item('draconicadditions:basic_shield_necklace'),
+        item('draconicadditions:wyvern_shield_necklace'),
+        item('draconicadditions:draconic_shield_necklace'),
+        item('draconicadditions:overload_belt'),
+        item('draconicadditions:inertia_cancel_ring'),
+)
+
+// Furnace recipe removals
 furnace.removeByOutput(item('draconicevolution:draconium_ingot'))
 
 // Recipe removals

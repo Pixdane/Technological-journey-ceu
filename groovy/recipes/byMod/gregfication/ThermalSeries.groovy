@@ -134,6 +134,8 @@ mods.jei.ingredient.yeet(
         item('thermalfoundation:material', 291),
         item('thermalfoundation:material', 295),
 
+        item('thermalfoundation:material', 802),
+
         item('thermalfoundation:geode'),
 )
 

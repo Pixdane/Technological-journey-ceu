@@ -11,6 +11,50 @@ LCR = recipemap('large_chemical_reactor')
 EXTRUDER = recipemap('extruder')
 ADV_FUSION = recipemap('adv_fusion')
 
+// Hide items from JEI
+mods.jei.ingredient.yeet(
+        metaitem('gcyl:board.raw.magnetic'),
+        metaitem('gcyl:board.magnetic'),
+        metaitem('gcyl:circuit.resonatic.ulv'),
+        metaitem('gcyl:circuit.resonatic.lv'),
+        metaitem('gcyl:circuit.resonatic.mv'),
+        metaitem('gcyl:circuit.resonatic.hv'),
+        metaitem('gcyl:circuit.resonatic.ev'),
+        metaitem('gcyl:circuit.resonatic.iv'),
+        metaitem('gcyl:circuit.resonatic.luv'),
+        metaitem('gcyl:circuit.resonatic.zpm'),
+        metaitem('gcyl:circuit.resonatic.uv'),
+        metaitem('gcyl:circuit.resonatic.uhv'),
+        metaitem('gcyl:circuit.resonatic.uev')
+)
+
+// Yeet Magneto Circuits
+// Imprinted Resonatic Circuit Board * 1
+mods.gregtech.autoclave.removeByInput(1920, [metaitem('gcyl:board.raw.magnetic')], [fluid('soldering_alloy') * 432 * 432])
+// ULV Magneto Resonatic Circuit * 4
+mods.gregtech.circuit_assembler.removeByInput(30, [metaitem('circuit.vacuum_tube'), metaitem('gcyl:gemMagnetoResonatic'), metaitem('gcyl:board.magnetic'), metaitem('component.diode') * 4, metaitem('component.capacitor') * 4, metaitem('component.transistor') * 4], [fluid('soldering_alloy') * 36])
+// LV Magneto Resonatic Circuit * 4
+mods.gregtech.circuit_assembler.removeByInput(120, [metaitem('gcyl:board.magnetic'), metaitem('gcyl:gemMagnetoResonatic'), metaitem('gcyl:circuit.resonatic.ulv'), metaitem('gcyl:component.smd.diode.refined') * 4, metaitem('gcyl:component.smd.capacitor.refined') * 4, metaitem('gcyl:component.smd.transistor.refined') * 4], [fluid('soldering_alloy') * 72])
+// MV Magneto Resonatic Circuit * 4
+mods.gregtech.circuit_assembler.removeByInput(480, [metaitem('gcyl:board.magnetic'), metaitem('gcyl:gemMagnetoResonatic'), metaitem('gcyl:circuit.resonatic.lv'), metaitem('component.smd.diode') * 8, metaitem('component.smd.capacitor') * 8, metaitem('component.smd.transistor') * 8], [fluid('soldering_alloy') * 108])
+// HV Magneto Resonatic Circuit * 4
+mods.gregtech.circuit_assembler.removeByInput(1920, [metaitem('gcyl:board.magnetic'), metaitem('gcyl:gemMagnetoResonatic'), metaitem('gcyl:circuit.resonatic.mv'), metaitem('gcyl:component.smd.diode.nano') * 8, metaitem('gcyl:component.smd.capacitor.nano') * 8, metaitem('gcyl:component.smd.transistor.nano') * 8], [fluid('soldering_alloy') * 144])
+// EV Magneto Resonatic Circuit * 4
+mods.gregtech.circuit_assembler.removeByInput(7680, [metaitem('gcyl:board.magnetic'), metaitem('gcyl:gemMagnetoResonatic'), metaitem('gcyl:circuit.resonatic.hv'), metaitem('gcyl:component.smd.diode.quantum') * 16, metaitem('gcyl:component.smd.capacitor.quantum') * 16, metaitem('gcyl:component.smd.transistor.quantum') * 16], [fluid('soldering_alloy') * 180])
+// IV Magneto Resonatic Circuit * 4
+mods.gregtech.circuit_assembler.removeByInput(30720, [metaitem('gcyl:board.magnetic') * 6, metaitem('gcyl:gemMagnetoResonatic') * 6, metaitem('gcyl:circuit.resonatic.ev'), metaitem('gcyl:component.smd.diode.crystal') * 16, metaitem('gcyl:component.smd.capacitor.crystal') * 16, metaitem('gcyl:component.smd.transistor.crystal') * 16], [fluid('soldering_alloy') * 864])
+// LuV Magneto Resonatic Circuit * 4
+mods.gregtech.circuit_assembler.removeByInput(122880, [metaitem('gcyl:board.magnetic') * 6, metaitem('gcyl:gemMagnetoResonatic') * 6, metaitem('gcyl:circuit.resonatic.iv'), metaitem('gcyl:component.smd.diode.wetware') * 24, metaitem('gcyl:component.smd.capacitor.wetware') * 24, metaitem('gcyl:component.smd.transistor.wetware') * 24], [fluid('soldering_alloy') * 1008])
+// ZPM Magneto Resonatic Circuit * 4
+mods.gregtech.circuit_assembler.removeByInput(491520, [metaitem('gcyl:board.magnetic') * 6, metaitem('gcyl:gemExquisiteMagnetoResonatic'), metaitem('gcyl:circuit.resonatic.luv'), metaitem('gcyl:component.smd.diode.bioware') * 24, metaitem('gcyl:component.smd.capacitor.bioware') * 24, metaitem('gcyl:component.smd.transistor.bioware') * 24], [fluid('soldering_alloy') * 4608])
+// UV Magneto Resonatic Circuit * 4
+mods.gregtech.circuit_assembler.removeByInput(1966080, [metaitem('gcyl:board.magnetic') * 6, metaitem('gcyl:gemExquisiteMagnetoResonatic') * 6, metaitem('gcyl:circuit.resonatic.zpm'), metaitem('gcyl:smd_diode_optical') * 32, metaitem('gcyl:smd_capacitor_optical') * 32, metaitem('gcyl:smd_transistor_optical') * 32], [fluid('soldering_alloy') * 5184])
+// UHV Magneto Resonatic Circuit * 4
+mods.gregtech.circuit_assembler.removeByInput(7864320, [metaitem('gcyl:board.magnetic') * 12, metaitem('gcyl:gemExquisiteMagnetoResonatic') * 12, metaitem('gcyl:circuit.resonatic.uv'), metaitem('gcyl:component.smd.diode.exotic') * 32, metaitem('gcyl:component.smd.capacitor.exotic') * 32, metaitem('gcyl:component.smd.transistor.exotic') * 32], [fluid('soldering_alloy') * 5760])
+// UEV Magneto Resonatic Circuit * 4
+mods.gregtech.circuit_assembler.removeByInput(31457280, [metaitem('gcyl:board.magnetic') * 12, metaitem('gcyl:gemExquisiteMagnetoResonatic') * 12, metaitem('gcyl:circuit.resonatic.uhv'), metaitem('gcyl:smd_diode_cosmic') * 64, metaitem('gcyl:smd_capacitor_cosmic') * 64, metaitem('gcyl:smd_transistor_cosmic') * 64], [fluid('soldering_alloy') * 9216])
+
+
 // TODO: Change Tiny Pile Recipes & Isotopes
 // Tiny Pile of Lutetium Dust * 1
 mods.gregtech.large_centrifuge.removeByInput(7680, [metaitem('dustNaquadria')], [fluid('nitrogen_dioxide') * 500 * 500, fluid('sulfuric_acid') * 500 * 500])

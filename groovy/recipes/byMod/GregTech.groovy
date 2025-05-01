@@ -8,6 +8,16 @@ AUTOCLAVE = recipemap('autoclave')
 MACERATOR = recipemap('macerator')
 FUSION_REACTOR = recipemap('fusion_reactor')
 
+// Hide items from JEI
+mods.jei.ingredient.yeet(
+        metaitem('cover.solar.panel'),
+        metaitem('cover.solar.panel.ulv'),
+
+        metaitem('steam_alloy_smelter_bronze'),
+        metaitem('steam_alloy_smelter_steel'),
+        metaitem('steam_hammer_bronze'),
+)
+
 // Recipe removals
 [
         metaitem('compressed.coke_clay'),

@@ -33,10 +33,13 @@ mods.jei.ingredient.yeet(
         item('actuallyadditions:block_grinder_double'),
         item('actuallyadditions:block_furnace_double'),
         item('actuallyadditions:block_fermenting_barrel'),
+        item('actuallyadditions:block_display_stand'),
+        item('actuallyadditions:block_empowerer'),
 )
 
 // Recipe removals
 [
+        item('actuallyadditions:block_misc', 9)
 ].forEach {
     crafting.removeByOutput(it)
 }
