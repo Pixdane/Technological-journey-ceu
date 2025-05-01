@@ -1,8 +1,7 @@
+// side: client
 package classes.utils
 
 import gregtech.common.blocks.MetaBlocks
-
-// side: client
 
 import net.minecraft.block.Block
 import net.minecraft.block.state.IBlockState

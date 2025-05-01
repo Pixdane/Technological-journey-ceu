@@ -44,6 +44,10 @@ class TJUtility {
         String tierName
         String materialName
 
+        def lc() {
+            this.tierName.toLowerCase()
+        }
+
         def methodMissing(String methodName, args) {
             def snakeCase = methodName.toSnakeCase()
             if (CraftingComponent.hasProperty(snakeCase)) {
@@ -60,10 +64,6 @@ class TJUtility {
 
             // Fallback
             return item()
-        }
-
-        def lc() {
-            this.tierName.toLowerCase()
         }
 
         def getTieredComponent(CraftingComponent.Component component) {

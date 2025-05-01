@@ -8,7 +8,6 @@ import static classes.utils.TJUtility.tjId
 import static gregtech.api.unification.material.info.MaterialFlags.*
 import static gregtech.api.unification.material.info.MaterialIconSet.DULL
 import static gregtech.api.unification.material.info.MaterialIconSet.SHINY
-import static materials.TJMaterialIconSets.getETERNITY
 import static materials.TJMaterials.*
 
 class UnknownCompositionMaterials {
