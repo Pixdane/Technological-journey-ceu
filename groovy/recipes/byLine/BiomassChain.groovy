@@ -1,13 +1,13 @@
 package recipes.byLine
 
-//Utils.removeRecipeByOutput(chemplant, [], [fluid('fermentation_base') * 10000], false)
-mods.gregtech.pyrolyse_oven.removeByInput(10, [metaitem('bio_chaff'), metaitem('circuit.integrated').withNbt(['Configuration': 2])], [fluid('water') * 1500])
-
 PYROLYSE_OVEN = recipemap('pyrolyse_oven')
 CHEMICAL_PLANT = recipemap('chemical_plant')
 FERMENTER = recipemap('fermenter')
 EXTRACTOR = recipemap('extractor')
 DISTILLERY = recipemap('distillery')
+COMPRESSOR = recipemap('compressor')
+
+mods.gregtech.pyrolyse_oven.removeByInput(10, [metaitem('bio_chaff'), metaitem('circuit.integrated').withNbt(['Configuration': 2])], [fluid('water') * 1500])
 
 PYROLYSE_OVEN.recipeBuilder()
         .inputs(metaitem('plant_ball') * 5)
@@ -94,4 +94,11 @@ DISTILLERY.recipeBuilder()
         .circuitMeta(0)
         .EUt(16)
         .duration(80)
+        .buildAndRegister()
+
+COMPRESSOR.recipeBuilder()
+        .inputs(item('minecraft:apple') * 8)
+        .outputs(metaitem('plant_ball'))
+        .duration(300)
+        .EUt(2)
         .buildAndRegister()

@@ -34,17 +34,25 @@ class MaterialModifications {
         material('trinium').addFlags('no_replication')
 
         material('neodymium_magnetic').addFlags('generate_gear')
+        material('zeron_100').addFlags('generate_gear', 'generate_small_gear')
+
         material('gcyl:draconium').addFlags('generate_double_plate')
         material('gcyl:awaken_draconium').addFlags('generate_double_plate')
         material('gcyl:chaos').addFlags('generate_double_plate')
         material('gcyl:adamantium').addFlags('generate_double_plate')
         material('iron').addFlags('generate_double_plate')
 
+        material('copper').addFlags('generate_bolt')
+
+
     }
 
     static void modifyProperties() {
 
         material('iron').addBlastProperty(1811)
+        material('rutherfordium').addBlastProperty(5400, 'MID', 16560, 120)
+        material('tritanium').addBlastProperty(11000, 'HIGH', 16560, 120)
+        material('duranium').addBlastProperty(6000, 'MID', 16560, 120)
 
         // For periodic table
         material('lithium').addIngot()
@@ -94,6 +102,7 @@ class MaterialModifications {
 
         material('supercritical:plutonium_244').addIngot()
 
+        // GrS's material extension doesn't work
         def property = new FluidProperty()
         property.enqueueRegistration(FluidStorageKeys.LIQUID, new FluidBuilder().temperature(1173))
         material('californium').setProperty(PropertyKey.FLUID, property)
@@ -122,6 +131,7 @@ class MaterialModifications {
 
         material('gcyl:lv_superconductor_base').getProperty(PropertyKey.WIRE).setLossPerBlock(6)
         material('gcyl:bright_steel').getProperty(PropertyKey.WIRE).setLossPerBlock(2)
+
     }
 
     static void modifyOrePrefixes() {

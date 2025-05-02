@@ -10,6 +10,7 @@ PLASMA_CONDENSER = recipemap('plasma_condenser')
 LCR = recipemap('large_chemical_reactor')
 EXTRUDER = recipemap('extruder')
 ADV_FUSION = recipemap('adv_fusion')
+ASSLINE = recipemap('assembly_line')
 
 // Hide items from JEI
 mods.jei.ingredient.yeet(
@@ -331,6 +332,21 @@ ASSEMBLER.recipeBuilder()
         .EUt(536870000)
         .buildAndRegister()
 
+ASSLINE.recipeBuilder()
+        .inputs(ore('wireGtQuadrupleMaxSuperconductor') * 64)
+        .inputs(ore('dustSiliconCarbide') * 64)
+        .inputs(ore('boltCosmicNeutronium') * 16)
+        .inputs(ore('plateDenseChaosalloy') * 8)
+        .inputs(item('gregtech:battery_block', 8))
+        .inputs(metaitem('gcyl:circuit.mainframe.supracausal'))
+        .inputs(metaitem('gcyl:emitter.max'))
+        .inputs(metaitem('gcyl:sensor.max'))
+        .fluidInputs(fluid('plasma.cosmic_mesh_plasma') * 1000)
+        .fluidInputs(fluid('quantum') * 1296)
+        .outputs(metaitem('tjceu:solar_panel.max'))
+        .duration(100)
+        .EUt(983040000)
+        .buildAndRegister()
 
 // Utils.removeRecipeByOutput(assembly_line, [item('gcyl:gcyl_meta_item', 500) * 6], [], true)
 
@@ -741,3 +757,8 @@ CHEMICAL_REACTOR.recipeBuilder()
 //         .duration(40)
 //         .EUt(960)
 //         .buildAndRegister()
+
+// //Fix blood ratio
+// Utils.removeRecipeByOutput(centrifuge, [], [fluid('blood') * 250], true)
+// Utils.removeRecipeByOutput(large_centrifuge, [], [fluid('blood') * 250], true)
+

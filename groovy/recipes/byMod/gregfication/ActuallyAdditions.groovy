@@ -1,6 +1,7 @@
 package recipes.byMod.gregfication
 
-import static classes.utils.TJUtility.*
+
+import static classes.utils.TJUtility.tjceu
 
 ASSEMBLER = recipemap('assembler')
 LASER_ENGRAVER = recipemap('laser_engraver')
@@ -8,6 +9,14 @@ EXTRACTOR = recipemap('extractor')
 
 // Hide items from JEI
 mods.jei.ingredient.yeet(
+        item('actuallyadditions:item_dust'),
+        item('actuallyadditions:item_dust', 1),
+        item('actuallyadditions:item_dust', 2),
+        item('actuallyadditions:item_dust', 3),
+        item('actuallyadditions:item_dust', 4),
+        item('actuallyadditions:item_dust', 5),
+        item('actuallyadditions:item_dust', 6),
+
         item('actuallyadditions:block_misc', 7),
         item('actuallyadditions:block_atomic_reconstructor'),
         item('actuallyadditions:block_empowerer'),
