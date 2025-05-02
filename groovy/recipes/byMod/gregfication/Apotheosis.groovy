@@ -1,3 +1,5 @@
+package recipes.byMod.gregfication
+
 crafting.removeByOutput(item('apotheosis:hellshelf'))
 
 crafting.addShaped(item('apotheosis:hellshelf'), [

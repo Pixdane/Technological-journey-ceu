@@ -1,3 +1,5 @@
+package recipes.byMachine
+
 ROCKET_FUEL = recipemap('rocket_fuel')
 
 mods.gregtech.rocket_fuel.removeByInput(2048, null, [fluid('rocket_fuel_a') * 3 * 3])

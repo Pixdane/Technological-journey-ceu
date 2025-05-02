@@ -1,3 +1,5 @@
+package recipes.byMachine
+
 GAS_TURBINE = recipemap('gas_turbine')
 
 GAS_TURBINE.recipeBuilder()

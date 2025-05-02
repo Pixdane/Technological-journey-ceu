@@ -1,3 +1,5 @@
+package classes.mtes.multiblocks
+
 import gregtech.api.capability.impl.SteamMultiWorkable
 import gregtech.api.metatileentity.MetaTileEntity
 import gregtech.api.metatileentity.interfaces.IGregTechTileEntity
@@ -9,10 +11,11 @@ import gregtech.api.pattern.FactoryBlockPattern
 import gregtech.api.recipes.RecipeMaps
 import gregtech.client.renderer.ICubeRenderer
 import gregtech.client.renderer.texture.Textures
+import net.minecraft.util.ResourceLocation
 
 class PrimitiveAlloySmelter extends RecipeMapSteamMultiblockController {
 
-    private static final int PARALLEL_LIMIT = 8;
+    private static final int PARALLEL_LIMIT = 8
 
     PrimitiveAlloySmelter(ResourceLocation metaTileEntityId) {
         super(metaTileEntityId, RecipeMaps.ALLOY_SMELTER_RECIPES, CONVERSION_RATE)
@@ -44,8 +47,8 @@ class PrimitiveAlloySmelter extends RecipeMapSteamMultiblockController {
     }
 
     @Override
-    public int getItemOutputLimit() {
-        return 1;
+    int getItemOutputLimit() {
+        return 1
     }
 
 

@@ -1,9 +1,11 @@
+package materials
+
 import gregtech.api.unification.material.Material
 
 import static classes.utils.TJUtility.tjId
 import static gregtech.api.unification.material.Materials.*
-import static gregtech.api.unification.material.info.MaterialFlags.*
-import static gregtech.api.unification.material.info.MaterialIconSet.*
+import static gregtech.api.unification.material.info.MaterialFlags.DISABLE_DECOMPOSITION
+import static gregtech.api.unification.material.info.MaterialIconSet.SHINY
 import static materials.TJMaterials.*
 
 class SecondDegreeMaterials {

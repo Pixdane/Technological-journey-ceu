@@ -1,3 +1,5 @@
+package recipes.byMachine
+
 ARMOR_INFUSION = recipemap('armor_infusion')
 
 // Voltage
@@ -31,37 +33,33 @@ aSpeed = item('draconicevolution:tool_upgrade', 7)
 aDamage = item('draconicevolution:tool_upgrade', 5)
 
 basicItem1 = item('minecraft:golden_apple', 1)
-// TODO: plateDoubleAdamantium
-// basicItem2 = item('gtadditions:ga_meta_item:1718'); 
+basicItem2 = metaitem('gcyl:plateDoubleAdamantium')
 basicItem3 = metaitem('quantumeye')
 basicItem4 = item('draconicevolution:draconic_core')
 
-wyvernItem1 = item('gregtech:meta_item_1', 283)
+wyvernItem1 = metaitem('gravistar')
 wyvernItem2 = item('draconicevolution:draconic_core')
-// TODO: plateDoubleDraconium
-// wyvernItem3 = item('gtadditions:ga_meta_item:1518');
+wyvernItem3 = metaitem('gcyl:plateDoubleDraconium')
 wyvernItem3 = metaitem('plateDoubleSteel')
 wyvernItem4 = item('draconicevolution:wyvern_core')
 
-draconicItem1 = item('gcyl:gcyl_meta_item', 343)
+draconicItem1 = metaitem('gcyl:unstable.star')
 draconicItem2 = item('draconicevolution:wyvern_core')
-// TODO: plateDoubleAwakenDraconium
-// draconicItem3 = item('gtadditions:ga_meta_item:1519');
+draconicItem3 = metaitem('gcyl:plateDoubleAwakenDraconium')
 draconicItem3 = metaitem('plateDoubleSteel')
 draconicItem4 = item('draconicevolution:awakened_core')
 
 chaoticItem1 = metaitem('tjceu:crystal.refined_chaos')
 chaoticItem2 = item('draconicevolution:chaotic_core')
 chaoticItem3 = item('draconicadditions:chaotic_energy_core')
-// TODO: plateDoubleChaos
-// chaoticItem4 = item('gtadditions:ga_meta_item:1520');
+chaoticItem4 = metaitem('gcyl:plateDoubleChaos')
 chaoticItem4 = metaitem('plateDoubleSteel')
 
 draconicTools = [item('draconicevolution:draconic_pick'), item('draconicevolution:draconic_shovel'), item('draconicevolution:draconic_axe')]
 wyvernTools = [item('draconicevolution:wyvern_pick'), item('draconicevolution:wyvern_shovel'), item('draconicevolution:wyvern_axe')]
 
 
-for (i in [0, 1, 2]) {
+for (i in 0..2) {
     ARMOR_INFUSION.recipeBuilder()
             .inputs(item('draconicevolution:awakened_core') * 2, item('draconicevolution:draconic_energy_core') * 2, (wyvernTools[i]))
             .outputs((draconicTools[i].withNbt(DEUpgrades: [digSpeed: 0 as byte, digAOE: 0 as byte, rfCap: 0 as byte], Energy: 0)))

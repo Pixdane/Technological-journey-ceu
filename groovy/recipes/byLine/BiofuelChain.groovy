@@ -1,3 +1,5 @@
+package recipes.byLine
+
 CHEMICAL_REACTOR = recipemap('chemical_reactor')
 EXTRACTOR = recipemap('extractor')
 FERMENTER = recipemap('fermenter')

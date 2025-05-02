@@ -1,4 +1,4 @@
-import static classes.utils.TJUtility.*
+package recipes.byMod.gregfication
 
 ASSLINE = recipemap('assembly_line')
 EBF = recipemap('electric_blast_furnace')
@@ -134,6 +134,8 @@ mods.jei.ingredient.yeet(
         item('thermalfoundation:material', 291),
         item('thermalfoundation:material', 295),
 
+        item('thermalfoundation:material', 802),
+
         item('thermalfoundation:geode'),
 )
 
@@ -155,7 +157,7 @@ mods.jei.ingredient.yeet(
     crafting.removeByOutput(it)
 }
 
-furnace.add(item('thermalfoundation:material', 833), metaitem('rubber_drop'), 0.0);
+furnace.add(item('thermalfoundation:material', 833), metaitem('rubber_drop'), 0.0)
 
 // Hardened upgrade
 ASSLINE.recipeBuilder()
@@ -260,30 +262,30 @@ MIXER.recipeBuilder()
         .EUt(500)
         .buildAndRegister()
 
-crafting.addShaped(item('thermalfoundation:material', 640), 
-[
-        [null, null, null], 
-        [null, item('actuallyadditions:item_misc', 16), null], 
-        [null, null, null]
-])
-crafting.addShaped(item('thermalfoundation:material', 656), 
-[
-        [null, ore('plateDenseStainlessSteel'), null], 
-        [ore('plateDenseStainlessSteel'), ore('stickLongStainlessSteel'), ore('plateDenseStainlessSteel')], 
-        [null, ore('plateDenseStainlessSteel'), null]
-])
+crafting.addShaped(item('thermalfoundation:material', 640),
+        [
+                [null, null, null],
+                [null, item('actuallyadditions:item_misc', 16), null],
+                [null, null, null]
+        ])
+crafting.addShaped(item('thermalfoundation:material', 656),
+        [
+                [null, ore('plateDenseStainlessSteel'), null],
+                [ore('plateDenseStainlessSteel'), ore('stickLongStainlessSteel'), ore('plateDenseStainlessSteel')],
+                [null, ore('plateDenseStainlessSteel'), null]
+        ])
 
 crafting.addShapeless(item('thermalfoundation:material', 657), [item('architecturecraft:sawblade')])
 
 
 furnace.removeByOutput(ore('ingotSignalum').getFirst())
 furnace.removeByOutput(ore('ingotLumium').getFirst())
-crafting.addShaped(item('thermalfoundation:material', 1026), 
-[
-        [null, ore('dustSulfur'), null], 
-        [ore('dustSulfur'), ore('dustBlaze'), ore('dustSulfur')], 
-        [null, ore('dustSulfur'), null]
-])
+crafting.addShaped(item('thermalfoundation:material', 1026),
+        [
+                [null, ore('dustSulfur'), null],
+                [ore('dustSulfur'), ore('dustBlaze'), ore('dustSulfur')],
+                [null, ore('dustSulfur'), null]
+        ])
 
 
 EXTRUDER.recipeBuilder()

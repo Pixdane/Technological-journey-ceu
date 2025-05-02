@@ -1,3 +1,5 @@
+package recipes.byMod.gregfication
+
 import appeng.items.parts.ItemFacade
 import mods.appliedenergistics2.inscriber
 import mods.jei.ingredient as h
@@ -21,6 +23,7 @@ mods.jei.ingredient.hide(((ItemFacade) item('appliedenergistics2:facade').getIte
 mods.jei.ingredient.yeet(
         item('appliedenergistics2:material', 49),
         item('appliedenergistics2:material', 51),
+        item('appliedenergistics2:vibration_chamber'),
 )
 
 // Recipe removals
@@ -28,6 +31,17 @@ mods.jei.ingredient.yeet(
         item('appliedenergistics2:part'),
         item('appliedenergistics2:part', 140),
         item('appliedenergistics2:quartz_glass'),
+        item('appliedenergistics2:interface'),
+        item('appliedenergistics2:fluid_interface'),
+        item('appliedenergistics2:energy_acceptor'),
+        item('appliedenergistics2:material', 52),
+
+        item('threng:machine'),
+        item('threng:machine', 1),
+        item('threng:machine', 2),
+        item('threng:machine', 3),
+        item('threng:machine', 4),
+        item('threng:machine', 5),
 ].forEach {
     crafting.removeByOutput(it)
 }

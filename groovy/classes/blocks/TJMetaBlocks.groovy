@@ -1,3 +1,5 @@
+package classes.blocks
+
 import gregtech.api.block.VariantItemBlock
 
 class TJMetaBlocks {

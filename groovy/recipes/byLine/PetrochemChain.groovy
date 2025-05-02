@@ -1,3 +1,5 @@
+package recipes.byLine
+
 mods.gregtech.distillation_tower.removeByInput(96, null, [fluid('oil') * 50])
 // Sulfuric Heavy Fuel * 15
 mods.gregtech.distillery.removeByInput(24, [metaitem('circuit.integrated').withNbt(['Configuration': 1])], [fluid('oil') * 50])

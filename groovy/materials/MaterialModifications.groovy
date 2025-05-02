@@ -1,3 +1,5 @@
+package materials
+
 import gregtech.api.fluids.FluidBuilder
 import gregtech.api.fluids.store.FluidStorageKeys
 import gregtech.api.unification.material.properties.FluidProperty
@@ -33,7 +35,11 @@ class MaterialModifications {
 
         material('neodymium_magnetic').addFlags('generate_gear')
         material('gcyl:draconium').addFlags('generate_double_plate')
+        material('gcyl:awaken_draconium').addFlags('generate_double_plate')
+        material('gcyl:chaos').addFlags('generate_double_plate')
+        material('gcyl:adamantium').addFlags('generate_double_plate')
         material('iron').addFlags('generate_double_plate')
+
     }
 
     static void modifyProperties() {

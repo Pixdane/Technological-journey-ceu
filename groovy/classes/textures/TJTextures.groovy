@@ -1,5 +1,7 @@
 // side: client
-import gregtech.client.renderer.texture.cube.*
+package classes.textures
+
+import gregtech.client.renderer.texture.cube.SimpleOverlayRenderer
 
 class TJTextures {
 

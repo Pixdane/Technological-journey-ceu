@@ -1,3 +1,5 @@
+package recipes.byMod.gregfication
+
 MIXER = recipemap('mixer')
 ASSEMBLER = recipemap('assembler')
 

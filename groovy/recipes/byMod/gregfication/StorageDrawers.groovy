@@ -1,3 +1,5 @@
+package recipes.byMod.gregfication
+
 ASSLINE = recipemap('assembly_line')
 
 ASSLINE.recipeBuilder()

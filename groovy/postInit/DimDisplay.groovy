@@ -1,3 +1,5 @@
+package postInit
+
 import tj.util.DimDisplayRegistry
 
 DimDisplayRegistry.set([

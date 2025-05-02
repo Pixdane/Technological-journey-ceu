@@ -1,3 +1,5 @@
+package recipes.byMod.gregfication
+
 ASSEMBLER = recipemap('assembler')
 IMPLOSION_COMPRESSOR = recipemap('implosion_compressor')
 MIXER = recipemap('mixer')
@@ -37,11 +39,11 @@ ASSEMBLER.recipeBuilder()
         .buildAndRegister()
 
 crafting.addShaped(item('minecraft:dye', 2),
-[
-        [null, item('minecraft:tallgrass', 1), null],
-        [item('minecraft:tallgrass', 1), null, item('minecraft:tallgrass', 1)], 
-        [null, item('minecraft:tallgrass', 1), null]
-])
+        [
+                [null, item('minecraft:tallgrass', 1), null],
+                [item('minecraft:tallgrass', 1), null, item('minecraft:tallgrass', 1)],
+                [null, item('minecraft:tallgrass', 1), null]
+        ])
 
 // Blaze Rod * 1
 mods.gregtech.compressor.removeByInput(2, [item('minecraft:blaze_powder') * 4 * 4], null)
@@ -55,7 +57,7 @@ IMPLOSION_COMPRESSOR.recipeBuilder()
         .buildAndRegister()
 
 //concrete recipes
-for (int i=0;i<15;i++) {
+for (int i = 0; i < 15; i++) {
     MIXER.recipeBuilder()
             .inputs(item("minecraft:concrete_powder", i) * 64)
             .fluidInputs(fluid('water') * 64000)
@@ -66,17 +68,17 @@ for (int i=0;i<15;i++) {
 }
 
 crafting.addShaped("clay1", item('minecraft:clay') * 8,
-[
-        [ore('sand'), ore('sand'), ore('sand')], 
-        [ore('sand'), fluid('water') * 1000, ore('sand')], 
-        [ore('sand'), ore('sand'), ore('sand')]
-])
+        [
+                [ore('sand'), ore('sand'), ore('sand')],
+                [ore('sand'), fluid('water') * 1000, ore('sand')],
+                [ore('sand'), ore('sand'), ore('sand')]
+        ])
 
 crafting.removeByOutput(item('minecraft:golden_apple', 1))
 
 crafting.addShaped(item('minecraft:name_tag'), [
-        [null, ore('cropFlax').or(ore('string')), ore('cropFlax').or(ore('string'))], 
-        [null, ore('slimeball'), ore('cropFlax').or(ore('string'))], 
+        [null, ore('cropFlax').or(ore('string')), ore('cropFlax').or(ore('string'))],
+        [null, ore('slimeball'), ore('cropFlax').or(ore('string'))],
         [ore('cropFlax').or(ore('string')), null, null]
 ])
 

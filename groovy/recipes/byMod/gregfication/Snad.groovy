@@ -1,19 +1,26 @@
+package recipes.byMod.gregfication
+
 CHEMICAL_REACTOR = recipemap('chemical_reactor')
-LCR = recipemap('large_chemical_reactor')
 MIXER = recipemap('mixer')
 
-crafting.addShaped(item('snad:snad', 1), 
+// Recipe removals
 [
-    [item('minecraft:sand', 1), item('minecraft:sand', 1), item('minecraft:sand', 1)], 
-    [item('minecraft:sand', 1), item('minecraft:sand', 1), item('minecraft:sand', 1)], 
-    [item('minecraft:sand', 1), item('minecraft:sand', 1), item('minecraft:sand', 1)]
+        item('snad:snad'),
+        item('snad:snad', 1),
+].forEach {
+    crafting.removeByOutput(it)
+}
+
+crafting.addShaped(item('snad:snad'), [
+        [item('minecraft:sand'), item('minecraft:sand'), item('minecraft:sand')],
+        [item('minecraft:sand'), item('minecraft:sand'), item('minecraft:sand')],
+        [item('minecraft:sand'), item('minecraft:sand'), item('minecraft:sand')]
 ])
 
-crafting.addShaped(item('snad:snad'), 
-[
-    [item('minecraft:sand'), item('minecraft:sand'), item('minecraft:sand')], 
-    [item('minecraft:sand'), item('minecraft:sand'), item('minecraft:sand')], 
-    [item('minecraft:sand'), item('minecraft:sand'), item('minecraft:sand')]
+crafting.addShaped(item('snad:snad', 1), [
+        [item('minecraft:sand', 1), item('minecraft:sand', 1), item('minecraft:sand', 1)],
+        [item('minecraft:sand', 1), item('minecraft:sand', 1), item('minecraft:sand', 1)],
+        [item('minecraft:sand', 1), item('minecraft:sand', 1), item('minecraft:sand', 1)]
 ])
 
 CHEMICAL_REACTOR.recipeBuilder()

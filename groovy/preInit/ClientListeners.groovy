@@ -1,4 +1,6 @@
 // side: client
+package preInit
+
 import classes.utils.ModelRegister
 import net.minecraftforge.client.event.ModelRegistryEvent
 

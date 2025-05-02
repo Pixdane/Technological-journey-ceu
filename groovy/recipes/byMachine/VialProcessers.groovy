@@ -1,3 +1,5 @@
+package recipes.byMachine
+
 VIAL_PROCESSOR = recipemap('vial_processing')
 LVP = recipemap('advanced_vial_processing')
 LPS = recipemap('soul_capture')
@@ -282,7 +284,3 @@ mobs.eachWithIndex { mob, i ->
             .EUt(30720)
             .buildAndRegister()
 }
-
-// TODO: more recipes
-// TODO: machine recipes
-// crafting.addShaped(item('gregtech:machine:1400'), [[item('enderio:item_soul_vial', 1), item('minecraft:diamond_sword'), item('enderio:item_soul_vial', 1)],[item('minecraft:diamond_sword'), item('gregtech:mte', 986), item('minecraft:diamond_sword')], [ore('plateDoubleSteel'), ore('plateDoubleSteel'), ore('plateDoubleSteel')]]);

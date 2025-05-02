@@ -1,3 +1,5 @@
+package recipes.byMod.gregfication
+
 import static classes.utils.TJUtility.tjceu
 
 ALLOY_SMELTER = recipemap('alloy_smelter')
@@ -11,6 +13,7 @@ FORMING_PRESS = recipemap('forming_press')
 
 // Hide items from JEI
 mods.jei.ingredient.yeet(
+        item('enderio:item_material', 3),
         item('enderio:item_material', 21),
         item('enderio:item_material', 23),
         item('enderio:item_material', 24),
@@ -21,8 +24,8 @@ mods.jei.ingredient.yeet(
         item('enderio:item_material', 29),
         item('enderio:item_material', 32),
         item('enderio:item_material', 33),
+        item('enderio:item_material', 35),
         item('enderio:item_material', 38),
-        item('enderio:item_material', 51),
         item('enderio:item_material', 55),
         item('enderio:item_material', 75),
         item('enderio:item_material', 76),
@@ -33,6 +36,8 @@ mods.jei.ingredient.yeet(
         item('enderio:item_capacitor_silver'),
         item('enderio:item_capacitor_energetic_silver'),
         item('enderio:item_capacitor_vivid'),
+
+        item('enderio:item_data_conduit'),
 
         item('enderio:item_redstone_conduit'),
 
@@ -52,6 +57,25 @@ mods.jei.ingredient.yeet(
         item('enderio:item_endergy_conduit', 9),
         item('enderio:item_endergy_conduit', 10),
         item('enderio:item_endergy_conduit', 11),
+
+        item('enderio:block_solar_panel'),
+        item('enderio:block_solar_panel', 1),
+        item('enderio:block_solar_panel', 2),
+        item('enderio:block_solar_panel', 3),
+        item('enderio:block_solar_panel', 4),
+        item('enderio:block_solar_panel', 5),
+        item('enderio:block_solar_panel', 5),
+        item('enderio:block_solar_panel', 6),
+
+        item('enderio:item_dark_steel_upgrade', 1).withNbt(['enderio:dsu': 'enderiomachines:solar']),
+        item('enderio:item_dark_steel_upgrade', 1).withNbt(['enderio:dsu': 'enderiomachines:solar1']),
+        item('enderio:item_dark_steel_upgrade', 1).withNbt(['enderio:dsu': 'enderiomachines:solar2']),
+        item('enderio:item_dark_steel_upgrade', 1).withNbt(['enderio:dsu': 'enderiomachines:solar3']),
+
+        item('enderio:item_dark_steel_upgrade', 1).withNbt(['enderio:dsu': 'enderiomachines:solar', 'enderio:enabled': (byte) 1]),
+        item('enderio:item_dark_steel_upgrade', 1).withNbt(['enderio:dsu': 'enderiomachines:solar1', 'enderio:enabled': (byte) 1]),
+        item('enderio:item_dark_steel_upgrade', 1).withNbt(['enderio:dsu': 'enderiomachines:solar2', 'enderio:enabled': (byte) 1]),
+        item('enderio:item_dark_steel_upgrade', 1).withNbt(['enderio:dsu': 'enderiomachines:solar3', 'enderio:enabled': (byte) 1]),
 
         item('enderio:block_lava_generator'),
         item('enderio:block_enhanced_sag_mill'),
@@ -380,7 +404,7 @@ FORMING_PRESS.recipeBuilder()
 crafting.addShaped(item('enderio:block_dark_fused_quartz') * 8, [[ore('blockGlassHardened'), ore('blockGlassHardened'), ore('blockGlassHardened')], [ore('blockGlassHardened'), ore('dyeBlack'), ore('blockGlassHardened')], [ore('blockGlassHardened'), ore('blockGlassHardened'), ore('blockGlassHardened')]])
 crafting.addShaped(item('enderio:block_enlightened_fused_quartz') * 8, [[ore('blockGlassHardened'), ore('blockGlassHardened'), ore('blockGlassHardened')], [ore('blockGlassHardened'), item('astralsorcery:itemusabledust'), ore('blockGlassHardened')], [ore('blockGlassHardened'), ore('blockGlassHardened'), ore('blockGlassHardened')]])
 crafting.addShaped(item('enderio:block_dark_fused_quartz') * 8, [[ore('blockGlassHardened'), ore('blockGlassHardened'), ore('blockGlassHardened')], [ore('blockGlassHardened'), item('astralsorcery:itemusabledust', 1), ore('blockGlassHardened')], [ore('blockGlassHardened'), ore('blockGlassHardened'), ore('blockGlassHardened')]])
-crafting.addShaped(item('enderio:block_enlightened_fused_quartz')  * 8, [[ore('blockGlassHardened'), ore('blockGlassHardened'), ore('blockGlassHardened')], [ore('blockGlassHardened'), ore('dustGlowstone'), ore('blockGlassHardened')], [ore('blockGlassHardened'), ore('blockGlassHardened'), ore('blockGlassHardened')]])
+crafting.addShaped(item('enderio:block_enlightened_fused_quartz') * 8, [[ore('blockGlassHardened'), ore('blockGlassHardened'), ore('blockGlassHardened')], [ore('blockGlassHardened'), ore('dustGlowstone'), ore('blockGlassHardened')], [ore('blockGlassHardened'), ore('blockGlassHardened'), ore('blockGlassHardened')]])
 crafting.addShaped(item('enderio:item_broken_spawner'), [[ore('dustSoularium'), ore('dyeSoulMachine'), ore('dustSoularium')], [ore('dyeSoulMachine'), ore('itemSoulMachineChassi'), ore('dyeSoulMachine')], [ore('dustSoularium'), ore('dyeSoulMachine'), ore('dustSoularium')]])
 
 

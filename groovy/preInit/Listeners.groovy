@@ -1,3 +1,5 @@
+package preInit
+
 import classes.blocks.TJMetaBlocks
 import classes.items.TJMetaItems
 import classes.recipes.TJRecipeMaps

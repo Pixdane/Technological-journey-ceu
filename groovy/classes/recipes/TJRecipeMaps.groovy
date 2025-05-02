@@ -1,6 +1,8 @@
+package classes.recipes
+
 import gregtech.api.recipes.RecipeMap
 import gregtech.api.recipes.RecipeMaps
-import gregtech.api.recipes.builders.*
+import gregtech.api.recipes.builders.SimpleRecipeBuilder
 
 class TJRecipeMaps {
 
