@@ -382,7 +382,7 @@ mods.gregtech.vacuum_freezer.removeByInput(120, [metaitem('gcyl:ingotHotBrightSt
 
 EBF.recipeBuilder()
         .inputs(ore('dustBrightSteel'))
-        .outputs(ore('ingotBrightSteel'))
+        .outputs(metaitem('gcyl:ingotBrightSteel'))
         .blastFurnaceTemp(2900)
         .duration(1200)
         .EUt(120)
