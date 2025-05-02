@@ -34,6 +34,8 @@ metaitem.shard.refined_chaos.name=Refined Chaos Shard
 metaitem.crystal.refined_chaos.name=Refined Chaos Crystal
 metaitem.crystal.infinity.name=Infinity Crystal
 metaitem.crystal.eternity.name=Eternity Crystal
+metaitem.ingot.iridium_alloy.name=Iridium Alloy Ingot
+metaitem.plate.iridium_alloy.name=Reinforced Iridium Alloy
 metaitem.ban.certificate.name=Certificate of Being a Noob
 metaitem.ban.certificate.tooltip=§1Image by Emperdog
 
@@ -103,6 +105,7 @@ tjceu.machine.fluid_hatch.import_4x.hv.name=HV Quadruple Input Hatch
 tjceu.machine.fluid_hatch.export_4x.hv.name=HV Quadruple Output Hatch
 tjceu.machine.fluid_hatch.import_9x.hv.name=HV Nonuple Input Hatch
 tjceu.machine.fluid_hatch.export_9x.hv.name=HV Nonuple Output Hatch
+tjceu.machine.rotor_holder.uhv.name=UHV Rotor Holder
 
 # Recipemaps
 recipemap.armor_infusion.name=Armor Infusion

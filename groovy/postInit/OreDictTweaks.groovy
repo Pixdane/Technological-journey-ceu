@@ -189,6 +189,15 @@ ore_dict.remove('stickSteel', item('libvulpes:productrod', 6))
 ore_dict.remove('stickTitanium', item('libvulpes:productrod', 7))
 ore_dict.remove('stickIridium', item('libvulpes:productrod', 10))
 
+ore_dict.remove('dustIron', item('actuallyadditions:item_dust'))
+ore_dict.remove('dustGold', item('actuallyadditions:item_dust', 1))
+ore_dict.remove('dustDiamond', item('actuallyadditions:item_dust', 2))
+ore_dict.remove('dustEmerald', item('actuallyadditions:item_dust', 3))
+ore_dict.remove('dustLapis', item('actuallyadditions:item_dust', 4))
+ore_dict.remove('dustQuartz', item('actuallyadditions:item_dust', 5))
+ore_dict.remove('dustNetherQuartz', item('actuallyadditions:item_dust', 5))
+ore_dict.remove('dustCoal', item('actuallyadditions:item_dust', 6))
+
 Tier.ULV..Tier.UEV.each { tier ->
     ore_dict.remove(
             "circuit.${tier.lc()}".toString(),

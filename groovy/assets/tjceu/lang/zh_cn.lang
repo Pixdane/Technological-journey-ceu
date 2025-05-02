@@ -34,8 +34,10 @@ metaitem.shard.refined_chaos.name=精炼混沌碎片
 metaitem.crystal.refined_chaos.name=精炼混沌晶体
 metaitem.crystal.infinity.name=无尽晶体
 metaitem.crystal.eternity.name=永恒晶体
-metaitem.ban.certificate.name=初学者证明
-metaitem.ban.certificate.tooltip=§1纹理由Emperdog提供
+metaitem.ingot.iridium_alloy.name=铱合金锭
+metaitem.plate.iridium_alloy.name=铱合金板
+metaitem.ban.certificate.name=§1成为菜鸟的证明
+metaitem.ban.certificate.tooltip=纹理由Emperdog提供
 
 ## Dimension Display Items
 metaitem.display.overworld.name=主世界
@@ -103,6 +105,7 @@ tjceu.machine.fluid_hatch.import_4x.hv.name=§6HV§r四重输入仓
 tjceu.machine.fluid_hatch.export_4x.hv.name=§6HV§r四重输出仓
 tjceu.machine.fluid_hatch.import_9x.hv.name=§6HV§r九重输入仓
 tjceu.machine.fluid_hatch.export_9x.hv.name=§6HV§r九重输出仓
+tjceu.machine.rotor_holder.uhv.name=§4UHV§r转子支架
 
 # Recipemaps
 recipemap.armor_infusion.name=盔甲注能

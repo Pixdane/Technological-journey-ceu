@@ -11,6 +11,7 @@ import gregtech.client.renderer.ICubeRenderer
 import gregtech.client.renderer.texture.Textures
 import gregtech.common.metatileentities.MetaTileEntities
 import gregtech.common.metatileentities.multi.multiblockpart.MetaTileEntityMultiFluidHatch
+import gregtech.common.metatileentities.multi.multiblockpart.MetaTileEntityRotorHolder
 import groovy.transform.builder.Builder
 
 import static classes.utils.TJUtility.tjId
@@ -31,6 +32,7 @@ class TJMetaTileEntities {
     static def HV_QUADRUPLE_EXPORT_HATCH
     static def HV_NONUPLE_IMPORT_HATCH
     static def HV_NONUPLE_EXPORT_HATCH
+    static def UHV_ROTOR_HOLDER
 
     static void register() {
 
@@ -68,6 +70,8 @@ class TJMetaTileEntities {
         })
         HV_NONUPLE_EXPORT_HATCH = mte(3003, new MetaTileEntityMultiFluidHatch(tjId('fluid_hatch.export_9x.hv'), GTValues.HV, 9, true) {
         })
+
+        UHV_ROTOR_HOLDER = mte(3004, new MetaTileEntityRotorHolder(tjId('rotor_holder.uhv'), GTValues.UHV))
 
         // Others 4000 - 4999
 

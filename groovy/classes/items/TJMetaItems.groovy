@@ -27,6 +27,9 @@ class TJMetaItems {
     static def REFINED_CHAOS_CRYSTAL
     static def INFINITY_CRYSTAL
     static def ETERNITY_CRYSTAL
+    static def IRIDIUM_ALLOY_INGOT
+    static def IRIDIUM_ALLOY_PLATE
+
     static def BAN_CERTIFICATE
 
     static def OVERWORLD_DISPLAY_ITEM
@@ -83,6 +86,9 @@ class TJMetaItems {
         REFINED_CHAOS_CRYSTAL = item.addItem(201, 'crystal.refined_chaos')
         INFINITY_CRYSTAL = item.addItem(202, 'crystal.infinity')
         ETERNITY_CRYSTAL = item.addItem(203, 'crystal.eternity')
+
+        IRIDIUM_ALLOY_INGOT = item.addItem(204, 'ingot.iridium_alloy')
+        IRIDIUM_ALLOY_PLATE = item.addItem(205, 'plate.iridium_alloy')
 
         // Misc 800 - 999
         BAN_CERTIFICATE = item.addItem(800, 'ban.certificate')
