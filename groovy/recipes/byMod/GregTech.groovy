@@ -157,7 +157,6 @@ MACERATOR.recipeBuilder()
 
 crafting.addShaped(metaitem('battery.re.lv.sodium'), [[ore('dustSodium'), ore('dustSodium'), ore('dustSodium')], [ore('dustSodium'), ore('dustSodium'), ore('dustSodium')], [null, item('gregtech:meta_item_1', 717), null]])
 
-
 crafting.removeByOutput(item('gregtech:mte', 9))
 crafting.removeByOutput(item('gregtech:mte', 10))
 crafting.removeByOutput(item('gregtech:mte', 11))
@@ -181,7 +180,6 @@ crafting.addShaped(item('gregtech:mte', 985), [[null, null, null], [ore('plateWr
 crafting.removeByOutput(metaitem('large_combustion_engine'))
 crafting.addShaped(metaitem('large_combustion_engine'), [[metaitem('electric.piston.ev'), ore('circuitEv'), metaitem('electric.piston.ev')], [metaitem('electric.motor.ev'), metaitem('hull.ev'), metaitem('electric.motor.ev')], [ore('gearTitanium'), ore('wireGtSingleTungstenSteel'), ore('gearTitanium')]])
 
-
 // Arc Furnaces
 crafting.removeByOutput(item('gregtech:mte', 97))
 crafting.removeByOutput(item('gregtech:mte', 96))
@@ -191,10 +189,8 @@ crafting.addShaped(item('gregtech:mte', 96), [[ore('cableGtQuadrupleCopper'), or
 crafting.addShaped(item('gregtech:mte', 95), [[ore('cableGtQuadrupleTin'), ore('ingotCarbon'), ore('cableGtQuadrupleTin')], [ore('circuitBasic'), item('gregtech:mte', 986), ore('circuitBasic')], [ore('plateSteel'), ore('plateSteel'), ore('plateSteel')]])
 //crafting.addShaped(ore('blockStainlessSteel'), [[ore('ingotStainlessSteel'), ore('ingotStainlessSteel'), ore('ingotStainlessSteel')], [ore('ingotStainlessSteel'), ore('ingotStainlessSteel'), ore('ingotStainlessSteel')], [ore('ingotStainlessSteel'), ore('ingotStainlessSteel'), ore('ingotStainlessSteel')]])
 
-
 mods.gregtech.mixer.removeByInput(1920, [metaitem('dustTungsten'), metaitem('dustCarbon'), metaitem('circuit.integrated').withNbt(['Configuration': 1])], null)
 mods.gregtech.mixer.removeByInput(1920, [metaitem('dustTungsten'), metaitem('dustCarbon'), metaitem('circuit.integrated').withNbt(['Configuration': 2])], null)
-
 
 mods.gregtech.fusion_reactor.removeByInput(49152, null, [fluid('xenon') * 125 * 125, fluid('zinc') * 16 * 16])
 FUSION_REACTOR.recipeBuilder()
@@ -204,7 +200,6 @@ FUSION_REACTOR.recipeBuilder()
         .duration(128)
         .EUt(32000)
         .buildAndRegister()
-
 
 // Freedom wrench
 crafting.removeByOutput(metaitem('tool.multiblock_builder'))
@@ -324,6 +319,19 @@ IMPLOSION_COMPRESSOR.recipeBuilder()
         .EUt(30)
         .buildAndRegister()
 
+// Iridium Neutron Reflector * 1
+mods.gregtech.assembler.removeByInput(120, [metaitem('plateRuridit'), metaitem('plateDoubleBeryllium') * 4, metaitem('plateDoubleTungstenCarbide') * 2], [fluid('tin_alloy') * 4608 * 4608])
+
+ASSEMBLER.recipeBuilder()
+        .inputs(metaitem('tjceu:plate.iridium_alloy'))
+        .inputs(ore('plateDoubleTungstenCarbide') * 2)
+        .inputs(ore('plateDoubleBeryllium') * 4)
+        .fluidInputs(fluid('tin_alloy') * 4608)
+        .outputs(metaitem('neutron_reflector'))
+        .duration(4000)
+        .EUt(120)
+        .buildAndRegister()
+
 crafting.shapedBuilder()
         .name(tjceu('rotor_holder.uhv'))
         .row('SLS')
@@ -437,7 +445,6 @@ crafting.addShaped(metaitem('component.capacitor') * 4, [
 
 // Capacitor * 8
 mods.gregtech.assembler.removeByInput(120, [metaitem('foilPlastic'), metaitem('foilAluminium') * 2], [fluid('plastic') * 144 * 144])
-
 
 ASSEMBLER.recipeBuilder()
         .inputs(ore('foilAluminium') * 4)
