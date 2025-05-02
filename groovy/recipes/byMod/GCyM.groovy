@@ -10,7 +10,7 @@ crafting.addShaped(metaitem('gcym:large_circuit_assembler'), [[item('gcym:large_
 // TODO: GCyM/GCyL Large Centrifuge rework
 crafting.removeByOutput(metaitem('gcyl:large_centrifuge'))
 crafting.addShaped(metaitem('gcyl:large_centrifuge'), [
-        [ore('circuitEv'), item('gregtech:fluid_pipe:3235'), ore('circuitEv')],
+        [ore('circuitEv'), ore('pipeLargeTungstenSteel'), ore('circuitEv')],
         [ore('gearTitanium'), item('gregtech:mte', 188), ore('gearTitanium')],
         [item('gregtech:meta_item_1:12981'), item('gregtech:meta_item_1:13981'), item('gregtech:meta_item_1:12981')]
 ])
