@@ -87,7 +87,7 @@ uselessProps = {
 
 basePath = os.path.normpath(os.path.abspath(__file__ + "/../../"))
 defaultQuests = basePath + "/config/betterquesting/DefaultQuests"
-lang = basePath + "/config/betterquesting/resources/tjceu/lang"
+lang = basePath + "/resources/tjceu/lang"
 
 def convertToLang(line: str) -> str:
     """replaces any \\n or other json escape sequences with the correct escape character, %"""
