@@ -27,8 +27,9 @@
     },
     "1:10": {
       "dimension:3": 406,
+      "hideInfo:1": 1,
       "index:3": 1,
-      "name:8": "TODO: unknown",
+      "name:8": "Visit Deimos",
       "taskID:8": "bq_standard:location",
       "visible:1": 1
     }
