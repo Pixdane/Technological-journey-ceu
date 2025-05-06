@@ -129,3 +129,12 @@ As you advance through the **Steam Age**, you’ll begin to craft more powerful 
 The endgame of **TJ** is centered around **Draconic Evolution**, a powerful mod that offers some of the most advanced machines, tools, and energy systems in the game. Reaching this stage is no small feat, as it requires mastering the full suite of GregTech, automation, and resource management systems. **Draconic Evolution** mod provides a fitting challenge for seasoned players, offering game-changing technology that pushes your capabilities to the limit.
 
 ##### New logo and readme created by <a href="https://github.com/ItsYaBoiSimonx/">simonx<a> 
+
+## Credited Works
+**[Original Project](https://github.com/Technological-Journey/Technological-journey)** by **Technological Journey Dev team**
+
+Dimensions Display Item Textures are from the **[GregTech: New Horizons Modpack](https://www.curseforge.com/minecraft/modpacks/gt-new-horizons)**.  
+
+`questbook.py` and InGameInfo XML configuration are from the **[Supersymmetry Modpack](https://github.com/SymmetricDevs/Supersymmetry)**.  
+
+Included BetterQuesting midnight theme pack are from the **[BQ Custom Theme: Midnight](https://www.curseforge.com/minecraft/customization/bq-custom-theme-midnight)**  
