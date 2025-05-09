@@ -52,185 +52,215 @@ furnace.removeByOutput(item('draconicevolution:draconium_ingot'))
     crafting.removeByOutput(it)
 }
 
-ASSLINE.recipeBuilder()
-        .inputs(ore('frameGtNeutronium'))
-        .inputs(ore('plateDraconium') * 10)
-        .inputs(ore('plateStarmetalAlloy') * 10)
-        .inputs(ore('plateMendelevium') * 10)
-        .inputs(metaitem('neutron_reflector') * 2)
-        .inputs(metaitem('field.generator.zpm'))
-        .inputs(metaitem('emitter.zpm'))
-        .inputs(metaitem('sensor.zpm'))
-        .inputs(ore('circuitUhv'))
-        .fluidInputs(fluid('soldering_alloy') * 576)
-        .outputs(item('draconicevolution:draconic_core') * 2)
-        .duration(1200)
-        .EUt(524288)
-        .buildAndRegister()
+ASSLINE.recipeBuilder().with {
+        inputs ore('frameGtNeutronium')
+        inputs ore('plateDraconium') * 10
+        inputs ore('plateStarmetalAlloy') * 10
+        inputs ore('plateMendelevium') * 10
+        inputs metaitem('neutron_reflector') * 2
+        inputs metaitem('field.generator.zpm')
+        inputs metaitem('emitter.zpm')
+        inputs metaitem('sensor.zpm')
+        inputs ore('circuitUhv')
+        fluidInputs fluid('soldering_alloy') * 576
+        outputs item('draconicevolution:draconic_core') * 2
+        duration 1200
+        EUt 524288
+        buildAndRegister()
 
-ASSLINE.recipeBuilder()
-        .inputs(ore('frameGtHdcs') * 10)
-        .inputs(ore('plateTantalumHafniumSeaborgiumCarbide') * 10)
-        .inputs(ore('plateDraconium') * 10)
-        .inputs(ore('plateProtoAdamantium') * 10)
-        .inputs(ore('plateTitanSteel') * 10)
-        .inputs(metaitem('field.generator.uv'))
-        .inputs(metaitem('emitter.uv'))
-        .inputs(metaitem('sensor.uv'))
-        .inputs(ore('circuitUev'))
-        .inputs(item('draconicevolution:draconic_core'))
-        .fluidInputs(fluid('soldering_alloy') * 576)
-        .outputs(item('draconicevolution:wyvern_core') * 2)
-        .duration(1200)
-        .EUt(2097152)
-        .buildAndRegister()
+}
 
-ASSLINE.recipeBuilder()
-        .inputs(ore('frameGtTriniumTitanium') * 10)
-        .inputs(ore('dustLegendarium') * 10)
-        .inputs(ore('plateAwakenDraconium') * 10)
-        .inputs(ore('plateSuperheavyLAlloy') * 10)
-        .inputs(ore('plateSuperheavyHAlloy') * 10)
-        .inputs(metaitem('field.generator.uiv'))
-        .inputs(metaitem('emitter.uiv'))
-        .inputs(metaitem('sensor.uiv'))
-        .inputs(ore('circuitUiv'))
-        .inputs(item('draconicevolution:wyvern_core'))
-        .fluidInputs(fluid('soldering_alloy') * 576)
-        .outputs(item('draconicevolution:awakened_core') * 2)
-        .duration(600)
-        .EUt(8388608)
-        .buildAndRegister()
+ASSLINE.recipeBuilder().with {
+        inputs ore('frameGtHdcs') * 10
+        inputs ore('plateTantalumHafniumSeaborgiumCarbide') * 10
+        inputs ore('plateDraconium') * 10
+        inputs ore('plateProtoAdamantium') * 10
+        inputs ore('plateTitanSteel') * 10
+        inputs metaitem('field.generator.uv')
+        inputs metaitem('emitter.uv')
+        inputs metaitem('sensor.uv')
+        inputs ore('circuitUev')
+        inputs item('draconicevolution:draconic_core')
+        fluidInputs fluid('soldering_alloy') * 576
+        outputs item('draconicevolution:wyvern_core') * 2
+        duration 1200
+        EUt 2097152
+        buildAndRegister()
 
-ASSLINE.recipeBuilder()
-        .inputs(ore('frameGtQuantum') * 10)
-        .inputs(ore('plateCinobite') * 10)
-        .inputs(ore('plateAwakenDraconium') * 10)
-        .inputs(ore('plateChaos') * 10)
-        .inputs(metaitem('field.generator.uxv'))
-        .inputs(metaitem('emitter.uxv'))
-        .inputs(metaitem('sensor.uxv'))
-        .inputs(ore('circuitUxv'))
-        .inputs(metaitem('tjceu:crystal.refined_chaos'))
-        .inputs(item('draconicevolution:awakened_core'))
-        .fluidInputs(fluid('soldering_alloy') * 576)
-        .outputs(item('draconicevolution:chaotic_core') * 2)
-        .duration(600)
-        .EUt(33554432)
-        .buildAndRegister()
+}
 
+ASSLINE.recipeBuilder().with {
+        inputs ore('frameGtTriniumTitanium') * 10
+        inputs ore('dustLegendarium') * 10
+        inputs ore('plateAwakenDraconium') * 10
+        inputs ore('plateSuperheavyLAlloy') * 10
+        inputs ore('plateSuperheavyHAlloy') * 10
+        inputs metaitem('field.generator.uiv')
+        inputs metaitem('emitter.uiv')
+        inputs metaitem('sensor.uiv')
+        inputs ore('circuitUiv')
+        inputs item('draconicevolution:wyvern_core')
+        fluidInputs fluid('soldering_alloy') * 576
+        outputs item('draconicevolution:awakened_core') * 2
+        duration 600
+        EUt 8388608
+        buildAndRegister()
 
-CHEMICAL_BATH.recipeBuilder()
-        .inputs(item('draconicevolution:chaos_shard'))
-        .fluidInputs(fluid('rutherfordium') * 1000)
-        .outputs(metaitem('tjceu:crystal.refined_chaos') * 2)
-        .duration(600)
-        .EUt(8388608)
-        .buildAndRegister()
+}
 
-CHEMICAL_BATH.recipeBuilder()
-        .inputs(metaitem('tjceu:shard.refined_chaos') * 9)
-        .fluidInputs(fluid('rutherfordium') * 500)
-        .outputs(metaitem('tjceu:crystal.refined_chaos'))
-        .duration(600)
-        .EUt(131072)
-        .buildAndRegister()
+ASSLINE.recipeBuilder().with {
+        inputs ore('frameGtQuantum') * 10
+        inputs ore('plateCinobite') * 10
+        inputs ore('plateAwakenDraconium') * 10
+        inputs ore('plateChaos') * 10
+        inputs metaitem('field.generator.uxv')
+        inputs metaitem('emitter.uxv')
+        inputs metaitem('sensor.uxv')
+        inputs ore('circuitUxv')
+        inputs metaitem('tjceu:crystal.refined_chaos')
+        inputs item('draconicevolution:awakened_core')
+        fluidInputs fluid('soldering_alloy') * 576
+        outputs item('draconicevolution:chaotic_core') * 2
+        duration 600
+        EUt 33554432
+        buildAndRegister()
 
-STELLAR_FORGE.recipeBuilder()
-        .inputs(item('draconicevolution:awakened_core') * 3)
-        .inputs(metaitem('tjceu:crystal.refined_chaos'))
-        .inputs(ore('blockAwakenDraconium') * 2)
-        .fluidOutputs(fluid('raw_chaos') * 2592)
-        .duration(600)
-        .EUt(8388608)
-        .buildAndRegister()
-
-STELLAR_FORGE.recipeBuilder()
-        .inputs(item('draconicevolution:awakened_core'))
-        .inputs(item('draconicadditions:chaos_heart'))
-        .inputs(ore('blockAwakenDraconium') * 4)
-        .fluidOutputs(fluid('raw_chaos') * 5184)
-        .outputs(item('draconicevolution:dragon_heart'))
-        .duration(600)
-        .EUt(8388608)
-        .buildAndRegister()
+}
 
 
-ADV_FUSION.recipeBuilder()
-        .fluidInputs(fluid('raw_chaos') * 288, fluid('bohrium') * 288)
-        .fluidOutputs(fluid('plasma.chaos') * 576)
-        .EUToStart(2000000000)
-        .AdvCoilTier(5)
-        .EUReturn(75)
-        .duration(50)
-        .EUt(16000000)
-        .buildAndRegister()
+CHEMICAL_BATH.recipeBuilder().with {
+        inputs item('draconicevolution:chaos_shard')
+        fluidInputs fluid('rutherfordium') * 1000
+        outputs metaitem('tjceu:crystal.refined_chaos') * 2
+        duration 600
+        EUt 8388608
+        buildAndRegister()
+
+}
+
+CHEMICAL_BATH.recipeBuilder().with {
+        inputs metaitem('tjceu:shard.refined_chaos') * 9
+        fluidInputs fluid('rutherfordium') * 500
+        outputs metaitem('tjceu:crystal.refined_chaos')
+        duration 600
+        EUt 131072
+        buildAndRegister()
+
+}
+
+STELLAR_FORGE.recipeBuilder().with {
+        inputs item('draconicevolution:awakened_core') * 3
+        inputs metaitem('tjceu:crystal.refined_chaos')
+        inputs ore('blockAwakenDraconium') * 2
+        fluidOutputs fluid('raw_chaos') * 2592
+        duration 600
+        EUt 8388608
+        buildAndRegister()
+
+}
+
+STELLAR_FORGE.recipeBuilder().with {
+        inputs item('draconicevolution:awakened_core')
+        inputs item('draconicadditions:chaos_heart')
+        inputs ore('blockAwakenDraconium') * 4
+        fluidOutputs fluid('raw_chaos') * 5184
+        outputs item('draconicevolution:dragon_heart')
+        duration 600
+        EUt 8388608
+        buildAndRegister()
+
+}
+
+
+ADV_FUSION.recipeBuilder().with {
+        fluidInputs fluid('raw_chaos') * 288, fluid('bohrium') * 288
+        fluidOutputs fluid('plasma.chaos') * 576
+        EUToStart 2000000000
+        AdvCoilTier 5
+        EUReturn 75
+        duration 50
+        EUt 16000000
+        buildAndRegister()
+
+}
 
 crafting.addShapeless(tjceu('shard.refined_chaos'), metaitem('tjceu:shard.refined_chaos') * 9, [metaitem('tjceu:crystal.refined_chaos')])
 
-BIO_REACTOR.recipeBuilder()
-        .inputs(metaitem('stem_cells') * 10)
-        .inputs(item('draconicevolution:dragon_heart') * 2)
-        .fluidInputs(fluid('sterilized_growth_medium') * 2000)
-        .fluidOutputs(fluid('draconic_stem_cell_fluid') * 2000)
-        .duration(600)
-        .EUt(2097152)
-        .buildAndRegister()
+BIO_REACTOR.recipeBuilder().with {
+        inputs metaitem('stem_cells') * 10
+        inputs item('draconicevolution:dragon_heart') * 2
+        fluidInputs fluid('sterilized_growth_medium') * 2000
+        fluidOutputs fluid('draconic_stem_cell_fluid') * 2000
+        duration 600
+        EUt 2097152
+        buildAndRegister()
 
-STELLAR_FORGE.recipeBuilder()
-        .inputs(item('draconicevolution:wyvern_core') * 2)
-        .inputs(ore('blockDraconium') * 3)
-        .fluidInputs(fluid('draconic_stem_cell_fluid') * 2000)
-        .fluidOutputs(fluid('depleted_growth_medium') * 2000)
-        .fluidOutputs(fluid('plasma.awaken_draconium') * 3888)
-        .duration(100)
-        .EUt(8388608)
-        .buildAndRegister()
+}
 
-ASSLINE.recipeBuilder()
-        .inputs(item('draconicevolution:wyvern_energy_core') * 4)
-        .inputs(item('draconicevolution:wyvern_core'))
-        .inputs(ore('gemDiamond'))
-        .inputs(item('draconicevolution:energy_crystal', 1) * 4)
-        .fluidInputs(fluid('mendelevium') * 144)
-        .outputs(item('draconicevolution:energy_crystal', 2) * 4)
-        .duration(300)
-        .EUt(2097152)
-        .buildAndRegister()
+STELLAR_FORGE.recipeBuilder().with {
+        inputs item('draconicevolution:wyvern_core') * 2
+        inputs ore('blockDraconium') * 3
+        fluidInputs fluid('draconic_stem_cell_fluid') * 2000
+        fluidOutputs fluid('depleted_growth_medium') * 2000
+        fluidOutputs fluid('plasma.awaken_draconium') * 3888
+        duration 100
+        EUt 8388608
+        buildAndRegister()
 
-ASSLINE.recipeBuilder()
-        .inputs(ore('enderpearl') * 3)
-        .inputs(ore('pearlEnderEye') * 7)
-        .inputs(item('draconicevolution:dislocator'))
-        .inputs(metaitem('quantumeye'))
-        .fluidInputs(fluid('draconium') * 576)
-        .outputs(item('draconicevolution:dislocator_advanced'))
-        .duration(200)
-        .EUt(32768)
-        .buildAndRegister()
+}
 
-ASSLINE.recipeBuilder()
-        .inputs(ore('pearlEnderEye') * 7)
-        .inputs(item('draconicevolution:wyvern_core'))
-        .inputs(item('draconicevolution:draconic_core') * 2)
-        .inputs(item('draconicevolution:dislocator'))
-        .inputs(item('draconicadditions:chaotic_energy_core'))
-        .inputs(ore('itemSkull'))
-        .fluidInputs(fluid('blaze') * 2304)
-        .outputs(item('draconicevolution:ender_energy_manipulator'))
-        .duration(200)
-        .EUt(2097152)
-        .buildAndRegister()
+ASSLINE.recipeBuilder().with {
+        inputs item('draconicevolution:wyvern_energy_core') * 4
+        inputs item('draconicevolution:wyvern_core')
+        inputs ore('gemDiamond')
+        inputs item('draconicevolution:energy_crystal', 1) * 4
+        fluidInputs fluid('mendelevium') * 144
+        outputs item('draconicevolution:energy_crystal', 2) * 4
+        duration 300
+        EUt 2097152
+        buildAndRegister()
 
-ASSLINE.recipeBuilder()
-        .inputs(item('draconicevolution:magnet'))
-        .inputs(item('draconicevolution:dislocator_advanced'))
-        .inputs(ore('plateAwakenDraconium') * 4)
-        .inputs(ore('dustNeodymiumMagnetic') * 2)
-        .outputs(item('draconicevolution:magnet', 1))
-        .duration(200)
-        .EUt(2097152)
-        .buildAndRegister()
+}
+
+ASSLINE.recipeBuilder().with {
+        inputs ore('enderpearl') * 3
+        inputs ore('pearlEnderEye') * 7
+        inputs item('draconicevolution:dislocator')
+        inputs metaitem('quantumeye')
+        fluidInputs fluid('draconium') * 576
+        outputs item('draconicevolution:dislocator_advanced')
+        duration 200
+        EUt 32768
+        buildAndRegister()
+
+}
+
+ASSLINE.recipeBuilder().with {
+        inputs ore('pearlEnderEye') * 7
+        inputs item('draconicevolution:wyvern_core')
+        inputs item('draconicevolution:draconic_core') * 2
+        inputs item('draconicevolution:dislocator')
+        inputs item('draconicadditions:chaotic_energy_core')
+        inputs ore('itemSkull')
+        fluidInputs fluid('blaze') * 2304
+        outputs item('draconicevolution:ender_energy_manipulator')
+        duration 200
+        EUt 2097152
+        buildAndRegister()
+
+}
+
+ASSLINE.recipeBuilder().with {
+        inputs item('draconicevolution:magnet')
+        inputs item('draconicevolution:dislocator_advanced')
+        inputs ore('plateAwakenDraconium') * 4
+        inputs ore('dustNeodymiumMagnetic') * 2
+        outputs item('draconicevolution:magnet', 1)
+        duration 200
+        EUt 2097152
+        buildAndRegister()
+
+}
 
 crafting.shapedBuilder()
         .name(tjceu('celestial_manipulator'))
@@ -257,14 +287,16 @@ crafting.shapedBuilder()
         .output(item('tjceu:multiblock_casing', 2) * 2)
         .register()
 
-ASSEMBLER.recipeBuilder()
-        .inputs(ore('frameGtChaos'))
-        .inputs(ore('plateEnrichedNaquadahAlloy') * 6)
-        .circuitMeta(6)
-        .outputs(item('tjceu:multiblock_casing', 2) * 2)
-        .EUt(16)
-        .duration(50)
-        .buildAndRegister()
+ASSEMBLER.recipeBuilder().with {
+        inputs ore('frameGtChaos')
+        inputs ore('plateEnrichedNaquadahAlloy') * 6
+        circuitMeta 6
+        outputs item('tjceu:multiblock_casing', 2) * 2
+        EUt 16
+        duration 50
+        buildAndRegister()
+
+}
 
 crafting.shapedBuilder()
         .name(tjceu('awakened_draconium_casing'))
@@ -278,14 +310,16 @@ crafting.shapedBuilder()
         .output(item('tjceu:multiblock_casing', 1) * 2)
         .register()
 
-ASSEMBLER.recipeBuilder()
-        .inputs(ore('frameGtAwakenDraconium'))
-        .inputs(ore('plateTitaniumTungstenCarbide') * 6)
-        .circuitMeta(6)
-        .outputs(item('tjceu:multiblock_casing', 1) * 2)
-        .EUt(16)
-        .duration(50)
-        .buildAndRegister()
+ASSEMBLER.recipeBuilder().with {
+        inputs ore('frameGtAwakenDraconium')
+        inputs ore('plateTitaniumTungstenCarbide') * 6
+        circuitMeta 6
+        outputs item('tjceu:multiblock_casing', 1) * 2
+        EUt 16
+        duration 50
+        buildAndRegister()
+
+}
 
 crafting.shapedBuilder()
         .name(tjceu('draconic_casing'))
@@ -299,79 +333,93 @@ crafting.shapedBuilder()
         .output(item('tjceu:multiblock_casing') * 2)
         .register()
 
-ASSEMBLER.recipeBuilder()
-        .inputs(ore('frameGtDraconium'))
-        .inputs(ore('plateDraconium') * 6)
-        .circuitMeta(6)
-        .outputs(item('tjceu:multiblock_casing') * 2)
-        .EUt(16)
-        .duration(50)
-        .buildAndRegister()
+ASSEMBLER.recipeBuilder().with {
+        inputs ore('frameGtDraconium')
+        inputs ore('plateDraconium') * 6
+        circuitMeta 6
+        outputs item('tjceu:multiblock_casing') * 2
+        EUt 16
+        duration 50
+        buildAndRegister()
 
-ASSLINE.recipeBuilder()
-        .inputs(ore('plateDoubleDraconium') * 10)
-        .inputs(ore('plateStarmetalAlloy') * 10)
-        .inputs(metaitem('neutron_reflector'))
-        .inputs(metaitem('emitter.uv'))
-        .fluidInputs(fluid('soldering_alloy') * 576)
-        .outputs(item('draconicevolution:crafting_injector', 3))
-        .duration(200)
-        .EUt(524288)
-        .buildAndRegister()
+}
+
+ASSLINE.recipeBuilder().with {
+        inputs ore('plateDoubleDraconium') * 10
+        inputs ore('plateStarmetalAlloy') * 10
+        inputs metaitem('neutron_reflector')
+        inputs metaitem('emitter.uv')
+        fluidInputs fluid('soldering_alloy') * 576
+        outputs item('draconicevolution:crafting_injector', 3)
+        duration 200
+        EUt 524288
+        buildAndRegister()
+
+}
 
 // Energy cores
-ASSLINE.recipeBuilder()
-        .inputs(item('draconicevolution:wyvern_core') * 4)
-        .inputs(ore('plateDraconium') * 10)
-        .inputs(ore('cableGtSingleDraconium') * 10)
-        .inputs(metaitem('quantumstar'))
-        .fluidInputs(fluid('redstone') * 1440)
-        .outputs(item('draconicevolution:wyvern_energy_core'))
-        .duration(400)
-        .EUt(31457280)
-        .buildAndRegister()
+ASSLINE.recipeBuilder().with {
+        inputs item('draconicevolution:wyvern_core') * 4
+        inputs ore('plateDraconium') * 10
+        inputs ore('cableGtSingleDraconium') * 10
+        inputs metaitem('quantumstar')
+        fluidInputs fluid('redstone') * 1440
+        outputs item('draconicevolution:wyvern_energy_core')
+        duration 400
+        EUt 31457280
+        buildAndRegister()
 
-ASSLINE.recipeBuilder()
-        .inputs(item('draconicevolution:awakened_core') * 4)
-        .inputs(ore('plateAwakenDraconium') * 10)
-        .inputs(ore('cableGtSingleAwakenDraconium') * 10)
-        .inputs(metaitem('gravistar'))
-        .fluidInputs(fluid('redstone') * 1440)
-        .outputs(item('draconicevolution:draconic_energy_core'))
-        .duration(400)
-        .EUt(31457280)
-        .buildAndRegister()
+}
 
-ASSLINE.recipeBuilder()
-        .inputs(item('draconicevolution:chaotic_core') * 4)
-        .inputs(ore('plateChaos') * 10)
-        .inputs(ore('cableGtSingleChaos') * 10)
-        .inputs(metaitem('gcyl:unstable.star'))
-        .fluidInputs(fluid('redstone') * 1440)
-        .outputs(item('draconicadditions:chaotic_energy_core'))
-        .duration(100)
-        .EUt(2013265920)
-        .buildAndRegister()
+ASSLINE.recipeBuilder().with {
+        inputs item('draconicevolution:awakened_core') * 4
+        inputs ore('plateAwakenDraconium') * 10
+        inputs ore('cableGtSingleAwakenDraconium') * 10
+        inputs metaitem('gravistar')
+        fluidInputs fluid('redstone') * 1440
+        outputs item('draconicevolution:draconic_energy_core')
+        duration 400
+        EUt 31457280
+        buildAndRegister()
+
+}
+
+ASSLINE.recipeBuilder().with {
+        inputs item('draconicevolution:chaotic_core') * 4
+        inputs ore('plateChaos') * 10
+        inputs ore('cableGtSingleChaos') * 10
+        inputs metaitem('gcyl:unstable.star')
+        fluidInputs fluid('redstone') * 1440
+        outputs item('draconicadditions:chaotic_energy_core')
+        duration 100
+        EUt 2013265920
+        buildAndRegister()
+
+}
 
 
-STELLAR_FORGE.recipeBuilder()
-        .inputs(ore('ingotCosmicNeutronium'))
-        .inputs(metaitem('gcyl:cosmic.mesh'))
-        .inputs(item('gcyl:gcyl_explosive', 3))
-        .fluidInputs(fluid('chaos') * 1008)
-        .fluidOutputs(fluid('plasma.chaosalloy') * 2592)
-        .duration(20)
-        .EUt(31457280)
-        .buildAndRegister()
+STELLAR_FORGE.recipeBuilder().with {
+        inputs ore('ingotCosmicNeutronium')
+        inputs metaitem('gcyl:cosmic.mesh')
+        inputs item('gcyl:gcyl_explosive', 3)
+        fluidInputs fluid('chaos') * 1008
+        fluidOutputs fluid('plasma.chaosalloy') * 2592
+        duration 20
+        EUt 31457280
+        buildAndRegister()
 
-ASSLINE.recipeBuilder()
-        .inputs(item('draconicevolution:chaotic_core') * 4)
-        .inputs(item('draconicadditions:chaotic_energy_core') * 4)
-        .inputs(ore('plateQuantum') * 64)
-        .inputs(ore('plateZylon') * 64)
-        .inputs(item('thermalfoundation:upgrade'))
-        .inputs(item('thermalfoundation:upgrade', 1))
-        .inputs(item('draconicevolution:draconium_capacitor', 1))
+}
+
+ASSLINE.recipeBuilder().with {
+        inputs item('draconicevolution:chaotic_core') * 4
+        inputs item('draconicadditions:chaotic_energy_core') * 4
+        inputs ore('plateQuantum') * 64
+        inputs ore('plateZylon') * 64
+        inputs item('thermalfoundation:upgrade')
+        inputs item('thermalfoundation:upgrade', 1)
+        inputs item('draconicevolution:draconium_capacitor', 1)
+
+}
 //        .inputs(item('gtadditions:ga_cell_casing', 11)) TODO: MAX tier capacitor?
         .inputs(metaitem('gcyl:emitter.max') * 2)
         .fluidInputs(fluid('soldering_alloy') * 1440)

@@ -28,43 +28,50 @@ def plants = [
 
 // TODO: more fertilizers?
 plants.forEach {
-    GARDEING_GREENHOUSE.recipeBuilder()
-            .notConsumable(it)
-            .circuitMeta(1)
-            .inputs(item('minecraft:dye', 15))
-            .fluidInputs(fluid('water') * 2000)
-            .outputs(it)
-            .duration(160)
-            .EUt(14)
-            .buildAndRegister()
+    GARDEING_GREENHOUSE.recipeBuilder().with {
+            notConsumable it
+            circuitMeta 1
+            inputs item('minecraft:dye', 15)
+            fluidInputs fluid('water') * 2000
+            outputs it
+            duration 160
+            EUt 14
+            buildAndRegister()
 
-    GARDEING_GREENHOUSE.recipeBuilder()
-            .notConsumable(it)
-            .circuitMeta(2)
-            .inputs(ore('dustOrganicFertilizer'))
-            .fluidInputs(fluid('water') * 2000)
-            .outputs(it * 2)
-            .duration(160)
-            .EUt(14)
-            .buildAndRegister()
 }
 
-GARDEING_GREENHOUSE.recipeBuilder()
-        .circuitMeta(3)
-        .inputs(item('minecraft:brown_mushroom'))
-        .inputs(ore('dustGlowstone'))
-        .fluidInputs(fluid('water') * 2000)
-        .outputs(item('randomthings:glowingmushroom'))
-        .duration(160)
-        .EUt(14)
-        .buildAndRegister()
+    GARDEING_GREENHOUSE.recipeBuilder().with {
+            notConsumable it
+            circuitMeta 2
+            inputs ore('dustOrganicFertilizer')
+            fluidInputs fluid('water') * 2000
+            outputs it * 2
+            duration 160
+            EUt 14
+            buildAndRegister()
 
-GARDEING_GREENHOUSE.recipeBuilder()
-        .circuitMeta(3)
-        .inputs(item('minecraft:red_mushroom'))
-        .inputs(ore('dustGlowstone'))
-        .fluidInputs(fluid('water') * 2000)
-        .outputs(item('randomthings:glowingmushroom'))
-        .duration(160)
-        .EUt(14)
-        .buildAndRegister()
+}
+}
+
+GARDEING_GREENHOUSE.recipeBuilder().with {
+        circuitMeta 3
+        inputs item('minecraft:brown_mushroom')
+        inputs ore('dustGlowstone')
+        fluidInputs fluid('water') * 2000
+        outputs item('randomthings:glowingmushroom')
+        duration 160
+        EUt 14
+        buildAndRegister()
+
+}
+
+GARDEING_GREENHOUSE.recipeBuilder().with {
+        circuitMeta 3
+        inputs item('minecraft:red_mushroom')
+        inputs ore('dustGlowstone')
+        fluidInputs fluid('water') * 2000
+        outputs item('randomthings:glowingmushroom')
+        duration 160
+        EUt 14
+        buildAndRegister()
+}

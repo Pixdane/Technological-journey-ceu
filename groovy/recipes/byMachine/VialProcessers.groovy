@@ -25,50 +25,64 @@ def mobs = [
         'minecraft:cow'
 ]
 
-VIAL_PROCESSOR.recipeBuilder()
-        .inputs(vial('minecraft:enderman'))
-        .outputs(item('enderio:block_enderman_skull') * 10, item('minecraft:ender_pearl') * 10, vial(''), item('actuallyadditions:item_solidified_experience') * 6)
-        .EUt(16)
-        .duration(3)
-        .buildAndRegister()
+VIAL_PROCESSOR.recipeBuilder().with {
+        inputs vial('minecraft:enderman')
+        outputs item('enderio:block_enderman_skull') * 10, item('minecraft:ender_pearl') * 10, vial(''), item('actuallyadditions:item_solidified_experience') * 6
+        EUt 16
+        duration 3
+        buildAndRegister()
 
-VIAL_PROCESSOR.recipeBuilder()
-        .inputs(vial('minecraft:blaze'))
-        .outputs(item('minecraft:blaze_rod') * 10, vial(''), item('actuallyadditions:item_solidified_experience') * 4)
-        .EUt(16)
-        .duration(3)
-        .buildAndRegister()
+}
 
-VIAL_PROCESSOR.recipeBuilder()
-        .inputs(vial('minecraft:zombie'))
-        .outputs(item('minecraft:skull', 2) * 9, vial(''), item('minecraft:rotten_flesh') * 9, item('actuallyadditions:item_solidified_experience') * 2)
-        .EUt(16)
-        .duration(3)
-        .buildAndRegister()
+VIAL_PROCESSOR.recipeBuilder().with {
+        inputs vial('minecraft:blaze')
+        outputs item('minecraft:blaze_rod') * 10, vial(''), item('actuallyadditions:item_solidified_experience') * 4
+        EUt 16
+        duration 3
+        buildAndRegister()
 
-VIAL_PROCESSOR.recipeBuilder()
-        .inputs(vial('minecraft:skeleton'))
-        .outputs(item('minecraft:bone') * 8, vial(''), item('actuallyadditions:item_solidified_experience') * 2)
-        .EUt(16)
-        .duration(3)
-        .buildAndRegister()
+}
 
-VIAL_PROCESSOR.recipeBuilder()
-        .inputs(vial('minecraft:pig'))
-        .outputs(item('minecraft:porkchop') * 64, vial(''), item('actuallyadditions:item_solidified_experience') * 1)
-        .EUt(16)
-        .duration(3)
-        .buildAndRegister()
+VIAL_PROCESSOR.recipeBuilder().with {
+        inputs vial('minecraft:zombie')
+        outputs item('minecraft:skull', 2) * 9, vial(''), item('minecraft:rotten_flesh') * 9, item('actuallyadditions:item_solidified_experience') * 2
+        EUt 16
+        duration 3
+        buildAndRegister()
 
-VIAL_PROCESSOR.recipeBuilder()
-        .inputs(vial('minecraft:chicken'))
-        .outputs(item('minecraft:egg') * 64, item('minecraft:feather') * 26, vial(''), item('actuallyadditions:item_solidified_experience') * 1)
-        .EUt(16)
-        .duration(3)
-        .buildAndRegister()
+}
 
-LVP.recipeBuilder()
-        .inputs(vial('minecraft:enderman'))
+VIAL_PROCESSOR.recipeBuilder().with {
+        inputs vial('minecraft:skeleton')
+        outputs item('minecraft:bone') * 8, vial(''), item('actuallyadditions:item_solidified_experience') * 2
+        EUt 16
+        duration 3
+        buildAndRegister()
+
+}
+
+VIAL_PROCESSOR.recipeBuilder().with {
+        inputs vial('minecraft:pig')
+        outputs item('minecraft:porkchop') * 64, vial(''), item('actuallyadditions:item_solidified_experience') * 1
+        EUt 16
+        duration 3
+        buildAndRegister()
+
+}
+
+VIAL_PROCESSOR.recipeBuilder().with {
+        inputs vial('minecraft:chicken')
+        outputs item('minecraft:egg') * 64, item('minecraft:feather') * 26, vial(''), item('actuallyadditions:item_solidified_experience') * 1
+        EUt 16
+        duration 3
+        buildAndRegister()
+
+}
+
+LVP.recipeBuilder().with {
+        inputs vial('minecraft:enderman')
+
+}
         .outputs(
                 vial('') * 16,
                 item('enderio:block_enderman_skull') * 192,
@@ -79,8 +93,10 @@ LVP.recipeBuilder()
         .EUt(30720)
         .buildAndRegister()
 
-LVP.recipeBuilder()
-        .inputs(vial('minecraft:zombie'))
+LVP.recipeBuilder().with {
+        inputs vial('minecraft:zombie')
+
+}
         .outputs(
                 vial('') * 16,
                 item('minecraft:skull', 2) * 184,
@@ -94,8 +110,10 @@ LVP.recipeBuilder()
         .EUt(30720)
         .buildAndRegister()
 
-LVP.recipeBuilder()
-        .inputs(vial('minecraft:skeleton'))
+LVP.recipeBuilder().with {
+        inputs vial('minecraft:skeleton')
+
+}
         .outputs(
                 vial('') * 16,
                 item('minecraft:skull') * 24,
@@ -106,8 +124,10 @@ LVP.recipeBuilder()
         .EUt(30720)
         .buildAndRegister()
 
-LVP.recipeBuilder()
-        .inputs(vial('minecraft:blaze'))
+LVP.recipeBuilder().with {
+        inputs vial('minecraft:blaze')
+
+}
         .outputs(
                 vial('') * 16,
                 item('minecraft:blaze_rod') * 160,
@@ -118,8 +138,10 @@ LVP.recipeBuilder()
         .EUt(30720)
         .buildAndRegister()
 
-LVP.recipeBuilder()
-        .inputs(vial('minecraft:ghast'))
+LVP.recipeBuilder().with {
+        inputs vial('minecraft:ghast')
+
+}
         .outputs(
                 vial('') * 16,
                 item('minecraft:ghast_tear') * 112,
@@ -130,8 +152,10 @@ LVP.recipeBuilder()
         .EUt(30720)
         .buildAndRegister()
 
-LVP.recipeBuilder()
-        .inputs(vial('minecraft:spider'))
+LVP.recipeBuilder().with {
+        inputs vial('minecraft:spider')
+
+}
         .outputs(
                 vial('') * 16,
                 item('minecraft:string') * 160,
@@ -143,8 +167,10 @@ LVP.recipeBuilder()
         .EUt(30720)
         .buildAndRegister()
 
-LVP.recipeBuilder()
-        .inputs(vial('minecraft:slime'))
+LVP.recipeBuilder().with {
+        inputs vial('minecraft:slime')
+
+}
         .outputs(
                 vial('') * 16,
                 item('minecraft:slime_ball') * 128,
@@ -155,8 +181,10 @@ LVP.recipeBuilder()
         .EUt(30720)
         .buildAndRegister()
 
-LVP.recipeBuilder()
-        .inputs(vial('minecraft:creeper'))
+LVP.recipeBuilder().with {
+        inputs vial('minecraft:creeper')
+
+}
         .outputs(
                 vial('') * 16,
                 item('minecraft:skull', 4) * 24,
@@ -170,8 +198,10 @@ LVP.recipeBuilder()
         .EUt(30720)
         .buildAndRegister()
 
-LVP.recipeBuilder()
-        .inputs(vial('minecraft:megma_cube'))
+LVP.recipeBuilder().with {
+        inputs vial('minecraft:megma_cube')
+
+}
         .outputs(
                 vial('') * 16,
                 item('minecraft:magma_cream') * 80,
@@ -182,8 +212,10 @@ LVP.recipeBuilder()
         .EUt(30720)
         .buildAndRegister()
 
-LVP.recipeBuilder()
-        .inputs(vial('minecraft:witch'))
+LVP.recipeBuilder().with {
+        inputs vial('minecraft:witch')
+
+}
         .outputs(
                 vial('') * 16,
                 item('minecraft:sugar') * 96,
@@ -199,8 +231,10 @@ LVP.recipeBuilder()
         .EUt(30720)
         .buildAndRegister()
 
-LVP.recipeBuilder()
-        .inputs(vial('minecraft:wither_skeleton'))
+LVP.recipeBuilder().with {
+        inputs vial('minecraft:wither_skeleton')
+
+}
         .outputs(
                 vial('') * 16,
                 item('minecraft:skull', 1) * 12,
@@ -212,8 +246,10 @@ LVP.recipeBuilder()
         .EUt(30720)
         .buildAndRegister()
 
-LVP.recipeBuilder()
-        .inputs(vial('minecraft:snowman'))
+LVP.recipeBuilder().with {
+        inputs vial('minecraft:snowman')
+
+}
         .outputs(
                 vial('') * 16,
                 item('minecraft:snowball') * 80,
@@ -226,8 +262,10 @@ LVP.recipeBuilder()
         .EUt(30720)
         .buildAndRegister()
 
-LVP.recipeBuilder()
-        .inputs(vial('minecraft:sheep'))
+LVP.recipeBuilder().with {
+        inputs vial('minecraft:sheep')
+
+}
         .outputs(
                 vial('') * 16,
                 item('minecraft:wool') * 128,
@@ -239,8 +277,10 @@ LVP.recipeBuilder()
         .EUt(30720)
         .buildAndRegister()
 
-LVP.recipeBuilder()
-        .inputs(vial('minecraft:pig'))
+LVP.recipeBuilder().with {
+        inputs vial('minecraft:pig')
+
+}
         .outputs(
                 vial('') * 16,
                 item('minecraft:porkchop') * 1024,
@@ -250,8 +290,10 @@ LVP.recipeBuilder()
         .EUt(30720)
         .buildAndRegister()
 
-LVP.recipeBuilder()
-        .inputs(vial('minecraft:chicken'))
+LVP.recipeBuilder().with {
+        inputs vial('minecraft:chicken')
+
+}
         .outputs(
                 vial('') * 16,
                 item('minecraft:egg') * 960,
@@ -261,8 +303,10 @@ LVP.recipeBuilder()
         .duration(20)
         .EUt(30720)
         .buildAndRegister()
-LVP.recipeBuilder()
-        .inputs(vial('minecraft:cow'))
+LVP.recipeBuilder().with {
+        inputs vial('minecraft:cow')
+
+}
         .outputs(
                 vial('') * 16,
                 item('minecraft:beef') * 512,
@@ -275,12 +319,14 @@ LVP.recipeBuilder()
         .buildAndRegister()
 
 mobs.eachWithIndex { mob, i ->
-    LPS.recipeBuilder()
-            .inputs(vial('') * 16)
-            .fluidInputs(fluid('xpjuice') * 16000)
-            .circuitMeta(i)
-            .outputs(vial(mob) * 16)
-            .duration(20)
-            .EUt(30720)
-            .buildAndRegister()
+    LPS.recipeBuilder().with {
+            inputs vial('') * 16
+            fluidInputs fluid('xpjuice') * 16000
+            circuitMeta i
+            outputs vial(mob) * 16
+            duration 20
+            EUt 30720
+            buildAndRegister()
+
+}
 }

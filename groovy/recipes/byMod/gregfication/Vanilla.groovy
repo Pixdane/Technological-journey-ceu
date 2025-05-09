@@ -29,14 +29,16 @@ crafting.addShaped(item('minecraft:end_rod'), [
 // End Crystal
 mods.gregtech.assembler.removeByInput(16, [item('minecraft:ghast_tear'), item('minecraft:ender_eye')], [fluid('glass') * 1008 * 1008])
 
-ASSEMBLER.recipeBuilder()
-        .fluidInputs(fluid('woods_glass') * 144)
-        .inputs(metaitem('quantumstar') * 1, metaitem('gcyl:erbium_doped_zblan') * 4, metaitem('gcyl:degenerate.rhenium.plate') * 1)
-        .notConsumable(metaitem('gcyl:microfocus.xray.tube'))
-        .outputs(item('minecraft:end_crystal'))
-        .duration(40)
-        .EUt(122880)
-        .buildAndRegister()
+ASSEMBLER.recipeBuilder().with {
+        fluidInputs fluid('woods_glass') * 144
+        inputs metaitem('quantumstar') * 1, metaitem('gcyl:erbium_doped_zblan') * 4, metaitem('gcyl:degenerate.rhenium.plate') * 1
+        notConsumable metaitem('gcyl:microfocus.xray.tube')
+        outputs item('minecraft:end_crystal')
+        duration 40
+        EUt 122880
+        buildAndRegister()
+
+}
 
 crafting.addShaped(item('minecraft:dye', 2),
         [
@@ -48,23 +50,27 @@ crafting.addShaped(item('minecraft:dye', 2),
 // Blaze Rod * 1
 mods.gregtech.compressor.removeByInput(2, [item('minecraft:blaze_powder') * 4 * 4], null)
 
-IMPLOSION_COMPRESSOR.recipeBuilder()
-        .inputs(ore('dustBlaze') * 15)
-        .outputs(item('minecraft:blaze_rod') * 3)
-        .explosives(10)
-        .duration(20)
-        .EUt(30)
-        .buildAndRegister()
+IMPLOSION_COMPRESSOR.recipeBuilder().with {
+        inputs ore('dustBlaze') * 15
+        outputs item('minecraft:blaze_rod') * 3
+        explosives 10
+        duration 20
+        EUt 30
+        buildAndRegister()
+
+}
 
 //concrete recipes
 for (int i = 0; i < 15; i++) {
-    MIXER.recipeBuilder()
-            .inputs(item("minecraft:concrete_powder", i) * 64)
-            .fluidInputs(fluid('water') * 64000)
-            .outputs(item("minecraft:concrete", i) * 64)
-            .duration(100)
-            .EUt(16)
-            .buildAndRegister()
+    MIXER.recipeBuilder().with {
+            inputs item("minecraft:concrete_powder", i) * 64
+            fluidInputs fluid('water') * 64000
+            outputs item("minecraft:concrete", i) * 64
+            duration 100
+            EUt 16
+            buildAndRegister()
+
+}
 }
 
 crafting.addShaped("clay1", item('minecraft:clay') * 8,

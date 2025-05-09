@@ -9,96 +9,119 @@ COMPRESSOR = recipemap('compressor')
 
 mods.gregtech.pyrolyse_oven.removeByInput(10, [metaitem('bio_chaff'), metaitem('circuit.integrated').withNbt(['Configuration': 2])], [fluid('water') * 1500])
 
-PYROLYSE_OVEN.recipeBuilder()
-        .inputs(metaitem('plant_ball') * 5)
-        .fluidInputs(fluid('water') * 1000)
-        .circuitMeta(0)
-        .chancedOutput(metaitem('plant_ball') * 1, 45, 100)
-        .fluidOutputs(fluid('fermentation_base') * 1000)
-        .duration(600)
-        .EUt(110)
-        .buildAndRegister()
+PYROLYSE_OVEN.recipeBuilder().with {
+        inputs metaitem('plant_ball') * 5
+        fluidInputs fluid('water') * 1000
+        circuitMeta 0
+        chancedOutput metaitem('plant_ball') * 1, 45, 100
+        fluidOutputs fluid('fermentation_base') * 1000
+        duration 600
+        EUt 110
+        buildAndRegister()
 
-CHEMICAL_PLANT.recipeBuilder()
-        .inputs(metaitem('plant_ball') * 5)
-        .fluidInputs(fluid('fermentation_base') * 1000)
-        .fluidInputs(fluid('biomass') * 1000)
-        .fluidOutputs(fluid('fermented_biomass') * 2000)
-        .duration(1200)
-        .EUt(110)
-        .buildAndRegister()
+}
+
+CHEMICAL_PLANT.recipeBuilder().with {
+        inputs metaitem('plant_ball') * 5
+        fluidInputs fluid('fermentation_base') * 1000
+        fluidInputs fluid('biomass') * 1000
+        fluidOutputs fluid('fermented_biomass') * 2000
+        duration 1200
+        EUt 110
+        buildAndRegister()
+
+}
 
 mods.gregtech.fermenter.removeByInput(30, null, [fluid('depleted_growth_medium') * 1000])
 mods.gregtech.fermenter.removeByInput(2, null, [fluid('biomass') * 100])
 
-FERMENTER.recipeBuilder()
-        .fluidInputs(fluid('biomass') * 144)
-        .fluidOutputs(fluid('fermented_biomass') * 50)
-        .duration(4000)
-        .EUt(2)
-        .buildAndRegister()
+FERMENTER.recipeBuilder().with {
+        fluidInputs fluid('biomass') * 144
+        fluidOutputs fluid('fermented_biomass') * 50
+        duration 4000
+        EUt 2
+        buildAndRegister()
+
+}
 
 // TOOD: juice (GTFO?)
 // Melon recipe conflict (GTFO)
 mods.gregtech.extractor.removeByInput(2, [item('minecraft:melon')], null)
 
-EXTRACTOR.recipeBuilder()
-        .inputs(item('minecraft:melon'))
-        .fluidOutputs(fluid('gtfo_melon_extract') * 50)
-        .circuitMeta(0)
-        .duration(10)
-        .EUt(2)
-        .buildAndRegister()
+EXTRACTOR.recipeBuilder().with {
+        inputs item('minecraft:melon')
+        fluidOutputs fluid('gtfo_melon_extract') * 50
+        circuitMeta 0
+        duration 10
+        EUt 2
+        buildAndRegister()
 
-EXTRACTOR.recipeBuilder()
-        .inputs(item('minecraft:melon'))
-        .fluidOutputs(fluid('juice') * 50)
-        .circuitMeta(1)
-        .duration(100)
-        .EUt(30)
-        .buildAndRegister()
-EXTRACTOR.recipeBuilder()
-        .inputs(item('minecraft:apple'))
-        .fluidOutputs(fluid('juice') * 144)
-        .duration(100)
-        .EUt(30)
-        .buildAndRegister()
-EXTRACTOR.recipeBuilder()
-        .inputs(ore('cropSweetBerry,seedSweetBerry'))
-        .fluidOutputs(fluid('juice') * 50)
-        .duration(100)
-        .EUt(30)
-        .buildAndRegister()
-EXTRACTOR.recipeBuilder()
-        .inputs(ore('sugarcane'))
-        .fluidOutputs(fluid('juice') * 144)
-        .duration(100)
-        .EUt(30)
-        .buildAndRegister()
-EXTRACTOR.recipeBuilder()
-        .inputs(ore('blockCactus'))
-        .fluidOutputs(fluid('juice') * 512)
-        .duration(100)
-        .EUt(30)
-        .buildAndRegister()
-EXTRACTOR.recipeBuilder()
-        .inputs(ore('cropPumpkin'))
-        .fluidOutputs(fluid('juice') * 512)
-        .duration(100)
-        .EUt(30)
-        .buildAndRegister()
+}
 
-DISTILLERY.recipeBuilder()
-        .fluidInputs(fluid('biomass') * 1000)
-        .fluidOutputs(fluid('ethanol') * 600)
-        .circuitMeta(0)
-        .EUt(16)
-        .duration(80)
-        .buildAndRegister()
+EXTRACTOR.recipeBuilder().with {
+        inputs item('minecraft:melon')
+        fluidOutputs fluid('juice') * 50
+        circuitMeta 1
+        duration 100
+        EUt 30
+        buildAndRegister()
 
-COMPRESSOR.recipeBuilder()
-        .inputs(item('minecraft:apple') * 8)
-        .outputs(metaitem('plant_ball'))
-        .duration(300)
-        .EUt(2)
-        .buildAndRegister()
+}
+EXTRACTOR.recipeBuilder().with {
+        inputs item('minecraft:apple')
+        fluidOutputs fluid('juice') * 144
+        duration 100
+        EUt 30
+        buildAndRegister()
+
+}
+EXTRACTOR.recipeBuilder().with {
+        inputs ore('cropSweetBerry,seedSweetBerry')
+        fluidOutputs fluid('juice') * 50
+        duration 100
+        EUt 30
+        buildAndRegister()
+
+}
+EXTRACTOR.recipeBuilder().with {
+        inputs ore('sugarcane')
+        fluidOutputs fluid('juice') * 144
+        duration 100
+        EUt 30
+        buildAndRegister()
+
+}
+EXTRACTOR.recipeBuilder().with {
+        inputs ore('blockCactus')
+        fluidOutputs fluid('juice') * 512
+        duration 100
+        EUt 30
+        buildAndRegister()
+
+}
+EXTRACTOR.recipeBuilder().with {
+        inputs ore('cropPumpkin')
+        fluidOutputs fluid('juice') * 512
+        duration 100
+        EUt 30
+        buildAndRegister()
+
+}
+
+DISTILLERY.recipeBuilder().with {
+        fluidInputs fluid('biomass') * 1000
+        fluidOutputs fluid('ethanol') * 600
+        circuitMeta 0
+        EUt 16
+        duration 80
+        buildAndRegister()
+
+}
+
+COMPRESSOR.recipeBuilder().with {
+        inputs item('minecraft:apple') * 8
+        outputs metaitem('plant_ball')
+        duration 300
+        EUt 2
+        buildAndRegister()
+}

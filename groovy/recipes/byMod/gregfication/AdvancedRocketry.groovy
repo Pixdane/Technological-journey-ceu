@@ -261,12 +261,14 @@ mods.jei.ingredient.yeet(
     mods.jei.category.hideCategory(it)
 }
 
-MIXER.recipeBuilder()
-        .inputs([ore('blockConcrete') * 3, ore('dyeYellow'), ore('dyeBlack')])
-        .outputs([item('advancedrocketry:launchpad') * 3])
-        .duration(240)
-        .EUt(16)
-        .buildAndRegister()
+MIXER.recipeBuilder().with {
+        inputs [ore('blockConcrete') * 3, ore('dyeYellow'), ore('dyeBlack')]
+        outputs [item('advancedrocketry:launchpad') * 3]
+        duration 240
+        EUt 16
+        buildAndRegister()
+
+}
 
 crafting.addShaped(item('minecraft:enchanted_book').withNbt(StoredEnchantments: [lvl: 1 as short, id: 13 as short]), [
         [null, ore('stickLongStainlessSteel'), null],
@@ -418,44 +420,54 @@ crafting.addShaped(item('advancedrocketry:stationbuilder'), [
         [ore('plateStainlessSteel'), metaitem('emitter.hv'), ore('plateStainlessSteel')]
 ])
 
-ALLOY_SMELTER.recipeBuilder()
-        .inputs([metaitem('wafer.silicon'), item('minecraft:glass_pane')])
-        .outputs([ore('waferSilicon').getFirst()])
-        .duration(160)
-        .EUt(30)
-        .buildAndRegister()
+ALLOY_SMELTER.recipeBuilder().with {
+        inputs [metaitem('wafer.silicon'), item('minecraft:glass_pane')]
+        outputs [ore('waferSilicon').getFirst()]
+        duration 160
+        EUt 30
+        buildAndRegister()
 
-LASER_ENGRAVER.recipeBuilder()
-        .inputs([ore('waferSilicon')])
-        .notConsumable(ore('craftingLensWhite'))
-        .outputs([item('advancedrocketry:itemcircuitplate')])
-        .duration(160)
-        .EUt(30)
-        .buildAndRegister()
+}
 
-LASER_ENGRAVER.recipeBuilder()
-        .inputs([ore('waferSilicon')])
-        .notConsumable(ore('craftingLensLime'))
-        .outputs([item('advancedrocketry:itemcircuitplate', 1)])
-        .duration(160)
-        .EUt(30)
-        .buildAndRegister()
+LASER_ENGRAVER.recipeBuilder().with {
+        inputs [ore('waferSilicon')]
+        notConsumable ore('craftingLensWhite')
+        outputs [item('advancedrocketry:itemcircuitplate')]
+        duration 160
+        EUt 30
+        buildAndRegister()
 
-CUTTER.recipeBuilder()
-        .inputs([item('advancedrocketry:itemcircuitplate', 1)])
-        .fluidInputs(fluid('lubricant') * 144)
-        .outputs([item('advancedrocketry:ic', 2) * 16])
-        .duration(160)
-        .EUt(30)
-        .buildAndRegister()
+}
 
-CUTTER.recipeBuilder()
-        .inputs([item('advancedrocketry:itemcircuitplate')])
-        .fluidInputs(fluid('lubricant') * 144)
-        .outputs([item('advancedrocketry:ic') * 16])
-        .duration(160)
-        .EUt(30)
-        .buildAndRegister()
+LASER_ENGRAVER.recipeBuilder().with {
+        inputs [ore('waferSilicon')]
+        notConsumable ore('craftingLensLime')
+        outputs [item('advancedrocketry:itemcircuitplate', 1)]
+        duration 160
+        EUt 30
+        buildAndRegister()
+
+}
+
+CUTTER.recipeBuilder().with {
+        inputs [item('advancedrocketry:itemcircuitplate', 1)]
+        fluidInputs fluid('lubricant') * 144
+        outputs [item('advancedrocketry:ic', 2) * 16]
+        duration 160
+        EUt 30
+        buildAndRegister()
+
+}
+
+CUTTER.recipeBuilder().with {
+        inputs [item('advancedrocketry:itemcircuitplate')]
+        fluidInputs fluid('lubricant') * 144
+        outputs [item('advancedrocketry:ic') * 16]
+        duration 160
+        EUt 30
+        buildAndRegister()
+
+}
 
 crafting.addShaped(item('advancedrocketry:ic', 1), [
         [null, null, null],
@@ -496,99 +508,123 @@ crafting.addShaped(item('advancedrocketry:rocketmotor'), [
         [ore('plateTitanium'), ore('plateTitanium'), ore('plateTitanium')]
 ])
 
-CHEMICAL_REACTOR.recipeBuilder()
-        .inputs([ore('dustIron') * 2, ore('dustAluminium') * 1])
-        .fluidInputs(fluid('oxygen') * 2000)
-        .outputs(item('advancedrocketry:thermite') * 3)
-        .duration(600)
-        .EUt(30)
-        .buildAndRegister()
+CHEMICAL_REACTOR.recipeBuilder().with {
+        inputs [ore('dustIron') * 2, ore('dustAluminium') * 1]
+        fluidInputs fluid('oxygen') * 2000
+        outputs item('advancedrocketry:thermite') * 3
+        duration 600
+        EUt 30
+        buildAndRegister()
 
-MACERATOR.recipeBuilder()
-        .inputs([item('advancedrocketry:crystal')])
-        .outputs([item('actuallyadditions:item_crystal_shard', 1) * 4])
-        .duration(160)
-        .EUt(30)
-        .buildAndRegister()
+}
 
-MACERATOR.recipeBuilder()
-        .inputs([item('advancedrocketry:crystal', 1)])
-        .outputs([item('actuallyadditions:item_crystal_shard', 2) * 4])
-        .duration(160)
-        .EUt(30)
-        .buildAndRegister()
+MACERATOR.recipeBuilder().with {
+        inputs [item('advancedrocketry:crystal')]
+        outputs [item('actuallyadditions:item_crystal_shard', 1) * 4]
+        duration 160
+        EUt 30
+        buildAndRegister()
 
-MACERATOR.recipeBuilder()
-        .inputs([item('advancedrocketry:crystal', 2)])
-        .outputs([item('actuallyadditions:item_crystal_shard', 4) * 4])
-        .duration(160)
-        .EUt(30)
-        .buildAndRegister()
+}
 
-MACERATOR.recipeBuilder()
-        .inputs([item('advancedrocketry:crystal', 3)])
-        .outputs([item('actuallyadditions:item_crystal_shard') * 4])
-        .duration(160)
-        .EUt(30)
-        .buildAndRegister()
+MACERATOR.recipeBuilder().with {
+        inputs [item('advancedrocketry:crystal', 1)]
+        outputs [item('actuallyadditions:item_crystal_shard', 2) * 4]
+        duration 160
+        EUt 30
+        buildAndRegister()
 
-MACERATOR.recipeBuilder()
-        .inputs([item('advancedrocketry:crystal', 5)])
-        .outputs([item('actuallyadditions:item_crystal_shard', 3) * 4])
-        .duration(160)
-        .EUt(30)
-        .buildAndRegister()
+}
 
-MACERATOR.recipeBuilder()
-        .inputs([item('advancedrocketry:crystal', 4)])
-        .outputs([item('actuallyadditions:item_crystal_shard', 5) * 4])
-        .duration(160)
-        .EUt(30)
-        .buildAndRegister()
+MACERATOR.recipeBuilder().with {
+        inputs [item('advancedrocketry:crystal', 2)]
+        outputs [item('actuallyadditions:item_crystal_shard', 4) * 4]
+        duration 160
+        EUt 30
+        buildAndRegister()
 
-AUTOCLAVE.recipeBuilder()
-        .inputs([item('libvulpes:productdust')])
-        .fluidInputs(fluid('water') * 1000)
-        .outputs([item('libvulpes:productgem')])
-        .duration(120)
-        .EUt(500)
-        .buildAndRegister()
+}
+
+MACERATOR.recipeBuilder().with {
+        inputs [item('advancedrocketry:crystal', 3)]
+        outputs [item('actuallyadditions:item_crystal_shard') * 4]
+        duration 160
+        EUt 30
+        buildAndRegister()
+
+}
+
+MACERATOR.recipeBuilder().with {
+        inputs [item('advancedrocketry:crystal', 5)]
+        outputs [item('actuallyadditions:item_crystal_shard', 3) * 4]
+        duration 160
+        EUt 30
+        buildAndRegister()
+
+}
+
+MACERATOR.recipeBuilder().with {
+        inputs [item('advancedrocketry:crystal', 4)]
+        outputs [item('actuallyadditions:item_crystal_shard', 5) * 4]
+        duration 160
+        EUt 30
+        buildAndRegister()
+
+}
+
+AUTOCLAVE.recipeBuilder().with {
+        inputs [item('libvulpes:productdust')]
+        fluidInputs fluid('water') * 1000
+        outputs [item('libvulpes:productgem')]
+        duration 120
+        EUt 500
+        buildAndRegister()
+
+}
 
 // Low tank
-EXTRUDER.recipeBuilder()
-        .inputs([ore('ingotIron') * 16])
-        .notConsumable(metaitem('shape.mold.cylinder'))
-        .outputs([item('advancedrocketry:pressuretank')])
-        .duration(600)
-        .EUt(30)
-        .buildAndRegister()
+EXTRUDER.recipeBuilder().with {
+        inputs [ore('ingotIron') * 16]
+        notConsumable metaitem('shape.mold.cylinder')
+        outputs [item('advancedrocketry:pressuretank')]
+        duration 600
+        EUt 30
+        buildAndRegister()
+
+}
 
 // Medium tank
-EXTRUDER.recipeBuilder()
-        .inputs([ore('ingotSteel') * 16])
-        .notConsumable(metaitem('shape.mold.cylinder'))
-        .outputs([item('advancedrocketry:pressuretank', 1)])
-        .duration(600)
-        .EUt(120)
-        .buildAndRegister()
+EXTRUDER.recipeBuilder().with {
+        inputs [ore('ingotSteel') * 16]
+        notConsumable metaitem('shape.mold.cylinder')
+        outputs [item('advancedrocketry:pressuretank', 1)]
+        duration 600
+        EUt 120
+        buildAndRegister()
+
+}
 
 // Large tank
-EXTRUDER.recipeBuilder()
-        .inputs([ore('ingotStainlessSteel') * 16])
-        .notConsumable(metaitem('shape.mold.cylinder'))
-        .outputs([item('advancedrocketry:pressuretank', 2)])
-        .duration(600)
-        .EUt(500)
-        .buildAndRegister()
+EXTRUDER.recipeBuilder().with {
+        inputs [ore('ingotStainlessSteel') * 16]
+        notConsumable metaitem('shape.mold.cylinder')
+        outputs [item('advancedrocketry:pressuretank', 2)]
+        duration 600
+        EUt 500
+        buildAndRegister()
+
+}
 
 // Max tank
-EXTRUDER.recipeBuilder()
-        .inputs([ore('ingotTitanium') * 16])
-        .notConsumable(metaitem('shape.mold.cylinder'))
-        .outputs([item('advancedrocketry:pressuretank', 3)])
-        .duration(600)
-        .EUt(1048)
-        .buildAndRegister()
+EXTRUDER.recipeBuilder().with {
+        inputs [ore('ingotTitanium') * 16]
+        notConsumable metaitem('shape.mold.cylinder')
+        outputs [item('advancedrocketry:pressuretank', 3)]
+        duration 600
+        EUt 1048
+        buildAndRegister()
+
+}
 
 // TODO Fuel burn time
 //furnace.addFuel(item('advancedrocketry:charcoallog'), 640000)
@@ -603,48 +639,59 @@ furnace.removeByOutput(item('libvulpes:productingot', 10))
 furnace.removeByOutput(item('advancedrocketry:productingot', 1))
 furnace.removeByOutput(item('advancedrocketry:productingot'))
 
-CENTRIFUGE.recipeBuilder()
-        .inputs(ore('turfMoon'))
-        .outputs(metaitem('dustSmallSilicon'))
-        .chancedOutput(metaitem('dustSmallSilicon'), 3000, 400)
-        .fluidOutputs(fluid('helium_3') * 40)
-        .duration(120)
-        .EUt(30)
-        .buildAndRegister()
+CENTRIFUGE.recipeBuilder().with {
+        inputs ore('turfMoon')
+        outputs metaitem('dustSmallSilicon')
+        chancedOutput metaitem('dustSmallSilicon'), 3000, 400
+        fluidOutputs fluid('helium_3') * 40
+        duration 120
+        EUt 30
+        buildAndRegister()
 
-CENTRIFUGE.recipeBuilder()
-        .inputs(item('advancedrocketry:electricmushroom'))
-        .fluidOutputs(fluid('methane') * 500)
-        .duration(100)
-        .EUt(30)
-        .buildAndRegister()
+}
+
+CENTRIFUGE.recipeBuilder().with {
+        inputs item('advancedrocketry:electricmushroom')
+        fluidOutputs fluid('methane') * 500
+        duration 100
+        EUt 30
+        buildAndRegister()
+
+}
 
 //TODO: register GT material for this?
-MACERATOR.recipeBuilder()
-        .inputs(item('libvulpes:ore0'))
-        .outputs(item('libvulpes:productdust') * 2)
-        .duration(120)
-        .EUt(17)
-        .buildAndRegister()
+MACERATOR.recipeBuilder().with {
+        inputs item('libvulpes:ore0')
+        outputs item('libvulpes:productdust') * 2
+        duration 120
+        EUt 17
+        buildAndRegister()
 
-ELECTROLYZER.recipeBuilder()
-        .inputs(item('libvulpes:productdust'))
-        .outputs(metaitem('dustLithium') * 2)
-        .duration(120)
-        .EUt(17)
-        .buildAndRegister()
+}
 
-FORGE_HAMMER.recipeBuilder()
-        .inputs(item('advancedrocketry:charcoallog'))
-        .outputs(item('minecraft:coal', 1) * 4)
-        .duration(100)
-        .EUt(30)
-        .buildAndRegister()
+ELECTROLYZER.recipeBuilder().with {
+        inputs item('libvulpes:productdust')
+        outputs metaitem('dustLithium') * 2
+        duration 120
+        EUt 17
+        buildAndRegister()
 
-ASSEMBLER.recipeBuilder()
-        .inputs(item('minecraft:iron_bars') * 3)
-        .inputs(ore('plateIron') * 6)
-        .outputs(item('advancedrocketry:carbonscrubbercartridge'))
-        .duration(90)
-        .EUt(30)
-        .buildAndRegister()
+}
+
+FORGE_HAMMER.recipeBuilder().with {
+        inputs item('advancedrocketry:charcoallog')
+        outputs item('minecraft:coal', 1) * 4
+        duration 100
+        EUt 30
+        buildAndRegister()
+
+}
+
+ASSEMBLER.recipeBuilder().with {
+        inputs item('minecraft:iron_bars') * 3
+        inputs ore('plateIron') * 6
+        outputs item('advancedrocketry:carbonscrubbercartridge')
+        duration 90
+        EUt 30
+        buildAndRegister()
+}

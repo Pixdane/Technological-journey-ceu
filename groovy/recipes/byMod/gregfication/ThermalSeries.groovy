@@ -160,107 +160,125 @@ mods.jei.ingredient.yeet(
 furnace.add(item('thermalfoundation:material', 833), metaitem('rubber_drop'), 0.0)
 
 // Hardened upgrade
-ASSLINE.recipeBuilder()
-        .inputs(item('draconicevolution:draconic_core') * 10,)
-        .inputs(ore('plateStarmetalAlloy') * 64)
-        .inputs(ore('wireGtSingleUvSuperconductor') * 64,)
-        .inputs(ore('plateTitanSteel') * 64)
-        .fluidInputs(fluid('soldering_alloy') * 1440)
-        .fluidInputs(fluid('draconium') * 1440)
-        .outputs(item('thermalfoundation:upgrade'))
-        .duration(100)
-        .EUt(2013265920)
-        .buildAndRegister()
+ASSLINE.recipeBuilder().with {
+        inputs item('draconicevolution:draconic_core') * 10,
+        inputs ore('plateStarmetalAlloy') * 64
+        inputs ore('wireGtSingleUvSuperconductor') * 64,
+        inputs ore('plateTitanSteel') * 64
+        fluidInputs fluid('soldering_alloy') * 1440
+        fluidInputs fluid('draconium') * 1440
+        outputs item('thermalfoundation:upgrade')
+        duration 100
+        EUt 2013265920
+        buildAndRegister()
+
+}
 
 // Reinforced upgrade
-ASSLINE.recipeBuilder()
-        .inputs(item('draconicevolution:wyvern_core') * 10)
-        .inputs(ore('plateProtoAdamantium') * 64)
-        .inputs(ore('wireGtSingleUhvSuperconductor') * 64)
-        .inputs(ore('platePikyonium') * 64)
-        .fluidInputs(fluid('soldering_alloy') * 1440)
-        .fluidInputs(fluid('draconium') * 1440)
-        .fluidInputs(fluid('naquadah_alloy') * 1440)
-        .outputs(item('thermalfoundation:upgrade', 1))
-        .duration(100)
-        .EUt(2013265920)
-        .buildAndRegister()
+ASSLINE.recipeBuilder().with {
+        inputs item('draconicevolution:wyvern_core') * 10
+        inputs ore('plateProtoAdamantium') * 64
+        inputs ore('wireGtSingleUhvSuperconductor') * 64
+        inputs ore('platePikyonium') * 64
+        fluidInputs fluid('soldering_alloy') * 1440
+        fluidInputs fluid('draconium') * 1440
+        fluidInputs fluid('naquadah_alloy') * 1440
+        outputs item('thermalfoundation:upgrade', 1)
+        duration 100
+        EUt 2013265920
+        buildAndRegister()
+
+}
 
 // Signalum upgrade
-ASSLINE.recipeBuilder()
-        .inputs(item('draconicevolution:awakened_core') * 10)
-        .inputs(ore('plateSeaborgium') * 64,)
-        .inputs(ore('wireGtSingleUevSuperconductor') * 64)
-        .inputs(ore('plateBlackTitanium') * 64)
-        .fluidInputs(fluid('soldering_alloy') * 1440)
-        .fluidInputs(fluid('awaken_draconium') * 14400)
-        .fluidInputs(fluid('enriched_naquadah_alloy') * 1440)
-        .outputs(item('thermalfoundation:upgrade', 2))
-        .duration(100)
-        .EUt(2013265920)
-        .buildAndRegister()
+ASSLINE.recipeBuilder().with {
+        inputs item('draconicevolution:awakened_core') * 10
+        inputs ore('plateSeaborgium') * 64,
+        inputs ore('wireGtSingleUevSuperconductor') * 64
+        inputs ore('plateBlackTitanium') * 64
+        fluidInputs fluid('soldering_alloy') * 1440
+        fluidInputs fluid('awaken_draconium') * 14400
+        fluidInputs fluid('enriched_naquadah_alloy') * 1440
+        outputs item('thermalfoundation:upgrade', 2)
+        duration 100
+        EUt 2013265920
+        buildAndRegister()
+
+}
 
 // Resonant upgrade
-ASSLINE.recipeBuilder()
-        .inputs(item('draconicevolution:chaotic_core') * 10)
-        .inputs(ore('plateBohrium') * 64)
-        .inputs(ore('wireGtSingleUivSuperconductor') * 64)
-        .inputs(ore('plateHdcs') * 64)
-        .fluidInputs(fluid('soldering_alloy') * 1440)
-        .fluidInputs(fluid('chaos') * 1440)
-        .fluidInputs(fluid('naquadriatic_taranium') * 1440)
-        .outputs(item('thermalfoundation:upgrade', 3))
-        .duration(100)
-        .EUt(2013265920)
-        .buildAndRegister()
+ASSLINE.recipeBuilder().with {
+        inputs item('draconicevolution:chaotic_core') * 10
+        inputs ore('plateBohrium') * 64
+        inputs ore('wireGtSingleUivSuperconductor') * 64
+        inputs ore('plateHdcs') * 64
+        fluidInputs fluid('soldering_alloy') * 1440
+        fluidInputs fluid('chaos') * 1440
+        fluidInputs fluid('naquadriatic_taranium') * 1440
+        outputs item('thermalfoundation:upgrade', 3)
+        duration 100
+        EUt 2013265920
+        buildAndRegister()
+
+}
 
 // Creative conversion kit
-ASSLINE.recipeBuilder()
-        .inputs(item('thermalfoundation:upgrade'))
-        .inputs(item('thermalfoundation:upgrade', 1))
-        .inputs(item('thermalfoundation:upgrade', 2))
-        .inputs(item('thermalfoundation:upgrade', 3))
-        .fluidInputs(fluid('naquadriatic_taranium') * 1440)
-        .fluidInputs(fluid('cosmic_neutronium') * 1440)
-        .fluidInputs(fluid('enriched_naquadah_alloy') * 1440)
-        .fluidInputs(fluid('naquadah_alloy') * 1440)
-        .outputs(item('thermalfoundation:upgrade', 256))
-        .duration(100)
-        .EUt(2013265920)
-        .buildAndRegister()
+ASSLINE.recipeBuilder().with {
+        inputs item('thermalfoundation:upgrade')
+        inputs item('thermalfoundation:upgrade', 1)
+        inputs item('thermalfoundation:upgrade', 2)
+        inputs item('thermalfoundation:upgrade', 3)
+        fluidInputs fluid('naquadriatic_taranium') * 1440
+        fluidInputs fluid('cosmic_neutronium') * 1440
+        fluidInputs fluid('enriched_naquadah_alloy') * 1440
+        fluidInputs fluid('naquadah_alloy') * 1440
+        outputs item('thermalfoundation:upgrade', 256)
+        duration 100
+        EUt 2013265920
+        buildAndRegister()
 
-EBF.recipeBuilder()
-        .inputs(ore('dustSignalum'))
-        .outputs(item('thermalfoundation:material', 165))
-        .blastFurnaceTemp(4500)
-        .duration(1530)
-        .EUt(120)
-        .buildAndRegister()
+}
 
-EBF.recipeBuilder()
-        .inputs(ore('dustLumium'))
-        .outputs(item('thermalfoundation:material', 166))
-        .blastFurnaceTemp(4500)
-        .duration(1530)
-        .EUt(120)
-        .buildAndRegister()
+EBF.recipeBuilder().with {
+        inputs ore('dustSignalum')
+        outputs item('thermalfoundation:material', 165)
+        blastFurnaceTemp 4500
+        duration 1530
+        EUt 120
+        buildAndRegister()
 
-MIXER.recipeBuilder()
-        .inputs(ore('dustCopper') * 3)
-        .inputs(ore('dustSilver'))
-        .fluidInputs(fluid('redstone') * 1000)
-        .outputs(item('thermalfoundation:material', 101) * 4)
-        .duration(240)
-        .EUt(500)
-        .buildAndRegister()
-MIXER.recipeBuilder()
-        .inputs(ore('dustTin') * 3)
-        .inputs(ore('dustSilver'))
-        .fluidInputs(fluid('glowstone') * 1000)
-        .outputs(item('thermalfoundation:material', 102) * 4)
-        .duration(240)
-        .EUt(500)
-        .buildAndRegister()
+}
+
+EBF.recipeBuilder().with {
+        inputs ore('dustLumium')
+        outputs item('thermalfoundation:material', 166)
+        blastFurnaceTemp 4500
+        duration 1530
+        EUt 120
+        buildAndRegister()
+
+}
+
+MIXER.recipeBuilder().with {
+        inputs ore('dustCopper') * 3
+        inputs ore('dustSilver')
+        fluidInputs fluid('redstone') * 1000
+        outputs item('thermalfoundation:material', 101) * 4
+        duration 240
+        EUt 500
+        buildAndRegister()
+
+}
+MIXER.recipeBuilder().with {
+        inputs ore('dustTin') * 3
+        inputs ore('dustSilver')
+        fluidInputs fluid('glowstone') * 1000
+        outputs item('thermalfoundation:material', 102) * 4
+        duration 240
+        EUt 500
+        buildAndRegister()
+
+}
 
 crafting.addShaped(item('thermalfoundation:material', 640),
         [
@@ -288,39 +306,46 @@ crafting.addShaped(item('thermalfoundation:material', 1026),
         ])
 
 
-EXTRUDER.recipeBuilder()
-        .inputs(ore('ingotSignalum') * 4)
-        .notConsumable(metaitem('shape.extruder.gear'))
-        .outputs(item('thermalfoundation:material', 293))
-        .duration(380)
-        .EUt(30)
-        .buildAndRegister()
+EXTRUDER.recipeBuilder().with {
+        inputs ore('ingotSignalum') * 4
+        notConsumable metaitem('shape.extruder.gear')
+        outputs item('thermalfoundation:material', 293)
+        duration 380
+        EUt 30
+        buildAndRegister()
+
+}
 
 
 mods.gregtech.extractor.removeByInput(30, [item('thermalfoundation:material', 1024)], null)
 
-EXTRACTOR.recipeBuilder()
-        .inputs(ore('dustPyrotheum'))
-        .fluidOutputs(fluid('pyrotheum') * 1000)
-        .EUt(24)
-        .duration(35)
-        .buildAndRegister()
+EXTRACTOR.recipeBuilder().with {
+        inputs ore('dustPyrotheum')
+        fluidOutputs fluid('pyrotheum') * 1000
+        EUt 24
+        duration 35
+        buildAndRegister()
+
+}
 
 mods.gregtech.extractor.removeByInput(30, [item('thermalfoundation:material', 1025)], null)
 
-EXTRACTOR.recipeBuilder()
-        .inputs(ore('dustCryotheum'))
-        .fluidOutputs(fluid('cryotheum') * 1000)
-        .EUt(24)
-        .duration(35)
-        .buildAndRegister()
+EXTRACTOR.recipeBuilder().with {
+        inputs ore('dustCryotheum')
+        fluidOutputs fluid('cryotheum') * 1000
+        EUt 24
+        duration 35
+        buildAndRegister()
+
+}
 
 
-LARGE_MIXER.recipeBuilder()
-        .inputs(ore('dustCopper') * 3)
-        .inputs(ore('dustSilver'))
-        .fluidInputs(fluid('redstone') * 1000)
-        .outputs(ore('dustSignalum').getFirst() * 4)
-        .duration(240)
-        .EUt(500)
-        .buildAndRegister()
+LARGE_MIXER.recipeBuilder().with {
+        inputs ore('dustCopper') * 3
+        inputs ore('dustSilver')
+        fluidInputs fluid('redstone') * 1000
+        outputs ore('dustSignalum').getFirst() * 4
+        duration 240
+        EUt 500
+        buildAndRegister()
+}

@@ -5,12 +5,14 @@ mods.gregtech.vacuum_freezer.removeByInput(480, null, [fluid('air') * 4000])
 VACUUM_FREEZER = recipemap('vacuum_freezer')
 DISTILLATION_TOWER = recipemap('distillation_tower')
 
-VACUUM_FREEZER.recipeBuilder()
-        .fluidInputs(fluid('air') * 1000)
-        .fluidOutputs(fluid('liquid_air') * 1000)
-        .duration(30)
-        .EUt(8192)
-        .buildAndRegister()
+VACUUM_FREEZER.recipeBuilder().with {
+        fluidInputs fluid('air') * 1000
+        fluidOutputs fluid('liquid_air') * 1000
+        duration 30
+        EUt 8192
+        buildAndRegister()
+
+}
 
 //TODO:?
 mods.gregtech.distillation_tower.removeByInput(480, null, [fluid('liquid_air') * 50000])
@@ -36,18 +38,19 @@ mods.gregtech.distillery.removeByInput(480, [metaitem('circuit.integrated').with
 // Xenon Gas * 1
 mods.gregtech.distillery.removeByInput(480, [metaitem('circuit.integrated').withNbt(['Configuration': 10])], [fluid('liquid_air') * 100000])
 
-DISTILLATION_TOWER.recipeBuilder()
-        .fluidInputs(fluid('liquid_air') * 100000)
-        .fluidOutputs(fluid('nitrogen') * 78000)
-        .fluidOutputs(fluid('oxygen') * 20000)
-        .fluidOutputs(fluid('argon') * 1000)
-        .fluidOutputs(fluid('carbon_dioxide') * 500)
-        .fluidOutputs(fluid('neon') * 100)
-        .fluidOutputs(fluid('helium') * 50)
-        .fluidOutputs(fluid('methane') * 20)
-        .fluidOutputs(fluid('krypton') * 10)
-        .fluidOutputs(fluid('hydrogen') * 5)
-        .fluidOutputs(fluid('xenon'))
-        .duration(600)
-        .EUt(510)
-        .buildAndRegister()
+DISTILLATION_TOWER.recipeBuilder().with {
+        fluidInputs fluid('liquid_air') * 100000
+        fluidOutputs fluid('nitrogen') * 78000
+        fluidOutputs fluid('oxygen') * 20000
+        fluidOutputs fluid('argon') * 1000
+        fluidOutputs fluid('carbon_dioxide') * 500
+        fluidOutputs fluid('neon') * 100
+        fluidOutputs fluid('helium') * 50
+        fluidOutputs fluid('methane') * 20
+        fluidOutputs fluid('krypton') * 10
+        fluidOutputs fluid('hydrogen') * 5
+        fluidOutputs fluid('xenon')
+        duration 600
+        EUt 510
+        buildAndRegister()
+}

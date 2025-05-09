@@ -12,23 +12,26 @@ mods.gregtech.large_chemical_reactor.removeByInput(480, [metaitem('circuit.integ
 // Cetane-Boosted Diesel * 7500
 mods.gregtech.large_chemical_reactor.removeByInput(480, [metaitem('circuit.integrated').withNbt(['Configuration': 24])], [fluid('bio_diesel') * 10000, fluid('tetranitromethane') * 400])
 
-MIXER.recipeBuilder()
-        .fluidInputs(fluid('diesel') * 2000)
-        .fluidInputs(fluid('tetranitromethane') * 20)
-        .fluidOutputs(fluid('nitro_fuel') * 2000)
-        .EUt(480)
-        .duration(20)
-        .buildAndRegister()
+MIXER.recipeBuilder().with {
+        fluidInputs fluid('diesel') * 2000
+        fluidInputs fluid('tetranitromethane') * 20
+        fluidOutputs fluid('nitro_fuel') * 2000
+        EUt 480
+        duration 20
+        buildAndRegister()
+
+}
 
 // Nitro Benzeene
 mods.gregtech.chemical_reactor.removeByInput(480, null, [fluid('benzene') * 5000, fluid('nitration_mixture') * 2000, fluid('distilled_water') * 2000])
 
-CHEMICAL_REACTOR.recipeBuilder()
-        .fluidInputs(fluid('nitration_mixture') * 2000)
-        .fluidInputs(fluid('benzene') * 5000)
-        .fluidInputs(fluid('distilled_water') * 2000)
-        .fluidOutputs(fluid('nitrobenzene') * 8000)
-        .fluidOutputs(fluid('diluted_sulfuric_acid') * 1000)
-        .EUt(320)
-        .duration(120)
-        .buildAndRegister()
+CHEMICAL_REACTOR.recipeBuilder().with {
+        fluidInputs fluid('nitration_mixture') * 2000
+        fluidInputs fluid('benzene') * 5000
+        fluidInputs fluid('distilled_water') * 2000
+        fluidOutputs fluid('nitrobenzene') * 8000
+        fluidOutputs fluid('diluted_sulfuric_acid') * 1000
+        EUt 320
+        duration 120
+        buildAndRegister()
+}

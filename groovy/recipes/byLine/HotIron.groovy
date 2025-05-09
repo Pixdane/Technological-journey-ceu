@@ -5,11 +5,13 @@ import static classes.utils.TJUtility.tjId
 ALLOY_SMELTER = recipemap('alloy_smelter')
 
 // Iron Ingot -> Hot Iron Ingot
-furnace.recipeBuilder()
-        .input(ore('ingotIron'))
-        .output(metaitem('ingotHotIron'))
-        .exp(0.1)
-        .register()
+furnace.recipeBuilder().with {
+        input ore('ingotIron')
+        output metaitem('ingotHotIron')
+        exp 0.1
+        register()
+
+}
 
 // Hot Iron Ingot -> Wrought Iron Ingot
 crafting.shapelessBuilder()
@@ -19,9 +21,10 @@ crafting.shapelessBuilder()
         .register()
 
 // Hot Iron Ingot -> Wrought Iron Ingot
-ALLOY_SMELTER.recipeBuilder()
-        .inputs(ore('ingotHotIron'))
-        .outputs(metaitem('ingotWroughtIron'))
-        .duration(150)
-        .EUt(6)
-        .buildAndRegister()
+ALLOY_SMELTER.recipeBuilder().with {
+        inputs ore('ingotHotIron')
+        outputs metaitem('ingotWroughtIron')
+        duration 150
+        EUt 6
+        buildAndRegister()
+}
