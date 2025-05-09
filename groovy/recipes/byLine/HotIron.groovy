@@ -4,23 +4,6 @@ import static classes.utils.TJUtility.tjId
 
 ALLOY_SMELTER = recipemap('alloy_smelter')
 
-
-// Removes auto-generated recipes related to hot iron ingots
-// Hot Iron Ingot * 1
-mods.gregtech.electric_blast_furnace.removeByInput(120, [metaitem('dustIron'), metaitem('circuit.integrated').withNbt(['Configuration': 1])], null)
-
-// Hot Iron Ingot * 1
-mods.gregtech.electric_blast_furnace.removeByInput(120, [metaitem('dustIron'), metaitem('circuit.integrated').withNbt(['Configuration': 2])], [fluid('nitrogen') * 1000])
-
-// Hot Iron Ingot * 1
-mods.gregtech.electric_blast_furnace.removeByInput(120, [metaitem('dustIronMagnetic'), metaitem('circuit.integrated').withNbt(['Configuration': 1])], null)
-
-// Hot Iron Ingot * 1
-mods.gregtech.electric_blast_furnace.removeByInput(120, [metaitem('dustIronMagnetic'), metaitem('circuit.integrated').withNbt(['Configuration': 2])], [fluid('nitrogen') * 1000])
-
-// Iron Ingot * 1
-mods.gregtech.vacuum_freezer.removeByInput(120, [metaitem('ingotHotIron')], null)
-
 // Iron Ingot -> Hot Iron Ingot
 furnace.recipeBuilder()
         .input(ore('ingotIron'))

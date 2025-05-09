@@ -49,7 +49,6 @@ class MaterialModifications {
 
     static void modifyProperties() {
 
-        material('iron').addBlastProperty(1811)
         material('rutherfordium').addBlastProperty(5400, 'MID', 16560, 120)
         material('tritanium').addBlastProperty(11000, 'HIGH', 16560, 120)
         material('duranium').addBlastProperty(6000, 'MID', 16560, 120)
@@ -135,6 +134,9 @@ class MaterialModifications {
     }
 
     static void modifyOrePrefixes() {
+
+        // Workaround for generating the hot iron ingot without adding a blast property
+        OrePrefix.ingotHot.@generationCondition |= { it == material('iron') }
 
         OrePrefix.dust.setIgnored(material('tjceu:soularium'))
         OrePrefix.nugget.setIgnored(material('tjceu:soularium'))
