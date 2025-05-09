@@ -11,18 +11,14 @@ import net.minecraftforge.fml.common.eventhandler.EventPriority
 
 def storage = [:]
 
-IIngredient.metaClass.addTooltip << { String line ->
-    assert delegate in IIngredient
-
-    delegate.matchingStacks.each { stack ->
-        storage[new ItemAndMetadata(stack)] = line
+def add = {IIngredient ing, String raw ->
+    ing.matchingStacks.each { stack -> 
+        storage[new ItemAndMetadata(stack)] = raw
     }
 }
 
-IIngredient.metaClass.addUnificationTooltip << { ->
-    assert delegate in IIngredient
-
-    delegate.matchingStacks.each { stack ->
+def addUnification = { IIngredient ing ->
+    ing.matchingStacks.each { stack -> 
         def formula = OreDictUnifier.getUnificationEntry(stack)?.material?.chemicalFormula
         if (formula) storage[new ItemAndMetadata(stack)] = "${TextFormatting.YELLOW}${formula}".toString()
     }
@@ -37,22 +33,22 @@ eventManager.listen(EventPriority.HIGH) {
 }
 
 // Actually Additions
-item('actuallyadditions:item_misc', 5).addTooltip('tjceu.tooltip.black_quartz')
-item('actuallyadditions:item_dust', 7).addTooltip('tjceu.tooltip.black_quartz_dust')
+add item('actuallyadditions:item_misc', 5), 'tjceu.tooltip.black_quartz'
+add item('actuallyadditions:item_dust', 7), 'tjceu.tooltip.black_quartz_dust'
 
 // AstralSorcery
-item('astraladditions:block_starmetal').addUnificationTooltip()
-item('astralsorcery:blockcustomore', 1).addUnificationTooltip()
-item('astralsorcery:blockcustomsandore').addUnificationTooltip()
+addUnification item('astraladditions:block_starmetal')
+addUnification item('astralsorcery:blockcustomore', 1)
+addUnification item('astralsorcery:blockcustomsandore')
 
 // Advanced Rocketry
-item('advancedrocketry:charcoallog').addTooltip('tjceu.tooltip.charcoal_log')
-metaitem('blockTungstenCarbide').addTooltip('tjceu.tooltip.tungsten_carbide_block')
-metaitem('blockSalt').addTooltip('tjceu.tooltip.salt_block')
-metaitem('blockPlatinum').addTooltip('tjceu.tooltip.platinum_block')
-metaitem('blockCalifornium').addTooltip('tjceu.tooltip.californium_block')
-metaitem('gcyl:blockAdamantium').addTooltip('tjceu.tooltip.adamantium_block')
+add item('advancedrocketry:charcoallog'), 'tjceu.tooltip.charcoal_log'
+add metaitem('blockTungstenCarbide'), 'tjceu.tooltip.tungsten_carbide_block'
+add metaitem('blockSalt'), 'tjceu.tooltip.salt_block'
+add metaitem('blockPlatinum'), 'tjceu.tooltip.platinum_block'
+add metaitem('blockCalifornium'), 'tjceu.tooltip.californium_block'
+add metaitem('gcyl:blockAdamantium'), 'tjceu.tooltip.adamantium_block'
 
 // Draconic Evolution
-item('draconicevolution:celestial_manipulator').addTooltip('tjceu.tooltip.celestial_manipulator')
-item('draconicevolution:draconium_block', 1).addTooltip('tjceu.tooltip.charged_draconium_block')
+add item('draconicevolution:celestial_manipulator'), 'tjceu.tooltip.celestial_manipulator'
+add item('draconicevolution:draconium_block', 1), 'tjceu.tooltip.charged_draconium_block'

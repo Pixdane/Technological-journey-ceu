@@ -35,19 +35,20 @@ class ArmorInfuser extends RecipeMapMultiblockController {
         def fusionCoil = states(blockstate('gregtech:fusion_casing', 'active=false', 'variant=fusion_coil'))
         def fusionCasing = states(blockstate('gregtech:fusion_casing', 'active=false', 'variant=fusion_casing_mk2'))
         def advFusionCoil = states(blockstate('gcyl:gcyl_fusion_coil', 'active=false', 'variant=adv_fusion_coil_1'))
-        FactoryBlockPattern.start()
-                .aisle('CCCCC', '     ', '     ', 'AAAAA', '     ', '     ', 'AAAAA', '     ', '     ', 'CCCCC')
-                .aisle('CCCCC', '  F  ', '  F  ', 'A F A', '  F  ', '  F  ', 'A F A', '  F  ', '  F  ', 'CCCCC')
-                .aisle('CCCCC', ' FOF ', ' FOF ', 'AFOFA', ' FOF ', ' FOF ', 'AFOFA', ' FOF ', ' FOF ', 'CCCCC')
-                .aisle('CCCCC', '  F  ', '  F  ', 'A F A', '  F  ', '  F  ', 'A F A', '  F  ', '  F  ', 'CCCCC')
-                .aisle('CCSCC', '     ', '     ', 'AAAAA', '     ', '     ', 'AAAAA', '     ', '     ', 'CCCCC')
-                .where('S', selfPredicate())
-                .where('O', fusionCoil)
-                .where('F', fusionCasing)
-                .where('A', advFusionCoil)
-                .where('C', casing.or(autoAbilities()))
-                .where('#', this.any())
-                .build()
+        FactoryBlockPattern.start().with {
+            aisle 'CCCCC', '     ', '     ', 'AAAAA', '     ', '     ', 'AAAAA', '     ', '     ', 'CCCCC'
+            aisle 'CCCCC', '  F  ', '  F  ', 'A F A', '  F  ', '  F  ', 'A F A', '  F  ', '  F  ', 'CCCCC'
+            aisle 'CCCCC', ' FOF ', ' FOF ', 'AFOFA', ' FOF ', ' FOF ', 'AFOFA', ' FOF ', ' FOF ', 'CCCCC'
+            aisle 'CCCCC', '  F  ', '  F  ', 'A F A', '  F  ', '  F  ', 'A F A', '  F  ', '  F  ', 'CCCCC'
+            aisle 'CCSCC', '     ', '     ', 'AAAAA', '     ', '     ', 'AAAAA', '     ', '     ', 'CCCCC'
+            where 'S', selfPredicate()
+            where 'O', fusionCoil
+            where 'F', fusionCasing
+            where 'A', advFusionCoil
+            where 'C', casing.or(autoAbilities())
+            where '#', this.any()
+            build()
+        }
     }
 
 }

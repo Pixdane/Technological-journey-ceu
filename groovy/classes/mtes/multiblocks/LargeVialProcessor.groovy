@@ -41,21 +41,24 @@ class LargeVialProcessor extends RecipeMapMultiblockController {
 
     @Override
     protected BlockPattern createStructurePattern() {
-        FactoryBlockPattern.start()
-                .aisle('CCCCC', 'F   F', 'F   F', 'F   F', 'CCCCC')
-                .aisle('CTTTC', ' XGX ', ' XGX ', ' XGX ', 'CTTTC')
-                .aisle('CTETC', ' GEG ', ' GEG ', ' GEG ', 'CTETC')
-                .aisle('CTTTC', ' XGX ', ' XGX ', ' XGX ', 'CTTTC')
-                .aisle('CCSCC', 'F   F', 'F   F', 'F   F', 'CCCCC')
-                .where('S', selfPredicate())
-                .where('C', states(blockstate('tjceu:multiblock_casing', 'variant=soul_insulation')).setMinGlobalLimited(22).or(autoAbilities()))
-                .where('T', states(blockstate('gregtech:boiler_casing', 'variant=tungstensteel_pipe')))
-                .where('E', states(blockstate('enderio:block_alloy', 'variant=end_steel')))
-                .where('G', states(blockstate('gregtech:multiblock_casing', 'active=false', 'variant=grate')))
-                .where('X', states(blockstate('gregtech:turbine_casing', 'variant=tungstensteel_gearbox')))
-                .where('F', frames(material('protactinium')))
-                .where(' ', this.any())
-                .build()
+        FactoryBlockPattern.start().with {
+            aisle 'CCCCC', 'F   F', 'F   F', 'F   F', 'CCCCC'
+            aisle 'CTTTC', ' XGX ', ' XGX ', ' XGX ', 'CTTTC'
+            aisle 'CTETC', ' GEG ', ' GEG ', ' GEG ', 'CTETC'
+            aisle 'CTTTC', ' XGX ', ' XGX ', ' XGX ', 'CTTTC'
+            aisle 'CCSCC', 'F   F', 'F   F', 'F   F', 'CCCCC'
+            where 'S', selfPredicate()
+            where 'C', states(blockstate('tjceu:multiblock_casing', 'variant=soul_insulation'))
+                    .setMinGlobalLimited(22)
+                    | autoAbilities()
+            where 'T', states(blockstate('gregtech:boiler_casing', 'variant=tungstensteel_pipe'))
+            where 'E', states(blockstate('enderio:block_alloy', 'variant=end_steel'))
+            where 'G', states(blockstate('gregtech:multiblock_casing', 'active=false', 'variant=grate'))
+            where 'X', states(blockstate('gregtech:turbine_casing', 'variant=tungstensteel_gearbox'))
+            where 'F', frames(material('protactinium'))
+            where ' ', this.any()
+            build()
+        }
     }
 
 }

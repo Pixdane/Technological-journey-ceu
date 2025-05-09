@@ -41,21 +41,24 @@ class LargePoweredSpawner extends RecipeMapMultiblockController {
 
     @Override
     protected BlockPattern createStructurePattern() {
-        FactoryBlockPattern.start()
-                .aisle('CCCCC', 'F   F', 'F   F', 'F   F', 'CCCCC')
-                .aisle('CCCCC', ' TMT ', ' TMT ', ' TMT ', 'CGGGC')
-                .aisle('CCCCC', ' MEM ', ' MEM ', ' MEM ', 'CGGGC')
-                .aisle('CCCCC', ' TMT ', ' TMT ', ' TMT ', 'CGGGC')
-                .aisle('CCSCC', 'F   F', 'F   F', 'F   F', 'CCCCC')
-                .where('S', selfPredicate())
-                .where('C', states(blockstate('tjceu:multiblock_casing', 'variant=soul_insulation')).setMinGlobalLimited(32).or(autoAbilities()))
-                .where('T', states(blockstate('gregtech:boiler_casing', 'variant=tungstensteel_pipe')))
-                .where('E', states(blockstate('enderio:block_alloy', 'variant=end_steel')))
-                .where('M', states(blockstate('enderio:block_decoration1', 'type=type00')))
-                .where('G', states(blockstate('gregtech:multiblock_casing', 'active=false', 'variant=grate')))
-                .where('F', frames(material('protactinium')))
-                .where(' ', this.any())
-                .build()
+        FactoryBlockPattern.start().with {
+            aisle 'CCCCC', 'F   F', 'F   F', 'F   F', 'CCCCC'
+            aisle 'CCCCC', ' TMT ', ' TMT ', ' TMT ', 'CGGGC'
+            aisle 'CCCCC', ' MEM ', ' MEM ', ' MEM ', 'CGGGC'
+            aisle 'CCCCC', ' TMT ', ' TMT ', ' TMT ', 'CGGGC'
+            aisle 'CCSCC', 'F   F', 'F   F', 'F   F', 'CCCCC'
+            where 'S', selfPredicate()
+            where 'C', states(blockstate('tjceu:multiblock_casing', 'variant=soul_insulation'))
+                    .setMinGlobalLimited(32)
+                    | autoAbilities()
+            where 'T', states(blockstate('gregtech:boiler_casing', 'variant=tungstensteel_pipe'))
+            where 'E', states(blockstate('enderio:block_alloy', 'variant=end_steel'))
+            where 'M', states(blockstate('enderio:block_decoration1', 'type=type00'))
+            where 'G', states(blockstate('gregtech:multiblock_casing', 'active=false', 'variant=grate'))
+            where 'F', frames(material('protactinium'))
+            where ' ', this.any()
+            build()
+        }
     }
 
 }

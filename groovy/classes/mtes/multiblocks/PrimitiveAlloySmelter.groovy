@@ -61,14 +61,15 @@ class PrimitiveAlloySmelter extends RecipeMapSteamMultiblockController {
     protected BlockPattern createStructurePattern() {
         def casing = states(blockstate('gregtech:metal_casing', 'variant=primitive_bricks')).setMinGlobalLimited(10)
         def bronzeHull = states(blockstate('gregtech:steam_casing', 'variant=bronze_hull'))
-        FactoryBlockPattern.start()
-                .aisle('CCC', 'CCC', 'DDD')
-                .aisle('CCC', 'C#C', 'D D')
-                .aisle('CCC', 'CSC', 'DDD')
-                .where('S', selfPredicate())
-                .where('D', bronzeHull)
-                .where('C', casing.or(autoAbilities()))
-                .where('#', air())
-                .build()
+        FactoryBlockPattern.start().with {
+            aisle 'CCC', 'CCC', 'DDD'
+            aisle 'CCC', 'C#C', 'D D'
+            aisle 'CCC', 'CSC', 'DDD'
+            where 'S', selfPredicate()
+            where 'D', bronzeHull
+            where 'C', casing | autoAbilities()
+            where '#', air()
+            build()
+        }
     }
 }

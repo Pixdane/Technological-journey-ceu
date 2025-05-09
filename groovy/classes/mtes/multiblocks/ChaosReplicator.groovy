@@ -31,23 +31,26 @@ class ChaosReplicator extends RecipeMapMultiblockController {
 
     @Override
     protected BlockPattern createStructurePattern() {
-        FactoryBlockPattern.start()
-                .aisle('CCCCCCC', 'CCCCCCC', 'CQQQQQC', 'CQQQQQC', 'CQQCQQC', 'CQQCQQC', 'CQQCQQC', 'CCCCCCC', 'CCCCCCC')
-                .aisle('CCCCCCC', 'CZZZZZC', 'QN   NQ', 'QN   NQ', 'QN A NQ', 'QN   NQ', 'QN   NQ', 'CZZZZZC', 'CCCCCCC')
-                .aisle('CCCCCCC', 'CZZZZZC', 'Q ZZZ Q', 'Q     Q', 'Q     Q', 'Q     Q', 'Q ZZZ Q', 'CZZZZZC', 'CCCCCCC')
-                .aisle('CCCCCCC', 'CZZZZZC', 'Q ZZZ Q', 'Q  Z  Q', 'CA X AC', 'C  Z  C', 'C ZZZ C', 'CZZZZZC', 'CCCCCCC')
-                .aisle('CCCCCCC', 'CZZZZZC', 'Q ZZZ Q', 'Q     Q', 'Q     Q', 'Q     Q', 'Q ZZZ Q', 'CZZZZZC', 'CCCCCCC')
-                .aisle('CCCCCCC', 'CZZZZZC', 'QN   NQ', 'QN   NQ', 'QN A NQ', 'QN   NQ', 'QN   NQ', 'CZZZZZC', 'CCCCCCC')
-                .aisle('CCCCCCC', 'CCCSCCC', 'CQQQQQC', 'CQQQQQC', 'CQQCQQC', 'CQQCQQC', 'CQQCQQC', 'CCCCCCC', 'CCCCCCC')
-                .where('S', selfPredicate())
-                .where('C', states(blockstate('tjceu:multiblock_casing', 'variant=refined_chaos')).setMinGlobalLimited(160).or(autoAbilities()))
-                .where('N', frames(material('gcyl:enriched_naquadah_alloy')))
-                .where('X', frames(material('gcyl:chaos')))
-                .where('Q', states(blockstate('enderio:block_fused_quartz', 'color=white', 'render=auto')))
-                .where('A', states(blockstate('draconicevolution:draconium_block', 'charged=false')))
-                .where('Z', states(blockstate('draconicevolution:infused_obsidian')))
-                .where(' ', air())
-                .build()
+        FactoryBlockPattern.start().with {
+            aisle 'CCCCCCC', 'CCCCCCC', 'CQQQQQC', 'CQQQQQC', 'CQQCQQC', 'CQQCQQC', 'CQQCQQC', 'CCCCCCC', 'CCCCCCC'
+            aisle 'CCCCCCC', 'CZZZZZC', 'QN   NQ', 'QN   NQ', 'QN A NQ', 'QN   NQ', 'QN   NQ', 'CZZZZZC', 'CCCCCCC'
+            aisle 'CCCCCCC', 'CZZZZZC', 'Q ZZZ Q', 'Q     Q', 'Q     Q', 'Q     Q', 'Q ZZZ Q', 'CZZZZZC', 'CCCCCCC'
+            aisle 'CCCCCCC', 'CZZZZZC', 'Q ZZZ Q', 'Q  Z  Q', 'CA X AC', 'C  Z  C', 'C ZZZ C', 'CZZZZZC', 'CCCCCCC'
+            aisle 'CCCCCCC', 'CZZZZZC', 'Q ZZZ Q', 'Q     Q', 'Q     Q', 'Q     Q', 'Q ZZZ Q', 'CZZZZZC', 'CCCCCCC'
+            aisle 'CCCCCCC', 'CZZZZZC', 'QN   NQ', 'QN   NQ', 'QN A NQ', 'QN   NQ', 'QN   NQ', 'CZZZZZC', 'CCCCCCC'
+            aisle 'CCCCCCC', 'CCCSCCC', 'CQQQQQC', 'CQQQQQC', 'CQQCQQC', 'CQQCQQC', 'CQQCQQC', 'CCCCCCC', 'CCCCCCC'
+            where 'S', selfPredicate()
+            where 'C', states(blockstate('tjceu:multiblock_casing', 'variant=refined_chaos'))
+                    .setMinGlobalLimited(160)
+                    | autoAbilities()
+            where 'N', frames(material('gcyl:enriched_naquadah_alloy'))
+            where 'X', frames(material('gcyl:chaos'))
+            where 'Q', states(blockstate('enderio:block_fused_quartz', 'color=white', 'render=auto'))
+            where 'A', states(blockstate('draconicevolution:draconium_block', 'charged=false'))
+            where 'Z', states(blockstate('draconicevolution:infused_obsidian'))
+            where ' ', air()
+            build()
+        }
     }
 
 }

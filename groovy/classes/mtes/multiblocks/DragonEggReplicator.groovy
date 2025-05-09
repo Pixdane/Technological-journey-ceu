@@ -31,13 +31,16 @@ class DragonEggReplicator extends RecipeMapMultiblockController {
 
     @Override
     protected BlockPattern createStructurePattern() {
-        FactoryBlockPattern.start()
-                .aisle('CCC', 'CCC', 'CCC')
-                .aisle('CCC', 'C C', 'CCC')
-                .aisle('CCC', 'CSC', 'CCC')
-                .where('S', selfPredicate())
-                .where('C', states(blockstate('tjceu:multiblock_casing', 'variant=awakened_draconium')).setMinGlobalLimited(15).or(autoAbilities())) // TODO: Awakened casing
-                .where(' ', air())
-                .build()
+        FactoryBlockPattern.start().with {
+            aisle 'CCC', 'CCC', 'CCC'
+            aisle 'CCC', 'C C', 'CCC'
+            aisle 'CCC', 'CSC', 'CCC'
+            where 'S', selfPredicate()
+            where 'C', states(blockstate('tjceu:multiblock_casing', 'variant=awakened_draconium'))
+                    .setMinGlobalLimited(15)
+                    | autoAbilities() // TODO: Awakened casing
+            where ' ', air()
+            build()
+        }
     }
 }
